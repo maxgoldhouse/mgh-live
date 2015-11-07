@@ -1,27 +1,23 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import jinja2
-import os
-import sqlite3
-import _all_rubrunsdata
-import _mghsettings
 import sys
 reload(sys);
 sys.setdefaultencoding("utf8")
+sys.path.insert(0, '/home/papo/projects/mgh-live')
+import jinja2
+import os
+import _all_rubrunsdata
+import _mghsettings
+import _mgh_data
+
 
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
-
 templateLoader = jinja2.FileSystemLoader(_mghsettings.EN_TEMPLATEFOLDER)
 templateEnv = jinja2.Environment( loader=templateLoader )
 TEMPLATE_FILE = "proplist.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
-
-db=sqlite3.connect(_mghsettings.DATAFOLDER+'mgh.db')
-db.row_factory = sqlite3.Row
-cursor=db.cursor()
-
 
 def getpropfirstpic(album):
 	myfile = open(_mghsettings.PICFOLDER+row['strpropertyid']+".pics","r")
@@ -48,65 +44,52 @@ def removenonascci(text):
 		text = text.replace(i, j)
 	return text
 
-for rubrun in _all_rubrunsdata.rubruns:
+for rub in _all_rubrunsdata.rubruns:
 	topsixdict = {}
-	topsixdict['title'] = rubrun["EN"]['title']
-	topsixdict['keywords'] = rubrun["EN"]['keywords']
-	topsixdict['description'] = rubrun["EN"]['description']
-	topsixdict['h1'] = rubrun["EN"]['h1']
+	topsixdict['title'] = rub["EN"]['title']
+	topsixdict['keywords'] = rub["EN"]['keywords']
+	topsixdict['description'] = rub["EN"]['description']
+	topsixdict['h1'] = rub["EN"]['h1']
 	topsixdict['props'] = []
 
-
-	cursor.execute(rubrun['query']) # LIMIT 20
-	propstoprocess = len(cursor.fetchall())
-	cursor.execute(rubrun['query']) # LIMIT 20
-	print propstoprocess
 	rowcount = 0
 	pagecount = 0
-	for row in cursor:
+	for propinlist in _mgh_data.proplists[rub['rubrun']]:# LIMIT 20
 		rowcount = rowcount + 1
-
-		propurl = '/'+str(row['intbeds'])+'-bed-'+row['strpropertytype'].replace(' ','-')+'-in-'+row['strlocation_detail'].replace(' ','-')+'-'+row['strpropertyid']+'.html'
-		if row['blnrental'] == 1:
-			saleorrent = 'rent'
+		thisprop = _mgh_data.props[str(propinlist)]
+		propurl = '/'+str(thisprop['beds'])+'-bed-'+thisprop['ptype'].replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
+		if thisprop['rental'] == "True":
+		  saleorrent = 'rent'
 		else:
-			saleorrent = 'sale'
+		  saleorrent = 'sale'
 		prop = {}
-		prop['description'] = removenonascci(row['strdescription'][:400])
-		prop['beds'] = row['intbeds']
-		prop['baths'] = row['intbaths']
-		prop['propid'] = row['strpropertyid']
-		prop['propref'] = row['strpropertyref']
+		prop['description'] = thisprop['description'][:400]
+		prop['beds'] = thisprop['beds']
+		prop['baths'] = thisprop['baths']
+		prop['propid'] = thisprop['pid']
+		prop['propref'] = thisprop['ref']
 		prop['propurl'] = propurl
-		prop['locationdetail']=row['strlocation_detail']
-		prop['proptype']=row['strpropertytype']
-		if row['strFrequency'] == 'sale':
+		prop['locationdetail']=thisprop['location']
+		prop['proptype']=thisprop['ptype']
+		if thisprop['frequency'] == 'sale':
 			prop['frequency'] = ''
 		else:
-			prop['frequency']= ' per '+row['strFrequency']
-		prop['underoffersold'] = row['intunderoffersold']
-		if row['intunderoffersold'] == 0:
-			prop['price'] = "<span class='price_eur'>&euro;"+"{:,}".format(row['intprice'])+"</span> "
+			prop['frequency']= ' per '+thisprop['frequency']
+		prop['underoffersold'] = thisprop['salestage']
+		if thisprop['salestage'] == '0':
+			prop['price'] = "<span class='price_eur'>&euro;"+"{:,}".format(int(thisprop['price']))+"</span> "
 			prop['saleorrent'] = saleorrent
 			prop['mp'] = ''
-			if row['blnrental'] == 0:
-				p = row['intprice']*_mghsettings.MORTGAGE_LTV
-				deposit = row['intprice']*(1-_mghsettings.MORTGAGE_LTV)
-				prop['deposit'] = "<span class='price_eur propopt'>&euro;"+"{:,}".format(int(round(deposit,0)))+"</span>"
-				i = _mghsettings.MORTGAGE_INTEREST
-				mi = i/(100 * 12) # monthly interest
-				y = _mghsettings.MORTGAGE_TERM
-				months = y * 12
-				mp = p * ( mi / (1 - (1 + mi) ** (- months))) # monthly payment
-				prop['mp'] = "<span class='price_eur propopt'>&euro;"+"{:,}".format(int(round(mp,0)))+"</span>"
-		elif row['intunderoffersold'] == 2:
+			#if thisprop['rental'] == "False":
+
+		elif thisprop['salestage'] == '2':
 			prop['price'] = 'SOLD'
-		elif row['intunderoffersold'] == 3:
+		elif thisprop['salestage'] == '3':
 			prop['price'] = '<span style="color:red;">RENTED</span>'
 			prop['frequency']= ''
 		else:
 			prop['price'] = ''
-		prop['img'] = getpropfirstpic(row['strpropertyid'])
+		prop['img'] = thisprop['pics'][0].replace('s0','s400')
 		topsixdict['props'].append(prop)
 
 		if rowcount == _mghsettings.PPP:
@@ -119,14 +102,14 @@ for rubrun in _all_rubrunsdata.rubruns:
 				pagenext = 0
 			if pageprev < 0:
 				pageprev = 0
-			makepage(topsixdict,pageprev,pagenext,pagecount,rubrun['pagename_en'],rubrun['pagename_de'],rubrun['pagename_nl'],rubrun['pagename_fr'])
+			makepage(topsixdict,pageprev,pagenext,pagecount,rub['pagename_en'],rub['pagename_de'],rub['pagename_nl'],rub['pagename_fr'])
 			pagecount = pagecount + 1
 			topsixdict['props'] = []
 
 
 
 	if len(topsixdict) > 0:
-		makepage(topsixdict,pagecount-1,0,pagecount,rubrun['pagename_en'],rubrun['pagename_de'],rubrun['pagename_nl'],rubrun['pagename_fr'])
+		makepage(topsixdict,pagecount-1,0,pagecount,rub['pagename_en'],rub['pagename_de'],rub['pagename_nl'],rub['pagename_fr'])
 
 
 

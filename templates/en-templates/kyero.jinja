@@ -1,0 +1,32 @@
+<root>
+<kyero>
+<feed_version>2</feed_version>
+</kyero>
+{% for item in props %}<property>
+<id>{{item['propid']}}</id>
+<date>{{item['date']}}</date>
+<ref>{{item['propref']}}</ref>
+<price>{{item['price']}}</price>
+<price_freq>{{item['frequency']}}</price_freq>
+<type>
+<en>{{item['proptype']}}</en>
+</type>
+<town>{{item['town']}}</town>
+<province>{{item['province']}}</province>
+<location_detail>{{item['locationdetail']}}</location_detail>
+<beds>{{item['beds']}}</beds>
+<baths>{{item['baths']}}</baths>
+<pool>{{item['pool']}}</pool>
+<desc>
+<en>{{item['propdescription']}}</en>
+<de>{{item['propdescription_DE']}}</de>
+<fr>{{item['propdescription_FR']}}</fr>
+<nl>{{item['propdescription_NL']}}</nl>
+</desc>
+<images>
+{% for img in item['images'] %}<image id="{{img['id']}}">
+<url>http:{{img['img']}}</url>
+</image>{% endfor %}
+</images>
+</property>{% endfor %}
+</root>

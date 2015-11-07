@@ -1,0 +1,45 @@
+<!-- START PROPERTY -->
+{% for item in props %}
+  <div class="property">
+    <div class="panel panel-default" id="property_box_{{ item['propid'] }}">
+      <div class="panel-heading">
+        <h3 class="panel-title"><span class="pull-right"> {{ item['price'] }} <span class="price_gbp"></span></span><a href="{{ item['propurl'] }}">{{item['locationdetail']}} {{item['proptype']}} for {{item['saleorrent']}} ref: {{item['propref']}}</a></h3>
+      </div>
+
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-sm-5 col-xs-12">
+            <a class="btn-block thumbnail_link" href="{{ item['propurl'] }}">
+{% if item['underoffersold'] == 2 %} <div class="sold soldlist">S O L D</div> {% elif item['underoffersold'] == 3 %} <div class="rented rentedlist">R E N T E D</div> {% elif item['underoffersold'] == 1 %} <div class="stc stclist">U N D E R  O F F E R </div> {% endif %}
+            <img alt="{{item['locationdetail']}} {{item['proptype']}}: {{item['locationdetail']}} {{item['proptype']}} for {{item['saleorrent']}}" class="img-thumbnail property_thumbnail" src="{{item['img']}}"></a>
+          </div>
+
+          <div class="col-sm-7 col-xs-12">
+            <div class="details">
+              <div class="amenities">
+                <h2 class="h5">{{item['beds']}} beds | {{item['baths']}} baths</h2>
+              </div>
+{% if item['mp'] == 'showmortgage' %}
+<div><strong>{{item['deposit']}} <span class="price_gbp"></span></strong> deposit then <strong>{{item['mp']}} <span class="price_gbp"></span></strong> per month on 15 year term.</div>
+{% endif %}
+              <p class="description">{{item['description']}}...</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="favlink" data-remote="true" data-shortlist="{{ item['propid'] }}"></div>
+          </div>
+
+          <div class="col-xs-6">
+            <div class="text-right">
+             <div><a href="{{item['propurl']}}"<button class="btn btn-warning">View</button></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  <!-- END PROPERTY -->

@@ -1,8 +1,10 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 rubruns=[
 {
 "rubrun":"All",
 "query":"Select * FROM mghprops WHERE blndisplay = 1 AND blnrental = 0 ORDER BY intprice ASC",
-"En":{
+"EN":{
 "description":"Villas, Apartments, Townhouses and Fincas for sale in Villamartin, Playa Flamenca, Cabo Roig, Los Altos, Los Balcones, Guardamar del Segura, Ciudad Quesada in Torrevieja and  Orihuela Costa areas of Southern Costa Blanca Spain",
 "keywords":"Villamartin Villas, Apartments, Townhouses and Fincas, Playa Flamenca, Cabo Roig, Guardamar del Segura and Ciudad Quesada",
 "title":"Villas, Apartments, Townhouses and Fincas for Sale, Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada Costa Blanca Spain",
@@ -340,7 +342,7 @@ rubruns=[
 "pagename_de":"costa-blanca-Immobilien-von-900000-"
 },
 {
-"rubrun":"Commercial",
+"rubrun":"commercial",
 "query":"Select * FROM mghprops WHERE blndisplay = 1 AND (strpropertytype IN ('Bar','Restaurant','Business','Commercial','Hotel')) ORDER BY intprice ASC",
 "EN":{
 "description":"Business and commercial property in South Costa Blanca Bars, Restaurants, Hotels",
@@ -838,7 +840,7 @@ rubruns=[
 {
 "rubrun":"playa-flamenca",
 "query":"SELECT * FROM  mghprops WHERE  blndisplay = 1 AND blnrental = 0 AND strlocation_detail ='Playa Flamenca' ORDER BY intprice ASC",
-"En":{
+"EN":{
 "description":"Playa Flamenca property for sale in Costa Blanca South",
 "keywords":"Playa Flamenca apartments, Playa Flamenca townhouses, Playa Flamenca villas, Costa Blanca South, Spain",
 "title":"Playa Flamenca property for sale South Costa Blanca",
