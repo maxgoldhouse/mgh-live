@@ -25,7 +25,7 @@ for fetchprop in thetopsix:
 
 print "++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
-for eachprop in _mgh_data.proplists['All']:
+for eachprop in _mgh_data.proplists['9-10']:
 	row = _mgh_data.props[str(eachprop)]
 	print row['ref'], row['price'], row['pid']
 '''
