@@ -12,11 +12,11 @@ sys.setdefaultencoding("utf8")
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
-#templateLoader = jinja2.FileSystemLoader(_mghsettings.EN_TEMPLATEFOLDER)
-#templateEnv = jinja2.Environment( loader=templateLoader )
-#TEMPLATE_FILE = "proplist.jinja"
+templateLoader = jinja2.FileSystemLoader(_mghsettings.EN_TEMPLATEFOLDER)
+templateEnv = jinja2.Environment( loader=templateLoader )
+TEMPLATE_FILE = "proplist.jinja"
 
-#template = templateEnv.get_template( TEMPLATE_FILE )
+template = templateEnv.get_template( TEMPLATE_FILE )
 
 thetopsix = _mgh_data.proplists['topsix']
 for fetchprop in thetopsix:
@@ -25,9 +25,16 @@ for fetchprop in thetopsix:
 
 print "++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
-for eachprop in _mgh_data.proplists['9-10']:
+for eachprop in _mgh_data.proplists['kyero']:
 	row = _mgh_data.props[str(eachprop)]
 	print row['ref'], row['price'], row['pid']
+
+print _mghsettings.EN_SITEDIR
+
+outputText = template.render({'prop':'1,2,3,4'})
+file = open(_mghsettings.EN_SITEDIR+"chickenpig.html", "w")
+file.write(outputText)
+file.close()
 '''
 for rubrun in _all_rubrunsdata.rubruns:
 

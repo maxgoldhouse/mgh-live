@@ -1,15 +1,15 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-EN_SITEDIR = "/home/papo/projects/mgh-live/deploy/EN/static/"
-EN_TEMPLATEFOLDER = "/home/papo/projects/mgh-live/templates/en-templates/"
-DE_SITEDIR = "/deploy/DE/static/"
+EN_SITEDIR = "./deploy/EN/static/"
+EN_TEMPLATEFOLDER = "./templates/en-templates/"
+DE_SITEDIR = "./deploy/DE/static/"
 DE_TEMPLATEFOLDER = "/templates/de-templates/"
-NL_SITEDIR = "/deploy/NL/static/"
+NL_SITEDIR = "./deploy/NL/static/"
 NL_TEMPLATEFOLDER = "/templates/nl-templates/"
-FR_SITEDIR = "/deploy/FR/static/"
-FR_TEMPLATEFOLDER = "/templates/fr-templates/"
-ES_SITEDIR = "/deploy/ES/static/"
-ES_TEMPLATEFOLDER = "/templates/es-templates/"
+FR_SITEDIR = "./deploy/FR/static/"
+FR_TEMPLATEFOLDER = "./templates/fr-templates/"
+ES_SITEDIR = "./deploy/ES/static/"
+ES_TEMPLATEFOLDER = "./templates/es-templates/"
 
 MORTGAGE_LTV = 0.75 # Borrow 75% of property value
 MORTGAGE_TERM = 15 #years
