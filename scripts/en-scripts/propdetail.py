@@ -18,21 +18,7 @@ TEMPLATE_FILE = "detail.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
 
-def removenonascci(text):
-	outchars = {u'\xb4':'&acute;',u'\u20ac':'&euro;',u'\xe1':'a',u'\xf1':'n',u'\xed':'i',u'\u2013':'',u'\xa8':'',u'\xad':'-'}
-	for i, j in outchars.iteritems():
-		text = text.replace(i, j)
-	return text
-
-def removeumlauts(text):
-	outchars = {u'\xb4':'&acute;',u'\u20ac':'&euro;',u'\xe1':'a',u'\xf1':'n',u'\xed':'i',u'\u2013':'',u'\xa8':'',u'\xad':'-',u'Ä':'&Auml;',u'ä':'&auml;',u'Ë':'&Euml;',u'ë':'&euml;',u'Ï':'&Iuml;',u'ï':'&iuml;',u'Ö':'&Ouml;',u'ö':'&ouml;',u'ß':'&szlig;',u'Ü':'&Uuml;',u'ü':'&uuml;'}
-	for i, j in outchars.iteritems():
-		text = text.replace(i, j)
-	return text
-
-
 #loop for each property record in the database
-
 for prop in _mgh_data.props:
 	thisprop = _mgh_data.props[prop]
 	#print thisprop['ref']

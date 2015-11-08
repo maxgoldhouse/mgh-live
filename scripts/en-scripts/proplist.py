@@ -19,12 +19,6 @@ TEMPLATE_FILE = "proplist.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
 
-def getpropfirstpic(album):
-	myfile = open(_mghsettings.PICFOLDER+row['strpropertyid']+".pics","r")
-	mylines = list(myfile)
-	myfile.close()
-	return mylines[0].replace('/s0/','/s400/')
-
 def makepage(propdict,prevpage,nextpage,thispage, pagename, pagename_de, pagename_nl, pagename_fr):
 	propdict['prevpage'] = pagename+str(prevpage)+".html"
 	propdict['nextpage'] = pagename+str(nextpage)+".html"
@@ -37,12 +31,6 @@ def makepage(propdict,prevpage,nextpage,thispage, pagename, pagename_de, pagenam
 	file = open(_mghsettings.EN_SITEDIR+pagename+str(thispage)+".html", "w")
 	file.write(outputText)
 	file.close()
-
-def removenonascci(text):
-	outchars = {u'\xb4':'&acute;',u'\u20ac':'&euro;',u'\xe1':'a',u'\xf1':'n',u'\xed':'i',u'\u2013':'',u'\xa8':'',u'\xad':'-'}
-	for i, j in outchars.iteritems():
-		text = text.replace(i, j)
-	return text
 
 for rub in _all_rubrunsdata.rubruns:
 	topsixdict = {}

@@ -295,6 +295,7 @@ rubruns=[
 "h1":"Propriété à vendre à Villamartin, Cabo Roig, Campoamor, Playa Flamenca, Costa Blanca Sud de 800 000 euros à 900 000 euros"
 },
 "DE":{
+"description":"Ferienwohnungen, Stadth&auml;user und spanische villas zwischen &euro;800,000 und &euro; 900,000 preislich",
 "keywords":"Luxus Costa Blanca H&auml;user, Villas, Ferienwohnungen, Golf H&auml;user, Immobilien Costa Blanca S&uuml;d, Spanien",
 "title":"Costa Blanca Immobilien priced zwischen &euro;800,000 und &euro; 900,000",
 "h1":"Immobilien zu verkaufen in Villamartin, Cabo Roig, Campoamor, Playa Flamenca Costa Blanca S&uuml;d zwischen &euro;800,000 und &euro; 900,000 preislich"
