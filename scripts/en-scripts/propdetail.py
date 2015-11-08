@@ -3,7 +3,7 @@
 import sys
 reload(sys);
 sys.setdefaultencoding("utf8")
-sys.path.insert(0, '/home/papo/projects/mgh-live')
+sys.path.insert(0, './')
 import jinja2
 import os
 import _mghsettings
@@ -35,7 +35,7 @@ def removeumlauts(text):
 
 for prop in _mgh_data.props:
 	thisprop = _mgh_data.props[prop]
-	print thisprop['ref']
+	#print thisprop['ref']
 	#for each prop get the pic urls for slideshow
 	#get the first url from  picurllist
 	firsturl = thisprop['pics'][0]
@@ -54,8 +54,8 @@ for prop in _mgh_data.props:
 	    slidecount += 1
 
     #prepare the vars to pass to the template
-	print 'propid ' + thisprop['pid']
-	print 'price ' + thisprop['price']
+	#print 'propid ' + thisprop['pid']
+	#print 'price ' + thisprop['price']
 	if thisprop['rental'] == 'True':
 		saleorrent = 'rent'
 	else:
