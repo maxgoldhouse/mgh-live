@@ -1,16 +1,14 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
-import jinja2
-import os
-import sqlite3
-import _fr_rubrunsdata
 import sys
 reload(sys);
 sys.setdefaultencoding("utf8")
+sys.path.insert(0, './')
+import jinja2
+import os
+import _all_rubrunsdata
 import _mghsettings
-
-
+import _mgh_data
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -21,22 +19,13 @@ TEMPLATE_FILE = "fr_proplist.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
 
-db=sqlite3.connect(_mghsettings.DATAFOLDER+'mgh.db')
-db.row_factory = sqlite3.Row
-cursor=db.cursor()
-
-def getpropfirstpic(album):
-	myfile = open(_mghsettings.PICFOLDER+row['strpropertyid']+".pics","r")
-	mylines = list(myfile)
-	myfile.close()
-	return mylines[0].replace('/s0/','/s400/')
-
-def makepage(propdict,prevpage,nextpage,thispage, pagename_nl, pagename_en, pagename_de, pagename_fr):
+def makepage(propdict,prevpage,nextpage,thispage, pagename_en, pagename_de, pagename_nl, pagename_fr):
 	propdict['prevpage'] = pagename_fr+str(prevpage)+".html"
 	propdict['nextpage'] = pagename_fr+str(nextpage)+".html"
 	propdict['url_en'] = pagename_en+str(thispage)+".html"
 	propdict['url_de'] = pagename_de+str(thispage)+".html"
 	propdict['url_nl'] = pagename_nl+str(thispage)+".html"
+	propdict['url_fr'] = pagename_fr+str(thispage)+".html"
 	outputText = template.render(propdict)
 	#print outputText
 	file = open(_mghsettings.FR_SITEDIR+pagename_fr+str(thispage).replace('é','e')+".html", "w")
@@ -49,64 +38,63 @@ def removeumlauts(text):
 		text = text.replace(i, j)
 	return text
 
-for rubrun in _fr_rubrunsdata.rubruns:
+for rubrun in _all_rubrunsdata.rubruns:
 	topsixdict = {}
-	topsixdict['title'] = rubrun['title']
-	topsixdict['keywords'] = rubrun['keywords']
-	topsixdict['description'] = rubrun['description']
+	topsixdict['title'] = rubrun["FR"]['title']
+	topsixdict['keywords'] = rubrun["FR"]['keywords']
+	topsixdict['description'] = rubrun["FR"]['description']
+	topsixdict['h1'] = rubrun["FR"]['h1']
 	topsixdict['props'] = []
 
-
-	cursor.execute(rubrun['query']) # LIMIT 20
-	propstoprocess = len(cursor.fetchall())
-	cursor.execute(rubrun['query']) # LIMIT 20
-	print propstoprocess
 	rowcount = 0
 	pagecount = 0
-	for row in cursor:
+	for propinlist in _mgh_data.proplists[rubrun['rubrun']]:
 		rowcount = rowcount + 1
-		fr_proptype = _mghsettings.trans_proptypes[row['strpropertytype'].lower()]['fr']
-		propurl = '/'+str(row['intbeds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e')+'-a-'+row['strlocation_detail'].replace(' ','-')+'-'+row['strpropertyid']+'.html'
-		if row['blnrental'] == 1:
+		row = _mgh_data.props[str(propinlist)]
+		fr_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['fr']
+		propurl = '/'+str(row['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e')+'-a-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
+		if row['rental'] == 'True':
 			saleorrent = 'à louer'
 		else:
 			saleorrent = 'à vendre'
 		prop = {}
-		#prop['description'] = removeumlauts(row['strdescription_NL'][:400])
-		prop['description'] = row['strdescription_FR'][:400]
-		if row['intbeds'] == 1:
+		if row['FR'][:400][-1] == '\xc3':
+		  prop['description'] = row['FR'][:399]
+		else:
+		  prop['description'] = row['FR'][:400]
+		if int(row['beds']) == 1:
 			chambre = ' chambre'
-		elif row['intbeds'] > 1:
+		elif int(row['beds']) > 1:
 			chambre = ' chambres'
-		prop['beds'] = str(row['intbeds']) + chambre
-		if row['intbaths'] == 1:
+		prop['beds'] = row['beds'] + chambre
+		if int(row['baths']) == 1:
 			bain = ' salle de bain'
-		elif row['intbaths'] > 1:
+		elif int(row['baths']) > 1:
 			bain = ' salles de bains'
-		prop['baths'] = str(row['intbaths']) + bain
-		prop['propid'] = row['strpropertyid']
-		prop['propref'] = row['strpropertyref']
+		prop['baths'] = row['baths'] + bain
+		prop['propid'] = row['pid']
+		prop['propref'] = row['ref']
 		prop['propurl'] = propurl
-		prop['locationdetail']=row['strlocation_detail']
+		prop['locationdetail']=row['location']
 		prop['proptype']= fr_proptype
 		prop['saleorrent']=saleorrent
-		if row['strFrequency'] == 'week':
+		if row['frequency'] == 'week':
 			prop['frequency'] = ' par semaine'
-		elif row['strFrequency'] == 'month':
+		elif row['frequency'] == 'month':
 			prop['frequency'] = ' par mois'
 		else:
 			prop['frequency']= ''
-		prop['underoffersold'] = row['intunderoffersold']
-		if row['intunderoffersold'] == 0:
-			prop['price'] = "<span class='price_eur'>&euro;"+"{:,}".format(row['intprice']).replace(',','.')+"</span> "
-		elif row['intunderoffersold'] == 2:
+		prop['underoffersold'] = row['salestage']
+		if row['salestage'] == '0':
+			prop['price'] = "<span class='price_eur'>&euro;"+"{:,}".format(int(row['price'])).replace(',','.')+"</span> "
+		elif row['salestage'] == '2':
 			prop['price'] = 'VENDU'
-		elif row['intunderoffersold'] == 3:
+		elif row['salestage'] == '3':
 			prop['price'] = '<span style="color:red;">LOUE</span>'
 			prop['frequency'] = ''
 		else:
 			prop['price'] = ''
-		prop['img'] = getpropfirstpic(row['strpropertyid'])
+		prop['img'] = row['pics'][0].replace('s0','s400')
 		topsixdict['props'].append(prop)
 
 		if rowcount == _mghsettings.PPP:
@@ -119,11 +107,11 @@ for rubrun in _fr_rubrunsdata.rubruns:
 				pagenext = 0
 			if pageprev < 0:
 				pageprev = 0
-			makepage(topsixdict,pageprev,pagenext,pagecount,rubrun['pagename_nl'],rubrun['pagename_en'], rubrun['pagename_de'], rubrun['pagename_fr'])
+			makepage(topsixdict,pageprev,pagenext,pagecount, rubrun['pagename_en'], rubrun['pagename_de'], rubrun['pagename_nl'], rubrun['pagename_fr'])
 			pagecount = pagecount + 1
 			topsixdict['props'] = []
 
 
 
 	if len(topsixdict) > 0:
-		makepage(topsixdict,pagecount-1,0,pagecount,rubrun['pagename_nl'],rubrun['pagename_en'],rubrun['pagename_de'], rubrun['pagename_fr'])
+		makepage(topsixdict,pagecount-1,0,pagecount, rubrun['pagename_en'], rubrun['pagename_de'], rubrun['pagename_nl'], rubrun['pagename_fr'])

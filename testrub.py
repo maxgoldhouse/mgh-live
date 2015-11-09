@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import jinja2
 import os
@@ -18,6 +18,10 @@ TEMPLATE_FILE = "proplist.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
 
+for rubrun in _all_rubrunsdata.rubruns:
+	print rubrun["NL"]['title']
+
+'''
 thetopsix = _mgh_data.proplists['topsix']
 for fetchprop in thetopsix:
 	row = _mgh_data.props[str(fetchprop)]
@@ -35,6 +39,7 @@ outputText = template.render({'prop':'1,2,3,4'})
 file = open(_mghsettings.EN_SITEDIR+"chickenpig.html", "w")
 file.write(outputText)
 file.close()
+'''
 '''
 for rubrun in _all_rubrunsdata.rubruns:
 

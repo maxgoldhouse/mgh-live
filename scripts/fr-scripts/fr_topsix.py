@@ -1,12 +1,13 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import jinja2
-import os
-import sqlite3
 import sys
 reload(sys);
 sys.setdefaultencoding("utf8")
+sys.path.insert(0, './')
+import jinja2
+import os
 import _mghsettings
+import _mgh_data
 
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -17,26 +18,8 @@ TEMPLATE_FILE = "fr_topsixindex.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
 
-db=sqlite3.connect(_mghsettings.DATAFOLDER+'mgh.db')
-db.row_factory = sqlite3.Row
-cursor=db.cursor()
-
-picasaurlsdir = '/home/papo/mgh-admin/MyMGHProject/picasaurls/'
-
 topsixdict = {}
 allprops = {}
-
-def removefrchars(text):
-	outchars = {u'\u20ac':'&euro;',u'À':'&Agrave;',u'à':'&agrave;',u'Â':'&Acirc;',u'â':'&acirc;',u'Ç':'&Ccedil;',u'ç':'&ccedil;',u'È':'&Egrave;',u'è':'&egrave;',u'É':'&Eacute;',u'é':'&eacute;',u'Ê':'&Ecirc;',u'ê':'&ecirc;',u'Ô':'&Ocirc;',u'Û':'&Ucirc;',u'û':'&ucirc;'}
-	for i, j in outchars.iteritems():
-		text = text.replace(i, j)
-	return text
-
-def getpropfirstpic(album):
-	myfile = open(picasaurlsdir+row['strpropertyid']+".pics","r")
-	mylines = list(myfile)
-	myfile.close()
-	return mylines[0].replace('/s0/','/s400/')
 
 topsixdict['title'] = 'Villamartin Propri&eacute;t&eacute; a vendre, Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada Costa Blanca Spain'
 topsixdict['keywords'] = 'Villamartin propriete a vendre, Playa Flamenca, Cabo Roig, Guardamar del Segura and Ciudad Quesada'
@@ -44,38 +27,31 @@ topsixdict['description'] = 'Propri&eacute;t&eacute; a vendre Villamartin, Playa
 topsixdict['props'] = []
 allprops['props'] = []
 
-
-cursor.execute("SELECT * FROM  mghprops WHERE  blndisplay = 1 AND blnrental = 0 AND blntopsix = 1 ORDER BY intprice ASC")
-for row in cursor:
-	#print('{0},{1},{2},{3},{4}'.format(row['strpropertyid'],row['strpropertyref'],row['strpropertytype'],row['intprice'],row['strlocation_detail']))
-	#print getpropfirstpic(row['strpropertyref'])
-	#print '/'+row['strpropertyid']+'-'+str(row['intbeds'])+' bed '+row['strpropertytype']+' in '+row['strlocation_detail']+'.html'
-	fr_proptype = _mghsettings.trans_proptypes[row['strpropertytype'].lower()]['fr']
-	propurl = '/'+str(row['intbeds'])+'-chambre-'+fr_proptype.replace(' ','-')+'-a-'+row['strlocation_detail'].replace(' ','-')+'-'+row['strpropertyid']+'.html'
-	if row['blnrental'] == 1:
+thetopsix = _mgh_data.proplists['topsix']
+for fetchprop in thetopsix:
+	row = _mgh_data.props[str(fetchprop)]
+	fr_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['fr']
+	propurl = '/'+str(row['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e')+'-a-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
+	if row['rental'] == 'True':
 		saleorrent = 'à louer'
 	else:
 		saleorrent = 'à vendre'
 	prop = {}
-	prop['propopt'] = row['strPropertyOptions']
-	prop['propid'] = row['strpropertyid']
+	#prop['propopt'] = row['strPropertyOptions']
+	prop['propid'] = row['pid']
 	prop['propurl'] = propurl
-	prop['locationdetail']=row['strlocation_detail']
+	prop['locationdetail']=row['location']
 	prop['proptype'] = fr_proptype
 	prop['saleorrent']=saleorrent
-	prop['underoffersold'] = row['intunderoffersold']
-	if row['intunderoffersold'] == 0:
-		prop['price'] = "&euro;"+"{:,}".format(row['intprice']).replace(',','.')
-	elif row['intunderoffersold'] == 2:
+	prop['underoffersold'] = row['salestage']
+	if row['salestage'] == '0':
+		prop['price'] = "&euro;"+"{:,}".format(int(row['price'])).replace(',','.')
+	elif row['salestage'] == '2':
 		prop['price'] = 'VENDU'
 	else:
 		prop['price'] = ''
-	prop['img'] = getpropfirstpic(row['strpropertyid'])
+	prop['img'] = row['pics'][0].replace('s0','s400')
 	topsixdict['props'].append(prop)
-
-"""for item in topsixdict['props']:
-	for key in item:
-		print item[key] """
 
 outputText = template.render(topsixdict)
 #print outputText
@@ -87,59 +63,49 @@ TEMPLATE_FILE = "fr_allpropsindex.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
 
-cursor.execute("SELECT * FROM  mghprops WHERE  blndisplay = 1 AND blnrental = 0 ORDER BY intprice ASC")
-for row in cursor:
-    fr_proptype = _mghsettings.trans_proptypes[row['strpropertytype'].lower()]['fr']
-    propurl = '/'+str(row['intbeds'])+'-chambre-'+fr_proptype.replace(' ','-')+'-a-'+row['strlocation_detail'].replace(' ','-')+'-'+row['strpropertyid']+'.html'
-    if row['blnrental'] == 1:
+for eachprop in _mgh_data.proplists['All']:
+    row = _mgh_data.props[str(eachprop)]
+    fr_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['fr']
+    propurl = '/'+str(row['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e')+'-a-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
+    if row['rental'] == 'True':
     	saleorrent = 'à loure'
     else:
     	saleorrent = 'à vendre'
     prop = {}
-    prop['fulldescription'] = row['strdescription_FR']
+    prop['fulldescription'] = row['FR']
     #prop['description'] = removefrchars(row['strdescription_FR'][:400])
-    prop['description'] = row['strdescription_FR'][:400]
-    if row['intbeds'] == 1:
+    if row['FR'][:400][-1] == '\xc3':
+		prop['description'] = row['FR'][:399]
+    else:
+		prop['description'] = row['FR'][:400]
+    if int(row['beds']) == 1:
 		chambre = ' chambre'
-    elif row['intbeds'] > 1:
+    elif int(row['beds']) > 1:
 		chambre = ' chambres'
-    prop['beds'] = str(row['intbeds']) + chambre
-    if row['intbaths'] == 1:
+    prop['beds'] = row['beds'] + chambre
+    if int(row['baths']) == 1:
 		bain = ' salle de bain'
-    elif row['intbaths'] > 1:
+    elif int(row['baths']) > 1:
 		bain = ' salles de bains'
-    prop['baths'] = str(row['intbaths']) + bain
-    prop['propid'] = row['strpropertyid']
-    prop['propref'] = row['strpropertyref']
+    prop['baths'] = row['baths'] + bain
+    prop['propid'] = row['pid']
+    prop['propref'] = row['ref']
     prop['propurl'] = propurl
-    prop['locationdetail']=row['strlocation_detail']
+    prop['locationdetail']=row['location']
     prop['proptype'] = fr_proptype
     prop['saleorrent']=saleorrent
-    prop['underoffersold'] = row['intunderoffersold']
-    if row['intunderoffersold'] == 0:
-    	prop['price'] = "<span class='price_eur'>&euro;"+"{:,}".format(row['intprice']).replace(',','.')+"</span> "
-    elif row['intunderoffersold'] == 2:
+    prop['underoffersold'] = row['salestage']
+    if row['salestage'] == '0':
+    	prop['price'] = "<span class='price_eur'>&euro;"+"{:,}".format(int(row['price'])).replace(',','.')+"</span> "
+    elif row['salestage'] == '2':
     	prop['price'] = 'VENDU'
-    elif row['intunderoffersold'] == 3:
+    elif row['salestage'] == '3':
     	prop['price'] = '<span style="color:red;">LOUE</span>'
     else:
     	prop['price'] = ''
-    prop['img'] = getpropfirstpic(row['strpropertyid'])
+    prop['img'] = row['pics'][0].replace('s0','s400')
     allprops['props'].append(prop)
 
-
-'''    for item in allprops['props']:
-	   #for key in item:
-		   print '++++++++++++++++++++++++++++++++++++'
-		   print item['propid']
-		   print item['propref']
-		   print item['locationdetail']
-		   print item['proptype']
-		   print '>>>>>>>'
-		   print item['fulldescription']
-		   print '>>>>>>>'
-		   print ''
-'''
 outputText = template.render(allprops)
 #print outputText
 file = open(_mghsettings.FR_SITEDIR+"allindex.html", "w")
