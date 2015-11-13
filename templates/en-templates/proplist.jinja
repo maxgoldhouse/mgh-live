@@ -65,7 +65,7 @@
         <div class="row">
           <div class="col-sm-5 col-xs-12">
             <a class="btn-block thumbnail_link" href="{{ item['propurl'] }}">
-{% if item['underoffersold'] == 2 %} <div class="sold soldlist">S O L D</div> {% elif item['underoffersold'] == 3 %} <div class="rented rentedlist">R E N T E D</div> {% elif item['underoffersold'] == 1 %} <div class="stc stclist">U N D E R  O F F E R </div> {% endif %}
+{% if item['underoffersold'] == '2' %} <div class="sold soldlist">S O L D</div> {% elif item['underoffersold'] == '3' %} <div class="rented rentedlist">R E N T E D</div> {% elif item['underoffersold'] == '1' %} <div class="stc stclist">U N D E R  O F F E R </div> {% endif %}
             <img alt="{{item['locationdetail']}} {{item['proptype']}}: {{item['locationdetail']}} {{item['proptype']}} for {{item['saleorrent']}} " class="img-thumbnail property_thumbnail" src="{{item['img']}}"></a>
           </div>
 

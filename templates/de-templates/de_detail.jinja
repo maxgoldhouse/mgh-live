@@ -79,7 +79,7 @@
 <div class="row">
 <div class="col-sm-8" id="slideshow">
 <div id="projector">
-{% if underoffersold == 2 %} <div class="sold">VERKAUFT</div> {% elif underoffersold == 3 %} <div class="rented">VERMIETET</div> {% elif underoffersold == 1 %} <div class="stc">Angebot gemacht</div> {% endif %}
+{% if underoffersold == '2' %} <div class="sold">VERKAUFT</div> {% elif underoffersold == '3' %} <div class="rented">VERMIETET</div> {% elif underoffersold == '1' %} <div class="stc">Angebot gemacht</div> {% endif %}
 <img showing="1" id="show" src="{{firstimg}}"/><br/>
 
 <div style="display: inline">

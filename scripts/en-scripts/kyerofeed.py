@@ -31,63 +31,63 @@ propdict = {}
 propdict['props'] = []
 for eachprop in _mgh_data.proplists['kyero']:
 	row = _mgh_data.props[str(eachprop)]
-	#for each prop get the pic urls for slideshow
-	picurldictlist = []
-	slidecount = 1
-	#for i, pic in enumerate(row['pics']):
-	    #row['pics'][i] = pic.replace('s0','s35-p')
+	if row['salestage'] == '0':
+		picurldictlist = []
+		slidecount = 1
+		#for i, pic in enumerate(row['pics']):
+		    #row['pics'][i] = pic.replace('s0','s35-p')
 
-	for pic in row['pics']:
-	    picurldict = {}
-	    picurldict['id'] = slidecount
-	    picurldict['img'] = pic.strip()
-	    picurldictlist.append(picurldict)
-	    slidecount += 1
+		for pic in row['pics']:
+		    picurldict = {}
+		    picurldict['id'] = slidecount
+		    picurldict['img'] = pic.strip()
+		    picurldictlist.append(picurldict)
+		    slidecount += 1
 
-	#for pic in picurldictlist:
-		#print pic['id']
-		#print pic['img']
+		#for pic in picurldictlist:
+			#print pic['id']
+			#print pic['img']
 
-    #prepare the vars to pass to the template
+	    #prepare the vars to pass to the template
 
-	if row['rental'] == 'True':
-		saleorrent = 'rent'
-	else:
-		saleorrent = 'sale'
-	if row['pool'].lower() == 'yes':
-		pool = '1'
-	else:
-		pool = '0'
-	pagename = row['pid']+'-'+str(row['beds'])+'-bed-'+row['ptype'].replace(' ','-')+'-in-'+row['location'].replace(' ','-')
-	propurl = 'https://www.maxgoldhouse.com/'+str(row['beds'])+'-bed-'+row['ptype'].replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
-	prop = {}
+		if row['rental'] == 'True':
+			saleorrent = 'rent'
+		else:
+			saleorrent = 'sale'
+		if row['pool'].lower() == 'yes':
+			pool = '1'
+		else:
+			pool = '0'
+		pagename = row['pid']+'-'+str(row['beds'])+'-bed-'+row['ptype'].replace(' ','-')+'-in-'+row['location'].replace(' ','-')
+		propurl = 'https://www.maxgoldhouse.com/'+str(row['beds'])+'-bed-'+row['ptype'].replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
+		prop = {}
 
-	prop['propdescription'] = row['description'].replace('&euro;','&#x80;')
-	prop['propdescription_DE'] = row['DE'].replace('&euro;','&#x80;')
-	prop['propdescription_FR'] = row['FR'].replace('&euro;','&#x80;')
-	prop['propdescription_NL'] = row['NL'].replace('&euro;','&#x80;')
-	prop['saleorrent'] = saleorrent
-	prop['date'] = row['lastedited']
-	prop['frequency'] = row['frequency']
-	prop['beds'] = row['beds']
-	prop['baths'] = row['baths']
-	prop['livingarea'] = row['living']
-	prop['plotsize'] = row['plot']
-	prop['pool'] = pool
-	prop['propid'] = row['pid']
-	prop['propref'] = row['ref'][:12]
-	prop['propurl'] = propurl
-	prop['town']=row['town']
-	prop['locationdetail']=row['location']
-	prop['province']=row['province']
-	prop['proptype']=row['ptype']
-	prop['price'] = row['price']
-	prop['images'] = picurldictlist #prop['slide'],prop['src']
-	propdict['props'].append(prop)
-	outputText = template.render(propdict)
-	file = open(_mghsettings.EN_SITEDIR+"b2kyero.xml", "w")
-	file.write(outputText)
-	file.close()
+		prop['propdescription'] = row['description'].replace('&euro;','&#x80;')
+		prop['propdescription_DE'] = row['DE'].replace('&euro;','&#x80;')
+		prop['propdescription_FR'] = row['FR'].replace('&euro;','&#x80;')
+		prop['propdescription_NL'] = row['NL'].replace('&euro;','&#x80;')
+		prop['saleorrent'] = saleorrent
+		prop['date'] = row['lastedited']
+		prop['frequency'] = row['frequency']
+		prop['beds'] = row['beds']
+		prop['baths'] = row['baths']
+		prop['livingarea'] = row['living']
+		prop['plotsize'] = row['plot']
+		prop['pool'] = pool
+		prop['propid'] = row['pid']
+		prop['propref'] = row['ref'][:12]
+		prop['propurl'] = propurl
+		prop['town']=row['town']
+		prop['locationdetail']=row['location']
+		prop['province']=row['province']
+		prop['proptype']=row['ptype']
+		prop['price'] = row['price']
+		prop['images'] = picurldictlist #prop['slide'],prop['src']
+		propdict['props'].append(prop)
+		outputText = template.render(propdict)
+		file = open(_mghsettings.EN_SITEDIR+"b2kyero.xml", "w")
+		file.write(outputText)
+		file.close()
 '''
 	print '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
 	for props in propdict['props']:
