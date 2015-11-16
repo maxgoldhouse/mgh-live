@@ -4,9 +4,9 @@
 </kyero>
 <property>
 <id>1294</id>
-<date>2015-11-13 12:29:46.890670</date>
+<date>2015-11-13 11:41:33</date>
 <ref>AP 1-V00044</ref>
-<price>36555</price>
+<price>36000</price>
 <price_freq>sale</price_freq>
 <type>
 <en>Apartment</en>
@@ -52,7 +52,7 @@
 </images>
 </property><property>
 <id>1153</id>
-<date>2015-11-13 12:12:19.603490</date>
+<date>2015-11-13 11:41:15</date>
 <ref>AP1-V6019</ref>
 <price>48000</price>
 <price_freq>sale</price_freq>
@@ -102,7 +102,7 @@
 </images>
 </property><property>
 <id>1186</id>
-<date>2015-11-13 12:12:22.121810</date>
+<date>2015-11-13 11:41:17</date>
 <ref>AP1-T00049</ref>
 <price>49000</price>
 <price_freq>sale</price_freq>
@@ -160,7 +160,7 @@
 </images>
 </property><property>
 <id>1338</id>
-<date>2015-11-13 12:12:56.825670</date>
+<date>2015-11-13 11:41:44</date>
 <ref>AP1-T000565</ref>
 <price>56500</price>
 <price_freq>sale</price_freq>
@@ -206,7 +206,7 @@
 </images>
 </property><property>
 <id>1195</id>
-<date>2015-11-13 12:12:24.084420</date>
+<date>2015-11-13 11:41:19</date>
 <ref>AP2-T00078</ref>
 <price>69000</price>
 <price_freq>sale</price_freq>
@@ -264,7 +264,7 @@
 </images>
 </property><property>
 <id>1240</id>
-<date>2015-11-13 12:12:31.217800</date>
+<date>2015-11-13 11:41:25</date>
 <ref>AP2-MM6081</ref>
 <price>76000</price>
 <price_freq>sale</price_freq>
@@ -314,7 +314,7 @@
 </images>
 </property><property>
 <id>1328</id>
-<date>2015-11-13 12:12:50.262000</date>
+<date>2015-11-13 11:41:41</date>
 <ref>TH2-T00291</ref>
 <price>76000</price>
 <price_freq>sale</price_freq>
@@ -370,7 +370,7 @@
 </images>
 </property><property>
 <id>1262</id>
-<date>2015-11-13 12:12:34.393650</date>
+<date>2015-11-13 11:41:28</date>
 <ref>AP2-C6100</ref>
 <price>78000</price>
 <price_freq>sale</price_freq>
@@ -420,7 +420,7 @@
 </images>
 </property><property>
 <id>1244</id>
-<date>2015-11-13 12:12:31.946850</date>
+<date>2015-11-13 11:41:26</date>
 <ref>DH3-Fin6089</ref>
 <price>80000</price>
 <price_freq>sale</price_freq>
@@ -460,7 +460,7 @@
 </images>
 </property><property>
 <id>1309</id>
-<date>2015-11-13 12:12:44.527870</date>
+<date>2015-11-13 11:41:37</date>
 <ref>TH2-T00024</ref>
 <price>81000</price>
 <price_freq>sale</price_freq>
@@ -510,7 +510,7 @@
 </images>
 </property><property>
 <id>1292</id>
-<date>2015-11-13 12:12:39.388570</date>
+<date>2015-11-13 11:41:32</date>
 <ref>AP2-T00072</ref>
 <price>82000</price>
 <price_freq>sale</price_freq>
@@ -566,7 +566,7 @@
 </images>
 </property><property>
 <id>1310</id>
-<date>2015-11-13 12:12:44.884550</date>
+<date>2015-11-13 11:41:37</date>
 <ref>TH2-T00027</ref>
 <price>82000</price>
 <price_freq>sale</price_freq>
@@ -612,7 +612,7 @@
 </images>
 </property><property>
 <id>1312</id>
-<date>2015-11-13 12:12:45.586820</date>
+<date>2015-11-13 11:41:37</date>
 <ref>TH3-T00028</ref>
 <price>82000</price>
 <price_freq>sale</price_freq>
@@ -660,7 +660,7 @@
 </images>
 </property><property>
 <id>1295</id>
-<date>2015-11-13 12:12:40.451700</date>
+<date>2015-11-13 11:41:33</date>
 <ref>TH3-T00073</ref>
 <price>83000</price>
 <price_freq>sale</price_freq>
@@ -718,7 +718,7 @@
 </images>
 </property><property>
 <id>1231</id>
-<date>2015-11-13 12:12:29.777220</date>
+<date>2015-11-13 11:41:24</date>
 <ref>TH2-T00048</ref>
 <price>84500</price>
 <price_freq>sale</price_freq>
@@ -766,7 +766,7 @@
 </images>
 </property><property>
 <id>1293</id>
-<date>2015-11-13 12:12:39.736120</date>
+<date>2015-11-13 11:41:32</date>
 <ref>TH2-T00075</ref>
 <price>85000</price>
 <price_freq>sale</price_freq>
@@ -816,7 +816,7 @@
 </images>
 </property><property>
 <id>1297</id>
-<date>2015-11-13 12:12:40.819050</date>
+<date>2015-11-13 11:41:33</date>
 <ref>AP3-T000765</ref>
 <price>86000</price>
 <price_freq>sale</price_freq>
@@ -874,7 +874,7 @@
 </images>
 </property><property>
 <id>1157</id>
-<date>2015-11-13 12:12:19.953470</date>
+<date>2015-11-13 11:41:15</date>
 <ref>AP2-V6012</ref>
 <price>89000</price>
 <price_freq>sale</price_freq>
@@ -938,7 +938,7 @@
 </images>
 </property><property>
 <id>1235</id>
-<date>2015-11-13 12:12:30.125220</date>
+<date>2015-11-13 11:41:24</date>
 <ref>TH2-T00148</ref>
 <price>89500</price>
 <price_freq>sale</price_freq>
@@ -984,7 +984,7 @@
 </images>
 </property><property>
 <id>879</id>
-<date>2015-11-13 12:12:09.821980</date>
+<date>2015-11-13 11:41:07</date>
 <ref>AP3P1071</ref>
 <price>99000</price>
 <price_freq>sale</price_freq>
@@ -1042,7 +1042,7 @@
 </images>
 </property><property>
 <id>1329</id>
-<date>2015-11-13 12:12:50.638990</date>
+<date>2015-11-13 11:41:42</date>
 <ref>AP2-T7131</ref>
 <price>99000</price>
 <price_freq>sale</price_freq>
@@ -1096,7 +1096,7 @@
 </images>
 </property><property>
 <id>2000004</id>
-<date>2015-11-13 12:12:07.170910</date>
+<date>2015-11-13 11:41:04</date>
 <ref>AlamedaA2</ref>
 <price>99000</price>
 <price_freq>sale</price_freq>
@@ -1128,7 +1128,7 @@
 </images>
 </property><property>
 <id>1288</id>
-<date>2015-11-13 12:12:38.685460</date>
+<date>2015-11-13 11:41:31</date>
 <ref>QH2-P6103Pla</ref>
 <price>99500</price>
 <price_freq>sale</price_freq>
@@ -1184,7 +1184,7 @@
 </images>
 </property><property>
 <id>735</id>
-<date>2015-11-13 12:12:08.701140</date>
+<date>2015-11-13 11:41:05</date>
 <ref>AP2LF006</ref>
 <price>105000</price>
 <price_freq>sale</price_freq>
@@ -1222,7 +1222,7 @@
 </images>
 </property><property>
 <id>1284</id>
-<date>2015-11-13 12:12:37.668170</date>
+<date>2015-11-13 11:41:31</date>
 <ref>DH3-Fin7117</ref>
 <price>105000</price>
 <price_freq>sale</price_freq>
@@ -1276,7 +1276,7 @@
 </images>
 </property><property>
 <id>1285</id>
-<date>2015-11-13 12:12:38.008640</date>
+<date>2015-11-13 11:41:31</date>
 <ref>DH3-Fin7119</ref>
 <price>105000</price>
 <price_freq>sale</price_freq>
@@ -1328,7 +1328,7 @@
 </images>
 </property><property>
 <id>1311</id>
-<date>2015-11-13 12:12:45.238320</date>
+<date>2015-11-13 11:41:37</date>
 <ref>TH2-V00022</ref>
 <price>108000</price>
 <price_freq>sale</price_freq>
@@ -1378,7 +1378,7 @@
 </images>
 </property><property>
 <id>1301</id>
-<date>2015-11-13 12:12:41.643630</date>
+<date>2015-11-13 11:41:34</date>
 <ref>AP2-C00044</ref>
 <price>108200</price>
 <price_freq>sale</price_freq>
@@ -1426,7 +1426,7 @@
 </images>
 </property><property>
 <id>1302</id>
-<date>2015-11-13 12:12:41.990930</date>
+<date>2015-11-13 11:41:35</date>
 <ref>AP3-C00044</ref>
 <price>119200</price>
 <price_freq>sale</price_freq>
@@ -1474,7 +1474,7 @@
 </images>
 </property><property>
 <id>1225</id>
-<date>2015-11-13 12:12:27.978120</date>
+<date>2015-11-13 11:41:22</date>
 <ref>QH2-A00385</ref>
 <price>125000</price>
 <price_freq>sale</price_freq>
@@ -1516,7 +1516,7 @@
 </images>
 </property><property>
 <id>1182</id>
-<date>2015-11-13 12:12:21.363850</date>
+<date>2015-11-13 11:41:17</date>
 <ref>DH2-P6048</ref>
 <price>129000</price>
 <price_freq>sale</price_freq>
@@ -1560,7 +1560,7 @@
 </images>
 </property><property>
 <id>1305</id>
-<date>2015-11-13 12:12:43.162840</date>
+<date>2015-11-13 11:41:36</date>
 <ref>QH2-Z00027</ref>
 <price>129000</price>
 <price_freq>sale</price_freq>
@@ -1630,7 +1630,7 @@
 </images>
 </property><property>
 <id>1212</id>
-<date>2015-11-13 12:12:25.147540</date>
+<date>2015-11-13 11:41:20</date>
 <ref>TH3-Z2082</ref>
 <price>132000</price>
 <price_freq>sale</price_freq>
@@ -1690,7 +1690,7 @@
 </images>
 </property><property>
 <id>1099</id>
-<date>2015-11-13 12:12:17.094140</date>
+<date>2015-11-13 11:41:13</date>
 <ref>AP2-T-Aqua</ref>
 <price>132500</price>
 <price_freq>sale</price_freq>
@@ -1734,7 +1734,7 @@
 </images>
 </property><property>
 <id>1090</id>
-<date>2015-11-13 12:12:14.949610</date>
+<date>2015-11-13 11:41:11</date>
 <ref>AP2-P-javaLu</ref>
 <price>135000</price>
 <price_freq>sale</price_freq>
@@ -1782,7 +1782,7 @@
 </images>
 </property><property>
 <id>1335</id>
-<date>2015-11-13 12:12:55.591570</date>
+<date>2015-11-13 11:41:43</date>
 <ref>AP2-V7133</ref>
 <price>135000</price>
 <price_freq>sale</price_freq>
@@ -1828,7 +1828,7 @@
 </images>
 </property><property>
 <id>1317</id>
-<date>2015-11-13 12:12:46.688480</date>
+<date>2015-11-13 11:41:38</date>
 <ref>DH2-T00033</ref>
 <price>136000</price>
 <price_freq>sale</price_freq>
@@ -1878,7 +1878,7 @@
 </images>
 </property><property>
 <id>1091</id>
-<date>2015-11-13 12:12:15.314240</date>
+<date>2015-11-13 11:41:12</date>
 <ref>AP2-MP-4186</ref>
 <price>136900</price>
 <price_freq>sale</price_freq>
@@ -1926,7 +1926,7 @@
 </images>
 </property><property>
 <id>1313</id>
-<date>2015-11-13 12:12:45.955410</date>
+<date>2015-11-13 11:41:38</date>
 <ref>TH3-V00026</ref>
 <price>138000</price>
 <price_freq>sale</price_freq>
@@ -1980,7 +1980,7 @@
 </images>
 </property><property>
 <id>1188</id>
-<date>2015-11-13 12:12:22.459830</date>
+<date>2015-11-13 11:41:18</date>
 <ref>DH3-V6056</ref>
 <price>139000</price>
 <price_freq>sale</price_freq>
@@ -2038,7 +2038,7 @@
 </images>
 </property><property>
 <id>1088</id>
-<date>2015-11-13 12:12:14.615040</date>
+<date>2015-11-13 11:41:11</date>
 <ref>AP2-V-AquaLu</ref>
 <price>139500</price>
 <price_freq>sale</price_freq>
@@ -2086,7 +2086,7 @@
 </images>
 </property><property>
 <id>1325</id>
-<date>2015-11-13 12:12:49.145070</date>
+<date>2015-11-13 11:41:41</date>
 <ref>TH2-A6128</ref>
 <price>143000</price>
 <price_freq>sale</price_freq>
@@ -2166,7 +2166,7 @@
 </images>
 </property><property>
 <id>1226</id>
-<date>2015-11-13 12:12:28.323690</date>
+<date>2015-11-13 11:41:23</date>
 <ref>TH3-T00147</ref>
 <price>147000</price>
 <price_freq>sale</price_freq>
@@ -2208,7 +2208,7 @@
 </images>
 </property><property>
 <id>1223</id>
-<date>2015-11-13 12:12:27.642980</date>
+<date>2015-11-13 11:41:22</date>
 <ref>DH3-V0034</ref>
 <price>149000</price>
 <price_freq>sale</price_freq>
@@ -2254,7 +2254,7 @@
 </images>
 </property><property>
 <id>1247</id>
-<date>2015-11-13 12:12:32.324260</date>
+<date>2015-11-13 11:41:26</date>
 <ref>DH2-Q00025</ref>
 <price>149000</price>
 <price_freq>sale</price_freq>
@@ -2320,7 +2320,7 @@
 </images>
 </property><property>
 <id>1321</id>
-<date>2015-11-13 12:12:47.733050</date>
+<date>2015-11-13 11:41:39</date>
 <ref>AP2-H0014LoR</ref>
 <price>149900</price>
 <price_freq>sale</price_freq>
@@ -2372,7 +2372,7 @@
 </images>
 </property><property>
 <id>1308</id>
-<date>2015-11-13 12:12:44.191980</date>
+<date>2015-11-13 11:41:36</date>
 <ref>AP3-T00023</ref>
 <price>152000</price>
 <price_freq>sale</price_freq>
@@ -2426,7 +2426,7 @@
 </images>
 </property><property>
 <id>1243</id>
-<date>2015-11-13 12:12:31.564730</date>
+<date>2015-11-13 11:41:26</date>
 <ref>DH3-Fin6088</ref>
 <price>155000</price>
 <price_freq>sale</price_freq>
@@ -2468,7 +2468,7 @@
 </images>
 </property><property>
 <id>1291</id>
-<date>2015-11-13 12:12:39.036990</date>
+<date>2015-11-13 11:41:32</date>
 <ref>TH2-P7116</ref>
 <price>156000</price>
 <price_freq>sale</price_freq>
@@ -2534,7 +2534,7 @@
 </images>
 </property><property>
 <id>1192</id>
-<date>2015-11-13 12:12:23.742830</date>
+<date>2015-11-13 11:41:19</date>
 <ref>DH3-V6061</ref>
 <price>159500</price>
 <price_freq>sale</price_freq>
@@ -2588,7 +2588,7 @@
 </images>
 </property><property>
 <id>1330</id>
-<date>2015-11-13 12:12:50.982610</date>
+<date>2015-11-13 11:41:42</date>
 <ref>TH2-T00022</ref>
 <price>165000</price>
 <price_freq>sale</price_freq>
@@ -2656,7 +2656,7 @@
 </images>
 </property><property>
 <id>828</id>
-<date>2015-11-13 12:12:09.462990</date>
+<date>2015-11-13 11:41:06</date>
 <ref>DH2-V458-2</ref>
 <price>169000</price>
 <price_freq>sale</price_freq>
@@ -2706,7 +2706,7 @@
 </images>
 </property><property>
 <id>1324</id>
-<date>2015-11-13 12:12:48.797220</date>
+<date>2015-11-13 11:41:40</date>
 <ref>DH3-G6129</ref>
 <price>169000</price>
 <price_freq>sale</price_freq>
@@ -2780,7 +2780,7 @@
 </images>
 </property><property>
 <id>1215</id>
-<date>2015-11-13 12:12:26.247130</date>
+<date>2015-11-13 11:41:21</date>
 <ref>DH 2-C001191</ref>
 <price>179900</price>
 <price_freq>sale</price_freq>
@@ -2828,7 +2828,7 @@
 </images>
 </property><property>
 <id>2000003</id>
-<date>2015-11-13 12:12:06.782720</date>
+<date>2015-11-13 11:41:04</date>
 <ref>RoyalSpa</ref>
 <price>180000</price>
 <price_freq>sale</price_freq>
@@ -2882,7 +2882,7 @@
 </images>
 </property><property>
 <id>1316</id>
-<date>2015-11-13 12:12:46.331190</date>
+<date>2015-11-13 11:41:38</date>
 <ref>DH 3-T00035</ref>
 <price>188000</price>
 <price_freq>sale</price_freq>
@@ -2936,7 +2936,7 @@
 </images>
 </property><property>
 <id>1204</id>
-<date>2015-11-13 12:12:24.429450</date>
+<date>2015-11-13 11:41:19</date>
 <ref>SH3-V-MedMod</ref>
 <price>189000</price>
 <price_freq>sale</price_freq>
@@ -2986,7 +2986,7 @@
 </images>
 </property><property>
 <id>1213</id>
-<date>2015-11-13 12:12:25.520700</date>
+<date>2015-11-13 11:41:20</date>
 <ref>DH2-C001188</ref>
 <price>192000</price>
 <price_freq>sale</price_freq>
@@ -3036,7 +3036,7 @@
 </images>
 </property><property>
 <id>2000006</id>
-<date>2015-11-13 12:12:07.579870</date>
+<date>2015-11-13 11:41:04</date>
 <ref>PuertoMarina</ref>
 <price>193000</price>
 <price_freq>sale</price_freq>
@@ -3096,7 +3096,7 @@
 </images>
 </property><property>
 <id>1135</id>
-<date>2015-11-13 12:12:19.258760</date>
+<date>2015-11-13 11:41:15</date>
 <ref>DH3-V5018</ref>
 <price>195000</price>
 <price_freq>sale</price_freq>
@@ -3158,7 +3158,7 @@
 </images>
 </property><property>
 <id>1319</id>
-<date>2015-11-13 12:12:47.057630</date>
+<date>2015-11-13 11:41:39</date>
 <ref>DH2LF0011NaG</ref>
 <price>195000</price>
 <price_freq>sale</price_freq>
@@ -3224,7 +3224,7 @@
 </images>
 </property><property>
 <id>1086</id>
-<date>2015-11-13 12:12:13.941430</date>
+<date>2015-11-13 11:41:10</date>
 <ref>SH3-C4184</ref>
 <price>196000</price>
 <price_freq>sale</price_freq>
@@ -3282,7 +3282,7 @@
 </images>
 </property><property>
 <id>1023</id>
-<date>2015-11-13 12:12:10.970670</date>
+<date>2015-11-13 11:41:08</date>
 <ref>DH2-V459</ref>
 <price>198000</price>
 <price_freq>sale</price_freq>
@@ -3332,7 +3332,7 @@
 </images>
 </property><property>
 <id>1055</id>
-<date>2015-11-13 12:12:12.463080</date>
+<date>2015-11-13 11:41:09</date>
 <ref>AP2-T4148</ref>
 <price>199000</price>
 <price_freq>sale</price_freq>
@@ -3392,7 +3392,7 @@
 </images>
 </property><property>
 <id>1326</id>
-<date>2015-11-13 12:12:49.542760</date>
+<date>2015-11-13 11:41:41</date>
 <ref>DH2-C00199</ref>
 <price>199000</price>
 <price_freq>sale</price_freq>
@@ -3462,7 +3462,7 @@
 </images>
 </property><property>
 <id>1176</id>
-<date>2015-11-13 12:12:20.989480</date>
+<date>2015-11-13 11:41:16</date>
 <ref>DH3-Q-ALBARe</ref>
 <price>210000</price>
 <price_freq>sale</price_freq>
@@ -3522,7 +3522,7 @@
 </images>
 </property><property>
 <id>985</id>
-<date>2015-11-13 12:12:10.628020</date>
+<date>2015-11-13 11:41:07</date>
 <ref>SH3-V4092</ref>
 <price>211000</price>
 <price_freq>sale</price_freq>
@@ -3580,7 +3580,7 @@
 </images>
 </property><property>
 <id>1166</id>
-<date>2015-11-13 12:12:20.283620</date>
+<date>2015-11-13 11:41:16</date>
 <ref>DH2/3-V-Naya</ref>
 <price>212000</price>
 <price_freq>sale</price_freq>
@@ -3626,7 +3626,7 @@
 </images>
 </property><property>
 <id>1206</id>
-<date>2015-11-13 12:12:24.787110</date>
+<date>2015-11-13 11:41:20</date>
 <ref>TH3-P6023</ref>
 <price>214000</price>
 <price_freq>sale</price_freq>
@@ -3668,7 +3668,7 @@
 </images>
 </property><property>
 <id>1191</id>
-<date>2015-11-13 12:12:23.396460</date>
+<date>2015-11-13 11:41:18</date>
 <ref>DH3-V6062</ref>
 <price>215000</price>
 <price_freq>sale</price_freq>
@@ -3732,7 +3732,7 @@
 </images>
 </property><property>
 <id>1331</id>
-<date>2015-11-13 12:12:51.323300</date>
+<date>2015-11-13 11:41:42</date>
 <ref>DH3-V00215</ref>
 <price>215000</price>
 <price_freq>sale</price_freq>
@@ -3780,7 +3780,7 @@
 </images>
 </property><property>
 <id>1216</id>
-<date>2015-11-13 12:12:26.590550</date>
+<date>2015-11-13 11:41:21</date>
 <ref>DH 3-C001191</ref>
 <price>215900</price>
 <price_freq>sale</price_freq>
@@ -3828,7 +3828,7 @@
 </images>
 </property><property>
 <id>881</id>
-<date>2015-11-13 12:12:10.224810</date>
+<date>2015-11-13 11:41:07</date>
 <ref>DH3-V3012</ref>
 <price>216000</price>
 <price_freq>sale</price_freq>
@@ -3894,7 +3894,7 @@
 </images>
 </property><property>
 <id>1260</id>
-<date>2015-11-13 12:12:34.043780</date>
+<date>2015-11-13 11:41:28</date>
 <ref>DH3-V00077</ref>
 <price>219000</price>
 <price_freq>sale</price_freq>
@@ -3946,7 +3946,7 @@
 </images>
 </property><property>
 <id>1265</id>
-<date>2015-11-13 12:12:35.109860</date>
+<date>2015-11-13 11:41:29</date>
 <ref>DH3-T6108</ref>
 <price>219000</price>
 <price_freq>sale</price_freq>
@@ -4016,7 +4016,7 @@
 </images>
 </property><property>
 <id>1307</id>
-<date>2015-11-13 12:12:43.836160</date>
+<date>2015-11-13 11:41:36</date>
 <ref>AP2-T00025</ref>
 <price>222000</price>
 <price_freq>sale</price_freq>
@@ -4070,7 +4070,7 @@
 </images>
 </property><property>
 <id>1306</id>
-<date>2015-11-13 12:12:43.498500</date>
+<date>2015-11-13 11:41:36</date>
 <ref>DH3-P7123</ref>
 <price>225000</price>
 <price_freq>sale</price_freq>
@@ -4122,7 +4122,7 @@
 </images>
 </property><property>
 <id>1268</id>
-<date>2015-11-13 12:12:36.253620</date>
+<date>2015-11-13 11:41:30</date>
 <ref>DH3-V6102</ref>
 <price>227000</price>
 <price_freq>sale</price_freq>
@@ -4180,7 +4180,7 @@
 </images>
 </property><property>
 <id>1214</id>
-<date>2015-11-13 12:12:25.881950</date>
+<date>2015-11-13 11:41:21</date>
 <ref>DH3-C001189</ref>
 <price>228000</price>
 <price_freq>sale</price_freq>
@@ -4228,7 +4228,7 @@
 </images>
 </property><property>
 <id>1334</id>
-<date>2015-11-13 12:12:52.525500</date>
+<date>2015-11-13 11:41:43</date>
 <ref>DH2-V7136b</ref>
 <price>228000</price>
 <price_freq>sale</price_freq>
@@ -4288,7 +4288,7 @@
 </images>
 </property><property>
 <id>2000007</id>
-<date>2015-11-13 12:12:07.960960</date>
+<date>2015-11-13 11:41:05</date>
 <ref>PuertoMarina</ref>
 <price>230000</price>
 <price_freq>sale</price_freq>
@@ -4348,7 +4348,7 @@
 </images>
 </property><property>
 <id>2000011</id>
-<date>2015-11-13 12:12:08.360600</date>
+<date>2015-11-13 11:41:05</date>
 <ref>EuroTowers</ref>
 <price>232000</price>
 <price_freq>sale</price_freq>
@@ -4390,7 +4390,7 @@
 </images>
 </property><property>
 <id>1026</id>
-<date>2015-11-13 12:12:11.310870</date>
+<date>2015-11-13 11:41:08</date>
 <ref>AP2-3-LC</ref>
 <price>237000</price>
 <price_freq>sale</price_freq>
@@ -4436,7 +4436,7 @@
 </images>
 </property><property>
 <id>1322</id>
-<date>2015-11-13 12:12:48.091420</date>
+<date>2015-11-13 11:41:40</date>
 <ref>DH3-V4034</ref>
 <price>238000</price>
 <price_freq>sale</price_freq>
@@ -4504,7 +4504,7 @@
 </images>
 </property><property>
 <id>1333</id>
-<date>2015-11-13 12:12:52.187870</date>
+<date>2015-11-13 11:41:43</date>
 <ref>DH2-V7136a</ref>
 <price>238000</price>
 <price_freq>sale</price_freq>
@@ -4564,7 +4564,7 @@
 </images>
 </property><property>
 <id>1332</id>
-<date>2015-11-13 12:12:51.699980</date>
+<date>2015-11-13 11:41:42</date>
 <ref>DH3-V7134</ref>
 <price>240000</price>
 <price_freq>sale</price_freq>
@@ -4630,7 +4630,7 @@
 </images>
 </property><property>
 <id>1339</id>
-<date>2015-11-13 12:12:57.174000</date>
+<date>2015-11-13 11:41:44</date>
 <ref>DH5-V00025</ref>
 <price>248000</price>
 <price_freq>sale</price_freq>
@@ -4696,7 +4696,7 @@
 </images>
 </property><property>
 <id>1320</id>
-<date>2015-11-13 12:12:47.396900</date>
+<date>2015-11-13 11:41:39</date>
 <ref>DH3LF0011NaG</ref>
 <price>249000</price>
 <price_freq>sale</price_freq>
@@ -4764,7 +4764,7 @@
 </images>
 </property><property>
 <id>1092</id>
-<date>2015-11-13 12:12:16.409440</date>
+<date>2015-11-13 11:41:12</date>
 <ref>DH-2/3-Q-Eiv</ref>
 <price>265000</price>
 <price_freq>sale</price_freq>
@@ -4812,7 +4812,7 @@
 </images>
 </property><property>
 <id>1104</id>
-<date>2015-11-13 12:12:17.465630</date>
+<date>2015-11-13 11:41:13</date>
 <ref>DH2-C4199</ref>
 <price>269000</price>
 <price_freq>sale</price_freq>
@@ -4866,7 +4866,7 @@
 </images>
 </property><property>
 <id>1337</id>
-<date>2015-11-13 12:12:56.390910</date>
+<date>2015-11-13 11:41:44</date>
 <ref>DH4-V00055</ref>
 <price>277500</price>
 <price_freq>sale</price_freq>
@@ -4940,7 +4940,7 @@
 </images>
 </property><property>
 <id>1252</id>
-<date>2015-11-13 12:12:32.678500</date>
+<date>2015-11-13 11:41:27</date>
 <ref>DH3-C6084</ref>
 <price>280000</price>
 <price_freq>sale</price_freq>
@@ -4988,7 +4988,7 @@
 </images>
 </property><property>
 <id>1298</id>
-<date>2015-11-13 12:12:41.289570</date>
+<date>2015-11-13 11:41:34</date>
 <ref>DH 3-V7121</ref>
 <price>285000</price>
 <price_freq>sale</price_freq>
@@ -5060,7 +5060,7 @@
 </images>
 </property><property>
 <id>1336</id>
-<date>2015-11-13 12:12:56.015820</date>
+<date>2015-11-13 11:41:44</date>
 <ref>DH3-V7135</ref>
 <price>285000</price>
 <price_freq>sale</price_freq>
@@ -5128,7 +5128,7 @@
 </images>
 </property><property>
 <id>1270</id>
-<date>2015-11-13 12:12:36.969400</date>
+<date>2015-11-13 11:41:30</date>
 <ref>DH3-T6109</ref>
 <price>299000</price>
 <price_freq>sale</price_freq>
@@ -5196,7 +5196,7 @@
 </images>
 </property><property>
 <id>1267</id>
-<date>2015-11-13 12:12:35.908600</date>
+<date>2015-11-13 11:41:29</date>
 <ref>DH4-Fin6106</ref>
 <price>319000</price>
 <price_freq>sale</price_freq>
@@ -5264,7 +5264,7 @@
 </images>
 </property><property>
 <id>1269</id>
-<date>2015-11-13 12:12:36.610460</date>
+<date>2015-11-13 11:41:30</date>
 <ref>DH3-V6107</ref>
 <price>345000</price>
 <price_freq>sale</price_freq>
@@ -5336,7 +5336,7 @@
 </images>
 </property><property>
 <id>1327</id>
-<date>2015-11-13 12:12:49.907920</date>
+<date>2015-11-13 11:41:41</date>
 <ref>DH4-V7130</ref>
 <price>355000</price>
 <price_freq>sale</price_freq>
@@ -5394,7 +5394,7 @@
 </images>
 </property><property>
 <id>1118</id>
-<date>2015-11-13 12:12:18.181400</date>
+<date>2015-11-13 11:41:14</date>
 <ref>DH4-Z0485</ref>
 <price>390000</price>
 <price_freq>sale</price_freq>
@@ -5442,7 +5442,7 @@
 </images>
 </property><property>
 <id>1254</id>
-<date>2015-11-13 12:12:33.068090</date>
+<date>2015-11-13 11:41:27</date>
 <ref>DH3-LC00077</ref>
 <price>390000</price>
 <price_freq>sale</price_freq>
@@ -5512,7 +5512,7 @@
 </images>
 </property><property>
 <id>1087</id>
-<date>2015-11-13 12:12:14.278240</date>
+<date>2015-11-13 11:41:11</date>
 <ref>DH4-G-VillaA</ref>
 <price>398000</price>
 <price_freq>sale</price_freq>
@@ -5560,7 +5560,7 @@
 </images>
 </property><property>
 <id>1238</id>
-<date>2015-11-13 12:12:30.470660</date>
+<date>2015-11-13 11:41:25</date>
 <ref>DH6-V6077</ref>
 <price>399000</price>
 <price_freq>sale</price_freq>
@@ -5614,7 +5614,7 @@
 </images>
 </property><property>
 <id>1304</id>
-<date>2015-11-13 12:12:42.747200</date>
+<date>2015-11-13 11:41:35</date>
 <ref>DH5-FJ4000</ref>
 <price>550000</price>
 <price_freq>sale</price_freq>
@@ -5740,7 +5740,7 @@
 </images>
 </property><property>
 <id>1027</id>
-<date>2015-11-13 12:12:11.735120</date>
+<date>2015-11-13 11:41:08</date>
 <ref>DH4-5-LC</ref>
 <price>694000</price>
 <price_freq>sale</price_freq>
@@ -5788,7 +5788,7 @@
 </images>
 </property><property>
 <id>1129</id>
-<date>2015-11-13 12:12:18.547070</date>
+<date>2015-11-13 11:41:14</date>
 <ref>DH4-C00466</ref>
 <price>695000</price>
 <price_freq>sale</price_freq>
@@ -5830,7 +5830,7 @@
 </images>
 </property><property>
 <id>1097</id>
-<date>2015-11-13 12:12:16.752980</date>
+<date>2015-11-13 11:41:12</date>
 <ref>DH4C-VillaB</ref>
 <price>745000</price>
 <price_freq>sale</price_freq>
@@ -5876,7 +5876,7 @@
 </images>
 </property><property>
 <id>1058</id>
-<date>2015-11-13 12:12:12.820540</date>
+<date>2015-11-13 11:41:09</date>
 <ref>AP2-A4063</ref>
 <price>780000</price>
 <price_freq>sale</price_freq>
@@ -5922,7 +5922,7 @@
 </images>
 </property><property>
 <id>1081</id>
-<date>2015-11-13 12:12:13.586090</date>
+<date>2015-11-13 11:41:10</date>
 <ref>DH3-S0811</ref>
 <price>780000</price>
 <price_freq>sale</price_freq>
@@ -5978,7 +5978,7 @@
 </images>
 </property><property>
 <id>762</id>
-<date>2015-11-13 12:12:09.077890</date>
+<date>2015-11-13 11:41:06</date>
 <ref>DH5-Fin022</ref>
 <price>1300000</price>
 <price_freq>sale</price_freq>
