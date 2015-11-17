@@ -77,7 +77,7 @@ for eachprop in _mgh_data.proplists['All']:
     else:
     	saleorrent = 'zu verkaufen'
     prop = {}
-    #prop['description'] = removeumlauts(row['strdescription_DE'][:400])
+
     if row['DE'][:400][-1] == '\xc3':
 		prop['description'] = row['DE'][:399]
     else:
