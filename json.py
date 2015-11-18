@@ -4,7 +4,7 @@ import json
 import os
 import urllib2
 
-urltoopen = "http://localhost:9999/json/propdata"
+urltoopen = "http://mgh-props.appspot.com/json/propdata"
 urlfetch = urllib2.urlopen(urltoopen)
 propjson = urlfetch.read()
 #print propjson
