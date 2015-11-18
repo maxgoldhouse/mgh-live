@@ -30,7 +30,7 @@ for prop in _mgh_data.props:
 	picurldictlist = []
 	slidecount = 1
 	for i, pic in enumerate(thisprop['pics']):
-	    thisprop['pics'][i] = pic.replace('s0','s35-p')
+	    thisprop['pics'][i] = pic.replace('/s0/','/s35-p/')
 
 	for pic in thisprop['pics']:
 	    picurldict = {}

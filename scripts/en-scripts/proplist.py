@@ -77,7 +77,7 @@ for rub in _all_rubrunsdata.rubruns:
 			prop['frequency']= ''
 		else:
 			prop['price'] = ''
-		prop['img'] = thisprop['pics'][0].replace('s0','s400')
+		prop['img'] = thisprop['pics'][0].replace('/s0/','/s400/')
 		topsixdict['props'].append(prop)
 
 		if rowcount == _mghsettings.PPP:
