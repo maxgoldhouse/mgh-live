@@ -1,1 +1,1 @@
-update pictures for jesusa mas
+mgh-admin pushDataToGitHub pictures for Jesusamas by dklongley
