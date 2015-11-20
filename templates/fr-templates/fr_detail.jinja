@@ -129,7 +129,7 @@ Prijs : <strong>{{price}} {{frequency}}</strong> Ref : <strong>{{propref}}</stro
 <li class="feature"><b>{{baths}}</b> {{bainsingplur}}</li>
 <li class="feature"><b>{{livingarea}} m<sup>2</sup></b> surface habitable</li>
 <li class="feature"><b>{{plotsize}} m<sup>2</sup></b> surface du terrain</li>
-<li class="feature">piscine <b>{{pool}}</b></li>
+<li class="feature">piscine <b>{% if item['pool'] == 'community' %} communautaire{% elif item['pool'] == 'yes' %} Oui{% elif item['pool'] == 'No' %} Non{% elif item['pool'] == 'private' %} privée{%else%} publique{% endif %}</b></li>
 </ul>
 </div>
 </div>

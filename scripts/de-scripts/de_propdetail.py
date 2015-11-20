@@ -66,7 +66,7 @@ for prop in _mgh_data.props:
 	propdict['baths'] = row['baths']
 	propdict['livingarea'] = row['living']
 	propdict['plotsize'] = row['plot']
-	propdict['pool'] = pool
+	propdict['pool'] = row['pool']
 	propdict['propid'] = row['pid']
 	propdict['propref'] = row['ref']
 	propdict['propurl_nl'] = propurl_nl

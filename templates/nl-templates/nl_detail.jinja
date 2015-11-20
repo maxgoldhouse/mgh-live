@@ -131,7 +131,7 @@ Prijs : <strong>{{price}} {{frequency}}</strong> Ref : <strong>{{propref}}</stro
 <li class="feature"><b>{{baths}}</b> {{badsingplur}}</li>
 <li class="feature"><b>{{livingarea}} m<sup>2</sup></b> gebouwd</li>
 <li class="feature"><b>{{plotsize}} m<sup>2</sup></b> grond</li>
-<li class="feature">zwembad <b>{{pool}}</b></li>
+<li class="feature">zwembad <b>{% if item['pool'] == 'community' %} gemeenschappelijk{% elif item['pool'] == 'yes' %} Ja{% elif item['pool'] == 'No' %} Nee{% elif item['pool'] == 'private' %} privé{%else%} openbaar{% endif %}</b></li>
 </ul>
 </div>
 </div>
