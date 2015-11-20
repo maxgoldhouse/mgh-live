@@ -131,7 +131,7 @@ Preis : <strong>{{price}} {{frequency}}</strong> Ref : <strong>{{propref}}</stro
 <li class="feature"><b>{{baths}}</b> Bad</li>
 <li class="feature"><b>{{livingarea}} m<sup>2</sup></b> gebaut</li>
 <li class="feature"><b>{{plotsize}} m<sup>2</sup></b> Grundstuck</li>
-<li class="feature">Schwimmbad <b>{% if item['pool'] == 'community' %} Gemeinschafts{% elif item['pool'] == 'yes' %} Ja{% elif item['pool'] == 'No' %} Nein{% elif item['pool'] == 'private' %} privates{%else%} öffentliches{% endif %}</b></li>
+<li class="feature">Schwimmbad <b>{% if pool == 'community' %} Gemeinschafts{% elif pool == 'yes' %} Ja{% elif pool == 'No' %} Nein{% elif pool  == 'private' %} privates{%else%} öffentliches{% endif %}</b></li>
 </ul>
 </div>
 </div>
