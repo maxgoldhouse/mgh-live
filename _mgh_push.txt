@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1341 with FR and NL by dklongley
+mgh-admin pushDataToGitHub Updated property 1341 with DE text by dklongley
