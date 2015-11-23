@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+update pictures for jesusa mas
+=======
+mgh-admin pushDataToGitHub Added property 1341 by dklongley
+>>>>>>> 28b33f21c7faadab60a24a9e7c9eb6f85fb6674c
