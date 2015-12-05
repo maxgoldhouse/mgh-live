@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property improved EN text 1072 by dklongley
+mgh-admin pushDataToGitHub DE Text For 1343 1342 1341 1339 by dklongley
