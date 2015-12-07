@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub DE Text For 1343 1342 1341 1339 by dklongley
+mgh-admin pushDataToGitHub 1294 Changed images and went from Apartment to Townhouse by dklongley
