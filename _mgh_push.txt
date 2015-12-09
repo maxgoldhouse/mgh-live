@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub 1294 Changed images and went from Apartment to Townhouse by dklongley
+mgh-admin pushDataToGitHub Updated property 1344 by dklongley
