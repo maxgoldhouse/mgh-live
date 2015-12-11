@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Added property 1345 by dklongley
+mgh-admin pushDataToGitHub add property 1346 update 1260 1240 735 to offplan by dklongley
