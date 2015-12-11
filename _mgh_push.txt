@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated prices for 1214 1215 1216 by dklongley
+mgh-admin pushDataToGitHub Added property 1345 by dklongley
