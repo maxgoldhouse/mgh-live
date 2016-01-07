@@ -1,4 +1,4 @@
-application: mgh-live-en
+application: www-mgh-3
 version: 1
 runtime: python27
 api_version: 1
