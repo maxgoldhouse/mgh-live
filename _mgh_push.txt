@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub SOLD sign on 1325 1081 1058 by dklongley
+mgh-admin pushDataToGitHub Updated property 1327 new price and 5 beds 5 baths by dklongley
