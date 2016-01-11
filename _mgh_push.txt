@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub SOLD sign on property 1348 by dklongley
+mgh-admin pushDataToGitHub Add property 1350 by photos
