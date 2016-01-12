@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add property 1350 by photos
+mgh-admin pushDataToGitHub Updated property 1341 changed text block EN to partly furnished by dklongley
