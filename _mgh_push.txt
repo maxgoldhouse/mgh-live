@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1350 and 1346 FR and NL descriptions by dklongley
+mgh-admin pushDataToGitHub Updated property 1346 and 1350 by dklongley
