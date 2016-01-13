@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1349 FR and NL translations by dklongley
+mgh-admin pushDataToGitHub Updated property 1350 added prop 1351 guardamar quadhouse by photos
