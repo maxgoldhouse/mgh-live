@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1346 and 1350 by dklongley
+mgh-admin pushDataToGitHub Updated property 1346 and 1350 FR and NL all euro symbols removed by dklongley
