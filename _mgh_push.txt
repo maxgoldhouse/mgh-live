@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1352 by photos
+mgh-admin pushDataToGitHub Add props 1353 and 1354 by photos
