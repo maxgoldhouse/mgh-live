@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property Under Offer banner 1298 by dklongley
+mgh-admin pushDataToGitHub Updated property 1353 FR and NL descriptions by dklongley
