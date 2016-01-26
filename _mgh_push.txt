@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1354 FR and NL descriptions by dklongley
+mgh-admin pushDataToGitHub Updated property 1328 down from 76k to 69k and add new 2nd picture by photos
