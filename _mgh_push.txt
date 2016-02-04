@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property price down to 219500 prop 1306 by dklongley
+mgh-admin pushDataToGitHub Updated property changed from Playa Flamenca to Punta Prima1306 by dklongley
