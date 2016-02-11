@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property FR and NL descriptions 1356 by dklongley
+mgh-admin pushDataToGitHub Updated property Bank got it 1023 by dklongley
