@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property Bank got it 1023 by dklongley
+mgh-admin pushDataToGitHub Updated property down from 399k to 365k 1238 by dklongley
