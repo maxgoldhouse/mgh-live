@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub removed property 1228 by dklongley
+mgh-admin pushDataToGitHub Updated several props to finca true by dklongley
