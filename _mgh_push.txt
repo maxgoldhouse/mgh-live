@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add luxury La Zenia beach villa DH6-Z00600 by dklongley
+mgh-admin pushDataToGitHub Sold Sign On property 1309 by dklongley
