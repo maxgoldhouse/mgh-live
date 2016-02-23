@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated all new images property 1335 and update price of prop 762 by dklongley
+mgh-admin pushDataToGitHub removed properties 1295 1292 1312 by dklongley
