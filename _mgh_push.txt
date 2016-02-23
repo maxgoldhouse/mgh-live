@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated ref to AP2-3-V7141 property 136002 by dklongley
+mgh-admin pushDataToGitHub Updated all new images property 1335 and update price of prop 762 by dklongley
