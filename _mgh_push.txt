@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1332 price down from 240k to 230k by dklongley
+mgh-admin pushDataToGitHub Updated property 1352 removed E from from start of description by dklongley
