@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub New property Penthouse AP2-V00967 136202 by dklongley
+mgh-admin pushDataToGitHub Updated property price up from 320k to 350k 1267 by dklongley
