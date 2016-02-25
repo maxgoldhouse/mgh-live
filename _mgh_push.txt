@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1352 removed E from from start of description by dklongley
+mgh-admin pushDataToGitHub Updated property FR and NL descriptions 136102 by dklongley
