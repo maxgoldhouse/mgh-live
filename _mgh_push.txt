@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1352 SOLD button on by dklongley
+mgh-admin pushDataToGitHub Updated property 136202 FR and NL text by dklongley
