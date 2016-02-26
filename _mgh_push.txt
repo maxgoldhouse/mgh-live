@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Added 3 bed Holiday apartment Villamartin Golf property 136302 by dklongley
+mgh-admin pushDataToGitHub Updated property 136302 added NL and FR text  by dklongley
