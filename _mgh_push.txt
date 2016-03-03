@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub many pools from yes to private by dklongley
+mgh-admin pushDataToGitHub Pools No to public by dklongley
