@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add property Loss Altos 2 bed detached Villa 136602 by dklongley
+mgh-admin pushDataToGitHub Sold Sign On property 136202 by dklongley
