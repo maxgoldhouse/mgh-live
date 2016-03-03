@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Pools No to public by dklongley
+mgh-admin pushDataToGitHub All pool changes that were not private or public had to be community by dklongley
