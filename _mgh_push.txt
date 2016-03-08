@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1336 add 7 mil up to 255k by dklongley
+mgh-admin pushDataToGitHub added DE text to 136702 136502 1353 135802 1350 1351 136002 by dklongley
