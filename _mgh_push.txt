@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add property 137002 Finca on 3000m2 Albatera by dklongley
+mgh-admin pushDataToGitHub Updated property 137002 with FR and NL text by dklongley
