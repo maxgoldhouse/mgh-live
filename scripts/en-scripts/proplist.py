@@ -59,15 +59,15 @@ for rub in _all_rubrunsdata.rubruns:
 		prop['propurl'] = propurl
 		prop['locationdetail']=thisprop['location']
 		prop['proptype']=thisprop['ptype']
+		pricefrom = ''
 		if thisprop['frequency'] == 'sale':
-			prop['frequency'] = ''
-			pricefrom = ''
+			propdict['frequency'] = ''
+		elif thisprop['frequency'] = 'month':
+			propdict['frequency']= ' per '+thisprop['frequency']
 		else:
-			prop['frequency']= ' per '+thisprop['frequency']
-			if thisprop['frequency'] = 'week':
-				pricefrom = ' from '
-			else:
-				pricefrom = ''
+			propdict['frequency']= ' per '+thisprop['frequency']
+			pricefrom = ' from '
+
 		prop['underoffersold'] = thisprop['salestage']
 		if thisprop['salestage'] == '0':
 			prop['price'] = pricefrom+"<span class='price_eur'>&euro;"+"{:,}".format(int(thisprop['price']))+"</span> "
