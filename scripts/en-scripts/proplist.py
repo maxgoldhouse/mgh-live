@@ -64,7 +64,10 @@ for rub in _all_rubrunsdata.rubruns:
 			pricefrom = ''
 		else:
 			prop['frequency']= ' per '+thisprop['frequency']
-			pricefrom = ' from '
+			if thisprop['frequency'] = 'week':
+				pricefrom = ' from '
+			else:
+				pricefrom = ''
 		prop['underoffersold'] = thisprop['salestage']
 		if thisprop['salestage'] == '0':
 			prop['price'] = pricefrom+"<span class='price_eur'>&euro;"+"{:,}".format(int(thisprop['price']))+"</span> "

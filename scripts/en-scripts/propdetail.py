@@ -83,6 +83,8 @@ for prop in _mgh_data.props:
 		propdict['frequency']= ' per '+thisprop['frequency']
 		if thisprop['frequency'] = 'week':
 			pricefrom = ' from '
+		else:
+			pricefrom = ''
 	propdict['underoffersold'] = thisprop['salestage']
 	if thisprop['salestage'] == '0':
 		propdict['price'] = pricefrom + "<span class='price_eur'>&euro;"+"{:,}".format(int(thisprop['price']))+"</span> "
