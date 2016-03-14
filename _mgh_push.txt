@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add property 136702 1 bed apartment Play Flamenca by dklongley
+mgh-admin pushDataToGitHub Updated property 136602 add NL and FR text by dklongley
