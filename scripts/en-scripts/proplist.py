@@ -62,7 +62,7 @@ for rub in _all_rubrunsdata.rubruns:
 		pricefrom = ''
 		if thisprop['frequency'] == 'sale':
 			propdict['frequency'] = ''
-		elif thisprop['frequency'] = 'month':
+		elif thisprop['frequency'] == 'month':
 			propdict['frequency']= ' per '+thisprop['frequency']
 		else:
 			propdict['frequency']= ' per '+thisprop['frequency']

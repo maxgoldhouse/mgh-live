@@ -79,7 +79,7 @@ for prop in _mgh_data.props:
 	pricefrom = ''
 	if thisprop['frequency'] == 'sale':
 		propdict['frequency'] = ''
-	elif thisprop['frequency'] = 'month':
+	elif thisprop['frequency'] == 'month':
 		propdict['frequency']= ' per '+thisprop['frequency']
 	else:
 		propdict['frequency']= ' per '+thisprop['frequency']
