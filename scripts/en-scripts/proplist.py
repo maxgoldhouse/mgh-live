@@ -61,11 +61,11 @@ for rub in _all_rubrunsdata.rubruns:
 		prop['proptype']=thisprop['ptype']
 		pricefrom = ''
 		if thisprop['frequency'] == 'sale':
-			propdict['frequency'] = ''
+			prop['frequency'] = ''
 		elif thisprop['frequency'] == 'month':
-			propdict['frequency']= ' per '+thisprop['frequency']
+			prop['frequency']= ' per '+thisprop['frequency']
 		else:
-			propdict['frequency']= ' per '+thisprop['frequency']
+			prop['frequency']= ' per '+thisprop['frequency']
 			pricefrom = ' from '
 
 		prop['underoffersold'] = thisprop['salestage']
