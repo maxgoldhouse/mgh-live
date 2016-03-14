@@ -61,11 +61,13 @@ for rub in _all_rubrunsdata.rubruns:
 		prop['proptype']=thisprop['ptype']
 		if thisprop['frequency'] == 'sale':
 			prop['frequency'] = ''
+			pricefrom = ''
 		else:
 			prop['frequency']= ' per '+thisprop['frequency']
+			pricefrom = ' from '
 		prop['underoffersold'] = thisprop['salestage']
 		if thisprop['salestage'] == '0':
-			prop['price'] = "<span class='price_eur'>&euro;"+"{:,}".format(int(thisprop['price']))+"</span> "
+			prop['price'] = pricefrom+"<span class='price_eur'>&euro;"+"{:,}".format(int(thisprop['price']))+"</span> "
 			prop['saleorrent'] = saleorrent
 			prop['mp'] = ''
 			#if thisprop['rental'] == "False":

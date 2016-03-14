@@ -60,7 +60,7 @@
 <div class="panel-heading">
 <a name="top">
 <h1 class="panel-title">
-<div class="pull-right">{% if frequency == 'week'%} From {% endif %} {{price}} {{frequency}} <span class="price_gbp"></span></div>
+<div class="pull-right">{{price}} {{frequency}} <span class="price_gbp"></span></div>
 {{locationdetail}} - {{proptype}} for {{saleorrent}} ref: {{propref}}
 </h1>
 </a>
@@ -111,7 +111,7 @@ Make an enquiry
 <div class="col-xs-12">
 <p></p>
 <p class="reference">
-<strong>Price :{% if frequency == 'week' %} From {% endif %} {{price}} {{frequency}}<span class="price_gbp"></span> Ref : {{propref}}</strong>
+<strong>Price : {{price}} {{frequency}}<span class="price_gbp"></span> Ref : {{propref}}</strong>
 </p>
 {# TO SHOW MORTGAGE details if mp != '' #}
 {% if mp == 'notshowingthis' %}
