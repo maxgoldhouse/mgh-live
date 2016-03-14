@@ -84,15 +84,18 @@ for prop in _mgh_data.props:
 	propdict['province']=row['province']
 	propdict['proptype']=nl_proptype
 	propdict['saleorrent']=saleorrent
-	if row['frequency'] == 'week':
-		propdict['frequency'] = ' per week'
+	pricefrom = ''
+	if row['frequency'] == 'sale':
+		propdict['frequency'] = ''
 	elif row['frequency'] == 'month':
-		propdict['frequency'] = ' per maand'
+		propdict['frequency']= ' per maand'
 	else:
-		propdict['frequency']= ''
+		propdict['frequency']= ' per week'
+		pricefrom = ' van '
+
 	propdict['underoffersold'] = row['salestage']
 	if row['salestage'] == '0':
-		propdict['price'] = "<span class='price_eur'>&euro;"+"{:,}".format(int(row['price']))+"</span> "
+		propdict['price'] = pricefrom+"<span class='price_eur'>&euro;"+"{:,}".format(int(row['price']))+"</span> "
 	elif row['salestage'] == '2':
 		propdict['price'] = 'VERKOCHT'
 	elif row['salestage'] == '3':

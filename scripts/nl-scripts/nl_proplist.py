@@ -77,15 +77,18 @@ for rubrun in _all_rubrunsdata.rubruns:
 		prop['locationdetail']=row['location']
 		prop['proptype']= nl_proptype
 		prop['saleorrent']=saleorrent
-		if row['frequency'] == 'week':
-			prop['frequency'] = ' per week'
+		pricefrom = ''
+		if row['frequency'] == 'sale':
+			prop['frequency'] = ''
 		elif row['frequency'] == 'month':
-			prop['frequency'] = ' per maand'
+			prop['frequency']= ' per maand'
 		else:
-			prop['frequency']= ''
+			prop['frequency']= ' per week'
+			pricefrom = ' van '
+
 		prop['underoffersold'] = row['salestage']
 		if row['salestage'] == '0':
-			prop['price'] = "<span class='price_eur'>&euro;"+"{:,}".format(int(row['price'])).replace(',','.')+"</span> "
+			prop['price'] = pricefrom+"<span class='price_eur'>&euro;"+"{:,}".format(int(row['price'])).replace(',','.')+"</span> "
 		elif row['salestage'] == '2':
 			prop['price'] = 'VERKOCHT'
 		elif row['salestage'] == '3':

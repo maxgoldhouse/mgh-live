@@ -66,15 +66,18 @@ for rubrun in _all_rubrunsdata.rubruns:
 		prop['locationdetail']=row['location']
 		prop['proptype']= de_proptype
 		prop['saleorrent']=saleorrent
-		if row['frequency'] == 'week':
-			prop['frequency'] = ' je Woche'
+		pricefrom = ''
+		if row['frequency'] == 'sale':
+			prop['frequency'] = ''
 		elif row['frequency'] == 'month':
-			prop['frequency'] = ' je Monat'
+			prop['frequency']= ' je Monat'
 		else:
-			prop['frequency']= ''
+			prop['frequency']= ' je Woche'
+			pricefrom = ' von '
+
 		prop['underoffersold'] = row['salestage']
 		if row['salestage'] == '0':
-			prop['price'] = "<span class='price_eur'>&euro;"+"{:,}".format(int(row['price']))+"</span> "
+			prop['price'] = pricefrom+"<span class='price_eur'>&euro;"+"{:,}".format(int(row['price']))+"</span> "
 		elif row['salestage'] == '2':
 			prop['price'] = 'verkauft'
 		elif row['salestage'] == '3':
