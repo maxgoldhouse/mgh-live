@@ -91,7 +91,7 @@ for prop in _mgh_data.props:
 		propdict['frequency']= ' per maand'
 	else:
 		propdict['frequency']= ' per week'
-		pricefrom = ' van '
+		pricefrom = ' vanaf '
 
 	propdict['underoffersold'] = row['salestage']
 	if row['salestage'] == '0':

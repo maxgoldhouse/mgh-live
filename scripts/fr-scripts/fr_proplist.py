@@ -85,7 +85,7 @@ for rubrun in _all_rubrunsdata.rubruns:
 			prop['frequency']= ' par mois'
 		else:
 			prop['frequency']= ' par semaine'
-			pricefrom = ' à partir '
+			pricefrom = ' à partir de '
 
 		prop['underoffersold'] = row['salestage']
 		if row['salestage'] == '0':
