@@ -8,8 +8,10 @@ NL_SITEDIR = "./deploy/NL/static/"
 NL_TEMPLATEFOLDER = "./templates/nl-templates/"
 FR_SITEDIR = "./deploy/FR/static/"
 FR_TEMPLATEFOLDER = "./templates/fr-templates/"
-ES_SITEDIR = "./deploy/ES/static/"
-ES_TEMPLATEFOLDER = "./templates/es-templates/"
+IV_NL_SITEDIR = "./deploy/NL/static/IV_NL/"
+IV_NL_TEMPLATEFOLDER = "./templates/iv-nl-templates/"
+#ES_SITEDIR = "./deploy/ES/static/"
+#ES_TEMPLATEFOLDER = "./templates/es-templates/"
 
 MORTGAGE_LTV = 0.75 # Borrow 75% of property value
 MORTGAGE_TERM = 15 #years
