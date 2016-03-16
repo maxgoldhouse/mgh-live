@@ -64,7 +64,7 @@ template = templateEnv.get_template( TEMPLATE_FILE )
 for eachprop in _mgh_data.proplists['All']:
     row = _mgh_data.props[str(eachprop)]
     nl_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['nl']
-    propurl = '/'+str(row['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
+    propurl = str(row['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
     if row['rental'] == 'True':
     	saleorrent = 'te huur'
     else:
