@@ -19,13 +19,13 @@ var totalslides=$(".thumb").length;var target=0;var autoslide;var onauto=0;$(".t
           return o;
         };
  $('form').submit(function() {
-          
+
           var thedata = JSON.stringify($(this).serializeObject())
           var script = document.createElement('script');
           script.src = 'https://script.google.com/macros/s/AKfycbwFOPvfoJMpt-OgtwsC2PDo56pNWO7h5QQjJAgzbsRxBgucsFb9/exec?data='+thedata;
           document.body.appendChild(script);
           var enqname = $(this).find('input[name="name"]').val();
-          var thankmsg = '<p>Thanks '+enqname+'. Someone from the maxgoldhouse team will contact you.</p>';
-          $(this).html(thankmsg);        
+          var thankmsg = '<p>Thanks '+enqname+'. Someone from our office will contact you.</p>';
+          $(this).html(thankmsg);
           return false;
         });
