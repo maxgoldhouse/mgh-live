@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub add props 1373 and 1374 reduce price of Ap 135802 from 129k to 122k by dklongley
+mgh-admin pushDataToGitHub Updated property 1374 DE text by dklongley
