@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Property 1322 SOLD Sign On by dklongley
+mgh-admin pushDataToGitHub Updated property 1374 FR and NL text by dklongley
