@@ -75,12 +75,15 @@
 <form accept-charset="UTF-8" action="" class="form-horizontal new_enquiry" id="new_enquiry" method=""><div class="form-group"><div class="col-sm-12"><textarea class=" form-control" cols="40" id="message" name="message" placeholder="Stuur mij informatie over deze woning" rows="4"></textarea></div></div>
 <div class="form-group"><div class="col-sm-12"><input class=" form-control" id="name" name="name" placeholder="naam" size="30" type="text" required></div></div>
 <div class="form-group"><div class="col-sm-12"><input class=" form-control" id="email" name="email" placeholder="e-mail" size="30" type="email" required></div></div>
+<div class="form-group"><div class="col-sm-12"><input class=" form-control" id="tel" name="tel" placeholder="telefoon nummer" size="30" type="tel" required></div></div>
+
 <div class="form-group"><div class="col-sm-12"><div><input id="about_similar" name="include similar" type="checkbox" value="1"> Vertel me over soortgelijke woningen</div></div></div>
 <button class="btn btn-warning" id="enquiry_submit" type="submit">
 Verzend aanvraag
 </button>
 <span class="spinner fa fa-spinner fa-spin" style="display:none"></span>
-<input type="hidden" name="cc" id="cc" value="info@kantoorverhoeven-spanje.be,nlleads@maxgoldhouse.com">
+<input type="hidden" name="to" id="to" value="info@kantoorverhoeven-spanje.be">
+<input type="hidden" name="cc" id="cc" value="nlleads@maxgoldhouse.com,dklongley@maxgoldhouse.com">
 <input type="hidden" name="property" id="property" value="<a href='nl.maxgoldhouse.com{{propurl_nl}}'>{{propref}}</a>">
 <input type="hidden" name="photo" id="photo" value="<img src='https:{{firstimg|replace("s0", "s400")}}'/>">
 <input id="source" name="formname" type="hidden" value="kantoorverhoeven-spanje maxgoldhouse Property Enquiry {{propref}}">
