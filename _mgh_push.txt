@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1212 changed FR and NL text by dklongley
+mgh-admin pushDataToGitHub Updated property 1212 price down to 128k aparts 137102 from price 133k to from 145k by dklongley
