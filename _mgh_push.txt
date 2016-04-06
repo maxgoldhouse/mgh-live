@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1212 price down to 128k aparts 137102 from price 133k to from 145k by dklongley
+mgh-admin pushDataToGitHub Add property 1376 luxury 3 bed Apt in 700m from sea Guardamar by dklongley
