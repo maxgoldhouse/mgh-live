@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add property 1376 luxury 3 bed Apt in 700m from sea Guardamar by dklongley
+mgh-admin pushDataToGitHub Updated property price drop for1265 1104 and 985 NL FR trans for 1375 and 1376 by dklongley
