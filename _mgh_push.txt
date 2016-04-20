@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Let sign on property 1271 by dklongley
+mgh-admin pushDataToGitHub Updated property 1271 to rented by dklongley
