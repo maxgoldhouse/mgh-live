@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Oasis beach apartments Guardamar id 1378 by dklongley
+mgh-admin pushDataToGitHub Updated property 1341 price down from 250k to 220k by dklongley
