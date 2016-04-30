@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 135902 7 beds 7 baths down to 6 baths 6 beds by dklongley
+mgh-admin pushDataToGitHub Add FR and NL text to 1377 and 1378 by dklongley
