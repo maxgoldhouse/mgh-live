@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add FR and NL text to 1377 and 1378 by dklongley
+mgh-admin pushDataToGitHub Updated property 1378 by dklongley
