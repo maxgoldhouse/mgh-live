@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add prop 6281570139054258129 by dklongley
+mgh-admin pushDataToGitHub Sold banner property 1338 by dklongley
