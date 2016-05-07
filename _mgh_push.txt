@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Sold banner property 1338 by dklongley
+mgh-admin pushDataToGitHub SOLD Banner property 1268 by dklongley
