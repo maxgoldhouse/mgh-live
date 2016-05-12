@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub FR and NLtext for property 6283513316841836849 1380 by dklongley
+mgh-admin pushDataToGitHub NL and FR text for property pid 6281570139054258129 by dklongley
