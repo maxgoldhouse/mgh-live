@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub SOLD by Manfred property 1212 sold sign on by dklongley
+mgh-admin pushDataToGitHub barrio El Raso to Guadamar del Segura property 1378 by dklongley
