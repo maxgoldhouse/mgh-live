@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub price down from 550k to 495k property 1304 by dklongley
+mgh-admin pushDataToGitHub NL and FR translations for property 6286715309561202401 and SOLD sign on 1374 by dklongley
