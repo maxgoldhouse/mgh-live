@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 6288615489263572737 from 500 to 550 sqm plot by dklongley
+mgh-admin pushDataToGitHub DE text property 6288615489263572737 by dklongley
