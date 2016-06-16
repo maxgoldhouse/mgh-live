@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub DE text for 6286715309561202401 6294289576859152241 1356 6288610161898644097 6281570139054258129 by dklongley
+mgh-admin pushDataToGitHub Updated property 6294146277503588449 FR and NL text by dklongley
