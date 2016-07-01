@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1341 Removed until Cedula sorted out by dklongley
+mgh-admin pushDataToGitHub Property 1332 reduce price from 230k to 220k by dklongley
