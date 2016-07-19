@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1378 by ellen
+mgh-admin pushDataToGitHub price down from 198k to 189k property 1086 by dklongley
