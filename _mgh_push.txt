@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 136402 from 188k to 193k 1372 178500 to 182000 1301 108200 to 147200 1302 119200 to 135200 by dklongley
+mgh-admin pushDataToGitHub Updated property 1301 and 1302 with updated prices in descriptions by dklongley
