@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub change property 1316 price down to 161k by dklongley
+mgh-admin pushDataToGitHub removed huge list from Ellen by dklongley
