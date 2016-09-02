@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 6321644595825739921 NL and FR texts from Ellen by dklongley
+mgh-admin pushDataToGitHub Updated property 1321 by dklongley
