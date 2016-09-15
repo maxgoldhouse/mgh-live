@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add property 6329751985249804625 punta prima penthouse apartment 1399 AP2-PP000156 by photos
+mgh-admin pushDataToGitHub Updated property 6329751985249804625 FR and NL translations from Ellen by dklongley
