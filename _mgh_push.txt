@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 6329751985249804625 FR and NL translations from Ellen by dklongley
+mgh-admin pushDataToGitHub Sold sign on property 6283513316841836849 Ellen by dklongley
