@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub add rental property 6330872534057997953 1400 for sale as 1390 by dklongley
+mgh-admin pushDataToGitHub Updated property 6330872534057997953 with 1400 EUR for underbuild rental inc by dklongley
