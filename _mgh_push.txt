@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub SOLD sign on property 1316 Ellen by dklongley
+mgh-admin pushDataToGitHub New Quad hous in LosAltos property id 6335763503649914849 by dklongley
