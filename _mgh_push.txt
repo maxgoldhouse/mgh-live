@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add props 6338349372967596801 6338349770267206257 1408 and 1409 2bed bungalow apt and 3bed townhouse in Los Balcones Los Lagos by dklongley
+mgh-admin pushDataToGitHub Updated property 6338349770267206257 and 6338349372967596801 after failed build 18963115 by dklongley
