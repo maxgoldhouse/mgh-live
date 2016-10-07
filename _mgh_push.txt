@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 6335763503649914849 FR NL text Ellen by photos
+mgh-admin pushDataToGitHub Updated properties 6337596029063108833 and 6337579126495352673 FR and NL text Ellen by photos
