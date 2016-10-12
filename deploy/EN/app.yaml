@@ -17,3 +17,6 @@ handlers:
 - url: /favicon.ico
   static_files: favicon.ico
   upload: favicon.ico
+  
+error_handlers:
+- file: static/error.html
