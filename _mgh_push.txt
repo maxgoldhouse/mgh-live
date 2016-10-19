@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Many DE translations by dklongley
+mgh-admin pushDataToGitHub FR and NL property 6342774991761720913 and added OASIS PLACE Apts and Townhouses by dklongley
