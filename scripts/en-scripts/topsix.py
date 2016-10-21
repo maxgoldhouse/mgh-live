@@ -31,7 +31,7 @@ def getpropfirstpic(album):
 	myfile = open(_mghsettings.PICFOLDER+row['strpropertyid']+".pics","r")
 	mylines = list(myfile)
 	myfile.close()
-	return mylines[0].replace('/s0/','/s400/')
+	return mylines[0].replace('/s0/','/s400/').replace('/s640/','/s400/')
 
 topsixdict['title'] = 'Villamartin Property for Sale, Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada Costa Blanca Spain'
 topsixdict['keywords'] = 'Villamartin Property for sale, Playa Flamenca, Cabo Roig, Guardamar del Segura and Ciudad Quesada'
@@ -60,7 +60,7 @@ for fetchprop in thetopsix:
         prop['price'] = 'SOLD'
     else:
         prop['price'] = ''
-    prop['img'] = row['pics'][0].replace('/s0/','/s400/')
+    prop['img'] = row['pics'][0].replace('/s0/','/s400/').replace('/s640/','/s400/')
     topsixdict['props'].append(prop)
 '''
 for item in topsixdict['props']:
@@ -100,7 +100,7 @@ for eachprop in _mgh_data.proplists['All']:
         prop['frequency']= ''
     else:
     	prop['price'] = ''
-    prop['img'] = row['pics'][0].replace('/s0/','/s400/')
+    prop['img'] = row['pics'][0].replace('/s0/','/s400/').replace('/s640/','/s400/')
     allprops['props'].append(prop)
 '''
 for item in allprops['props']:

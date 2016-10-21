@@ -48,7 +48,7 @@ for fetchprop in thetopsix:
 		prop['price'] = 'VERKOCHT'
 	else:
 		prop['price'] = ''
-	prop['img'] = row['pics'][0].replace('/s0/','/s400/')
+	prop['img'] = row['pics'][0].replace('/s0/','/s400/').replace('/s640/','/s400/')
 	topsixdict['props'].append(prop)
 
 outputText = template.render(topsixdict)
@@ -99,7 +99,7 @@ for eachprop in _mgh_data.proplists['All']:
     	prop['price'] = '<span style="color:red;">VERHUURD</span>'
     else:
     	prop['price'] = ''
-    prop['img'] = row['pics'][0].replace('/s0/','/s400/')
+    prop['img'] = row['pics'][0].replace('/s0/','/s400/').replace('/s640/','/s400/')
     allprops['props'].append(prop)
 
 outputText = template.render(allprops)

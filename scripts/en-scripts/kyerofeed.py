@@ -40,7 +40,7 @@ for eachprop in _mgh_data.proplists['kyero']:
 		for pic in row['pics']:
 		    picurldict = {}
 		    picurldict['id'] = slidecount
-		    picurldict['img'] = pic.strip()
+		    picurldict['img'] = pic.strip().replace('s640','s0')
 		    picurldictlist.append(picurldict)
 		    slidecount += 1
 
