@@ -102,9 +102,7 @@ for eachprop in _mgh_data.proplists['All']:
     prop['img'] = row['pics'][0].replace('/s0/','/s400/').replace('/s640/','/s400/')
     allprops['props'].append(prop)
 
-#for item in allprops['props']:
-	#for key in item:
-		#print item[key]
+
 
 outputText = template.render(allprops)
 #print outputText
