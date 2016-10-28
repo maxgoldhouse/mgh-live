@@ -1059,4 +1059,4 @@ props={
 "plot":"2400","fireplace":"True","heating":"True","aircon":"True","kitchen":"separate","utility":"True",
 "solarium":"False","balconies":"3","furnished":"fully","topsix":"False","salestage":"0","beach":"True",
 "golf":"False","luxury":"True","finca":"False","penthouse":"False","EUR":""}
-}<div id="techsmith-snagitchrome-extension"></div></body></html>
+}
