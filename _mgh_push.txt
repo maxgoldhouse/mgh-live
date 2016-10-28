@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated images for 1421property 6346460632919937553 by dklongley
+mgh-admin pushDataToGitHub Updated property 6346150810285321745 DE Text Mfd by dklongley
