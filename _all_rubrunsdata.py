@@ -1578,7 +1578,7 @@ rubruns=[
 },
 "pagename_en":"torre-de-la-horadada-property-south-costa-blanca-",
 "pagename_nl":"Eigendom-te-koop-in-torre-de-la-horadada-Costa-Blanca-Zuid-",
-"pagename_fr":"Propriete-a-vendre-a-torrre-de-la-horadada-Costa-Blanca-Sud-",
+"pagename_fr":"Propriete-a-vendre-a-torre-de-la-horadada-Costa-Blanca-Sud-",
 "pagename_de":"torre-de-la-horadada-Immobilien-costa-blanca-sud-"
 },
 {
