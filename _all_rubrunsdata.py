@@ -1520,6 +1520,68 @@ rubruns=[
 "pagename_de":"rocio-del-mar-Immobilien-costa-blanca-sud-"
 },
 {
+"rubrun":"pilar-de-la-horadada",
+"query":"SELECT * FROM  mghprops WHERE  blndisplay = 1 AND blnrental = 0 AND strlocation_detail IN('Pilar de la Horadada') ORDER BY intprice ASC",
+"EN":{
+"description":"Pilar de la Horadada property for sale in Costa Blanca South",
+"keywords":"Pilar de la Horadada apartments, Pilar de la Horadada townhouses, Pilar de la Horadada villas, Costa Blanca South, Spain",
+"title":"Pilar de la Horadada property for sale South Costa Blanca",
+"h1":"Pilar de la Horadada Property For Sale"},
+"FR":{
+"description":"Propriété à vendre à Pilar de la Horadada, Costa Blanca Sud",
+"keywords":"Appartements Pilar de la Horadada, maisons mitoyennes Pilar de la Horadada, villas Pilar de la Horadada, Costa Blanca Sud, Espagne",
+"title":"Propriété à vendre Pilar de la Horadada, Costa Blanca Sud",
+"h1":"Propriété à vendre Pilar de la Horadada"
+},
+"DE":{
+"description":"Pilar de la Horadada Immobilien zu verkaufen in Costa Blanca S&uuml;d",
+"keywords":"Pilar de la Horadada Ferienwohnungen, Pilar de la Horadada Stadth&auml;user, Pilar de la Horadada villas, Costa Blanca S&uuml;d, Spanien",
+"title":"Pilar de la Horadada Immobilien zu verkaufen Costa Blanca S&uuml;d",
+"h1":"Pilar de la Horadada Immobilien zu verkaufen"
+},
+"NL":{
+"description":"Eigendom te koop in Pilar de la Horadada, Costa Blanca Zuid",
+"keywords":"Appartementen Pilar de la Horadada, geschakelde woningen Pilar de la Horadada, villa's Pilar de la Horadada, Costa Blanca Zuid, Spanje",
+"title":"Eigendom te koop Pilar de la Horadada, Costa Blanca Zuid",
+"h1":"Eigendom te koop Pilar de la Horadada"
+},
+"pagename_en":"pilar-de-la-horadada-property-south-costa-blanca-",
+"pagename_nl":"Eigendom-te-koop-in-pilar-de-la-horadada-Costa-Blanca-Zuid-",
+"pagename_fr":"Propriete-a-vendre-a-pilar-de-la-horadada-Costa-Blanca-Sud-",
+"pagename_de":"pilar-de-la-horadada-Immobilien-costa-blanca-sud-"
+},
+{
+"rubrun":"torre-de-la-horadada",
+"query":"SELECT * FROM  mghprops WHERE  blndisplay = 1 AND blnrental = 0 AND strlocation_detail IN('Torre de la Horadada') ORDER BY intprice ASC",
+"EN":{
+"description":"Torre de la Horadada property for sale in Costa Blanca South",
+"keywords":"Torre de la Horadada apartments, Torre de la Horadada townhouses, Torre de la Horadada villas, Costa Blanca South, Spain",
+"title":"Torre de la Horadada property for sale South Costa Blanca",
+"h1":"Torre de la Horadada Property For Sale"},
+"FR":{
+"description":"Propriété à vendre à Torre de la Horadada, Costa Blanca Sud",
+"keywords":"Appartements Torre de la Horadada, maisons mitoyennes Torre de la Horadada, villas Torre de la Horadada, Costa Blanca Sud, Espagne",
+"title":"Propriété à vendre Torre de la Horadada, Costa Blanca Sud",
+"h1":"Propriété à vendre Torre de la Horadada"
+},
+"DE":{
+"description":"Torre de la Horadada Immobilien zu verkaufen in Costa Blanca S&uuml;d",
+"keywords":"Torre de la Horadada Ferienwohnungen, Torre de la Horadada Stadth&auml;user, Torre de la Horadada villas, Costa Blanca S&uuml;d, Spanien",
+"title":"Torre de la Horadada Immobilien zu verkaufen Costa Blanca S&uuml;d",
+"h1":"Torre de la Horadada Immobilien zu verkaufen"
+},
+"NL":{
+"description":"Eigendom te koop in Torre de la Horadada, Costa Blanca Zuid",
+"keywords":"Appartementen Torre de la Horadada, geschakelde woningen Torre de la Horadada, villa's Torre de la Horadada, Costa Blanca Zuid, Spanje",
+"title":"Eigendom te koop Torre de la Horadada, Costa Blanca Zuid",
+"h1":"Eigendom te koop Torre de la Horadada"
+},
+"pagename_en":"torre-de-la-horadada-property-south-costa-blanca-",
+"pagename_nl":"Eigendom-te-koop-in-torre-de-la-horadada-Costa-Blanca-Zuid-",
+"pagename_fr":"Propriete-a-vendre-a-torrre-de-la-horadada-Costa-Blanca-Sud-",
+"pagename_de":"torre-de-la-horadada-Immobilien-costa-blanca-sud-"
+},
+{
 "rubrun":"la-manga",
 "query":"SELECT * FROM  mghprops WHERE  blndisplay = 1 AND blnrental = 0 AND strlocation_detail Like 'La Manga%' ORDER BY intprice ASC",
 "EN":{
