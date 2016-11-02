@@ -71,7 +71,7 @@
   <div id="projector">
   <amp-carousel width="640" height="480" layout="responsive" type="slides" autoplay delay="3200">
     {% for img in images %}
-    <amp-img src="{{img['src']}}" width="640" height="480" layout="responsive"></amp-img>
+    <amp-img src="{{img['src']|replace("/s35-p/", "/s640/")}}" width="640" height="480" layout="responsive"></amp-img>
     {% endfor %}
   </amp-carousel>
 </div>
