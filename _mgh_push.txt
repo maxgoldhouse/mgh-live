@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Removed a load of SOLD stuff list from Manfred Sat Nov 5 by dklongley
+mgh-admin pushDataToGitHub DE text for a bunch of props Manfred 4 Nov 2016 by dklongley
