@@ -84,6 +84,7 @@
 <div class="panel-body">
 <div class="row">
   <div class="col-sm-8" id="slideshow">
+    {% if underoffersold == '2' %} <div class="sold">VENDU</div> {% elif underoffersold == '3' %} <div class="rented">LOUE</div> {% elif underoffersold == '1' %} <div class="stc">SOUS COMPROMIS</div> {% endif %}
     <div style="max-width:960px;">
       <amp-carousel width="960" height="720" layout="responsive" type="slides" autoplay delay="3200">
             {% for img in images %}
