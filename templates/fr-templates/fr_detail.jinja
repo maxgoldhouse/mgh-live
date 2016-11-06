@@ -8,6 +8,9 @@
 <link rel="alternate" hreflang="de" href="https://de.maxgoldhouse.com/{{propurl_de}}" />
 <link rel="alternate" hreflang="nl" href="https://nl.maxgoldhouse.com/{{propurl_nl}}" />
 <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+<script async src="https://cdn.ampproject.org/v0.js"></script>
 <script type="text/javascript"></script>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <!-- Latest compiled and minified CSS -->
@@ -55,7 +58,7 @@
 
 <div class="container-fluid" id="container">
 <div class="row">
-<div class="col-md-8 col-md-push-3" id="content">
+<div class="col-md-12" id="content">
 
 <script type="text/javascript">
 //<![CDATA[
@@ -66,32 +69,32 @@
 //]]>
 </script>
 <div class="panel panel-default" id="property_box">
-<div class="panel-heading">
-<a name="top">
-<h1 class="panel-title">
-<div class="pull-right"> {{price}} {{frequency}}</div>
-{{locationdetail}} - {{proptype}} {{saleorrent}} ref: {{propref}}
-</h1>
-</a>
-</div>
+
+  <div class="panel-heading">
+    <a name="top">
+  <h1 class="panel-title">
+  <div class="pull-right">{{price}} {{frequency}}</div>
+  <a class="btn-property-back" href="javascript:history.back();">
+  <img width="30" height="30" title="" alt="" src="data:image/png;base64,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" />
+  </a>  {{locationdetail}} - {{proptype}} for {{saleorrent}} ref: {{propref}}
+  </h1>
+  </a>
+
+  </div>
+
+
 <div class="panel-body">
 <div class="row">
 <div class="col-sm-8" id="slideshow">
-<div id="projector">
-{% if underoffersold == '2' %} <div class="sold">VENDU</div> {% elif underoffersold == '3' %} <div class="rented">LOUE</div> {% elif underoffersold == '1' %} <div class="stc">SOUS COMPROMIS</div> {% endif %}
-<img showing="1" id="show" src="{{firstimg}}"/><br/>
-
-<div style="display: inline">
-<div id="mando"><span title="previous image" class="back"><<</span><span title="next image" class="forward">>></span><span title="start the slideshow" class="start">></span><span title="pause the slideshow" class="pause">&nbsp;||</span></div>
-{% for img in images %}
-  {% if loop.first %}
-    <img slide="{{img['slide']}}" class="thumb current" src="{{img['src']}}"/>
-  {% else %}
-    <img slide="{{img['slide']}}" class="thumb" src="{{img['src']}}"/>
-  {% endif %}
-{% endfor %}
-</div>
-</div>
+  <div class="col-sm-8" id="slideshow">
+    <div style="max-width:960px;">
+      <amp-carousel width="960" height="720" layout="responsive" type="slides" autoplay delay="3200">
+            {% for img in images %}
+      <amp-img src="{{img['src']|replace("/s35-p/", "/s640/")}}" width="640" height="480" layout="responsive"></amp-img>
+      {% endfor %}
+      </amp-carousel>
+  </div>
+  </div>
 
 </div>
 <div class="col-sm-4" id="enquiry_right">
@@ -188,83 +191,6 @@ Prijs : <strong>{{price}} {{frequency}}</strong> Ref : <strong>{{propref}}</stro
 </div>
 
 </div>
-<div class="col-md-3 col-md-pull-8" id="subnav"><div class="panel" id="back-to-search-results">
-<a class="btn btn-block btn-warning" href="javascript:history.back();">
-<i class="fa fa-arrow-left"></i>
-page précédente
-</a>
-</div>
-<div class="panel panel-default" id="search">
-  <div class="panel-heading">
-    <h3 class="panel-title">
-        Chercher fr.maxgoldhouse.com
-    </h3>
-  </div>
-<div class="panel-body">
-<h5>Chercher par prix</h5>
-<ul>
-<a targ="/budget/1" href="Propriete-a-Costa-Blanca-jusqu-a-100000-euro-0.html"><li>jusqu'à &euro;100,000&nbsp;&nbsp;</li></a>
-<a targ="/budget/2" href="Propriete-a-Costa-Blanca-de-100000-euro-a-200000-euro-0.html"><li>&euro;100,000-&euro;200,000&nbsp;&nbsp;</li></a>
-<a targ="/budget/3" href="Propriete-a-Costa-Blanca-de-200000-euro-a-300000-euro-0.html"><li>&euro;200,000-&euro;300,000&nbsp;&nbsp;</li></a>
-<a targ="/budget/4" href="Propriete-a-Costa-Blanca-de-300000-euro-a-400000-euro-0.html"><li>&euro;300,000-&euro;400,000&nbsp;&nbsp;</li></a>
-<a targ="/budget/5" href="Propriete-a-Costa-Blanca-de-400000-euro-a-500000-euro-0.html"><li>&euro;400,000-&euro;500,000&nbsp;&nbsp;</li></a>
-<a targ="/budget/6" href="Propriete-a-Costa-Blanca-de-500000-euro-a-600000-euro-0.html"><li>&euro;500,000-&euro;600,000&nbsp;&nbsp;</li></a>
-<a targ="/budget/7" href="Propriete-a-Costa-Blanca-de-600000-euro-a-700000-euro-0.html"><li>&euro;600,000-&euro;700,000&nbsp;&nbsp;</li></a>
-<a targ="/budget/8" href="Propriete-a-Costa-Blanca-de-700000-euro-a-800000-euro-0.html"><li>&euro;700,000-&euro;800,000&nbsp;&nbsp;</li></a>
-<a targ="/budget/9" href="Propriete-a-Costa-Blanca-de-800000-euro-a-900000-euro-0.html"><li>&euro;800,000-&euro;900,000&nbsp;&nbsp;</li></a>
-<a targ="/budget/9plus" href="Propriete-a-Costa-Blanca-a-partir-de-900000-euro-0.html"><li>&nbsp;&nbsp;&euro;900,000 +&nbsp;&nbsp;</li></a>
-</ul>
-</div>
-
-<div class="panel-body"><p class="h5">Chercher par type de propriété</p>
-<ul>
-<a targ="Type/Apartment" href="Appartements-a-vendre-Costa-Blanca-Sud-0.html"><li>Appartements</li></a>
-<a targ="Type/Townhouse" href="Maisons-mitoyennes-Costa-Blanca-Sud-0.html"><li>Maisons mitoyennes</li></a>
-<a targ="Type/Semi-Detached-Villa" href="Villas-jumelees-Costa-Blanca-Sud-0.html"><li>Villas jumel&eacute;es</li></a>
-<a targ="Type/Detached-Villa" href="Villas-Costa-Blanca-Sud-0.html"><li>Villas Individuelles</li></a>
-<a targ="Type/Quadhouse" href="Maisons-mitoyennes-quatre-Costa-Blanca-Sud-0.html"><li>Maisons mitoyennes (quatre sous un m&ecirc;me toit)</li></a>
-<a targ="Type/Fincas" href="Fincas-et-maisons-de-campagne-Costa-Blanca-Sud-0.html"><li>Fincas et maisons de campagne</li></a>
-<a targ="Type/Beachfront" href="Propriete-sur-la-plage-Costa-Blanca-Sud-0.html"><li>propri&eacute;t&eacute; plage</li></a>
-<a targ="Type/Golf" href="Propriete-sur-le-golf-resort-Costa-Blanca-Sud-0.html"><li>Propri&eacute;t&eacute; golf</li></a>
-<a targ="Type/business" href="Batiments-commerciaux-Costa-Blanca-Sud-0.html"><li>B&acirc;timents commerciaux</li></a>
-<a targ="Type/KeyReady" href="nouvelles-constructions-Costa-Blanca-Sud-0.html"><li>Maisons clé sur porte</li></a>
-<a targ="Type/Penthouse" href="Appartements-a-deux-etages-Costa-Blanca-Sud-0.html"><li>Penthouses</li></a>
-<a targ="Type/Luxury" href="Propriete-de-luxe-a-vendre-Costa-Blanca-Sud-0.html"><li>Propri&eacute;t&eacute; de luxe</li></a>
-</ul>
-<p class="h5">Chercher par nom de lieu</p>
-<ul>
-<a targ="popular/top6" href="index.html"><li>Offres sp&eacute;ciales</li></a>
-<a targ="popular/OrihuelaCosta" href="Propriete-a-vendre-a-Orihuela-Costa-Costa-Blanca-Sud-0.html"><li>Orihuela Costa</li></a>
-<a targ="popular/Villamartin" href="Propriete-a-vendre-a-Villamartin-Costa-Blanca-Sud-0.html"><li>Villamartin</li></a>
-<a targ="popular/PlayaFlamenca" href="Propriete-a-vendre-a-Playa-Flamenca-Costa-Blanca-Sud-0.html"><li>Playa Flamenca</li></a>
-<a targ="popular/CaboRiog" href="Propriete-a-vendre-a-Cabo-Roig-Costa-Blanca-Sud-0.html"><li>Cabo Roig</li></a>
-<a targ="popular/Guardamar" href="Propriete-a-vendre-a-Guardamar-del-Segura-Costa-Blanca-Sud-0.html"><li>Guardamar del Segura</li></a>
-<a targ="popular/Quesada" href="Propriete-a-vendre-a-Quesada-Costa-Blanca-Sud-0.html"><li>Ciudad Quesada</li></a>
-<a targ="popular/LaZenia" href="Propriete-a-vendre-a-La-ZeniaCosta-Blanca-Sud-0.html"><li>La Zenia</li></a>
-<a targ="popular/LosBalcones" href="Propriete-a-vendre-a-Los-Balcones-Costa-Blanca-Sud-0.html"><li>Los Balcones</li></a>
-<a targ="popular/PuntaPrima" href="Propriete-a-vendre-a-Punta-Prima-Costa-Blanca-Sud-0.html"><li>Punta Prima</li></a>
-<a targ="popular/PilardelaHoradada" href="Propriete-a-vendre-a-pilar-de-la-horadada-Costa-Blanca-Sud-0.html"><li>Pilar de la Horadada</li></a>
-<a targ="popular/TorredelaHoradada" href="Propriete-a-vendre-a-torre-de-la-horadada-Costa-Blanca-Sud-0.html"><li>Torre de la Horadada</li></a>
-</ul>
-</div>
-</div>
-<div class="panel panel-default" id="local_information">
-  <div class="panel-heading">
-
-  </div>
-  <div class="panel-body">
-<ul class="last">
-<!--<li><a href="{{areamap}}">Map of This Place</a></li>
-<li><a href="{{proptype}}.html">{{proptype}}</a></li>
-<li><a href="{{locationdetail}}.html">More property in {{locationdetail}}</a></li>
-<li><a href="{{prevpricerangepage}}">Cheaper property</a></li>
-<li><a href="{{nextpricerangepage}}">More expensive property</a></li>
--->
-</ul>
-</div>
-</div>
-
-</div>
 </div>
 <div id="footer">
 <div class="" id="bottom_nav">
@@ -281,6 +207,7 @@ page précédente
 <script src="/js/mgh.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
