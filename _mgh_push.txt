@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub DE text for a bunch of props Manfred 4 Nov 2016 by dklongley
+mgh-admin pushDataToGitHub SOLD sign on property 6346120752481040465 by dklongley
