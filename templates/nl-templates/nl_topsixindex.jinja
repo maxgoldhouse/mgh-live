@@ -121,6 +121,9 @@
 <div class="row">
 <!-- Loop through topsix -->
 {% for item in props %}
+{% if item['proptype'] == 'mghoffer' %}
+  {{item['offerHTML']}}
+{% else %}
 <div class="featured_property_wrap col-sm-4">
 <a href="{{ item['propurl'] }}" class="no_float property_thumb"><img alt="{{item['locationdetail']}} {{item['proptype']}} for {{item['saleorrent']}}" class="img-thumbnail featured_property_thumbnail" src="{{item['img']}}" title="{{item['locationdetail']}} {{item['proptype']}} for {{item['saleorrent']}}"></a>
 <ul>
@@ -138,6 +141,7 @@
 <div class="row">
 {% elif loop.last %}
 
+{% endif %}
 {% endif %}
 {% endfor %}
 </div>
