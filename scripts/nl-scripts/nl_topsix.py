@@ -54,7 +54,7 @@ for fetchprop in thetopsix:
 ### insert the accommodation offer into the position 1of the list
 prop = {}
 prop['proptype'] = 'mghoffer'
-prop['offerHTML'] = '<div class="featured_property_wrap col-sm-4"><style>#offer{font-size:20px;} .mgh-offer{text-align:center;}</style><div class="mgh-offer"><img src="//lh3.googleusercontent.com/-GTT16P545Io/WA8sWvHiQZI/AAAAAAAAP6o/8rxFFVCigjwJ_o2_7QVO7SU-NCs_dFAHACL0B/s0-rj/150-euros.jpg" class="img-thumbnail img-circle img-responsive"><div id="offer">Kunnen wij betalen<br/>uw hotelrekening?</div><div class="col-sm-offset-1"><a href="/accomodatie.html"><button class="btn btn-success">Vertel me meer</button></a></div></div></div>'
+prop['offerHTML'] = '<div class="featured_property_wrap col-sm-4"><style>#offer{font-size:20px;} .mgh-offer{text-align:center;}</style><div class="mgh-offer"><img src="//lh3.googleusercontent.com/-GTT16P545Io/WA8sWvHiQZI/AAAAAAAAP6o/8rxFFVCigjwJ_o2_7QVO7SU-NCs_dFAHACL0B/s0-rj/150-euros.jpg" class="img-thumbnail img-circle img-responsive"><div id="offer">Kunnen wij uw <br/>hotelrekening betalen</div><div class="col-sm-offset-1"><a href="/accomodatie.html"><button class="btn btn-success">Vertel me meer</button></a></div></div></div>'
 topsixdict['props'].insert(1,prop)
 
 
