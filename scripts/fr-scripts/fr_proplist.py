@@ -59,9 +59,9 @@ for rubrun in _all_rubrunsdata.rubruns:
 			saleorrent = 'à vendre'
 		prop = {}
 		if row['FR'][:400][-1] == '\xc3':
-		  prop['description'] = row['FR'][:399]
+		  prop['description'] = row['FR'][:399].decode('utf-8')
 		else:
-		  prop['description'] = row['FR'][:400]
+		  prop['description'] = row['FR'][:400].decode('utf-8')
 		if int(row['beds']) == 1:
 			chambre = ' chambre'
 		elif int(row['beds']) > 1:
