@@ -72,12 +72,12 @@ for eachprop in _mgh_data.proplists['All']:
     else:
     	saleorrent = 'à vendre'
     prop = {}
-    prop['fulldescription'] = row['FR'].decode('utf-8')
+    prop['fulldescription'] = row['FR']
     #prop['description'] = removefrchars(row['strdescription_FR'][:400])
     if row['FR'][:400][-1] == '\xc3':
-		prop['description'] = row['FR'][:399].decode('utf-8')
+		prop['description'] = row['FR'][:399]
     else:
-		prop['description'] = row['FR'][:400].decode('utf-8')
+		prop['description'] = row['FR'][:400]
     if int(row['beds']) == 1:
 		chambre = ' chambre'
     elif int(row['beds']) > 1:

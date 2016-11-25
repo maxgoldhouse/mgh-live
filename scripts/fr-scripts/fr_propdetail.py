@@ -56,7 +56,7 @@ for prop in _mgh_data.props:
 		pool = 'Non'
 	propdict = {}
 	propdict['props'] = []
-	propdict['propdescription'] = row['FR'].decode('utf-8')
+	propdict['propdescription'] = row['FR']
 	propdict['saleorrent'] = saleorrent
 	propdict['beds'] = row['beds']
 	if int(row['beds']) == 1:
