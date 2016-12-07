@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 6360647576660097377 by dklongley
+mgh-admin pushDataToGitHub Updated 12 props DE from Manfred by dklongley
