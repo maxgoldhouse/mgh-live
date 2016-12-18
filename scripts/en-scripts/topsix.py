@@ -60,7 +60,7 @@ for fetchprop in thetopsix:
         prop['price'] = 'SOLD'
     else:
         prop['price'] = ''
-    prop['img'] = row['pics'][0].replace('/s0/','/s400/').replace('/s640/','/s400/')
+    prop['img'] = row['pics'][0].replace('/s0/','/s240-e30-v2/').replace('/s640/','/s240-e30-v2/')
     topsixdict['props'].append(prop)
 '''
 for item in topsixdict['props']:
@@ -106,7 +106,7 @@ for eachprop in _mgh_data.proplists['All']:
         prop['frequency']= ''
     else:
     	prop['price'] = ''
-    prop['img'] = row['pics'][0].replace('/s0/','/s400/').replace('/s640/','/s400/')
+    prop['img'] = row['pics'][0].replace('/s0/','/s400-e30-v2/').replace('/s640/','/s400-e30-v2/')
     allprops['props'].append(prop)
 '''
 for item in allprops['props']:

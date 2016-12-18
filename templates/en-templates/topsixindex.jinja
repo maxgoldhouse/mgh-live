@@ -200,7 +200,6 @@ margin-right: 8px;
 </div>
 </div>
 </div>
-
 <div class="xhidden-xs">
 <div class="panel panel-default" id="featured_properties">
 
@@ -218,7 +217,7 @@ margin-right: 8px;
   {{item['offerHTML']}}
 {% else %}
 <div class="featured_property_wrap col-sm-4">
-<a href="{{ item['propurl'] }}" class="no_float property_thumb"><img alt="{{item['locationdetail']}} {{item['proptype']}} for {{item['saleorrent']}}" class="img-thumbnail featured_property_thumbnail" src="{{item['img']|replace("/s400/", "/s240/")}}" title="{{item['locationdetail']}} {{item['proptype']}} for {{item['saleorrent']}}"></a>
+<a href="{{ item['propurl'] }}" class="no_float property_thumb"><img alt="{{item['locationdetail']}} {{item['proptype']}} for {{item['saleorrent']}}" class="img-thumbnail featured_property_thumbnail" src="{{item['img']}}" title="{{item['locationdetail']}} {{item['proptype']}} for {{item['saleorrent']}}"></a>
 <ul>
 {% if item['propopt'] == 'MORTGAGE OFFER' %}
 <li class="propopt">{{item['propopt']}}</li>
