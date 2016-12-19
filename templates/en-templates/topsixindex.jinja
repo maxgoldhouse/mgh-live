@@ -115,6 +115,44 @@ margin-right: 8px;
  #navbar_logo{max-width:75%}
  #navbar_logo img{max-width:100%}
 }
+#navlist {position: relative;margin-right:90px;}
+#navlist li {margin: 0;padding: 0;list-style: none;/*position: absolute;*/}
+#navlist li, #navlist a {height: 24px;display: block;margin-top: 10px;}
+.flag_EN {
+    left: 0px;
+    width: 24px;
+    background: url('https://lh3.googleusercontent.com/7NRPZD3CRbDd4_3uLTaQM1IMw7amAXMf1AWUMi-55DsS9AkSBgf4OZSf5isKfkFzXMA7xsWYfpop4jAGFwsoORiocIb-SLL86A=s144-no-e365') -72px 0;
+}
+.flag_FR {
+    left: 20px;
+    width: 24px;
+    background: url('https://lh3.googleusercontent.com/7NRPZD3CRbDd4_3uLTaQM1IMw7amAXMf1AWUMi-55DsS9AkSBgf4OZSf5isKfkFzXMA7xsWYfpop4jAGFwsoORiocIb-SLL86A=s144-no-e365') -96px 0;
+}
+.flag_B_FR {
+    left: 28px;
+    width: 24px;
+    background: url('https://lh3.googleusercontent.com/7NRPZD3CRbDd4_3uLTaQM1IMw7amAXMf1AWUMi-55DsS9AkSBgf4OZSf5isKfkFzXMA7xsWYfpop4jAGFwsoORiocIb-SLL86A=s144-no-e365') -24px 0;
+}
+.flag_NL {
+    left: 54px;
+    width: 24px;
+    background: url('https://lh3.googleusercontent.com/7NRPZD3CRbDd4_3uLTaQM1IMw7amAXMf1AWUMi-55DsS9AkSBgf4OZSf5isKfkFzXMA7xsWYfpop4jAGFwsoORiocIb-SLL86A=s144-no-e365') -120px 0;
+}
+.flag_B_NL {
+    left: 54px;
+    width: 24px;
+    background: url('https://lh3.googleusercontent.com/7NRPZD3CRbDd4_3uLTaQM1IMw7amAXMf1AWUMi-55DsS9AkSBgf4OZSf5isKfkFzXMA7xsWYfpop4jAGFwsoORiocIb-SLL86A=s144-no-e365') -24px 0;
+}
+.flag_DE {
+    left: 78px;
+    width: 24px;
+    background: url('https://lh3.googleusercontent.com/7NRPZD3CRbDd4_3uLTaQM1IMw7amAXMf1AWUMi-55DsS9AkSBgf4OZSf5isKfkFzXMA7xsWYfpop4jAGFwsoORiocIb-SLL86A=s144-no-e365') -48px 0;
+}
+.flag_AT {
+    left: 78px;
+    width: 24px;
+    background: url('https://lh3.googleusercontent.com/7NRPZD3CRbDd4_3uLTaQM1IMw7amAXMf1AWUMi-55DsS9AkSBgf4OZSf5isKfkFzXMA7xsWYfpop4jAGFwsoORiocIb-SLL86A=s144-no-e365') 0 0;
+}
 
 </style>
 <link rel="shortcut icon" href="/img/favicon.ico" />
@@ -138,13 +176,21 @@ margin-right: 8px;
 <li><a href="costa-blanca-holiday-rental-property-0.html">Holiday Rental</a></li>
 <li><a href="buying-process.html">The Buying Process</a></li>
 </ul>
-<ul class='nav navbar-nav navbar-right lingo'>
+<!--<ul class='nav navbar-nav navbar-right lingo'>
   <li><a href="https://www.maxgoldhouse.com" title="English"><img src="img/EN.png" alt="English"/></a></li>
   <li><a href="https://fr.maxgoldhouse.com" title="français"> <img src="img/FR.png" alt="français"/> <img src="img/B.png" alt="français"/></a></li>
   <li><a href="https://nl.maxgoldhouse.com" title="Nederlands"><img src="img/NL.png" alt ="Nederlands"/> <img src="img/B.png" alt="Nederlands"/></a></li>
   <li><a href="https://de.maxgoldhouse.com" title="Deutsch"><img src="img/DE.png" alt="Deutsch"/> <img src="img/AT.png" alt="Deutsch"/></a></li>
+</ul> -->
+<ul id="navlist" class="nav navbar-nav navbar-right lingo">
+  <li class="flag_EN"><a href="https://www.maxgoldhouse.com" title="English"></a></li>
+  <li class="flag_FR"><a href="https://fr.maxgoldhouse.com" title="français"></a></li>
+  <li class="flag_B_FR"><a href="https://fr.maxgoldhouse.com" title="français"></a></li>
+  <li class="flag_NL"><a href="https://nl.maxgoldhouse.com" title="Nederlands"></a></li>
+  <li class="flag_B_NL"><a href="https://nl.maxgoldhouse.com" title="Nederlands"></a></li>
+  <li class="flag_DE"><a href="https://de.maxgoldhouse.com" title="Deutsch"></a></li>
+  <li class="flag_AT"><a href="https://de.maxgoldhouse.com" title="Deutsch"></a></li>
 </ul>
-
 </div>
 </div>
 <div class="row" id="container">
