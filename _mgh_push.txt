@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Do not display property 1329 contact with owners lost Ellen by dklongley
+mgh-admin pushDataToGitHub Updated property 1192 down from 159500 to 149000 by dklongley
