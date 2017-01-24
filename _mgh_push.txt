@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1192 down from 159500 to 149000 by dklongley
+mgh-admin pushDataToGitHub Add property 6379193314522428833 aprtment 2 bed Los Balcones 78k by dklongley
