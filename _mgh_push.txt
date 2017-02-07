@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub SOLD sign  property 6356525867790364977 price change prop 1378 by mgh
+mgh-admin pushDataToGitHub Added New Photos to property 1378 by mgh
