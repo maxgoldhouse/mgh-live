@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add property 1466 El Chaparral Townhouse bungalow by dklongley
+mgh-admin pushDataToGitHub Add property 1467 Semidetached house Playa Flamenca by dklongley
