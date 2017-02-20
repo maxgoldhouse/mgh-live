@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add property 1467 Semidetached house Playa Flamenca by dklongley
+mgh-admin pushDataToGitHub Sold Sign on property 6346093581458685025 and 1353 and 6338349372967596801 by dklongley
