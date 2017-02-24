@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub remove some sold from view by dklongley
+mgh-admin pushDataToGitHub Add property 1469 Luna Beach Apartments by dklongley
