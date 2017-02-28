@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add property 1469 Luna Beach Apartments by dklongley
+mgh-admin pushDataToGitHub Updated property 1336 by dklongley
