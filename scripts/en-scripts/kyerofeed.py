@@ -49,12 +49,12 @@ for eachprop in _mgh_data.proplists['kyero']:
 			#print pic['img']
 
 	    #prepare the vars to pass to the template
-
+        pooltype = ['yes', 'private', 'community'];
 		if row['rental'] == 'True':
 			saleorrent = 'rent'
 		else:
 			saleorrent = 'sale'
-		if row['pool'].lower() == 'yes':
+		if row['pool'].lower() in pooltype:
 			pool = '1'
 		else:
 			pool = '0'
