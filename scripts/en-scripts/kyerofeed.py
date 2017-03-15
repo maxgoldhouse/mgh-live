@@ -69,7 +69,10 @@ for eachprop in _mgh_data.proplists['kyero']:
 		prop['propdescription_NL'] = row['NL'].replace('&euro;','&#x80;')
 		prop['saleorrent'] = saleorrent
 		prop['date'] = row['lastedited']
-		prop['frequency'] = row['frequency']
+		if prop['offplan'] == 'True':
+    			prop['frequency'] = 'new_build'
+		else:
+    			prop['frequency'] = row['frequency']
 		prop['beds'] = row['beds']
 		prop['baths'] = row['baths']
 		prop['livingarea'] = row['living']
