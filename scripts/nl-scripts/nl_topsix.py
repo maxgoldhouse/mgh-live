@@ -95,8 +95,8 @@ for eachprop in _mgh_data.proplists['All']:
     prop['propref'] = row['ref']
     prop['pool'] = _mghsettings.trans_pooltypes[row['pool'].lower()]['nl']
     prop['propurl'] = propurl
-	prop['town'] = row['town']
-	prop['province'] = row['province']
+    prop['town'] = row['town']
+    prop['province'] = row['province']
     prop['locationdetail']=row['location']
     prop['proptype'] = nl_proptype
     prop['saleorrent']=saleorrent
