@@ -84,12 +84,12 @@ for eachprop in _mgh_data.proplists['All']:
 		prop['description'] = row['DE'][:400]
     prop['beds'] = row['beds']
     prop['baths'] = row['baths']
-	prop['pool'] = _mghsettings.trans_pooltypes[row['pool'].lower()]['fr']
+    prop['pool'] = _mghsettings.trans_pooltypes[row['pool'].lower()]['de']
     prop['propid'] = row['pid']
     prop['propref'] = row['ref']
     prop['propurl'] = propurl
-	prop['town']=row['town']
-	prop['province']=row['province']
+    prop['town']=row['town']
+    prop['province']=row['province']
     prop['locationdetail']=row['location']
     prop['proptype'] = de_proptype
     prop['saleorrent']=saleorrent
