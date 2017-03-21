@@ -210,6 +210,18 @@ Prijs : <strong>{{price}} {{frequency}}</strong> Ref : <strong>{{propref}}</stro
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
 
+function goback(fallbackUrl) {
+    fallbackUrl = fallbackUrl || '/';
+    var prevPage = window.location.href;
+
+    window.history.go(-1);
+
+    setTimeout(function(){ 
+        if (window.location.href == prevPage) {
+            window.location.href = fallbackUrl; 
+        }
+    }, 500);
+}
 </script>
 </div>
 </body>
