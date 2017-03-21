@@ -123,6 +123,6 @@ TEMPLATE_FILE = "taffyDB.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
 outputText = template.render(allprops)
-file = open(_mghsettings.EN_SITEDIR+"allprops.json", "w")
+file = open(_mghsettings.FR_SITEDIR+"allprops.json", "w")
 file.write(outputText)
 file.close()
