@@ -55,3 +55,10 @@ trans_features['price'] = {'de':'Preis','nl':'Leilighet','no':'','es':'Precio','
 trans_features['bathroom']={'de':'Bad','nl':'Leilighet','no':'','es':'Ba&ntilde;o','fr':'bain'}
 trans_features['bed'] = {'de':'Schlafz','nl':'Leilighet','no':'','es':'Dormitorio','fr':'chambre'}
 trans_features['swimming pool'] = {'de':'Schwimmbad','nl':'Leilighet','no':'','es':'Picina','fr':'piscene'}
+
+trans_pooltypes = {}
+trans_pooltypes['private'] = {'de':'privates','fr':'privée','nl':'privé'}
+trans_pooltypes['public'] = {'de':'öffentliches','fr':'publique','nl':'openbaar'}
+trans_pooltypes['community'] = {'de':'Gemeinschafts','fr':'communautaire','nl':'gemeenschappelijk'}
+trans_pooltypes['yes'] = {'de':'Ja','fr':'Oui','nl':'Ja'}
+trans_pooltypes['no'] = {'de':'Nein','fr':'Non','nl':'Nee'}

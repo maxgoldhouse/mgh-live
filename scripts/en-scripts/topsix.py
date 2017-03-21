@@ -90,9 +90,12 @@ for eachprop in _mgh_data.proplists['All']:
     prop['description'] = row['description'][:400]
     prop['beds'] = row['beds']
     prop['baths'] = row['baths']
+    prop['pool'] = row['pool']
     prop['propid'] = row['pid']
     prop['propref'] = row['ref']
     prop['propurl'] = propurl
+    prop['town'] = row['town']
+    prop['province'] = row['province']
     prop['locationdetail']=row['location']
     prop['proptype']=row['ptype']
     prop['saleorrent']= 'sale'
