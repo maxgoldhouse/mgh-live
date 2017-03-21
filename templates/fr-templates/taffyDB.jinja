@@ -1,0 +1,21 @@
+var propsDB = TAFFY([
+{% for item in props %}
+{
+"id":"{{item['propid']}}"
+"date":"{{item['date']}}"
+"ref":"{{item['propref']}}"
+"price":"{{item['price']}}"
+"price_freq":"{{item['frequency']}}"
+"type":"{{item['proptype']}}"
+"town":"{{item['town']}}"
+"province":"{{item['province']}}"
+"location_detail":"{{item['locationdetail']}}"
+"beds":"{{item['beds']}}"
+"baths":"{{item['baths']}}"
+"pool":"{{item['pool']}}"
+"url":"{{item['propurl']}}"
+"desc":"{{item['propdescription']}}"
+"thumb"http::"{{img[0]|replace("s0-rj-e30-v1","s0-rj-e30-v1?.jpg")|replace("s0-rj-e30-v2","s0-rj-e30-v2?.jpg")}}"
+}{% if !loop.last %},{% endif %}
+{% endfor %}
+]);

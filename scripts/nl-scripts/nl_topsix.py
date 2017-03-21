@@ -114,3 +114,12 @@ outputText = template.render(allprops)
 file = open(_mghsettings.NL_SITEDIR+"allindex.html", "w")
 file.write(outputText)
 file.close()
+
+#Now lets make the JSON file for taffyDB
+TEMPLATE_FILE = "taffyDB.jinja"
+
+template = templateEnv.get_template( TEMPLATE_FILE )
+outputText = template.render(allprops)
+file = open(_mghsettings.EN_SITEDIR+"allprops.json", "w")
+file.write(outputText)
+file.close()
