@@ -16,6 +16,6 @@ var propsDB = TAFFY([
 "url":"{{item['propurl']}}"
 "desc":"{{item['propdescription']}}"
 "thumb"http::"{{img[0]|replace("s0-rj-e30-v1","s0-rj-e30-v1?.jpg")|replace("s0-rj-e30-v2","s0-rj-e30-v2?.jpg")}}"
-}{% if !loop.last %},{% endif %}
+}{% if not loop.last %},{% endif %}
 {% endfor %}
 ]);
