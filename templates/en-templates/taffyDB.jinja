@@ -1,4 +1,4 @@
-var propsDB = TAFFY([{% for item in props %}{"id":"{{item['propid']}}",
+[{% for item in props %}{"id":"{{item['propid']}}",
 "date":"{{item['date']}}",
 "ref":"{{item['propref']}}",
 "price":"{{item['price']}}",
@@ -13,4 +13,4 @@ var propsDB = TAFFY([{% for item in props %}{"id":"{{item['propid']}}",
 "pool":"{{item['pool']}}",
 "url":"{{item['propurl']}}",
 "desc":"{{item['description']}}",
-"thumb":"{{item['img']|replace("s640-rj-e30-v1","s400-rj-e30-v1?.jpg")|replace("s640-rj-e30-v2","s400-rj-e30-v2?.jpg")}}"}{% if not loop.last %},{% endif %}{% endfor %}]);
+"thumb":"{{item['img']|replace("s640-rj-e30-v1","s400-rj-e30-v1?.jpg")|replace("s640-rj-e30-v2","s400-rj-e30-v2?.jpg")}}"}{% if not loop.last %},{% endif %}{% endfor %}]
