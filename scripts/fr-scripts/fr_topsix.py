@@ -82,10 +82,10 @@ for eachprop in _mgh_data.proplists['All']:
     prop['fulldescription'] = row['FR']
     #prop['description'] = removefrchars(row['strdescription_FR'][:400])
     if row['FR'][:400][-1] == '\xc3':
-		prop['jsondescription'] = row['FR'][:399].decode('utf-8')
+		prop['jsondescription'] = row['FR'][:399].encode('utf-8')
 		prop['description'] = row['FR'][:399]
     else:
-		prop['jsondescription'] = row['FR'][:400].decode('utf-8')
+		prop['jsondescription'] = row['FR'][:400].encode('utf-8')
 		prop['description'] = row['FR'][:400]
     if int(row['beds']) == 1:
 		chambre = ' chambre'
@@ -129,7 +129,7 @@ file.close()
 TEMPLATE_FILE = "taffyDB.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
-outputText = template.render(allprops).encode( "utf-8" )
+outputText = template.render(allprops)
 file = open(_mghsettings.FR_SITEDIR+"allprops.json", "w")
 file.write(outputText)
 file.close()
