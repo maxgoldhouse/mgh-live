@@ -100,7 +100,7 @@ for eachprop in _mgh_data.proplists['All']:
     prop['locationdetail']=row['location']
     prop['proptype'] = nl_proptype
     prop['saleorrent']=saleorrent
-	prop['s-price'] == row['price']
+	prop['sprice'] == row['price']
     prop['underoffersold'] = row['salestage']
     if row['salestage'] == '0':
     	prop['price'] = "<span class='price_eur'>&euro;"+"{:,}".format(int(row['price'])).replace(',','.')+"</span> "
