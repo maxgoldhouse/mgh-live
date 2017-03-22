@@ -101,13 +101,16 @@ for eachprop in _mgh_data.proplists['All']:
     prop['saleorrent']= 'sale'
     prop['underoffersold'] = row['salestage']
     prop['sprice'] = row['price']
-    prop['enprice'] = "{:,}".format(int(row['price']))
+    
     if row['salestage'] == '0':
         prop['price'] = "<span class='price_eur'>&euro;"+"{:,}".format(int(row['price']))+"</span> "
+        prop['enprice'] = "{:,}".format(int(row['price']))
     elif row['salestage'] == '2':
         prop['price'] = 'SOLD'
+        prop['enprice'] = 'SOLD'
     elif row['salestage'] == '3':
         prop['price'] = '<span style="color:red;">RENTED</span>'
+        prop['enprice'] = 'RENTED'        
         prop['frequency']= ''
     else:
     	prop['price'] = ''
