@@ -103,7 +103,7 @@ for eachprop in _mgh_data.proplists['All']:
     prop['sprice'] = row['price']
     prop['underoffersold'] = row['salestage']
     if row['salestage'] == '0':
-    	prop['price'] = "<span class='price_eur'>&euro;"+"{:,}".format(int(row['price'])).replace(',','.')+"</span> "
+    	prop['price'] = {:,}".format(int(row['price'])).replace(',','.')
     elif row['salestage'] == '2':
     	prop['price'] = 'VERKOCHT'
     elif row['salestage'] == '3':
