@@ -128,7 +128,6 @@ file.write(outputText)
 file.close()
 
 #Now lets make the JSON file for taffyDB
-
 TEMPLATE_FILE = "taffyDB.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
