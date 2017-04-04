@@ -6,6 +6,9 @@ threadsafe: true
 
 default_expiration: "10m"
 
+error_handlers:
+- file: static/error.html
+
 handlers:
 - url: /
   static_files: static/index.html
