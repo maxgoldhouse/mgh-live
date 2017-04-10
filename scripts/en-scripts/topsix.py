@@ -135,6 +135,15 @@ outputText = template.render(allprops)
 file = open(_mghsettings.EN_SITEDIR+"allprops.json", "w")
 file.write(outputText)
 file.close()
+
+#Now lets make the search.html file
+TEMPLATE_FILE = "search.jinja"
+
+template = templateEnv.get_template( TEMPLATE_FILE )
+outputText = template.render()
+file = open(_mghsettings.EN_SITEDIR+"search.html", "w")
+file.write(outputText)
+file.close()
 	
     #"""
 
