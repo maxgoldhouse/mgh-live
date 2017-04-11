@@ -148,9 +148,11 @@
   </div>
 <div class="panel-body">
 <form action="chercher.html" method="GET">
-  <input type="text" name="propref" placeholder="Recherche par réf">
+      Recherche par réf<br/>
+    <select name="propref"><option value="No Ref">Choisissez Ref</option>{% include 'refsearch.html' %}</select>
+  <!--<input type="text" name="propref" placeholder="Recherche par réf">-->
   <input type="submit" value="Rechercher">
-</form>
+</form> 
 <h5>Chercher par prix</h5>
 <ul>
 <a targ="/budget/1" href="Propriete-a-Costa-Blanca-jusqu-a-100000-euro-0.html"><li>jusqu'à &euro;100,000&nbsp;&nbsp;</li></a>

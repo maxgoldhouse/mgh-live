@@ -161,8 +161,10 @@
   </div>
 <div class="panel-body">
 <form action="suche.html" method="GET">
-  <input type="text" name="propref" placeholder="Suche nach Ref">
-  <input type="submit" value="Search">
+    Suche nach Ref<br/>
+    <select name="propref"><option value="No Ref">Wählen Sie Ref</option>{% include 'refsearch.html'%}</select>
+    <!--<input type="text" name="propref" placeholder="Suche nach Ref">-->
+  <input type="submit" value="Suche">
 </form>
 <h5>PREIS SUCHE</h5>
 <ul>
