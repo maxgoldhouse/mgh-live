@@ -130,7 +130,7 @@ TEMPLATE_FILE = "suche.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
 outputText = template.render()
-file = open(_mghsettings.EN_SITEDIR+"suche.html", "w")
+file = open(_mghsettings.DE_SITEDIR+"suche.html", "w")
 file.write(outputText)
 file.close()
 	#"""

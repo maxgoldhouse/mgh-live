@@ -79,7 +79,9 @@
   </div>
 <div class="panel-body">
 <form action="chercher.html" method="GET">
-  <input type="text" name="propref" placeholder="Recherche par réf">
+      Recherche par réf<br/>
+    <select name="propref"><option value="No Ref">Choisissez Ref</option>{% include 'refsearch.html' %}</select>
+  <!--<input type="text" name="propref" placeholder="Recherche par réf">-->
   <input type="submit" value="Rechercher">
 </form>    
 <h5>Chercher par prix</h5>
@@ -189,7 +191,7 @@ for(var i in json)
         break;
      };
      document.getElementById("propresults").innerHTML = "<center><h2>Référence "+findref+" non trouvée</h2></center>"
-     //<p class="description">{%=decodeURIComponent(escape(o.desc))%}....</p>
+     
 }
 
     ; // this will show the info it in firebug console  
@@ -198,36 +200,36 @@ for(var i in json)
 </script>
 <script type="text/x-tmpl" id="tmpl-demo">
   <div class="property">
-    <div class="panel panel-default" id="property_box_{%=o.id%}">
+    <div class="panel panel-default" id="property_box_[%=o.id%]">
       <div class="panel-heading">
-        <h3 class="panel-title"><span class="pull-right"><span class='price_eur'>&euro;{%=o.price%}</span>   <span class="price_gbp"></span></span><a href="{%=o.url%}">{%=o.location_detail%} {%=o.type%} à vendre ref: {%=o.ref%}</a></h3>
+        <h3 class="panel-title"><span class="pull-right"><span class='price_eur'>&euro;[%=o.price%]</span>   <span class="price_gbp"></span></span><a href="[%=o.url%]">[%=o.location_detail%] [%=o.type%] à vendre ref: [%=o.ref%]</a></h3>
       </div>
 
       <div class="panel-body">
         <div class="row">
           <div class="col-sm-5 col-xs-12">
-            <a class="btn-block thumbnail_link" href="{%=o.url%}">
+            <a class="btn-block thumbnail_link" href="[%=o.url%]">
 
-            <img alt="{%=o.location_detail%}  {%=o.type%}: {%=o.location_detail%} {%=o.type%} for sale " class="img-thumbnail property_thumbnail" src="{%=o.thumb%}"></a>
+            <img alt="[%=o.location_detail%]  [%=o.type%]: [%=o.location_detail%] [%=o.type%] for sale " class="img-thumbnail property_thumbnail" src="[%=o.thumb%]"></a>
           </div>
 
           <div class="col-sm-7 col-xs-12">
             <div class="details">
               <div class="amenities">
-                <h2 class="h5">{%=o.beds%} chambre | {%=o.baths%} salle de bain</h2>
+                <h2 class="h5">[%=o.beds%] chambre | [%=o.baths%] salle de bain</h2>
               </div>
-               <p class="description">{%=o.desc%}....</p>
+               <p class="description">[%=o.desc%]....</p>
             </div>
           </div>
         </div>
 
         <div class="row">
           <div class="col-xs-6">
-            <div class="favlink" data-remote="true" data-shortlist="{%=o.id%}"></div>
+            <div class="favlink" data-remote="true" data-shortlist="[%=o.id%]"></div>
           </div>
           <div class="col-xs-6">
             <div class="text-right">
-             <div><a href="{%=o.url%}"<button class="btn btn-warning">VOYEZ</button></a></div>
+             <div><a href="[%=o.url%]"<button class="btn btn-warning">VOYEZ</button></a></div>
             </div>
           </div>
         </div>

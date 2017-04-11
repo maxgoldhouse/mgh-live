@@ -127,3 +127,12 @@ outputText = template.render(allprops)
 file = open(_mghsettings.NL_SITEDIR+"allprops.json", "w")
 file.write(outputText)
 file.close()
+
+##Now lets make the zoek.html file
+TEMPLATE_FILE = "zoek.jinja"
+
+template = templateEnv.get_template( TEMPLATE_FILE )
+outputText = template.render(allprops)
+file = open(_mghsettings.NL_SITEDIR+"zoek.html", "w")
+file.write(outputText)
+file.close()

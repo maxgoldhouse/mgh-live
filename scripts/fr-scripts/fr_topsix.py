@@ -133,3 +133,12 @@ outputText = template.render(allprops)
 file = open(_mghsettings.FR_SITEDIR+"allprops.json", "w")
 file.write(outputText)
 file.close()
+
+#Now lets make the chercher.html file
+TEMPLATE_FILE = "chercher.jinja"
+
+template = templateEnv.get_template( TEMPLATE_FILE )
+outputText = template.render()
+file = open(_mghsettings.FR_SITEDIR+"chercher.html", "w")
+file.write(outputText)
+file.close()
