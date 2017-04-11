@@ -124,6 +124,15 @@ outputText = template.render(allprops)
 file = open(_mghsettings.DE_SITEDIR+"allprops.json", "w")
 file.write(outputText)
 file.close()
+
+#Now lets make the suche.html file
+TEMPLATE_FILE = "suche.jinja"
+
+template = templateEnv.get_template( TEMPLATE_FILE )
+outputText = template.render()
+file = open(_mghsettings.EN_SITEDIR+"suche.html", "w")
+file.write(outputText)
+file.close()
 	#"""
 
 	#title 'Villamartin Property for Sale, Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada Costa Blanca Spain'

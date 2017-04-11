@@ -72,7 +72,7 @@
 <div class="panel-body">
 <form action="search.html" method="GET">
   Choose Reference Number<br/>
-  {% include 'refsearch.html' %}
+    <select name="propref"><option value="No Ref">Choose Ref</option>{% include 'refsearch.html'%}</select>
   <input type="submit" value="Search">
 </form>
 <h5>SEARCH MOST POPULAR PLACES</h5>
