@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub add property 1486 by dklongley
+mgh-admin pushDataToGitHub Updated property 1477 to location detail Torrevieja from Laguna by dklongley
