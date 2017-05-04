@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Separate Kitchen for newly added large Villamartin Apartment property 1491 by dklongley
+mgh-admin pushDataToGitHub Add property 1492 1 bed La Valeta beach apartment by dklongley
