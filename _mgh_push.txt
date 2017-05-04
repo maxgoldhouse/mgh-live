@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add property 1492 1 bed La Valeta beach apartment by dklongley
+mgh-admin pushDataToGitHub Updated property 6294146277503588449 price down to 78500 by dklongley
