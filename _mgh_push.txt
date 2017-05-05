@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub New 1 bed Los Balcones  property 1494 by dklongley
+mgh-admin pushDataToGitHub Add property 1495 Punta Prima Penthouse by dklongley
