@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Ellen Villa property 1493 by dklongley
+mgh-admin pushDataToGitHub New 1 bed Los Balcones  property 1494 by dklongley
