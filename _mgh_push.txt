@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub put on hold wall damaged by rain property 6346460632919937553 by dklongley
+mgh-admin pushDataToGitHub add property 1497 and 1496 by dklongley
