@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub New La Cura beach attic apartment property 1498 by dklongley
+mgh-admin pushDataToGitHub translations FR DE NLfor props 1489 1484 and 1490 by dklongley
