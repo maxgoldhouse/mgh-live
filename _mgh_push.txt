@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub translations FR DE NLfor props 1489 1484 and 1490 by dklongley
+mgh-admin pushDataToGitHub translations NL FR DE  property 1496 1494 14 92 1487 by dklongley
