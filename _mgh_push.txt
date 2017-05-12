@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add property 1502 Los Montesinos Bungalow detached Villa with private pool by dklongley
+mgh-admin pushDataToGitHub SOLD banner on property 1485 by photos
