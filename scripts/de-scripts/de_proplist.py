@@ -76,7 +76,7 @@ for rubrun in _all_rubrunsdata.rubruns:
 			pricefrom = ' ab '
 
 		prop['underoffersold'] = row['salestage']
-		if row['salestage'] == '0':
+		if row['salestage'] == '0' or row['salestage'] == '10':
 			prop['price'] = pricefrom+"<span class='price_eur'>&euro;"+"{:,}".format(int(row['price']))+"</span> "
 		elif row['salestage'] == '2':
 			prop['price'] = 'verkauft'

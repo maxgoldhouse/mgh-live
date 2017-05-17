@@ -69,7 +69,7 @@ for rub in _all_rubrunsdata.rubruns:
 			pricefrom = ' from '
 
 		prop['underoffersold'] = thisprop['salestage']
-		if thisprop['salestage'] == '0':
+		if thisprop['salestage'] == '0' or thisprop['salestage'] == '10':
 			prop['price'] = pricefrom+"<span class='price_eur'>&euro;"+"{:,}".format(int(thisprop['price']))+"</span> "
 			prop['saleorrent'] = saleorrent
 			prop['mp'] = ''
