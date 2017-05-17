@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add villas Mar Menor property 1503 by dklongley
+mgh-admin pushDataToGitHub add property 1505 apartment and 1504 3 bed los alcazares by dklongley
