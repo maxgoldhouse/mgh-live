@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub add punta prima apartments 2 and 3 bed  property 1508 1509 by dklongley
+mgh-admin pushDataToGitHub Updated property 1378 by dklongley
