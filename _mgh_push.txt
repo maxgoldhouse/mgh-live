@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub price down 134000 property 6342753886041760641 by dklongley
+mgh-admin pushDataToGitHub add Chaparral bungalow townhouse property 1511 by ellen
