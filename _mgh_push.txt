@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub add Chaparral bungalow townhouse property 1511 by ellen
+mgh-admin pushDataToGitHub add Tindra 3 bed Detached mar Menor Villas  property 1512 by ellen
