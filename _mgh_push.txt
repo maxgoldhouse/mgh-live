@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub added translations to Los balcones Townhouse was kyero only property 1513 by dklongley
+mgh-admin pushDataToGitHub Add toiwnhouse puntaPrima  property 1514 by dklongley
