@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub add Tindra 3 bed Detached mar Menor Villas  property 1512 by ellen
+mgh-admin pushDataToGitHub Add Los Balcones Townhouse was kyero only  property 1513 by dklongley
