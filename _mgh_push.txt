@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add property 1515 by dklongley
+mgh-admin pushDataToGitHub add images to property 1515 by dklongley
