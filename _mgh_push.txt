@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub add images to property 1515 by dklongley
+mgh-admin pushDataToGitHub price down to 185k property 1501 by dklongley
