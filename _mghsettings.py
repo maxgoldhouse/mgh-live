@@ -29,7 +29,7 @@ trans_proptypes['semidetached villa'] = {'de':'Doppelhaus Villa','nl':'half loss
 trans_proptypes['finca'] = {'de':'Landhaus','nl':'landhuis','no':'Herreg&aring;Rd','es':'Finca','fr':'Maison de campagne'}
 trans_proptypes['townhouse'] = {'de':'Reihenhauser','nl':'Geschakelde woning','no':'Rekkehus','es':'Casa de Pueblo','fr':'Maison mitoyenne'}
 trans_proptypes['restaurant'] = {'de':'Restaurant','nl':'restaurant','no':'Restaurant','es':'Restaurante','fr':'Restaurant'}
-trans_proptypes['commercial'] = {'de':'Gewerbeimmobilien','nl':'Commercieel','no':'Kommersielle eiendommer','es':'Propiedades comerciales','fr':'Batimen commerciaux'}
+trans_proptypes['commercial'] = {'de':'Gewerbeimmobilien','nl':'commercieel vastgoed','no':'Kommersielle eiendommer','es':'Propiedades comerciales','fr':'bâtiment commercial'}
 trans_proptypes['garage'] = {'de':'Garage','nl':'garage','no':'Garasje','es':'Garaje','fr':'Garage'}
 
 
