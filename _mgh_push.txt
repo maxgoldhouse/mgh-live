@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Las Palmeras Finca Catral Dolores property 1522 by dklongley
+mgh-admin pushDataToGitHub price down to 75000 property 1477 by dklongley
