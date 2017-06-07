@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub translations DE FR NL property 1518 by dklongley
+mgh-admin pushDataToGitHub SOLD sign on property 1483 by dklongley
