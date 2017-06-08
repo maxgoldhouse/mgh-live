@@ -54,11 +54,11 @@ for fetchprop in thetopsix:
 	prop['img'] = row['pics'][0].replace('/s0/','/s400/').replace('/s640/','/s400/')
 	topsixdict['props'].append(prop)
 
-### insert the accommodation offer into the position 1of the list
-prop = {}
-prop['proptype'] = 'mghoffer'
-prop['offerHTML'] = '<div class="featured_property_wrap col-sm-4"><style>#offer{font-size:20px;} .mgh-offer{text-align:center;}</style><div class="mgh-offer"><img src="//lh3.googleusercontent.com/-GTT16P545Io/WA8sWvHiQZI/AAAAAAAAP6o/8rxFFVCigjwJ_o2_7QVO7SU-NCs_dFAHACL0B/s0-rj/150-euros.jpg" class="img-thumbnail img-circle img-responsive"><div id="offer">Nous pouvons payer<br/> votre note d’hôtel?</div><div class="col-sm-offset-1"><a href="/herbergement-gratuit.html"><button class="btn btn-success">Savoir Plus</button></a></div></div></div>'
-topsixdict['props'].insert(1,prop)
+### ADD AN OFFER TO THE TOP 6-9 AREA
+#prop = {}
+#prop['proptype'] = 'mghoffer'
+#prop['offerHTML'] = '<div class="featured_property_wrap col-sm-4"><style>#offer{font-size:20px;} .mgh-offer{text-align:center;}</style><div class="mgh-offer"><img src="//lh3.googleusercontent.com/-GTT16P545Io/WA8sWvHiQZI/AAAAAAAAP6o/8rxFFVCigjwJ_o2_7QVO7SU-NCs_dFAHACL0B/s0-rj/150-euros.jpg" class="img-thumbnail img-circle img-responsive"><div id="offer">Nous pouvons payer<br/> votre note d’hôtel?</div><div class="col-sm-offset-1"><a href="/herbergement-gratuit.html"><button class="btn btn-success">Savoir Plus</button></a></div></div></div>'
+#topsixdict['props'].insert(1,prop)
 
 outputText = template.render(topsixdict)
 #print outputText
