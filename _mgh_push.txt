@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub add playa flamenca apts  properties 1534 and 1535 by dklongley
+mgh-admin pushDataToGitHub Updated property 1535 by dklongley
