@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 6345403179036927217 by dklongley
+mgh-admin pushDataToGitHub DE translations 1524 1516 1510 1505 1498 1496 1494 1489 1488 1484  by dklongley
