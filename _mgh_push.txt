@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1470 because partly furnished by dklongley
+mgh-admin pushDataToGitHub Updated properties DE text 1510 1522 1481 by dklongley
