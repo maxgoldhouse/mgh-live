@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub SOLD sign all apartments sold out property 1534 by dklongley
+mgh-admin pushDataToGitHub Updated property 1519 by dklongley
