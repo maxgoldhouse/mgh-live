@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1549 by dklongley
+mgh-admin pushDataToGitHub new apartments  property 1550 and 1551 by dklongley
