@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub NL and FR translations for 1549 1544 1543 1539 1532 1523 New props added 1550 1551 by dklongley
+mgh-admin pushDataToGitHub New property 1552 by dklongley
