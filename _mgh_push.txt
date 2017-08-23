@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub  take 2  Update property 1553 by dklongley
+mgh-admin pushDataToGitHub Sold by others properties 1489 1487 1506 by dklongley
