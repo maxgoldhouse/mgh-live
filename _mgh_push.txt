@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add new La Valeta beachside 1 bed apt property 1556 by dklongley
+mgh-admin pushDataToGitHub Updated property 1541 and 1505 by dklongley
