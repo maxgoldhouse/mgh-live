@@ -22,7 +22,7 @@ template = templateEnv.get_template( TEMPLATE_FILE )
 for prop in _mgh_data.props:
 	row = _mgh_data.props[prop]
 	#for each prop get the pic urls for slideshow
-	firsturl = row['pics'][0].replace('/s640/','/s35-p/').replace('s640-rj-e30-v2','s35-p-rj-e30-v2')
+	firsturl = row['pics'][0].replace('/s640/','/s0/').replace('s640-rj-e30-v2','s0-rj-e30-v2')
 	picurldictlist = []
 	slidecount = 1
 	for i, pic in enumerate(row['pics']):
