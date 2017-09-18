@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub SOLD sign on property 1538 Ellen by dklongley
+mgh-admin pushDataToGitHub Updated DE text for 1552 1562 1531 1561 1567  Manfred by dklongley
