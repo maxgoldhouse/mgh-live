@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Sold property AP2-T7260 Manfred trans FR and NL 1572 1582 1573 1562 1565 1566 Ekken by dklongley
+mgh-admin pushDataToGitHub Updated property 1587 by dklongley
