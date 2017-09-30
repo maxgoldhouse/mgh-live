@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub NL FR trans 1553 1589 1559 1586 Ellen by dklongley
+mgh-admin pushDataToGitHub Updated property 1559 1553 1595 1581 1594 DE text Manfred by dklongley
