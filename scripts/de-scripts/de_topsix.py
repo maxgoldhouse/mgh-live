@@ -50,7 +50,7 @@ for fetchprop in thetopsix:
 		prop['price'] = 'verkauft'
 	else:
 		prop['price'] = ''
-	prop['img'] = row['pics'][0].replace('/s0/','/s400/').replace('/s640/','/s400/')
+	prop['img'] = row['pics'][0].replace('/s0/','/w400/').replace('/s640/','/w400/').replace('=s640','=w400')
 	topsixdict['props'].append(prop)
 
 #for item in topsixdict['props']:
