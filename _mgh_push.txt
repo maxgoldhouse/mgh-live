@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub NL and FR trans from Ellen property 1602 and 1607 by dklongley
+mgh-admin pushDataToGitHub trans FR NL and google DE 1605 1606 1607 by dklongley
