@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1480 by dklongley
+mgh-admin pushDataToGitHub price down to 55500 from 59000 AP1-T006041 pid 1607 by dklongley
