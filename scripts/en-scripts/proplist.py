@@ -85,19 +85,19 @@ for rub in _all_rubrunsdata.rubruns:
 		prop['img'] = thisprop['pics'][0].replace('/s0/','/w240-e30-v2/').replace('/s640/','/w240-e30-v2/').replace('=s640','=w240')
 		topsixdict['props'].append(prop)
 
-		if rowcount == _mghsettings.PPP:
-			rowcount = 0
-			propstoprocess = propstoprocess - _mghsettings.PPP
-			print propstoprocess
-			pagenext = pagecount+1
-			pageprev = pagecount-1
-			if propstoprocess < _mghsettings.PPP:
-				pagenext = 0
-			if pageprev < 0:
-				pageprev = 0
-			makepage(topsixdict,pageprev,pagenext,pagecount,rub['pagename_en'],rub['pagename_de'],rub['pagename_nl'],rub['pagename_fr'])
-			pagecount = pagecount + 1
-			topsixdict['props'] = []
+		#if rowcount == _mghsettings.PPP:
+			#rowcount = 0
+			#propstoprocess = propstoprocess - _mghsettings.PPP
+			#print propstoprocess
+			#pagenext = pagecount+1
+			#pageprev = pagecount-1
+			#if propstoprocess < _mghsettings.PPP:
+			#	pagenext = 0
+			#if pageprev < 0:
+			#	pageprev = 0
+			#makepage(topsixdict,pageprev,pagenext,pagecount,rub['pagename_en'],rub['pagename_de'],rub['pagename_nl'],rub['pagename_fr'])
+			#pagecount = pagecount + 1
+			#topsixdict['props'] = []
 
 
 
