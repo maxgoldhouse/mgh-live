@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add 2 bed Cabo Roig apartment property 1617 Updated property 1539 price down to 226k by dklongley
+mgh-admin pushDataToGitHub translations FR NL DE properties 1610 1613 1614 by dklongley
