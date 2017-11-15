@@ -84,7 +84,7 @@
     <div style="max-width:960px;">
       <amp-carousel width="960" height="720" layout="responsive" type="slides" autoplay delay="3200">
       {% for img in images %}
-      <amp-img src="{{img['src']|replace("/s35-p/", "/s640-e30-rj-l80/")}}" width="640" height="480" layout="responsive"></amp-img>
+      <amp-img src="{{img['src']|replace("/s35-p/", "/s640-e30-rj-l80/")|replace("-rj-e30-v2","-rj-e30-l80")}}" width="640" height="480" layout="responsive"></amp-img>
       {% endfor %}
       </amp-carousel>
   </div>
