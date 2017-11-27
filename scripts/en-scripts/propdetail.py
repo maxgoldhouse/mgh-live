@@ -99,9 +99,9 @@ for prop in _mgh_data.props:
 	propdict['firstimg'] = firsturl
 	propdict['images'] = picurldictlist #prop['slide'],prop['src']
 	try:
-       propdict['moredetails'] = thisprop['moredetails']
+		propdict['moredetails'] = thisprop['moredetails']
 	except:
-       propdict['moredetails'] = ''
+		propdict['moredetails'] = ''
 
 	outputText = template.render(propdict)
 	file = open(_mghsettings.EN_SITEDIR+pagename+".html", "w")
