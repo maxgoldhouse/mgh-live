@@ -101,7 +101,7 @@ for prop in _mgh_data.props:
 	try:
 		propdict['moredetails'] = thisprop['moredetails']
 	except:
-		propdict['moredetails'] = ''
+		propdict['moredetails'] = ' end.'
 
 	outputText = template.render(propdict)
 	file = open(_mghsettings.EN_SITEDIR+pagename+".html", "w")
