@@ -59,7 +59,6 @@ for prop in _mgh_data.props:
 	propdict = {}
 	propdict['props'] = []
 	propdict['propdescription'] = thisprop['description']
-	propdict['propdescription'] = thisprop['description']
 	propdict['saleorrent'] = saleorrent
 	propdict['beds'] = thisprop['beds']
 	propdict['baths'] = thisprop['baths']
@@ -98,9 +97,10 @@ for prop in _mgh_data.props:
 		propdict['price'] = ''
 	propdict['firstimg'] = firsturl
 	propdict['images'] = picurldictlist #prop['slide'],prop['src']
-	try:
+	
+	if thisprop.has_key("moredetails"):
 		propdict['moredetails'] = thisprop['moredetails']
-	except:
+	else:
 		propdict['moredetails'] = ' end.'
 
 	outputText = template.render(propdict)
