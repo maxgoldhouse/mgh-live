@@ -97,11 +97,12 @@ for prop in _mgh_data.props:
 		propdict['price'] = ''
 	propdict['firstimg'] = firsturl
 	propdict['images'] = picurldictlist #prop['slide'],prop['src']
-	
-	if thisprop.has_key("moredetails"):
-		propdict['moredetails'] = thisprop['moredetails']
-	else:
-		propdict['moredetails'] = ' end.'
+	propdict['moredetails'] = thisprop['moredetails']
+
+	#if thisprop.has_key("moredetails"):
+	#	propdict['moredetails'] = thisprop['moredetails']
+	#else:
+	#	propdict['moredetails'] = ' end.'
 
 	outputText = template.render(propdict)
 	file = open(_mghsettings.EN_SITEDIR+pagename+".html", "w")
