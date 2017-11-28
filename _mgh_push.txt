@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1631 by dklongley
+mgh-admin pushDataToGitHub Updated property 1632 and add commission to 1631 by dklongley
