@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 6356565831473485137 by dklongley
+mgh-admin pushDataToGitHub remove properties AP2-TH7348a AP3-TH7348b by dklongley
