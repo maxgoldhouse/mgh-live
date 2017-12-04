@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Take off temporarily property 1582 by dklongley
+mgh-admin pushDataToGitHub trans DE NL FR property 1627 and 1630 by dklongley
