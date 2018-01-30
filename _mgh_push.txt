@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add property 1678 1 bed South Facing apt La Zenia by dklongley
+mgh-admin pushDataToGitHub New 2 bed apartment in Punt Prima 1679 by dklongley
