@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated prices 1546 AND 1547 by dklongley
+mgh-admin pushDataToGitHub Add property 1678 1 bed South Facing apt La Zenia by dklongley
