@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub New 2 bed apartment in Punt Prima 1679 by dklongley
+mgh-admin pushDataToGitHub Updated property 1680 by dklongley
