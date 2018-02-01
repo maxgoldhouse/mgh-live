@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1650 by dklongley
+mgh-admin pushDataToGitHub Add props 1683 and 1684 by dklongley
