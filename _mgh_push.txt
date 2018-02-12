@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub SOLD signs property 1607 and 1612 by dklongley
+mgh-admin pushDataToGitHub Updated property 1695 by dklongley
