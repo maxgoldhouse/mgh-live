@@ -14,7 +14,7 @@ THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
 templateLoader = jinja2.FileSystemLoader(_mghsettings.EN_TEMPLATEFOLDER)
 templateEnv = jinja2.Environment( loader=templateLoader )
-TEMPLATE_FILE = "topsixindex.jinja"
+TEMPLATE_FILE = "latest.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
 
@@ -68,7 +68,7 @@ for item in thelatestdict['props']:
 '''
 outputText = template.render(thelatestdict)
 #print outputText
-file = open(_mghsettings.EN_SITEDIR+"index.html", "w")
+file = open(_mghsettings.EN_SITEDIR+"latest.html", "w")
 file.write(outputText)
 file.close()
 
