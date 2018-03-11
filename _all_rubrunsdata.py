@@ -33,6 +33,37 @@ rubruns=[
 "pagename_de":"villas-Ferienwohnungen-Stadthauser-und-fincas-zu-verkaufen-"
 },
 {
+"rubrun":"latest",
+"query":"SELECT * FROM mghProperty WHERE display = true AND rental = false AND salestage = 0 ORDER BY created DESC LIMIT 30",
+"EN":{
+"description":"Most recently listed Villas, Apartments, Townhouses and Fincas for sale in Villamartin, Playa Flamenca, Cabo Roig, Los Altos, Los Balcones, Guardamar del Segura, Ciudad Quesada in Torrevieja and  Orihuela Costa areas of Southern Costa Blanca Spain",
+"keywords":"Most recently listed Villamartin Villas, Apartments, Townhouses and Fincas, Playa Flamenca, Cabo Roig, Guardamar del Segura and Ciudad Quesada",
+"title":"Most recently listed Villas, Apartments, Townhouses and Fincas for Sale, Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada Costa Blanca Spain",
+"h1":"Most recently listed Property For Sale in Villamartin, Cabo Roig, Torrevieja, Playa Flamenca and Orihuela Costa Spain"},
+"FR":{
+"description":"Plus récemment Villas, appartements, maisons mitoyennes et fincas à vendre à Villamartin, Playa Flamenca, Cabo Roig, Los Altos, Los Balcones, Guardamar del Segura, Ciudad Quesada, Torrevieja et Costa Blanca Sud, Espagne",
+"keywords":"Plus récemment Villas, appartements, maisons mitoyennes et fincas à Villamartin, Playa Flamenca, Cabo Roig, Guardamar del Segura et Ciudad Quesada",
+"title":"Plus récemment Villas, appartements, maisons mitoyennes et fincas à vendre à Playa Flamenca, Cabo Roig, Guardamar del Segura et Ciudad Quesada, Costa Blanca Sud",
+"h1":"Plus récemment Propriétét à vendre à Villamartin, Cabo Roig, Torrevieja, Playa Flamenca et Orihuela Costa, Espagne"
+},
+"DE":{
+"description":"Neueste Villas, Ferienwohnungen, Stadth&auml;user und Fincas zu verkaufen in Villamartin, Playa Flamenca, Cabo Roig, Los Altos, Los Balcones, Guardamar del Segura, Ciudad Quesada in Torrevieja and  Orihuela Costa areas of Southern Costa Blanca Spanien",
+"keywords":"Neueste Villamartin Villas, Ferienwohnungen, Stadth&auml;user und Fincas, Playa Flamenca, Cabo Roig, Guardamar del Segura und Ciudad Quesada",
+"title":"Neueste Villas, Ferienwohnungen, Stadth&auml;user und Fincas zu verkaufen, Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada Costa Blanca Spanien",
+"h1":"Neueste Immobilien zu verkaufen in Villamartin, Cabo Roig, Torrevieja, Playa Flamenca und Orihuela Costa Spanien"
+},
+"NL":{
+"description":"Meest recente Villa's, appartementen, geschakelde woningen en finca's te koop in Villamartin, Playa Flamenca, Cabo Roig, Los Altos, Los Balcones, Guardamar del Segura, Ciudad Quesada, Torrevieja en Costa Blanca Zuid, Spanje",
+"keywords":"Meest recente Villa's, appartementen geschakelde woningen en finca's in Villamartin, Playa Flamenca, Cabo Roig, Guardamar del Segura en Ciudad Quesada",
+"title":"Meest recente Villa's, appartementen, geschakelde woningen en finca's te koop in Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada, Costa Blanca Zuid",
+"h1":"Meest recente Eigendom te koop in Villamartin, Cabo Roig, Torrevieja, Playa Flamenca en Orihuela Costa, Spanje"
+},
+"pagename_en":"latest-villas-apartments-townhouses-and-fincas-for-sale-",
+"pagename_nl":"meest-recente-villas-appartementen-geschakelde-woningen-en-fincas-te-koop-",
+"pagename_fr":"Plus-recemment-Villas-appartements-maisons-mitoyennes-et-fincas-a-vendre-",
+"pagename_de":"neueste-villas-Ferienwohnungen-Stadthauser-und-fincas-zu-verkaufen-"
+},
+{
 "rubrun":"0-1",
 "query":"Select * FROM mghprops WHERE blndisplay = 1 AND blnrental = 0 AND intprice <= 100000 ORDER BY intprice ASC",
 "EN":{
