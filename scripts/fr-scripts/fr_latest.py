@@ -9,23 +9,18 @@ import os
 import _mghsettings
 import _mgh_data
 
-
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
-
 templateLoader = jinja2.FileSystemLoader(_mghsettings.FR_TEMPLATEFOLDER)
 templateEnv = jinja2.Environment( loader=templateLoader )
 TEMPLATE_FILE = "fr_latest.jinja"
-
 template = templateEnv.get_template( TEMPLATE_FILE )
 
 thelatestdict = {}
-
 
 thelatestdict['title'] = 'Ultimes Villamartin Propri&eacute;t&eacute; a vendre, Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada Costa Blanca Spain'
 thelatestdict['keywords'] = 'Ultimes Villamartin propriete a vendre, Playa Flamenca, Cabo Roig, Guardamar del Segura and Ciudad Quesada'
 thelatestdict['description'] = 'Ultimes Propri&eacute;t&eacute; a vendre Villamartin, Playa Flamenca, Cabo Roig, Los Altos, Los Balcones, Guardamar del Segura'
 thelatestdict['props'] = []
-
 
 thelatest = _mgh_data.proplists['latest']
 for fetchprop in thelatest:
@@ -59,4 +54,3 @@ outputText = template.render(thelatestdict)
 file = open(_mghsettings.FR_SITEDIR+"ultimes.html", "w")
 file.write(outputText)
 file.close()
-
