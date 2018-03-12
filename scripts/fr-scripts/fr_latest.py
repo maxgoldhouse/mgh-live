@@ -14,7 +14,7 @@ THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
 templateLoader = jinja2.FileSystemLoader(_mghsettings.FR_TEMPLATEFOLDER)
 templateEnv = jinja2.Environment( loader=templateLoader )
-TEMPLATE_FILE = "fr_latestjinja"
+TEMPLATE_FILE = "fr_latest.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
 
