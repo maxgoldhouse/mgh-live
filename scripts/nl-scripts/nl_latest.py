@@ -13,7 +13,7 @@ THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
 templateLoader = jinja2.FileSystemLoader(_mghsettings.NL_TEMPLATEFOLDER)
 templateEnv = jinja2.Environment( loader=templateLoader )
-TEMPLATE_FILE = "nl_topsixindex.jinja"
+TEMPLATE_FILE = "nl_latest.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
 
