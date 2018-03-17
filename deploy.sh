@@ -36,3 +36,6 @@ cd ~/src/mgh-live/deploy/FR
 gcloud app deploy app.yaml --version 1 --project www-mgh-3-fr
 cd ~/src/mgh-live/deploy/NL
 gcloud app deploy app.yaml --version 1 --project www-mgh-3-nl
+
+cd ~src/mgh-live
+git clean -f -d
