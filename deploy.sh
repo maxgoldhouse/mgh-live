@@ -28,11 +28,11 @@ python ./scripts/iv-nl-scripts/iv_nl_topsix.py
 python ./scripts/iv-nl-scripts/iv_nl_proplist.py
 python ./scripts/iv-nl-scripts/iv_nl_propdetail.py
 
-cd ./deploy/EN
+cd ~/src/mgh-live/deploy/EN
 gcloud app deploy app.yaml --version 1 --project www-mgh-3
-cd ./deploy/DE
+cd ~/src/mgh-live/deploy/DE
 gcloud app deploy app.yaml --version 1 --project www-mgh-3-de
-cd ./deploy/FR
+cd ~/src/mgh-live/deploy/FR
 gcloud app deploy app.yaml --version 1 --project www-mgh-3-fr
-cd ./deploy/NL
+cd ~/src/mgh-live/deploy/NL
 gcloud app deploy app.yaml --version 1 --project www-mgh-3-nl
