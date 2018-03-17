@@ -29,13 +29,13 @@ python ./scripts/iv-nl-scripts/iv_nl_proplist.py
 python ./scripts/iv-nl-scripts/iv_nl_propdetail.py
 
 cd ~/src/mgh-live/deploy/EN
-gcloud app deploy app.yaml --version 1 --project www-mgh-3
+gcloud app deploy app.yaml --version 1 --project www-mgh-3 --quiet
 cd ~/src/mgh-live/deploy/DE
-gcloud app deploy app.yaml --version 1 --project www-mgh-3-de
+gcloud app deploy app.yaml --version 1 --project www-mgh-3-de --quiet
 cd ~/src/mgh-live/deploy/FR
-gcloud app deploy app.yaml --version 1 --project www-mgh-3-fr
+gcloud app deploy app.yaml --version 1 --project www-mgh-3-fr --quiet
 cd ~/src/mgh-live/deploy/NL
-gcloud app deploy app.yaml --version 1 --project www-mgh-3-nl
+gcloud app deploy app.yaml --version 1 --project www-mgh-3-nl --quiet
 
 cd ~src/mgh-live
 git clean -f -d
