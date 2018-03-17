@@ -27,3 +27,12 @@ python ./scripts/nl-scripts/nl_propdetail.py
 python ./scripts/iv-nl-scripts/iv_nl_topsix.py
 python ./scripts/iv-nl-scripts/iv_nl_proplist.py
 python ./scripts/iv-nl-scripts/iv_nl_propdetail.py
+
+cd ./deploy/EN
+gcloud app deploy app.yaml --version 1 --project www-mgh-3
+cd ./deploy/DE
+gcloud app deploy app.yaml --version 1 --project www-mgh-3-de
+cd ./deploy/FR
+gcloud app deploy app.yaml --version 1 --project www-mgh-3-fr
+cd ./deploy/NL
+gcloud app deploy app.yaml --version 1 --project www-mgh-3-nl
