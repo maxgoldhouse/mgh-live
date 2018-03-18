@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property 1754 by dklongley
+Lets test the new deployments using gcloud CLI on Codeship
