@@ -77,7 +77,7 @@ for eachprop in _mgh_data.proplists['All']:
     else:
     	saleorrent = 'zu verkaufen'
     prop = {}
-    print row['pid']
+    #print row['pid']
     if row['DE'][:400][-1] == '\xc3':
 		prop['jsondescription'] = row['DE'][:399].decode('utf-8')
 		prop['description'] = row['DE'][:399]
