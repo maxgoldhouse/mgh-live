@@ -1,1 +1,1 @@
-Lets test the new deployments using gcloud CLI on Codeship
+mgh-admin pushDataToGitHub Add property 1755 and 1756 by dklongley
