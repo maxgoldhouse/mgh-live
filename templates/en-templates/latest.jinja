@@ -153,7 +153,68 @@ margin-right: 8px;
     width: 24px;
     background: url('https://lh3.googleusercontent.com/7NRPZD3CRbDd4_3uLTaQM1IMw7amAXMf1AWUMi-55DsS9AkSBgf4OZSf5isKfkFzXMA7xsWYfpop4jAGFwsoORiocIb-SLL86A=s144-no-e365') 0 0;
 }
+.languagepicker {
+	background-color: #FFF;
+	display: inline-block;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+	padding: 0;
+	height: 40px;
+	overflow: hidden;
+	transition: all .3s ease;
+	margin: 0 50px 10px 0;
+	vertical-align: top;
+	/*float: left;*/
+}
 
+.languagepicker:hover {
+	/* don't forget the 1px border */
+	height: 81px;
+}
+
+.languagepicker a{
+	color: #000;
+	text-decoration: none;
+}
+
+.languagepicker li {
+	display: block;
+	padding: 0px 20px;
+	line-height: 40px;
+	border-top: 1px solid #EEE;
+}
+
+.languagepicker li:hover{
+	background-color: #EEE;
+}
+
+.languagepicker li span {
+	padding-left: 20px;
+}
+
+.languagepicker a:first-child li {
+	border: none;
+	background: #FFF !important;
+}
+
+.languagepicker li img {
+	margin-right: 5px;
+}
+
+.roundborders {
+	border-radius: 5px;
+}
+
+.large:hover {
+	/* 
+	don't forget the 1px border!
+	The first language is 40px heigh, 
+	the others are 41px
+	*/
+	height: 165px;
+    z-index: 2000;
+}
 </style>
 <link rel="shortcut icon" href="/img/favicon.ico" />
 </head>
@@ -171,25 +232,15 @@ margin-right: 8px;
 </div>
 <div class="collapse navbar-collapse account-nav-collapse">
 <ul class="nav navbar-nav navbar-left">
-<li class=""><a href="index.html">For Sale</a></li>
+<li class=""><a href="index.html">Spanish Property For Sale</a></li>
 <li><a href="costa-blanca-long-term-rental-property-0.html">Long Term Rental</a></li>
-<li><a href="costa-blanca-holiday-rental-property-0.html">Holiday Rental</a></li>
 <li><a href="buying-process.html">The Buying Process</a></li>
 </ul>
-<!--<ul class='nav navbar-nav navbar-right lingo'>
-  <li><a href="https://www.maxgoldhouse.com/latest.html" title="English"><img src="img/EN.png" alt="English"/></a></li>
-  <li><a href="https://fr.maxgoldhouse.com/ultimes.html" title="français"> <img src="img/FR.png" alt="français"/> <img src="img/B.png" alt="français"/></a></li>
-  <li><a href="https://nl.maxgoldhouse.com/ultieme.html" title="Nederlands"><img src="img/NL.png" alt ="Nederlands"/> <img src="img/B.png" alt="Nederlands"/></a></li>
-  <li><a href="https://de.maxgoldhouse.com/neueste.html" title="Deutsch"><img src="img/DE.png" alt="Deutsch"/> <img src="img/AT.png" alt="Deutsch"/></a></li>
-</ul> -->
-<ul id="navlist" class="nav navbar-nav navbar-right lingo">
-  <li class="flag_EN"><a href="https://www.maxgoldhouse.com/latest.html" title="English"></a></li>
-  <li class="flag_FR"><a href="https://fr.maxgoldhouse.com/ultimes.html" title="français"></a></li>
-  <li class="flag_B_FR"><a href="https://fr.maxgoldhouse.com/ultimes.html" title="français"></a></li>
-  <li class="flag_NL"><a href="https://nl.maxgoldhouse.com/ultieme.html" title="Nederlands"></a></li>
-  <li class="flag_B_NL"><a href="https://nl.maxgoldhouse.com/ultieme.html" title="Nederlands"></a></li>
-  <li class="flag_DE"><a href="https://de.maxgoldhouse.com/neueste.html" title="Deutsch"></a></li>
-  <li class="flag_AT"><a href="https://de.maxgoldhouse.com/neueste.html" title="Deutsch"></a></li>
+<ul class="languagepicker large nav navbar-nav navbar-right lingo">
+  <a href="https://www.maxgoldhouse.com/latest.html"><li><img src="//lh3.googleusercontent.com/kEyBIAzDf4lJtEXKBQyEqsnEgvyaNboEl_4vNL6ZWv_LYJ9P67G6zn3wjq6QGwtho6qjKADDviJW76Ul=s16">English &nbsp;▼</li></a> 
+	<a href="https://de.maxgoldhouse.com/neueste.html"><li><span>Deutsch</span></li></a>
+	<a href="https://fr.maxgoldhouse.com/ultimes.html"><li><span>Français</span></li></a>
+	<a href="https://nl.maxgoldhouse.com/ultieme.html"><li><span>Nederlands</span></li></a>
 </ul>
 </div>
 </div>
