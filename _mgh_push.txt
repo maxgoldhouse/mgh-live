@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub SOLD props 1515 and 1481 by dklongley
+mgh-admin pushDataToGitHub push to build
