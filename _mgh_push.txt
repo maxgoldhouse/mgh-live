@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Guardama not Guardemar property 1774 by dklongley
+mgh-admin pushDataToGitHub DE Trans property 1774 by dklongley
