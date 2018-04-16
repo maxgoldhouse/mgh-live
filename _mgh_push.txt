@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Removed From Sale pid 1690 ref SH3-PP7586 3 bed 3 bath Semidetached Villa in Punta Prima by dklongley
+mgh-admin pushDataToGitHub FR NL Translations for  pids 1771 and 1772 by dklongley
