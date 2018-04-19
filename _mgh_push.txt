@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop 3 bed apartment in Playa Flamenca pid 1779 by dklongley
+mgh-admin pushDataToGitHub Add Prop beach side apartment la zenia pid 1780 by dklongley
