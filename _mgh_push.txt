@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop Finca Truyols Murcia pid 1781 by dklongley
+mgh-admin pushDataToGitHub PRICE DOWN pid 1764 by dklongley
