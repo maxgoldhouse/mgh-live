@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub ADD PROP 2 bed Top Floor Apartment Punta Prima pid 1782 by dklongley
+mgh-admin pushDataToGitHub Low-rise is bungalow property 1780 by dklongley
