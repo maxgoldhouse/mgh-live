@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub New Prop 3 bed apartment Dehesa de Campoamor pid 1783 by dklongley
+mgh-admin pushDataToGitHub translation NF FR property 1783 by dklongley
