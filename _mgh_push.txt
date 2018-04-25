@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated property price for 1 bed is 83k not 157k 1785 by dklongley
+mgh-admin pushDataToGitHub Add Prop Bargain 1 bed Apt Los Locos Beach Torrevieja 1786 by dklongley
