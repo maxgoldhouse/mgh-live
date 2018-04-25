@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop Bargain 1 bed Apt Los Locos Beach Torrevieja 1786 by dklongley
+mgh-admin pushDataToGitHub Updated property 1 bath not 2 pid 1786 by dklongley
