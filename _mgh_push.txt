@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop Luxury New Build Villas Lomas de Cabo Roig pid 1788 by dklongley
+mgh-admin pushDataToGitHub Price up pid 1527 by dklongley
