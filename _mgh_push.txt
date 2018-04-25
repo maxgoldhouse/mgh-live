@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop offplan Apartments in Torrevieja pid 1785 by dklongley
+mgh-admin pushDataToGitHub Updated property price for 1 bed is 83k not 157k 1785 by dklongley
