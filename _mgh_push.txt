@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop 4 bed townhouse with sep apartment pid 1791 by dklongley
+mgh-admin pushDataToGitHub Add Prop Townhouse Villamartin 2 bed 2-1 Bathrooms pid 1792 by dklongley
