@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop 2 bed version of pid 1785 with pid of 1794 also trans NL and FR of 1785 and 1794 by dklongley
+mgh-admin pushDataToGitHub Trans NL and FR pid 1787 1788 1789 1790 1791 1792 by dklongley
