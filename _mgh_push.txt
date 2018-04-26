@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop Townhouse Villamartin 2 bed 2-1 Bathrooms pid 1792 by dklongley
+mgh-admin pushDataToGitHub Add Prop Luxury 5 bed Villa San Pedro del Pinatar pid 1793 by dklongley
