@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop 3 bed Detached With Private Pool Villamartin pid 1795 by dklongley
+mgh-admin pushDataToGitHub Add Prop 2 bed townhouse Villamartin pid 1796 by dklongley
