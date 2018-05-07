@@ -31,6 +31,7 @@ trans_proptypes['townhouse'] = {'de':'Reihenhauser','nl':'Geschakelde woning','n
 trans_proptypes['restaurant'] = {'de':'Restaurant','nl':'restaurant','no':'Restaurant','es':'Restaurante','fr':'Restaurant'}
 trans_proptypes['commercial'] = {'de':'Gewerbeimmobilien','nl':'commercieel vastgoed','no':'Kommersielle eiendommer','es':'Propiedades comerciales','fr':'batiment commercial'}
 trans_proptypes['garage'] = {'de':'Garage','nl':'garage','no':'Garasje','es':'Garaje','fr':'Garage'}
+trans_proptypes['Land'] = {'de':'Grundstuck','nl':'Grond','no':'Land','es':'Terreno','fr':'Terraine'}
 
 
 trans_search_proptypes = {}
@@ -46,6 +47,7 @@ trans_search_proptypes['Commercial properties'] = {'de':'Gewerbeimmobilien','nl'
 trans_search_proptypes['Key Ready and New'] = {'de':'Neubau schl&uuml;sselfertig','nl':'nieuwbouw','no':'Nybygde Boliger','es':'Casas Nuevas','fr':'Maisons nouvellement construites'}
 trans_search_proptypes['Penthouse'] = {'de':'Penthouse-Wohnungen','nl':'Penthouse/dakappartement','no':'Penthouse leilighetene','es':'&Aacute;tico','fr':'Penthouse'}
 trans_search_proptypes['Luxury Property'] = {'de':'Luxus-Wohnungen','nl':'Luxehuizen','no':'luksusboliger','es':'Casas de lujo','fr':'Propri&eacute;t&eacute; de Prestige'}
+trans_search_proptypes['Land'] = {'de':'Grundstuck','nl':'Grond','no':'Land','es':'Terreno','fr':'Terraine'}
 
 trans_features = {}
 trans_features['Long term Rentals'] = {'de':'Langfristige Vermietungen','nl':'Leilighet','no':'Langtidsleie','es':'Louer pour long terme'}
