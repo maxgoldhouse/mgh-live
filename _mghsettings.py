@@ -31,7 +31,7 @@ trans_proptypes['townhouse'] = {'de':'Reihenhauser','nl':'Geschakelde woning','n
 trans_proptypes['restaurant'] = {'de':'Restaurant','nl':'restaurant','no':'Restaurant','es':'Restaurante','fr':'Restaurant'}
 trans_proptypes['commercial'] = {'de':'Gewerbeimmobilien','nl':'commercieel vastgoed','no':'Kommersielle eiendommer','es':'Propiedades comerciales','fr':'batiment commercial'}
 trans_proptypes['garage'] = {'de':'Garage','nl':'garage','no':'Garasje','es':'Garaje','fr':'Garage'}
-trans_proptypes['Land'] = {'de':'Grundstuck','nl':'Grond','no':'Land','es':'Terreno','fr':'Terraine'}
+trans_proptypes['land'] = {'de':'Grundstuck','nl':'Grond','no':'Land','es':'Terreno','fr':'Terraine'}
 
 
 trans_search_proptypes = {}
