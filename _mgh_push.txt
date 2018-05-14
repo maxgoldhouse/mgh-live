@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Price Up 108k to 120k for cheapest unit pid 1533 by dklongley
+mgh-admin pushDataToGitHub Price Down From 225k to 195k pid 1704 by dklongley
