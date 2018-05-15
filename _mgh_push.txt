@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop Luxury 3 bed Villa Ciudad Quesada pid 1811 by dklongley
+mgh-admin pushDataToGitHub Add Prop 5 bed Detached Villa La Zenia pid 1812 by dklongley
