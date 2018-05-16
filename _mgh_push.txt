@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add prop  Semidetached villa private pool Los Balcones pid 1815 by dklongley
+mgh-admin pushDataToGitHub Translations FR NL pid 1814 by dklongley
