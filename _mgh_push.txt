@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Translations NL FR pids 1810 1811 1812 1815 by dklongley
+mgh-admin pushDataToGitHub Price Down 82500 to 69900 pid 1757 by dklongley
