@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop Another 3 bed Quad from Andy pid 1816 by dklongley
+mgh-admin pushDataToGitHub Price Down 108500 to 103500 pid 1480 by dklongley
