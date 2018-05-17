@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop Invetment Apartment Torrevieja pid 1817 by dklongley
+mgh-admin pushDataToGitHub Add Prop Semi Detached Villa Los Balcones pid 1818 by dklongley
