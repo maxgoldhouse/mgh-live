@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop New Build Luxury Detached Villas San Miguel de Salinas pid 1821 by dklongley
+mgh-admin pushDataToGitHub Translation NL FR pid 1820 by dklongley
