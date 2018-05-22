@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Updated Susanna Mas price pid 1304 by dklongley
+mgh-admin pushDataToGitHub Change price on Susana Mas pid 1304 by dklongley
