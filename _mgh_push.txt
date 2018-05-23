@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop 2 bed apartment Torrevieja City 105k pid 1827 by dklongley
+mgh-admin pushDataToGitHub Price up 176k to 182k cheaper props sold pid 1525 by dklongley
