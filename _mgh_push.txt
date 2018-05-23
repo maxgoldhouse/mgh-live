@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop 3 bed apartment Lo Pagan pid 1825 by dklongley
+mgh-admin pushDataToGitHub Add Prop Renovated 2 bed ground floor apartment Villamartin pid 1826 by dklongley
