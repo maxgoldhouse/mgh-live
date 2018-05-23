@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop Renovated 2 bed ground floor apartment Villamartin pid 1826 by dklongley
+mgh-admin pushDataToGitHub Add Prop 2 bed apartment Torrevieja City 105k pid 1827 by dklongley
