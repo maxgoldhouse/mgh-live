@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub SOLD sign pid 1770 by dklongley
+mgh-admin pushDataToGitHub Translations NL FR 1823 1824 1830 1831 by dklongley
