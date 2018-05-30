@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop Duplex Torrevieja 90k pid 1828 by dklongley
+mgh-admin pushDataToGitHub Updated property 1769 by dklongley
