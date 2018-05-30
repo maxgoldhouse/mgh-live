@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop 1 bed apt TV 73k pid 1833 by dklongley
+mgh-admin pushDataToGitHub Add Prop 2 bed apt TV La Valeta pid 1834 by dklongley
