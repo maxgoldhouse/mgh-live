@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop 2 Bed Villa Habaneras TV 83k pid 1836 and SOLD 1749 by dklongley
+mgh-admin pushDataToGitHub Add Prop Townhouse La Florida 94995 pid 1837 by dklongley
