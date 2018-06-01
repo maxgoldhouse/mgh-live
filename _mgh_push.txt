@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop Semi Detached Villa Playa Flamenca 129995k pid 1839 by dklongley
+mgh-admin pushDataToGitHub Price Down and change of ref AP2-C00231 to AP2-CMI231 pid 1671 by dklongley
