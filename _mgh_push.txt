@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add prop AP2-VMI260 pid 1852 by dklongley
+mgh-admin pushDataToGitHub Add Prop AP1-PP7670 165k pid 1853 by dklongley
