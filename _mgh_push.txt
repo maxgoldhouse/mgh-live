@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop QH3-PFCB5073 159995k pid 1860 by dklongley
+mgh-admin pushDataToGitHub SOLD Banner 1703 and 137102 by dklongley
