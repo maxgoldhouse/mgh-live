@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop DH3-V7662 290k pid 1862 by dklongley
+mgh-admin pushDataToGitHub Translations NL FR pids 1850 1862 by dklongley
