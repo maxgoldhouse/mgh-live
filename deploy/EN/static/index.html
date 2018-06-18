@@ -115,6 +115,44 @@ margin-right: 8px;
  #navbar_logo{max-width:75%}
  #navbar_logo img{max-width:100%}
 }
+#navlist {position: relative;margin-right:90px;}
+#navlist li {margin: 0;padding: 0;list-style: none;/*position: absolute;*/}
+#navlist li, #navlist a {height: 24px;display: block;margin-top: 10px;}
+.flag_EN {
+    left: 0px;
+    width: 24px;
+    background: url('https://lh3.googleusercontent.com/7NRPZD3CRbDd4_3uLTaQM1IMw7amAXMf1AWUMi-55DsS9AkSBgf4OZSf5isKfkFzXMA7xsWYfpop4jAGFwsoORiocIb-SLL86A=s144-no-e365') -72px 0;
+}
+.flag_FR {
+    left: 20px;
+    width: 24px;
+    background: url('https://lh3.googleusercontent.com/7NRPZD3CRbDd4_3uLTaQM1IMw7amAXMf1AWUMi-55DsS9AkSBgf4OZSf5isKfkFzXMA7xsWYfpop4jAGFwsoORiocIb-SLL86A=s144-no-e365') -96px 0;
+}
+.flag_B_FR {
+    left: 28px;
+    width: 24px;
+    background: url('https://lh3.googleusercontent.com/7NRPZD3CRbDd4_3uLTaQM1IMw7amAXMf1AWUMi-55DsS9AkSBgf4OZSf5isKfkFzXMA7xsWYfpop4jAGFwsoORiocIb-SLL86A=s144-no-e365') -24px 0;
+}
+.flag_NL {
+    left: 54px;
+    width: 24px;
+    background: url('https://lh3.googleusercontent.com/7NRPZD3CRbDd4_3uLTaQM1IMw7amAXMf1AWUMi-55DsS9AkSBgf4OZSf5isKfkFzXMA7xsWYfpop4jAGFwsoORiocIb-SLL86A=s144-no-e365') -120px 0;
+}
+.flag_B_NL {
+    left: 54px;
+    width: 24px;
+    background: url('https://lh3.googleusercontent.com/7NRPZD3CRbDd4_3uLTaQM1IMw7amAXMf1AWUMi-55DsS9AkSBgf4OZSf5isKfkFzXMA7xsWYfpop4jAGFwsoORiocIb-SLL86A=s144-no-e365') -24px 0;
+}
+.flag_DE {
+    left: 78px;
+    width: 24px;
+    background: url('https://lh3.googleusercontent.com/7NRPZD3CRbDd4_3uLTaQM1IMw7amAXMf1AWUMi-55DsS9AkSBgf4OZSf5isKfkFzXMA7xsWYfpop4jAGFwsoORiocIb-SLL86A=s144-no-e365') -48px 0;
+}
+.flag_AT {
+    left: 78px;
+    width: 24px;
+    background: url('https://lh3.googleusercontent.com/7NRPZD3CRbDd4_3uLTaQM1IMw7amAXMf1AWUMi-55DsS9AkSBgf4OZSf5isKfkFzXMA7xsWYfpop4jAGFwsoORiocIb-SLL86A=s144-no-e365') 0 0;
+}
 .languagepicker {
 	background-color: #FFF;
 	display: inline-block;
@@ -178,18 +216,19 @@ margin-right: 8px;
     z-index: 2000;
 }
 @media only screen and (max-width: 600px) {
-  .languagepicker {
-    background-color: #FFF;
-    display: inline-block;
-    position: relative;
-    padding: 0;
-    height: 165px;
-    overflow: hidden;
-    margin: 0 50px 10px 0;
-    vertical-align: top;
-    /*float: left;*/
-  }
-  }
+.languagepicker {
+	background-color: #FFF;
+	display: inline-block;
+  position: relative;
+	padding: 0;
+	height: 165px;
+	overflow: hidden;
+	margin: 0 50px 10px 0;
+	vertical-align: top;
+	/*float: left;*/
+}
+}
+
 </style>
 <link rel="shortcut icon" href="/img/favicon.ico" />
 </head>
@@ -202,23 +241,23 @@ margin-right: 8px;
 <span class="icon-bar"></span>
 </button>
 <a class="navbar-brand" href="/" id="navbar_logo">
-<img alt="MaxGoldHouse Logotype." src="/img/mghlogo.png" />
+<img alt="MaxGoldHouse Logotype." src="//lh3.googleusercontent.com/-VnP7FD3Xk94/WFfNY4vmdkI/AAAAAAAAO-k/srLkasCBQcUlFowdxd0eeM7Jwnh0444rgCHM/s0-no-e365/mghlogo.png" />
 </a>
 </div>
 <div class="collapse navbar-collapse account-nav-collapse">
 <ul class="nav navbar-nav navbar-left">
 <li class=""><a href="index.html">For Sale</a></li>
 <li><a href="costa-blanca-long-term-rental-property-0.html">Long Term Rental</a></li>
-<li><a href="costa-blanca-holiday-rental-property-0.html">Holiday Rental</a></li>
-<li><a href="">Contact</a></li>
+<li><a href="buying-process.html">The Buying Process</a></li>
+<li><a href="privacy-policy.html">Privacy</a></li>
+<li><a href="cookie-policy.html">Cookies</a></li>
 </ul>
-<ul class='nav navbar-nav navbar-right lingo'>
-  <li><a href="https://www.maxgoldhouse.com" title="English"><img src="img/EN.png" alt="English"/></a></li>
-  <li><a href="https://fr.maxgoldhouse.com" title="français"> <img src="img/FR.png" alt="français"/> <img src="img/B.png" alt="français"/></a></li>
-  <li><a href="https://nl.maxgoldhouse.com" title="Nederlands"><img src="img/NL.png" alt ="Nederlands"/> <img src="img/B.png" alt="Nederlands"/></a></li>
-  <li><a href="https://de.maxgoldhouse.com" title="Deutsch"><img src="img/DE.png" alt="Deutsch"/> <img src="img/AT.png" alt="Deutsch"/></a></li>
+<ul class="languagepicker large nav navbar-nav navbar-right lingo">
+    <a href="https://www.maxgoldhouse.com"><li><img src="//lh3.googleusercontent.com/kEyBIAzDf4lJtEXKBQyEqsnEgvyaNboEl_4vNL6ZWv_LYJ9P67G6zn3wjq6QGwtho6qjKADDviJW76Ul=s16">English &nbsp;▼</li></a> 
+	<a href="https://de.maxgoldhouse.com"><li><span>Deutsch</span></li></a>
+	<a href="https://fr.maxgoldhouse.com"><li><span>Français</span></li></a>
+	<a href="https://nl.maxgoldhouse.com"><li><span>Nederlands</span></li></a>
 </ul>
-
 </div>
 </div>
 <div class="row" id="container">
@@ -232,13 +271,13 @@ margin-right: 8px;
 <div class="row">
 <div class="col-sm-6">
 <div class="media">
-<div class="pull-left"><img alt="Spanish apartments" class="top-box img-thumbnail" src="/img/apartmentbutton.jpg"></div>
+<div class="pull-left"><img alt="Spanish apartments" class="top-box img-thumbnail" src="//lh3.googleusercontent.com/-DVGWDwbLAwE/WFfNY34F_aI/AAAAAAAAO-k/gFnaA8D17bsEp0Y8TDu448uiekIc7Ve6gCHM/s0-no-e365/apartmentbutton.jpg"></div>
 <div class="media-body"><a href="apartments-for-sale-costa-blanca-south-0.html" class="media-heading">Apartments for sale</a></div>
 </div>
 </div>
 <div class="col-sm-6">
 <div class="media">
-<div class="pull-left"><img alt="Townhouses on the Costa Blanca" class="top-box img-thumbnail" src="/img/townhousebutton.jpg"></div>
+<div class="pull-left"><img alt="Townhouses on the Costa Blanca" class="top-box img-thumbnail" src="//lh3.googleusercontent.com/-VTSgV3BhtCI/WFfNY3M2L7I/AAAAAAAAO-k/hFESPohxXYg2-ppjKo__jLo_Hwc4QKyVACHM/s0-no-e365/townhousebutton.jpg"></div>
 <div class="media-body"><a href="townhouses-for-sale-costa-blanca-south-0.html" class="media-heading">Town houses in the Costa Blanca</a></div>
 </div>
 </div>
@@ -246,13 +285,13 @@ margin-right: 8px;
 <div class="row">
 <div class="col-sm-6">
 <div class="media">
-<div class="pull-left"><img alt="Villas in the Costa Blanca" class="top-box img-thumbnail" src="/img/villabutton.jpg"></div>
+<div class="pull-left"><img alt="Villas in the Costa Blanca" class="top-box img-thumbnail" src="//lh3.googleusercontent.com/-EXPpztHbhZM/WFfNY38tBnI/AAAAAAAAO-k/6XWp9S5UBkom97drOktrDNwDHmv81-g3QCHM/s0-no-e365/villabutton.jpg"></div>
 <div class="media-body"><a href="villas-for-sale-costa-blanca-south-0.html" class="media-heading">Villas from &euro;150,000</a></div>
 </div>
 </div>
 <div class="col-sm-6">
 <div class="media">
-<div class="pull-left"><img alt="Finca homes" class="top-box img-thumbnail" src="/img/fincabutton.jpg"></div>
+<div class="pull-left"><img alt="Finca homes" class="top-box img-thumbnail" src="//lh3.googleusercontent.com/-K4BllNGZkwE/WFfNY7fY-SI/AAAAAAAAO-k/qdMVButkeBssBv_btVMdQzbl-v3tZuhpwCHM/s0-no-e365/fincabutton.jpg"></div>
 <div class="media-body"><a href="fincas-and-country-homes-for-sale-costa-blanca-south-0.html" class="media-heading">Fincas from &euro;80,000</a></div>
 </div>
 </div>
@@ -260,13 +299,13 @@ margin-right: 8px;
 <div class="row">
 <div class="col-sm-6">
 <div class="media">
-<div class="pull-left"><img alt="Apartments and houses at the beach" class="topbox img-thumbnail" src="/img/beachbutton.jpg"></div>
+<div class="pull-left"><img alt="Apartments and houses at the beach" class="topbox img-thumbnail" src="//lh3.googleusercontent.com/-y1ufQJIMFlE/WFfNY0LazlI/AAAAAAAAO-k/T0TqaSJZDhcQM7JPtO94o9nbfmHCnKuswCHM/s0-no-e365/beachbutton.jpg"></div>
 <div class="media-body"><a href="beach-property-south-costa-blanca-0.html" class="media-heading">Spanish Beach Homes</a></div>
 </div>
 </div>
 <div class="col-sm-6">
 <div class="media">
-<div class="pull-left"><img alt="Golf Homes on the Southern Costa Blanca" class="top-box img-thumbnail" src="/img/golfbutton.jpg"></div>
+<div class="pull-left"><img alt="Golf Homes on the Southern Costa Blanca" class="top-box img-thumbnail" src="//lh3.googleusercontent.com/-4aTQDoLZvcc/WFfNYxHyFII/AAAAAAAAO-k/3mcAZ3a24Nk6VE8JnJM78wXKjBqZyixwQCHM/s0-no-e365/golfbutton.jpg"></div>
 <div class="media-body"><a href="golf-property-south-costa-blanca-0.html" class="media-heading">Costa Blanca Golf Property</a></div>
 </div>
 </div>
@@ -274,7 +313,6 @@ margin-right: 8px;
 </div>
 </div>
 </div>
-
 <div class="xhidden-xs">
 <div class="panel panel-default" id="featured_properties">
 
@@ -290,36 +328,48 @@ margin-right: 8px;
 
 
 <div class="featured_property_wrap col-sm-4">
-<a href="/2-bed-Apartment-in-Mar-Menor-1240.html" class="no_float property_thumb"><img alt="Mar Menor Apartment for sale" class="img-thumbnail featured_property_thumbnail" src="//lh3.googleusercontent.com/-TmyWq5YHCJ8/VktEoIV753I/AAAAAAAAJbg/zLsaPTYaGj0/s240/1.jpg" title="Mar Menor Apartment for sale"></a>
+<a href="/1-bed-Apartment-in-Torre-de-la-Horadada-1763.html" class="no_float property_thumb"><img alt="Torre de la Horadada Apartment for sale" class="img-thumbnail featured_property_thumbnail" src="//lh3.googleusercontent.com/THMFZCrJ8-4QfgPX3trCWZWRm4fcqsOBiC0j7BBnZZkmnR9Ywx7CNIlYI5SBresD4Bij6oUhnHko9dDxPrc=w240-rj-e30-v2" title="Torre de la Horadada Apartment for sale"></a>
 <ul>
 
-<li><strong><span class='price_eur'>&euro;77,900</span>  <span class="price_gbp"></span></strong></li>
+<li><strong><span class='price_eur'>&euro;65,000</span>  <span class="price_gbp"></span></strong></li>
 <li>Apartment</li>
-<li>Mar Menor</li>
+<li>Torre de la Horadada</li>
 
 
 </ul>
-<div class="col-sm-offset-1"><a href="/2-bed-Apartment-in-Mar-Menor-1240.html"<button class="btn btn-warning">View</button></a></div>
+<div class="col-sm-offset-1"><a href="/1-bed-Apartment-in-Torre-de-la-Horadada-1763.html"<button class="btn btn-warning">View</button></a></div>
 </div>
 
 
 
 
-  <div class="featured_property_wrap col-sm-4"><style>#offer{font-size:20px;} .mgh-offer{text-align:center;}</style><div class="mgh-offer"><img src="//lh3.googleusercontent.com/-GTT16P545Io/WA8sWvHiQZI/AAAAAAAAP6o/8rxFFVCigjwJ_o2_7QVO7SU-NCs_dFAHACL0B/s0-rj/150-euros.jpg" class="img-thumbnail img-circle img-responsive"><div id="offer">COULD WE PAY<br> YOUR HOTEL BILL?</div><div class="col-sm-offset-1"><a href="/mgh-offer.html#hotelpaid"><button class="btn btn-success">Tell me more</button></a></div></div></div>
+<div class="featured_property_wrap col-sm-4">
+<a href="/2-bed-Townhouse-in-Los-Balcones-1570.html" class="no_float property_thumb"><img alt="Los Balcones Townhouse for sale" class="img-thumbnail featured_property_thumbnail" src="//lh3.googleusercontent.com/yr9mB_4ly_sYfmJNqB2U9NCP2YrtMcdg-ihcZcF6vzcBw-dMEotObTlH6Ui9o_Ucq_kKXqZSFLZJw_TKCg=w240-rj-e30-v2" title="Los Balcones Townhouse for sale"></a>
+<ul>
+
+<li><strong><span class='price_eur'>&euro;89,500</span>  <span class="price_gbp"></span></strong></li>
+<li>Townhouse</li>
+<li>Los Balcones</li>
+
+
+</ul>
+<div class="col-sm-offset-1"><a href="/2-bed-Townhouse-in-Los-Balcones-1570.html"<button class="btn btn-warning">View</button></a></div>
+</div>
+
 
 
 
 <div class="featured_property_wrap col-sm-4">
-<a href="/2-bed-Apartment-in-Villamartin-Golf-1345.html" class="no_float property_thumb"><img alt="Villamartin Golf Apartment for sale" class="img-thumbnail featured_property_thumbnail" src="//lh3.googleusercontent.com/-jn56PD0Q0UE/Vmq2zm4E5-I/AAAAAAAAJrw/mzge0jbg56A/s240/1.jpg" title="Villamartin Golf Apartment for sale"></a>
+<a href="/4-bed-Semidetached-Villa-in-Villamartin-Golf-1718.html" class="no_float property_thumb"><img alt="Villamartin Golf Semidetached Villa for sale" class="img-thumbnail featured_property_thumbnail" src="//lh3.googleusercontent.com/HBAgSbEr7IkSnQcbxo5jdrjYPTO1lKP8PvZW0DTtP7JWQn625fJWleGeqJu2QXrfbyTzDhRyjcKAmM84lA=w240-rj-e30-v2" title="Villamartin Golf Semidetached Villa for sale"></a>
 <ul>
 
-<li><strong><span class='price_eur'>&euro;129,500</span>  <span class="price_gbp"></span></strong></li>
-<li>Apartment</li>
+<li><strong><span class='price_eur'>&euro;189,000</span>  <span class="price_gbp"></span></strong></li>
+<li>Semidetached Villa</li>
 <li>Villamartin Golf</li>
 
 
 </ul>
-<div class="col-sm-offset-1"><a href="/2-bed-Apartment-in-Villamartin-Golf-1345.html"<button class="btn btn-warning">View</button></a></div>
+<div class="col-sm-offset-1"><a href="/4-bed-Semidetached-Villa-in-Villamartin-Golf-1718.html"<button class="btn btn-warning">View</button></a></div>
 </div>
 
 </div>
@@ -329,121 +379,52 @@ margin-right: 8px;
 
 
 <div class="featured_property_wrap col-sm-4">
-<a href="/2-bed-Apartment-in-Lo-Romero-Golf-1321.html" class="no_float property_thumb"><img alt="Lo Romero Golf Apartment for sale" class="img-thumbnail featured_property_thumbnail" src="//lh3.googleusercontent.com/-AhuWXcshoZg/VW2Ti0eNbNI/AAAAAAAAISk/VGgEBKWMOTE/s240/1.jpg" title="Lo Romero Golf Apartment for sale"></a>
+<a href="/3-bed-Townhouse-in-la-Finca-1698.html" class="no_float property_thumb"><img alt="la Finca Townhouse for sale" class="img-thumbnail featured_property_thumbnail" src="//lh3.googleusercontent.com/JpQyyy0yISUHkiBH86ywgp7NLWrokdo-bIssQJf4Tq3IWxQMRUtsYkFoOI5DVBCW1z6-zqG-juypNJFSl4s=w240-rj-e30-v2" title="la Finca Townhouse for sale"></a>
 <ul>
 
-<li><strong><span class='price_eur'>&euro;149,900</span>  <span class="price_gbp"></span></strong></li>
-<li>Apartment</li>
-<li>Lo Romero Golf</li>
+<li><strong><span class='price_eur'>&euro;199,000</span>  <span class="price_gbp"></span></strong></li>
+<li>Townhouse</li>
+<li>la Finca</li>
 
 
 </ul>
-<div class="col-sm-offset-1"><a href="/2-bed-Apartment-in-Lo-Romero-Golf-1321.html"<button class="btn btn-warning">View</button></a></div>
+<div class="col-sm-offset-1"><a href="/3-bed-Townhouse-in-la-Finca-1698.html"<button class="btn btn-warning">View</button></a></div>
 </div>
 
 
 
 
 <div class="featured_property_wrap col-sm-4">
-<a href="/2-bed-Apartment-in-Villamartin-Golf-136002.html" class="no_float property_thumb"><img alt="Villamartin Golf Apartment for sale" class="img-thumbnail featured_property_thumbnail" src="//lh3.googleusercontent.com/-fSgzc10AZTo/Vsc2mdhS5oI/AAAAAAAALLg/X8yFY_nhdI4/s240/1.jpg" title="Villamartin Golf Apartment for sale"></a>
+<a href="/2-bed-Apartment-in-Guardamar-del-Segura-1774.html" class="no_float property_thumb"><img alt="Guardamar del Segura Apartment for sale" class="img-thumbnail featured_property_thumbnail" src="//lh3.googleusercontent.com/WhgrQxQeK9QOrL_af7t8PIJF3_K3uHjQl_obC3TnPIwhClGPnO77neRG9xZzTO4W0hH72eXPaNw3cx3ncw=w240-rj-e30-v2" title="Guardamar del Segura Apartment for sale"></a>
 <ul>
 
-<li><strong><span class='price_eur'>&euro;152,500</span>  <span class="price_gbp"></span></strong></li>
+<li><strong><span class='price_eur'>&euro;199,000</span>  <span class="price_gbp"></span></strong></li>
 <li>Apartment</li>
-<li>Villamartin Golf</li>
+<li>Guardamar del Segura</li>
 
 
 </ul>
-<div class="col-sm-offset-1"><a href="/2-bed-Apartment-in-Villamartin-Golf-136002.html"<button class="btn btn-warning">View</button></a></div>
+<div class="col-sm-offset-1"><a href="/2-bed-Apartment-in-Guardamar-del-Segura-1774.html"<button class="btn btn-warning">View</button></a></div>
 </div>
 
 
 
 
 <div class="featured_property_wrap col-sm-4">
-<a href="/2-bed-Apartment-in-Villamartin-Golf-1346.html" class="no_float property_thumb"><img alt="Villamartin Golf Apartment for sale" class="img-thumbnail featured_property_thumbnail" src="//lh3.googleusercontent.com/-wxvrimiRYP4/VmrCKbdr17I/AAAAAAAAJuk/XSBEbHIa0-s/s240/1.jpg" title="Villamartin Golf Apartment for sale"></a>
+<a href="/3-bed-Detached-Villa-in-Ciudad-Quesada-1764.html" class="no_float property_thumb"><img alt="Ciudad Quesada Detached Villa for sale" class="img-thumbnail featured_property_thumbnail" src="//lh3.googleusercontent.com/zoi8GmKSDkoewEOz8_LAK_J_E2aIgSNb00vOy17XgnqS74MMXzqRYGwTUNzmNvWrxmjXHPxiaWL2O9tnkQ=w240-rj-e30-v2" title="Ciudad Quesada Detached Villa for sale"></a>
 <ul>
 
-<li><strong><span class='price_eur'>&euro;179,000</span>  <span class="price_gbp"></span></strong></li>
-<li>Apartment</li>
-<li>Villamartin Golf</li>
-
-
-</ul>
-<div class="col-sm-offset-1"><a href="/2-bed-Apartment-in-Villamartin-Golf-1346.html"<button class="btn btn-warning">View</button></a></div>
-</div>
-
-</div>
-<div class="row">
-
-
-
-
-<div class="featured_property_wrap col-sm-4">
-<a href="/2-bed-Detached-Villa-in-Cabo-Roig-1213.html" class="no_float property_thumb"><img alt="Cabo Roig Detached Villa for sale" class="img-thumbnail featured_property_thumbnail" src="//lh3.googleusercontent.com/-oTy7djIfA4s/VFJU7zONMlI/AAAAAAAAB0I/pK5FZ5SbmFs/s240/1.jpg" title="Cabo Roig Detached Villa for sale"></a>
-<ul>
-
-<li><strong><span class='price_eur'>&euro;192,000</span>  <span class="price_gbp"></span></strong></li>
+<li><strong><span class='price_eur'>&euro;234,900</span>  <span class="price_gbp"></span></strong></li>
 <li>Detached Villa</li>
-<li>Cabo Roig</li>
+<li>Ciudad Quesada</li>
 
 
 </ul>
-<div class="col-sm-offset-1"><a href="/2-bed-Detached-Villa-in-Cabo-Roig-1213.html"<button class="btn btn-warning">View</button></a></div>
-</div>
-
-
-
-
-<div class="featured_property_wrap col-sm-4">
-<a href="/2-bed-Detached-Villa-in-La-Finca-Golf-1319.html" class="no_float property_thumb"><img alt="La Finca Golf Detached Villa for sale" class="img-thumbnail featured_property_thumbnail" src="//lh3.googleusercontent.com/-WkTheYP9iEk/VW2R-_g_2KI/AAAAAAAAIOQ/v6SXk8a8TRE/s240/1.jpg" title="La Finca Golf Detached Villa for sale"></a>
-<ul>
-
-<li><strong><span class='price_eur'>&euro;195,000</span>  <span class="price_gbp"></span></strong></li>
-<li>Detached Villa</li>
-<li>La Finca Golf</li>
-
-
-</ul>
-<div class="col-sm-offset-1"><a href="/2-bed-Detached-Villa-in-La-Finca-Golf-1319.html"<button class="btn btn-warning">View</button></a></div>
-</div>
-
-
-
-
-<div class="featured_property_wrap col-sm-4">
-<a href="/2-bed-Apartment-in-Cabo-Roig-1347.html" class="no_float property_thumb"><img alt="Cabo Roig Apartment for sale" class="img-thumbnail featured_property_thumbnail" src="//lh3.googleusercontent.com/-AiaSX7B2wFc/Vmrq8u-7WgI/AAAAAAAAJv0/fMmQBrQ6-xI/s240/1.jpg" title="Cabo Roig Apartment for sale"></a>
-<ul>
-
-<li><strong><span class='price_eur'>&euro;227,000</span>  <span class="price_gbp"></span></strong></li>
-<li>Apartment</li>
-<li>Cabo Roig</li>
-
-
-</ul>
-<div class="col-sm-offset-1"><a href="/2-bed-Apartment-in-Cabo-Roig-1347.html"<button class="btn btn-warning">View</button></a></div>
+<div class="col-sm-offset-1"><a href="/3-bed-Detached-Villa-in-Ciudad-Quesada-1764.html"<button class="btn btn-warning">View</button></a></div>
 </div>
 
 </div>
 <div class="row">
-
-
-
-
-<div class="featured_property_wrap col-sm-4">
-<a href="/3-bed-Villa-in-Villamartin-Golf-1260.html" class="no_float property_thumb"><img alt="Villamartin Golf Villa for sale" class="img-thumbnail featured_property_thumbnail" src="//lh3.googleusercontent.com/-3FHy3t4SX-E/VFJMqqdNAsI/AAAAAAAAAfU/JlUIREIO34s/s240/1.jpg" title="Villamartin Golf Villa for sale"></a>
-<ul>
-
-<li><strong><span class='price_eur'>&euro;256,900</span>  <span class="price_gbp"></span></strong></li>
-<li>Villa</li>
-<li>Villamartin Golf</li>
-
-
-</ul>
-<div class="col-sm-offset-1"><a href="/3-bed-Villa-in-Villamartin-Golf-1260.html"<button class="btn btn-warning">View</button></a></div>
-</div>
-
-
 
 
 
@@ -463,6 +444,11 @@ margin-right: 8px;
     <h3 class="panel-title">Property search</h3>
   </div>
 <div class="panel-body">
+<form action="search.html" method="GET">
+  Choose Reference Number<br/>
+    <select name="propref"><option value="No Ref">Choose Ref</option><option value="AP1-2-V7369">AP1-2-V7369</option><option value="AP1-G7484">AP1-G7484</option><option value="AP1-PF0010028">AP1-PF0010028</option><option value="AP1-PP00023">AP1-PP00023</option><option value="AP1-T000B2">AP1-T000B2</option><option value="AP1-T001042">AP1-T001042</option><option value="AP1-T00265">AP1-T00265</option><option value="AP1-T006034">AP1-T006034</option><option value="AP1-TH7639">AP1-TH7639</option><option value="AP1-TIN089">AP1-TIN089</option><option value="AP1-TIN1030">AP1-TIN1030</option><option value="AP1-TPA8071">AP1-TPA8071</option><option value="AP1-Z007584">AP1-Z007584</option><option value="AP1_2-T7649">AP1_2-T7649</option><option value="AP2-3-G7484">AP2-3-G7484</option><option value="AP2-3-V7141">AP2-3-V7141</option><option value="AP2-3-V7141b">AP2-3-V7141b</option><option value="AP2-3-V7558">AP2-3-V7558</option><option value="AP2-BA7635">AP2-BA7635</option><option value="AP2-C00072">AP2-C00072</option><option value="AP2-C00073">AP2-C00073</option><option value="AP2-C00087">AP2-C00087</option><option value="AP2-C001028">AP2-C001028</option><option value="AP2-C00220">AP2-C00220</option><option value="AP2-C00SO7624">AP2-C00SO7624</option><option value="AP2-CMI231">AP2-CMI231</option><option value="AP2-CSO7667">AP2-CSO7667</option><option value="AP2-G7138">AP2-G7138</option><option value="AP2-G7370">AP2-G7370</option><option value="AP2-G7650">AP2-G7650</option><option value="AP2-LF7590">AP2-LF7590</option><option value="AP2-LM7350">AP2-LM7350</option><option value="AP2-LM7470">AP2-LM7470</option><option value="AP2-P00088">AP2-P00088</option><option value="AP2-PF00058">AP2-PF00058</option><option value="AP2-PF00237">AP2-PF00237</option><option value="AP2-PF00420">AP2-PF00420</option><option value="AP2-PF00427">AP2-PF00427</option><option value="AP2-PF005056">AP2-PF005056</option><option value="AP2-PF005058">AP2-PF005058</option><option value="AP2-PF7517">AP2-PF7517</option><option value="AP2-PF7530">AP2-PF7530</option><option value="AP2-PFJE027">AP2-PFJE027</option><option value="AP2-PFJE033">AP2-PFJE033</option><option value="AP2-PFMI250">AP2-PFMI250</option><option value="AP2-PFMI251">AP2-PFMI251</option><option value="AP2-PFMI265">AP2-PFMI265</option><option value="AP2-PH7240">AP2-PH7240</option><option value="AP2-PH7471">AP2-PH7471</option><option value="AP2-PH7495">AP2-PH7495</option><option value="AP2-PH7550">AP2-PH7550</option><option value="AP2-PP00066">AP2-PP00066</option><option value="AP2-PP00229">AP2-PP00229</option><option value="AP2-PP005051">AP2-PP005051</option><option value="AP2-PPMI253">AP2-PPMI253</option><option value="AP2-PPPA10018">AP2-PPPA10018</option><option value="AP2-Q7408">AP2-Q7408</option><option value="AP2-Q7625">AP2-Q7625</option><option value="AP2-Rent7145">AP2-Rent7145</option><option value="AP2-SU7510">AP2-SU7510</option><option value="AP2-T001008">AP2-T001008</option><option value="AP2-T00150-008">AP2-T00150-008</option><option value="AP2-T0020010">AP2-T0020010</option><option value="AP2-T002106">AP2-T002106</option><option value="AP2-T00500-003">AP2-T00500-003</option><option value="AP2-T005043">AP2-T005043</option><option value="AP2-T008069">AP2-T008069</option><option value="AP2-T7440a">AP2-T7440a</option><option value="AP2-T7601">AP2-T7601</option><option value="AP2-T7649">AP2-T7649</option><option value="AP2-TH7566">AP2-TH7566</option><option value="AP2-TIN1051">AP2-TIN1051</option><option value="AP2-TLE101-6279">AP2-TLE101-6279</option><option value="AP2-TM1440">AP2-TM1440</option><option value="AP2-TMI208">AP2-TMI208</option><option value="AP2-TMI258">AP2-TMI258</option><option value="AP2-TPA8070">AP2-TPA8070</option><option value="AP2-TPR1305">AP2-TPR1305</option><option value="AP2-TPR1338">AP2-TPR1338</option><option value="AP2-TTI1100">AP2-TTI1100</option><option value="AP2-V001363">AP2-V001363</option><option value="AP2-V00573R">AP2-V00573R</option><option value="AP2-V007615">AP2-V007615</option><option value="AP2-V007616">AP2-V007616</option><option value="AP2-V7146">AP2-V7146</option><option value="AP2-V7270a">AP2-V7270a</option><option value="AP2-V7355a">AP2-V7355a</option><option value="AP2-V7383">AP2-V7383</option><option value="AP2-V7385">AP2-V7385</option><option value="AP2-V7455a">AP2-V7455a</option><option value="AP2-V7466">AP2-V7466</option><option value="AP2-V7565">AP2-V7565</option><option value="AP2-V7600">AP2-V7600</option><option value="AP2-V7630">AP2-V7630</option><option value="AP2-V7662">AP2-V7662</option><option value="AP2-VMI260">AP2-VMI260</option><option value="AP2-VMI263">AP2-VMI263</option><option value="AP2-VMI434">AP2-VMI434</option><option value="AP2-VMI437">AP2-VMI437</option><option value="AP2-VMI438">AP2-VMI438</option><option value="AP2-VOC567R">AP2-VOC567R</option><option value="AP2-VSWD4846">AP2-VSWD4846</option><option value="AP2-Z7645">AP2-Z7645</option><option value="AP2-ZRI1570">AP2-ZRI1570</option><option value="AP2_3-Q7610">AP2_3-Q7610</option><option value="AP2_3-V7608">AP2_3-V7608</option><option value="AP3-Alc7594">AP3-Alc7594</option><option value="AP3-C00204">AP3-C00204</option><option value="AP3-C005004">AP3-C005004</option><option value="AP3-CMI243">AP3-CMI243</option><option value="AP3-G00325">AP3-G00325</option><option value="AP3-LC7500">AP3-LC7500</option><option value="AP3-LPOC590R">AP3-LPOC590R</option><option value="AP3-PFMI254">AP3-PFMI254</option><option value="AP3-PP00066">AP3-PP00066</option><option value="AP3-PP7281">AP3-PP7281</option><option value="AP3-T00047">AP3-T00047</option><option value="AP3-T001023">AP3-T001023</option><option value="AP3-T00176">AP3-T00176</option><option value="AP3-T00245">AP3-T00245</option><option value="AP3-T003566">AP3-T003566</option><option value="AP3-T7440a">AP3-T7440a</option><option value="AP3-TOS3791">AP3-TOS3791</option><option value="AP3-TRS7655">AP3-TRS7655</option><option value="AP3-TTI3329">AP3-TTI3329</option><option value="AP3-V7144">AP3-V7144</option><option value="AP3-V7270b">AP3-V7270b</option><option value="AP3-V7325">AP3-V7325</option><option value="AP3-V7355b">AP3-V7355b</option><option value="AP3-V7455b">AP3-V7455b</option><option value="AP3-VSPS6542">AP3-VSPS6542</option><option value="AP3-ZMI439">AP3-ZMI439</option><option value="AP4-TIN0177">AP4-TIN0177</option><option value="DH12-Do7454">DH12-Do7454</option><option value="DH2-Alc7322a">DH2-Alc7322a</option><option value="DH2-C4199">DH2-C4199</option><option value="DH2-CMI747">DH2-CMI747</option><option value="DH2-Fin7143">DH2-Fin7143</option><option value="DH2-PH7490">DH2-PH7490</option><option value="DH2-Q7620">DH2-Q7620</option><option value="DH2-Q7640">DH2-Q7640</option><option value="DH2-T7555">DH2-T7555</option><option value="DH2-TIN1059">DH2-TIN1059</option><option value="DH2-V00575R">DH2-V00575R</option><option value="DH2_3_4-C7582">DH2_3_4-C7582</option><option value="DH2_3_4-MM7637">DH2_3_4-MM7637</option><option value="DH2_3_4-SP7652">DH2_3_4-SP7652</option><option value="DH3-Alc7322a">DH3-Alc7322a</option><option value="DH3-Alc7593">DH3-Alc7593</option><option value="DH3-C00700">DH3-C00700</option><option value="DH3-C7651">DH3-C7651</option><option value="DH3-Fin00099">DH3-Fin00099</option><option value="DH3-Fin005022">DH3-Fin005022</option><option value="DH3-Fin005039">DH3-Fin005039</option><option value="DH3-Fin00709">DH3-Fin00709</option><option value="DH3-FinCB5023">DH3-FinCB5023</option><option value="DH3-G7656">DH3-G7656</option><option value="DH3-LF7658">DH3-LF7658</option><option value="DH3-MM7444">DH3-MM7444</option><option value="DH3-MU7288">DH3-MU7288</option><option value="DH3-PC7648">DH3-PC7648</option><option value="DH3-PH7491">DH3-PH7491</option><option value="DH3-Q7533">DH3-Q7533</option><option value="DH3-Q7602a">DH3-Q7602a</option><option value="DH3-Q7602b">DH3-Q7602b</option><option value="DH3-Q7604">DH3-Q7604</option><option value="DH3-Q7636a">DH3-Q7636a</option><option value="DH3-Q7636b">DH3-Q7636b</option><option value="DH3-Q7641">DH3-Q7641</option><option value="DH3-Q7647">DH3-Q7647</option><option value="DH3-Q7659">DH3-Q7659</option><option value="DH3-SM00150-09">DH3-SM00150-09</option><option value="DH3-SM007602">DH3-SM007602</option><option value="DH3-SM7585">DH3-SM7585</option><option value="DH3-SM7661">DH3-SM7661</option><option value="DH3-TH7450">DH3-TH7450</option><option value="DH3-TH7474">DH3-TH7474</option><option value="DH3-TH7480">DH3-TH7480</option><option value="DH3-V00100">DH3-V00100</option><option value="DH3-V003197">DH3-V003197</option><option value="DH3-V00CB5066">DH3-V00CB5066</option><option value="DH3-V3020r">DH3-V3020r</option><option value="DH3-V6062">DH3-V6062</option><option value="DH3-V7205">DH3-V7205</option><option value="DH3-V7266vm-10">DH3-V7266vm-10</option><option value="DH3-V7366">DH3-V7366</option><option value="DH3-V7377">DH3-V7377</option><option value="DH3-V7460">DH3-V7460</option><option value="DH3-V7468">DH3-V7468</option><option value="DH3-V7477">DH3-V7477</option><option value="DH3-V7520">DH3-V7520</option><option value="DH3-V7553">DH3-V7553</option><option value="DH3-V7605">DH3-V7605</option><option value="DH3-V7622">DH3-V7622</option><option value="DH3-V7662">DH3-V7662</option><option value="DH3-VOC579R">DH3-VOC579R</option><option value="DH3-VOC596R">DH3-VOC596R</option><option value="DH3_4-C7609">DH3_4-C7609</option><option value="DH3_4-Q7643">DH3_4-Q7643</option><option value="DH4-Fin6106">DH4-Fin6106</option><option value="DH4-SM7580">DH4-SM7580</option><option value="DH4-T00SH258">DH4-T00SH258</option><option value="DH4-T7560">DH4-T7560</option><option value="DH4-TCB4975">DH4-TCB4975</option><option value="DH4-TMI704">DH4-TMI704</option><option value="DH4-V000802">DH4-V000802</option><option value="DH4-V00703">DH4-V00703</option><option value="DH4-V7633">DH4-V7633</option><option value="DH4-VOS3084">DH4-VOS3084</option><option value="DH4-Z00128">DH4-Z00128</option><option value="DH5-Fin003689">DH5-Fin003689</option><option value="DH5-SPMI745">DH5-SPMI745</option><option value="DH5-V00025">DH5-V00025</option><option value="DH5-V7340">DH5-V7340</option><option value="DH5-ZOS3752">DH5-ZOS3752</option><option value="DH6-V7203r">DH6-V7203r</option><option value="DH7-TMI750">DH7-TMI750</option><option value="PLOT-LF7654">PLOT-LF7654</option><option value="QH2-C00525">QH2-C00525</option><option value="QH2-PFCC009">QH2-PFCC009</option><option value="QH2-PFCC025">QH2-PFCC025</option><option value="QH2-PFJE029">QH2-PFJE029</option><option value="QH2-TTI2337">QH2-TTI2337</option><option value="QH3-PFCB5073">QH3-PFCB5073</option><option value="QH3-PFCC022">QH3-PFCC022</option><option value="QH3-PFSS0654">QH3-PFSS0654</option><option value="QH3-PFSS0672">QH3-PFSS0672</option><option value="QH3-PFSS0722">QH3-PFSS0722</option><option value="QH3-PFSS302">QH3-PFSS302</option><option value="QH3-V7344">QH3-V7344</option><option value="QH3-V7614">QH3-V7614</option><option value="QH3C00068a">QH3C00068a</option><option value="SH2-Alc7322b">SH2-Alc7322b</option><option value="SH2-PF7646">SH2-PF7646</option><option value="SH2-PFJE026">SH2-PFJE026</option><option value="SH2-SM7595">SH2-SM7595</option><option value="SH2-T007592">SH2-T007592</option><option value="SH3-C00CTCD011">SH3-C00CTCD011</option><option value="SH3-PF00527">SH3-PF00527</option><option value="SH3-PFIN1062">SH3-PFIN1062</option><option value="SH3-PFJE030">SH3-PFJE030</option><option value="SH3-Q7651">SH3-Q7651</option><option value="SH3-T005024">SH3-T005024</option><option value="SH3-TMI748">SH3-TMI748</option><option value="SH3-TSP7660">SH3-TSP7660</option><option value="SH3-V00321R">SH3-V00321R</option><option value="SH4-CCC018">SH4-CCC018</option><option value="SH4-PFMI539">SH4-PFMI539</option><option value="SH4-V7606">SH4-V7606</option><option value="SH4-Z000119">SH4-Z000119</option><option value="SH5-V001362">SH5-V001362</option><option value="TH2-DN7588">TH2-DN7588</option><option value="TH2-LFJE031">TH2-LFJE031</option><option value="TH2-PF001278">TH2-PF001278</option><option value="TH2-Q7515">TH2-Q7515</option><option value="TH2-T0010023">TH2-T0010023</option><option value="TH2-T00112">TH2-T00112</option><option value="TH2-T0015009">TH2-T0015009</option><option value="TH2-T00152">TH2-T00152</option><option value="TH2-T008065">TH2-T008065</option><option value="TH2-TPR1302">TH2-TPR1302</option><option value="TH2-TPSDP18">TH2-TPSDP18</option><option value="TH2-V7290">TH2-V7290</option><option value="TH2-VOC562R">TH2-VOC562R</option><option value="TH2_3-V7520">TH2_3-V7520</option><option value="TH3-CCB5054">TH3-CCB5054</option><option value="TH3-LF00522">TH3-LF00522</option><option value="TH3-LF7591">TH3-LF7591</option><option value="TH3-PF00424">TH3-PF00424</option><option value="TH3-PFMI532">TH3-PFMI532</option><option value="TH3-PFSS3026">TH3-PFSS3026</option><option value="TH3-PH7472">TH3-PH7472</option><option value="TH3-PP001403">TH3-PP001403</option><option value="TH3-PP001527">TH3-PP001527</option><option value="TH3-PPIN1054">TH3-PPIN1054</option><option value="TH3-QMI536">TH3-QMI536</option><option value="TH3-SJ7611">TH3-SJ7611</option><option value="TH3-T0010029">TH3-T0010029</option><option value="TH3-T001142">TH3-T001142</option><option value="TH3-V005048">TH3-V005048</option><option value="TH3-V7255">TH3-V7255</option><option value="TH3-V7544">TH3-V7544</option><option value="TH3-VMI535">TH3-VMI535</option><option value="TH4-TB001">TH4-TB001</option><option value="TH4-VOC561R">TH4-VOC561R</option><option value="TH5-TPA150010">TH5-TPA150010</option><option value="TH6-TH00529">TH6-TH00529</option></select></select>
+  <input type="submit" value="Search">
+</form>
 <h5>SEARCH MOST POPULAR PLACES</h5>
 <ul>
 <a targ="popular/OrihuelaCosta" href="orihuela-costa-property-south-costa-blanca-0.html"><li>Orihuela Costa</li></a>
@@ -475,6 +461,8 @@ margin-right: 8px;
 <a targ="popular/Torrevieja" href="torrevieja-property-south-costa-blanca-0.html"><li>Torrevieja</li></a>
 <a targ="popular/LosBalcones" href="los-balcones-property-south-costa-blanca-0.html"><li>Los Balcones</li></a>
 <a targ="popular/PuntaPrima" href="punta-prima-property-south-costa-blanca-0.html"><li>Punta Prima</li></a>
+<a targ="popular/PilardelaHoradada" href="pilar-de-la-horadada-property-south-costa-blanca-0.html"><li>Pilar de la Horadada</li></a>
+<a targ="popular/TorredelaHoradada" href="torre-de-la-horadada-property-south-costa-blanca-0.html"><li>Torre de la Horadada</li></a>
 <a targ="popular/top6" href="index.html"><li>Top Six Offers</li></a>
 </ul>
 <h5>SEARCH BY PRICE</h5>
@@ -526,11 +514,11 @@ We are urgently looking for good homes for cash buyers.
 <div class="contact-text">
 <b>Sales Director</b><br>Ellen Van den Broek<br>
 <a href="mailto:ellen@maxgoldhouse.com">ellen@maxgoldhouse.com</a><br>
-<img class="tight" src="img/handy.jpg"> +34&nbsp;657 612 295
+<img class="tight" src="//lh3.googleusercontent.com/-OiXVhRTLXIk/WFfNY6nupDI/AAAAAAAAO-k/Fk6_7lg7fq8to2QqKhPyCxIdU7YqzqVQQCHM/s0-no-e365/handy.jpg"> +34&nbsp;657 612 295
 </div>
-<div class="contact-text"><b>Admin Director</b><br>Manfred Ohl<br><a href="mailto:manfred@maxgoldhouse.com">manfred@maxgoldhouse.com</a><br><img class="tight" src="img/handy.jpg"> +34 608 826 850 </div>
-<div class="contact-text"><b>Office</b> <br>Centro Comercial Rioja No. 45 - Villamartin Golf<br>Calle Magallanes / corner Calle Manuel de Falla s/n <br>03189 Orihuela  (Alicante)<br><img class="tight" src="img/phone.jpg">: +34 966 765 497<br/>
-<a target="_blank" href="https://www.google.com/maps/d/u/0/viewer?ll=37.93819,-0.753486&iwloc=0004d407c9d5045bb72fc&msa=0&spn=0.014622,0.027874&mid=zXjUEAzLh6Lk.kiblnLb9tKe8"><img src="//lh4.googleusercontent.com/-jLG-LJ7kFm4/UQFavzTfm3I/AAAAAAAAFCQ/Z_26eqEyAd0/s40/showmap.jpg" style="border:none;padding:0px;margin:0px;" title="See office location on Google maps"></a>
+<div class="contact-text"><b>Admin Director</b><br>Manfred Ohl<br><a href="mailto:manfred@maxgoldhouse.com">manfred@maxgoldhouse.com</a><br><img class="tight" src="//lh3.googleusercontent.com/-OiXVhRTLXIk/WFfNY6nupDI/AAAAAAAAO-k/Fk6_7lg7fq8to2QqKhPyCxIdU7YqzqVQQCHM/s0-no-e365/handy.jpg"> +34 608 826 850 </div>
+<div class="contact-text"><b>Office</b> <br>Centro Comercial Rioja No. 45 - Villamartin Golf<br>Calle Magallanes / corner Calle Manuel de Falla s/n <br>03189 Orihuela  (Alicante)<br><img class="tight" src="//lh3.googleusercontent.com/-6KQEcTxGrwg/WFfNY7KpeoI/AAAAAAAAO-k/EZqUJlyUm9k5yAK4Q4a7qIPLlVNGb_P0QCHM/s0-no-e365/phone.jpg">: +34 966 765 497<br/>
+<a target="_blank" href="https://www.google.com/maps/d/u/0/viewer?ll=37.93819,-0.753486&iwloc=0004d407c9d5045bb72fc&msa=0&spn=0.014622,0.027874&mid=zXjUEAzLh6Lk.kiblnLb9tKe8"><img src="//lh3.googleusercontent.com/-jLG-LJ7kFm4/UQFavzTfm3I/AAAAAAAAFCQ/Z_26eqEyAd0/s40-e30/showmap.jpg" style="border:none;padding:0px;margin:0px;" title="See office location on Google maps"></a>
 </div>
 </div>
 </div>
@@ -557,13 +545,13 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
  * Copyright 2011-2015 David Longley dklongley@speedsizeinfluence.com
  * Licensed under MIT
  */
-function mediaqueryresponse(e){console.log("mql is running"),e.matches?(screen="large",$("#quicklinks").html('<img src="https://www.maxgoldhouse.com/img/laveleta2.jpg" style="max-width:100%;padding: 10px;"/>'),$("#aftertop6").empty(),$("#aftertop6").attr("screensize","large"),$("#monbuts").load("inc/monbuts.html")):console.log("small")}function setCookie(e,o){var t=new Date;t.setTime(t.getTime()+36e5),document.cookie=e+"="+o+";expires="+t.toUTCString()}function getCookie(e){var o=document.cookie.match("(^|;) ?"+e+"=([^;]*)(;|$)");return o?o[2]:null}function getforexrate(e){return $.ajax({url:document.location.protocol+"//spreadsheets.google.com/feeds/cells/1JvVo4FI6KtE9aD6-CRCA8uwYre85zLY75nmwjHtTjwU/od6/public/basic/R1C1?alt=json",type:"GET",cache:!1,dataType:"json"}).done(e).fail(function(){})}function setgbpPrices(e){var o,t;$(".price_eur").each(function(){o=$(this).html().replace(/,/g,"").replace(decodeURI('%E2%82%AC'),"").replace(/ /g,""),t=o/e,$(this).next(".price_gbp").html("(&pound;"+Math.round(t).toLocaleString()+")")})}function dogbprices(){var e=getCookie("gbpeur");console.log("currentrate "+e),e?isNaN(e)||setgbpPrices(e):getforexrate(function(e){var o=e.entry.content.$t;console.log("askprice from json "+o),setCookie("gbpeur",o),setgbpPrices(o)})}function moreprops(){"large"==$("#aftertop6").attr("screensize")&&$("#aftertop6").load("allindex.html",function(){$(window).unbind(),dogbprices()})}screen="small";var mql=window.matchMedia("screen and (min-device-width: 900px)");mediaqueryresponse(mql),mql.addListener(mediaqueryresponse),$(window).bind("scroll",function(){$("#aftertop6").is(":visible")&&moreprops()}),dogbprices();
+function mediaqueryresponse(e){console.log("mql is running"),e.matches?(screen="large",$("#quicklinks").html('<img src="https://lh3.googleusercontent.com/-Jc-a9_WayCQ/WFfNY45BlCI/AAAAAAAAO-k/JcRHTFrckSEIOmbau5isF2bx4wQFgKhHQCHM/s0-no-e365/laveleta2.jpg" style="max-width:100%;padding: 10px;"/>'),$("#aftertop6").empty(),$("#aftertop6").attr("screensize","large"),$("#monbuts").load("inc/monbuts.html")):console.log("small")}function setCookie(e,o){var t=new Date;t.setTime(t.getTime()+36e5),document.cookie=e+"="+o+";expires="+t.toUTCString()}function getCookie(e){var o=document.cookie.match("(^|;) ?"+e+"=([^;]*)(;|$)");return o?o[2]:null}function getforexrate(e){return $.ajax({url:document.location.protocol+"//spreadsheets.google.com/feeds/cells/1JvVo4FI6KtE9aD6-CRCA8uwYre85zLY75nmwjHtTjwU/od6/public/basic/R1C1?alt=json",type:"GET",cache:!1,dataType:"json"}).done(e).fail(function(){})}function setgbpPrices(e){var o,t;$(".price_eur").each(function(){o=$(this).html().replace(/,/g,"").replace(decodeURI('%E2%82%AC'),"").replace(/ /g,""),t=o/e,$(this).next(".price_gbp").html("(&pound;"+Math.round(t).toLocaleString()+")")})}function dogbprices(){var e=getCookie("gbpeur");console.log("currentrate "+e),e?isNaN(e)||setgbpPrices(e):getforexrate(function(e){var o=e.entry.content.$t;console.log("askprice from json "+o),setCookie("gbpeur",o),setgbpPrices(o)})}function moreprops(){"large"==$("#aftertop6").attr("screensize")&&$("#aftertop6").load("allindex.html",function(){$(window).unbind(),dogbprices()})}screen="small";var mql=window.matchMedia("screen and (min-device-width: 900px)");mediaqueryresponse(mql),mql.addListener(mediaqueryresponse),$(window).bind("scroll",function(){$("#aftertop6").is(":visible")&&moreprops()}),dogbprices();
 /*!
  * fx.js
  * Copyright 2011-2015 David Longley dklongley@speedsizeinfluence.com
  * Licensed under MIT
  */
-function setCookie(e,t){var o=new Date;o.setTime(o.getTime()+36e5),document.cookie=e+"="+t+";secure;expires="+o.toUTCString()}function getCookie(e){var t=document.cookie.match("(^|;) ?"+e+"=([^;]*)(;|$)");return t?t[2]:null}function getforexrate(e){return $.ajax({url:document.location.protocol+"//spreadsheets.google.com/feeds/cells/1JvVo4FI6KtE9aD6-CRCA8uwYre85zLY75nmwjHtTjwU/od6/public/basic/R1C1?alt=json",type:"GET",cache:!1,dataType:"json"}).done(e).fail(function(){})}function setgbpPrices(e){var t,o;$(".price_eur").each(function(){t=$(this).html().replace(/,/g,"").replace(decodeURI('%E2%82%AC'),"").replace(/ /g,""),console.log("price_eur "+t),o=t/e,$(this).next(".price_gbp").html("(&pound;"+Math.round(o).toLocaleString()+")")})}function getmonthlypayment(e,t,o,r){var n=e*t,a=o/100,c=r;$("#monthlypaymentdetails").css("display","block"),$("#mp").html("<b>"+Math.round(mortgagePayment(n,a/12,12*c),2)+"</b>")}function mortgagePayment(e,t,o){return futureValue(e,t,o)/geomSeries(1+t,0,o-1)}function futureValue(e,t,o){return e*Math.pow(1+t,o)}function geomSeries(e,t,o){var r;return r=1==e?o+1:(Math.pow(e,o+1)-1)/(e-1),t>=1&&(r-=geomSeries(e,0,t-1)),r}function filterChars(e,t){var o,r=""+e;for(o=0;o<r.length;)t.indexOf(r.charAt(o))<0?r=r.substring(0,o)+r.substring(o+1,r.length):o++;return r}function makeNumeric(e){return filterChars(e,"1234567890.-")}$(document).ready(function(){var e=getCookie("gbpeur");console.log("currentrate "+e),e?isNaN(e)||setgbpPrices(e):getforexrate(function(e){var t=e.entry.content.$t;console.log("askprice from json "+t),setCookie("gbpeur",t),setgbpPrices(t)})});
+function setCookie(e,t){var o=new Date;o.setTime(o.getTime()+36e5),document.cookie=e+"="+t+";expires="+o.toUTCString()}function getCookie(e){var t=document.cookie.match("(^|;) ?"+e+"=([^;]*)(;|$)");return t?t[2]:null}function getforexrate(e){return $.ajax({url:document.location.protocol+"//spreadsheets.google.com/feeds/cells/1JvVo4FI6KtE9aD6-CRCA8uwYre85zLY75nmwjHtTjwU/od6/public/basic/R1C1?alt=json",type:"GET",cache:!1,dataType:"json"}).done(e).fail(function(){})}function setgbpPrices(e){var t,o;$(".price_eur").each(function(){t=$(this).html().replace(/,/g,"").replace(decodeURI('%E2%82%AC'),"").replace(/ /g,""),console.log("price_eur "+t),o=t/e,$(this).next(".price_gbp").html("(&pound;"+Math.round(o).toLocaleString()+")")})}function getmonthlypayment(e,t,o,r){var n=e*t,a=o/100,c=r;$("#monthlypaymentdetails").css("display","block"),$("#mp").html("<b>"+Math.round(mortgagePayment(n,a/12,12*c),2)+"</b>")}function mortgagePayment(e,t,o){return futureValue(e,t,o)/geomSeries(1+t,0,o-1)}function futureValue(e,t,o){return e*Math.pow(1+t,o)}function geomSeries(e,t,o){var r;return r=1==e?o+1:(Math.pow(e,o+1)-1)/(e-1),t>=1&&(r-=geomSeries(e,0,t-1)),r}function filterChars(e,t){var o,r=""+e;for(o=0;o<r.length;)t.indexOf(r.charAt(o))<0?r=r.substring(0,o)+r.substring(o+1,r.length):o++;return r}function makeNumeric(e){return filterChars(e,"1234567890.-")}$(document).ready(function(){var e=getCookie("gbpeur");console.log("currentrate "+e),e?isNaN(e)||setgbpPrices(e):getforexrate(function(e){var t=e.entry.content.$t;console.log("askprice from json "+t),setCookie("gbpeur",t),setgbpPrices(t)})});
 
 </script>
 <!--[if lte IE 9]>
