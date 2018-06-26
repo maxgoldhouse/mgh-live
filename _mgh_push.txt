@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Translations NL FR pids  1839 1840 1858 1865 1869 1870 by dklongley
+mgh-admin pushDataToGitHub Translations NL FR 1849 1859 by dklongley
