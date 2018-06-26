@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop SH3-TPSCH99 279k pid 1871 by dklongley
+mgh-admin pushDataToGitHub Translations NL FR pids  1839 1840 1858 1865 1869 1870 by dklongley
