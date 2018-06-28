@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub SOLD sign on 1673 by dklongley
+mgh-admin pushDataToGitHub Add Prop QH3-DN7672 237k pid 1874 by dklongley
