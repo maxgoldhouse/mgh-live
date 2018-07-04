@@ -2,7 +2,7 @@
 <kyero>
 <feed_version>2</feed_version>
 </kyero>
-  <property>
+<property>
 <id>16430407</id>
 <date>2018-07-04 15:09:53</date>
 <ref>AP1-DL-T001042</ref>
@@ -16,7 +16,7 @@
 <location_detail>La Mata</location_detail>
 <beds>1</beds>
 <baths>1</baths>
-<pool>public</pool>
+<pool>1</pool>
 <url/>
 <desc>
 <en>
@@ -159,7 +159,7 @@ http://lh3.googleusercontent.com/MsPNDqVe7-SrlMbBEpqZv4jzgsLxwqR8huzeAKupl5xp5aG
 <location_detail>La Zenia</location_detail>
 <beds>1</beds>
 <baths>1</baths>
-<pool>community</pool>
+<pool>1</pool>
 <url/>
 <desc>
 <en>
@@ -282,7 +282,7 @@ http://lh3.googleusercontent.com/IEfvT1rwXiynW203zG0Oo-y4D9sCCqlUjRp4YRPSD8XhOjQ
 <location_detail>Cabo Roig</location_detail>
 <beds>2</beds>
 <baths>1</baths>
-<pool>community</pool>
+<pool>1</pool>
 <url/>
 <desc>
 <en>
@@ -385,7 +385,7 @@ http://lh3.googleusercontent.com/-k3FT6AzHMOI/WCHBrpX7l5I/AAAAAAAAOGY/o2xEPKfAGh
 <location_detail>Playa Flamenca</location_detail>
 <beds>2</beds>
 <baths>1</baths>
-<pool>community</pool>
+<pool>1</pool>
 <url/>
 <desc>
 <en>
@@ -548,7 +548,7 @@ http://lh3.googleusercontent.com/IFDv2QmHIqB9H820tQs-vhbFEYdjJiG971KtcVIbT0yh9LF
 <location_detail>Los Balcones</location_detail>
 <beds>2</beds>
 <baths>1</baths>
-<pool>community</pool>
+<pool>1</pool>
 <url/>
 <desc>
 <en>
@@ -739,7 +739,7 @@ http://lh3.googleusercontent.com/o83I66TeANEt63fJ6uN20p6W8368jDm6Nw-rbMxUY1MXsGY
 <location_detail>Los Balcones</location_detail>
 <beds>2</beds>
 <baths>1</baths>
-<pool>community</pool>
+<pool>1</pool>
 <url/>
 <desc>
 <en>
@@ -862,7 +862,7 @@ http://lh3.googleusercontent.com/R23Kv2rNOuTvvc-XO5ygfAfdfFES3-XqZFdnTJLJl3jsnE0
 <location_detail>Cabo Roig</location_detail>
 <beds>2</beds>
 <baths>1</baths>
-<pool>community</pool>
+<pool>1</pool>
 <url/>
 <desc>
 <en>
@@ -1010,7 +1010,7 @@ http://lh3.googleusercontent.com/JhmeKGfo8SJi1fHnzb1p6CqFbnxnlJOIdSmmj3rRJo_qe1Q
 <location_detail>Punta Prima</location_detail>
 <beds>2</beds>
 <baths>1</baths>
-<pool>community</pool>
+<pool>1</pool>
 <url/>
 <desc>
 <en>
@@ -1168,7 +1168,7 @@ http://lh3.googleusercontent.com/31dZlDi8RZ3wj7ccj4eavyTFkd05qeJh3TtatyF-puGJyMs
 <location_detail>Playa Flamenca</location_detail>
 <beds>2</beds>
 <baths>2</baths>
-<pool>community</pool>
+<pool>1</pool>
 <url/>
 <desc>
 <en>
@@ -1291,7 +1291,7 @@ http://lh3.googleusercontent.com/2-mqBC-ApRbO-fnDKahgV6H8a6dPphYgc2u13uAXgWxrkUh
 <location_detail>Campoamor</location_detail>
 <beds>2</beds>
 <baths>1</baths>
-<pool>community</pool>
+<pool>1</pool>
 <url/>
 <desc>
 <en>
@@ -1449,7 +1449,7 @@ http://lh3.googleusercontent.com/Tb_njTXVeKoR2DsaF-3vgUTNKxKmtJyjgAkSvJ4d_y7bP1o
 <location_detail>Punta Prima</location_detail>
 <beds>2</beds>
 <baths>1</baths>
-<pool>community</pool>
+<pool>1</pool>
 <url/>
 <desc>
 <en>
@@ -1582,7 +1582,7 @@ http://lh3.googleusercontent.com/9swSCHJ_jHdI0Wb_hNDoxUBTEXChnH192ebpgbeo5iT7iim
 <location_detail>La Marina</location_detail>
 <beds>2</beds>
 <baths>1</baths>
-<pool>community</pool>
+<pool>1</pool>
 <url/>
 <desc>
 <en>
@@ -1820,7 +1820,7 @@ http://lh3.googleusercontent.com/gHNIOb4TaKLv3XbdvmRuIQMKZ9946Ci8KHWfsPLWO9AvK_Z
 <location_detail>Pilar de la Horadada</location_detail>
 <beds>2</beds>
 <baths>2</baths>
-<pool>community</pool>
+<pool>1</pool>
 <url/>
 <desc>
 <en>
@@ -1993,7 +1993,7 @@ http://lh3.googleusercontent.com/4N3KswPLNWMvcrs_qcW46PxMtXa0Q4j9O5GVdFKaKO4AyuU
 <location_detail>La Finca</location_detail>
 <beds>0</beds>
 <baths>0</baths>
-<pool>private</pool>
+<pool>1</pool>
 <url/>
 <desc>
 <en>
@@ -2164,7 +2164,7 @@ http://lh3.googleusercontent.com/SSkBkUDWO4VIkHr6ePLs2DLrAyXKb_AHM_GAL7UpIOv2u_c
 <location_detail>Los Alcazares</location_detail>
 <beds>2</beds>
 <baths>1</baths>
-<pool>No</pool>
+<pool>1</pool>
 <url/>
 <desc>
 <en>
@@ -2272,7 +2272,7 @@ http://lh3.googleusercontent.com/-nzmxEQRMDy0/WWS0vwRtZpI/AAAAAAAAPoE/_ofBP5YTtq
 <location_detail>Pilar de la Horadada</location_detail>
 <beds>2</beds>
 <baths>2</baths>
-<pool>community</pool>
+<pool>1</pool>
 <url/>
 <desc>
 <en>
@@ -2380,7 +2380,7 @@ http://lh3.googleusercontent.com/VW6Yfe3aXyBwTWdrq9Lrif7pvyMmRdyjVny7lzElF6LquX_
 <location_detail>Pilar de la Horadada</location_detail>
 <beds>2</beds>
 <baths>2</baths>
-<pool>community</pool>
+<pool>1</pool>
 <url/>
 <desc>
 <en>
@@ -2503,7 +2503,7 @@ http://lh3.googleusercontent.com/BeRhkZfJ1jw0yZIuoVbmYem9dVrNpS4P_E7pbPATSP4Rt2-
 <location_detail>Villamartin Golf</location_detail>
 <beds>2</beds>
 <baths>2</baths>
-<pool>community</pool>
+<pool>1</pool>
 <url/>
 <desc>
 <en>
