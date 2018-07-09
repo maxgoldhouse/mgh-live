@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Translations NL FR pids 1872 1873 1878 by dklongley
+mgh-admin pushDataToGitHub Price Up 1378 by dklongley
