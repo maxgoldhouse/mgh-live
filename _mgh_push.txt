@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop DH3-Q7677 361415 pid 1887 by dklongley
+mgh-admin pushDataToGitHub SOLD sign property 1699 by dklongley
