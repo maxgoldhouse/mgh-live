@@ -52,7 +52,7 @@ for rub in _all_rubrunsdata.rubruns:
 		  saleorrent = 'sale'
 		prop = {}
 		prop['description'] = thisprop['description'][:400]
-		prop['offplan'] = row['offplan']
+		prop['offplan'] = thisprop['offplan']
 		prop['beds'] = thisprop['beds']
 		prop['baths'] = thisprop['baths']
 		prop['propid'] = thisprop['pid']
