@@ -101,7 +101,7 @@ Make an enquiry
 <div class="col-xs-12">
 <p></p>
 <p class="reference">
-<strong>Price : {{price}} {{frequency}}<span class="price_gbp"></span> Ref : {{propref}}</strong>
+<strong>Price : {% if offplan == 'True' %}From{% endif %} {{price}} {{frequency}}<span class="price_gbp"></span> Ref : {{propref}}</strong>
 </p>
 {# TO SHOW MORTGAGE details if mp != '' #}
 {% if mp == 'notshowingthis' %}
