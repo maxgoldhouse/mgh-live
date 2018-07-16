@@ -49,6 +49,7 @@ for fetchprop in thetopsix:
     prop = {}
     #prop['propopt'] = row['strPropertyOptions']
     prop['propid'] = row['pid']
+    prop['offplan'] = row['offplan']
     prop['propurl'] = propurl
     prop['locationdetail']=row['location']
     prop['proptype']=row['ptype']
@@ -88,6 +89,7 @@ for eachprop in _mgh_data.proplists['All']:
     propurl = '/'+str(row['beds'])+'-bed-'+row['ptype'].replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
     prop = {}
     prop['description'] = row['description'][:400]
+    prop['offplan'] = row['offplan']
     prop['beds'] = row['beds']
     prop['baths'] = row['baths']
     prop['pool'] = row['pool']

@@ -59,6 +59,7 @@ for prop in _mgh_data.props:
 	propdict = {}
 	propdict['props'] = []
 	propdict['propdescription'] = thisprop['description']
+	propdict['offplan'] = thisprop['offplan']
 	propdict['saleorrent'] = saleorrent
 	propdict['beds'] = thisprop['beds']
 	propdict['baths'] = thisprop['baths']
