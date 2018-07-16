@@ -335,7 +335,7 @@ margin-right: 8px;
 {% if item['propopt'] == 'MORTGAGE OFFER' %}
 <li class="propopt">{{item['propopt']}}</li>
 {% endif %}
-<li><strong>{{item['price']}} <span class="price_gbp"></span></strong></li>
+<li>{% if item['offplan'] == 'true' %}From {% endif %}<strong>{{item['price']}} <span class="price_gbp"></span></strong></li>
 <li>{{item['proptype']}}</li>
 <li>{{item['locationdetail']}}</li>
 {% if item['mp'] == 'showmortgage' %}
