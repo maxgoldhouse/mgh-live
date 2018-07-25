@@ -3,6 +3,484 @@
 <feed_version>2</feed_version>
 </kyero>
 <property>
+<id>16912507</id>
+<date>2018-07-25 12:50:04</date>
+<ref>NEW-EV-7588</ref>
+<price>169000</price>
+<price_freq>sale</price_freq>
+<type>
+<en>Townhouse</en>
+</type>
+<town>Ciudad Quesada</town>
+<province>Alicante</province>
+<location_detail>Daya Nueva</location_detail>
+<beds>2</beds>
+<baths>2</baths>
+<pool>1</pool>
+<url></url>
+<desc>
+<en>New modern development. Unique countryside location in Daya Nueva, a lovely Spanish village next to Almoradí and Ciudad Quesada.Views overlooking countryside and mountains but close to all amenities of Daya Nueva, Almoradí and Ciudad Quesada and the whole Rojales / Guardamar area. The village itself still has a nice original Spanish flair. Come and see. This is a rare opportunity in a quiet wonderful location only 10-15 minutes by car to reach the wide golden sandy beaches of Guardamar. Ask for all details. Offered by maxgoldhouse in partnership with the builder.</en>
+<de>Neues modernes Projekt in einzigartiger ländlicher Lage in Daya Nueva, einem schönen spanischen Dorf neben Almoradí und Ciudad Quesada. Blick auf die Landschaft und die Berge, aber nah an allen Annehmlichkeiten von Daya Nueva, Almoradí und Ciudad Quesada und der gesamten Gegend von Rojales / Guardamar. Das Dorf selbst hat immer noch ein schönes original spanisches Flair. Komm und sieh schnell. Dies ist eine seltene Gelegenheit für eine Immobilie in einer ruhigen, schönen Lage und nur 10-15 Minuten mit dem Auto, um die breiten goldenen Sandstrände von Guardamar zu erreichen. Fragen Sie nach allen Details. Angeboten von maxgoldhouse in Zusammenarbeit mit dem Baumeister.</de>
+<fr>Nouveau projet moderne dans un endroit rural unique à Daya Nueva, un beau village espagnol à côté d'Almoradí et Ciudad Quesada. Vue sur la campagne et les montagnes, mais proche de toutes les commodités de Daya Nueva, Almoradí et Ciudad Quesada et toute la zone de Rojales / Guardamar. Le village lui-même a toujours une belle touche espagnole originale. Venez voir rapidement. Ceci est une occasion rare pour une propriété dans un endroit calme et magnifique et seulement 10-15 minutes en voiture pour atteindre les larges plages de sable doré de Guardamar. Demandez tous les détails. Offert par maxgoldhouse en collaboration avec le constructeur.</fr>
+<nl>Nieuw modern project op een unieke landelijke locatie in Daya Nueva, een prachtig Spaans dorp naast Almoradí en Ciudad Quesada. Uitzicht op het landschap en de bergen, maar dichtbij alle voorzieningen van Daya Nueva, Almoradí en Ciudad Quesada en het hele gebied Rojales / Guardamar. Het dorp zelf heeft nog steeds een mooie originele Spaanse flair. Kom snel kijken. Dit is een zeldzame kans voor een woning op een rustige, prachtige locatie en slechts 10-15 minuten met de auto om de brede gouden zandstranden van Guardamar te bereiken. Vraag naar alle details. Aangeboden door maxgoldhouse in samenwerking met de bouwer.</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/ROfubN0k5GLck63_f4kQCnsBkW8DM1hXL18xryRbRFz5LoRtNW9RmX3qSdU8U9otwrQAcZtIe2i2xWoa=s640-rj-e30-v2?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/JNBfVQLnJQqCm-_dUBg7ANpSUnic4e3UFzwFtxkmr1lJ2BcugGW-2zDw7cvKCgf8Y7F0NYs3sxaC7pyaBw=s640-rj-e30-v2?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/6jpoLQBFiEmXo4dKHRSWEjWWv2rkV7hioUaNiX8DghSWySJnOhiVScM8JjkQiNOnEMqPJ0nKSYjiXjAE=s640-rj-e30-v2?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/L9eO3k_1RPb4-vqCrOOfv_kUOByUDYzSU34R-_fFsdjw1McZUCYXQZbHgWhIsxhNd_WSobd2QJRdmeOEjuc=s640-rj-e30-v2?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/YCyarLqarqM-edRjjWa72-Wag-jVFwXQaDruZWy0BJ1iLs6ndSO0sSIueCwwshew3tZkcSX-Hj-kwtW0=s640-rj-e30-v2?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/9viaj2bkhjnS8ivIN56a31tpfaU1wsMb3vzcn75aJ0u59XQXqZOj4f7tk5LCLhW_1kwPH-oPYaoIEE7UjA=s640-rj-e30-v2?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/MNVmJIF5PKuNfu_j_ZbqAzuEudJ_irIG9IrGq_95_xEE6rS0je2x6kqbAwx64tXBUEfQd_0FiSHjpTgpxw=s640-rj-e30-v2?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/magHGpBcoX2zWP8LEaqOctedr2_ynF9S5ndWZwWn4NAduD2QQG99ciwQEMyxKfXFJPAZ9UgPvzB4ljXH=s640-rj-e30-v2?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/xviJPLYjUqacKcKMapN898fspbvu3ezOc6KE9Z8RSHn0gSdFGtMQZ0SRu0ees-sDXM-lh_FM9q8p-zdj2Q=s640-rj-e30-v2?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/DqOq89dMNBd7k4mr9W3aU4a2iDLPshdhxvWqxIZFl4csTlOxy22hDHfg-_dOuvSyKR9SBFymBjHAhNvH=s640-rj-e30-v2?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/hRaLDIyE0mzgtjkzs_VHuJdBhKpy2PoDQQKMpZHb3YxlCIEPS2F8c2Dk-SBEJ8Ews0acYeOV0rNtxeBlIA=s640-rj-e30-v2?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/8cvQvcbxbXvwGwBlrAxqkXf1l9dQXhJuiUYEidtBt-y3WjEhWpmEs6iy7TUTNY_Ua2qJyAhiF4i9MvQZ=s640-rj-e30-v2?.jpg</url>
+</image>
+</images>
+</property><property>
+<id>15832507</id>
+<date>2017-07-25 14:39:53</date>
+<ref>NEW-EV-7517</ref>
+<price>169900</price>
+<price_freq>sale</price_freq>
+<type>
+<en>Apartment</en>
+</type>
+<town>Orihuela Costa</town>
+<province>Alicante</province>
+<location_detail>Los Altos</location_detail>
+<beds>2</beds>
+<baths>2</baths>
+<pool>1</pool>
+<url></url>
+<desc>
+<en>Playa Flamenca, Los Altos area: Starting from 139.900 euros: nice modern 2bed/2bath apartments situated around a nicely landscaped communal garden area with swimming pool, spa and play area for the kids. The design is modern with clean lines and natural light. The quality of finish will be very high and the materials used spare no expense. This complex has been built with the finest quality materials in one of the best locations of the southern Costa Blanca.. Each unit include a single parking space, and pre installation for air conditioning. The project is situated in Los Altos, next to Playa Flamenca, within a short walking distance to all needed amenities. The area offers large shopping centres, lots of restaurants and is close to sea and beaches with all kinds of watersports.</en>
+<de>Preise ab 139.900 Euro: Schöne, moderne 2 Schlafzimmer / 2 Badezimmer Apartments, die um einen wunderschön angelegten Gemeinschaftsgarten mit Pool, Spa und Spielplatz für die Kinder liegen. Das Design ist modern mit engen Linien und viel natürlichem Licht. Die verwendeten Materialien und Oberflächen sind von höchster Qualität. Dieser Komplex befindet sich in einer der besten Lagen der südlichen Costa Blanca. Jedes Haus hat einen eigenen Parkplatz und Vorinstallation für die Klimaanlage. Das Projekt befindet sich in Los Altos, nur einen kurzen Spaziergang von allen notwendigen Annehmlichkeiten entfernt. Die Gegend bietet große Einkaufszentren, viele Restaurants und ist nahe am Meer und den Stränden mit allen Arten von Wassersport.</de>
+<fr>Prix à partir de 139.900 euros: Beaux appartements modernes de 2 chambres / 2 salles de bains situés autour d'un jardin commun avec jardin paysagé avec piscine, spa et aire de jeux pour les enfants. Le design est moderne avec des lignes serrées et beaucoup de lumière naturelle. Les matériaux et finitions utilisés sont de la plus haute qualité. Ce complexe est situé dans l'un des meilleurs endroits du sud de la Costa Blanca. Chaque maison a son propre parking et pré-installation pour la climatisation. Le projet est situé à Los Altos, à quelques pas de toutes les commodités nécessaires. La région offre de grands centres commerciaux, de nombreux restaurants et est proche de la mer et des plages avec toutes sortes de sports nautiques.</fr>
+<nl>Prijzen vanaf 139.900 euro: Mooie, moderne appartementen met 2 slaapkamers/ 2 badkamers gelegen rondom een mooi aangelegde gemeenschappelijke tuin met zwembad, spa en speeltuin voor de kinderen. Het ontwerp is modern met strakke lijnen en veel natuurlijke lichtinval. De gebruikte materialen en afwerking zijn van de hoogste kwaliteit. Dit complex ligt op één van de beste locaties van de zuidelijke Costa Blanca. Elke woning heeft een eigen parkeerplaats en pré-installatie voor airconditioning. Het project ligt in Los Altos, op korte loopafstand van alle benodigde voorzieningen. Het gebied biedt grote winkelcentra, veel restaurants en ligt dichtbij zee en stranden met allerlei watersporten.</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/r5OfHzWp_tqaXbRQHEqvJtcc183dDiWuTzCVlaucr-dIlBUS4jEQ9SqERK5B7wyv5ct1_NfAFBU5RtS-HBA=s640-rj-e30-v2?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/8ZwvCDJNVPudNuWxcly72HkBEATkDjzto5WfW2rUmju4sEWYvUBGtPMmCrj1QzTdBfHFA8V6cH5yEjbMNA=s640-rj-e30-v2?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/S0AXL0e9seA9v_4SDw6dtoMZFjmX9P053jLB9L6pNJkaxbGA6HFkwGnATYgK_VWNsiHbGyU2Wj8AZCD5f_U=s640-rj-e30-v2?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/FCGnp7JLcrB0I72WnUS_6slmCxm0A6A12DnolaJgD3zdtmuUoEmoIfUWIab0OYqc107V2sIDUgsNdLt-sg=s640-rj-e30-v2?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/tOKqhK--QJWBJB2mXZDVrwSs9Loymvtz2dLc3uiURkkTdat4WTp25Y578lDnqMRykvMla6SzO4nGSlzn4A=s640-rj-e30-v2?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/bGqQVwBPHuK3mnHzKY_51E195Vq8jRdXY6wbYRbcy1c-oIzDJ1o_ZpN3WX9fw4DiaZ-_diDXJDfOT6larA=s640-rj-e30-v2?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/woB8HYy1M3Sk2pKXY224dR-pw_aR8YvpSuqwQeqDtMtKjW_H79D2RMJzCOZetsZdbMoB3nMfcvAeQEIbcQ=s640-rj-e30-v2?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/WQj_eM_N_cOJQqhNTeILW1K0vzyNhb3qbent5s8N-GDVgd0Ftnhxl5V9aFowHAux421U-7cX6yGVjyMVuQ=s640-rj-e30-v2?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/aXQEW-fshDnfXABHFFZsVYaiUyrkLnPdXeRlsOYskdwj_c7dgXdml58s0v_x1ELU4P0NbZlvZEkSkiR-=s640-rj-e30-v2?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/WWiBqez_dKU-V4gWUZoCpWudBirPnZ08LTOkkxv_jYpFuSia0iBO9w1Sy_7nYvKtqIXmXRw14yscPVTtVw=s640-rj-e30-v2?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/VKhosHz7V9pMCqdcGg6-clCT9v0-XNDvTg_yXnlStK6sJMqJXIQK8rm-mkNjsNUpN1h4Oq3RXMoqTDA=s640-rj-e30-v2?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/kcArnCKD9y4fF-elHIbtsn9GmJhwWAZUz6UT6PXV4WhLMZX9v1Pkcm6bHFO0yPaq9Fj1bCrFqYOPl6y0_IY=s640-rj-e30-v2?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/E5YD99fV4O8mPh7sydA_RyCE3qOBzxiSmpIQR0vSzFIpXVdU9n6kNr5Xr1XeQs88jC1a-7q6btbkZ4g6Bw=s640-rj-e30-v2?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/kHbbk6hpbCaSNaLjgslfEmyDrwdwf-0qQWDb1LqNovMlOhYmYsETKGLealfZqYT3HTPV6I3E4mYahPmtkQ=s640-rj-e30-v2?.jpg</url>
+</image><image id="15">
+<url>http://lh3.googleusercontent.com/zBPEW4JGGZzujEA1NXitCo6a6KV5XdUVtofpR7SI7XE0Oqdrhl0C2FWuM7HPNZQWs4dEFQ8XyPFqro0aPw=s640-rj-e30-v2?.jpg</url>
+</image><image id="16">
+<url>http://lh3.googleusercontent.com/zMjGPNa5s135ZNZl5OifDt_b_v9KqPno7V26CLKf7l_0vUk99lR-wwGlW3xvr_frXkY9XNfVh6RPipZSrQ=s640-rj-e30-v2?.jpg</url>
+</image><image id="17">
+<url>http://lh3.googleusercontent.com/DTXPhkJA6Q-08DAqkp24gyG5_1FsdUFYwjdmIGKXfCBB-I6ZmVKq8x2Man0dxzRiLf3jRsKJo26Fzv0lbQ=s640-rj-e30-v2?.jpg</url>
+</image><image id="18">
+<url>http://lh3.googleusercontent.com/lR6RjUxKKRAxagD3D8uBCNZaWk2_-arAFGxbw66kVMVxk3avaK85S4v1Skx4H3ZfRCkwYHxR_fssq_NodQ=s640-rj-e30-v2?.jpg</url>
+</image><image id="19">
+<url>http://lh3.googleusercontent.com/-3XAdKHnFvfivw0RsyGMSTOIa3CtxMAMLsYVRnM0-OvhNADVJfLZNB2u8WW0Taye0rsfV1bcpwYG0jT16Q=s640-rj-e30-v2?.jpg</url>
+</image><image id="20">
+<url>http://lh3.googleusercontent.com/5YeU58xmGl0lmduwrAGL_G7AP0kCDD-2gwSWZEX8XHbA-HkMMQdJj0bb33sLKF7lcY8yQYgPC5kHeBRKHA=s640-rj-e30-v2?.jpg</url>
+</image>
+</images>
+</property><property>
+<id>14612507</id>
+<date>2017-07-25 10:57:19</date>
+<ref>NEW-EV-7355a</ref>
+<price>179000</price>
+<price_freq>sale</price_freq>
+<type>
+<en>Apartment</en>
+</type>
+<town>Orihuela Costa</town>
+<province>Alicante</province>
+<location_detail>Villamartin Golf</location_detail>
+<beds>2</beds>
+<baths>2</baths>
+<pool>1</pool>
+<url></url>
+<desc>
+<en>Unique modern luxury golf apartments in the Villamartin golf area next  to the famous Villamartin Plaza / Square - prices start from 179.000 euro  depending on size, location, floor and views. Pre installed air  conditioning, garage with storage and underfloor heating in bathrooms  are all included in the price. There are also some 3 bed properties  available. Set in a perfect location in the middle of 4 golf courses and  close to all needed amenities, the sandy beaches of Orihuela Costa and  Zenia Boulevard are a short drive away. Viewings can be arranged at any  time with Maxgoldhouse in collaboration with one of the most  experienced family builders along the southern Costa Blanca. Ask for  more details.</en>
+<de>Einzigartige, moderne Luxus-Apartments in Villamartin, nicht weit vom berühmten Villamartin Plaza. Die Preise beginnen bei € 195 000 für 2 Schlafzimmer, je nach Größe, Lage, Etage und Aussicht. Diese Residenz in einer großartigen Lage wird von einem der erfahrensten Bauherren an der südlichen Costa Blanca realisiert. Fragen Sie nach allen Details. Es gibt auch eine Reihe von 3-Zimmer-Apartments zur Verfügung. Diese luxuriöse Golfresidenz ist von 4 Golfplätzen umgeben und in der Nähe finden Sie alle notwendigen Annehmlichkeiten, das Mittelmeer und eine Reihe von Sandstränden, den Yachthafen und so weiter. Besichtigungstermine können jederzeit mit maxgoldhouse in Zusammenarbeit mit dem Bauherrn vereinbart werden.</de>
+<fr>Appartements de luxe uniques et modernes à Villamartin, près de la célèbre Villamartin Plaza. Les prix commencent à partir de € 195 000 pour 2 chambres, selon la grandeur, l'emplacement, l’ étage et la vue. Cette résidence sur un emplacement idéal est réalisé par l'un des constructeurs les plus expérimentés le long de la Costa Blanca Sud. Demandez pour plus de détails. Il y a aussi un certain nombre des appartements avec 3 chambres disponibles. Cette résidence de golf luxueuse est entouré par quatre terrains de golf et à proximité, vous trouverez toutes les commodités nécessaires, la mer Méditerranée et un certain nombre de plages de sable fin, le port de plaisance et plus. Les visites peuvent être organisées à tout moment avec maxgoldhouse en coopération avec le constructeur.</fr>
+<nl>Unieke, moderne luxe-appartementen in Villamartin, niet ver van de bekende Villamartin Plaza. Prijzen beginnen vanaf € 195 000 voor 2 slaapkamers, afhankelijk van grootte, locatie, verdieping en uitzicht.  Deze residentie op een geweldige locatie wordt gerealiseerd door één van de meest ervaren bouwers langs de zuidelijke Costa Blanca. Vraag voor alle details. Er zijn ook een aantal appartementen met 3 slaapkamers beschikbaar. Deze luxueuze golfresidentie is omgeven door 4 golfbanen en in de buurt vindt u alle benodigde voorzieningen, de Middellandse Zee en een aantal zandstranden, de jachthaven en ga zo maar door. Bezichtigingen kunnen geregeld worden op elk gewenst moment met maxgoldhouse in samenwerking met de bouwer.</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/qIlQLl-nHcV99v83fxvR3WS_Ze-nX4oOitTdzZzL98eH2kPRnyET5Bkf2J5siZOxYAbSsAG9ZaeOVJAF5Q=s640-rj-e30-v2?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/d2pilgLHH4hOIIUpo3AVQ97hsRgEbPKBf3pZL2T32eRYgjjXGoHpJ4d2WPRzzhbewp_vJLWBzh5FB7hn=s640-rj-e30-v2?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/eAlVMcuwE1uBRgUKUCoLQxQjgKJb1KEvK4dUwx36J69umQieEGoQ_QR8z3ioyINSLeuiunp7EOy8TACE=s640-rj-e30-v2?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/JSdeenLnaiy8wzsLR1vGsa7uC3rKjx8qlnlTdjFfRH2BP7SdMsDmsHiKx3_8w-xTo9w3CuL7EuCC2v8l1Q=s640-rj-e30-v2?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/GxtiAF7W4NTXCV4JrUZ2JOSFB9W4SbQsyLaTsHbWZ1Ow2gQGGu4OQafXDsLvc50rvE-ozQ21nHaovk4Z=s640-rj-e30-v2?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/0zQw_d8dIBiT7YWEsq4Cqe6JRoz0GEzW6zZWp-eR934lPXzNIJEQXxKY9D8AHzlCUV5tMdMZaxLtOuCVRyY=s640-rj-e30-v2?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/nz1nyqRgq0xfY0mppJNEmel-CvhcIN73n42R3t8XfMR1kzMHb7jp_A0cG3p_cQy88HjW5XckMj2F1EuzLA=s640-rj-e30-v2?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/NahzRiiW6WqAQo5xKRwhZZVQyt8evcDzgrujKCS7HHVHafvZFWzBjtT30OYNt4rcBuHZBEKvGHFLvbwEqw=s640-rj-e30-v2?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/HBPMeWIeEzQlwSXOGOc2cJecoT4M1aZDtUTLDHx9FbvuApvSayfbfPMXtA7ThvU2DknbJ-gTGcNjfyGuO8g=s640-rj-e30-v2?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/ply-7ZdZbqO13-zOLn4XwU_rwwIkQnUVtyTmTyQ2FMP3f5WzCMYeFpn7j321XxXOcn29neMa77sEZ3Q_QA=s640-rj-e30-v2?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/8cloPURgj3pDWQA_kDjQZt1SEOz1eJoiBXh24wc8uZ2DsVDQP1IU5QRULIVa3l30BbNSWwTDnafm1YeMLA=s640-rj-e30-v2?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/ZKxmH3Fi7RXb4WW3qQXXdAXu_rUR753RoJfs3ZHskw1NurZmGiVlYXylf4wqMpEBDSWaciW1Hu5PcMyc0A=s640-rj-e30-v2?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/Av7fl8v-nW77X-hmVkSajasXMFRfsTaqQmxzynm9TNWFbJvMRuyqcr5S95LVKKdplPHFVyzMiaBN13JM6Vs=s640-rj-e30-v2?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/ZbousrYj6Vj66SqdFC2nyFDKN7NfGfk_zM-sPCGdy8CRqMZPuYYn_vgk2a3Nik4GCFSMH8KFAUKmEpD8vE4=s640-rj-e30-v2?.jpg</url>
+</image><image id="15">
+<url>http://lh3.googleusercontent.com/vN2-lMRf5fsFkKX8G8lUS-vngPWHM2wHJ8clS6WNeCNMFsRRrGqCX81uHCvwC6deaj7Yjo2xUE8N7bhw=s640-rj-e30-v2?.jpg</url>
+</image><image id="16">
+<url>http://lh3.googleusercontent.com/ZOBGqP7-Y6FnkRCRFsGQexbs1FMj8vCw6KDZFhOhSb0CVtCePXZEDzv41H55bdH5Zi0_wVEt2zm2uGBk=s640-rj-e30-v2?.jpg</url>
+</image><image id="17">
+<url>http://lh3.googleusercontent.com/McIyyrjrMUD9T73Qkf7Wy-Y-Oe0sGiqZBREeaiaHjQl1FrNDbwRs3kvgwCrKgl519psCixh_WZa42iQH=s640-rj-e30-v2?.jpg</url>
+</image><image id="18">
+<url>http://lh3.googleusercontent.com/UOLeul62pBOMwh5lD_Ftu0YHPMOXHRxRjU8AUGQbfNRIwuMVqXKoJWaKDqDfYjI1ORKRwwb11XjlPL-aP0E=s640-rj-e30-v2?.jpg</url>
+</image><image id="19">
+<url>http://lh3.googleusercontent.com/4z8QRD4ztwH2YixpdpNt3rqgEKJTvyqUgN_uv-hZ-4XzzBgX_sUbXa5LW_TEsDhIqyVoHNDewGAd6R5pAA=s640-rj-e30-v2?.jpg</url>
+</image>
+</images>
+</property><property>
+<id>15742507</id>
+<date>2017-07-25 09:06:02</date>
+<ref>NEW-EV-7520</ref>
+<price>180000</price>
+<price_freq>sale</price_freq>
+<type>
+<en>Townhouse</en>
+</type>
+<town>Orihuela Costa</town>
+<province>Alicante</province>
+<location_detail>Villamartin</location_detail>
+<beds>3</beds>
+<baths>3</baths>
+<pool>1</pool>
+<url></url>
+<desc>
+<en>UNIQUE OFFER FOR A NICE PRICE: GOOD QUALITY MODERN NEW BUILD TOWN HOUSES surrounded by 4 golf courses in the Villamartin area, the perfect location for your new stylish holiday home with solarium. Prices start from 169.000 euro, for both 2 or 3 beds. Comes with a lovely communal pool in a nice green area. Different plot sizes and approx. 117 sqm of living area. Private pool is optional. Highest quality selection and lots of extras are possible like furniture pack and so on - built by one of the most experienced serious builders. Ask for all details, price list and availabilities etc. by maxgoldhouse. Viewings can be arranged at any time with us in partnership with the builder.</en>
+<de>EINZIGARTIGES ANGEBOT FÜR EINEN GUTEN PREIS: MODERNE NEUE GEBÄUDE VON GUTER QUALITÄT! Umgeben von 4 Golfplätzen in Villamartin, ist dies der perfekte Ort für Ihr neues stilvolles Ferienhaus mit Solarium. Preise ab 169.000 Euro, für 2 und 3 Schlafzimmer. Es gibt einen schönen Gemeinschaftspool in einer üppigen grünen Umgebung. Verschiedene Landungen und ca. 117 m2 Wohnfläche. Ein privater Pool ist optional. Die hochwertigste Auswahl und viele Extras sind möglich wie ein Möbelpaket etc. Diese Reihenhäuser werden von einer der erfahrensten Baufirmen gebaut. Fragen Sie maxgoldhouse nach allen Details, Preisliste und Verfügbarkeit. Besuche jederzeit bei uns in Zusammenarbeit mit dem Bauherrn.</de>
+<fr>OFFRE UNIQUE POUR UN BON PRIX: DES NOUVELLES CONSTRUCTIONS MODERNES DE BONNE QUALITÉ! Entouré par 4 terrains de golf à Villamartin, c'est l'endroit idéal pour votre nouvelle maison de vacances élégante avec solarium. Prix à partir de 169.000 euros, pour 2 et 3 chambres. Il y a une belle piscine commune dans un espace vert luxuriant. Différents m2 de surfaces de terrain et environ 117 m2 de surface habitable. Une piscine privée est optionnelle. La sélection de la plus haute qualité et de nombreux extras sont possibles comme un paquet de meubles, etc. Ces maisons mitoyennes sont construites par l'une des entreprises de construction les plus expérimentés. Demandez à maxgoldhouse tous les détails, la liste de prix et la disponibilité. Visites à tout moment avec nous en coopération avec le constructeur.</fr>
+<nl>UNIEKE AANBIEDING VOOR EEN GOEDE PRIJS: MODERNE NIEUWBOUWWONINGEN VAN GOEDE KWALITEIT! Omringd door 4 golfbanen in Villamartin is dit de perfecte locatie voor uw nieuwe stijlvolle vakantiehuis met solarium. Prijzen vanaf 169.000 euro, voor zowel 2 als 3 slaapkamers. Er is een mooi gemeenschappelijk zwembad in een weelderige, groene omgeving. Verschillende kavelafmetingen en ca. 117 m2 woonoppervlakte. Een privé-zwembad is optioneel. De hoogste kwaliteitsselectie en vele extras zijn mogelijk zoals een meubelpakket, etc. Deze rijwoningen worden gebouwd door één van de meest ervaren bouwbedrijven. Vraag maxgoldhouse om alle details, prijslijst en beschikbaarheid. Bezichtigingen op elk moment met ons in samenwerking met de bouwer.</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/aV0VST3ZVOJXr6DnnI9PN1hTiCacPLSOd4WXT1KzO_tpbVPnW2opbyWRRiSDIcZXfHQFGRAQjMca6cZb=s640-rj-e30-v2?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/eNfJJfceiQfqbQnXveqrDUlUlAWG3b9IB1FjuiblyzzAx9hoyHS-rV4jkoAGXZJ0W5ysn669cpNnBC4aDq8=s640-rj-e30-v2?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/nUeTvNmTHDVz3XCkG8LTBrovd9RmTt2D_epwBoIK2ds9IFwcaqp7hpp-J5FWPKHnqqOQV40EhIhxHKPm=s640-rj-e30-v2?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/u7VnE1eka6Wp_nghrVgfpnZ2-WrEpaM7oYzB6iRD--y4HeoDcV1rH-dXHHFzpnbwRILOssChQ5MpqsvuPw=s640-rj-e30-v2?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/anm6AR9P9ROFsKnQ97c_6Yr0QVDWiDX3prxYudvPorZUv3WjG4yl-wNo0o52toxh2tP9yQF4YY04KmqACA=s640-rj-e30-v2?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/7gcePuJNdvcYxdBzkdMwdPUj4tYTKA3W-B2ZUmUnIziLNfhCT_hrjjMtfTZDRURscuYe_e5GwdUEjKMM5O0=s640-rj-e30-v2?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/C9xQbtcq4irdmtiIX45HpshLQr3_11A837uQbEDyWGk2MHubXGzqFh9a-ZrDJj8pCKOUqcM94xbRrSVY=s640-rj-e30-v2?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/uwpdPhDjVQNwB8KWFEX-Utp4shCzWqSRQn4NRkm2ZYkgeR264p8KSOA_KoKGK4YfVGnlCq5f1XRkfl_CDQ=s640-rj-e30-v2?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/zVgTw79oE8Gr0jh0yLK4W6VoyzIDiiIh9nQ8zfwkNAPVqhQCSpp1ukomc26XQ0E0gIS5NliJJqN7zLCBEg=s640-rj-e30-v2?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/QkyPaE51cxlMiRnCVhbLKe0pcMbl_uvLqssL6yjj7bBiEGG1tyUZitQL7a74WGNWfxXBhJ_IP4uuGBFOlg=s640-rj-e30-v2?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/ffThwhYq4zkmj3sFzZqs8sWm6YfVEtnECnDw6jF2necF68_EmWdvTEDkF6KLoigdTdJZInchGw5UHQMfLDc=s640-rj-e30-v2?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/1xc2bpXuLBalJJq9-LGB5zs3suhaBcn5__FfTAoiVwEcgDkljk7ysh9yvKfw8vuj7wlr6W2j1C7gUkC47Nk=s640-rj-e30-v2?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/WGj-L0AFqN5YBhliIrVARduiPCS_Wil9kZL87RisomDdrYE5vRlkNesUGMwU5PXQD6nJFMAz5-jT_iBl7A=s640-rj-e30-v2?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/rqZIKu3iDbWz6QSVVOZ0KVGoFkLiTPuV9OhYXk5t9qOVh5hE3ct-3ZTev6UV2Hu2378yADF6GFS-uuP5dg=s640-rj-e30-v2?.jpg</url>
+</image>
+</images>
+</property><property>
+<id>14622507</id>
+<date>2017-07-25 12:30:48</date>
+<ref>NEW-EV-7355b</ref>
+<price>225000</price>
+<price_freq>sale</price_freq>
+<type>
+<en>Apartment</en>
+</type>
+<town>Orihuela Costa</town>
+<province>Alicante</province>
+<location_detail>Villamartin Golf</location_detail>
+<beds>3</beds>
+<baths>2</baths>
+<pool>1</pool>
+<url></url>
+<desc>
+<en>Unique modern luxury 3 bedroom golf apartments in the Villamartin golf  area next to the famous Villamartin Plaza / Square - prices start from  225.000 euro depending on size, location, floor and views. Pre installed  air conditioning, garage with storage and underfloor heating in  bathrooms are all included in the price. There are also 2 bed properties  available. Set in a perfect location in the middle of 4 golf courses and  close to all needed amenities, the sandy beaches of Orihuela Costa and  Zenia Boulevard are a short drive away. Viewings can be arranged at any  time with Maxgoldhouse in collaboration with one of the most  experienced family builders along the southern Costa Blanca. Ask for  more details.</en>
+<de>Einzigartige moderne Luxus-Golf-Apartments in der Gegend von Villamartin Golf - nicht weit von der berühmten Villamartin Plaza. Die Preise für diese großen 3-Sz-Apartments beginnen bei 299.000 Euro je nach Größe, Lage, Etage und Ausblick. In einer großartigen Lage wird diese Entwicklung von einem der erfahrensten Familienunternehmen an der südlichen Costa Blanca realisiert. Fragen Sie nach allen Details. Es gibt auch einige 2-Sz-Apartments zur Verfügung. Die luxuriöse Golfresidenz ist von 4 Golfplätzen umgeben und befindet sich in der Nähe aller notwendigen Einrichtungen, nahe zum Mittelmeer und einigen Sandstränden, des Jachthafens und so weiter. Die Besichtigung kann jederzeit mit maxgoldhouse in Partnerschaft mit dem Bauträger vereinbart werden.</de>
+<fr>Appartements de luxe uniques et modernes à Villamartin, près de la célèbre Villamartin Plaza. Les prix commencent à partir de € 299 000 pour ces appartements grands avec 3 chambres, selon la grandeur, l'emplacement, l’ étage et la vue. Cette résidence sur un emplacement idéal est réalisé par l'un des constructeurs les plus expérimentés le long de la Costa Blanca Sud. Demandez pour plus de détails. Il y a aussi un certain nombre des appartements avec 2 chambres disponibles. Cette résidence de golf luxueuse est entouré par quatre terrains de golf et à proximité, vous trouverez toutes les commodités nécessaires, la mer Méditerranée et un certain nombre de plages de sable fin, le port de plaisance et plus. Les visites peuvent être organisées à tout moment avec maxgoldhouse en coopération avec le constructeur.</fr>
+<nl>Unieke, moderne luxe-appartementen in Villamartin, niet ver van de bekende Villamartin Plaza. Prijzen beginnen vanaf € 299 000 voor deze grote appartementen met 3 slaapkamers, afhankelijk van grootte, locatie, verdieping en uitzicht.  Deze residentie op een geweldige locatie wordt gerealiseerd door één van de meest ervaren bouwers langs de zuidelijke Costa Blanca. Vraag voor alle details. Er zijn ook een aantal appartementen met 2 slaapkamers beschikbaar. Deze luxueuze golfresidentie is omgeven door 4 golfbanen en in de buurt vindt u alle benodigde voorzieningen, de Middellandse Zee en een aantal zandstranden, de jachthaven en ga zo maar door. Bezichtigingen kunnen geregeld worden op elk gewenst moment met maxgoldhouse in samenwerking met de bouwer.</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/kb9XSrZF0tyOYaPyhqtvfemuN7fLv80Jog6mzi1xE_xmy9yHmNORnAOLnTCpMpAuopISUfQu-htfUslZ2g=s640-rj-e30-v2?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/fJbuEvYYGGCl8yPw5QqHBOL0efkOj6BmFjYQk8uk6u0uHhcGWmbK04GEFCXs6jHuwByMoz8q0eRDwVGVgQ=s640-rj-e30-v2?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/gv9CXA8rOO74PDUJfPDNTSbroBOtQPyC2PX_Asis5zr_Qd1-341eqeatEKtgD93JFgrEBkiwzhWIU4gaow=s640-rj-e30-v2?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/cBMVxFJVeqtQ_igaVuYpjGvn91vZhuuPWnNi8DOezYSxkTieKH9xdnht_1CfYOpfh2X0OdLF3li9hdRWxg=s640-rj-e30-v2?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/L17f76ryeq9Cp_npOzxtRXCoGYZwNQJ4tTBT67I8uS280YzEmXe5n88aGATe-K3gb_O7D_OSJVgMZXFF=s640-rj-e30-v2?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/AicK_ubMIQhHazNU9TvDd9XgImIMCoSO-B0dOZbGgEnbFyKvmAODYvDgbPe1JraaN6ht23-3P_6Hsihd9w=s640-rj-e30-v2?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/QBzLhlKI2O3-4Rl1MoVT-i7zKjpNV1V4nE27FddiRdgRBoDsepAWheEEfEXkLjb8rPOPYpcU_c9sbngnpw=s640-rj-e30-v2?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/igp7msKZW9QzofCxRFo-BNgVXPNK-JsqqgM-xma9d_3bufEl47lbpATs_HPpA2DDJXAtvrU7xWsYadtx=s640-rj-e30-v2?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/kcuDFytxs0CIJJu9Ri4mmfnKjf7MWIqn4buWb1_BYGTzL2UFuQcQksX6_gNH3OauYIB0JCeaapPKAiJz=s640-rj-e30-v2?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/z2bAmZHgYeMj50H97ffA9gdfyQ235f_TAdUorteW6k2Wg17faHsoE9GfGEB5_7fZyT_7C83IRRN4d6VMog=s640-rj-e30-v2?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/J34sUXe8RxF1QJTm0G97eDBIXN0n5jcY9AurZeytjzWqMQWwNusPswRBxGNM0hjZ7qjqCyGlm_VAC3VAA2g=s640-rj-e30-v2?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/PmOaU1zd6Pg_nso9YBqZpxOZfQAxFGhjf1uPu_z1vrSt8eO35h0CGctXY89CSrJ2e-SVT_Kxo9x8AvkZppQ=s640-rj-e30-v2?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/IKOmbMxHHR-VV2kMO1PJFh3NTV7ojZU-QbvnjQoWcChab4IUyeD3nQxOzTCjdRxCj-R3zaZm4e96NNA28Q=s640-rj-e30-v2?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/aKaiPHH02TcgYZXIC9nhA8i1UFdZyda1DTCc57bwug8Opjd9BTlBgrtug4H95NJTNpbKktzfzSr4d5uXIw=s640-rj-e30-v2?.jpg</url>
+</image><image id="15">
+<url>http://lh3.googleusercontent.com/JeQxgLHP3vPRH1fzV2Ik-BeckpEIhI2QWAFJPU7y2lyJMfb-8iHklyBRlmop9B-aNNFcg2iEhU-7uUZz-fY=s640-rj-e30-v2?.jpg</url>
+</image><image id="16">
+<url>http://lh3.googleusercontent.com/sZ0fB8shPtYfC2iNkEgjmT4XRWtJ-mMxMe9Y3ZJuRlD-aOtI_A5PjD2Enr9d057Kqcp5qpZvgkkQK5km=s640-rj-e30-v2?.jpg</url>
+</image><image id="17">
+<url>http://lh3.googleusercontent.com/ks3i0BR1Epxdez5Alya8JsFdx7_MgxZOanfpxWsEFM0RRI3OTjraXlli_3M7_kfr9QjcRGUwgKBY6HVpCg=s640-rj-e30-v2?.jpg</url>
+</image><image id="18">
+<url>http://lh3.googleusercontent.com/dw6h3spp6rcCW1wThARXHP8wR1b6k-RYHbF3jO5qXHu7w_GiuGhTGye5Ee_VRJnqSlKfLVMcpc5WR-L9Pw=s640-rj-e30-v2?.jpg</url>
+</image><image id="19">
+<url>http://lh3.googleusercontent.com/PHdcfLggbUii_EJ9TyGCpgnrTNagwfysLV1tgL9LiGgpqMHjvLX9l5RRhtJPS_gLOQAC9Tnge-7OWRkiHkM=s640-rj-e30-v2?.jpg</url>
+</image>
+</images>
+</property><property>
+<id>15472507</id>
+<date>2017-07-25 15:43:37</date>
+<ref>NEW-EV-7491</ref>
+<price>226900</price>
+<price_freq>sale</price_freq>
+<type>
+<en>Detached Villa</en>
+</type>
+<town>Pilar de la Horadada</town>
+<province>Alicante</province>
+<location_detail>Pilar de la Horadada</location_detail>
+<beds>3</beds>
+<baths>2</baths>
+<pool>1</pool>
+<url></url>
+<desc>
+<en>Unique golf and sea location in Pliar de la Horadada: Modern stylish detached 3bed Villas - just 7 kms to sea and sandy beaches of the lovely Spanish village Torre de la Horadada - next to Orihuela Costa - close to all amenities in a short and comfortable distance. Available are some detached villas in 3 diff. Models - with terrace / garden / roof terrace - highest standards - ask also for 2bed options. These modern new build villas are pre-installed for A/C and heating and tv and phone and open for your private furniture pack which we have to offer from renowned furniture suppliers. Modern style - well priced - and full service included. The residence is in the middle of a unique lovely golf course - the Pilar town has all you may need and is close to some huge shopping malls - and more gold courses along the southern Costa. Arrange now your personal viewing appointment with maxgoldhouse in partnership with the builders.</en>
+<de>Einzigartige Lage nahe dem Golf und dem Meer in Pilar de la Horadada: Moderne stilvolle Villen mit 3 Schlafzimmern in einem Golfresort und nur 7 km vom Meer und den Sandstränden des schönen spanischen Dorfes Torre de la Horadada, neben Orihuela Costa. Alle Annehmlichkeiten sind nicht weit entfernt. Zur Verfügung stehen einige freistehende Villen in 3 verschiedenen Modellen. Sie haben eine Terrasse / Garten / Dachterrasse und sind nach höchsten Standards gebaut. Es gibt auch einige Villen mit 2 Schlafzimmern. Diese modernen, neu gebauten Villen verfügen über eine Vorinstallation für Klimaanlage und Heizung, TV und Telefon. Wir können Ihnen auch ein eigenes Möbelpaket anbieten, das wir von namhaften Möbelherstellern anbieten können. Moderner Stil - preisgünstig - und voller Service inklusive. Was willst du noch? Die Residenz befindet sich inmitten eines einzigartigen, wunderschönen Golfplatzes - die Stadt Pilar hat alles, was Sie brauchen und liegt in der Nähe mehrerer großer Einkaufszentren und weiterer Golfplätze an der südlichen Costa. Vereinbaren Sie jetzt Ihren persönlichen Termin mit maxgoldhouse in Zusammenarbeit mit den Bauherren.</de>
+<fr>Endroit unique proche des courts de golf et de la mer à Pilar de la Horadada: villas modernes et élégantes avec 3 chambres sur un golf resort et à seulement 7 km de la mer et des plages de sable fin du charmant village espagnol de Torre de la Horadada, à côté de Orihuela Costa. Toutes les commodités sont dans une courte distance. Disponibles sont quelques villas détachées dans 3 modèles différents. Elles ont terrace, jardin, toit-terrace, et sont construites selon les plus hautes normes. Ces nouveaux villas modernes sont pré-installés pour A / C et du chauffage, de la télévision et le téléphone. Nous pouvons vous offrir aussi votre propre paquet de meubles de fournisseurs renommés. Style moderne - bon prix - et un service complet inclus. Que plus vous voulez? La résidence est située au milieu d'un parcours de golf belle unique - la ville de Pilar a tout ce que vous avez besoin et est proche de quelques grands centres commerciaux et terrains de golf le long de la Costa sud. Organisez votre rendez-vous personnel avec maxgoldhouse maintenant en collaboration avec les constructeurs.</fr>
+<nl>Unieke locatie vlak bij de golf en de zee in Pilar de la Horadada: Moderne stijlvolle villa’s met 3 slaapkamers op een golf resort en op slechts 7 km van de zee en de zandstranden van het prachtige Spaanse dorp Torre de la Horadada, naast Orihuela Costa. Alle voorzieningen liggen op een korte afstand. Beschikbaar zijn enkele vrijstaande villa’s in 3 verschillende modellen. Ze hebben een terras / tuin / dakterras, en zijn gebouwd volgens de hoogste normen. Er zijn ook enkele villa’s met 2 slaapkamers beschikbaar. Deze moderne nieuwbouwvilla’s hebben pre-installatie voor air conditioning en verwarming, tv en telefoon. We kunnen ook zorgen voor uw eigen meubelpakket dat we van bekende meubelleveranciers kunnen aanbieden. Moderne stijl - goed geprijsd - en volledige service inbegrepen. Wat wil u nog meer? De residentie ligt midden in een unieke mooie golfbaan - de stad Pilar heeft alles wat je nodig hebt en ligt dicht bij een aantal grote winkelcentra en meer golfbanen langs de zuidelijke Costa. Regel nu uw persoonlijke afspraak met maxgoldhouse in samenwerking met de bouwers.</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/OuXHSJVeexFB-HwA0vo3_rTWfsIN3eOityGhC4XegvVeupkb0XKfPdRerFhk_3AeHC9T_kQYXLMOwOlP=s640-rj-e30-v2?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/QnY0DRtynm5FvjQEdB7mZll7apqFE-sTR3YlETaKwlXXKDu_StZ2hP-gIMdLWdETewHT6FbrOSZPpIWLPLk=s640-rj-e30-v2?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/TPhEZSnKQsn2Hg2hUa6dfyrR8PbZ30LQ39kqD77-QyCc7EakY12PBmsdO15jgr6aSw_D-yjD4xntmbgIzw=s640-rj-e30-v2?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/Sp-lf9hIjVNv17LPEse2a8q_2ugpAwWnhVE62iH7iG272ZH6LGa6AGw98rjxCmyrqLRsYa2b8M3y4EJc=s640-rj-e30-v2?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/VfaJEZ94dwF6mVGbgqtnwoBDufBEtQGdGTMiYvU3rr7c57ELpndM2UjHSyRFQzQqeANOqbLS0RLFZq-ZUg=s640-rj-e30-v2?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/Ml7By7B1ORQDpPmQD0i_JuwyE6zjWM0Voz85zIQg3jRKUgrSLEmFfbbd1HqqHHUhaa0qyaBwi1yPoiUl5w=s640-rj-e30-v2?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/ePGOsAyqNdfrFHFP8JIagIsAYio7ANfXqJX60kiXKkr3vNG2Tgr519oDIRNC-n7qhIkJyJ6CJryCCLuVCw=s640-rj-e30-v2?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/mOV3UQgCCYkAB8N-Fe3V--ugr54ZrAVV0kNlLRG36v6jyVIoK3xUf8IcARXNp3Bz28hbRfAs9jylQ-2R4Q=s640-rj-e30-v2?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/Zpi651XrbHF7pFzUUpnC8goeQhZgPvt6HG-dV_w7vBLyWzNV57ZbL3AJ4viD_LEwwtEv0RnN6Cq54a45Ag=s640-rj-e30-v2?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/EJ8QV0Ap01LWGdWEtmdmtuw5_8Tw0Sh-F6JO2CHpU4ci7KHM0Qxqo3TGEm-c0_BFkZHHzaK9Olwx0GZUxA=s640-rj-e30-v2?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/DZ61pROnMGYNeiq5SsYZDmwgNQdGd0-jlOout5XKjvF_7C1DkPEyhuOWJ_yp6nD_xfozgsobyXBPMiPI=s640-rj-e30-v2?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/GP4fhsbHE9SpwmEriZiz7EaCLEYCpbFXnZR4WeGwFDYmFEN176-iUAUxx9NPO7dSBgHdKEx0b7QjRtBdAEc=s640-rj-e30-v2?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/t2eSThBOHfzMHu3rupeBYCxivAR0uGIpPEKM0ZtO4UzMhBwYEoLimkLP6mZoaOwmnFubhk2Jk8zSQ25f=s640-rj-e30-v2?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/1ZZC6juqgaQe2vNAeK6ItTb93YjsjMMGeaGsBRQLxkLqMK42NmXfIViHuC0gEgd_2RDrjbKUQxxlyhUYJQ=s640-rj-e30-v2?.jpg</url>
+</image><image id="15">
+<url>http://lh3.googleusercontent.com/PP11vJ8PPAeBx72kF4qFdxAIc1Gm1jj9UPYDadlE_aSDoCWI4eLiUr_hX9yGuDVZIwnzxa_wFAe6j9UX=s640-rj-e30-v2?.jpg</url>
+</image><image id="16">
+<url>http://lh3.googleusercontent.com/Tg9ZeFS3SV8iElSZmtHDdiq5OmYhnwSAsX1at3KE6a7N2Nl_irDVYEWakaX_ZFHnRUYgw7qtPUUAfWk-ViA=s640-rj-e30-v2?.jpg</url>
+</image><image id="17">
+<url>http://lh3.googleusercontent.com/a4JPucYC_b_bpeS85TADVMGXnLCGdxgW-___Z8t-ivslEdxYQMIHn2uNMAHYPvHJX63ZAIeP70xmfMlSCw=s640-rj-e30-v2?.jpg</url>
+</image><image id="18">
+<url>http://lh3.googleusercontent.com/OI0e-J_Cmp3IA16vrHvTIW3NG3it0wXamy7vDaT2FQHZngKR9KlVcOEmHE11LtzVyp6irT4QZvwZRvAMpwc=s640-rj-e30-v2?.jpg</url>
+</image>
+</images>
+</property><property>
+<id>15392507</id>
+<date>2017-07-25 13:19:48</date>
+<ref>NEW-EV-7468</ref>
+<price>229000</price>
+<price_freq>sale</price_freq>
+<type>
+<en>Detached Villa</en>
+</type>
+<town>Orihuela Costa</town>
+<province>Alicante</province>
+<location_detail>Villamartin</location_detail>
+<beds>3</beds>
+<baths>2</baths>
+<pool>1</pool>
+<url></url>
+<desc>
+<en>Newly constructed detached villas with spectacular views over green spaces. All villas have 3 bedrooms, 2 bathrooms, private pool (incl.), parking space, and a big solarium (33m2). They are close to 4 golf courses inside the Villamartin area. The perfect location for your new stylish holiday home. Different plot sizes and approx. 98 sqm living area. The villas are close to all amenities, and not far from the famous Villamartin Plaza with its restaurants, bars, supermarket, etc. Ask for all details, the dossier and price list and availabilities etc. Viewings can be arranged at any time with maxgoldhouse in partnership with the builder. </en>
+<de>Mediterrane Villen in modernem Design - modern, hochklassig und doch bezogen auf den ursprünglichen kubisch-spanischen Stil. Gelegen in einem guten Umfeld in Villamartin  (Orihuela Costa) nahe zum Meer  und fussläufig zu allem was man so braucht. Gebaut nach Plan von einem der besten Bauträger hier im gesamten Gebiet. Sicher und excellent in Qualität und jedem Detail.  Different je nach Grundstücksgrösse und Ausrichtung. Fragen Sie nach allen Einzelheiten, wir von maxgoldhouse liefern Ihnen als Vertragspartner des Bauträgers ausführliche Detailunterlagen und beraten Sie gerne. Eines der besten Neubau-Angebote auch im Preis-Leistungsverhältnis seit langem.</de>
+<fr>Villas nouvelles individuelles avec des vues spectaculaires sur la verdure. Toutes les villas disposent de trois chambres à coucher, deux salles de bains, piscine privée (incl.), parking et un grand solarium (33m2). Ils sont près de 4 parcours de golf. Il est l'endroit idéal pour votre nouvelle, élégante villa de vacances. Il y a différents morceaux de surface de terrain, et la surface habitable est d'environ 98 m². Les villas se trouvent à proximité de toutes les commodités, non loin de la célèbre Villamartin Plaza avec ses restaurants, bars, supermarché, etc. Demandez-nous pour plus de détails, le dossier, la liste des prix, la disponibilité, etc. Visites peuvent être organisées à tout moment avec maxgoldhouse en collaboration avec le constructeur.</fr>
+<nl>Vrijstaande nieuwbouwvilla's met spectaculair uitzicht op het groen. Alle villa's hebben 3 slaapkamers, 2 badkamers, privé zwembad (incl.), parkeerplaats en een groot solarium (33m2). Ze liggen dicht bij 4 golfbanen. Het is de perfecte locatie voor uw nieuwe, stijlvolle vakantiewoning. Er zijn verschillende groottes stukken land en de woonoppervlakte is ongeveer 98 m². De villa's liggen dicht bij alle voorzieningen, en niet ver van het bekende Villamartin Plaza met zijn restaurants, bars, supermarkt, enz. Vraag ons voor alle details, het dossier, de prijslijst, de beschikbaarheid, etc. Bezichtingen kunnen te allen tijde geregeld worden met maxgoldhouse in samenwerking met de bouwer.</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/ZhajO6w8hWTCSnivq42labebClx3xnaFnSJ4RFkh8Fst5JmMyH7g5Yx-R5zI8GLwEhgYbsT12GOAd_mv=s640-rj-e30-v2?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/wkRs6hwQkBf2cfVcQDKx6o-w60_g-bzzLa-ojfZLNuVSjpqkhOe8EBp2Vqpc9BZkBMr2t-U4s0pyBN_r=s640-rj-e30-v2?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/BQzrx1kQbU5nBvbkeAeX7_BfObSh5pQVbnATvYSsJj2xwS512le_Tg1SuzE98T8eOqkXZ2UTovOHBdnC2Fo=s640-rj-e30-v2?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/SHq7g5sOeuHX7fpzQ2RFbeFlltkl9oUhDjgKh_IrWs7H-BI5qsnSOZsbzvw8n5uHXFn1QSw5GHS-GWhvCw=s640-rj-e30-v2?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/ExBy_ZeKptrDAeZJuGOleXZkZGR5S7Mapy04LF8jB9Wkm5RJfpN77akHLx-Xsj_rzomny1MoARDqicUwQQ=s640-rj-e30-v2?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/meRMKmLj1hUxk7hi817-_TxPkPvcusHOBI8ZEpjRh_2yQM1FJ823LYsKiamFSUf9MTVf2Mur8szysNWeog=s640-rj-e30-v2?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/9SQTQppRwk1YuHErEOnaCFbOLKTDi7LhwLe5t4VEX6e4fR04vvMvuvAzMuRcvcaoTp7UHKYxErLvC4jwjPg=s640-rj-e30-v2?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/xB0sQnH0flLp8uqbYA6RIbEDb1a2wD1EGlmPP5kdmNN50taUARyGyNHLrQufO0V4kUZ-wgWITCE2ql8Sxw=s640-rj-e30-v2?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/m9J5VYCSGqEooroyYiWdkH6Nx0CGebbfs66i70HwdBe02rwVVNCZIjXazpc4zUTN8biZgtv-mMEjkoGIRw=s640-rj-e30-v2?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/A9uVnOpvCBbMFUHndLtV6lHO7iSUHMnnrDPgF9HcfbSmq70GKBXr2GL-5jQ-8UU7-QITn4Hav_Aaq_Nc=s640-rj-e30-v2?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/9qIDNwkM4ZZRCFrlrVIwWvYDvXkbEqmzN9W544KCJta0zTyceUXq1mmNCE43VSepl5OasMDInA8-fUdMpQ=s640-rj-e30-v2?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/ahz8hPODZVvxifpSvPr2DWtfP9FPw3lzVeDmkV8LXiBdOyJbX94fT7twiI7H_mFJjDb1FWczp6dISZCdKA=s640-rj-e30-v2?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/P3Qt5MaXWRJ4pwxtL2RNXi_A5Hgw2DyrcfCxrY5_2ROFRQLG1_6vl1Kmlh17D0IFg5jnD1MtPYg0vnbnB6s=s640-rj-e30-v2?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/cDrle1yhGArklaRnU-cHCOWxj_BxQMAgXlPsWKJDbAh4a-Kd6opptpWH8YEmzz-i0Dz8s2HeXG3eALUkAA=s640-rj-e30-v2?.jpg</url>
+</image><image id="15">
+<url>http://lh3.googleusercontent.com/GO4vPaEIHTOMQWLluQNLXYv-ycDegMH444qFoHbPSywBELAwrcAEQjejoqlH8WHU8g5QNU0lzNalw8iV_6s=s640-rj-e30-v2?.jpg</url>
+</image><image id="16">
+<url>http://lh3.googleusercontent.com/y9dVoTnt603maWc0rBoaKxuT09rDq_LWX-hEQ8GF4QCyj0dA5GJykZeMl-qUUxdMPs8Rf9eSM8uJjAZg=s640-rj-e30-v2?.jpg</url>
+</image><image id="17">
+<url>http://lh3.googleusercontent.com/myaAWgqRG7a29AOK0CxCif2MhAI5CrkotytZpFfbTtuXyw_n_FYQ1hm2UPB_FAL2t6c3oLNgMqs1iOaF=s640-rj-e30-v2?.jpg</url>
+</image><image id="18">
+<url>http://lh3.googleusercontent.com/IQ3sJWg-7O7Djzq0CCxNf9OTpy-GPtZuHNWSnKmiz5a0OGmVU14t-F67GgoDDFX9jtsk3a5M_n_Md1cG=s640-rj-e30-v2?.jpg</url>
+</image><image id="19">
+<url>http://lh3.googleusercontent.com/xjqafzj0ebwN-3BEC3W03mf7WXoHAVtgafsupn5yo58oq9IbX77zwlVhgnrqlldXDlluTqKu2HRLQHTUmg=s640-rj-e30-v2?.jpg</url>
+</image><image id="20">
+<url>http://lh3.googleusercontent.com/5xQLGfPghaF3Ryn7wEUR-FxW6vU1W1Ixyl8z4PRetHCC9DAJFA_HW5Ho3abecfpbKYIr4P3mIUSDeky11NI=s640-rj-e30-v2?.jpg</url>
+</image><image id="21">
+<url>http://lh3.googleusercontent.com/V2tTpbVqwSz95FKojpYXydGm4aPhHuUyJeHYlT7Xp_nJYOklFiyTMAMkg9LjaNLwqKA31QaceEA5-n8UWw=s640-rj-e30-v2?.jpg</url>
+</image><image id="22">
+<url>http://lh3.googleusercontent.com/eMGC4wiKMwn0bWhCMVLY2rmF1sc8wwFs7vgsrUFkawxj-SX9W3gnkVl_-RzO76PVhoB7099kqV_GPdQRcQ=s640-rj-e30-v2?.jpg</url>
+</image><image id="23">
+<url>http://lh3.googleusercontent.com/TUJvfA0lAcOgGUODD_qL7RRnwBIvigQw2VAJz6d5a0JvDmpBCXiJmiVsttbUGwL5_LFFRzlRObKeMMCy=s640-rj-e30-v2?.jpg</url>
+</image><image id="24">
+<url>http://lh3.googleusercontent.com/YvaMPL5FOnm1ETrXWQDgvOru8OpxAAbPxtrhq1C7LBbiR9RgnyHbttpRp_CSPCUaSyuH4dE6-xPRC2IvRg=s640-rj-e30-v2?.jpg</url>
+</image>
+</images>
+</property>
+<property>
+<id>16912507</id>
+<date>2018-07-25 12:50:04</date>
+<ref>NEW-EV-7588</ref>
+<price>169000</price>
+<price_freq>sale</price_freq>
+<type>
+<en>Townhouse</en>
+</type>
+<town>Ciudad Quesada</town>
+<province>Alicante</province>
+<location_detail>Daya Nueva</location_detail>
+<beds>2</beds>
+<baths>2</baths>
+<pool>1</pool>
+<url></url>
+<desc>
+<en>New modern development. Unique countryside location in Daya Nueva, a lovely Spanish village next to Almoradí and Ciudad Quesada.Views overlooking countryside and mountains but close to all amenities of Daya Nueva, Almoradí and Ciudad Quesada and the whole Rojales / Guardamar area. The village itself still has a nice original Spanish flair. Come and see. This is a rare opportunity in a quiet wonderful location only 10-15 minutes by car to reach the wide golden sandy beaches of Guardamar. Ask for all details. Offered by maxgoldhouse in partnership with the builder.</en>
+<de>Neues modernes Projekt in einzigartiger ländlicher Lage in Daya Nueva, einem schönen spanischen Dorf neben Almoradí und Ciudad Quesada. Blick auf die Landschaft und die Berge, aber nah an allen Annehmlichkeiten von Daya Nueva, Almoradí und Ciudad Quesada und der gesamten Gegend von Rojales / Guardamar. Das Dorf selbst hat immer noch ein schönes original spanisches Flair. Komm und sieh schnell. Dies ist eine seltene Gelegenheit für eine Immobilie in einer ruhigen, schönen Lage und nur 10-15 Minuten mit dem Auto, um die breiten goldenen Sandstrände von Guardamar zu erreichen. Fragen Sie nach allen Details. Angeboten von maxgoldhouse in Zusammenarbeit mit dem Baumeister.</de>
+<fr>Nouveau projet moderne dans un endroit rural unique à Daya Nueva, un beau village espagnol à côté d'Almoradí et Ciudad Quesada. Vue sur la campagne et les montagnes, mais proche de toutes les commodités de Daya Nueva, Almoradí et Ciudad Quesada et toute la zone de Rojales / Guardamar. Le village lui-même a toujours une belle touche espagnole originale. Venez voir rapidement. Ceci est une occasion rare pour une propriété dans un endroit calme et magnifique et seulement 10-15 minutes en voiture pour atteindre les larges plages de sable doré de Guardamar. Demandez tous les détails. Offert par maxgoldhouse en collaboration avec le constructeur.</fr>
+<nl>Nieuw modern project op een unieke landelijke locatie in Daya Nueva, een prachtig Spaans dorp naast Almoradí en Ciudad Quesada. Uitzicht op het landschap en de bergen, maar dichtbij alle voorzieningen van Daya Nueva, Almoradí en Ciudad Quesada en het hele gebied Rojales / Guardamar. Het dorp zelf heeft nog steeds een mooie originele Spaanse flair. Kom snel kijken. Dit is een zeldzame kans voor een woning op een rustige, prachtige locatie en slechts 10-15 minuten met de auto om de brede gouden zandstranden van Guardamar te bereiken. Vraag naar alle details. Aangeboden door maxgoldhouse in samenwerking met de bouwer.</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/ROfubN0k5GLck63_f4kQCnsBkW8DM1hXL18xryRbRFz5LoRtNW9RmX3qSdU8U9otwrQAcZtIe2i2xWoa=s640-rj-e30-v2?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/JNBfVQLnJQqCm-_dUBg7ANpSUnic4e3UFzwFtxkmr1lJ2BcugGW-2zDw7cvKCgf8Y7F0NYs3sxaC7pyaBw=s640-rj-e30-v2?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/6jpoLQBFiEmXo4dKHRSWEjWWv2rkV7hioUaNiX8DghSWySJnOhiVScM8JjkQiNOnEMqPJ0nKSYjiXjAE=s640-rj-e30-v2?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/L9eO3k_1RPb4-vqCrOOfv_kUOByUDYzSU34R-_fFsdjw1McZUCYXQZbHgWhIsxhNd_WSobd2QJRdmeOEjuc=s640-rj-e30-v2?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/YCyarLqarqM-edRjjWa72-Wag-jVFwXQaDruZWy0BJ1iLs6ndSO0sSIueCwwshew3tZkcSX-Hj-kwtW0=s640-rj-e30-v2?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/9viaj2bkhjnS8ivIN56a31tpfaU1wsMb3vzcn75aJ0u59XQXqZOj4f7tk5LCLhW_1kwPH-oPYaoIEE7UjA=s640-rj-e30-v2?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/MNVmJIF5PKuNfu_j_ZbqAzuEudJ_irIG9IrGq_95_xEE6rS0je2x6kqbAwx64tXBUEfQd_0FiSHjpTgpxw=s640-rj-e30-v2?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/magHGpBcoX2zWP8LEaqOctedr2_ynF9S5ndWZwWn4NAduD2QQG99ciwQEMyxKfXFJPAZ9UgPvzB4ljXH=s640-rj-e30-v2?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/xviJPLYjUqacKcKMapN898fspbvu3ezOc6KE9Z8RSHn0gSdFGtMQZ0SRu0ees-sDXM-lh_FM9q8p-zdj2Q=s640-rj-e30-v2?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/DqOq89dMNBd7k4mr9W3aU4a2iDLPshdhxvWqxIZFl4csTlOxy22hDHfg-_dOuvSyKR9SBFymBjHAhNvH=s640-rj-e30-v2?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/hRaLDIyE0mzgtjkzs_VHuJdBhKpy2PoDQQKMpZHb3YxlCIEPS2F8c2Dk-SBEJ8Ews0acYeOV0rNtxeBlIA=s640-rj-e30-v2?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/8cvQvcbxbXvwGwBlrAxqkXf1l9dQXhJuiUYEidtBt-y3WjEhWpmEs6iy7TUTNY_Ua2qJyAhiF4i9MvQZ=s640-rj-e30-v2?.jpg</url>
+</image>
+</images>
+</property>
+<property>
 <id>18462307</id>
 <date>2018-07-23 19:46:43</date>
 <ref>SH3-EV-PFIN1062</ref>
