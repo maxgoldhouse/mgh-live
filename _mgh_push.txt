@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop NEW-0003 110k pid1899 by dklongley
+mgh-admin pushDataToGitHub Removed SOLD sign 1809 by dklongley
