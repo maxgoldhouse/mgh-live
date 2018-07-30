@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop  Townhouse La Finca 199k ref 00-0010 pid 1900  by dklongley
+mgh-admin pushDataToGitHub Add prop AP2-TPA10030 93k pid 901 by dklongley
