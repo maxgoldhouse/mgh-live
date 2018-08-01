@@ -2023,9 +2023,9 @@
 </images>
 </property>
 <property>
-<id>18462307</id>
-<date>2018-07-23 19:46:43</date>
-<ref>SH3-EV-PFIN1062</ref>
+<id>18460108</id>
+<date>2018-08-01 19:46:43</date>
+<ref>SH3-CM-PFIN1062</ref>
 <price>115000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -2103,9 +2103,9 @@
 </images>
 </property>
 <property>
-<id>17982307</id>
-<date>2018-07-23 09:27:14</date>
-<ref>AP1-EV-TIN1030</ref>
+<id>17980108</id>
+<date>2018-08-01 09:27:14</date>
+<ref>AP1-CM-TIN1030</ref>
 <price>46000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -4437,9 +4437,9 @@
 </image>
 </images>
 </property><property>
-<id>17942307</id>
-<date>2018-07-23 14:17:49</date>
-<ref>AP2-EV-T7649</ref>
+<id>17940108</id>
+<date>2018-08-01 14:17:49</date>
+<ref>NEW-7649b</ref>
 <price>157000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -8332,9 +8332,9 @@
 </images>
 </property>
 <property>
-<id>17862007</id>
-<date>2018-07-20 11:56:22</date>
-<ref>AP1-EV-TIN089</ref>
+<id>17860108</id>
+<date>2018-08-01 11:56:22</date>
+<ref>AP1-CM-TIN089</ref>
 <price>55000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -8429,9 +8429,9 @@
 </image>
 </images>
 </property><property>
-<id>18172007</id>
-<date>2018-07-20 14:05:04</date>
-<ref>AP2-EV-TTI1100</ref>
+<id>18170108</id>
+<date>2018-08-01 14:05:04</date>
+<ref>AP2-CM-TTI1100</ref>
 <price>59900</price>
 <price_freq>sale</price_freq>
 <type>
@@ -8479,10 +8479,10 @@
 </images>
 </property>
 <property>
-<id>17572007</id>
-<date>2018-07-20 12:50:19</date>
-<ref>AP2-EV-BA7635</ref>
-<price>74900</price>
+<id>17570108</id>
+<date>2018-08-01 12:50:19</date>
+<ref>NEW-7635</ref>
+<price>69900</price>
 <price_freq>sale</price_freq>
 <type>
 <en>Apartment</en>
@@ -8534,9 +8534,9 @@
 </image>
 </images>
 </property><property>
-<id>17392007</id>
-<date>2018-07-20 15:25:47</date>
-<ref>AP2-EV-V00573R</ref>
+<id>17390108</id>
+<date>2018-08-01 15:25:47</date>
+<ref>AP2-CM-V00573R</ref>
 <price>84995</price>
 <price_freq>sale</price_freq>
 <type>
@@ -8606,9 +8606,9 @@
 </images>
 </property>
 <property>
-<id>16792007</id>
-<date>2018-07-20 13:16:55</date>
-<ref>AP2-EV-PP005051</ref>
+<id>16790108</id>
+<date>2018-08-01 13:16:55</date>
+<ref>AP2-CM-PP005051</ref>
 <price>84995</price>
 <price_freq>sale</price_freq>
 <type>
@@ -8689,9 +8689,9 @@
 </image>
 </images>
 </property><property>
-<id>63505703782835368492007</id>
-<date>2018-07-20 13:06:47</date>
-<ref>AP2-EV-C00087</ref>
+<id>63505703782835368490108</id>
+<date>2018-08-01 13:06:47</date>
+<ref>AP2-CM-C00087</ref>
 <price>85000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -8737,9 +8737,9 @@
 </images>
 </property>
 <property>
-<id>16672007</id>
-<date>2018-07-20 13:45:56</date>
-<ref>AP2-EV-PF00420</ref>
+<id>16670108</id>
+<date>2018-08-01 13:45:56</date>
+<ref>AP2-CM-PF00420</ref>
 <price>88000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -8889,9 +8889,9 @@
 </image>
 </images>
 </property><property>
-<id>18032007</id>
-<date>2018-07-20 10:57:28</date>
-<ref>QH2-EV-PFJE029</ref>
+<id>18030108</id>
+<date>2018-08-01 10:57:28</date>
+<ref>QH2-CM-PFJE029</ref>
 <price>123000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -9109,9 +9109,9 @@
 </property>
 
 <property>
-<id>16952007</id>
-<date>2018-07-20 13:30:51</date>
-<ref>AP2-EV-T00150-008</ref>
+<id>16950108</id>
+<date>2018-08-01 13:30:51</date>
+<ref>AP2-CM-T00150-008</ref>
 <price>129500</price>
 <price_freq>sale</price_freq>
 <type>
@@ -9184,9 +9184,9 @@
 </image>
 </images>
 </property><property>
-<id>16362007</id>
-<date>2018-07-20 10:58:07</date>
-<ref>TH3-EV-PP001403</ref>
+<id>16360108</id>
+<date>2018-08-01 10:58:07</date>
+<ref>TH3-CM-PP001403</ref>
 <price>129900</price>
 <price_freq>sale</price_freq>
 <type>
@@ -9239,9 +9239,9 @@
 </image>
 </images>
 </property><property>
-<id>16012007</id>
-<date>2018-07-20 12:06:27</date>
-<ref>DH3-EV-SM00150-09</ref>
+<id>16010108</id>
+<date>2018-08-01 12:06:27</date>
+<ref>DH3-CM-SM00150-09</ref>
 <price>133000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -9826,9 +9826,9 @@ http://lh3.googleusercontent.com/-AFZ04yVbkvg/WCHCHCJPSzI/AAAAAAAAOGs/f4GW7c6qQd
 </images>
 </property>
 <property>
-<id>17872007</id>
-<date>2018-07-20 13:29:26</date>
-<ref>AP2-EV-TIN1051</ref>
+<id>17870108</id>
+<date>2018-08-01 13:29:26</date>
+<ref>AP2-CM-TIN1051</ref>
 <price>99000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -10430,9 +10430,9 @@ http://lh3.googleusercontent.com/jyg7bAmwNcyB0JEtaA0N2MnlYm_0TGUI2Fv_vbF3KtHn4ka
 </images>
 </property>
 <property>
-<id>17852007</id>
-<date>2018-07-20 11:43:07</date>
-<ref>AP1_2-EV-T7649</ref>
+<id>17850108</id>
+<date>2018-08-01 11:43:07</date>
+<ref>NEW-7649</ref>
 <price>112000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -10909,9 +10909,9 @@ http://lh3.googleusercontent.com/SSkBkUDWO4VIkHr6ePLs2DLrAyXKb_AHM_GAL7UpIOv2u_c
 </images>
 </property>
 <property>
-<id>14612007</id>
-<date>2018-07-20 10:57:19</date>
-<ref>AP2-EV-V7355a</ref>
+<id>14610108</id>
+<date>2018-08-01 10:57:19</date>
+<ref>NEW-7355a</ref>
 <price>179000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -11037,9 +11037,9 @@ http://lh3.googleusercontent.com/4z8QRD4ztwH2YixpdpNt3rqgEKJTvyqUgN_uv-hZ-4XzzBg
 </images>
 </property>
 <property>
-<id>17042007</id>
-<date>2018-07-20 12:23:08</date>
-<ref>AP2-EV-T7601</ref>
+<id>17040108</id>
+<date>2018-08-01 12:23:08</date>
+<ref>AP2-CM-T7601</ref>
 <price>195000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -11320,9 +11320,9 @@ http://lh3.googleusercontent.com/Ya99HijPg6zYlheSbNDNwui5JhrTXVyUAbQcGRsrwapmuLe
 </images>
 </property>
 <property>
-<id>17742007</id>
-<date>2018-07-20 09:52:29</date>
-<ref>AP2-EV-G7650</ref>
+<id>17740108</id>
+<date>2018-08-01 09:52:29</date>
+<ref>AP2-CM-G7650</ref>
 <price>199000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -11593,9 +11593,9 @@ http://lh3.googleusercontent.com/GfVGUJzj1mG_eEfsxXc_vo807fo0jpZ1F7_YAmVk0A5hOr_
 </images>
 </property>
 <property>
-<id>16162007</id>
-<date>2018-07-20 16:44:56</date>
-<ref>TH3-EV-V7544</ref>
+<id>16160108</id>
+<date>2018-08-01 16:44:56</date>
+<ref>NEW-7544</ref>
 <price>204000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -13149,9 +13149,9 @@ http://lh3.googleusercontent.com/zMfvbJVgOsYbYysqf7uVHpabUj1nRK4rdmIQw_CxdxmhYwx
 </property>
 
 <property>
-<id>18692007</id>
-<date>2018-07-20 11:33:21</date>
-<ref>AP2-EV-VPSP405873</ref>
+<id>18690108</id>
+<date>2018-08-01 11:33:21</date>
+<ref>AP2-CM-VPSP405873</ref>
 <price>129995</price>
 <price_freq>sale</price_freq>
 <type>
