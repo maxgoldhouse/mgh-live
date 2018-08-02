@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add Prop  1904 by dklongley
+mgh-admin pushDataToGitHub Add props 1905 and 1906 by dklongley
