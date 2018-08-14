@@ -96,9 +96,9 @@
 </images>
 </property>
 <property>
-<id>19070308</id>
-<date>2018-08-03 11:39:04</date>
-<ref>NEW-CM-0004</ref>
+<id>19071408</id>
+<date>2018-08-14 11:39:04</date>
+<ref>NEW-ME-0004</ref>
 <price>169900</price>
 <price_freq>sale</price_freq>
 <type>
@@ -176,9 +176,9 @@
 </images>
 </property>
 <property>
-<id>17060308</id>
-<date>2018-08-03 16:42:06</date>
-<ref>NEW-CM-7602b</ref>
+<id>17061408</id>
+<date>2018-08-14 16:42:06</date>
+<ref>NEW-ME-7602b</ref>
 <price>335610</price>
 <price_freq>sale</price_freq>
 <type>
@@ -1241,9 +1241,9 @@
 </images>
 </property>
 <property>
-<id>19013007</id>
-<date>2018-07-30 14:02:09</date>
-<ref>AP2-CM-TPA10030</ref>
+<id>19011408</id>
+<date>2018-08-14 14:02:09</date>
+<ref>AP2-ME-TPA10030</ref>
 <price>93000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -2019,9 +2019,9 @@
 </image>
 </images>
 </property><property>
-<id>63431878640160171053007</id>
-<date>2018-07-30 14:59:50</date>
-<ref>NEW-CM-00088</ref>
+<id>63431878640160171051408</id>
+<date>2018-08-14 14:59:50</date>
+<ref>NEW-ME-00088</ref>
 <price>160000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -2996,9 +2996,9 @@
 </images>
 </property>
 <property>
-<id>17980108</id>
-<date>2018-08-01 09:27:14</date>
-<ref>AP1-CM-TIN1030</ref>
+<id>17981408</id>
+<date>2018-08-14 09:27:14</date>
+<ref>AP1-ME-TIN1030</ref>
 <price>46000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -3857,9 +3857,9 @@
 </image>
 </images>
 </property><property>
-<id>63520579108183069450208</id>
-<date>2018-08-02 12:43:35</date>
-<ref>NEW-CM-7281</ref>
+<id>63520579108183069451408</id>
+<date>2018-08-14 12:43:35</date>
+<ref>NEW-ME-7281</ref>
 <price>214000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -4456,9 +4456,9 @@
 </image>
 </images>
 </property><property>
-<id>17193107</id>
-<date>2018-07-31 12:19:35</date>
-<ref>NEW-CM-7610</ref>
+<id>17191408</id>
+<date>2018-08-14 12:19:35</date>
+<ref>NEW-ME-7610</ref>
 <price>269000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -6922,9 +6922,9 @@
 </images>
 </property>
 <property>
-<id>17573107</id>
-<date>2018-07-31 12:50:19</date>
-<ref>NEW-CM-7635</ref>
+<id>17571408</id>
+<date>2018-08-14 12:50:19</date>
+<ref>NEW-ME-7635</ref>
 <price>69900</price>
 <price_freq>sale</price_freq>
 <type>
@@ -7310,9 +7310,9 @@
 </image>
 </images>
 </property><property>
-<id>17023107</id>
-<date>2018-07-31 10:22:44</date>
-<ref>AP1-CM-PF0010028</ref>
+<id>17021408</id>
+<date>2018-08-14 10:22:44</date>
+<ref>AP1-ME-PF0010028</ref>
 <price>104500</price>
 <price_freq>sale</price_freq>
 <type>
@@ -7393,9 +7393,9 @@
 </image>
 </images>
 </property><property>
-<id>16622607</id>
-<date>2018-07-26 15:43:17</date>
-<ref>AP2-MO-PF00058</ref>
+<id>16621408</id>
+<date>2018-08-14 15:43:17</date>
+<ref>AP2-ME-PF00058</ref>
 <price>105000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -7463,9 +7463,9 @@
 </images>
 </property>
 <property>
-<id>17852707</id>
-<date>2018-07-27 11:43:07</date>
-<ref>NEW-MO-7649</ref>
+<id>17851408</id>
+<date>2018-08-14 11:43:07</date>
+<ref>NEW-ME-7649</ref>
 <price>112000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -8579,9 +8579,9 @@
 </image>
 </images>
 </property><property>
-<id>63587837680109370890208</id>
-<date>2018-08-02 15:39:31</date>
-<ref>NEW-CM-7325</ref>
+<id>63587837680109370891408</id>
+<date>2018-08-14 15:39:31</date>
+<ref>NEW-ME-7325</ref>
 <price>145000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -8758,9 +8758,9 @@
 </image>
 </images>
 </property><property>
-<id>15080208</id>
-<date>2018-08-02 11:51:18</date>
-<ref>NEW-CM-7440a</ref>
+<id>15081408</id>
+<date>2018-08-14 11:51:18</date>
+<ref>NEW-ME-7440a</ref>
 <price>149909</price>
 <price_freq>sale</price_freq>
 <type>
@@ -9836,9 +9836,9 @@
 </image>
 </images>
 </property><property>
-<id>15362707</id>
-<date>2017-06-27 20:22:54</date>
-<ref>NEW-MO-7471</ref>
+<id>15361408</id>
+<date>2018-08-14 20:22:54</date>
+<ref>NEW-ME-7471</ref>
 <price>126000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -10869,9 +10869,9 @@ http://lh3.googleusercontent.com/i1TsyHFryOw_M43gjH9-zDmN018R4RWWhTcRZX_mBzf6GmN
 </images>
 </property>
 <property>
-<id>18092607</id>
-<date>2018-07-26 14:10:40</date>
-<ref>QH2-MO-TTI2337</ref>
+<id>18091408</id>
+<date>2018-08-14 14:10:40</date>
+<ref>QH2-ME-TTI2337</ref>
 <price>103000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -12621,9 +12621,9 @@ http://lh3.googleusercontent.com/dTpEE58adZeILpmdKcKlhIaUuKYrtSFzAcISyA2oMwtYxl9
 </images>
 </property>
  <property>
-<id>18802607</id>
-<date>2018-07-26 11:51:45</date>
-<ref>AP3-MO-SJMI266</ref>
+<id>18801408</id>
+<date>2018-08-14 11:51:45</date>
+<ref>AP3-ME-SJMI266</ref>
 <price>115000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -12820,9 +12820,9 @@ http://lh3.googleusercontent.com/Npk-piRnNBn7h34QmTfFbLo2nGDYZTUIEnUJX2BengQkCWc
 </images>
 </property>
 <property>
-<id>18722607</id>
-<date>2018-07-26 11:03:00</date>
-<ref>AP2-MO-TTI2062</ref>
+<id>18721408</id>
+<date>2018-08-14 11:03:00</date>
+<ref>AP2-ME-TTI2062</ref>
 <price>77500</price>
 <price_freq>sale</price_freq>
 <type>
@@ -13432,9 +13432,9 @@ http://lh3.googleusercontent.com/HETrUwfIU-nidlOW82o2TA9LIvJJiBUt2LW0jTUbcS4HAxK
 </property>
 
 <property>
-<id>18572607</id>
-<date>2018-07-26 09:26:58</date>
-<ref>AP2-MO-TPR1338</ref>
+<id>18571408</id>
+<date>2018-08-14 09:26:58</date>
+<ref>AP2-ME-TPR1338</ref>
 <price>126000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -15298,9 +15298,9 @@ http://lh3.googleusercontent.com/ERgOYcIuTRwFnWVmKxTuk7IxrhLSc6Q0fwQS0to6ZQ5plNE
 </images>
 </property>
 <property>
-<id>17392707</id>
-<date>2018-07-27 15:25:47</date>
-<ref>AP2-MO-V00573R</ref>
+<id>17391408</id>
+<date>2018-08-14 15:25:47</date>
+<ref>AP2-ME-V00573R</ref>
 <price>84995</price>
 <price_freq>sale</price_freq>
 <type>
@@ -15392,9 +15392,9 @@ http://lh3.googleusercontent.com/ERgOYcIuTRwFnWVmKxTuk7IxrhLSc6Q0fwQS0to6ZQ5plNE
 </images>
 </property>
 <property>
-<id>18642707</id>
-<date>2018-07-27 10:49:41</date>
-<ref>AP3-MO-TTI1100</ref>
+<id>18641408</id>
+<date>2018-08-14 10:49:41</date>
+<ref>AP3-ME-TTI1100</ref>
 <price>95000</price>
 <price_freq>sale</price_freq>
 <type>
