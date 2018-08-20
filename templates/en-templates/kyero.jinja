@@ -3,7 +3,7 @@
 <feed_version>2</feed_version>
 </kyero>
 {% for item in props %}<property>
-<id>{{item['propid']}}</id>
+<id>{{item['propid']}}{{item['daymonth']}}</id>
 <date>{{item['date']}}</date>
 <ref>{{item['propref']}}</ref>
 <price>{{item['price']}}</price>
