@@ -68,7 +68,8 @@ for eachprop in _mgh_data.proplists['kyero']:
 		prop['propdescription_FR'] = row['FR'].replace('&euro;','&#x80;')
 		prop['propdescription_NL'] = row['NL'].replace('&euro;','&#x80;')
 		prop['saleorrent'] = saleorrent
-		prop['date'] = row['lastedited']
+		prop['date'] = row['kdate']
+		prop['daymonth'] = row['daymonth']
 		if row['offplan'] == 'True':
     			prop['frequency'] = 'new_build'
 		else:
@@ -79,7 +80,7 @@ for eachprop in _mgh_data.proplists['kyero']:
 		prop['plotsize'] = row['plot']
 		prop['pool'] = pool
 		prop['propid'] = row['pid']
-		prop['propref'] = row['ref'][:12]
+		prop['propref'] = row['kref'][:12]
 		prop['propurl'] = propurl
 		prop['town']=row['town']
 		prop['locationdetail']=row['location']
