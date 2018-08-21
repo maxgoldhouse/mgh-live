@@ -80,7 +80,7 @@ for eachprop in _mgh_data.proplists['kyero']:
 		prop['plotsize'] = row['plot']
 		prop['pool'] = pool
 		prop['propid'] = row['pid']
-		prop['propref'] = row['kref'][:12]
+		prop['propref'] = row['kref']
 		prop['propurl'] = propurl
 		prop['town']=row['town']
 		prop['locationdetail']=row['location']
