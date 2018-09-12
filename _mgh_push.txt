@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add property 1931 by dklongley
+mgh-admin pushDataToGitHub push to build
