@@ -26,7 +26,7 @@
 </desc>
 <images>
 {% for img in item['images'] %}<image id="{{img['id']}}">
-<url>{{img['img']|replace("w640-rj-e30-l100","w640-rj-e30-l100?.jpg")}}</url>
+<url>{{img['img']|replace("https://","http://")|replace("w640-rj-e30-l100","w640-rj-e30-l100?.jpg")}}</url>
 </image>{% endfor %}
 </images>
 </property>{% endfor %}
