@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add New Studio apartments Pilar De La Horadada ref NEW-0010 pid 1953 by dklongley
+mgh-admin pushDataToGitHub Quad house Playa Flamenca 139995k12-0029 1954 by dklongley
