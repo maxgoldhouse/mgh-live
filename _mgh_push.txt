@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add 1 bed apartment Los Balcones 68k ref 01-6046 pid 1952 by dklongley
+mgh-admin pushDataToGitHub Add New Studio apartments Pilar De La Horadada ref NEW-0010 pid 1953 by dklongley
