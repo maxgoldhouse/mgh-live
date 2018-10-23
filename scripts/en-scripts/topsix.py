@@ -61,6 +61,7 @@ for fetchprop in thetopsix:
         prop['price'] = 'SOLD'
     else:
         prop['price'] = ''
+    print 'prop processing '+prop['propid']
     prop['img'] = row['pics'][0].replace('/s0/','/w240-e30-v2/').replace('/s640/','/w240-e30-v2/').replace('=s640','=w240').replace('=w640','=w240')
     topsixdict['props'].append(prop)
 '''
