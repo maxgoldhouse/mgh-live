@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub Add 325k villas Santiago de la Ribera ref NEW-0022 pid 1976 by dklongley
+mgh-admin pushDataToGitHub Add Luxury Villamartin Golf Villa 1590k ref NEW-0024 pid 1977 by dklongley
