@@ -117,6 +117,7 @@ for eachprop in _mgh_data.proplists['All']:
         prop['frequency']= ''
     else:
     	prop['price'] = ''
+    print 'allprops prop processing '+prop['propid']
     prop['img'] = row['pics'][0].replace('/s0/','/w240-e30-v2/').replace('/s640/','/w240-e30-v2/').replace('=s640','=w240').replace('=w640','=w240')
     allprops['props'].append(prop)
 '''
