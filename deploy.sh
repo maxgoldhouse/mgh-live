@@ -95,7 +95,6 @@ echo 'NL deploy'
 cd ~/src/mgh-live/deploy/NL
 gcloud app deploy app.yaml --version 1 --project www-mgh-3-nl --quiet
 fi
-
 cd ~/src/mgh-live
 git clean -f -d -q
 echo 'git cleaned up'
