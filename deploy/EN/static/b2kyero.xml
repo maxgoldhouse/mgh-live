@@ -52,10 +52,10 @@
 </image>
 </images>
 </property><property>
-<id>19532310</id>
-<date>2018-10-23 11:42:34</date>
-<ref>NEW-EG-0010</ref>
-<price>59000</price>
+<id>19530511</id>
+<date>2018-11-05 15:23:54</date>
+<ref>NEW-EH-0010</ref>
+<price>64900</price>
 <price_freq>new_build</price_freq>
 <type>
 <en>Apartment</en>
@@ -109,9 +109,9 @@
 </image>
 </images>
 </property><property>
-<id>19522310</id>
-<date>2018-10-23 11:42:34</date>
-<ref>01-EG-6046</ref>
+<id>19520511</id>
+<date>2018-11-05 15:23:53</date>
+<ref>01-EH-6046</ref>
 <price>68000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -373,9 +373,78 @@
 </image>
 </images>
 </property><property>
-<id>17572310</id>
-<date>2018-10-23 11:42:53</date>
-<ref>NEW-EH-7635</ref>
+<id>19920511</id>
+<date>2018-11-05 14:26:49</date>
+<ref>24-6565</ref>
+<price>79995</price>
+<price_freq>sale</price_freq>
+<type>
+<en>Apartment</en>
+</type>
+<town>Orihuela Costa</town>
+<province>Alicante</province>
+<location_detail>Villamartin</location_detail>
+<beds>2</beds>
+<baths>1</baths>
+<pool>1</pool>
+<url>https://www.maxgoldhouse.com/2-bed-Apartment-in-Villamartin-1992.html</url>
+<desc>
+<en>Offered at a great price, this first floor apartment is located in a gated  community in the Villamartin area (Las Filipinas). Close by are a variety of  shops, bars and restaurants, and the beautiful blue flag beaches of Orihuela  Costa, Zenia Boulevard and a selection of international golf courses are just a  short drive away. The property is sold fully furnished and consists of 2  bedrooms, 1 bathroom and open living/dining and kitchen area. Leading  from the living room there is a nice sized balcony which overlooks the  urbanisation. One of the communal pools (there are 5 to choose from) is just  100m from the apartment and benefits from nice green areas where you can  laze and enjoy the Spanish sun. Don't miss out on a great opportunity!</en>
+<de>DE</de>
+<fr>Offert à un prix avantageux, cet appartement situé au premier étage d'une résidence fermée à las Filipinas, Villamartin. À proximité, vous trouverez une variété de boutiques, de bars et de restaurants. Les belles plages au drapeau bleu d'Orihuela Costa, le boulevard Zenia et une sélection de parcours de golf internationaux se trouvent à quelques minutes de route. La propriété est vendue entièrement meublée et se compose de 2 chambres à coucher, 1 salle de bain, salon / salle à manger ouvert et cuisine. Depuis le salon il y a un beau grand balcon donnant sur l'urbanisation. L'une des piscines communales (il y en a 5 au choix) se trouve à seulement 100 mètres de l'appartement et comprend de beaux espaces verts où vous pourrez vous prélasser et profiter du soleil espagnol. Ne manquez pas cette belle opportunité!</fr>
+<nl>Aangeboden voor een geweldige prijs, dit appartement op de eerste verdieping, gelegen in een afgesloten residentie in las Filipinas, Villamartin. Dichtbij is er een verscheidenheid aan winkels, bars en restaurants, de prachtige stranden met blauwe vlag van Orihuela Costa, de Zenia Boulevard en een selectie aan internationale golfbanen liggen op slechts een klein eindje rijden. De woning wordt volledig gemeubileerd verkocht en bestaat uit 2 slaapkamers, 1 badkamer, open woon- / eetkamer en keuken. Vanuit de woonkamer is er een mooi groot balkon met uitzicht op de urbanisatie. Eén van de gemeenschappelijke zwembaden (er zijn 5 om uit te kiezen) ligt op slechts 100 meter van het appartement en heeft mooie groene zones waar u kunt luieren en genieten van de Spaanse zon. Mis deze geweldige kans niet!</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/9ezdqQdcRSXdsUGxTQZSxFI0nYxuszZnXcqWlqQnyaqYlK-WydP6xUoOYilEsDKHJkcS-vb0twWKznWeFw=w640-rj-e30-l100?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/rVCPzoYsDWJ8orLWHDRrOyLb5OAoIKusHTgIAZPpOW7GukelGJZzGWXUgLQBZFIb9XQBXpdpqaTv0Jpi=w640-rj-e30-l100?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/yIzOl5Q6OV9T9Ti5cD2zmWWX0cDNc2tPq14m-NqaAUTWHlagRcLI9usO05qo1xw8L-2Q4S1X1Ym54Tx_QhQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/RGkMzLaIgo1oaftGz60BlrbmHJMzuTvRp4U5o_TBl3xMZBVA9F6OY-T-lAQQXOHBPgvSIhKSYClju6BqPmU=w640-rj-e30-l100?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/LKoe7KXyDDqFX_SlZUFdGN1X6Qmi0h7004Iyo007wjob8ZMsuD4gaIqiFSI0Kz_xvTf1ljPwPyXLkZgUiZk=w640-rj-e30-l100?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/g_YxlZ__85rW26qlUlFmmQNfvHAf6dQA5q2kd-Drpww4TVNJCmnGSPqrSrXKneZc6pKrzCqWWM0l3V_0EGE=w640-rj-e30-l100?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/QJ78Enrin0-pOSEtn7duL3gRtVwOibqv64abHPn6-udC5O1BwZmBzdHjMVO4uI-cujQ0hLSBMGQNR_aUl_o=w640-rj-e30-l100?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/Bj8Ptite_mpyDwJuIDwpgoX43sRbSd5VR32Vvpm0YzDC6wLM9fingw77LzoNwPOqdknMHfqBJD2U25wg-Q=w640-rj-e30-l100?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/ffNFOuagxtajQxToMZPMfFCoHs8jBNHrk9OJbAHV-mfHyvwuoL3wXf1Us4LXcz6h7JYrfZEj_aN7uQ_WHA=w640-rj-e30-l100?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/pno8JMgO-9-WuAUWhaUXCLXyhKNXIN8XO-h4ejGMkSQYacDNVm1m6uFGZSLPX8RHX000Q7TrbZWbjgxsr9k=w640-rj-e30-l100?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/ujvFbnLL6-pFryNuv7MsiyYuNI1pqYJY9LMSiyFSqU5CPFMXPund7Or5AHcZWNh4nJ25QHN4-BQSaBDUoNE=w640-rj-e30-l100?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/FoLu5VNz0BlUYoU2BhpLcym7pKzrqoD9jXhzKAKbaTHpdzSoEciwWc6xjoUxfU28R8rRSMorraU_-1NoZA=w640-rj-e30-l100?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/rzpiGxivHH9G8JBFtuLn2zXYmUkDIpXEKRoCg-aXUedSUsFibVGvXqZ_pdRLV-oy2TDAvJbiW8yNu-6DJQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/JQ5W4U1LOZWuQfjYMpyXbkfetpWEZek9eRWHPbwKa5i5QeaZaFfMyZP7aH05pOF97dFqqWtTWA_l0Uem=w640-rj-e30-l100?.jpg</url>
+</image><image id="15">
+<url>http://lh3.googleusercontent.com/Q-kwCEP7zufQIWhM_5p1StX1gWTl3euhITOxJs6lm7pBlqBrGbYChnqsjZJNdN_1cTJkmlTXIzsGopwwnQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="16">
+<url>http://lh3.googleusercontent.com/tLmHsw5NOdiDCoEnkNWyTbS_7uIx_zb1Efc9LuoU7AzQWGpH20oul-rvgA4mPvxZDUpezmizxv9SJm7w=w640-rj-e30-l100?.jpg</url>
+</image><image id="17">
+<url>http://lh3.googleusercontent.com/WocrkZrWudsyGD2d9hRhMzs_8KRGGYXHWWOByhFH1Xj6dCM3lFk65w2vpRcgIlzdRGW3PvrgjzgPZVA2cJU=w640-rj-e30-l100?.jpg</url>
+</image><image id="18">
+<url>http://lh3.googleusercontent.com/j_zgkWD8HY7WpPi5A0maSrP6zpk4Wt5EArfFIF6aEWQJ3GZ0dZYqy0J5jePIe1rLiOwe_GqCC_gf2NBf3g=w640-rj-e30-l100?.jpg</url>
+</image><image id="19">
+<url>http://lh3.googleusercontent.com/zrU6qh-e0jW7KnYDKrg-8YbYgJNOYXgCe4BNOFwLlUfM-iGeFDeVkP6HiqKHpsKyUs5-ru7p6zG-Rk8OEg=w640-rj-e30-l100?.jpg</url>
+</image><image id="20">
+<url>http://lh3.googleusercontent.com/_WRXcnCLTKoVlazxp25GPw83TZcRDshJgr8V8tuaCXBN0nssvHZasnkUnXt_erWtVpGywtEDCUNLvokv4ME=w640-rj-e30-l100?.jpg</url>
+</image><image id="21">
+<url>http://lh3.googleusercontent.com/-M26gHqMmxjSi6ajWc67WeebXfDxK7WTm-GRi7H7Mjgns61jAJsXtkT1vD-eu8STFNGjIJWUgoffTfzDif8=w640-rj-e30-l100?.jpg</url>
+</image><image id="22">
+<url>http://lh3.googleusercontent.com/CQNkp_sRx4GjocIWLXn30z5N481qiopRh2h1NMd0S_TKUwVPR1J_0GV3OdJr0Qzm2lpX9VMrvFAqT4jl6Zk=w640-rj-e30-l100?.jpg</url>
+</image>
+</images>
+</property><property>
+<id>17570511</id>
+<date>2018-11-05 15:24:09</date>
+<ref>NEW-EI-7635</ref>
 <price>82900</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -594,9 +663,9 @@
 </image>
 </images>
 </property><property>
-<id>16672310</id>
-<date>2018-10-23 11:42:53</date>
-<ref>04-EH-0420</ref>
+<id>16670511</id>
+<date>2018-11-05 15:24:10</date>
+<ref>04-EI-0420</ref>
 <price>88000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -671,9 +740,9 @@
 </image>
 </images>
 </property><property>
-<id>19382410</id>
-<date>2018-10-24 07:38:50</date>
-<ref>01-EG-1023</ref>
+<id>19380711</id>
+<date>2018-11-07 15:32:39</date>
+<ref>01-EH-1023</ref>
 <price>89500</price>
 <price_freq>sale</price_freq>
 <type>
@@ -907,6 +976,83 @@
 <url>http://lh3.googleusercontent.com/LptqU6cuV1qMAnsmzDZwAjODNXCRPyBBQoD1_UgEHJu18pEngJS3Ew_3-ZvnuLbS79KCPT8NdaotiIp7iQ=w640-rj-e30-l100?.jpg</url>
 </image><image id="41">
 <url>http://lh3.googleusercontent.com/dZP7UeTjP-Rn-pzvacoo8KdtwersJmlHvaLgZtq4oP2KPVnigc7o0B6_4RqeHECR076DRJbFw_doYhpxlA=w640-rj-e30-l100?.jpg</url>
+</image>
+</images>
+</property><property>
+<id>19940611</id>
+<date>2018-11-06 10:19:35</date>
+<ref>30-8995</ref>
+<price>89950</price>
+<price_freq>sale</price_freq>
+<type>
+<en>Townhouse</en>
+</type>
+<town>Orihuela Costa</town>
+<province>Alicante</province>
+<location_detail>Playa Flamenca</location_detail>
+<beds>2</beds>
+<baths>1</baths>
+<pool>0</pool>
+<url>https://www.maxgoldhouse.com/2-bed-Townhouse-in-Playa-Flamenca-1994.html</url>
+<desc>
+<en>This south facing ground floor bungalow has been reformed to a very  high standard. Centrally located in Playa Flamenca, you have everything  you need within easy reach - supermarkets, bars, restaurants are all  close by and the fantastic blue flag beaches of Playa Flamenca, the ever  popular Zenia Boulevard and the Saturday market are a 15 minutes walk  away. There are also a selection of international golf courses and  waterparks a short drive away. The bungalow has a nice south facing  garden which gets all day sun and consists of 2 bedrooms, 1 bathroom,  open living/dining and kitchen area. It is offered fully furnished and has  air con throughout. Offered at a great price - don't miss out on this great  opportunity!</en>
+<de>DE</de>
+<fr>Ce bungalow situé au rez-de-chaussée et orienté au sud a été rénové avec le plus grand soin. Situé au centre de Playa Flamenca, vous avez tout ce dont vous avez besoin à portée de main - supermarchés, bars, restaurants, tous à proximité et les fantastiques plages Drapeau Bleu de Playa Flamenca, le très populaire Zenia Boulevard et le marché du samedi à minutes de marche. Vous trouverez également une sélection de parcours de golf internationaux et de parcs aquatiques à proximité. Le bungalow a un beau jardin ensoleillé toute la journée et se compose de 2 chambres à coucher, 1 salle de bain, salon / salle à manger ouvert et cuisine. Il est offert entièrement meublé et dispose de la climatisation. Offert à un prix avantageux - ne manquez pas cette opportunité!</fr>
+<nl>Deze zuidgerichte bungalow op de begane grond is gerenoveerd volgens een zeer hoge standaard. Centraal gelegen in Playa Flamenca, heeft u alles wat u nodig heeft binnen handbereik - supermarkten, bars, restaurants, ze liggen allemaal in de buurt en de fantastische stranden met blauwe vlag van Playa Flamenca, de altijd populaire Zenia Boulevard en de zaterdagmarkt liggen op 15 minuten lopen. Er is ook een selectie aan internationale golfbanen en waterparken op korte afstand rijden. De bungalow heeft een mooie tuin die de hele dag zon krijgt en bestaat uit 2 slaapkamers, 1 badkamer, open woon- / eetkamer en keuken. Ze wordt volledig gemeubileerd aangeboden en heeft overal airconditioning. Aangeboden voor een geweldige prijs - mis deze geweldige kans niet!    </nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/PL1rCHHW-hCIOWbGm4hN8CUwjtguOcSm2uvM62re-FaUjvxroR0g9e5XV6oqCq4xeJCX65QRwZFP_iRZDw=w640-rj-e30-l100?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/fZMUYqktdfSnChKBfE2_GlwCpVpOF6i0qlDh6wpzLXibPDwBqNmqEQ2hnWJzNrom6hRs4fFeSuw1LB0-JA=w640-rj-e30-l100?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/KV4UoiWyDgQyavmDJmrsEYUcrpbUPfezIEDwCUwZHOSVtp3SU1k_uNRqdai7fE4ico8D8_U3-FuyX8hA=w640-rj-e30-l100?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/mZchpmkL2454BAKAZ2m9Ib7G27hWI5n7ZHWNPHy3Mno33UZjlu_u_pLgQbmQM2J35ukKaJN_TGd5nN74tA=w640-rj-e30-l100?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/f2PFdhmA7uR2n9mL40p22uNEx97nJ7f7K0G-HoTi__5hNhC5xu97jB8kEW4WR42b3NFnvVIp21wWYpb75A=w640-rj-e30-l100?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/r9ZTJy-yjSNUAGpTo6n21W_2b9qSNWL_fzYoKL_d9SH5n17GIzu8Zw6kmsdUNvEcyLbo4vp1Dc5kFttr=w640-rj-e30-l100?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/r7Z6kqJ-6U_M4dZhqzlZgXb0pHyBYY9uG3glVuboWSNGVkhNISmaQJWi42oQ62sYd9J27_uHnX5gfsT6hg=w640-rj-e30-l100?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/P17btdjRHPsWke2vDzxUYRASKGSJDgOUEME_EfOYTQLUIgm6N6YuxKhNpCx0tTtaZRx_rPa-YnnduUBr=w640-rj-e30-l100?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/UCqbNW7XMX25ZroIrFcrPTUZqkHGuBBBGLETlg6r-iTToWauaGq_xnSaiWd9fgUQ0OdYYFFjyyrB1Kwb=w640-rj-e30-l100?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/_XIT4Bs0ZnSJbWg4U-QexEMaMAGmjonJRxtvksyuAzFiXljjX2SRXZyfxCF9cQAEjFSMYj7oFuQEqptBCQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/gFWDIyv6aXmVjm38rFhBZY_y9bmfuI3bfSnkTv3YsNZ1D_VtJVnkrzv_smtRUNs65nBvhWL509dvRODnPSs=w640-rj-e30-l100?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/7vYqQ1sUXOuAdpQiElsdXqvXLRzvEmHP0z1xSuwu8G-qO_hRtX5LD9yG8s78TzmTsxG3IhsyfTsk22MHRCc=w640-rj-e30-l100?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/exny1_zVXjU_izKhbStAXQhIUlShYs5EGpDsY4jZRw397ltjCDgJWRVhe2xz8MOwBbskfRD333kMJIYyOQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/WgtEK99SjfwygNo4RbEj_sAwtojFZErAnfE75DXgNoWcL1Qy2CvTNhF8nAFLMkZ23qRvrmH3dJfc0fWc_Lw=w640-rj-e30-l100?.jpg</url>
+</image><image id="15">
+<url>http://lh3.googleusercontent.com/__Q8qgPU-1LgIhd3rr2rure2ZPTfgT5Ekq6_Yhs5YrN3DY6y1oRSkJTSF7Z0ICjnJSIMzFP3yRKSIl96ujA=w640-rj-e30-l100?.jpg</url>
+</image><image id="16">
+<url>http://lh3.googleusercontent.com/CVysaHKtKRYPld1OM_h2xivQ0xprNTnMyRXByThVbYzPj1M7pJ-3YUSq8H_ICCLSnBMQkYemEziV9vEZ_lU=w640-rj-e30-l100?.jpg</url>
+</image><image id="17">
+<url>http://lh3.googleusercontent.com/E7WG-3qWso8En45QajLIxQHYTjQHkc8zSG0elyngp7Ggh3xMpHaAwmIucowKZQkFHU7gBKv4iGDSk8DD=w640-rj-e30-l100?.jpg</url>
+</image><image id="18">
+<url>http://lh3.googleusercontent.com/o6l0okYCW_mVgq3IH-kGVH2gh85g_me2tw4Bdk7bFUf7nNc4YkLaqdTyG4x35HMr1_1J4KQtMUeDqvHOZZo=w640-rj-e30-l100?.jpg</url>
+</image><image id="19">
+<url>http://lh3.googleusercontent.com/gj08hHk4JpUoz0SDtABBJHBKvrA-Y9EpsPL1Dyg8TahYG5z4RdkhCM9x6Qjl-_O98QIPEXJhZRQ6Cjmj=w640-rj-e30-l100?.jpg</url>
+</image><image id="20">
+<url>http://lh3.googleusercontent.com/ydEj2_zAikjJz2_neu3l4-u8tA0I6v3OWvwuz1UeMc1MNt31XssNKoICV2bQxybsHZ0QvVcJOPpSv66g=w640-rj-e30-l100?.jpg</url>
+</image><image id="21">
+<url>http://lh3.googleusercontent.com/X-IhaWDFlfW7KDX2pfcoTiKQUJTl7QIcTspf2BCldxUdqu6slI6ipnuRSYjZ5TuSplXVQamw_aXn6KXO=w640-rj-e30-l100?.jpg</url>
+</image><image id="22">
+<url>http://lh3.googleusercontent.com/RjlxX31fnY6Nc2nr-xoF4KFekyItL43c78EeZ16pBFdLj2MXV5htRqUIePvMETHytVgpdx9gmhmBt-iK8A=w640-rj-e30-l100?.jpg</url>
+</image><image id="23">
+<url>http://lh3.googleusercontent.com/ELRuq4fimo2PUtmWpktU7qZTFnp75jtIXyPjVfH3g-zk4kFffev6Ae8mxEiM7jQ3QioJIhLsBvQ4UiLg=w640-rj-e30-l100?.jpg</url>
+</image><image id="24">
+<url>http://lh3.googleusercontent.com/OGMC9UTsrpi5Cdzy3Ytu-GHHoF7r-jl7z61fZjD7Vr6P91f-mofls0eMyXJUU-n19SbYdezAbMWtGi2d=w640-rj-e30-l100?.jpg</url>
+</image><image id="25">
+<url>http://lh3.googleusercontent.com/wjTwu18b-fVuZkvUmFKE98MRcMzL25XzN3_sJKcSZNjIEM4Tg5WmYh8ds4AKz_c5ms5kOmkV4lvMl8C7=w640-rj-e30-l100?.jpg</url>
+</image><image id="26">
+<url>http://lh3.googleusercontent.com/vMiEcQy2E-gb69pXIJ-NYC2gW0tVFqC-5akQCeKKsk21WV3a1eEPD2snUubJm0wGChTZhujz_PHTMs5f=w640-rj-e30-l100?.jpg</url>
 </image>
 </images>
 </property><property>
@@ -1162,9 +1308,9 @@
 </image>
 </images>
 </property><property>
-<id>17852410</id>
-<date>2018-10-24 07:38:49</date>
-<ref>NEW-EG-7649</ref>
+<id>17850711</id>
+<date>2018-11-07 15:32:39</date>
+<ref>NEW-EH-7649</ref>
 <price>95000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -1310,9 +1456,9 @@
 </image>
 </images>
 </property><property>
-<id>18930111</id>
-<date>2018-11-01 10:12:25</date>
-<ref>24-EH-6561</ref>
+<id>18930611</id>
+<date>2018-11-06 17:28:38</date>
+<ref>24-EI-6561</ref>
 <price>95000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -1589,9 +1735,9 @@
 </image>
 </images>
 </property><property>
-<id>63505701035860284172310</id>
-<date>2018-10-23 11:42:33</date>
-<ref>25-EG-0073</ref>
+<id>63505701035860284170511</id>
+<date>2018-11-05 15:23:53</date>
+<ref>25-EH-0073</ref>
 <price>98000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -2323,9 +2469,9 @@
 </image>
 </images>
 </property><property>
-<id>18992310</id>
-<date>2018-10-23 11:42:33</date>
-<ref>NEW-EG-0003</ref>
+<id>18990511</id>
+<date>2018-11-05 15:23:54</date>
+<ref>NEW-EH-0003</ref>
 <price>110000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -2620,9 +2766,86 @@
 </image>
 </images>
 </property><property>
-<id>16712310</id>
-<date>2018-10-23 11:42:53</date>
-<ref>04-EH-0231</ref>
+<id>19970711</id>
+<date>2018-11-07 11:44:44</date>
+<ref>04-0452</ref>
+<price>114995</price>
+<price_freq>sale</price_freq>
+<type>
+<en>Townhouse</en>
+</type>
+<town>Orihuela Costa</town>
+<province>Alicante</province>
+<location_detail>La Regia</location_detail>
+<beds>2</beds>
+<baths>1</baths>
+<pool>1</pool>
+<url>https://www.maxgoldhouse.com/2-bed-Townhouse-in-La-Regia-1997.html</url>
+<desc>
+<en>Are you looking for a SOUTH facing single floor bungalow? Then this  offer might be something for you. The bungalow in La Regia, Orihuela  Costa, is only 900 m from the sea and beaches, and comes with 2  bedrooms, 1 bathroom, half-open kitchen, laundry room, dining /living  room, electric awnings, airco, etc. There is plenty of storage, your car  can be parked on the plot, and there is also a nice community pool to  dive in on hot summer days. After your daily swim, you can enjoy a nice  glass of whine on either your terrace or your solarium. What else do you  need??? Make your appointment now with Maxgoldhouse.</en>
+<de>DE</de>
+<fr>FR</fr>
+<nl>NL</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/0jiq_8HGXzfdZowqlphQNlAQi17XYXHzJj-6WDJ25dC3Q9S-eBsXgu-vZXSm7UD49kCcZJ9h1T-Aua3v=w640-rj-e30-l100?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/GNkM4Oa5Y4aataTLsfVc524IJx_riNmgwMMOEG92DnWFPyU-OvFRUh28CU-mHHOYjMxRVrrXEDrFTsCDcg=w640-rj-e30-l100?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/bKYmvrUtGXWE-2l1Er2BEgEPNanaxSDrnrsQLeAkSp0-zD-PPTNYPVCLtk5tZdVmMrSZHQ61BFudxE8I1g=w640-rj-e30-l100?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/n-Pf5tPXb3_1IpOE41Hq1mPXutmhAMjjfh1qsxvI3rh1XNPNCN_hq5eP3C0Cnp280bJLuAF4Q9ZC2YolIg=w640-rj-e30-l100?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/CoI_Yc3CmDPR-UI3xWwN_8u8OwsvE-BUxfKEfW1CF2ckjthmjQ-qbCYLKR5VZd3U1kD_AEwYyS116CbUEQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/M9QGt4HIDbkiuqRqsKIHfq6xnYnm8tRjuGkiqHNhBGrSuImVNn-yF0aaxILVxodZrWbEtq2JDJ3Xyg-POg=w640-rj-e30-l100?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/KNVFMGKii-qf4BakdWO_FaGnElQMg0ACtnlkg0kOtvsXIM_JnlwGFldJVnHzo5W70tw4eU3MQrLVAbX4=w640-rj-e30-l100?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/Gi6XgceLCrglPEp1xaMeGZj2ZoZ9tHDJl8gicLD_V2jDvQaCEAqyYzkwIZ7oJEZQ-GFyeHJBTBe50nSkXkU=w640-rj-e30-l100?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/eTM501Q8gvTs5atiOEOjRwgDOc5KkuNLgEn64aZdluVJklou7tyi6Y_3yLWQ77xyZ5vscceMPGckaO2GDw=w640-rj-e30-l100?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/TPy-VksOUSI9Jkuva8rnWBQ3GsU4K2nuMZxX0GQdptekQ91WHQGg_Mzsnb-lQV3VUUS2eOnpni1iM9-8=w640-rj-e30-l100?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/tWRgKgi-WDpPnHYWql6pbNszC3tVLVYXzx1VhMveUAbD5VNc1dnvFcxy0RcvHAhc8qv_BWDlSM5GQ77uWg=w640-rj-e30-l100?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/IRv7uMsQ3sx3UIaOIj-SDG1tbL5P0lgGIduOZBqCmiIFzWQmRKLvvJnwv3zwSqxqqc1wgto1LVhP8g5aJg=w640-rj-e30-l100?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/koCONC9BHLHGoZ24xA7zhKK75IF41nxkpKrRXxyoVrIGIN80VTxlCfWZtr02KUvaNl0bU5IxZvHhckNR=w640-rj-e30-l100?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/_qtvj5DRm4uzGwYbP65dbTDr3rHzUcHqEYC2iJrHltKBMUC42xDjDP9URZyG4CAdG207vI4KfmUkDmyNytU=w640-rj-e30-l100?.jpg</url>
+</image><image id="15">
+<url>http://lh3.googleusercontent.com/rvaVWkliJxi73HpvA9dAoxJ67i69Kcxfyg7DRJXfKcRiOI9JMozSKI_xvYn8YE6ntjW2sAELTQmeNbTXdZU=w640-rj-e30-l100?.jpg</url>
+</image><image id="16">
+<url>http://lh3.googleusercontent.com/Q5q6EUYMmgDKiwm4Dm9YiCe0YMVOlzmVqkS_GV8knB4WABRsmWQn3IfmM5M5n_EnhHoCqRN78r6UhCje=w640-rj-e30-l100?.jpg</url>
+</image><image id="17">
+<url>http://lh3.googleusercontent.com/0NiHbDGaJaE52uKa0LvkoFZCBMMzhhjVm9iylcfpG1V-DiVZ1Knsgnh80r7b8BcVp8C08m8s5ojvlxdL7A=w640-rj-e30-l100?.jpg</url>
+</image><image id="18">
+<url>http://lh3.googleusercontent.com/U7J8rFwlLJ2_YLx0tx4xX44ddmHeoerpa-bsi7-6f5L2hd37ngq0QWXJFflLGfIM1yMPnPj1zrIImzjVHA=w640-rj-e30-l100?.jpg</url>
+</image><image id="19">
+<url>http://lh3.googleusercontent.com/F3AlTIzzSnV5KKIRvNshqKLcmFW4INduUFjC9Izis_ypBYOzznJBXc6fnsAieCnA5uxpQ4BB3ZJ7NaH0LQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="20">
+<url>http://lh3.googleusercontent.com/N0XM5D3GS-VOPNtaYQRJVPUkewegKdsFAfxRBAu7YrrEj12xcuyNxvk1v468feraH_HMk7uWt2UNmQrY=w640-rj-e30-l100?.jpg</url>
+</image><image id="21">
+<url>http://lh3.googleusercontent.com/L7fOF2BytqQPogr0cFgZxNtQDir7aAAGRh7GefXo6BRzJfwFdVf7sr28ieH-ALEMPA9KrDuj3yXppxua=w640-rj-e30-l100?.jpg</url>
+</image><image id="22">
+<url>http://lh3.googleusercontent.com/Ci99oZ2-C_wpxaKPBPkBw0UeJoiKasqsyM7ZmIDIhnWjlUWGCPkraLFN27KWsObaSmVqNBIyaNk89Vcqew=w640-rj-e30-l100?.jpg</url>
+</image><image id="23">
+<url>http://lh3.googleusercontent.com/SLTrjyfO3qMB15MVFPMJlC-z91N2zODN0yWvc6sEvVFIvne0ZNXvXH3IX-p4vX3okiHmg1vjms9Qlca2=w640-rj-e30-l100?.jpg</url>
+</image><image id="24">
+<url>http://lh3.googleusercontent.com/rbWBMCnplU0JKBkbEIS1O2bqksimIVyC0ZgFM7-8l6oxgr-8_HUSzgQD-OvY4WweLC8S0qGY79XW9_bQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="25">
+<url>http://lh3.googleusercontent.com/ZjD6CSIdG4qzv07VtoGxQzTxWGQBsytpR7BD1vkXVkgMA7uQPACLA_VNdmJ1288YfvGDsymp0Ld4hvRSlg=w640-rj-e30-l100?.jpg</url>
+</image><image id="26">
+<url>http://lh3.googleusercontent.com/cOeCl5dPBx1J1JXP0cbNIAXCpp9EQkGT30Dd-mAkYdXlJvHRDSjpthNt-wn2y4MvI1u60srsZ7wjsYbn=w640-rj-e30-l100?.jpg</url>
+</image>
+</images>
+</property><property>
+<id>16710511</id>
+<date>2018-11-05 15:24:10</date>
+<ref>04-EI-0231</ref>
 <price>115000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -3053,9 +3276,90 @@
 </image>
 </images>
 </property><property>
-<id>62878777257761746253110</id>
-<date>2018-10-31 08:37:12</date>
-<ref>00-EH-7146</ref>
+<id>19910511</id>
+<date>2018-11-05 11:21:01</date>
+<ref>26-4017</ref>
+<price>119500</price>
+<price_freq>sale</price_freq>
+<type>
+<en>Townhouse</en>
+</type>
+<town>Torrevieja</town>
+<province>Alicante</province>
+<location_detail>Punta Prima</location_detail>
+<beds>4</beds>
+<baths>2</baths>
+<pool>1</pool>
+<url>https://www.maxgoldhouse.com/4-bed-Townhouse-in-Punta-Prima-1991.html</url>
+<desc>
+<en>This fantastic townhouse located in Los Altos (Punta Prima area)  has lots of outside space to enjoy the sunshine including a front  garden, terrace, solarium and communal pool!! Set in a quiet, gated  residence the house consists of 4 bedrooms, 2 bathrooms, separate  living room, dining area and kitchen. Los Altos has a variety of  shops, bars and restaurants to choose from and is a short drive to  the beautiful beaches of Orihuela Costa and Torrevieja, a selection  of international golf courses and the ever popular Zenia Boulevard.  For more information or to arrange a viewing contact Maxgoldhouse  today!</en>
+<de>DE</de>
+<fr>FR</fr>
+<nl>NL</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/d2VnLnWbK95DkJ1NsJtmW-FnGQK8ENwPdEslo29TzW4tyRbggif0bXbg-soRucoFmt4wflN7sAxwSmLbqQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/dm5VzSbd3qBfqam6ifGZ7jkNeM08oDn47oUVVJuqLxF0HfwUtEXdlylxjZeb4Zo5MHIjvQtpjFc-DPOz_3g=w640-rj-e30-l100?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/fIgkIz12X5L1IdXn7zcvhJptjtsl2kIuOlg2RE8FBTf4jPpIweOXC9Alp6X6rNg9lgovdLZ5MGxQSvkm=w640-rj-e30-l100?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/cn0rIh9qNuqcZMHCsl4AGB3v10kA_9WVamalGAC2rtNUo13SMH8d5ISe1eaGzfU_0yv1xelFEbAuiXWM9xw=w640-rj-e30-l100?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/iYTCRXD4g-yGURz_pQ72Fx4nfijpRRHcxBORdYofU1Rk6YitSDPtVXCxWoK4ikEFaQv_cE7iPLtqieZ-Kw=w640-rj-e30-l100?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/-UnrkN3lcO4Q8PtZPtI_0os0_U2ArjWS9yyECoOmBlJt8fEF7Yej-coDDzTqT-_NZYqdbALWYtBc0Nfr=w640-rj-e30-l100?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/uLj--pfEej36Y21W-DfuYzrcaiyVYLGglnEI3XYcCG1zvV7lEQoi6WcjtoesAweW_NQuXNuJdXgTZoDlXy0=w640-rj-e30-l100?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/Zk4Gc2kjemzqa-a7GCXDTPFBTUsxLfSHJZRYJIxgkypTva5H5L-k-4AtN23k2sEUYGkQxSsN1Qd4AyfI=w640-rj-e30-l100?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/DMLtjkfMwbSGZ21V2qCYQNlgFvQY80WqfmVIluvNTV43h1ZRe2dwGWRkMznR9gVvvF8F8oQZdXLJPZDWMQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/FODqg9TDMcA6K6E18vUfuiyfHzbuC3BQYNJM4_O4rTrr4q9iv8FlQcN2pAm80OYRsOWUDeEEcdOzU_xhFk4=w640-rj-e30-l100?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/hbCL07z8BmAB5g83u8txpaOmIaHufO6nYJanP6YsJdvknbuiqExcIgsm1e0OlTuXDTtylNH15VRtxapT=w640-rj-e30-l100?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/oRAuwXG_WjGN7s3lOv1UJLo0WVCayl92Pzab4tDZ-KXCmnAEjjx3uIsjq-ZUb7iZ4zZKCotF_qtXfR1N=w640-rj-e30-l100?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/osVRNoH4DaLjAJweMLmz4qRpxF05isjvviZU1bMJAU16qddidwsTTVeFAyn9n5yRf2SvqRbTsW7aD50_yA=w640-rj-e30-l100?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/lKDpwMR-ZlfaF0mtTaRxBpZZxnt7DswImcPOJRsZaNm8UCgIuYQJit80z-PqwsHTpvtVDEUT9I2lIoY_uw=w640-rj-e30-l100?.jpg</url>
+</image><image id="15">
+<url>http://lh3.googleusercontent.com/osHLAmYSXLfG185D3pxKnAoq8XzsfN6rQ5b23x-qgeQw5Tcg855HDLMfsTQWwYa3AbHUQ5s2y4a1p6o7qR8=w640-rj-e30-l100?.jpg</url>
+</image><image id="16">
+<url>http://lh3.googleusercontent.com/DEZQZB2ou0AZeURCh48xa6mbbaIzhNbkcy2dYutfLPl7e7eW7gOY4xI9QNrGnWr_XBxSS2ux4dTAE4YHUg=w640-rj-e30-l100?.jpg</url>
+</image><image id="17">
+<url>http://lh3.googleusercontent.com/lzmbAzu98Kljeao1XESpPNKh33myf0B3tVy7vl5sHgjrBMu0oPIPBUh4IOw04UDbsSMYtVpLwtxWCqVprk8=w640-rj-e30-l100?.jpg</url>
+</image><image id="18">
+<url>http://lh3.googleusercontent.com/qphFvKiuCvsa8vaosw7tpZRbVquYj_EXL5l8mrMxfVFhzIOsoRecGm3OpAiOuyFkgiGdIi_uH8G6mEbT-Q=w640-rj-e30-l100?.jpg</url>
+</image><image id="19">
+<url>http://lh3.googleusercontent.com/LhBq4N28C7-EPZ_AGymd5t6einNLUtmWqUbLoq9JSWsrmBiCe-VP7N3TxG64qw9VWIKTKdDC57HdloHj=w640-rj-e30-l100?.jpg</url>
+</image><image id="20">
+<url>http://lh3.googleusercontent.com/Swk-QmSc0DJ21PYtgI7-xqKCUJp2qurClBMieNrsgMTo_gr7jTN194KwdlhxMY2IdfQ-8JkfbJuFWVCcVg=w640-rj-e30-l100?.jpg</url>
+</image><image id="21">
+<url>http://lh3.googleusercontent.com/zfM6Tty7K3ljeeZ1dSTM5Pi-Pz3i_64acuTqEUZq4AKAxFUg_kJYU08H2H-BB9bEAUVdolIF6y8c5yEhEQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="22">
+<url>http://lh3.googleusercontent.com/TdqOpff5GvjzoQ-8kZuEKwYLeZBPzZYkBwj2ag234CiHinDK3tALKEuHbPpjajCG8B0T74oPi0m_1NcFEog=w640-rj-e30-l100?.jpg</url>
+</image><image id="23">
+<url>http://lh3.googleusercontent.com/a05a0Euk7X3JhYgIOZkjXqkF_hc20Nh6vnI6N0DYmn44abhubC90kZWxhMsbvy7iKiDuSHHWWjm_dqnXKw=w640-rj-e30-l100?.jpg</url>
+</image><image id="24">
+<url>http://lh3.googleusercontent.com/Cgm6JLjsc2XJvMG9GkVNHp_dFwWDGKeesCxB2J77VfS0olPNqs80J7JR3FLWIf6wJPN7U6BG9zfe5EDoITc=w640-rj-e30-l100?.jpg</url>
+</image><image id="25">
+<url>http://lh3.googleusercontent.com/f29h5ckkH_fCFuZoL-LTtwRV3ZhDl_4v2N-wuaKFs26vLI_ylRa98RLkLyTQiTgbJMC-qzpsPwPHpvv0=w640-rj-e30-l100?.jpg</url>
+</image><image id="26">
+<url>http://lh3.googleusercontent.com/T4L1isizVgXgnXkB8a7KfnboSL7Fc4sna2FrrVbN-urXC2k7TNvdoJ27zw9G_LPj6B-mh-8pIVcACFpvCA=w640-rj-e30-l100?.jpg</url>
+</image><image id="27">
+<url>http://lh3.googleusercontent.com/Wm2DMcUxOwmQUydVTcAR13XK-6ugEzQLh9b6t1lmQ8cIw35AzFQPEFE8gQslTPw9RP5jNXA-9ZAtyh6HeLc=w640-rj-e30-l100?.jpg</url>
+</image><image id="28">
+<url>http://lh3.googleusercontent.com/nRR8pdbgpQTxmYGDdHxXFqrZ_iJOk-Exr7FvBHyxq50njRYPqjJgydoE04Czz5MklQ5mKTcPDcgTxPbt6Q=w640-rj-e30-l100?.jpg</url>
+</image>
+</images>
+</property><property>
+<id>62878777257761746250611</id>
+<date>2018-11-06 17:28:38</date>
+<ref>00-EI-7146</ref>
 <price>119950</price>
 <price_freq>sale</price_freq>
 <type>
@@ -3217,9 +3521,9 @@
 </image>
 </images>
 </property><property>
-<id>16682310</id>
-<date>2018-10-23 11:42:53</date>
-<ref>04-EH-0229</ref>
+<id>16680511</id>
+<date>2018-11-05 15:24:10</date>
+<ref>04-EI-0229</ref>
 <price>120000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -3619,9 +3923,9 @@
 </image>
 </images>
 </property><property>
-<id>14683110</id>
-<date>2018-10-31 08:37:12</date>
-<ref>NEW-EH-7369</ref>
+<id>14680611</id>
+<date>2018-11-06 17:28:38</date>
+<ref>NEW-EI-7369</ref>
 <price>122000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -3789,9 +4093,9 @@
 </image>
 </images>
 </property><property>
-<id>19643110</id>
-<date>2018-10-31 08:36:00</date>
-<ref>04-EF-0553</ref>
+<id>19640611</id>
+<date>2018-11-06 17:28:57</date>
+<ref>04-EG-0553</ref>
 <price>124500</price>
 <price_freq>sale</price_freq>
 <type>
@@ -4243,9 +4547,9 @@
 </image>
 </images>
 </property><property>
-<id>18901610</id>
-<date>2018-10-16 08:44:03</date>
-<ref>15-EG-1348</ref>
+<id>18900711</id>
+<date>2018-11-07 15:32:40</date>
+<ref>15-EH-1348</ref>
 <price>125000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -4322,9 +4626,9 @@
 </image>
 </images>
 </property><property>
-<id>19462410</id>
-<date>2018-10-24 07:39:23</date>
-<ref>10-EH-0515</ref>
+<id>19460711</id>
+<date>2018-11-07 15:32:23</date>
+<ref>10-EI-0515</ref>
 <price>125000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -4472,9 +4776,9 @@
 </image>
 </images>
 </property><property>
-<id>15310111</id>
-<date>2018-11-01 10:12:25</date>
-<ref>NEW-EH-7466</ref>
+<id>15310611</id>
+<date>2018-11-06 17:28:38</date>
+<ref>NEW-EI-7466</ref>
 <price>128000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -4539,9 +4843,9 @@
 </image>
 </images>
 </property><property>
-<id>15332410</id>
-<date>2018-10-24 07:39:22</date>
-<ref>NEW-EH-7470</ref>
+<id>15330711</id>
+<date>2018-11-07 15:32:23</date>
+<ref>NEW-EI-7470</ref>
 <price>128000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -4794,9 +5098,9 @@
 </image>
 </images>
 </property><property>
-<id>16362410</id>
-<date>2018-10-24 07:39:23</date>
-<ref>13-EH-1403</ref>
+<id>16360711</id>
+<date>2018-11-07 15:32:22</date>
+<ref>13-EI-1403</ref>
 <price>129900</price>
 <price_freq>sale</price_freq>
 <type>
@@ -4926,9 +5230,9 @@
 </image>
 </images>
 </property><property>
-<id>18732310</id>
-<date>2018-10-23 11:42:33</date>
-<ref>16-EG-3820</ref>
+<id>18730511</id>
+<date>2018-11-05 15:23:53</date>
+<ref>16-EH-3820</ref>
 <price>129950</price>
 <price_freq>sale</price_freq>
 <type>
@@ -5019,9 +5323,9 @@
 </image>
 </images>
 </property><property>
-<id>19362410</id>
-<date>2018-10-24 07:38:24</date>
-<ref>04-EF-0542</ref>
+<id>19360711</id>
+<date>2018-11-07 15:32:58</date>
+<ref>04-EG-0542</ref>
 <price>132000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -5092,9 +5396,9 @@
 </image>
 </images>
 </property><property>
-<id>16012310</id>
-<date>2018-10-23 11:42:53</date>
-<ref>01-EH-1509</ref>
+<id>16010511</id>
+<date>2018-11-05 15:24:09</date>
+<ref>01-EI-1509</ref>
 <price>133000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -5434,9 +5738,9 @@
 </image>
 </images>
 </property><property>
-<id>19583110</id>
-<date>2018-10-31 08:36:00</date>
-<ref>12-EF-0032</ref>
+<id>19580611</id>
+<date>2018-11-06 17:28:57</date>
+<ref>12-EG-0032</ref>
 <price>134995</price>
 <price_freq>sale</price_freq>
 <type>
@@ -5645,9 +5949,9 @@
 </image>
 </images>
 </property><property>
-<id>18232310</id>
-<date>2018-10-23 11:42:32</date>
-<ref>16-EG-3791</ref>
+<id>18230511</id>
+<date>2018-11-05 15:23:54</date>
+<ref>16-EH-3791</ref>
 <price>135900</price>
 <price_freq>sale</price_freq>
 <type>
@@ -5799,9 +6103,9 @@
 </image>
 </images>
 </property><property>
-<id>19230111</id>
-<date>2018-11-01 10:12:25</date>
-<ref>24-EH-6541</ref>
+<id>19230611</id>
+<date>2018-11-06 17:28:37</date>
+<ref>24-EI-6541</ref>
 <price>138000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -5867,6 +6171,95 @@
 <url>http://lh3.googleusercontent.com/CT6ZsKTtyRRsUF_UhxsgkERLv1_4p32KeJqkylsVRYldAU-cG35ntI0DSEjIh19YSci4XB0wPHNEuWfsiA=w640-rj-e30-l100?.jpg</url>
 </image><image id="23">
 <url>http://lh3.googleusercontent.com/uXMOFl3fmggRDkq1D1TjwYRubI7OQ6-MhucdmoPOz6bdq5rrSp-2FrF1qmpjiE2HskTQ3lGUbVJkZEGLog=w640-rj-e30-l100?.jpg</url>
+</image>
+</images>
+</property><property>
+<id>19260511</id>
+<date>2018-11-05 11:09:30</date>
+<ref>04-EH-0548</ref>
+<price>139000</price>
+<price_freq>sale</price_freq>
+<type>
+<en>Quadhouse</en>
+</type>
+<town>Orihuela Costa</town>
+<province>Alicante</province>
+<location_detail>Playa Flamenca</location_detail>
+<beds>2</beds>
+<baths>1</baths>
+<pool>1</pool>
+<url>https://www.maxgoldhouse.com/2-bed-Quadhouse-in-Playa-Flamenca-1926.html</url>
+<desc>
+<en>This well presented quad house is located in the heart of Playa  Flamenca, close to a wide selection of supermarkets, bars and  restaurants and a 10-15 minute walk to the beaches of Playa  Flamenca, Zenia Boulevard and the Saturday market - everything is  within easy reach! The property has 2 bedrooms, 1 bathroom, open  living/dining room and an American style kitchen with utility room  Benefits include a large corner garden with off road parking and  storage room, a nice sized solarium which gets all day sun and a  large communal pool with green areas. To arrange a viewing or for  more information please contact Maxgoldhouse.</en>
+<de>DE</de>
+<fr>Cette belle maison en quadrant est située au coeur de Playa Flamenca, à proximité d'un large choix de supermarchés, bars et restaurants et à 10-15 minutes à pied des plages de Playa Flamenca, du Zenia Boulevard et du marché du samedi. La maison dispose de 2 chambres, 1 salle de bain, salon / salle à manger ouvert et une cuisine américaine avec buanderie. Les avantages comprennent un grand jardin d'angle avec parking et parking hors route, un beau solarium qui reçoit le soleil toute la journée et une grande piscine commune avec des espaces verts. Contactez Maxgoldhouse pour plus d'informations ou pour organiser une visite.</fr>
+<nl>Dit mooie kwadranthuis is gelegen in het hart van Playa Flamenca, dicht bij een brede selectie aan supermarkten, bars en restaurants en een 10-15 minuten lopen naar de stranden van Playa Flamenca, de Zenia Boulevard en de zaterdagmarkt - alles is gemakkelijk te bereiken! De woning heeft 2 slaapkamers, 1 badkamer, open woon- / eetkamer en een Amerikaanse keuken met bijkeuken. Voordelen zijn onder meer een grote hoektuin met off-road parking en berging, een mooi solarium dat de hele dag zon krijgt en een groot gemeenschappelijk zwembad met groene zones. Neem contact op met Maxgoldhouse voor meer informatie of om een bezichtiging te regelen.</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/ENhDuabk9VIvn4rPtw8ZkBDis4d_0_SneNd5Y7XmfbvQqo00SWGQpfmLzGcdYKhPjuCdsUB98MZd5-9m=w640-rj-e30-l100?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/DsxCftMd32SIf5rtDM_f_Rq0h71dqCoffvfP3c2O-VF2WzUVHQ2Ki0iKq9laEGoImAGGOAVoMqbDLhEJpCo=w640-rj-e30-l100?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/V-lBHwIJAGnRxh1vtu0ZOOai-kbO_84si1kGxd5gPq4uYbOWe1Vh-7W5rcBEdw9gL4bo7F6eoanOLzJH=w640-rj-e30-l100?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/jtxX5IQLTvY2atgSBnK6GTz-ah2AZqroHGuYB6Al0nWSlSu5Vo_lvYkF0QPt5WCU3J3AgbZAGkMBZlM1AA=w640-rj-e30-l100?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/EiLjzYfQ2-i4gG-tOVreScbkDrRmYgW750N9JTMNxIITuYyMnnRs8_RddlImfT_GAXkDnRi-0hmpx_NdtA=w640-rj-e30-l100?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/zwiAZnig4hJi_zGZ0zyGB9XM-n5F16-xrgSoLcPAynDMxC06rgeGAunOr1_l6M5NxNjqiTtjRY1wIMbx=w640-rj-e30-l100?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/rGvYoluxudvZ2D-CmX6lJL8avxPlpwr7QI-do3LI75n2NchEXSQGRUZ72tnFW3jv9-O8QwCgl84_3o9U=w640-rj-e30-l100?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/aWcgw9jbKSquzM8Z9AX-9On_2ySjYeZkHB2FxGjRidu81INBjm2atBbAB4TNBMTuHDJJidkFVmbA_rc7XYE=w640-rj-e30-l100?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/fnhpCOxAbzXKYwu_-biMG79iXZIaEssiDdvBESS-RpgEsGm72HWPyFM1hXKAt79_qy8WXZNtwyE31eeVpg=w640-rj-e30-l100?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/oayGskfo985-xgFstXziqatg4cNd1yy-Wjv42b2M_lB4hg4V_BkmqHM_9MeJ4QYcgdRRcHe3cs560mxZTg=w640-rj-e30-l100?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/rERsUjgOUIcC97BuzNubxTgtHwOfTWq4Lskeh1Jnep_P5LeuqvCuOM2Dal4o76m2NH76JNpgE-bbpqWFPiE=w640-rj-e30-l100?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/kR343hnW0Am8jRv14FcMJFGFFiecJQ9MxedaEOs0pD2n6HQ7HBAD3GVL9cNG1d1D33G83ndx1N3TqAgeUkw=w640-rj-e30-l100?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/2EuAAn_HE6uM5uxrrk4oFCbahNEEWB4IZP3r9Y1PiXU8eyEitBFHHYvXHKyesr6nMhJ4by96f8u703dU6A=w640-rj-e30-l100?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/WQCRVHYpktS8W3YDzFEw__sDISM0Rp_mZO4ieXnELhWaCQ81kGNBo_oVsMp4O00Z5Ju1g6xTTZrcoeQ75w=w640-rj-e30-l100?.jpg</url>
+</image><image id="15">
+<url>http://lh3.googleusercontent.com/8jYuCoB9e-milomYpQgQ2H2wBROXuprLeARb4Pi5qHrrWxnnWkI4EXTgqnUPL5uivVcYwLJkLjWCJHiOr4c=w640-rj-e30-l100?.jpg</url>
+</image><image id="16">
+<url>http://lh3.googleusercontent.com/FKALRysvilplAIip4Ievc6pL08XRmk610C41u_3Vsb1rtTUycltmF2dpKM8GEQsOXCZmiY3472UHIhFc=w640-rj-e30-l100?.jpg</url>
+</image><image id="17">
+<url>http://lh3.googleusercontent.com/ylT0L8-otgUnTdrRakJvLc0_mUUkyfClA0zRc8nKCRvTi9LE-OqR7HTTb82TW0PJt0lUtdW1giBxIrTrLg=w640-rj-e30-l100?.jpg</url>
+</image><image id="18">
+<url>http://lh3.googleusercontent.com/EkwLTseolnca035PkTkUzSl2OZ7i7URrxIHJr3mDscz4zYbM8gkIBkJaqMohmJDQHCW5b2eXDvQIpX23Z88=w640-rj-e30-l100?.jpg</url>
+</image><image id="19">
+<url>http://lh3.googleusercontent.com/dp4x89wKyfy3KbEq995Rw7KkT7Qovj-KxDDR3j625fZokkfJAqY8rhWbznnWIXRdUXbWjLHY3_lrhxSg=w640-rj-e30-l100?.jpg</url>
+</image><image id="20">
+<url>http://lh3.googleusercontent.com/JVzgWCGmKRwUOOhK7q68Pw45MhcLgZGOv2RzxkgpG8X3bsHfARUMYJMOVETfz0MXXxuSdbXDK1a5HIeI=w640-rj-e30-l100?.jpg</url>
+</image><image id="21">
+<url>http://lh3.googleusercontent.com/4p8WKg3btveTBPBrHaYful1As_a3ixRZoJ7X45BtMTrDfg1N0_KfBjMC85MEZHChWGsjVOhxHcOeNncmHw=w640-rj-e30-l100?.jpg</url>
+</image><image id="22">
+<url>http://lh3.googleusercontent.com/gQEu5QK-70v2WNyZvdCxcVFeEYZQDwbwnsSR_97oW-TNMYfN4SPmRo24GqX3RpkB3pWSu8RULxMTPpafHg=w640-rj-e30-l100?.jpg</url>
+</image><image id="23">
+<url>http://lh3.googleusercontent.com/FFwrqdU0c8tbmRG0EKUDn-w67kthmMwdI0yodp408RlkBZEqPawerm_TBsWNm4CovBonrsmSECjf9ad8Tw=w640-rj-e30-l100?.jpg</url>
+</image><image id="24">
+<url>http://lh3.googleusercontent.com/Uk2kS6BmorJhyDbqdx_B62iOEV7GGFjdfpTfpIV5vpT4to4-j1PvlxqoCMek90WDKHJVWxvPN9copbVOeg=w640-rj-e30-l100?.jpg</url>
+</image><image id="25">
+<url>http://lh3.googleusercontent.com/kecIUcqHf1eujnwlfi5fX-ntZ-rT_KKNPl8dzx2QHtWjbLaQOHzF86sjR8yoR-7iSmHFOr_Stwx20uG0og=w640-rj-e30-l100?.jpg</url>
+</image><image id="26">
+<url>http://lh3.googleusercontent.com/ie6-XnfkN63kbXXQC4-rfyzHOFZsHidXSwOzxEfrtNtXl3OMPsE1IskaECNLB9FmCIKAZzH-2DTknFJS-Q=w640-rj-e30-l100?.jpg</url>
+</image><image id="27">
+<url>http://lh3.googleusercontent.com/MDCcLiAIbbeYkXGY6WXja0ousBte5SFYPYGffdlE-iDMVKnM55cBSincP08z3M_So7Fhr6dBl-rjNT7f=w640-rj-e30-l100?.jpg</url>
+</image><image id="28">
+<url>http://lh3.googleusercontent.com/qJe6BnAfStF6idEqYG6PksTRW5r1UI4y898y8PhBkpaAftZAC2FFE-FCQB5-7_rDnWCV9Z4VQALkZLrkBaY=w640-rj-e30-l100?.jpg</url>
+</image><image id="29">
+<url>http://lh3.googleusercontent.com/KPRq9FPn8hJX1BZISDQwC6RGJTgDjO-O7uVFdg6lKJw7sydVObvnjVyZdsPNzz7NxTNt1ugVczadBVNM=w640-rj-e30-l100?.jpg</url>
+</image><image id="30">
+<url>http://lh3.googleusercontent.com/XmBLoonP__UqmNpRGZ3K3Kx0wqbWFGcjhrKhIASZOMDZjXO0BxvS9iypwKqY-qHkwyG1cVgMA2k78ti8DQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="31">
+<url>http://lh3.googleusercontent.com/zqmyOlkQLNIMWVR36I5WnYMO__xAs4ijn0P9wCWCPNZVPSyvmA6aCxd43j-O2e44hxLn_AJEo-qsbhzC=w640-rj-e30-l100?.jpg</url>
+</image><image id="32">
+<url>http://lh3.googleusercontent.com/DSERBje0OUqYp9nRm5zvIzpNUkbZ4raIdH7fKw942rUw6Jy8Hp6b-MhAelWvHcsYLAYaJQ1QBs20JENhGA=w640-rj-e30-l100?.jpg</url>
 </image>
 </images>
 </property><property>
@@ -5937,9 +6330,9 @@
 </image>
 </images>
 </property><property>
-<id>15640111</id>
-<date>2018-11-01 10:12:25</date>
-<ref>NEW-EH-7515</ref>
+<id>15640611</id>
+<date>2018-11-06 17:28:37</date>
+<ref>NEW-EI-7515</ref>
 <price>139900</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -5994,9 +6387,9 @@
 </image>
 </images>
 </property><property>
-<id>17212410</id>
-<date>2018-10-24 07:39:23</date>
-<ref>NEW-EH-7608</ref>
+<id>17210711</id>
+<date>2018-11-07 15:32:22</date>
+<ref>NEW-EI-7608</ref>
 <price>139900</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -6445,9 +6838,9 @@
 </image>
 </images>
 </property><property>
-<id>18492310</id>
-<date>2018-10-23 11:42:33</date>
-<ref>20-EG-3023</ref>
+<id>18490511</id>
+<date>2018-11-05 15:23:54</date>
+<ref>20-EH-3023</ref>
 <price>139995</price>
 <price_freq>sale</price_freq>
 <type>
@@ -6581,9 +6974,9 @@
 </image>
 </images>
 </property><property>
-<id>19061210</id>
-<date>2018-10-12 09:37:35</date>
-<ref>12-EG-0026</ref>
+<id>19060711</id>
+<date>2018-11-07 15:32:41</date>
+<ref>12-EH-0026</ref>
 <price>139995</price>
 <price_freq>sale</price_freq>
 <type>
@@ -6682,9 +7075,9 @@
 </image>
 </images>
 </property><property>
-<id>19542310</id>
-<date>2018-10-23 11:42:34</date>
-<ref>12-EG-0029</ref>
+<id>19540511</id>
+<date>2018-11-05 15:23:53</date>
+<ref>12-EH-0029</ref>
 <price>139995</price>
 <price_freq>sale</price_freq>
 <type>
@@ -6765,9 +7158,9 @@
 </image>
 </images>
 </property><property>
-<id>17312410</id>
-<date>2018-10-24 07:38:49</date>
-<ref>09-EG-7616</ref>
+<id>17310711</id>
+<date>2018-11-07 15:32:39</date>
+<ref>09-EH-7616</ref>
 <price>140000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -6925,9 +7318,9 @@
 </image>
 </images>
 </property><property>
-<id>15362410</id>
-<date>2018-10-24 07:38:50</date>
-<ref>NEW-EG-7471</ref>
+<id>15360711</id>
+<date>2018-11-07 15:32:39</date>
+<ref>NEW-EH-7471</ref>
 <price>144000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -7262,98 +7655,9 @@
 </image>
 </images>
 </property><property>
-<id>19262410</id>
-<date>2018-10-24 07:38:50</date>
-<ref>04-EG-0548</ref>
-<price>149000</price>
-<price_freq>sale</price_freq>
-<type>
-<en>Quadhouse</en>
-</type>
-<town>Orihuela Costa</town>
-<province>Alicante</province>
-<location_detail>Playa Flamenca</location_detail>
-<beds>2</beds>
-<baths>1</baths>
-<pool>1</pool>
-<url>https://www.maxgoldhouse.com/2-bed-Quadhouse-in-Playa-Flamenca-1926.html</url>
-<desc>
-<en>This well presented quad house is located in the heart of Playa  Flamenca, close to a wide selection of supermarkets, bars and  restaurants and a 10-15 minute walk to the beaches of Playa  Flamenca, Zenia Boulevard and the Saturday market - everything is  within easy reach! The property has 2 bedrooms, 1 bathroom, open  living/dining room and an American style kitchen with utility room  Benefits include a large corner garden with off road parking and  storage room, a nice sized solarium which gets all day sun and a  large communal pool with green areas. To arrange a viewing or for  more information please contact Maxgoldhouse.</en>
-<de>DE</de>
-<fr>Cette belle maison en quadrant est située au coeur de Playa Flamenca, à proximité d'un large choix de supermarchés, bars et restaurants et à 10-15 minutes à pied des plages de Playa Flamenca, du Zenia Boulevard et du marché du samedi. La maison dispose de 2 chambres, 1 salle de bain, salon / salle à manger ouvert et une cuisine américaine avec buanderie. Les avantages comprennent un grand jardin d'angle avec parking et parking hors route, un beau solarium qui reçoit le soleil toute la journée et une grande piscine commune avec des espaces verts. Contactez Maxgoldhouse pour plus d'informations ou pour organiser une visite.</fr>
-<nl>Dit mooie kwadranthuis is gelegen in het hart van Playa Flamenca, dicht bij een brede selectie aan supermarkten, bars en restaurants en een 10-15 minuten lopen naar de stranden van Playa Flamenca, de Zenia Boulevard en de zaterdagmarkt - alles is gemakkelijk te bereiken! De woning heeft 2 slaapkamers, 1 badkamer, open woon- / eetkamer en een Amerikaanse keuken met bijkeuken. Voordelen zijn onder meer een grote hoektuin met off-road parking en berging, een mooi solarium dat de hele dag zon krijgt en een groot gemeenschappelijk zwembad met groene zones. Neem contact op met Maxgoldhouse voor meer informatie of om een bezichtiging te regelen.</nl>
-</desc>
-<images>
-<image id="1">
-<url>http://lh3.googleusercontent.com/ENhDuabk9VIvn4rPtw8ZkBDis4d_0_SneNd5Y7XmfbvQqo00SWGQpfmLzGcdYKhPjuCdsUB98MZd5-9m=w640-rj-e30-l100?.jpg</url>
-</image><image id="2">
-<url>http://lh3.googleusercontent.com/DsxCftMd32SIf5rtDM_f_Rq0h71dqCoffvfP3c2O-VF2WzUVHQ2Ki0iKq9laEGoImAGGOAVoMqbDLhEJpCo=w640-rj-e30-l100?.jpg</url>
-</image><image id="3">
-<url>http://lh3.googleusercontent.com/V-lBHwIJAGnRxh1vtu0ZOOai-kbO_84si1kGxd5gPq4uYbOWe1Vh-7W5rcBEdw9gL4bo7F6eoanOLzJH=w640-rj-e30-l100?.jpg</url>
-</image><image id="4">
-<url>http://lh3.googleusercontent.com/jtxX5IQLTvY2atgSBnK6GTz-ah2AZqroHGuYB6Al0nWSlSu5Vo_lvYkF0QPt5WCU3J3AgbZAGkMBZlM1AA=w640-rj-e30-l100?.jpg</url>
-</image><image id="5">
-<url>http://lh3.googleusercontent.com/EiLjzYfQ2-i4gG-tOVreScbkDrRmYgW750N9JTMNxIITuYyMnnRs8_RddlImfT_GAXkDnRi-0hmpx_NdtA=w640-rj-e30-l100?.jpg</url>
-</image><image id="6">
-<url>http://lh3.googleusercontent.com/zwiAZnig4hJi_zGZ0zyGB9XM-n5F16-xrgSoLcPAynDMxC06rgeGAunOr1_l6M5NxNjqiTtjRY1wIMbx=w640-rj-e30-l100?.jpg</url>
-</image><image id="7">
-<url>http://lh3.googleusercontent.com/rGvYoluxudvZ2D-CmX6lJL8avxPlpwr7QI-do3LI75n2NchEXSQGRUZ72tnFW3jv9-O8QwCgl84_3o9U=w640-rj-e30-l100?.jpg</url>
-</image><image id="8">
-<url>http://lh3.googleusercontent.com/aWcgw9jbKSquzM8Z9AX-9On_2ySjYeZkHB2FxGjRidu81INBjm2atBbAB4TNBMTuHDJJidkFVmbA_rc7XYE=w640-rj-e30-l100?.jpg</url>
-</image><image id="9">
-<url>http://lh3.googleusercontent.com/fnhpCOxAbzXKYwu_-biMG79iXZIaEssiDdvBESS-RpgEsGm72HWPyFM1hXKAt79_qy8WXZNtwyE31eeVpg=w640-rj-e30-l100?.jpg</url>
-</image><image id="10">
-<url>http://lh3.googleusercontent.com/oayGskfo985-xgFstXziqatg4cNd1yy-Wjv42b2M_lB4hg4V_BkmqHM_9MeJ4QYcgdRRcHe3cs560mxZTg=w640-rj-e30-l100?.jpg</url>
-</image><image id="11">
-<url>http://lh3.googleusercontent.com/rERsUjgOUIcC97BuzNubxTgtHwOfTWq4Lskeh1Jnep_P5LeuqvCuOM2Dal4o76m2NH76JNpgE-bbpqWFPiE=w640-rj-e30-l100?.jpg</url>
-</image><image id="12">
-<url>http://lh3.googleusercontent.com/kR343hnW0Am8jRv14FcMJFGFFiecJQ9MxedaEOs0pD2n6HQ7HBAD3GVL9cNG1d1D33G83ndx1N3TqAgeUkw=w640-rj-e30-l100?.jpg</url>
-</image><image id="13">
-<url>http://lh3.googleusercontent.com/2EuAAn_HE6uM5uxrrk4oFCbahNEEWB4IZP3r9Y1PiXU8eyEitBFHHYvXHKyesr6nMhJ4by96f8u703dU6A=w640-rj-e30-l100?.jpg</url>
-</image><image id="14">
-<url>http://lh3.googleusercontent.com/WQCRVHYpktS8W3YDzFEw__sDISM0Rp_mZO4ieXnELhWaCQ81kGNBo_oVsMp4O00Z5Ju1g6xTTZrcoeQ75w=w640-rj-e30-l100?.jpg</url>
-</image><image id="15">
-<url>http://lh3.googleusercontent.com/8jYuCoB9e-milomYpQgQ2H2wBROXuprLeARb4Pi5qHrrWxnnWkI4EXTgqnUPL5uivVcYwLJkLjWCJHiOr4c=w640-rj-e30-l100?.jpg</url>
-</image><image id="16">
-<url>http://lh3.googleusercontent.com/FKALRysvilplAIip4Ievc6pL08XRmk610C41u_3Vsb1rtTUycltmF2dpKM8GEQsOXCZmiY3472UHIhFc=w640-rj-e30-l100?.jpg</url>
-</image><image id="17">
-<url>http://lh3.googleusercontent.com/ylT0L8-otgUnTdrRakJvLc0_mUUkyfClA0zRc8nKCRvTi9LE-OqR7HTTb82TW0PJt0lUtdW1giBxIrTrLg=w640-rj-e30-l100?.jpg</url>
-</image><image id="18">
-<url>http://lh3.googleusercontent.com/EkwLTseolnca035PkTkUzSl2OZ7i7URrxIHJr3mDscz4zYbM8gkIBkJaqMohmJDQHCW5b2eXDvQIpX23Z88=w640-rj-e30-l100?.jpg</url>
-</image><image id="19">
-<url>http://lh3.googleusercontent.com/dp4x89wKyfy3KbEq995Rw7KkT7Qovj-KxDDR3j625fZokkfJAqY8rhWbznnWIXRdUXbWjLHY3_lrhxSg=w640-rj-e30-l100?.jpg</url>
-</image><image id="20">
-<url>http://lh3.googleusercontent.com/JVzgWCGmKRwUOOhK7q68Pw45MhcLgZGOv2RzxkgpG8X3bsHfARUMYJMOVETfz0MXXxuSdbXDK1a5HIeI=w640-rj-e30-l100?.jpg</url>
-</image><image id="21">
-<url>http://lh3.googleusercontent.com/4p8WKg3btveTBPBrHaYful1As_a3ixRZoJ7X45BtMTrDfg1N0_KfBjMC85MEZHChWGsjVOhxHcOeNncmHw=w640-rj-e30-l100?.jpg</url>
-</image><image id="22">
-<url>http://lh3.googleusercontent.com/gQEu5QK-70v2WNyZvdCxcVFeEYZQDwbwnsSR_97oW-TNMYfN4SPmRo24GqX3RpkB3pWSu8RULxMTPpafHg=w640-rj-e30-l100?.jpg</url>
-</image><image id="23">
-<url>http://lh3.googleusercontent.com/FFwrqdU0c8tbmRG0EKUDn-w67kthmMwdI0yodp408RlkBZEqPawerm_TBsWNm4CovBonrsmSECjf9ad8Tw=w640-rj-e30-l100?.jpg</url>
-</image><image id="24">
-<url>http://lh3.googleusercontent.com/Uk2kS6BmorJhyDbqdx_B62iOEV7GGFjdfpTfpIV5vpT4to4-j1PvlxqoCMek90WDKHJVWxvPN9copbVOeg=w640-rj-e30-l100?.jpg</url>
-</image><image id="25">
-<url>http://lh3.googleusercontent.com/kecIUcqHf1eujnwlfi5fX-ntZ-rT_KKNPl8dzx2QHtWjbLaQOHzF86sjR8yoR-7iSmHFOr_Stwx20uG0og=w640-rj-e30-l100?.jpg</url>
-</image><image id="26">
-<url>http://lh3.googleusercontent.com/ie6-XnfkN63kbXXQC4-rfyzHOFZsHidXSwOzxEfrtNtXl3OMPsE1IskaECNLB9FmCIKAZzH-2DTknFJS-Q=w640-rj-e30-l100?.jpg</url>
-</image><image id="27">
-<url>http://lh3.googleusercontent.com/MDCcLiAIbbeYkXGY6WXja0ousBte5SFYPYGffdlE-iDMVKnM55cBSincP08z3M_So7Fhr6dBl-rjNT7f=w640-rj-e30-l100?.jpg</url>
-</image><image id="28">
-<url>http://lh3.googleusercontent.com/qJe6BnAfStF6idEqYG6PksTRW5r1UI4y898y8PhBkpaAftZAC2FFE-FCQB5-7_rDnWCV9Z4VQALkZLrkBaY=w640-rj-e30-l100?.jpg</url>
-</image><image id="29">
-<url>http://lh3.googleusercontent.com/KPRq9FPn8hJX1BZISDQwC6RGJTgDjO-O7uVFdg6lKJw7sydVObvnjVyZdsPNzz7NxTNt1ugVczadBVNM=w640-rj-e30-l100?.jpg</url>
-</image><image id="30">
-<url>http://lh3.googleusercontent.com/XmBLoonP__UqmNpRGZ3K3Kx0wqbWFGcjhrKhIASZOMDZjXO0BxvS9iypwKqY-qHkwyG1cVgMA2k78ti8DQ=w640-rj-e30-l100?.jpg</url>
-</image><image id="31">
-<url>http://lh3.googleusercontent.com/zqmyOlkQLNIMWVR36I5WnYMO__xAs4ijn0P9wCWCPNZVPSyvmA6aCxd43j-O2e44hxLn_AJEo-qsbhzC=w640-rj-e30-l100?.jpg</url>
-</image><image id="32">
-<url>http://lh3.googleusercontent.com/DSERBje0OUqYp9nRm5zvIzpNUkbZ4raIdH7fKw942rUw6Jy8Hp6b-MhAelWvHcsYLAYaJQ1QBs20JENhGA=w640-rj-e30-l100?.jpg</url>
-</image>
-</images>
-</property><property>
-<id>19432410</id>
-<date>2018-10-24 07:38:23</date>
-<ref>NEW-EF-0014</ref>
+<id>19430711</id>
+<date>2018-11-07 15:32:58</date>
+<ref>NEW-EG-0014</ref>
 <price>149000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -7442,9 +7746,9 @@
 </image>
 </images>
 </property><property>
-<id>63528389818879492013110</id>
-<date>2018-10-31 08:37:13</date>
-<ref>00-EH-7290</ref>
+<id>63528389818879492010611</id>
+<date>2018-11-06 17:28:38</date>
+<ref>00-EI-7290</ref>
 <price>149900</price>
 <price_freq>sale</price_freq>
 <type>
@@ -7673,9 +7977,9 @@
 </image>
 </images>
 </property><property>
-<id>19720111</id>
-<date>2018-11-01 10:13:34</date>
-<ref>04-EF-0450</ref>
+<id>19720611</id>
+<date>2018-11-06 17:28:57</date>
+<ref>04-EG-0450</ref>
 <price>149995</price>
 <price_freq>sale</price_freq>
 <type>
@@ -7948,9 +8252,9 @@
 </image>
 </images>
 </property><property>
-<id>18322310</id>
-<date>2018-10-23 11:42:33</date>
-<ref>05-EG-1059</ref>
+<id>18320511</id>
+<date>2018-11-05 15:23:53</date>
+<ref>05-EH-1059</ref>
 <price>150000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -8241,9 +8545,9 @@
 </image>
 </images>
 </property><property>
-<id>14692410</id>
-<date>2018-10-24 07:38:49</date>
-<ref>NEW-EG-7370</ref>
+<id>14690711</id>
+<date>2018-11-07 15:32:39</date>
+<ref>NEW-EH-7370</ref>
 <price>152000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -8369,9 +8673,9 @@
 </image>
 </images>
 </property><property>
-<id>18522410</id>
-<date>2018-10-24 07:39:22</date>
-<ref>04-EH-0260</ref>
+<id>18520711</id>
+<date>2018-11-07 15:32:22</date>
+<ref>04-EI-0260</ref>
 <price>155000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -8464,9 +8768,9 @@
 </image>
 </images>
 </property><property>
-<id>19782310</id>
-<date>2018-10-23 11:37:46</date>
-<ref>04-0451</ref>
+<id>19780511</id>
+<date>2018-11-05 15:23:02</date>
+<ref>04-EF-0451</ref>
 <price>155000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -8577,9 +8881,9 @@
 </image>
 </images>
 </property><property>
-<id>63587837680109370892410</id>
-<date>2018-10-24 07:38:50</date>
-<ref>NEW-EG-7325</ref>
+<id>63587837680109370890711</id>
+<date>2018-11-07 15:32:39</date>
+<ref>NEW-EH-7325</ref>
 <price>157000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -8788,9 +9092,9 @@
 </image>
 </images>
 </property><property>
-<id>18042310</id>
-<date>2018-10-23 11:42:54</date>
-<ref>06-EH-7655</ref>
+<id>18040511</id>
+<date>2018-11-05 15:24:09</date>
+<ref>06-EI-7655</ref>
 <price>159900</price>
 <price_freq>sale</price_freq>
 <type>
@@ -8940,9 +9244,9 @@
 </image>
 </images>
 </property><property>
-<id>13780111</id>
-<date>2018-11-01 10:12:26</date>
-<ref>NEW-EH-7484b</ref>
+<id>13780611</id>
+<date>2018-11-06 17:28:38</date>
+<ref>NEW-EI-7484b</ref>
 <price>163000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -9068,9 +9372,9 @@
 </image>
 </images>
 </property><property>
-<id>18472310</id>
-<date>2018-10-23 11:42:53</date>
-<ref>09-EH-7667</ref>
+<id>18470511</id>
+<date>2018-11-05 15:24:10</date>
+<ref>09-EI-7667</ref>
 <price>165000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -9222,9 +9526,9 @@
 </image>
 </images>
 </property><property>
-<id>16912310</id>
-<date>2018-10-23 11:42:33</date>
-<ref>NEW-EG-7588</ref>
+<id>16910511</id>
+<date>2018-11-05 15:23:54</date>
+<ref>NEW-EH-7588</ref>
 <price>169000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -9423,9 +9727,9 @@
 </image>
 </images>
 </property><property>
-<id>19072310</id>
-<date>2018-10-23 11:42:32</date>
-<ref>NEW-EG-0004</ref>
+<id>19070511</id>
+<date>2018-11-05 15:23:54</date>
+<ref>NEW-EH-0004</ref>
 <price>169900</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -9507,6 +9811,148 @@
 <url>http://lh3.googleusercontent.com/uhSn4N_ZgbbJtIsKcyJYXNOrN3KxZWNWwGbe1AD_EVgR6Bllp68HTpjOkc7JFE3PF1Xf5oQmZ65fyqyQ=w640-rj-e30-l100?.jpg</url>
 </image><image id="31">
 <url>http://lh3.googleusercontent.com/uDnqYORGymHn1Xd8cj7X_8zHlZl1FbPeMnhnMe7IDWlkGiNEn8X00AsyAW8YCq2riMvSQtCZqmrsmSbnxQ=w640-rj-e30-l100?.jpg</url>
+</image>
+</images>
+</property><property>
+<id>19900511</id>
+<date>2018-11-05 10:19:45</date>
+<ref>NEW-0030</ref>
+<price>169900</price>
+<price_freq>sale</price_freq>
+<type>
+<en>Apartment</en>
+</type>
+<town>Torre De La Horadada</town>
+<province>Alicante</province>
+<location_detail>Torre De La Horadada</location_detail>
+<beds>2</beds>
+<baths>2</baths>
+<pool>1</pool>
+<url>https://www.maxgoldhouse.com/2-bed-Apartment-in-Torre-De-La-Horadada-1990.html</url>
+<desc>
+<en>These new modern apartments are located in Torre De La Horadada just 200m from  the beach!! Set in a residence that consists of 104 apartments in 3 level blocks  with a lift. Apartments consist of 2 or 3 bedrooms, 2 bathrooms, and a bright  spacious living/dining and kitchen area. Ground floor apartments benefit from a  terrace and garden, 1st floor apartments have a terrace to the front and a balcony  to the back and top floor apartments benefit from a terrace and solarium (55-71  sqm). The residence offers wide communal areas including a beautiful communal  pool with green areas where you can enjoy the sun and a playground for children.  Torre De La Horadada is ideally located - close to everything you may need - bars,  restaurants, shopping centres - including Zenia Boulevard and Dos Mares and a  selection of international golf courses. Working in collaboration with the builder  contact Maxgoldhouse for more information.</en>
+<de>DE</de>
+<fr>FR</fr>
+<nl>NL</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/ncNryeppSGZj-ZQZZz2E97Cgxc3P_rfzTZA_SnoyaX9sCMlJMDFTEDz5r2zPiIdvwepgzKQR070G6dVCIw=w640-rj-e30-l100?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/SzsMhkQBwv8uGaM-0rc6m4efg7N5jo6WOSCukyDKDWFKramAm-cLEooH9xhnuWfLhMAQeTH_-hKr_gILmg=w640-rj-e30-l100?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/KwhO9yYj3tATBmlAsxSnjkHqgcbuyU3suL0l7a_niSJgHXPCiza7kS11BM3kfnirii_0L14RqykRC5mjhg=w640-rj-e30-l100?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/ybkcp9uNIxPB3qlN2ynHLFLII52aoFiZU27e4VICaNMV3iB961MshHugrT2OWLQJR9JnpqfzHsM5Hz9U=w640-rj-e30-l100?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/JMQgfRYfOb46xAtAelULtGCltEMS8YTveSq7BR6F1Dbb72n7Qbwz5QLeRDgw0Otr0K1y2OlJRy2ygO-j3w=w640-rj-e30-l100?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/Cikq6ihICex_KgKslBR-63_cOPk-1E_lO13gjHqHz_u--nP_iU_ZN_cyDQVEWcUuYu9xF5lnaKBf8QeQqw=w640-rj-e30-l100?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/XCrEVMUtxvXGQAAuQjaI9DvBMYnI8CtngTrr2nydhHJWyx6fu097Ba_TNEmu9iCQvkO9c5PUKwJVFL5W0g=w640-rj-e30-l100?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/C3qeb2JfOGrgi0bacx3GmOWZC5RWXQnQfvNXup4epOlOZAxvo0znfdHifUAo_yL6Ip4Y_mmPeGdLdh6ekA=w640-rj-e30-l100?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/dV2cIf5jeR1aQCsUNTB5HuDxEuZKPe_by7TxHzZNp6vrM54V-L95DslF8HN3td9kT86Ez-68Y-6N_Dn5xYo=w640-rj-e30-l100?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/qI01ERLshQfu1ZfHOs0L4caYEqFAaJihGUURIvMcwKuG-i37gA_2pqfxXcpbhU2KKZA42b4jZTgsSujqRQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/VH6wZ7XkCYkL7zNNBoj2Bb0Ux6GhTAonsL3v31cDVaUDIMzkC3vbdYs5blcV8nbe9qB2Cnjji0azVxJujQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/6Yj5WxyJ5yX77ibg00LDkwRH7cCNl2YXvLBCOhfFYCXdsOXGdCBlQwzSi3POIIShfhupx6aLoKWrAuZpUQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/ZMf-TR16GMiXve58KQtVgv1iTmEaGwj9bLKobhqKGcG3-u-tS0IMo6w65fDn6y6dwOLTOEs8AbHDT6tAXw=w640-rj-e30-l100?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/7p9MaQN1nvqKU5-MHLX9gbvTox9ghBLqKRufziyOeA3EQB7UVA-s6leKjJ3s7-6VoM99TtNEohL6HUMI=w640-rj-e30-l100?.jpg</url>
+</image><image id="15">
+<url>http://lh3.googleusercontent.com/eGtA6I5e4qv_6VQ59_VSFohkO098_4Tos9U2cn3srovBhCCe0qhJ3TTvpEmzEHi1zs-THWtItvcmZkPzHg=w640-rj-e30-l100?.jpg</url>
+</image><image id="16">
+<url>http://lh3.googleusercontent.com/k6JFAXayqbnDOlTAycQSLWC0nCR6_gpjDipgIR7KAxe47Glugr87uDzOJjZHCDUcmkDbM9GSUagzDbnQbQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="17">
+<url>http://lh3.googleusercontent.com/dIl-QYqWBlBs-EroKBlcXJoSPdi9_p-D6Wlf9gDaSWgDpywO8oYWG_MhsjoII8nblKHo30QEA63p7892WA=w640-rj-e30-l100?.jpg</url>
+</image><image id="18">
+<url>http://lh3.googleusercontent.com/L3dpy-QsFW9GEr7OWPpbcow0Gd5heDeiDdjuD4_X7NqZJrkyYq8ChdT_iHl8kwvfZiARWu5mNPRkg_0eew=w640-rj-e30-l100?.jpg</url>
+</image><image id="19">
+<url>http://lh3.googleusercontent.com/JOJKWatPsohs2Phq_clIwV3Fo47A_zVdg7BW0U7tOG5fFsXMofniJywC6NhGI_mzhdOeTifo5clig-3kOQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="20">
+<url>http://lh3.googleusercontent.com/Jpv5362O8SYsYeKDp5Ce04zaZInrL43iQ1xvb51MoXQCRNGKUHVvjXmLY8alXdOppGzI9YVWe2xsdtHLC8k=w640-rj-e30-l100?.jpg</url>
+</image><image id="21">
+<url>http://lh3.googleusercontent.com/WSOoi1ysmmQYbCupMAyYehalPznyHOLpJczjnC3fYLhb8b_0ias-pTEINEpWDSezADHoKy4DO3IKbblC=w640-rj-e30-l100?.jpg</url>
+</image><image id="22">
+<url>http://lh3.googleusercontent.com/vNGMlODzVjJKSj7jwaaSV1IGHq_ew2KNgqGhEhbKwrtuKZI4xp7RvWphvbk3e0vjrcKytpwatDLdfrVB=w640-rj-e30-l100?.jpg</url>
+</image><image id="23">
+<url>http://lh3.googleusercontent.com/2PuSMctQYl_UWPxlJIirI3qfg_zfgYd06tOokiPOgOwSy-311IwamLazdtYFSwK6PggS_z1LoKsxCI4DSg=w640-rj-e30-l100?.jpg</url>
+</image><image id="24">
+<url>http://lh3.googleusercontent.com/eNCAmdyUDEi7IIerZM9lk2DH54SwgcQNCTk5HKeMTuKMVDfbykYCMyH8JRvFRSIb1zYoB3Pqhl8ukSeUtA=w640-rj-e30-l100?.jpg</url>
+</image><image id="25">
+<url>http://lh3.googleusercontent.com/AxxeRY81IOdCfp9CgUi4Ku1B9uKuffRHClJfQebiqEda-dupUuP6AhExQMP5BG4LG3semvMaqZk0Otvb=w640-rj-e30-l100?.jpg</url>
+</image><image id="26">
+<url>http://lh3.googleusercontent.com/RNELtAdL1s4KwOT1eKfR9pmSG9s1Fckb2hg74nEXUTJkqwedvZiGE_dYZfNqS68T7bo189PKtyZCd523vg=w640-rj-e30-l100?.jpg</url>
+</image><image id="27">
+<url>http://lh3.googleusercontent.com/AUo2nBb0TgEFyPJgxtCw6hrV41pbldBFrDoIkFYz6S0IQswbnNfgmZGoX15Efm5wgoZ6WHzRcu9tgVpQtKw=w640-rj-e30-l100?.jpg</url>
+</image><image id="28">
+<url>http://lh3.googleusercontent.com/PfI1GSow1JXcIeh8LjP8vgk-MmNrfr65AmqHEcbbGBaZL-xrjGXDbrw6OPHEsiq74rfkpdqpq7bmWdI7fJ8=w640-rj-e30-l100?.jpg</url>
+</image><image id="29">
+<url>http://lh3.googleusercontent.com/Rp67RshAxug-CemYwpBlUiYqPwh3j2QD8PfmYIbOIc7vGLlU58TNSDW2RJHfNTEeugW1iMCZ1T36fAJscw=w640-rj-e30-l100?.jpg</url>
+</image><image id="30">
+<url>http://lh3.googleusercontent.com/wmhCCagkretZcnBNXoVdqWu-5VRPMe3FOEnA7YoU2SC8jGWHc78Im5jBmwfmmr_0CTvtBKgKSFhPO2xzmfs=w640-rj-e30-l100?.jpg</url>
+</image><image id="31">
+<url>http://lh3.googleusercontent.com/Wf2BTm0rn9lf3Q9CbWXgs76A1RzYLHIpT2RuKiQNYI18R20UlVebL_WsScPc7XmVX1onrFyHooy1S8FTKnw=w640-rj-e30-l100?.jpg</url>
+</image><image id="32">
+<url>http://lh3.googleusercontent.com/-EGsi_PaT6a9KqojZnu7RL9heUKFn7JPHaEKKOP7NT3kUUWEtgNjNDCcbIz-_y1hF31-s6rpaQkRf4IEJA=w640-rj-e30-l100?.jpg</url>
+</image>
+</images>
+</property><property>
+<id>15740511</id>
+<date>2018-11-05 10:35:46</date>
+<ref>NEW-EH-7520</ref>
+<price>175000</price>
+<price_freq>new_build</price_freq>
+<type>
+<en>Townhouse</en>
+</type>
+<town>Orihuela Costa</town>
+<province>Alicante</province>
+<location_detail>Villamartin</location_detail>
+<beds>3</beds>
+<baths>3</baths>
+<pool>1</pool>
+<url>https://www.maxgoldhouse.com/3-bed-Townhouse-in-Villamartin-1574.html</url>
+<desc>
+<en>UNIQUE OFFER FOR A NICE PRICE: GOOD QUALITY MODERN NEW BUILD TOWN  HOUSES surrounded by 4 golf courses in the Villamartin area, the perfect location  for your new stylish holiday home with solarium. Lights and electric appliances  included in the price. Comes with a lovely communal pool in a nice green area.  Different plot sizes and approx. 117 sqm of living area. Private pool is optional.  Highest quality selection and lots of extras are possible like furniture pack and so  on - built by one of the most experienced serious builders. Ask for all details, price  list and availabilities etc. by maxgoldhouse. Viewings can be arranged at any time  with us in partnership with the builder.</en>
+<de>EINZIGARTIGES ANGEBOT FÜR EINEN GUTEN PREIS: MODERNE NEUE GEBÄUDE VON GUTER QUALITÄT! Umgeben von 4 Golfplätzen in Villamartin, ist dies der perfekte Ort für Ihr neues stilvolles Ferienhaus mit Solarium. Preise ab 175.000 Euro, für 2 und 3 Schlafzimmer. Es gibt einen schönen Gemeinschaftspool in einer üppigen grünen Umgebung. Verschiedene Landungen und ca. 117 m2 Wohnfläche. Ein privater Pool ist optional. Die hochwertigste Auswahl und viele Extras sind möglich wie ein Möbelpaket etc. Diese Reihenhäuser werden von einer der erfahrensten Baufirmen gebaut. Fragen Sie maxgoldhouse nach allen Details, Preisliste und Verfügbarkeit. Besuche jederzeit bei uns in Zusammenarbeit mit dem Bauherrn.</de>
+<fr>OFFRE UNIQUE POUR UN BON PRIX: DES NOUVELLES CONSTRUCTIONS MODERNES DE BONNE QUALITÉ! Entouré par 4 terrains de golf à Villamartin, c'est l'endroit idéal pour votre nouvelle maison de vacances élégante avec solarium. Prix à partir de 175.000 euros, pour 2 et 3 chambres. Il y a une belle piscine commune dans un espace vert luxuriant. Différents m2 de surfaces de terrain et environ 117 m2 de surface habitable. Une piscine privée est optionnelle. La sélection de la plus haute qualité et de nombreux extras sont possibles comme un paquet de meubles, etc. Ces maisons mitoyennes sont construites par l'une des entreprises de construction les plus expérimentés. Demandez à maxgoldhouse tous les détails, la liste de prix et la disponibilité. Visites à tout moment avec nous en coopération avec le constructeur.</fr>
+<nl>UNIEKE AANBIEDING VOOR EEN GOEDE PRIJS: MODERNE NIEUWBOUWWONINGEN VAN GOEDE KWALITEIT! Omringd door 4 golfbanen in Villamartin is dit de perfecte locatie voor uw nieuwe stijlvolle vakantiehuis met solarium. Prijzen vanaf 175.000 euro, voor zowel 2 als 3 slaapkamers. Er is een mooi gemeenschappelijk zwembad in een weelderige, groene omgeving. Verschillende kavelafmetingen en ca. 117 m2 woonoppervlakte. Een privé-zwembad is optioneel. De hoogste kwaliteitsselectie en vele extras zijn mogelijk zoals een meubelpakket, etc. Deze rijwoningen worden gebouwd door één van de meest ervaren bouwbedrijven. Vraag maxgoldhouse om alle details, prijslijst en beschikbaarheid. Bezichtigingen op elk moment met ons in samenwerking met de bouwer.</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/-1PcPWQRNvDa3VXu1x-TEjyy2tvlcdAVs5Q4r4qK-nqLfwFUz9DJ99gqDJ9tilX0bGVMmvkNk_W3fO1M=w640-rj-e30-l100?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/b8ePMyBeEAAN2kfNXB02KQbAX3RMRoaM182H73lpT51LAUtgTabWl0s9yDAeuVZHoUgsvLYBUzOKkYgJ8g=w640-rj-e30-l100?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/BFxJiwqvBDb5QamZzbmEAsUUAVl-xkrX8Bupdh2Gf0UM3h6MWI5cXOJn3Mi9K_t-G-ur3yxExEQDFUZ07Uc=w640-rj-e30-l100?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/kW4z67Sno2NgI79MYtJF5lVr1VNWlkSfP05hiYrEWT8f0Xp7H1PQlGXEA86ysrdtTVh363KA9wJ0YciaQWo=w640-rj-e30-l100?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/AVpTu45W96Pdl6jZjP4CgUWC6rW9TzlRBdHy3auZBMWo1aKLt3qy8YUcSbbEVQoWMfdemaHi5Mg4buGc=w640-rj-e30-l100?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/8MHKOPIbDIGdWYG-ru6wbb-4Dj6d2ms5AU4vYrvRtXTA2xm3NUIylsopZ57X-Yuk-TB2Corp1atfi5BRWQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/b_D6mwdGooi8pwPUp7sAF_8qXf-wiKbIwhLS1lIu6eNc3E6VE4FRu4u1K_3gX6UOw8pM631cJ626eiDF=w640-rj-e30-l100?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/wy6RjablxvMzaqL9vx0u92CP7uLewSc9G8z-2NXrCW5x22QiksU74DEYq6atbeT987qpNEOrx97Dgv4W-w=w640-rj-e30-l100?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/5uf57XIERSKrQNybPCqWuhEeJdtD7MZqVwAB7Czc-eEQO84aqLujAOXy_lXolP81XVZyJCf0FhHl_4e9u6k=w640-rj-e30-l100?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/Bh8B-YBDchlLIdmEIJDj61BOZ05W46a6tBppdEKEEf_A8yZaalxMIzW74pNTTaPjEwy32N40w5S7qOkn9g=w640-rj-e30-l100?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/amL0nYpKFjiPH5xWvFtjXHtpwlpg__-dF3PHFWMdbbUuDDOHyfO0C5utqdQ4trfDOEWtyr0wqCK35GN5LQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/3eOcDmrgOZMoXaRk22CUapWLDTR3ZPx2wGWX2_14DtJ_o9aTrmd4Oq7vl8-WiFHJoYnIlS27GwjNO7gD=w640-rj-e30-l100?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/bYSsaixA8xVW5zr0EGbX_PYaBj2OQdKxFjuHqPmH5DbOfMMF-5N6KJlOI_280fSga1LWx4xYZZ1r15Sx=w640-rj-e30-l100?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/xUpLj1AbQAXeO1_TXrBL7YcdIxKYftd_jXMZpdPCERKxKuzprRb6-COK43qRb7q7Gi4MUzye2qw3R4pwng=w640-rj-e30-l100?.jpg</url>
 </image>
 </images>
 </property><property>
@@ -9597,9 +10043,9 @@
 </image>
 </images>
 </property><property>
-<id>16722310</id>
-<date>2018-10-23 11:42:33</date>
-<ref>05-EG-0100</ref>
+<id>16720511</id>
+<date>2018-11-05 15:23:53</date>
+<ref>05-EH-0100</ref>
 <price>178200</price>
 <price_freq>sale</price_freq>
 <type>
@@ -9779,59 +10225,6 @@
 </image>
 </images>
 </property><property>
-<id>15742210</id>
-<date>2018-10-22 07:42:08</date>
-<ref>NEW-EG-7520</ref>
-<price>180000</price>
-<price_freq>new_build</price_freq>
-<type>
-<en>Townhouse</en>
-</type>
-<town>Orihuela Costa</town>
-<province>Alicante</province>
-<location_detail>Villamartin</location_detail>
-<beds>3</beds>
-<baths>3</baths>
-<pool>1</pool>
-<url>https://www.maxgoldhouse.com/3-bed-Townhouse-in-Villamartin-1574.html</url>
-<desc>
-<en>UNIQUE OFFER FOR A NICE PRICE: GOOD QUALITY MODERN NEW BUILD TOWN HOUSES surrounded by 4 golf courses in the Villamartin area, the perfect location for your new stylish holiday home with solarium. Prices start from 169.000 euro, for both 2 or 3 beds. Comes with a lovely communal pool in a nice green area. Different plot sizes and approx. 117 sqm of living area. Private pool is optional. Highest quality selection and lots of extras are possible like furniture pack and so on - built by one of the most experienced serious builders. Ask for all details, price list and availabilities etc. by maxgoldhouse. Viewings can be arranged at any time with us in partnership with the builder.</en>
-<de>EINZIGARTIGES ANGEBOT FÜR EINEN GUTEN PREIS: MODERNE NEUE GEBÄUDE VON GUTER QUALITÄT! Umgeben von 4 Golfplätzen in Villamartin, ist dies der perfekte Ort für Ihr neues stilvolles Ferienhaus mit Solarium. Preise ab 169.000 Euro, für 2 und 3 Schlafzimmer. Es gibt einen schönen Gemeinschaftspool in einer üppigen grünen Umgebung. Verschiedene Landungen und ca. 117 m2 Wohnfläche. Ein privater Pool ist optional. Die hochwertigste Auswahl und viele Extras sind möglich wie ein Möbelpaket etc. Diese Reihenhäuser werden von einer der erfahrensten Baufirmen gebaut. Fragen Sie maxgoldhouse nach allen Details, Preisliste und Verfügbarkeit. Besuche jederzeit bei uns in Zusammenarbeit mit dem Bauherrn.</de>
-<fr>OFFRE UNIQUE POUR UN BON PRIX: DES NOUVELLES CONSTRUCTIONS MODERNES DE BONNE QUALITÉ! Entouré par 4 terrains de golf à Villamartin, c'est l'endroit idéal pour votre nouvelle maison de vacances élégante avec solarium. Prix à partir de 169.000 euros, pour 2 et 3 chambres. Il y a une belle piscine commune dans un espace vert luxuriant. Différents m2 de surfaces de terrain et environ 117 m2 de surface habitable. Une piscine privée est optionnelle. La sélection de la plus haute qualité et de nombreux extras sont possibles comme un paquet de meubles, etc. Ces maisons mitoyennes sont construites par l'une des entreprises de construction les plus expérimentés. Demandez à maxgoldhouse tous les détails, la liste de prix et la disponibilité. Visites à tout moment avec nous en coopération avec le constructeur.</fr>
-<nl>UNIEKE AANBIEDING VOOR EEN GOEDE PRIJS: MODERNE NIEUWBOUWWONINGEN VAN GOEDE KWALITEIT! Omringd door 4 golfbanen in Villamartin is dit de perfecte locatie voor uw nieuwe stijlvolle vakantiehuis met solarium. Prijzen vanaf 169.000 euro, voor zowel 2 als 3 slaapkamers. Er is een mooi gemeenschappelijk zwembad in een weelderige, groene omgeving. Verschillende kavelafmetingen en ca. 117 m2 woonoppervlakte. Een privé-zwembad is optioneel. De hoogste kwaliteitsselectie en vele extras zijn mogelijk zoals een meubelpakket, etc. Deze rijwoningen worden gebouwd door één van de meest ervaren bouwbedrijven. Vraag maxgoldhouse om alle details, prijslijst en beschikbaarheid. Bezichtigingen op elk moment met ons in samenwerking met de bouwer.</nl>
-</desc>
-<images>
-<image id="1">
-<url>http://lh3.googleusercontent.com/-1PcPWQRNvDa3VXu1x-TEjyy2tvlcdAVs5Q4r4qK-nqLfwFUz9DJ99gqDJ9tilX0bGVMmvkNk_W3fO1M=w640-rj-e30-l100?.jpg</url>
-</image><image id="2">
-<url>http://lh3.googleusercontent.com/b8ePMyBeEAAN2kfNXB02KQbAX3RMRoaM182H73lpT51LAUtgTabWl0s9yDAeuVZHoUgsvLYBUzOKkYgJ8g=w640-rj-e30-l100?.jpg</url>
-</image><image id="3">
-<url>http://lh3.googleusercontent.com/BFxJiwqvBDb5QamZzbmEAsUUAVl-xkrX8Bupdh2Gf0UM3h6MWI5cXOJn3Mi9K_t-G-ur3yxExEQDFUZ07Uc=w640-rj-e30-l100?.jpg</url>
-</image><image id="4">
-<url>http://lh3.googleusercontent.com/kW4z67Sno2NgI79MYtJF5lVr1VNWlkSfP05hiYrEWT8f0Xp7H1PQlGXEA86ysrdtTVh363KA9wJ0YciaQWo=w640-rj-e30-l100?.jpg</url>
-</image><image id="5">
-<url>http://lh3.googleusercontent.com/AVpTu45W96Pdl6jZjP4CgUWC6rW9TzlRBdHy3auZBMWo1aKLt3qy8YUcSbbEVQoWMfdemaHi5Mg4buGc=w640-rj-e30-l100?.jpg</url>
-</image><image id="6">
-<url>http://lh3.googleusercontent.com/8MHKOPIbDIGdWYG-ru6wbb-4Dj6d2ms5AU4vYrvRtXTA2xm3NUIylsopZ57X-Yuk-TB2Corp1atfi5BRWQ=w640-rj-e30-l100?.jpg</url>
-</image><image id="7">
-<url>http://lh3.googleusercontent.com/b_D6mwdGooi8pwPUp7sAF_8qXf-wiKbIwhLS1lIu6eNc3E6VE4FRu4u1K_3gX6UOw8pM631cJ626eiDF=w640-rj-e30-l100?.jpg</url>
-</image><image id="8">
-<url>http://lh3.googleusercontent.com/wy6RjablxvMzaqL9vx0u92CP7uLewSc9G8z-2NXrCW5x22QiksU74DEYq6atbeT987qpNEOrx97Dgv4W-w=w640-rj-e30-l100?.jpg</url>
-</image><image id="9">
-<url>http://lh3.googleusercontent.com/5uf57XIERSKrQNybPCqWuhEeJdtD7MZqVwAB7Czc-eEQO84aqLujAOXy_lXolP81XVZyJCf0FhHl_4e9u6k=w640-rj-e30-l100?.jpg</url>
-</image><image id="10">
-<url>http://lh3.googleusercontent.com/Bh8B-YBDchlLIdmEIJDj61BOZ05W46a6tBppdEKEEf_A8yZaalxMIzW74pNTTaPjEwy32N40w5S7qOkn9g=w640-rj-e30-l100?.jpg</url>
-</image><image id="11">
-<url>http://lh3.googleusercontent.com/amL0nYpKFjiPH5xWvFtjXHtpwlpg__-dF3PHFWMdbbUuDDOHyfO0C5utqdQ4trfDOEWtyr0wqCK35GN5LQ=w640-rj-e30-l100?.jpg</url>
-</image><image id="12">
-<url>http://lh3.googleusercontent.com/3eOcDmrgOZMoXaRk22CUapWLDTR3ZPx2wGWX2_14DtJ_o9aTrmd4Oq7vl8-WiFHJoYnIlS27GwjNO7gD=w640-rj-e30-l100?.jpg</url>
-</image><image id="13">
-<url>http://lh3.googleusercontent.com/bYSsaixA8xVW5zr0EGbX_PYaBj2OQdKxFjuHqPmH5DbOfMMF-5N6KJlOI_280fSga1LWx4xYZZ1r15Sx=w640-rj-e30-l100?.jpg</url>
-</image><image id="14">
-<url>http://lh3.googleusercontent.com/xUpLj1AbQAXeO1_TXrBL7YcdIxKYftd_jXMZpdPCERKxKuzprRb6-COK43qRb7q7Gi4MUzye2qw3R4pwng=w640-rj-e30-l100?.jpg</url>
-</image>
-</images>
-</property><property>
 <id>15462410</id>
 <date>2018-10-24 07:39:22</date>
 <ref>NEW-EH-7490</ref>
@@ -9992,9 +10385,9 @@
 </image>
 </images>
 </property><property>
-<id>17272410</id>
-<date>2018-10-24 07:39:22</date>
-<ref>NEW-EH-7611</ref>
+<id>17270711</id>
+<date>2018-11-07 15:32:23</date>
+<ref>NEW-EI-7611</ref>
 <price>182000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -11045,9 +11438,9 @@
 </image>
 </images>
 </property><property>
-<id>18132410</id>
-<date>2018-10-24 07:39:23</date>
-<ref>05-EH-1054</ref>
+<id>18130711</id>
+<date>2018-11-07 15:32:23</date>
+<ref>05-EI-1054</ref>
 <price>190000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -11156,9 +11549,104 @@
 </image>
 </images>
 </property><property>
-<id>15372410</id>
-<date>2018-10-24 07:39:24</date>
-<ref>NEW-EH-7472</ref>
+<id>19890511</id>
+<date>2018-11-05 08:50:43</date>
+<ref>NEW-0027</ref>
+<price>193300</price>
+<price_freq>new_build</price_freq>
+<type>
+<en>Townhouse</en>
+</type>
+<town>Daya Vieja</town>
+<province>Alicante</province>
+<location_detail>Ciudad Quesada</location_detail>
+<beds>2</beds>
+<baths>2</baths>
+<pool>1</pool>
+<url>https://www.maxgoldhouse.com/2-bed-Townhouse-in-Ciudad-Quesada-1989.html</url>
+<desc>
+<en>These modern townhouses are situated in Daya Vieja in a luxury residence  consisting of 9 properties. The houses are built to a very high standard and benefit  from floor to ceiling windows giving a bright and airy feel and beautiful views of the  swimming pool. Each house consists of 2 bedrooms, 2 bathrooms, open  living/dining and kitchen area and come with a private pool, off road parking and  solarium. Also included are electric blinds, solar panels, household appliances  and pre-installed air con. There is also the option of adding a 3rd bedroom and 3rd  bathroom. Daya Vieja is a lovely Spanish village next to Almoradi and Ciudad  Quesada - only 8 minutes away by car to the best beaches on the Costa Blanca  with a wide selection of water sports on offer. Also in the area are a selection of  commercial centres with shops, bars and restaurants, extensive sport/leisure  opportunities, 2 water parks and 3 golf courses. Contact Maxgoldhouse today!</en>
+<de>DE</de>
+<fr>FR</fr>
+<nl>NL</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/Z5EruepB9f562btjGG6dxWzJfOt_A36TV29wcfCZtBzc6rhvqvjXgcPiKBavaXy_TTBwdadyo2b3ps9oKw=w640-rj-e30-l100?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/XYVrpNXvjidRlW2Vfgcys9hjmmN7AxltbDDBiB9z4kNGpyMFrDJOxmLcbaeBlDqK1g0Nz2rheqGbssXtqA=w640-rj-e30-l100?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/9XG5wrgGnGUso2ucDcQMKh_3_erLTVHae1T89l5KDYNVDJlHgLUu-eWcR2IxoJ1usqTbrzphnEDAIHGpwA=w640-rj-e30-l100?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/jZnvH5R5e8p0Oc5xMhnCgaaYY3jaKdslwzNRcxziuK5_3GyNNZFURaZ_0vP4CDzsJSipBTfhYnCGXNh0=w640-rj-e30-l100?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/mlg6CIF3_ZUz9pfPPL-gMTkcLAd2UzJbohZ39xI5ahJqokPNaae0gw42rHX6TVyIkpB0WdDs6BHBU8CHmA=w640-rj-e30-l100?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/QzBlJVF9YLmPVbJ2_9YuWWxv-Tp64jNyY2_wXZ9iQu324NesGCNFjmz5N-gxqD1Fs68Wf8cfX8rvyckkyA=w640-rj-e30-l100?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/QRtQ7LSpP5YVlfImzQ78KQ1AS5kkFDXH6no2a7iHSoqbouT7hLcR6mtFouuIpJtm8RSJuKV_mXmewuQsOg=w640-rj-e30-l100?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/wE9XEJvAjxLbVhPxZgqHxccF-SfcCJcyz1ZvjV-gqQEuft9LwpJr8BB5GBDuRJTZ5op0RRqV0T_FyBhe=w640-rj-e30-l100?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/xbNIk9K6v_e3mEzfjgzuaU2E41FUnTEYRfnxhHv6zvjFADV7UgsNbQYuBAIgkWjnbOzQ4WrrvJR4YX_u4w=w640-rj-e30-l100?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/PnidcaD4AuiYSIj3LKlOwtwJPqmKYJ1GciiaCaZVcjKj__bZET9Kiu2hiI3kIHtQkDm4rg_UxqGrW5Pt=w640-rj-e30-l100?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/u_yHKY9ZfcxwXWzR2EfsHtrqOlH3T3i4IO-NMqEqcUXTLtO1XsFkHb95dIUowp1maFqqwIfLPzJ79hH7=w640-rj-e30-l100?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/M37cF5Pp_XqxiBUQPgnqq-KJQCmW4Q474xSVimlfJQJ1yyZCJnmORuYRPKxXFzrSWPrZcwovAjzJwcihCg=w640-rj-e30-l100?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/VytTZilfwO2UxNXDZt0ZkIFDv7MEa1C99TS2maqBnC7nahyNkt_Noecoi22hh9qV5e7kQ_b1B8PxbU2agA=w640-rj-e30-l100?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/dRXTAhkaoDfA2l62E_y4M8oY0L-IUKAE4MpkE1JzKtGallvFV5zPw7aLeyLscn9dFtizw3eHJ03B1l6vi4k=w640-rj-e30-l100?.jpg</url>
+</image><image id="15">
+<url>http://lh3.googleusercontent.com/xK_QY6WlPG2QZ6W5HTNXOvxLxAPNFTmYx9S7AHb22QLr3fPfwARdW5NWdmJ2krYWeeODlSmZlGQvzpr7Nw=w640-rj-e30-l100?.jpg</url>
+</image><image id="16">
+<url>http://lh3.googleusercontent.com/4W6rVtZH5DRXrDFu7fi4G5B8G7ygHfnrGo_5rqWLoQ0BLYUpqcp4jfC0ETx1b6expromwoM2ZqI6yph1ug=w640-rj-e30-l100?.jpg</url>
+</image><image id="17">
+<url>http://lh3.googleusercontent.com/gHkxfV4h4s0-s-3leAI_P0LbaZI_o-eOHbrbwRhNY9AlYk1wkw8MDGDOyugEI8b3Xte7iF19y0NwxuF8qQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="18">
+<url>http://lh3.googleusercontent.com/2GnCVIDIHygdOjuOtpGudMIh2KLWYDebVN6NDWtve37B_H0eywUHW22je_IFwPl6S-Nj9_Fd-JmskG6yEw=w640-rj-e30-l100?.jpg</url>
+</image><image id="19">
+<url>http://lh3.googleusercontent.com/a2Viv51UpG12zWpetzeFbOjETTgklzja5WXpyBwASJX24tXE937qnISsoCOaMdiVYzHI_CNBvguXKkWLHw=w640-rj-e30-l100?.jpg</url>
+</image><image id="20">
+<url>http://lh3.googleusercontent.com/bpu9JvZDhf6h26dK160WScYP3p_ruwpZ2M1eAuY9mhdaW2s0mMBC_YRUUJmVcyvftij5DKYXRnsAaF6FNw=w640-rj-e30-l100?.jpg</url>
+</image><image id="21">
+<url>http://lh3.googleusercontent.com/iyG0cmq59RT88ZQaxBuSYnJVXV6h9T6Gt3HRSdAB5b1tN-vl5VuK9TTgwGmZ2Rq5O21Os0Bry2j4aXNGXh0=w640-rj-e30-l100?.jpg</url>
+</image><image id="22">
+<url>http://lh3.googleusercontent.com/QYVdlDN1qoC4X-Q0OVF4lN4ceo9Vcd_oxDzs_PRmHKJV6HguCK0_QZA4rxEec_SAvSeycmRJKMtf73zU=w640-rj-e30-l100?.jpg</url>
+</image><image id="23">
+<url>http://lh3.googleusercontent.com/tKIGBgrRICB_rbfU1JeENrdUMLb9XegsCeP3At7FOkOHF8jESfj8T64Zt-sU5cMXkGUjZFwaYWg4AnF8=w640-rj-e30-l100?.jpg</url>
+</image><image id="24">
+<url>http://lh3.googleusercontent.com/e_8DEPu-0K9JJ0GBjfKSQeJ7QhcN6hhMm9rHAsVDGZ6M--Ps0aHs4xSHcRuNkNBe99o63d9MRChGXikf=w640-rj-e30-l100?.jpg</url>
+</image><image id="25">
+<url>http://lh3.googleusercontent.com/E7k69SD_grc8gRRwH1_RssGjmS0SEFPyxURTQaMOAi40P-UzUEzYS_0afbXnaUWIaUquPfsJDCxlHU27=w640-rj-e30-l100?.jpg</url>
+</image><image id="26">
+<url>http://lh3.googleusercontent.com/FCmRgYcWSO80gsu0GUEfk4eB38DP1Gq4VM3V3B1VRqP7mXlwrJtj3mHrxKsbwhM8t2z1umlNM4zaDuOdUKA=w640-rj-e30-l100?.jpg</url>
+</image><image id="27">
+<url>http://lh3.googleusercontent.com/A3S7cE4Wh3ylX2AD8m3-FMj9PzDFi9NU5bK56EVZX_79rf7CtCorN3-9UnNh7dkYqu6MThyvcL7AMHwxzg=w640-rj-e30-l100?.jpg</url>
+</image><image id="28">
+<url>http://lh3.googleusercontent.com/tlfac3ASx1Yw2kYeQXNSVyYFpLox1ppn6U30F6RC95cDr4pN4Nak45nXM6DzvQfVVsQ_wtsP6xrnH68B=w640-rj-e30-l100?.jpg</url>
+</image><image id="29">
+<url>http://lh3.googleusercontent.com/lQe8-dfVkmdQxxRCthYb3S6wi7eTleBW_C4ZZdXvMJgpNPCA89OZsZ0lOCicFqCGESMC08Q-3P-XfyvHBg=w640-rj-e30-l100?.jpg</url>
+</image><image id="30">
+<url>http://lh3.googleusercontent.com/0-NCjsTqAgQn8aTn7d7lC1Xmv0zZ6Mz0H1CKFpRwmjcFZ3gHVnofVALJOfNF-nimthA0eGdTsCw83dh67so=w640-rj-e30-l100?.jpg</url>
+</image><image id="31">
+<url>http://lh3.googleusercontent.com/VuNhp43r1ke1xRO8NcoDSQA0DpusGIiVDUrib7qg-Z2txLuqSl8aOoRBtI7Qv-uIzd9w8YMonO0qtwT31Q=w640-rj-e30-l100?.jpg</url>
+</image><image id="32">
+<url>http://lh3.googleusercontent.com/wS6XMSNK3xPLxeIvj5ydsTEPMpOrLep0wShFJIuhcE2PFyMGqaaVByeYk89RLZ8ZZBfFeIRk_e0EdN24pA=w640-rj-e30-l100?.jpg</url>
+</image><image id="33">
+<url>http://lh3.googleusercontent.com/7MuIoxf032IoGUhwmMGyFReROry_lSkTM1oymX0Yy-F0EgS6e3bwJ3moCym-7rJwdaiRfzKOEjWwcszJ-q4=w640-rj-e30-l100?.jpg</url>
+</image><image id="34">
+<url>http://lh3.googleusercontent.com/o45Al4IKO2g2KAxsd1iR00JOMnkhB29pSiK53FvisP1d47JqAF58djohbk7YjVtuiqT29f4CMk7Wb5dsltY=w640-rj-e30-l100?.jpg</url>
+</image><image id="35">
+<url>http://lh3.googleusercontent.com/6SM84tU9AQ9B8ajayGDi4WJxXVddoKahewPHVhMwVrlPuB5wd_0_IpDkTJGQ-YyJ1mt3XLKAJi2DmPVP=w640-rj-e30-l100?.jpg</url>
+</image>
+</images>
+</property><property>
+<id>15370711</id>
+<date>2018-11-07 15:32:23</date>
+<ref>NEW-EI-7472</ref>
 <price>195000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -11470,75 +11958,6 @@
 <url>http://lh3.googleusercontent.com/8BTsA0WeQB8DbYeRxXFX4T-5exgmLimeZQKQl-m0MpRBMrU05G7347jL_vgS8A7lyoMksZOUnx5mbQr3PA=w640-rj-e30-l100?.jpg</url>
 </image><image id="37">
 <url>http://lh3.googleusercontent.com/5IyxEwz9k-WFUhRso_GLq8dtfB6Hm-ihqc8rXAHxj10yXHX9g5za3VbWGl2Qb99hWQ2BAeTMlYWIUesCOQ=w640-rj-e30-l100?.jpg</url>
-</image>
-</images>
-</property><property>
-<id>63803064480950088650111</id>
-<date>2018-11-01 10:12:24</date>
-<ref>NEW-EH-7344</ref>
-<price>198000</price>
-<price_freq>new_build</price_freq>
-<type>
-<en>Quadhouse</en>
-</type>
-<town>Orihuela Costa</town>
-<province>Alicante</province>
-<location_detail>Villamartin Golf</location_detail>
-<beds>3</beds>
-<baths>2</baths>
-<pool>1</pool>
-<url>https://www.maxgoldhouse.com/3-bed-Quadhouse-in-Villamartin-Golf-6380306448095008865.html</url>
-<desc>
-<en>Luxury modern quadvillas located in the famous Villamartin / Los Dolses area within a short walking distance to all needed amenities/ The development is located close to 4 international golf courses and only 1.5 km to sea and beaches. The residence has communal pool and garden area enjoy the long summer swimming season. Villamartin area offers large shopping centres, lots of restaurants and is close to sea and beaches with all kinds of watersports. These stylish quad villas are equipped to high standards and have features including walk-in showers, wardrobes in the bedrooms, pre- installation for air conditioning hot and cold and TV, modern kitchen furniture (incl.) and more. The prices for the 3 bed quads all with roof terrace and garden are from 174.000 euro - depending on size, bedrooms, views and location - up to a maximum of 209.000 euro - also incl. in the sales prices is private parking inside the residence. Ask for all details. Viewings at any time.</en>
-<de>Luxuriöse, moderne Quad-Villen in Villamartin / Los Dolses, nur einen kurzen Spaziergang von allen notwendigen Annehmlichkeiten entfernt. Die Residenz liegt in der Nähe von 4 internationalen Golfplätzen und nur 1,5 km vom Meer und den Stränden entfernt. Sie hat einen Gemeinschaftspool und Garten, wo Sie die lange Sommersaison genießen können. Villamartin bietet große Einkaufszentren, viele Restaurants und liegt in der Nähe des Meeres und der Strände, wo Sie alle Arten von Wassersportarten ausüben können. Diese stilvollen Quadranten-Villen sind nach höchsten Standards ausgestattet, darunter begehbare Duschen, Einbauschränke in den Schlafzimmern, Vorinstallation für Klimaanlage (warm und kalt) und für TV, moderne Küchenmöbel und vieles mehr. Die Villen verfügen alle über 3 Schlafzimmer, eine Dachterrasse und einen Garten. Die Preise liegen zwischen 174.000 € und maximal 209.000 €, je nach Größe, Lage und Lage. Im Verkaufspreis enthalten ist ein privater Parkplatz in der Residenz. Fragen Sie uns nach allen Details. Anzeigen jederzeit möglich.</de>
-<fr>Villas quadrantes luxueuses et modernes situés dans Villmartin / Los Dolses à une courte distance de marche de toutes les commodités nécessaires. La résidence est proche de quatre terrains de golf internationaux et à seulement 1,5 km de la mer et des plages. Elle dispose d'une piscine communautaire et un jardin où vous pourrez profiter de la longue saison d'été. Villamartin vous offre des centres commerciaux, de nombreux restaurants et est proche de la mer et des plages où vous pourrez pratiquer des sports nautiques. Ces villas quadrantes élégantes sont équipées aux normes les plus élevées, y compris des douches italiennes, des placards dans les chambres, pré-installation pour la climatisation (chaude et froide) et de la télévision, des meubles de cuisine moderne, et plus encore. Les villas ont toutes trois chambres, une toit-terrasse et un jardin. Les prix sont entre € 174 000  et un maximum de € 209 000, selon la grandeur, la vue et l'emplacement. Inclus dans le prix est un parking privé dans la résidence. Demandez-nous pour plus de détails. Visites à tout moment.</fr>
-<nl>Luxueuze, moderne kwadrantvilla’s gelegen in Villamartin / Los Dolses binnen een korte loopafstand van alle benodigde voorzieningen. De residentie ligt dicht bij 4 internationale golfbanen en op slechts 1,5 km van zee en de stranden. Ze heeft een gemeenschappelijk zwembad en tuin waarin u kan genieten van het lange zomerseizoen. Villamartin biedt grote winkelcentra, veel restaurants en ligt dicht bij de zee en de stranden waar u allerlei watersporten kan beoefenen. Deze stijlvolle kwadrantvilla's zijn uitgerust volgens de hoogste normen, waaronder inloopdouches, ingebouwde kasten in de slaapkamers, pre-installatie voor airconditioning (warm en koud) en voor TV, modern keukenmeubilair, en nog veel meer. De villa’s hebben allemaal 3 slaapkamers, een dakterras en een tuin. Prijzen zijn tussen € 174 000 en maximum € 209 000, afhankelijk van de grootte, uitzicht en locatie. Inclusief in de verkoopprijs is een eigen parkeerplaats in de residentie. Vraag ons voor alle details. Bezichtigingen op elk gewenst moment.</nl>
-</desc>
-<images>
-<image id="1">
-<url>http://lh3.googleusercontent.com/kw5PwMdXfIcb2ef2lQKsX1Cfp8uwj5aphJPJ9svPVsf-WKFwuu261-qpZxHM3-gD_Bl2yp9oFE7JiDLQwg=w640-rj-e30-l100?.jpg</url>
-</image><image id="2">
-<url>http://lh3.googleusercontent.com/utKCOdCC9SxT7F0lxyagSoNcF42H90c0QSpv6v-rxCRuTFNhugZ97860HDgX0uvCiX_IEFeNvYOq6zsQ=w640-rj-e30-l100?.jpg</url>
-</image><image id="3">
-<url>http://lh3.googleusercontent.com/0GrI6Aod8h-pAm6Z4Q6KStubXJtc5-xbhFvYPahlOqnvKVgajooEIVlhvzw_mlId7W6XC4Ervzf_P6yk7sE=w640-rj-e30-l100?.jpg</url>
-</image><image id="4">
-<url>http://lh3.googleusercontent.com/ZApe9fFdmd0sxRBStPhgGd3vDnr94NC3jfbPtlLITqeAHC0N8sxA-4D1FFCPA0Ghz3mjKq3V64GmT49D=w640-rj-e30-l100?.jpg</url>
-</image><image id="5">
-<url>http://lh3.googleusercontent.com/52DDaMaEK8ouIzFybXRfhHxxSHDmRQqccSD5pds33X1jUxdj96FjUgbvDH8ZVCGaUDlR3ZV5taxkTvu2NBk=w640-rj-e30-l100?.jpg</url>
-</image><image id="6">
-<url>http://lh3.googleusercontent.com/s2cIAt1rHET7egvvt7mfqL6JrE5rrt8JWqxpkVNmpUMnyVNn7kKtYQubjbKqHXfH_cDCior-8hZUovy-AQ=w640-rj-e30-l100?.jpg</url>
-</image><image id="7">
-<url>http://lh3.googleusercontent.com/KjoDuicQupQfRL3Amc7QcG-mRdm0b-5xvdsx-mBf4mNmZgjSP6WUhLGd2Ak11WG-TeWLc2xxRxyMQgYl=w640-rj-e30-l100?.jpg</url>
-</image><image id="8">
-<url>http://lh3.googleusercontent.com/pN8bb1vXhisH2OFhQ7vL3s7n3AR5220lhbEalc_Hq2nKJvspn3TMMs7cwUwPoNyQNtyDXi_4BAnp938ikw=w640-rj-e30-l100?.jpg</url>
-</image><image id="9">
-<url>http://lh3.googleusercontent.com/-JjdFEe9meemU3o0xKJNUOORNvPf2bq4fNn-4-tgNxBZ1QYbRsPB54qDNVQYOZyj9pbvL0slj-jTZTLleyc=w640-rj-e30-l100?.jpg</url>
-</image><image id="10">
-<url>http://lh3.googleusercontent.com/bM5DXs5qyxlgsLgI-VROGpVGMPSZdBnFL8AitE0QiC01yoHykwkCqEkMTT2xVSU-62HH2-2k-tasbw30=w640-rj-e30-l100?.jpg</url>
-</image><image id="11">
-<url>http://lh3.googleusercontent.com/uQcYTjTVuH7M4_WEiwc08F0Xvbsm_DajqHqMbYjRuZVXVe4TvykPtqX2TgKaEj6NIDFTseDJxYYj_RTBZxs=w640-rj-e30-l100?.jpg</url>
-</image><image id="12">
-<url>http://lh3.googleusercontent.com/ydf3OpWR9YWvFOda2WikisQonwoL4KJIwgEo0o6B3ly-llymwz8VJv27cyWK_JZuLNWq7fEO2MN2QOypIA=w640-rj-e30-l100?.jpg</url>
-</image><image id="13">
-<url>http://lh3.googleusercontent.com/befEK_oyUaI5gZQYMHetXx03MDhLQMrqnGqv-1OR_elDXupBXcP-R7_x7f0Iml76TU63XzV5QV3aFo5bKg=w640-rj-e30-l100?.jpg</url>
-</image><image id="14">
-<url>http://lh3.googleusercontent.com/JFoc_KX-D3Gz6nqN_joExqOpGFa_KAQTJhRPsu1l8T8yoOcYq-YOBnswVESnNlzWrmYWcftMuTIYrTHF=w640-rj-e30-l100?.jpg</url>
-</image><image id="15">
-<url>http://lh3.googleusercontent.com/hS5mErkKFFmiBzomV8vilt3aCpZoqpbRtm7ay_BmPErJOpV7VWOLX-ybEhzfV1yIFOlRI22NnJ6rhrv9AA=w640-rj-e30-l100?.jpg</url>
-</image><image id="16">
-<url>http://lh3.googleusercontent.com/A84hBsISVQlh6WXGhi5bw7ydiN4Y9tAyPE8oOpKyNZa38iga0gAWgXJzk1v6xvd2KHDzI7YU6HqTbrY4tOo=w640-rj-e30-l100?.jpg</url>
-</image><image id="17">
-<url>http://lh3.googleusercontent.com/WTchQXftoa70AtBcaNaL-egkp_Dq-mspo4xwcLFxfhOLIyACahuDplbNgj7pcNGovut3ZYP9Va5Rg8p_HA=w640-rj-e30-l100?.jpg</url>
-</image><image id="18">
-<url>http://lh3.googleusercontent.com/T3IDikEXiY1PjnP1HctxJvWwkaFYQvCus1afK3sTqbnNLksG96zE8D1ukcVQJuVB56eRNdUgOwsyU91dDNA=w640-rj-e30-l100?.jpg</url>
-</image><image id="19">
-<url>http://lh3.googleusercontent.com/TNYO6lPYXLJe7sY3f9uAx5ZgTdzEnsxf-Hl3z4x4_HwQRYUr948Se4vels_yGeNP8rovnj4GmRmR10xv03Y=w640-rj-e30-l100?.jpg</url>
-</image><image id="20">
-<url>http://lh3.googleusercontent.com/RAHxw37wtlwy8EVD_R0645SkoLBIklwqayMXLDQ7SCzKneSCl4nQFw3USI-sdLMPS3H2nBzUyMkOT7Uhlw=w640-rj-e30-l100?.jpg</url>
-</image><image id="21">
-<url>http://lh3.googleusercontent.com/uRCkkaaPtXB1LiC-CLGMqItZPw-GBShOoPQFGDQSj53CaEMhvN4I3XYJA1p5soIGWxchpf9GpSXUDKu7gw=w640-rj-e30-l100?.jpg</url>
-</image><image id="22">
-<url>http://lh3.googleusercontent.com/vLODzrdgq1ALXsdv6CKoWJvIFy8iOZZh0yBkouAykjRx75DuSw39wM2Hztvh2P2JN5tVxhp7rufcJiCUTA=w640-rj-e30-l100?.jpg</url>
 </image>
 </images>
 </property><property>
@@ -11878,9 +12297,9 @@
 </image>
 </images>
 </property><property>
-<id>18912910</id>
-<date>2018-10-29 08:40:18</date>
-<ref>01-EH-2011</ref>
+<id>18910611</id>
+<date>2018-11-06 17:28:38</date>
+<ref>01-EI-2011</ref>
 <price>202000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -12042,9 +12461,9 @@
 </image>
 </images>
 </property><property>
-<id>19812410</id>
-<date>2018-10-24 13:15:24</date>
-<ref>19-0958</ref>
+<id>19810711</id>
+<date>2018-11-07 15:33:23</date>
+<ref>19-EF-0958</ref>
 <price>205000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -12177,6 +12596,75 @@
 </image>
 </images>
 </property><property>
+<id>63803064480950088650511</id>
+<date>2018-11-05 11:09:45</date>
+<ref>NEW-EI-7344</ref>
+<price>205000</price>
+<price_freq>new_build</price_freq>
+<type>
+<en>Quadhouse</en>
+</type>
+<town>Orihuela Costa</town>
+<province>Alicante</province>
+<location_detail>Villamartin Golf</location_detail>
+<beds>3</beds>
+<baths>2</baths>
+<pool>1</pool>
+<url>https://www.maxgoldhouse.com/3-bed-Quadhouse-in-Villamartin-Golf-6380306448095008865.html</url>
+<desc>
+<en>Luxury modern quadvillas located in the famous Villamartin / Los Dolses area within a short walking distance to all needed amenities/ The development is located close to 4 international golf courses and only 1.5 km to sea and beaches. The residence has communal pool and garden area enjoy the long summer swimming season. Villamartin area offers large shopping centres, lots of restaurants and is close to sea and beaches with all kinds of watersports. These stylish quad villas are equipped to high standards and have features including walk-in showers, wardrobes in the bedrooms, pre- installation for air conditioning hot and cold and TV, modern kitchen furniture (incl.) and more. The prices for the 3 bed quads all with roof terrace and garden are from 174.000 euro - depending on size, bedrooms, views and location - up to a maximum of 209.000 euro - also incl. in the sales prices is private parking inside the residence. Ask for all details. Viewings at any time.</en>
+<de>Luxuriöse, moderne Quad-Villen in Villamartin / Los Dolses, nur einen kurzen Spaziergang von allen notwendigen Annehmlichkeiten entfernt. Die Residenz liegt in der Nähe von 4 internationalen Golfplätzen und nur 1,5 km vom Meer und den Stränden entfernt. Sie hat einen Gemeinschaftspool und Garten, wo Sie die lange Sommersaison genießen können. Villamartin bietet große Einkaufszentren, viele Restaurants und liegt in der Nähe des Meeres und der Strände, wo Sie alle Arten von Wassersportarten ausüben können. Diese stilvollen Quadranten-Villen sind nach höchsten Standards ausgestattet, darunter begehbare Duschen, Einbauschränke in den Schlafzimmern, Vorinstallation für Klimaanlage (warm und kalt) und für TV, moderne Küchenmöbel und vieles mehr. Die Villen verfügen alle über 3 Schlafzimmer, eine Dachterrasse und einen Garten. Die Preise liegen zwischen 174.000 € und maximal 209.000 €, je nach Größe, Lage und Lage. Im Verkaufspreis enthalten ist ein privater Parkplatz in der Residenz. Fragen Sie uns nach allen Details. Anzeigen jederzeit möglich.</de>
+<fr>Villas quadrantes luxueuses et modernes situés dans Villmartin / Los Dolses à une courte distance de marche de toutes les commodités nécessaires. La résidence est proche de quatre terrains de golf internationaux et à seulement 1,5 km de la mer et des plages. Elle dispose d'une piscine communautaire et un jardin où vous pourrez profiter de la longue saison d'été. Villamartin vous offre des centres commerciaux, de nombreux restaurants et est proche de la mer et des plages où vous pourrez pratiquer des sports nautiques. Ces villas quadrantes élégantes sont équipées aux normes les plus élevées, y compris des douches italiennes, des placards dans les chambres, pré-installation pour la climatisation (chaude et froide) et de la télévision, des meubles de cuisine moderne, et plus encore. Les villas ont toutes trois chambres, une toit-terrasse et un jardin. Les prix sont entre € 174 000  et un maximum de € 209 000, selon la grandeur, la vue et l'emplacement. Inclus dans le prix est un parking privé dans la résidence. Demandez-nous pour plus de détails. Visites à tout moment.</fr>
+<nl>Luxueuze, moderne kwadrantvilla’s gelegen in Villamartin / Los Dolses binnen een korte loopafstand van alle benodigde voorzieningen. De residentie ligt dicht bij 4 internationale golfbanen en op slechts 1,5 km van zee en de stranden. Ze heeft een gemeenschappelijk zwembad en tuin waarin u kan genieten van het lange zomerseizoen. Villamartin biedt grote winkelcentra, veel restaurants en ligt dicht bij de zee en de stranden waar u allerlei watersporten kan beoefenen. Deze stijlvolle kwadrantvilla's zijn uitgerust volgens de hoogste normen, waaronder inloopdouches, ingebouwde kasten in de slaapkamers, pre-installatie voor airconditioning (warm en koud) en voor TV, modern keukenmeubilair, en nog veel meer. De villa’s hebben allemaal 3 slaapkamers, een dakterras en een tuin. Prijzen zijn tussen € 174 000 en maximum € 209 000, afhankelijk van de grootte, uitzicht en locatie. Inclusief in de verkoopprijs is een eigen parkeerplaats in de residentie. Vraag ons voor alle details. Bezichtigingen op elk gewenst moment.</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/kw5PwMdXfIcb2ef2lQKsX1Cfp8uwj5aphJPJ9svPVsf-WKFwuu261-qpZxHM3-gD_Bl2yp9oFE7JiDLQwg=w640-rj-e30-l100?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/utKCOdCC9SxT7F0lxyagSoNcF42H90c0QSpv6v-rxCRuTFNhugZ97860HDgX0uvCiX_IEFeNvYOq6zsQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/0GrI6Aod8h-pAm6Z4Q6KStubXJtc5-xbhFvYPahlOqnvKVgajooEIVlhvzw_mlId7W6XC4Ervzf_P6yk7sE=w640-rj-e30-l100?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/ZApe9fFdmd0sxRBStPhgGd3vDnr94NC3jfbPtlLITqeAHC0N8sxA-4D1FFCPA0Ghz3mjKq3V64GmT49D=w640-rj-e30-l100?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/52DDaMaEK8ouIzFybXRfhHxxSHDmRQqccSD5pds33X1jUxdj96FjUgbvDH8ZVCGaUDlR3ZV5taxkTvu2NBk=w640-rj-e30-l100?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/s2cIAt1rHET7egvvt7mfqL6JrE5rrt8JWqxpkVNmpUMnyVNn7kKtYQubjbKqHXfH_cDCior-8hZUovy-AQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/KjoDuicQupQfRL3Amc7QcG-mRdm0b-5xvdsx-mBf4mNmZgjSP6WUhLGd2Ak11WG-TeWLc2xxRxyMQgYl=w640-rj-e30-l100?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/pN8bb1vXhisH2OFhQ7vL3s7n3AR5220lhbEalc_Hq2nKJvspn3TMMs7cwUwPoNyQNtyDXi_4BAnp938ikw=w640-rj-e30-l100?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/-JjdFEe9meemU3o0xKJNUOORNvPf2bq4fNn-4-tgNxBZ1QYbRsPB54qDNVQYOZyj9pbvL0slj-jTZTLleyc=w640-rj-e30-l100?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/bM5DXs5qyxlgsLgI-VROGpVGMPSZdBnFL8AitE0QiC01yoHykwkCqEkMTT2xVSU-62HH2-2k-tasbw30=w640-rj-e30-l100?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/uQcYTjTVuH7M4_WEiwc08F0Xvbsm_DajqHqMbYjRuZVXVe4TvykPtqX2TgKaEj6NIDFTseDJxYYj_RTBZxs=w640-rj-e30-l100?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/ydf3OpWR9YWvFOda2WikisQonwoL4KJIwgEo0o6B3ly-llymwz8VJv27cyWK_JZuLNWq7fEO2MN2QOypIA=w640-rj-e30-l100?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/befEK_oyUaI5gZQYMHetXx03MDhLQMrqnGqv-1OR_elDXupBXcP-R7_x7f0Iml76TU63XzV5QV3aFo5bKg=w640-rj-e30-l100?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/JFoc_KX-D3Gz6nqN_joExqOpGFa_KAQTJhRPsu1l8T8yoOcYq-YOBnswVESnNlzWrmYWcftMuTIYrTHF=w640-rj-e30-l100?.jpg</url>
+</image><image id="15">
+<url>http://lh3.googleusercontent.com/hS5mErkKFFmiBzomV8vilt3aCpZoqpbRtm7ay_BmPErJOpV7VWOLX-ybEhzfV1yIFOlRI22NnJ6rhrv9AA=w640-rj-e30-l100?.jpg</url>
+</image><image id="16">
+<url>http://lh3.googleusercontent.com/A84hBsISVQlh6WXGhi5bw7ydiN4Y9tAyPE8oOpKyNZa38iga0gAWgXJzk1v6xvd2KHDzI7YU6HqTbrY4tOo=w640-rj-e30-l100?.jpg</url>
+</image><image id="17">
+<url>http://lh3.googleusercontent.com/WTchQXftoa70AtBcaNaL-egkp_Dq-mspo4xwcLFxfhOLIyACahuDplbNgj7pcNGovut3ZYP9Va5Rg8p_HA=w640-rj-e30-l100?.jpg</url>
+</image><image id="18">
+<url>http://lh3.googleusercontent.com/T3IDikEXiY1PjnP1HctxJvWwkaFYQvCus1afK3sTqbnNLksG96zE8D1ukcVQJuVB56eRNdUgOwsyU91dDNA=w640-rj-e30-l100?.jpg</url>
+</image><image id="19">
+<url>http://lh3.googleusercontent.com/TNYO6lPYXLJe7sY3f9uAx5ZgTdzEnsxf-Hl3z4x4_HwQRYUr948Se4vels_yGeNP8rovnj4GmRmR10xv03Y=w640-rj-e30-l100?.jpg</url>
+</image><image id="20">
+<url>http://lh3.googleusercontent.com/RAHxw37wtlwy8EVD_R0645SkoLBIklwqayMXLDQ7SCzKneSCl4nQFw3USI-sdLMPS3H2nBzUyMkOT7Uhlw=w640-rj-e30-l100?.jpg</url>
+</image><image id="21">
+<url>http://lh3.googleusercontent.com/uRCkkaaPtXB1LiC-CLGMqItZPw-GBShOoPQFGDQSj53CaEMhvN4I3XYJA1p5soIGWxchpf9GpSXUDKu7gw=w640-rj-e30-l100?.jpg</url>
+</image><image id="22">
+<url>http://lh3.googleusercontent.com/vLODzrdgq1ALXsdv6CKoWJvIFy8iOZZh0yBkouAykjRx75DuSw39wM2Hztvh2P2JN5tVxhp7rufcJiCUTA=w640-rj-e30-l100?.jpg</url>
+</image>
+</images>
+</property><property>
 <id>17132510</id>
 <date>2018-10-25 08:06:32</date>
 <ref>14-EG-7602</ref>
@@ -12246,9 +12734,9 @@
 </image>
 </images>
 </property><property>
-<id>17502410</id>
-<date>2018-10-24 07:39:23</date>
-<ref>03-EH-5054</ref>
+<id>17500711</id>
+<date>2018-11-07 15:32:22</date>
+<ref>03-EI-5054</ref>
 <price>209995</price>
 <price_freq>sale</price_freq>
 <type>
@@ -12460,9 +12948,9 @@
 </image>
 </images>
 </property><property>
-<id>15262210</id>
-<date>2018-10-22 07:42:08</date>
-<ref>NEW-EG-7141b</ref>
+<id>15260711</id>
+<date>2018-11-07 15:32:40</date>
+<ref>NEW-EH-7141b</ref>
 <price>210000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -12559,9 +13047,9 @@
 </image>
 </images>
 </property><property>
-<id>19792410</id>
-<date>2018-10-24 08:50:47</date>
-<ref>09-0000</ref>
+<id>19790711</id>
+<date>2018-11-07 15:33:23</date>
+<ref>09-EF-0000</ref>
 <price>210000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -12883,9 +13371,9 @@
 </image>
 </images>
 </property><property>
-<id>11912310</id>
-<date>2018-10-23 11:42:33</date>
-<ref>00-EG-6062</ref>
+<id>11910511</id>
+<date>2018-11-05 15:23:53</date>
+<ref>00-EH-6062</ref>
 <price>215000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -13015,7 +13503,7 @@
 <url>https://www.maxgoldhouse.com/3-bed-Semidetached-Villa-in-Dehesa-de-Campoamor-1969.html</url>
 <desc>
 <en>This semi detached traditional Spanish villa is situated in the very prestigious residential area  DEHESA DE CAMPOAMOR BEACH next to Cabo Roig. Here the beach-front living comes combined  with absolute tranquility and privacy. The floor plan is very practical, with the large conservatory  dining room, living room with open fireplace and integrated American kitchen and additional dining area.  Then we have a bathroom, utility room, the garage - and on the upper floor are 3 bedrooms and 1  bathroom more plus a wonderful south-facing terrace to relax. You also have the opportunity to park  your car in the garage. The property is tiled and surrounded with many plant pots around the pool. There  is also a BBQ area and a covered pool terrace, where you can join the sun while enjoying a glass of  wine. This residence offers your own tennis court, a paddle court and also a lovely subtropical  garden + communal pool area. The sea is just 700 meters away - a short walk. And right then, it  was joined to the marina and the charming Spanish bars and restaurants. Viewings at any time.</en>
-<de>DE</de>
+<de>Diese traditionelle spanische Villa (DHH) befindet sich in der prestigeträchtigen Wohngegend DEHESA DE CAMPOAMOR BEACH direkt neben Cabo Roig. Hier wird das Strandleben mit absoluter Ruhe und Privatsphäre kombiniert. Der Grundriss ist sehr praktisch, mit einem großen Wintergarten-Esszimmer, einem Wohnzimmer mit offenem Kamin und integrierter amerikanischer Küche sowie einem zusätzlichen Essbereich. Dann haben wir ein Badezimmer, einen Hauswirtschaftsraum, die Garage - und im Obergeschoss befinden sich 3 Schlafzimmer und 1 Badezimmer sowie eine wunderbare Südterrasse zum Entspannen. Sie haben auch die Möglichkeit, Ihr Auto in der Garage abzustellen. Das Anwesen ist gefliest und umgeben von vielen Pflanzentöpfen rund um den Pool. Es gibt auch einen Grillplatz und eine überdachte Poolterrasse, wo Sie bei einem Glas Wein die Sonne genießen können. Diese Residenz bietet einen eigenen Tennisplatz, einen Paddle-Platz und einen schönen subtropischen Garten mit Gemeinschaftspool. Das Meer ist nur 700 Meter entfernt - ein kurzer Spaziergang - gut zu verbinden mit einem Besuch im Jachthafen und den charmanten spanischen Bars und Restaurants. Besichtigungen mit uns jederzeit möglich.</de>
 <fr>Cette villa jumelée traditionellement espagnole est située dans le très prestigieux quartier résidentiel DEHESA DE CAMPOAMOR BEACH, à côté de Cabo Roig. Ici, la vie sur la plage s’allie à un calme absolu et à la vie privée. La maison est très pratique, avec sa grande salle à manger, son salon avec cheminée et cuisine américaine intégrée et sa véranda. Ensuite, nous avons une salle de bain, une buanderie et un garage. Au dernier étage, il y a 3 chambres et 1 salle de bain ainsi qu’une belle terrasse orientée au sud pour se détendre. Le jardin est carrelé et entouré de nombreux pots de plantes autour de la piscine. Il y a aussi un barbecue et une terrasse couverte près de la piscine où vous pourrez profiter de l'ombre en été en dégustant un verre de vin. Cette résidence propose un court de tennis privé, un court de paddle ainsi qu'un beau jardin subtropical et une piscine commune de 25 m, et à 700 m de la mer. Une petite promenade suffit. Il se trouve également à proximité du port de plaisance et de charmants bars et restaurants espagnols. Visites à tout moment.</fr>
 <nl>Deze halfvrijstaande traditionele Spaanse villa is gelegen in de zeer prestigieuze woonwijk DEHESA DE CAMPOAMOR BEACH naast Cabo Roig. Hier wordt het leven op het strand gecombineerd met absolute rust en privacy. Het huis is zeer praktisch, met de grote eetkamer, woonkamer met open haard en geïntegreerde Amerikaanse keuken en veranda. Dan hebben we een badkamer, bijkeuken, en de garage. Op de bovenste verdieping zijn er 3 slaapkamers en 1 badkamer plus een prachtig terras op het zuiden om lekker te ontspannen. De tuin is betegeld en omgeven door veel plantenpotten rond het zwembad. Er is ook een barbecue en een overdekt terras bij het zwembad, waar u kunt genieten van de schaduw in de zomer terwijl u geniet van een glas wijn. Deze residentie biedt een eigen tennisbaan, een paddle-baan en ook een prachtige subtropische tuin + gemeenschappelijk zwembad van wel 25 m. De zee ligt op slechts 700 meter afstand - een korte wandeling. Het ligt ook vlakbij de jachthaven en de charmante Spaanse bars en restaurants. Bezichtigingen op elk gewenst moment.</nl>
 </desc>
@@ -13681,9 +14169,9 @@
 </image>
 </images>
 </property><property>
-<id>14622410</id>
-<date>2018-10-24 07:39:23</date>
-<ref>NEW-EH-7355b</ref>
+<id>14620711</id>
+<date>2018-11-07 15:32:23</date>
+<ref>NEW-EI-7355b</ref>
 <price>225000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -13744,9 +14232,9 @@
 </image>
 </images>
 </property><property>
-<id>17831610</id>
-<date>2018-10-16 08:44:03</date>
-<ref>04-EG-0243</ref>
+<id>17830711</id>
+<date>2018-11-07 15:32:40</date>
+<ref>04-EH-0243</ref>
 <price>225000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -14181,9 +14669,9 @@
 </image>
 </images>
 </property><property>
-<id>17642210</id>
-<date>2018-10-22 07:42:10</date>
-<ref>NEW-EG-7641</ref>
+<id>17640711</id>
+<date>2018-11-07 15:32:40</date>
+<ref>NEW-EH-7641</ref>
 <price>239900</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -14269,6 +14757,79 @@
 <url>http://lh3.googleusercontent.com/v-iiwfRcFrpocwpYPdBMNjrSSk9M9CDlfj5VjlSMRToncAw7zzjs5J-YmC88UWjpD5FtGU87C_3JC7uU=w640-rj-e30-l100?.jpg</url>
 </image><image id="33">
 <url>http://lh3.googleusercontent.com/ZiG2IJnPV8lAIMMclLaOs9gkNRGX-EMmH8tT3GGEh8GSDuA8YO4jiGLwkx5ljQ8VWJLsTCkhzN4Jd6lgJQ=w640-rj-e30-l100?.jpg</url>
+</image>
+</images>
+</property><property>
+<id>19930611</id>
+<date>2018-11-06 09:16:39</date>
+<ref>00-0017</ref>
+<price>242000</price>
+<price_freq>sale</price_freq>
+<type>
+<en>Apartment</en>
+</type>
+<town>Orihuela Costa</town>
+<province>Alicante</province>
+<location_detail>Punta Prima</location_detail>
+<beds>2</beds>
+<baths>2</baths>
+<pool>1</pool>
+<url>https://www.maxgoldhouse.com/2-bed-Apartment-in-Punta-Prima-1993.html</url>
+<desc>
+<en>This magnificent penthouse with sea views from the roof terrace is only  a few steps (300 m) away from the famous Nautilus restaurant and the  Punta Prima beaches, and in walking distance to all you need:  restaurants, bars, supermarkets, etc. The penthouse comes with 2  bedrooms, 2 bathrooms (with underfloor heating) , a 40 sqm roof terrace,  airco (cold - warm), 3 communal pools, underground parking space and  big storage, easy to store bikes, etc. The residence has 24/24 security  service. If you are dreaming of a penthouse, close to the sea, then this is  YOUR CHANCE.</en>
+<de>DE</de>
+<fr>Ce magnifique penthouse avec vue sur la mer depuis le toit-terrasse se trouve à seulement 300 mètres du célèbre restaurant Nautilus et des plages de Punta Prima, et à quelques minutes de marche de tout ce dont vous avez besoin: restaurants, bars, supermarchés, etc. Le penthouse comprend 2 chambres, 2 salles de bain (avec chauffage par le sol), une terrasse sur le toit de 40 m², la climatisation (froid / chaud), 3 piscines communes, une place de parking souterrain et un grand débarras, il est facile de ranger les vélos, etc. La résidence a aussi 24/24 service de sécurité. Si vous rêvez d'un penthouse, près de la mer, c'est votre chance.</fr>
+<nl>Dit prachtige penthouse met uitzicht op zee vanaf het dakterras ligt op slechts een paar stappen (300 m) van het beroemde Nautilus-restaurant en de stranden van Punta Prima, en op loopafstand van alles wat u nodig heeft: restaurants, bars, supermarkten, enz. Het penthouse wordt geleverd met 2 slaapkamers, 2 badkamers (met vloerverwarming), een dakterras van 40 m², airco (koud - warm), 3 gemeenschappelijke zwembaden, ondergrondse parkeerplaats en grote berging, gemakkelijk om fietsen op te bergen, enz. De residentie heeft 24/24 veiligheidsdienst. Als je droomt van een penthouse, dicht bij de zee, dan is dit je kans.</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/mZMC-HPbX2CTTlv-Xhbu_L0wGMCmhgFuu0TXr-rnpZw9JrYDD3ppi8UjyeoIHYr82a9fMj9BZ1kZbzuoWg=w640-rj-e30-l100?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/35rupt7YTj2FaB5EjbpHEb-sbuJbmCgK2ZnmfrIBAlNHTPGlqueXdQbwgOUX7_LWn0DcgzPsEZL92E8Ntg=w640-rj-e30-l100?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/UaBwWB7K4cqhKPjbt3aSIu1RB7eBORJp5Py-sO-rwp4ZTMix2R0-hN90EtCdQ9shWp3JmxIBUSqA77SkTQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/iVMoDoK3nBcFj5anD_wUfbrJaSknG47Nkk7jXcfdhTUYM0g227JghAWmbuKztb-fhaKreI8wDp6_gRYI=w640-rj-e30-l100?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/BDo05NLsGGKRjp2i-triBAHUVRzgK1nLD7HBQzSk9AkJtk1Nz2uZ-a6WIMpPLryhXxwo6nxEkYhL8BqHWn0=w640-rj-e30-l100?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/hl75qD-BSr6YVZRwbrFdSTeaeLePbGejEysXccyo6szgUOfm_FZlstAWsMpt7cOYTzY452aKixJrQoFckQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/P_Y6WxxGpmm-1K1P2cK8hvdSmxphZKkji2GHueYsLjX3Ro0lW9hmCeNmK1QMfWL3rY6zqioxOXCVc9QI=w640-rj-e30-l100?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/zTj2U-sKmUwHiz6p7VVqtsUzg-m4nTCmSvm3TTbOGSH58ftyFHqBZIQ7ZEjyb9B5YyiPUagEdSPD55DR=w640-rj-e30-l100?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/Jnn2w3HSNNWLma0KCeIQZh3mv00hbNxaCZImwC7Rkdj2825-uHJR-WahojLuV-_U1B0PzKqix2_6PeSzHg=w640-rj-e30-l100?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/l9TKLupgb1u3cVadStFnkJ_JO3AS6ElmHOU_9FuHnXA9r8U7xYW8gL14BlZhd0CYTLt8H2s5EvFtcdAj5A=w640-rj-e30-l100?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/QZFfYf2qCaopYxqg9KMIb8YiTehuk_dFjhwwfT0hhSXvP2ycVyNnIVhU6MNWpRF_cQZE4ALA6lnN0RXD=w640-rj-e30-l100?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/eK0TYnBUVvo5hv5Rh0PMSAueyRBenMMOizP9CXNWLxTiXdzzm1cvqUyquipXSO_S3Er1y017YJSOb6fVvVA=w640-rj-e30-l100?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/SV7-SUtOfZGrTAtkttxO6kTXwQIqsT84XDlC4dKANdFLuDg9SeVPvQqTG6vuTVaerrcbkvsIc4fVvaUOzg=w640-rj-e30-l100?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/GCFwMtlzA-Wxo9MIXZzNe_Xuzm0D0CCDW2Y0IpYOS-iaUFQCzCyZtGHB9_Gpvh4U6p0EGfGRwnbMhKD2GQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="15">
+<url>http://lh3.googleusercontent.com/ydE6V34I3ZfGlBX7g09zxGBKePObCBn5jjyeRYXJ5l3jzF1QQQXv5jZZzaBN7eQhB032C9nwbF9g4eI8=w640-rj-e30-l100?.jpg</url>
+</image><image id="16">
+<url>http://lh3.googleusercontent.com/jQpX8neY-B8ICTbj7y3pZ_zD6qyUv7sbOxytyiU8F3OGNpAgboOksxBmT3MSW1Sqx5gjm0jhFvRrZICq=w640-rj-e30-l100?.jpg</url>
+</image><image id="17">
+<url>http://lh3.googleusercontent.com/rK6tvLMKcLrj4cWEZWK7EZL3yyFp7fqObMgivxcWiM94KcXliEmbSlNuv3P-3O7f_oYUb-YIXagcuQcPdw=w640-rj-e30-l100?.jpg</url>
+</image><image id="18">
+<url>http://lh3.googleusercontent.com/-YB82BiiFgSCTNDOxmHF5rQY94DrR7tUK-2TqS5fJrh4qYKsPiabMCUAxfT5xmHXiI_-7XxTOIWiCXDP=w640-rj-e30-l100?.jpg</url>
+</image><image id="19">
+<url>http://lh3.googleusercontent.com/RVf4tkxBRx3wutCfewWj7d4PArMoMRaoroYpapkBJDgqfiq5_GEa9mALNcGvppiKFscDtzEIaAw_U_8C=w640-rj-e30-l100?.jpg</url>
+</image><image id="20">
+<url>http://lh3.googleusercontent.com/0yCSvM2BLCgPfVmpX-mk9V1dNtTxAY91MaiU-wkCZO_XqVk1WNwa8tSuVwdIjtxrQoGhOkSq61egzCuL=w640-rj-e30-l100?.jpg</url>
+</image><image id="21">
+<url>http://lh3.googleusercontent.com/7IFwPTHobRR5vqDOZGEVGRdOZ-hwsLXR2-E5H3W5x6iTNHSj6BeFiwFNIdoLLCT2YWvXin8c8qBGAi2wTQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="22">
+<url>http://lh3.googleusercontent.com/F_QMpfLYzljTBnqCt2YDjhkAKZtZzrQJCi3gkondIo47gov392y_yP4zM1-IiaX8C5Xgg7c1z9bl-gUolA=w640-rj-e30-l100?.jpg</url>
+</image><image id="23">
+<url>http://lh3.googleusercontent.com/tA0IZqS90cbqVU90gQu4ZYOjSOdf2Xjg038DtauGmGKKSLi7tg0UY-c-jXQ8HUjZBOhxI2UExgRChaiX2tE=w640-rj-e30-l100?.jpg</url>
+</image><image id="24">
+<url>http://lh3.googleusercontent.com/jLbycIOzOPpQKYz-8EoDoOqzpWNHEAovDKZKcSpYUUG5eircP3BMz8IZi-_qDGuYd69zq3IkUNZRncntDg=w640-rj-e30-l100?.jpg</url>
 </image>
 </images>
 </property><property>
@@ -14516,72 +15077,9 @@
 </image>
 </images>
 </property><property>
-<id>13400111</id>
-<date>2018-11-01 10:12:24</date>
-<ref>00-EH-0099</ref>
-<price>248000</price>
-<price_freq>sale</price_freq>
-<type>
-<en>Detached Villa</en>
-</type>
-<town>Cartagena</town>
-<province>Murcia</province>
-<location_detail>Pozo Estrecho</location_detail>
-<beds>3</beds>
-<baths>3</baths>
-<pool>1</pool>
-<url>https://www.maxgoldhouse.com/3-bed-Detached-Villa-in-Pozo-Estrecho-1340.html</url>
-<desc>
-<en>Lovely spacious modernised country home in the Cartagena / Mar Menor region, located in Pozo Estrecho. Pozo Estrecho is a nice Spanish village offering all neededed local amenities. The country home is close to the nearby town of Torre Pacheco and also really close to sea and beaches (Los Urrutias, Los Alcázares etc.) with all kinds of water sports. It ́s just 20 minutes to the fascinating Spanish city of Cartagena with its facilities and historic parts and the marina and large shopping malls. This is a perfect place to live on a countryside close to sea and beaches and not isolated. Viewings can be arranged at any time. The villa will be sold furnished and equipped. All legal papers are in order. This wonderful Spanish finca is ready for you to move in.</en>
-<de>Sehr hochwertig einrichtete und renoviert Finca im Gebiet zwischen Murcia und dem Mittelmeer. DasAnwesen wird stark reduziert verkauft - komplett und hochwertig eingerichtet (wegen Sterbefall). Fragen Sie nach allen Einzelheiten. </de>
-<fr>Merveilleuse et spacieuse finca modernisée à Pozo Estrecha, près de Carthagène et la Mar Menor. Pozo Estrecha est un agréable village espagnol, où vous trouverez toutes les commodités nécessaires. La finca est située pas loin de la ville de Torre Pacheco et est également pas loin de la mer et les plages de Los Urrutias, Los Alcázares, etc., où vous pourrez pratiquer de nombreuses activités nautiques. La ville historique de Carthagène est également à seulement 20 minutes en voiture. Vous pouvez y aller faire du shopping, mais cette ville vous offre aussi des vieux quartiers et le port de plaisance à visiter. La finca est située vraiment dans un endroit idéal: elle se trouve à la campagne, mais aussi proche de la mer et la plage et pourtant pas isolée. Elle est vendue entièrement meublée et équipée et est prête à bouger. Tous les papiers nécessaires sont en ordre. Pourquoi attendre pour faire un rendez-vous pour une visite?</fr>
-<nl>Prachtig ruim gemoderniseerd landhuis in Pozo Estrecha, in de buurt van Cartagena en de Mar Menor. Pozo Estrecha is een gezellig Spaans dorpje, waar je toch alle benodigde faciliteiten vindt. De finca ligt niet ver van het stadje Torre Pacheco en is ook niet ver van de zee en de stranden van Los Urrutias, Los Alcázares, enz, waar je tal van watersportactiviteiten kan beoefenen. Ook de historische stad Cartagena ligt op slechts 20 minuten rijden. Je kan er gaan winkelen, maar ook een bezoek aan de oude wijken en de jachthaven is de moeite waard. De finca ligt echt op een ideale locatie: je woont op het platteland, maar toch dicht bij zee en strand, en toch niet geïsoleerd. Ze wordt volledig gemeubeld en uitgerust verkocht, en is instapklaar. Alle benodigde papieren zijn in orde. Waarom nog wachten op een afspraak voor bezichtiging?</nl>
-</desc>
-<images>
-<image id="1">
-<url>http://lh3.googleusercontent.com/3kuhsw1VQW0TzUr9teOj-Tunwdt6E9lc7asfj6KFDzJ2CdqY777qBwAfwjFcqyLKB9qh8Y4UV_xoEI3Psw=w640-rj-e30-l100?.jpg</url>
-</image><image id="2">
-<url>http://lh3.googleusercontent.com/6Vi0e04bwy3tPtYi4a9c5vr-qYieXYXra0d5xRh7JV9CE7ZOiL-ffz2T0bjcBpZtjmCbTkY-YF6NRu1G=w640-rj-e30-l100?.jpg</url>
-</image><image id="3">
-<url>http://lh3.googleusercontent.com/qFYtDtLicHQq2IcrRoiQPsK-d5wKyozzk6mOAyw9p7SgIUC75i0sxye-96nhjnER32x-x6KnsYx73sr9pyQ=w640-rj-e30-l100?.jpg</url>
-</image><image id="4">
-<url>http://lh3.googleusercontent.com/JDjBuapkaG67Ejt6wInrEvK-R4bXNLqoEEe6yM4T7SWCi8ES65V3Yl7YElUd98j8-uQjLkbLWd0BNdns=w640-rj-e30-l100?.jpg</url>
-</image><image id="5">
-<url>http://lh3.googleusercontent.com/YJzlGMOtO0FkyO3aHFVRq-sXcm3oqwbgbwVAetxlN_llusoaO8Smj80wXoTT3Xl_a_jboYyGOl7Lx8KV=w640-rj-e30-l100?.jpg</url>
-</image><image id="6">
-<url>http://lh3.googleusercontent.com/nZqLwXzq28_vyZfUl8RqzV_A_BuoHrf0WQtW3j0UEcHnsS_PmJFutt_lXkUMJU-ijki9qP3eMvB_MV4=w640-rj-e30-l100?.jpg</url>
-</image><image id="7">
-<url>http://lh3.googleusercontent.com/H9cEswgvTOyPCYoSyqqZVC3JedvyfWyxiyVzBBfcnMgk0zwHxc6Ok1KeFlzTZ1BUX-0turE9ckPHYcpo=w640-rj-e30-l100?.jpg</url>
-</image><image id="8">
-<url>http://lh3.googleusercontent.com/a3iiiJ6kz9-3pSvtEJ83k3j-XyoeonPrDRU9p7BShNDro9Z-PQ9QMvEEV4le6i8s6-X0gKidvdgcN7vD=w640-rj-e30-l100?.jpg</url>
-</image><image id="9">
-<url>http://lh3.googleusercontent.com/dvp-R8WZ4sZgcK-NBMov3NPNzVvTiZuZRHTgR63r8nCyEoX6wpN12DL1PfyKyz_85QochH-ivimvecXR0w=w640-rj-e30-l100?.jpg</url>
-</image><image id="10">
-<url>http://lh3.googleusercontent.com/mJR8SFLYHRBcW-FkZ-wbmRlcRLzhEvGzmkR0o-LV7ZaBOfthTSSzGTwCpE7dMjQybCN-mnaLjOvdZeA3=w640-rj-e30-l100?.jpg</url>
-</image><image id="11">
-<url>http://lh3.googleusercontent.com/rJu62XXmgid4P-etShY5oJwdV9oQvI7B75OnrsH_ceJyWBT8WIpGCCtvVmx7s6gSwxouvYp3jWcBLAhUqQ=w640-rj-e30-l100?.jpg</url>
-</image><image id="12">
-<url>http://lh3.googleusercontent.com/05diWYP0MHwsEgp6yn13-u_th4VaMh9NaAAmSoxh-uDpXGYr-KrgC_VHkITZ-ChiZyU1c7xPGRMnnma4JQ=w640-rj-e30-l100?.jpg</url>
-</image><image id="13">
-<url>http://lh3.googleusercontent.com/6NoJiY1VdKOIT0MZzArshS5k9TZpkBs0qYrutUy-dBTqe_QS1H1p9-dU4crigyShcsvDkEvTY4uBpAGh=w640-rj-e30-l100?.jpg</url>
-</image><image id="14">
-<url>http://lh3.googleusercontent.com/c2WMAUN5t6ATx1_6v6TUOLUZW2ikq6MKQzrJuW2HzCcKgBEIvrBfDGVhcb6YVddDj85BAc-7TsdhPi4N=w640-rj-e30-l100?.jpg</url>
-</image><image id="15">
-<url>http://lh3.googleusercontent.com/Vp69F2Ip36mFFk7lZYxk6Mel7tCopt2Gyd-d3ROXmw-xofaRq3H7jWH96Ht40UE30b6Sxd1yJmQJmhYNy0w=w640-rj-e30-l100?.jpg</url>
-</image><image id="16">
-<url>http://lh3.googleusercontent.com/VW36CgomCQhdZ6Lttse5lpWJDAsLKPf4xLW8tebwfSsgWjM6RXiKrwrtXnjpk8yh3vCZbLz5OS4fCBBcsfY=w640-rj-e30-l100?.jpg</url>
-</image><image id="17">
-<url>http://lh3.googleusercontent.com/ofGtSFhJBByJN6Xq2bt3kzBI4_Toq3cOtArlgtWmkLrCFrOeXstmj8SVIndWUpib_xQAaxU7IzN0MYXfSos=w640-rj-e30-l100?.jpg</url>
-</image><image id="18">
-<url>http://lh3.googleusercontent.com/5bfqp3E-PGnyqIeDgi5dGfU4YUk89KF0LvWME2GARpHrOFKYFXydD6LXG_h0YhdOaM99D_qFO8VwSf_YFg=w640-rj-e30-l100?.jpg</url>
-</image><image id="19">
-<url>http://lh3.googleusercontent.com/HEzcK-RWuEyYDP6zUadL9XatMbHf7Nkc1mMiCWYW_AMRIzkig8hgjPW4M1mkDl-09iCPsneotjD1PRPvhA=w640-rj-e30-l100?.jpg</url>
-</image>
-</images>
-</property><property>
-<id>11041210</id>
-<date>2018-10-12 09:37:35</date>
-<ref>00-EG-4199</ref>
+<id>11040711</id>
+<date>2018-11-07 15:32:40</date>
+<ref>00-EH-4199</ref>
 <price>249000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -15041,9 +15539,9 @@
 </image>
 </images>
 </property><property>
-<id>17762910</id>
-<date>2018-10-29 08:40:18</date>
-<ref>00-EH-7648</ref>
+<id>17760611</id>
+<date>2018-11-06 17:28:38</date>
+<ref>00-EI-7648</ref>
 <price>249900</price>
 <price_freq>sale</price_freq>
 <type>
@@ -15522,9 +16020,9 @@
 </image>
 </images>
 </property><property>
-<id>17891610</id>
-<date>2018-10-16 08:44:03</date>
-<ref>13-EG-0802</ref>
+<id>17890711</id>
+<date>2018-11-07 15:32:40</date>
+<ref>13-EH-0802</ref>
 <price>259900</price>
 <price_freq>sale</price_freq>
 <type>
@@ -15664,9 +16162,9 @@
 </image>
 </images>
 </property><property>
-<id>19742210</id>
-<date>2018-10-22 13:01:28</date>
-<ref>NEW-0021</ref>
+<id>19740511</id>
+<date>2018-11-05 15:24:25</date>
+<ref>NEW-EF-0021</ref>
 <price>260000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -16196,9 +16694,9 @@
 </image>
 </images>
 </property><property>
-<id>16332910</id>
-<date>2018-10-29 08:40:18</date>
-<ref>04-EH-0709</ref>
+<id>16330611</id>
+<date>2018-11-06 17:28:38</date>
+<ref>04-EI-0709</ref>
 <price>280000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -16483,9 +16981,9 @@
 </image>
 </images>
 </property><property>
-<id>19732210</id>
-<date>2018-10-22 10:09:49</date>
-<ref>NEW-0020</ref>
+<id>19730511</id>
+<date>2018-11-05 15:23:03</date>
+<ref>NEW-EF-0020</ref>
 <price>281000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -16672,9 +17170,9 @@
 </image>
 </images>
 </property><property>
-<id>18791210</id>
-<date>2018-10-12 09:37:34</date>
-<ref>NEW-EG-7674</ref>
+<id>18790711</id>
+<date>2018-11-07 15:32:40</date>
+<ref>NEW-EH-7674</ref>
 <price>285000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -16713,9 +17211,9 @@
 </image>
 </images>
 </property><property>
-<id>17351210</id>
-<date>2018-10-12 09:37:34</date>
-<ref>NEW-EG-7622</ref>
+<id>17350711</id>
+<date>2018-11-07 15:32:40</date>
+<ref>NEW-EH-7622</ref>
 <price>289000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -16760,9 +17258,9 @@
 </image>
 </images>
 </property><property>
-<id>18071210</id>
-<date>2018-10-12 09:37:34</date>
-<ref>NEW-EG-7656</ref>
+<id>18070711</id>
+<date>2018-11-07 15:32:40</date>
+<ref>NEW-EH-7656</ref>
 <price>289000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -16892,62 +17390,9 @@
 </image>
 </images>
 </property><property>
-<id>18212510</id>
-<date>2018-10-25 08:06:32</date>
-<ref>NEW-EG-7661</ref>
-<price>290000</price>
-<price_freq>new_build</price_freq>
-<type>
-<en>Detached Villa</en>
-</type>
-<town>San Miguel de Salinas</town>
-<province>Alicante</province>
-<location_detail>San Miguel de Salinas</location_detail>
-<beds>3</beds>
-<baths>3</baths>
-<pool>1</pool>
-<url>https://www.maxgoldhouse.com/3-bed-Detached-Villa-in-San-Miguel-de-Salinas-1821.html</url>
-<desc>
-<en>29 new build villas on a quiet location with views on the sea, the salt lakes  and the green. You can choose between 4 types of villas. The villas come  with 3 bedrooms, 3 bathrooms, but there is the option to get more bedrooms.  Included in the price is the private pool (6 to 3 or 5 to 3, depending on the  type of the villa), solarium, electric blinds in the bedrooms, underfloor  heating in the bathrooms, pre-installation of airco (hot - cold), and of TV and  internet, and many many more. Some villas have a basement included in the  price, some not. Ask us for more information with regard to these superb villas or a visit in collaboration with the builder.</en>
-<de>DE</de>
-<fr>29 villas nouvellement construites dans un endroit calme avec vue sur la mer, les lacs de sel et la verdure. Vous pouvez choisir entre 4 types de villas. Les villas disposent de 3 chambres, 3 salles de bains, mais il y a la possibilité d'obtenir plus de chambres. Inclus dans le prix est la piscine privée (6 à 3 m ou 5 à 3 m, selon le type de villa), solarium, volets électriques dans les chambres, chauffage par le sol dans les salles de bains, pré-installation de la climatisation (chaud-froid), et la télévision et internet, et bien plus encore. Certaines villas ont un sous-sol inclus dans le prix, d'autres non. Demandez-nous plus d'informations sur ces belles villas ou une visite en collaboration avec le constructeur.</fr>
-<nl>29 nieuwbouwvilla's op een rustige locatie met uitzicht op de zee, de zoutmeren en het groen. U kunt kiezen uit 4 soorten villa's. De villa's zijn voorzien van 3 slaapkamers, 3 badkamers, maar er is de mogelijkheid om meer slaapkamers te verkrijgen. Inbegrepen in de prijs is het privé zwembad (6 tot 3 m of 5 tot 3 m, afhankelijk van het type villa), solarium, elektrische rolluiken in de slaapkamers, vloerverwarming in de badkamers, pre-installatie van airco (warm - koud), en van tv en internet, en nog veel meer. Sommige villa's hebben een kelder in de prijs inbegrepen, andere niet. Vraag ons voor meer informatie over deze prachtige villa's of een bezoek in samenwerking met de bouwer.</nl>
-</desc>
-<images>
-<image id="1">
-<url>http://lh3.googleusercontent.com/XAJnI98mjG_yvw2M1WqhMraYp0R3fk983dbTUy7zIog87nzHbthhX9GKtsNfcauxVZKc7gVs4LqUl5gu=w640-rj-e30-l100?.jpg</url>
-</image><image id="2">
-<url>http://lh3.googleusercontent.com/q4FfeE5CsENvrNbgy9q1vBP8Il8mUE39Ll9sKBzoOmRgIla9RO7GwSXYaSpQvfU70fNiknd9zF1N0NLikjk=w640-rj-e30-l100?.jpg</url>
-</image><image id="3">
-<url>http://lh3.googleusercontent.com/DdXFN4rXHpJD5H_N3Ed_QDamxM5uVyrwLIEuTworMNGFryLCxzTfcN8BB2_AgWG_6cQ50C0uZbmP9GjWgQ=w640-rj-e30-l100?.jpg</url>
-</image><image id="4">
-<url>http://lh3.googleusercontent.com/puRiYHZRfHv6a-LWw0fAl7DmFnMTBTekYjdvj2VqANiUUyA06CNoCCPHpiEzZK8NOGjXgF_fRqP_aqVn=w640-rj-e30-l100?.jpg</url>
-</image><image id="5">
-<url>http://lh3.googleusercontent.com/BncxIPHAmBXVL--RJuOuf0PTh4AFP9ABNadv5YZJ5XoM907MewRo3vwd3dT3TAaCtxcTiYYYHPx5qLMo8g=w640-rj-e30-l100?.jpg</url>
-</image><image id="6">
-<url>http://lh3.googleusercontent.com/sFcJTsjBi9cZ0c5wAhlFtGsVj7BWVZ7OXFpNEFFjx0uhWGa4khbqMPA30IVnacRl7lMMvNBdTtnddbu3=w640-rj-e30-l100?.jpg</url>
-</image><image id="7">
-<url>http://lh3.googleusercontent.com/G0PYhJ_7W8yJWNtJBXM0eb8HKOQ_a_p4R0AhxL6t22MvZkHAcBgFuHajiUdDYzcMNStvYsV0sBEj6yjecQ=w640-rj-e30-l100?.jpg</url>
-</image><image id="8">
-<url>http://lh3.googleusercontent.com/gfHxLO-ddFFhtNlC4YjhP-IODMOh7cWSTVDKTqE0xq_J60OzveWFZ0uWhKhcF4iooYdrqdK8QaUxRr1jFHs=w640-rj-e30-l100?.jpg</url>
-</image><image id="9">
-<url>http://lh3.googleusercontent.com/sWJ8AZvviqS7Oc-kjde_L4VX0LnSk-LxQeWr8JKvXoHNsiogaYvAHQn5d7Jh8uii4679b4vkC9ClzuTG=w640-rj-e30-l100?.jpg</url>
-</image><image id="10">
-<url>http://lh3.googleusercontent.com/3u7U-GZtEOXSVEk3AxnBJGqmVPMr4Qds1D-F5BbgGV4GTwFCysPJKo8d3_tkewTazIGN_0vztmRUYbcV9w=w640-rj-e30-l100?.jpg</url>
-</image><image id="11">
-<url>http://lh3.googleusercontent.com/0W4i_5L1FVdS8xWLE97aeqg85gcz2PSJDPOuTG6BxltcGtQv3WL3Tt4oov_rSez3HzG9Jyj5BLoM67EMrQ=w640-rj-e30-l100?.jpg</url>
-</image><image id="12">
-<url>http://lh3.googleusercontent.com/Vv3QJ0cKyWi0J6ZMWoihGiV-05ygnYv_M1--P3KN_DnYmmULD5ULvw8_a5nSoeSIetCWVhqskA7istFGYQ=w640-rj-e30-l100?.jpg</url>
-</image><image id="13">
-<url>http://lh3.googleusercontent.com/2OoTHdajpcp_rx3hZq6Vse5djVm1-dhcAZgMdZlp-IwwmAbFEYnn0olnoR__Jpvzo3whPIo9Hc5bR6Fn2oM=w640-rj-e30-l100?.jpg</url>
-</image><image id="14">
-<url>http://lh3.googleusercontent.com/p3fdznSsCXhCC6WXyCkToKLZv9L2yJjvLKqnn0HAKYMBeGRhSSn4-BEfKqVelhXDSKI0OIHVFX_vZk5h=w640-rj-e30-l100?.jpg</url>
-</image>
-</images>
-</property><property>
-<id>18622910</id>
-<date>2018-10-29 08:40:17</date>
-<ref>00-EH-7662</ref>
+<id>18620611</id>
+<date>2018-11-06 17:28:38</date>
+<ref>00-EI-7662</ref>
 <price>290000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -17132,6 +17577,59 @@
 <url>http://lh3.googleusercontent.com/k1dqdaL0xnBJQP20v89Rfr_xCHPob8TM3BIbFwCSBQd6zlpj7NWxbtjkbyl7Q649-tuFcWp1DMajDdI7cQ=w640-rj-e30-l100?.jpg</url>
 </image><image id="43">
 <url>http://lh3.googleusercontent.com/Ea5qvxH5EcUcQvDWl7HSyqsU0Pdi6acb-bfi_A7f903vAcF6OGIUVXqw24m-MeGk5WBgAh_Rz-dTbc5V2Q=w640-rj-e30-l100?.jpg</url>
+</image>
+</images>
+</property><property>
+<id>18210511</id>
+<date>2018-11-05 10:35:46</date>
+<ref>NEW-EH-7661</ref>
+<price>295000</price>
+<price_freq>new_build</price_freq>
+<type>
+<en>Detached Villa</en>
+</type>
+<town>San Miguel de Salinas</town>
+<province>Alicante</province>
+<location_detail>San Miguel de Salinas</location_detail>
+<beds>3</beds>
+<baths>3</baths>
+<pool>1</pool>
+<url>https://www.maxgoldhouse.com/3-bed-Detached-Villa-in-San-Miguel-de-Salinas-1821.html</url>
+<desc>
+<en>29 new build villas on a quiet location with views on the sea, the salt lakes  and the green. You can choose between 4 types of villas. The villas come  with 3 bedrooms, 3 bathrooms, but there is the option to get more bedrooms.  Included in the price is the private pool (6 to 3 or 5 to 3, depending on the  type of the villa), solarium, electric blinds in the bedrooms, underfloor  heating in the bathrooms, pre-installation of airco (hot - cold), and of TV and  internet, and many many more. Some villas have a basement included in the  price, some not. Ask us for more information with regard to these superb villas or a visit in collaboration with the builder.</en>
+<de>DE</de>
+<fr>29 villas nouvellement construites dans un endroit calme avec vue sur la mer, les lacs de sel et la verdure. Vous pouvez choisir entre 4 types de villas. Les villas disposent de 3 chambres, 3 salles de bains, mais il y a la possibilité d'obtenir plus de chambres. Inclus dans le prix est la piscine privée (6 à 3 m ou 5 à 3 m, selon le type de villa), solarium, volets électriques dans les chambres, chauffage par le sol dans les salles de bains, pré-installation de la climatisation (chaud-froid), et la télévision et internet, et bien plus encore. Certaines villas ont un sous-sol inclus dans le prix, d'autres non. Demandez-nous plus d'informations sur ces belles villas ou une visite en collaboration avec le constructeur.</fr>
+<nl>29 nieuwbouwvilla's op een rustige locatie met uitzicht op de zee, de zoutmeren en het groen. U kunt kiezen uit 4 soorten villa's. De villa's zijn voorzien van 3 slaapkamers, 3 badkamers, maar er is de mogelijkheid om meer slaapkamers te verkrijgen. Inbegrepen in de prijs is het privé zwembad (6 tot 3 m of 5 tot 3 m, afhankelijk van het type villa), solarium, elektrische rolluiken in de slaapkamers, vloerverwarming in de badkamers, pre-installatie van airco (warm - koud), en van tv en internet, en nog veel meer. Sommige villa's hebben een kelder in de prijs inbegrepen, andere niet. Vraag ons voor meer informatie over deze prachtige villa's of een bezoek in samenwerking met de bouwer.</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/XAJnI98mjG_yvw2M1WqhMraYp0R3fk983dbTUy7zIog87nzHbthhX9GKtsNfcauxVZKc7gVs4LqUl5gu=w640-rj-e30-l100?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/q4FfeE5CsENvrNbgy9q1vBP8Il8mUE39Ll9sKBzoOmRgIla9RO7GwSXYaSpQvfU70fNiknd9zF1N0NLikjk=w640-rj-e30-l100?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/DdXFN4rXHpJD5H_N3Ed_QDamxM5uVyrwLIEuTworMNGFryLCxzTfcN8BB2_AgWG_6cQ50C0uZbmP9GjWgQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/puRiYHZRfHv6a-LWw0fAl7DmFnMTBTekYjdvj2VqANiUUyA06CNoCCPHpiEzZK8NOGjXgF_fRqP_aqVn=w640-rj-e30-l100?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/BncxIPHAmBXVL--RJuOuf0PTh4AFP9ABNadv5YZJ5XoM907MewRo3vwd3dT3TAaCtxcTiYYYHPx5qLMo8g=w640-rj-e30-l100?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/sFcJTsjBi9cZ0c5wAhlFtGsVj7BWVZ7OXFpNEFFjx0uhWGa4khbqMPA30IVnacRl7lMMvNBdTtnddbu3=w640-rj-e30-l100?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/G0PYhJ_7W8yJWNtJBXM0eb8HKOQ_a_p4R0AhxL6t22MvZkHAcBgFuHajiUdDYzcMNStvYsV0sBEj6yjecQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/gfHxLO-ddFFhtNlC4YjhP-IODMOh7cWSTVDKTqE0xq_J60OzveWFZ0uWhKhcF4iooYdrqdK8QaUxRr1jFHs=w640-rj-e30-l100?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/sWJ8AZvviqS7Oc-kjde_L4VX0LnSk-LxQeWr8JKvXoHNsiogaYvAHQn5d7Jh8uii4679b4vkC9ClzuTG=w640-rj-e30-l100?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/3u7U-GZtEOXSVEk3AxnBJGqmVPMr4Qds1D-F5BbgGV4GTwFCysPJKo8d3_tkewTazIGN_0vztmRUYbcV9w=w640-rj-e30-l100?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/0W4i_5L1FVdS8xWLE97aeqg85gcz2PSJDPOuTG6BxltcGtQv3WL3Tt4oov_rSez3HzG9Jyj5BLoM67EMrQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/Vv3QJ0cKyWi0J6ZMWoihGiV-05ygnYv_M1--P3KN_DnYmmULD5ULvw8_a5nSoeSIetCWVhqskA7istFGYQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/2OoTHdajpcp_rx3hZq6Vse5djVm1-dhcAZgMdZlp-IwwmAbFEYnn0olnoR__Jpvzo3whPIo9Hc5bR6Fn2oM=w640-rj-e30-l100?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/p3fdznSsCXhCC6WXyCkToKLZv9L2yJjvLKqnn0HAKYMBeGRhSSn4-BEfKqVelhXDSKI0OIHVFX_vZk5h=w640-rj-e30-l100?.jpg</url>
 </image>
 </images>
 </property><property>
@@ -17857,9 +18355,9 @@
 </image>
 </images>
 </property><property>
-<id>63453551926531332652910</id>
-<date>2018-10-29 08:41:47</date>
-<ref>NEW-EG-00066a</ref>
+<id>63453551926531332650611</id>
+<date>2018-11-06 17:29:22</date>
+<ref>NEW-EH-00066a</ref>
 <price>319000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -18068,9 +18566,9 @@
 </image>
 </images>
 </property><property>
-<id>19762310</id>
-<date>2018-10-23 08:14:42</date>
-<ref>NEW-0022</ref>
+<id>19760511</id>
+<date>2018-11-05 15:23:29</date>
+<ref>NEW-EF-0022</ref>
 <price>325000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -18209,9 +18707,9 @@
 </image>
 </images>
 </property><property>
-<id>18102310</id>
-<date>2018-10-23 11:42:33</date>
-<ref>NEW-EG-7658</ref>
+<id>18100511</id>
+<date>2018-11-05 15:23:54</date>
+<ref>NEW-EH-7658</ref>
 <price>339000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -18283,6 +18781,117 @@
 <url>//lh3.googleusercontent.com/DkBvpfWI49qqLH6_H9jd8WEwK0MLvQgXqFMmd_WZCfopqUb3GdeXC1dLO6dFXunFY6BdPRcPN76hr3n_hQ=w640-rj-e30-l100?.jpg</url>
 </image><image id="26">
 <url>//lh3.googleusercontent.com/wn-t_6g6Mc6NL0IGjwBQAOet4Z937Gs9zdM_3xUuxeQS3BDMCM0rAfIez4r12iHPnRSXoX1w_vlGjtpGaA=w640-rj-e30-l100?.jpg</url>
+</image>
+</images>
+</property><property>
+<id>19370511</id>
+<date>2018-11-05 11:07:20</date>
+<ref>27-EG-1068</ref>
+<price>345000</price>
+<price_freq>sale</price_freq>
+<type>
+<en>Detached Villa</en>
+</type>
+<town>Villamartin</town>
+<province>Alicante</province>
+<location_detail>Villamartin Golf</location_detail>
+<beds>4</beds>
+<baths>3</baths>
+<pool>1</pool>
+<url>https://www.maxgoldhouse.com/4-bed-Detached-Villa-in-Villamartin-Golf-1937.html</url>
+<desc>
+<en>This luxury villa on 2 levels with a private solarium is located in the famous RIOJA  area of Villamartin Golf - on the edge of Los Dolses. On the top there is a large roof  solarium with beautiful sea views and green area views to the rear of the property. On  the first floor you will find 2 bathrooms and 3 good size bedrooms, while on the ground  floor there is 1 bedroom, 1 bathroom, huge living area, kitchen and storage. The large  outdoor space around this property is complete and stunning with separate BBQ,  seating and sunbathing areas. This villa is to be sold partly furnished. The property is in  walking distance to all needed amenities and also close to sea and beaches, shopping  centres, the marina, and also some more golf courses. Come and see.</en>
+<de>DE</de>
+<fr>FR</fr>
+<nl>NL</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/hJ-XQkM5oLz5KkF8sLmhfR1Ob01ZXUTXPxa9ptoNGjw-NsnmaE62FmqOa8X_NqlcI3sp5LGJEaJIMf6Z4g=w640-rj-e30-l100?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/SbXGUS5r3dRSvxt6UBtoR9VH8j-H9lhxGaMB4HDkc6idplSDbEITY912gtviEkFU4-4l2G4glWJ4A7ZL=w640-rj-e30-l100?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/1JGsASdKX8vAU7Qo4abGD_cEeSKXW5p5Nhh7xW-31K6iqy8Dl2j13RyL1AP0cKnS5C9sREv6c08CYBmu=w640-rj-e30-l100?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/FcS0D2B54dNzkQjSCJWjpfui5Nec0cXHxWNkSPZcOnuToG5OZagLSDmPjDyZVYAyY0k5CJmKhKYXK5DD0Q=w640-rj-e30-l100?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/MnNFxCZsI2Q7sdxNdZqzFpn1WTfiie-C94662V79rRhEEQLg_avMkRK5lFTMyV0zMdmKlNDXJS-X1zJcl8U=w640-rj-e30-l100?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/KZ8ahaCFt1SXgOMnw8c6zq9FX7nSba0Zo2_7VZSCHo5XV5LZ7REIMQDqlahW54qEHYnf0llfzM5-fvDHzQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/gw2SEZLOlwL1BOwH-Veo3VLSfFVyR2l98iS_6q3X3knFY47oboDS0Qx65uVBgG_Xk2vVsIyLSjzS-9Wbvkg=w640-rj-e30-l100?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/4BIzcreWv5SJke3ksNJraOuryMVJcsiHzV8bIGVzP5hFQ8nUEyYQdjfGa-z31ghGM6bAsz4TJ_8A6z4cAA=w640-rj-e30-l100?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/CHfKmRBcw6DxB8x4SrmdxlgcinnrAaZouqb3FrxHSN0nEI_zc3AxKR2eZVWJyiNxhfkbaw9a7StudaIj=w640-rj-e30-l100?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/N1RM7BiaLzvjvT2cQDhnqOrgtuwOrONi_9YvY7izYHt7QJQ-WM6g3l8vgceSA8m2f-xf4S6JgFW_IqGqFk8=w640-rj-e30-l100?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/hjPvIbcj2n6gVxoJLwqhhL-sAfICwcEyqRfpm_B3UZtO3N3fKWG1-C0VskMr1QkSYYw_pGhxQN02Veu7w48=w640-rj-e30-l100?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/sqEpg0q6oVYZYrqXG9_U3AOvzkEgA2o19w5BwuC4UK8Z7zxZHmhUzrQHdFyL1Rt_H9KgUuRD9bRaJfGhRA=w640-rj-e30-l100?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/CqUL422_hEzH8_XOacYQJAgWF65srwkC6wZgnxFerSzm88yUp_gouUZ-f8TClz5WkeeyfebMwo8BfXzBSYM=w640-rj-e30-l100?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/ZwG-mJ-5ozkIj9-_qjXTEucPE3bOSsPlvnbizj39_oghnCeVI0iGbiMJVaSJWfkFqdQhszP_6KD20UnPdcA=w640-rj-e30-l100?.jpg</url>
+</image><image id="15">
+<url>http://lh3.googleusercontent.com/xN2eC8tyzuj5v5-ZRV6LpkTcF2Gfwyq1zwC21ACGCennOAox0QvtWpGX1r8-c5HYF-KdFVXmJNhB0PX6Ig=w640-rj-e30-l100?.jpg</url>
+</image><image id="16">
+<url>http://lh3.googleusercontent.com/Ip4AxLSHAwJE8HGYqdStT-B4NILWrRu0F5bLdb2wFs2ZuPJBRtXP3Ks1giRPNWlrDFR5p4a7PQ5S-gjxQw=w640-rj-e30-l100?.jpg</url>
+</image><image id="17">
+<url>http://lh3.googleusercontent.com/u-G-srcr0mLKpLdy_cPZIpVZMjPdqso8kaYjXCs0SCknEPZGCQ4nohZfWbmHo5X9ALbCk5jERzaxUDOL=w640-rj-e30-l100?.jpg</url>
+</image><image id="18">
+<url>http://lh3.googleusercontent.com/728XwTIr6b29vofNIi2mq08DIiwv-rRYAUyBGFcLOKdZXs-BcgbXfkSIgVhNRECcqmwJj4mmsmNfTX0BhA=w640-rj-e30-l100?.jpg</url>
+</image><image id="19">
+<url>http://lh3.googleusercontent.com/DGdCP1pwmW6Co6sGbIKGMq2hSaZHR6XFmuNs3rh41lVHH5sAmyFQVu3FMUuRuAbf56ZD4XPzboLH8_ks1w=w640-rj-e30-l100?.jpg</url>
+</image><image id="20">
+<url>http://lh3.googleusercontent.com/2khN-4E9-YSl6O7QMM-W3x5YnFuGEIiC6AXwejdF6KiFPKCHB7xUlvWvosblE3J2PpCxq8lS1RJuDtiIMQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="21">
+<url>http://lh3.googleusercontent.com/Uv_cKdPuu4fBMMOnMhef8jLq-JEn4ZXfyYItciE8B5gwJEgdocYamtAQu_LPmTWcVe10V6-WepsD4JnZ=w640-rj-e30-l100?.jpg</url>
+</image><image id="22">
+<url>http://lh3.googleusercontent.com/j2rAIn9vSTVbt4__JtEsmxnw0AGhI6DT8yusU_mD5_1uI_YUCuD6t97eqb0WT5Nu2eV9Lt5hMs-znHy9pP8=w640-rj-e30-l100?.jpg</url>
+</image><image id="23">
+<url>http://lh3.googleusercontent.com/ZH5NH-DDaYcz3T068v5HXrQ3SmzNC_TLMXbs11RnRiThGvf9WBuJd1xAqxaVS-fn1JTvCgvz0hAYLhVQSIM=w640-rj-e30-l100?.jpg</url>
+</image><image id="24">
+<url>http://lh3.googleusercontent.com/k7uXhtcxgLEjbeh4Wbi848EA_FE8oSeulICQLMJ-GERk339OUqukk9oihu0wGMsuvPlsAcO_FsmINdI7ww=w640-rj-e30-l100?.jpg</url>
+</image><image id="25">
+<url>http://lh3.googleusercontent.com/1GRjV4183UmMlDbGW35bA8nthhcVM8IhYvwg-7ufnTLyK7kZmk0sUlQxJuckKZqJsRZ2zDiV3dN6MhMz8w=w640-rj-e30-l100?.jpg</url>
+</image><image id="26">
+<url>http://lh3.googleusercontent.com/7-2jF8ESXQPomWyMYqbv0deN2Gz189BAJn-yLYs3W7hYWrLb1nvk32jlp6i9AKjH08kTMNMTnvRX-lpBsKE=w640-rj-e30-l100?.jpg</url>
+</image><image id="27">
+<url>http://lh3.googleusercontent.com/MZG0BdEF0bW320Sz1nOpnyAMs_CuWr-6AJQtYcYcasNUwJPl9_yxP7um0OMbUtbapLjk9ALSYdHajXw3=w640-rj-e30-l100?.jpg</url>
+</image><image id="28">
+<url>http://lh3.googleusercontent.com/ftBs789Ycdlt5ZtSN2CqUCFH7FpwtzEP_hulRUeCDCMCHhPt0Rnkr7wVMIcAjmK8gq_MOmIrjlxWueSeag=w640-rj-e30-l100?.jpg</url>
+</image><image id="29">
+<url>http://lh3.googleusercontent.com/sIF9M9xPwSjBoSJhHBUdWw8UE7wSGyjm-i_c08E7tIWt8M4gr5tmwe0M3P8QVvRrow13Nj4QScbJYZZg=w640-rj-e30-l100?.jpg</url>
+</image><image id="30">
+<url>http://lh3.googleusercontent.com/_lSR0BnbmMxi0dyWUwBfzKLdIPzVIFXkCwk6E6k4Hnks9p6e2yHz5flIviKaE7tuZSAZgC-Js6PxCTFUUQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="31">
+<url>http://lh3.googleusercontent.com/njENTjbkuLSVd5Qv6to2dkWqWjDpj9ogmlo6tIuTwkmLp78sqvXB-lX99NhvrfDbNSxQVqpD2qgG6duFpCU=w640-rj-e30-l100?.jpg</url>
+</image><image id="32">
+<url>http://lh3.googleusercontent.com/LpdiXHCPeNSuw-Qu2uxMXvtnhbIiA0Hz_cxVosApAtrUAGzF4VGJXwYM7LVJ7fW0XzUu6lSv9dlTuPPHyZs=w640-rj-e30-l100?.jpg</url>
+</image><image id="33">
+<url>http://lh3.googleusercontent.com/-AXGWJ97ZDq3_wuIRah51DmMOpYWC9Q9r4JILSgUZDTKlTJy1qNhi1ajjvCxuU1rEnkCjfRDfVeGxZfe-Q=w640-rj-e30-l100?.jpg</url>
+</image><image id="34">
+<url>http://lh3.googleusercontent.com/1oIhTF6huJFlrlxMjTEJdpGYH7D5HUdNH-qpqnYupcItSvQrtcFGaR4uaeoyq_nuC8BeybGb27FABVcqvA=w640-rj-e30-l100?.jpg</url>
+</image><image id="35">
+<url>http://lh3.googleusercontent.com/HOxp9PTeleE5_uT9eEkpFw30e9DQNYabTr5sdX3v8jrP-FGOvxpJpD1L-gVpxoDgGvgmSf8ha1QaUGeFdyc=w640-rj-e30-l100?.jpg</url>
+</image><image id="36">
+<url>http://lh3.googleusercontent.com/Kdc3jCdKlai3-np1oEw7kfxyU8ldv8UdTTWs_j3f2BcoEjmm-ElGeVWeRktQ-Wjc5EoeFnpMPvcTluU1NMQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="37">
+<url>http://lh3.googleusercontent.com/Z0b_rMEt_j-qLo5rnedOlgbalB1Ty6kBGgDF1RHOz9sS8NBMCBLBCo4u8e3NE2PIxotCn3NUUH9gkU5gdns=w640-rj-e30-l100?.jpg</url>
+</image><image id="38">
+<url>http://lh3.googleusercontent.com/J3uErE9ABTz8jyg7WKY3wWPNGr4b-rKsb3tsXTuridQ10nogu74yBwqdFlAO6iI7lTGtVP-vUGxZDPcTxA=w640-rj-e30-l100?.jpg</url>
+</image><image id="39">
+<url>http://lh3.googleusercontent.com/JX5gEVL0PQgfvfbT77gO_0HMEO-RwSo1qZLpDpPVKqqx81jFQ6u409q8dqba2OmKCVd0wsgbOOb-hE14=w640-rj-e30-l100?.jpg</url>
+</image><image id="40">
+<url>http://lh3.googleusercontent.com/q29Uz3V643c9k_2FAdxhvcUHNuGZk5_hKfk1CyxA71u6REO3C5skZxf7L2Dt0B7u6ellc5Q0tuXGUQsn=w640-rj-e30-l100?.jpg</url>
+</image><image id="41">
+<url>http://lh3.googleusercontent.com/rO93MWciLdXWKIc4hr4jXatYExulxNsqLK9_miyoQHX0MaEZnOcl8TQsL-ZeQOURS02pPBlsFZgg6ytE4y0=w640-rj-e30-l100?.jpg</url>
+</image><image id="42">
+<url>http://lh3.googleusercontent.com/irqF0wU4wMZT6Hyt1m6uOqyEOzrS2q5hzUgF2ObxE58F0zGQZmFCDvPkmR1PvM7LCz1FwcPlu4Q-gpDc=w640-rj-e30-l100?.jpg</url>
+</image><image id="43">
+<url>http://lh3.googleusercontent.com/SBchHdGUqxmMtg9w5KO-fFElkxH8S08PLm3n8w2Z_Uyhtz7DVlyV5slTnWQd54WojrzdOjFtO2rGXlgjUA=w640-rj-e30-l100?.jpg</url>
 </image>
 </images>
 </property><property>
@@ -18798,6 +19407,63 @@
 </image>
 </images>
 </property><property>
+<id>19950711</id>
+<date>2018-11-07 08:32:50</date>
+<ref>NEW-0032</ref>
+<price>356000</price>
+<price_freq>new_build</price_freq>
+<type>
+<en>Apartment</en>
+</type>
+<town>San Miguel de Salinas</town>
+<province>Alicante</province>
+<location_detail>Las Colinas</location_detail>
+<beds>3</beds>
+<baths>3</baths>
+<pool>1</pool>
+<url>https://www.maxgoldhouse.com/3-bed-Apartment-in-Las-Colinas-1995.html</url>
+<desc>
+<en>Beautiful luxury south facing apartments in an exclusive complex in Las Colinas.  The complex consists of 12 apartments, 4 on the ground floor, and 8  duplex-penthouses. ONLY 3 DUPLEX-PENTHOUSES ARE STILL AVAILABLE, so  being quick is the message. From the apartments, you have a magnificent view on  the green, or even on the Medsea. The apartments come with 3 bedrooms, 2+1  bathrooms, automatic shutters, safety doors, airco, underfloor heating in the  bathrooms, and the latest domotica. There is also a communal pool to cool down  on hot summer days and nights. Included in the price, is also parking space and  storage. If you like to relax in a calm atmosphere, without to much noise around  you, then this is YOUR PLACE to be.</en>
+<de>DE</de>
+<fr>FR</fr>
+<nl>NL</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/YFtJZ82_jr93oBCUtiaUxagrHXRjQeUw5DyoEVorxA2VK27Ymr9YGANmdbVl8-CxelXVIAb3ia3F_FRQEg=w640-rj-e30-l100?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/fH2ygWpoU7BI0TQesCjp2QFcRxb_XhsmxIxSShxf2vdgndpVarBuXQd1DUREcq_laG8YfiDniKFHzgE_zRs=w640-rj-e30-l100?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/7T9cpZrcINwpZPTyxzEz0t3RuXL7T89jSjSfycSjTYY3m8oooqKY8dOQ-cPNseLY9qJC1FLXPy1-MwNpHA=w640-rj-e30-l100?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/a3i2XtNsLx0EtrR2I_euZSTI4o1sSDTV_NEYMmbx6BUW3CAFLkdLFGIVKH73ctADdHfmMl3NhzSBaA7e=w640-rj-e30-l100?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/ny_Zcpc6H6RErlc5psbhyhnQpwAXSu6pOy5OewHoJhXxRGYOAhcAPcQ1QlLJaLqYPJHt3V8ABL7Vp7C_1A=w640-rj-e30-l100?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/GFfdhXgj-tdETB7_q1vOC9cRI7wJckb0MkMUp95lvYXh4M-tZF-LwUSuJX5TzDyzwCM1KjUoq3nIiP8TuA=w640-rj-e30-l100?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/qF9yT7XYzEOvUAcenfTD7ZO8oBOPi7zUO_PlJ1CVdkcy_8hoyT2nzTAYTNJYk9FdOX1xY-h1RO4EkQE37g=w640-rj-e30-l100?.jpg</url>
+</image><image id="8">
+<url>http://lh3.googleusercontent.com/mMwzBubTBSczklGOb3kNfY1K306F7cuuqe55ZYu0y6RcRTUhv87gfgMsKloWRgZj3tbFReFREjEQb5Gb_w=w640-rj-e30-l100?.jpg</url>
+</image><image id="9">
+<url>http://lh3.googleusercontent.com/KUJl2lLHIOIwWBC29ouAnmlEVXe8QPJmaQ8Lt8Iy1Dywb8nOUshj2MzxWQLTIZsKmsN3W6KCsuLpuV8vmg=w640-rj-e30-l100?.jpg</url>
+</image><image id="10">
+<url>http://lh3.googleusercontent.com/-ZSfzXBSssKgQnNBQYirqY5T6NJ13Ap9VDGvRao80S29Vab0ZuFZ9Dfp1XHBaooTiyImU3FInDiO98hb=w640-rj-e30-l100?.jpg</url>
+</image><image id="11">
+<url>http://lh3.googleusercontent.com/TR5q5Tx7Z6t3VhQHxlUFnMAIHNACdj4oQRXgHB1mN7yL0qNt2DuXabpzy3hNSG9NzdM7ws216S5VAZnXHg=w640-rj-e30-l100?.jpg</url>
+</image><image id="12">
+<url>http://lh3.googleusercontent.com/4RHL6FewFNbSDN4Qdd6woT-v5dC6dog9sQYvGpiZPsnSfE14nV88u4aMA7JDBuSOH4aQQ9IdY8SPhgh0yA=w640-rj-e30-l100?.jpg</url>
+</image><image id="13">
+<url>http://lh3.googleusercontent.com/KsAzUH2hHBxNtRSVuNv9ad7NvPlVg6cbgVjUBRBv6Gc8ulumyQuh9igOZV0JRhlwBbxerevYLs6dUbO-QQ=w640-rj-e30-l100?.jpg</url>
+</image><image id="14">
+<url>http://lh3.googleusercontent.com/Ajo8i_B6Otg9ycPy1OyeZ5VMMr9nsZsntq2AcTyYagS2pS0rqvOgw3gVvJ6UARmsadg8_O-OyGyZCFEGpg=w640-rj-e30-l100?.jpg</url>
+</image><image id="15">
+<url>http://lh3.googleusercontent.com/rbioxf3MmvNb29jwVz4XBwYtdx-H8m0b8lBabnLyg75Xx0F74LfCpQUFfZxDndQWhPDHYQ_i-rBOUIgp3Q=w640-rj-e30-l100?.jpg</url>
+</image><image id="16">
+<url>http://lh3.googleusercontent.com/nXsfxnRbkXt50e4P8ByBgH5zsr6vvDTL05r5F_f1EGnxKEtmKjJw2U2Hrf9fCPkOKYRzgityQHccFJxclQ=w640-rj-e30-l100?.jpg</url>
+</image>
+</images>
+</property><property>
 <id>19883110</id>
 <date>2018-10-31 12:39:53</date>
 <ref>NEW-0029</ref>
@@ -19154,9 +19820,9 @@
 </image>
 </images>
 </property><property>
-<id>17222210</id>
-<date>2018-10-22 07:42:10</date>
-<ref>NEW-EG-7609</ref>
+<id>17220511</id>
+<date>2018-11-05 15:23:54</date>
+<ref>NEW-EH-7609</ref>
 <price>369000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -19202,117 +19868,6 @@
 <url>http://lh3.googleusercontent.com/5SSFpjJ9jA-8uALwQruucvlGZ3TTyHF3Gc_rSzU48UY6EkQ2Iohy3RJhnms4s6GlQu4YaQSkZIIoTpjj33Q=w640-rj-e30-l100?.jpg</url>
 </image><image id="13">
 <url>http://lh3.googleusercontent.com/nfuYzvp6EJDN0s0zxthFbNYJ9DNUmfXJ7ZxGUrOzValN4olhgGoujkvGbNXjfsEpns9zWI37btoJ94oGiXQ=w640-rj-e30-l100?.jpg</url>
-</image>
-</images>
-</property><property>
-<id>19370510</id>
-<date>2018-10-05 07:52:10</date>
-<ref>27-EF-1068</ref>
-<price>370000</price>
-<price_freq>sale</price_freq>
-<type>
-<en>Detached Villa</en>
-</type>
-<town>Villamartin</town>
-<province>Alicante</province>
-<location_detail>Villamartin Golf</location_detail>
-<beds>4</beds>
-<baths>3</baths>
-<pool>1</pool>
-<url>https://www.maxgoldhouse.com/4-bed-Detached-Villa-in-Villamartin-Golf-1937.html</url>
-<desc>
-<en>This luxury villa on 2 levels with a private solarium is located in the famous RIOJA  area of Villamartin Golf - on the edge of Los Dolses. On the top there is a large roof  solarium with beautiful sea views and green area views to the rear of the property. On  the first floor you will find 2 bathrooms and 3 good size bedrooms, while on the ground  floor there is 1 bedroom, 1 bathroom, huge living area, kitchen and storage. The large  outdoor space around this property is complete and stunning with separate BBQ,  seating and sunbathing areas. This villa is to be sold partly furnished. The property is in  walking distance to all needed amenities and also close to sea and beaches, shopping  centres, the marina, and also some more golf courses. Come and see.</en>
-<de>DE</de>
-<fr>FR</fr>
-<nl>NL</nl>
-</desc>
-<images>
-<image id="1">
-<url>http://lh3.googleusercontent.com/hJ-XQkM5oLz5KkF8sLmhfR1Ob01ZXUTXPxa9ptoNGjw-NsnmaE62FmqOa8X_NqlcI3sp5LGJEaJIMf6Z4g=w640-rj-e30-l100?.jpg</url>
-</image><image id="2">
-<url>http://lh3.googleusercontent.com/SbXGUS5r3dRSvxt6UBtoR9VH8j-H9lhxGaMB4HDkc6idplSDbEITY912gtviEkFU4-4l2G4glWJ4A7ZL=w640-rj-e30-l100?.jpg</url>
-</image><image id="3">
-<url>http://lh3.googleusercontent.com/1JGsASdKX8vAU7Qo4abGD_cEeSKXW5p5Nhh7xW-31K6iqy8Dl2j13RyL1AP0cKnS5C9sREv6c08CYBmu=w640-rj-e30-l100?.jpg</url>
-</image><image id="4">
-<url>http://lh3.googleusercontent.com/FcS0D2B54dNzkQjSCJWjpfui5Nec0cXHxWNkSPZcOnuToG5OZagLSDmPjDyZVYAyY0k5CJmKhKYXK5DD0Q=w640-rj-e30-l100?.jpg</url>
-</image><image id="5">
-<url>http://lh3.googleusercontent.com/MnNFxCZsI2Q7sdxNdZqzFpn1WTfiie-C94662V79rRhEEQLg_avMkRK5lFTMyV0zMdmKlNDXJS-X1zJcl8U=w640-rj-e30-l100?.jpg</url>
-</image><image id="6">
-<url>http://lh3.googleusercontent.com/KZ8ahaCFt1SXgOMnw8c6zq9FX7nSba0Zo2_7VZSCHo5XV5LZ7REIMQDqlahW54qEHYnf0llfzM5-fvDHzQ=w640-rj-e30-l100?.jpg</url>
-</image><image id="7">
-<url>http://lh3.googleusercontent.com/gw2SEZLOlwL1BOwH-Veo3VLSfFVyR2l98iS_6q3X3knFY47oboDS0Qx65uVBgG_Xk2vVsIyLSjzS-9Wbvkg=w640-rj-e30-l100?.jpg</url>
-</image><image id="8">
-<url>http://lh3.googleusercontent.com/4BIzcreWv5SJke3ksNJraOuryMVJcsiHzV8bIGVzP5hFQ8nUEyYQdjfGa-z31ghGM6bAsz4TJ_8A6z4cAA=w640-rj-e30-l100?.jpg</url>
-</image><image id="9">
-<url>http://lh3.googleusercontent.com/CHfKmRBcw6DxB8x4SrmdxlgcinnrAaZouqb3FrxHSN0nEI_zc3AxKR2eZVWJyiNxhfkbaw9a7StudaIj=w640-rj-e30-l100?.jpg</url>
-</image><image id="10">
-<url>http://lh3.googleusercontent.com/N1RM7BiaLzvjvT2cQDhnqOrgtuwOrONi_9YvY7izYHt7QJQ-WM6g3l8vgceSA8m2f-xf4S6JgFW_IqGqFk8=w640-rj-e30-l100?.jpg</url>
-</image><image id="11">
-<url>http://lh3.googleusercontent.com/hjPvIbcj2n6gVxoJLwqhhL-sAfICwcEyqRfpm_B3UZtO3N3fKWG1-C0VskMr1QkSYYw_pGhxQN02Veu7w48=w640-rj-e30-l100?.jpg</url>
-</image><image id="12">
-<url>http://lh3.googleusercontent.com/sqEpg0q6oVYZYrqXG9_U3AOvzkEgA2o19w5BwuC4UK8Z7zxZHmhUzrQHdFyL1Rt_H9KgUuRD9bRaJfGhRA=w640-rj-e30-l100?.jpg</url>
-</image><image id="13">
-<url>http://lh3.googleusercontent.com/CqUL422_hEzH8_XOacYQJAgWF65srwkC6wZgnxFerSzm88yUp_gouUZ-f8TClz5WkeeyfebMwo8BfXzBSYM=w640-rj-e30-l100?.jpg</url>
-</image><image id="14">
-<url>http://lh3.googleusercontent.com/ZwG-mJ-5ozkIj9-_qjXTEucPE3bOSsPlvnbizj39_oghnCeVI0iGbiMJVaSJWfkFqdQhszP_6KD20UnPdcA=w640-rj-e30-l100?.jpg</url>
-</image><image id="15">
-<url>http://lh3.googleusercontent.com/xN2eC8tyzuj5v5-ZRV6LpkTcF2Gfwyq1zwC21ACGCennOAox0QvtWpGX1r8-c5HYF-KdFVXmJNhB0PX6Ig=w640-rj-e30-l100?.jpg</url>
-</image><image id="16">
-<url>http://lh3.googleusercontent.com/Ip4AxLSHAwJE8HGYqdStT-B4NILWrRu0F5bLdb2wFs2ZuPJBRtXP3Ks1giRPNWlrDFR5p4a7PQ5S-gjxQw=w640-rj-e30-l100?.jpg</url>
-</image><image id="17">
-<url>http://lh3.googleusercontent.com/u-G-srcr0mLKpLdy_cPZIpVZMjPdqso8kaYjXCs0SCknEPZGCQ4nohZfWbmHo5X9ALbCk5jERzaxUDOL=w640-rj-e30-l100?.jpg</url>
-</image><image id="18">
-<url>http://lh3.googleusercontent.com/728XwTIr6b29vofNIi2mq08DIiwv-rRYAUyBGFcLOKdZXs-BcgbXfkSIgVhNRECcqmwJj4mmsmNfTX0BhA=w640-rj-e30-l100?.jpg</url>
-</image><image id="19">
-<url>http://lh3.googleusercontent.com/DGdCP1pwmW6Co6sGbIKGMq2hSaZHR6XFmuNs3rh41lVHH5sAmyFQVu3FMUuRuAbf56ZD4XPzboLH8_ks1w=w640-rj-e30-l100?.jpg</url>
-</image><image id="20">
-<url>http://lh3.googleusercontent.com/2khN-4E9-YSl6O7QMM-W3x5YnFuGEIiC6AXwejdF6KiFPKCHB7xUlvWvosblE3J2PpCxq8lS1RJuDtiIMQ=w640-rj-e30-l100?.jpg</url>
-</image><image id="21">
-<url>http://lh3.googleusercontent.com/Uv_cKdPuu4fBMMOnMhef8jLq-JEn4ZXfyYItciE8B5gwJEgdocYamtAQu_LPmTWcVe10V6-WepsD4JnZ=w640-rj-e30-l100?.jpg</url>
-</image><image id="22">
-<url>http://lh3.googleusercontent.com/j2rAIn9vSTVbt4__JtEsmxnw0AGhI6DT8yusU_mD5_1uI_YUCuD6t97eqb0WT5Nu2eV9Lt5hMs-znHy9pP8=w640-rj-e30-l100?.jpg</url>
-</image><image id="23">
-<url>http://lh3.googleusercontent.com/ZH5NH-DDaYcz3T068v5HXrQ3SmzNC_TLMXbs11RnRiThGvf9WBuJd1xAqxaVS-fn1JTvCgvz0hAYLhVQSIM=w640-rj-e30-l100?.jpg</url>
-</image><image id="24">
-<url>http://lh3.googleusercontent.com/k7uXhtcxgLEjbeh4Wbi848EA_FE8oSeulICQLMJ-GERk339OUqukk9oihu0wGMsuvPlsAcO_FsmINdI7ww=w640-rj-e30-l100?.jpg</url>
-</image><image id="25">
-<url>http://lh3.googleusercontent.com/1GRjV4183UmMlDbGW35bA8nthhcVM8IhYvwg-7ufnTLyK7kZmk0sUlQxJuckKZqJsRZ2zDiV3dN6MhMz8w=w640-rj-e30-l100?.jpg</url>
-</image><image id="26">
-<url>http://lh3.googleusercontent.com/7-2jF8ESXQPomWyMYqbv0deN2Gz189BAJn-yLYs3W7hYWrLb1nvk32jlp6i9AKjH08kTMNMTnvRX-lpBsKE=w640-rj-e30-l100?.jpg</url>
-</image><image id="27">
-<url>http://lh3.googleusercontent.com/MZG0BdEF0bW320Sz1nOpnyAMs_CuWr-6AJQtYcYcasNUwJPl9_yxP7um0OMbUtbapLjk9ALSYdHajXw3=w640-rj-e30-l100?.jpg</url>
-</image><image id="28">
-<url>http://lh3.googleusercontent.com/ftBs789Ycdlt5ZtSN2CqUCFH7FpwtzEP_hulRUeCDCMCHhPt0Rnkr7wVMIcAjmK8gq_MOmIrjlxWueSeag=w640-rj-e30-l100?.jpg</url>
-</image><image id="29">
-<url>http://lh3.googleusercontent.com/sIF9M9xPwSjBoSJhHBUdWw8UE7wSGyjm-i_c08E7tIWt8M4gr5tmwe0M3P8QVvRrow13Nj4QScbJYZZg=w640-rj-e30-l100?.jpg</url>
-</image><image id="30">
-<url>http://lh3.googleusercontent.com/_lSR0BnbmMxi0dyWUwBfzKLdIPzVIFXkCwk6E6k4Hnks9p6e2yHz5flIviKaE7tuZSAZgC-Js6PxCTFUUQ=w640-rj-e30-l100?.jpg</url>
-</image><image id="31">
-<url>http://lh3.googleusercontent.com/njENTjbkuLSVd5Qv6to2dkWqWjDpj9ogmlo6tIuTwkmLp78sqvXB-lX99NhvrfDbNSxQVqpD2qgG6duFpCU=w640-rj-e30-l100?.jpg</url>
-</image><image id="32">
-<url>http://lh3.googleusercontent.com/LpdiXHCPeNSuw-Qu2uxMXvtnhbIiA0Hz_cxVosApAtrUAGzF4VGJXwYM7LVJ7fW0XzUu6lSv9dlTuPPHyZs=w640-rj-e30-l100?.jpg</url>
-</image><image id="33">
-<url>http://lh3.googleusercontent.com/-AXGWJ97ZDq3_wuIRah51DmMOpYWC9Q9r4JILSgUZDTKlTJy1qNhi1ajjvCxuU1rEnkCjfRDfVeGxZfe-Q=w640-rj-e30-l100?.jpg</url>
-</image><image id="34">
-<url>http://lh3.googleusercontent.com/1oIhTF6huJFlrlxMjTEJdpGYH7D5HUdNH-qpqnYupcItSvQrtcFGaR4uaeoyq_nuC8BeybGb27FABVcqvA=w640-rj-e30-l100?.jpg</url>
-</image><image id="35">
-<url>http://lh3.googleusercontent.com/HOxp9PTeleE5_uT9eEkpFw30e9DQNYabTr5sdX3v8jrP-FGOvxpJpD1L-gVpxoDgGvgmSf8ha1QaUGeFdyc=w640-rj-e30-l100?.jpg</url>
-</image><image id="36">
-<url>http://lh3.googleusercontent.com/Kdc3jCdKlai3-np1oEw7kfxyU8ldv8UdTTWs_j3f2BcoEjmm-ElGeVWeRktQ-Wjc5EoeFnpMPvcTluU1NMQ=w640-rj-e30-l100?.jpg</url>
-</image><image id="37">
-<url>http://lh3.googleusercontent.com/Z0b_rMEt_j-qLo5rnedOlgbalB1Ty6kBGgDF1RHOz9sS8NBMCBLBCo4u8e3NE2PIxotCn3NUUH9gkU5gdns=w640-rj-e30-l100?.jpg</url>
-</image><image id="38">
-<url>http://lh3.googleusercontent.com/J3uErE9ABTz8jyg7WKY3wWPNGr4b-rKsb3tsXTuridQ10nogu74yBwqdFlAO6iI7lTGtVP-vUGxZDPcTxA=w640-rj-e30-l100?.jpg</url>
-</image><image id="39">
-<url>http://lh3.googleusercontent.com/JX5gEVL0PQgfvfbT77gO_0HMEO-RwSo1qZLpDpPVKqqx81jFQ6u409q8dqba2OmKCVd0wsgbOOb-hE14=w640-rj-e30-l100?.jpg</url>
-</image><image id="40">
-<url>http://lh3.googleusercontent.com/q29Uz3V643c9k_2FAdxhvcUHNuGZk5_hKfk1CyxA71u6REO3C5skZxf7L2Dt0B7u6ellc5Q0tuXGUQsn=w640-rj-e30-l100?.jpg</url>
-</image><image id="41">
-<url>http://lh3.googleusercontent.com/rO93MWciLdXWKIc4hr4jXatYExulxNsqLK9_miyoQHX0MaEZnOcl8TQsL-ZeQOURS02pPBlsFZgg6ytE4y0=w640-rj-e30-l100?.jpg</url>
-</image><image id="42">
-<url>http://lh3.googleusercontent.com/irqF0wU4wMZT6Hyt1m6uOqyEOzrS2q5hzUgF2ObxE58F0zGQZmFCDvPkmR1PvM7LCz1FwcPlu4Q-gpDc=w640-rj-e30-l100?.jpg</url>
-</image><image id="43">
-<url>http://lh3.googleusercontent.com/SBchHdGUqxmMtg9w5KO-fFElkxH8S08PLm3n8w2Z_Uyhtz7DVlyV5slTnWQd54WojrzdOjFtO2rGXlgjUA=w640-rj-e30-l100?.jpg</url>
 </image>
 </images>
 </property><property>
@@ -19418,9 +19973,9 @@
 </image>
 </images>
 </property><property>
-<id>17652310</id>
-<date>2018-10-23 11:42:53</date>
-<ref>NEW-EH-7643</ref>
+<id>17650511</id>
+<date>2018-11-05 15:24:09</date>
+<ref>NEW-EI-7643</ref>
 <price>389900</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -19574,9 +20129,9 @@
 </image>
 </images>
 </property><property>
-<id>19422310</id>
-<date>2018-10-23 11:42:34</date>
-<ref>10-EG-0524</ref>
+<id>19420511</id>
+<date>2018-11-05 15:23:52</date>
+<ref>10-EH-0524</ref>
 <price>449000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -19817,9 +20372,9 @@
 </image>
 </images>
 </property><property>
-<id>19802410</id>
-<date>2018-10-24 12:19:51</date>
-<ref>24-6570</ref>
+<id>19800711</id>
+<date>2018-11-07 15:33:23</date>
+<ref>24-EF-6570</ref>
 <price>470000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -19958,9 +20513,9 @@
 </image>
 </images>
 </property><property>
-<id>19752210</id>
-<date>2018-10-22 14:13:49</date>
-<ref>NEW-0023</ref>
+<id>19750511</id>
+<date>2018-11-05 15:23:03</date>
+<ref>NEW-EF-0023</ref>
 <price>475000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -20116,9 +20671,9 @@
 </image>
 </images>
 </property><property>
-<id>63813834242375176332210</id>
-<date>2018-10-22 07:42:11</date>
-<ref>00-EG-7340</ref>
+<id>63813834242375176330511</id>
+<date>2018-11-05 15:23:53</date>
+<ref>00-EH-7340</ref>
 <price>499950</price>
 <price_freq>sale</price_freq>
 <type>
@@ -20383,6 +20938,45 @@
 </image>
 </images>
 </property><property>
+<id>19960711</id>
+<date>2018-11-07 08:51:34</date>
+<ref>NEW-0033</ref>
+<price>545000</price>
+<price_freq>new_build</price_freq>
+<type>
+<en>Detached Villa</en>
+</type>
+<town>San Miguel de Salinas</town>
+<province>Alicante</province>
+<location_detail>Las Colinas</location_detail>
+<beds>3</beds>
+<baths>2</baths>
+<pool>1</pool>
+<url>https://www.maxgoldhouse.com/3-bed-Detached-Villa-in-Las-Colinas-1996.html</url>
+<desc>
+<en>17 villas on big plots with modern and cozy interior design in a luxury residence  consisting of 3 phases: phase I consists of 7 villas on a single floor, phase II  consists of 4 villas on 2 levels, and phase III consists of another 6 villas. All villas  have a 31.5 sqm private pool, beautiful gardens. They are surrounded by  mediterranean forests and offer a quiet location with privacy and open views. The  villas come with 3 or 4 bedrooms, 2 or 2+1 bathrooms, spacious terraces (36 sqm),  solarium, private parking and communal green areas. All villas have central air  conditioning, underfloor heating in the bathrooms, home appliances, etc. Ask us  for more information or for a private viewing. We work in collaboration with the  builder.</en>
+<de>DE</de>
+<fr>FR</fr>
+<nl>NL</nl>
+</desc>
+<images>
+<image id="1">
+<url>http://lh3.googleusercontent.com/MSIqWXuIE2p1VvVPGATbRCNVMflpSgq-zYLOSsBDkl-GTsIf1NSp1pBrCYTwmGLB8umHi-LEgEDR2jt3=w640-rj-e30-l100?.jpg</url>
+</image><image id="2">
+<url>http://lh3.googleusercontent.com/s0pFfmCfFHaworl370Fy3glveOojJICNT9JLqlg4hIF3FPIEt0FP39KwsEmpcHBFUkfge-FlOsklZraSmA=w640-rj-e30-l100?.jpg</url>
+</image><image id="3">
+<url>http://lh3.googleusercontent.com/4Qch1u0L4tgVEpPxHzDUTatMiYgK40yCTILnAJOQYkawmkCUuJr7_4v4Lw2W4Fic9pFq4U2JYaqFLKFX0Q=w640-rj-e30-l100?.jpg</url>
+</image><image id="4">
+<url>http://lh3.googleusercontent.com/ELf2P6PcKlwcJRmqm8VXk3ihnkEY2CxUWqsUypyw1hxxKRiWxgYXWL0AtPWoPuhF-c1m0MIB93O2_sU1wA=w640-rj-e30-l100?.jpg</url>
+</image><image id="5">
+<url>http://lh3.googleusercontent.com/PUjZ4tX0Xdg-Tq_QlmbeVKLnUJ03O0QJ80N4I5kunipEsJvqm9K-q4ODmKJ_orzre5G9XUSLLB0FR3mxCA=w640-rj-e30-l100?.jpg</url>
+</image><image id="6">
+<url>http://lh3.googleusercontent.com/DGKuPOXkWZrC8e6E2Q7ET51zhkB1yAYNPx-eM0O-eoZWtk-hrFaka3NxMxyFW9E64ePUYsjR8fnK0Y5JpHc=w640-rj-e30-l100?.jpg</url>
+</image><image id="7">
+<url>http://lh3.googleusercontent.com/CBCfhflNEypWMEjpGQ-7z4fE2YhVwXyF15IBXi0dAA2nR5U_KPA3ReUUQvYmZGWR2ncrdcTZF8qzeGVEwQ=w640-rj-e30-l100?.jpg</url>
+</image>
+</images>
+</property><property>
 <id>17731210</id>
 <date>2018-10-12 09:37:34</date>
 <ref>NEW-EG-7647</ref>
@@ -20424,9 +21018,9 @@
 </image>
 </images>
 </property><property>
-<id>15992310</id>
-<date>2018-10-23 11:42:32</date>
-<ref>04-EG-0703</ref>
+<id>15990511</id>
+<date>2018-11-05 15:24:38</date>
+<ref>04-EH-0703</ref>
 <price>590000</price>
 <price_freq>sale</price_freq>
 <type>
@@ -20791,9 +21385,9 @@
 </image>
 </images>
 </property><property>
-<id>19772310</id>
-<date>2018-10-23 08:20:44</date>
-<ref>NEW-0024</ref>
+<id>19770511</id>
+<date>2018-11-05 15:23:03</date>
+<ref>NEW-EF-0024</ref>
 <price>1590000</price>
 <price_freq>new_build</price_freq>
 <type>
@@ -20860,9 +21454,9 @@
 </image>
 </images>
 </property><property>
-<id>17932910</id>
-<date>2018-10-29 08:40:46</date>
-<ref>04-EF-0745</ref>
+<id>17930611</id>
+<date>2018-11-06 17:28:57</date>
+<ref>04-EG-0745</ref>
 <price>1600000</price>
 <price_freq>sale</price_freq>
 <type>
