@@ -1,4 +1,5 @@
 #!/bin/bash
+date
 switch="$1"
 sudo pip install Jinja2
 echo 'Fetching data from mgh-props'
@@ -100,3 +101,4 @@ cd ~/src/mgh-live
 git clean -f -d -q
 echo 'git cleaned up'
 sudo pip uninstall Jinja2 --yes
+date
