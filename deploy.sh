@@ -1,6 +1,8 @@
 #!/bin/bash
 date
 switch="$1"
+echo "$1" 1>&2
+echo "$0"
 sudo pip install Jinja2
 echo 'Fetching data from mgh-props'
 python getdata.py
