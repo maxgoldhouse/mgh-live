@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{{title}}</title>
+<meta content="{{keywords}}" name="keywords" />
+<meta content="{{description}}" name="description" />
+<link rel="alternate" hreflang="en" href="https://www.maxgoldhouse.com/latest.html" />
+<link rel="alternate" hreflang="de" href="https://de.maxgoldhouse.com/neueste.html" />
+<link rel="alternate" hreflang="fr" href="https://fr.maxgoldhouse.com/ultimes.html" />
+<link rel="alternate" hreflang="nl" href="https://nl.maxgoldhouse.com/ultieme.html" />
+<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+<script type="text/javascript"></script>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.css">
+<link rel="stylesheet" href="/css/mgh.css?3">
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+<![endif]-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!--[if lte IE 9]>
+<script src="/js/jquery.html5-placeholder-shim.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="shortcut icon" href="/img/favicon.ico" />
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top" id="account_nav" role="navigation">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target=".account-nav-collapse" data-toggle="collapse" type="button">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/" id="navbar_logo">
+<img alt="MaxGoldHouse Logotype." src="/img/mghlogo.png" />
+</a>
+</div>
+<div class="collapse navbar-collapse account-nav-collapse">
+<ul class="nav navbar-nav navbar-left">
+<li class=""><a href="index.html">zu verkaufen</a></li>
+<li><a href="costa-blanca-Langfristige-Vermietungen-0.html">Langzeitmiete</a></li>
+<li><a href="kaufen-in-spanien.html">Kaufen in Spanien - wie geht das ?</a></li>
+<li><a href="datenschutzerklarung.html">Datenschutzerklarung</a></li>
+<li><a href="cookie-richtlinie.html">Cookie Richtlinie</a></li>
+</ul>
+
+<ul class="languagepicker large nav navbar-nav navbar-right lingo">
+  <a href="https://de.maxgoldhouse.com/neueste.html"><li><img src="//lh3.googleusercontent.com/kEyBIAzDf4lJtEXKBQyEqsnEgvyaNboEl_4vNL6ZWv_LYJ9P67G6zn3wjq6QGwtho6qjKADDviJW76Ul=s16">Deutsch &nbsp;▼</li></a> 
+	<a href="https://www.maxgoldhouse.com/latest.html"><li><span>English</span></li></a>
+	<a href="https://fr.maxgoldhouse.com/ultimes.html"><li><span>Français</span></li></a>
+	<a href="https://nl.maxgoldhouse.com/ultieme.html"><li><span>Nederlands</span></li></a>
+</ul>
+</div>
+</div>
+<div class="row" id="container">
+<div class="col-md-6 col-md-push-3" id="content">
+
+
+<h1 class="h6" id="home">Neuesten Immobilien zu verkaufen in Villamartin, Cabo Roig, Torrevieja, Playa Flamenca and Orihuela Costa Spain.</h1>
+
+<div class="xhidden-xs">
+<div class="panel panel-default" id="featured_properties">
+
+    <div id="topsix">
+
+        Neueste Immobilien-Angebote
+
+    </div>
+
+<div class="panel-body">
+<div class="row">
+<!-- Loop through topsix -->
+{% for item in props %}
+<div class="featured_property_wrap col-sm-4">
+<a href="{{ item['propurl'] }}" class="no_float property_thumb"><img alt="{{item['locationdetail']}} {{item['proptype']}} for {{item['saleorrent']}}" class="img-thumbnail featured_property_thumbnail" src="{{item['img']}}" title="{{item['locationdetail']}} {{item['proptype']}} for {{item['saleorrent']}}"></a>
+<ul>
+{% if item['propopt'] == 'MORTGAGE OFFER' %}
+<li class="propopt">Hypothek Angebot</li>
+{% endif %}
+<li><strong> {{item['price']}}</strong></li>
+<li>{{item['proptype']}}</li>
+<li>{{item['locationdetail']}}</li>
+</ul>
+<div class="col-sm-offset-1"><a href="{{item['propurl']}}"<button class="btn btn-warning">View</button></a></div>
+</div>
+{% if loop.index is divisibleby 3 %}
+</div>
+<div class="row">
+{% elif loop.last %}
+
+{% endif %}
+{% endfor %}
+</div>
+</div>
+</div>
+</div>
+<div id="aftertop6"><a href="villas-Ferienwohnungen-Stadthauser-und-fincas-zu-verkaufen-0.html"><button class="btn btn-warning pull-right">Weitere >></button></a></div>
+<div class="hidden-xs clearfix">
+
+</div>
+
+</div>
+<div class="col-md-3 col-md-pull-6" id="subnav">
+<div class="panel panel-default" id="search">
+  <div class="panel-heading">
+    <h3 class="panel-title">
+
+        Suche de.maxgoldhouse.com
+
+    </h3>
+  </div>
+<div class="panel-body">
+<form action="suche.html" method="GET">
+    Suche nach Ref<br/>
+    <select name="propref"><option value="No Ref">Wählen Sie Ref</option>{% include 'refsearch.html'%}</select>
+    <!--<input type="text" name="propref" placeholder="Suche nach Ref">-->
+  <input type="submit" value="Suche">
+</form>
+<h5>PREIS SUCHE</h5>
+<ul>
+<a targ="/budget/1" href="costa-blanca-Immobilien-fur-weniger-als-100000-0.html"><li>weniger als &euro;100,000&nbsp;&nbsp;</li></a>
+<a targ="/budget/2" href="costa-blanca-Immobilien-von-100000-bis-200000-0.html"><li>&euro;100,000-&euro;200,000&nbsp;&nbsp;</li></a>
+<a targ="/budget/3" href="costa-blanca-Immobilien-von-200000-bis-300000-0.html"><li>&euro;200,000-&euro;300,000&nbsp;&nbsp;</li></a>
+<a targ="/budget/4" href="costa-blanca-Immobilien-von-300000-bis-400000-0.html"><li>&euro;300,000-&euro;400,000&nbsp;&nbsp;</li></a>
+<a targ="/budget/5" href="costa-blanca-Immobilien-von-400000-bis-500000-0.html"><li>&euro;400,000-&euro;500,000&nbsp;&nbsp;</li></a>
+<a targ="/budget/6" href="costa-blanca-Immobilien-von-500000-bis-600000-0.html"><li>&euro;500,000-&euro;600,000&nbsp;&nbsp;</li></a>
+<a targ="/budget/7" href="costa-blanca-Immobilien-von-600000-bis-700000-0.html"><li>&euro;600,000-&euro;700,000&nbsp;&nbsp;</li></a>
+<a targ="/budget/8" href="costa-blanca-Immobilien-von-700000-bis-800000-0.html"><li>&euro;700,000-&euro;800,000&nbsp;&nbsp;</li></a>
+<a targ="/budget/9" href="costa-blanca-Immobilien-von-800000-bis-900000-0.html"><li>&euro;800,000-&euro;900,000&nbsp;&nbsp;</li></a>
+<a targ="/budget/9plus" href="costa-blanca-Immobilien-von-900000-0.html"><li>&nbsp;&nbsp;&euro;900,000 +&nbsp;&nbsp;</li></a>
+</ul>
+</div>
+</div>
+
+
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">
+      <span class="title_acts_as_h2">
+        Mehr Immobilien Finden
+      </span>
+    </h3>
+  </div>
+  <div class="panel-body"><p class="h5">SUCHE NACH IMMOBILIENTYP</p>
+<ul>
+<a targ="Type/Apartment" href="Ferienwohnungen-zu-verkaufen-costa-blanca-sud-0.html"><li>Apartment</li></a>
+<a targ="Type/Townhouse" href="Reihenhauser-zu-verkaufen-costa-blanca-sud-0.html"><li>Reihenh&auml;user</li></a>
+<a targ="Type/Semi-Detached-Villa" href="Doppelhaus-villa-zu-verkaufen-costa-blanca-sud-0.html"><li>Doppelhaus Villa</li></a>
+<a targ="Type/Detached-Villa" href="villas-zu-verkaufen-costa-blanca-south-0.html"><li>Villa</li></a>
+<a targ="Type/Quadhouse" href="quadhaus-zu-verkaufen-costa-blanca-sud-0.html"><li>Quadhaus</li></a>
+<a targ="Type/Fincas" href="Landliche-Landhauser-zu-verkaufen-costa-blanca-south-0.html"><li>L&auml;ndliche Landh&auml;user</li></a>
+<a targ="Type/Beachfront" href="Strand-Immobilien-costa-blanca-sud-0.html"><li>Strand Immobilien</li></a>
+<a targ="Type/Golf" href="golf-Immobilien-costa-blanca-sud-0.html"><li>Golf Immobilien</li></a>
+<a targ="Type/business" href="costa-blanca-Gewerbeimmobilien-0.html"><li>Gewerbeimmobilien</li></a>
+<a targ="Type/KeyReady" href="neue-Hauser-costa-blanca-sud-0.html"><li>neue H&auml;user</li></a>
+<a targ="Type/Penthouse" href="penthouse-Ferienwohnungen-costa-blanca-sud-0.html"><li>Penthouse</li></a>
+
+<a targ="Type/Luxury" href="Luxus-Immobilien-costa-blanca-sud-0.html"><li>Luxus Immobilien</li></a>
+</ul>
+<p class="h5">BELIEBTE SUCHBEGRIFFE</p>
+<ul>
+<a targ="popular/top6" href="index.html"><li>Schn&auml;ppchen</li></a>
+<a targ="popular/OrihuelaCosta" href="orihuela-costa-Immobilien-costa-blanca-sud-0.html"><li>Orihuela Costa</li></a>
+<a targ="popular/Villamartin" href="villamartin-Immobilien-costa-blanca-sud-0.html"><li>Villamartin</li></a>
+<a targ="popular/PlayaFlamenca" href="playa-flamenca-Immobilien-costa-blanca-sud-0.html"><li>Playa Flamenca</li></a>
+<a targ="popular/CaboRiog" href="cabo-roig-Immobilien-costa-blanca-sud-0.html"><li>Cabo Roig</li></a>
+<a targ="popular/Guardamar" href="guardamar-del-segura-Immobilien-costa-blanca-sud-0.html"><li>Guardamar del Segura</li></a>
+<a targ="popular/Quesada" href="quesada-Immobilien-costa-blanca-sud-0.html"><li>Ciudad Quesada</li></a>
+<a targ="popular/LaZenia" href="la-zenia-Immobilien-costa-blanca-sud-0.html"><li>La Zenia</li></a>
+<a targ="popular/LosBalcones" href="los-balcones-Immobilien-costa-blanca-sud-0.html"><li>Los Balcones</li></a>
+<a targ="popular/PuntaPrima" href="punta-prima-Immobilien-costa-blanca-sud-0.html"><li>Punta Prima</li></a>
+<a targ="popular/PilardelaHoradada" href="pilar-de-la-horadada-Immobilien-costa-blanca-sud-0.html"><li>Pilar de la Horadada</li></a>
+<a targ="popular/TorredelaHoradada" href="torre-de-la-horadada-Immobilien-costa-blanca-sud-0.html"><li>Torre de la Horadada</li></a>
+</ul>
+</div>
+
+</div>
+
+
+</div>
+<div class="col-md-3" id="sidebar">
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">
+      <span class="title_acts_as_h3">
+        Contact MaxGoldHouse
+      </span>
+    </h3>
+  </div>
+  <div class="panel-body">
+  <p class="weneed">
+   Haben Sie Immobilien zu verkaufen?<br/>
+   Wir suchen f&uuml;r Barzahlungs-Kunden dringend gute Immobilien
+  </p>
+<div class="contact-text"><b>Verkauf</b><br>Ellen Van den Broek<br><a href="mailto:ellen@maxgoldhouse.com">ellen@maxgoldhouse.com</a><br><img class="tight" src="img/handy.jpg"> +34&nbsp;657 612 295</div>
+<div class="contact-text"><b>Verwaltung</b><br>Manfred Ohl<br><a href="mailto:manfred@maxgoldhouse.com">manfred@maxgoldhouse.com</a><br><img class="tight" src="img/handy.jpg"> +34 608 826 850<br><img class="tight" src="img/handy.jpg"> +49 170 64 067 23</div>
+<div class="contact-text"><b>Office</b> <br>Centro Comercial Rioja No. 45 - Villamartin Golf<br>Calle Magallanes / corner Calle Manuel de Falla s/n <br>03189 Orihuela  (Alicante)<br><img class="tight" src="img/phone.jpg">: +34 966 765 497<br/>
+<a target="_blank" href="https://www.google.com/maps/d/u/0/viewer?ll=37.93819,-0.753486&iwloc=0004d407c9d5045bb72fc&msa=0&spn=0.014622,0.027874&mid=zXjUEAzLh6Lk.kiblnLb9tKe8"><img src="//lh4.googleusercontent.com/-jLG-LJ7kFm4/UQFavzTfm3I/AAAAAAAAFCQ/Z_26eqEyAd0/s40/showmap.jpg" style="border:none;padding:0px;margin:0px;" title="See office location on Google maps"></a>
+</div>
+</div>
+</div>
+<div id="monbuts"></div>
+</div>
+</div>
+<script src="js/largefrontpage.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-140979-6', 'auto');
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!-- START PROPERTY -->
+{% for item in props %}
+  <div class="property">
+    <div class="panel panel-default" id="property_box_{{ item['propid'] }}">
+      <div class="panel-heading">
+        <h3 class="panel-title">{{ item['price'] }} <a href="{{ item['propurl'] }}">{{item['locationdetail']}} {{item['proptype']}} {{item['saleorrent']}} ref: {{item['propref']}}</a></h3>
+      </div>
+
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-sm-5 col-xs-12">
+            <a class="btn-block thumbnail_link" href="{{ item['propurl'] }}">
+            {% if item['underoffersold'] == '2' %} <div class="sold soldlist">VERKAUFT</div> {% elif item['underoffersold'] == '3' %} <div class="rented rentedlist">VERMIETET</div> {% elif item['underoffersold'] == '1' %} <div class="stc stclist">Angebot gemacht</div> {% endif %}
+            <img alt="{{item['locationdetail']}} {{item['proptype']}}: {{item['locationdetail']}} {{item['proptype']}} {{item['saleorrent']}}" class="img-thumbnail property_thumbnail" src="{{item['img']}}"></a>
+          </div>
+
+          <div class="col-sm-7 col-xs-12">
+            <div class="details">
+              <div class="amenities">
+                <h2 class="h5">{{item['beds']}} Schlafz | {{item['baths']}} Bad</h2>
+              </div>
+
+              <p class="description">{{item['description']}}...</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="favlink" data-remote="true" data-shortlist="{{ item['propid'] }}"></div>
+          </div>
+
+          <div class="col-xs-6">
+            <div class="text-right">
+             <div><a href="{{ item['propurl'] }}"<button class="btn btn-warning">View</button></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  <!-- END PROPERTY -->
