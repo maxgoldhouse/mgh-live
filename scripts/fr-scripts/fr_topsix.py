@@ -30,6 +30,7 @@ allprops['props'] = []
 thetopsix = _mgh_data.proplists['topsix']
 for fetchprop in thetopsix:
 	row = _mgh_data.props[str(fetchprop)]
+	print row['pid']
 	fr_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['fr']
 	propurl = '/'+str(row['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e').replace('â','a')+'-a-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
 	if row['rental'] == 'True':
