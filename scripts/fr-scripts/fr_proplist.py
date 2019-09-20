@@ -51,6 +51,7 @@ for rubrun in _all_rubrunsdata.rubruns:
 	for propinlist in _mgh_data.proplists[rubrun['rubrun']]:
 		rowcount = rowcount + 1
 		row = _mgh_data.props[str(propinlist)]
+		print row['pid']
 		fr_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['fr']
 		propurl = '/'+str(row['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e').replace('â','a')+'-a-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
 		if row['rental'] == 'True':
