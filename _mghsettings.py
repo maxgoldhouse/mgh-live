@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+NEWEN_SITEDIR = "./deploy/NEWEN/static/"
+NEWEN_TEMPLATEFOLDER = "./templates/NEW-en-templates/"
 EN_SITEDIR = "./deploy/EN/static/"
 EN_TEMPLATEFOLDER = "./templates/en-templates/"
 DE_SITEDIR = "./deploy/DE/static/"
