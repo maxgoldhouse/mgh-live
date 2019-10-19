@@ -81,7 +81,7 @@ border-color: #f0ae51;
 #topsix{text-align: center; font-size: 48px;font-weight: bold; color:#f0ad4e;}
 .weneed{width: 90%;margin-bottom: 20px;border-top: 5px solid #E1B546;border-bottom: 5px solid #E1B546;padding: 6px;color: red;}
 .propopt{color:red; font-weight:bold;}
-
+.brochure{padding: 15px; border: 2px solid #ddd; border-radius: 4px;}
 
 #easteroffer{text-align: center}
 #offerends{font-size:9px;}
