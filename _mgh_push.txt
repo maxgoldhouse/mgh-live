@@ -1,1 +1,1 @@
-mgh-admin pushDataToGitHub published from MGHprops--skip-ci by dklongley
+mgh-admin pushDataToGitHub published from MGHprops by dklongley
