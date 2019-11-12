@@ -95,8 +95,9 @@ Make an enquiry
 <input id="source" name="formname" type="hidden" value="MGH Property Enquiry {{propref}}">
 </form>
 <br/>
-
+{% if underoffersold == '0' %}
 <a href="https://images.weserv.nl/?url=https://storage.googleapis.com/xousian.appspot.com/{{propref}}/{{propref}}.pdf&page=1&w=1000&filename={{propref |replace("-", "")}}" target="_blank"><img class ="brochure" src="https://images.weserv.nl/?url=https://storage.googleapis.com/xousian.appspot.com/{{propref}}/{{propref}}.pdf&page=1&w=200"/><h4>View/Download Brochure</h4></a>
+{% endif %}
 </div>
 </div>
 </div>
