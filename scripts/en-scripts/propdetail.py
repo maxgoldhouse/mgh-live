@@ -6,6 +6,7 @@ sys.setdefaultencoding("utf8")
 sys.path.insert(0, './')
 import jinja2
 import os
+import time
 import _mghsettings
 import _mgh_data
 
@@ -99,6 +100,7 @@ for prop in _mgh_data.props:
 	propdict['firstimg'] = firsturl
 	propdict['images'] = picurldictlist #prop['slide'],prop['src']
 	propdict['moredetails'] = thisprop['moredetails']
+	propdict['timestamp'] = str(int(time.time()))
 
 	#if thisprop.has_key("moredetails"):
 	#	propdict['moredetails'] = thisprop['moredetails']
