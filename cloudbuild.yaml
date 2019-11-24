@@ -1,6 +1,6 @@
 steps:
   - id: 'build NEWEN'
-    name: 'ubuntu'
+    name: gcr.io/mgh-en/build-new-en
     args: ['bash', './scripts/NEW-en-scripts/deploy.sh']
   - id: 'gcloud deploy app'
     name: gcr.io/cloud-builders/gcloud-slim
