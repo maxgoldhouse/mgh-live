@@ -9,4 +9,4 @@ RUN apk add --update --no-cache \
     rm -r /root/.cache && \
     pip install jinja2
 
-CMD ["bash", "./scripts/NEW-en-scripts/deploy.sh"]
+ENTRYPOINT ["bash", "./scripts/NEW-en-scripts/deploy.sh"]
