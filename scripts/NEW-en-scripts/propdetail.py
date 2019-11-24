@@ -107,5 +107,5 @@ for prop in _mgh_data.props:
 
 	outputText = template.render(propdict)
 	file = open(_mghsettings.NEWEN_SITEDIR+pagename+".html", "w")
-	file.write(outputText)
+	file.write(outputText.encode('utf-8'))
 	file.close()
