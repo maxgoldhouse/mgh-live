@@ -2,11 +2,14 @@ FROM alpine:3.10
 
 RUN apk add --update --no-cache \
     bash \
-    python && \
-    python -m ensurepip && \
+    python3 && \
+    if [ ! -e /usr/bin/python ]; then ln -sf python3 /usr/bin/python ; fi && \
+    \
+    
+    python3 -m ensurepip && \
     rm -r /usr/lib/python*/ensurepip && \
-    pip install --upgrade pip setuptools && \
-    rm -r /root/.cache && \
-    pip install jinja2
+    pip3 install --no-cache --upgrade pip setuptools wheel && \
+    if [ ! -e /usr/bin/pip ]; then ln -s pip3 /usr/bin/pip ; fi
+    pip3 install --upgrade jinja2
 
 ENTRYPOINT ["bash", "./scripts/NEW-en-scripts/deploy.sh"]
