@@ -1,6 +1,5 @@
 #!/bin/bash
 date
-sudo pip install Jinja2
 echo 'Fetching data from mgh-props'
 python getdata.py
 echo 'Data fetched'
@@ -13,5 +12,4 @@ python ./scripts/NEW-en-scripts/proplist.py
 echo 'NEW proplist EN fin'
 python scripts/NEW-en-scripts/propdetail.py
 echo 'NEW propdetail EN fin'
-sudo pip uninstall Jinja2 --yes
 date
