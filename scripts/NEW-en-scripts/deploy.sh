@@ -12,4 +12,5 @@ python ./scripts/NEW-en-scripts/proplist.py
 echo 'NEW proplist EN fin'
 python scripts/NEW-en-scripts/propdetail.py
 echo 'NEW propdetail EN fin'
+echo 'All Done'
 date
