@@ -12,4 +12,4 @@ RUN apk add --update --no-cache \
     if [ ! -e /usr/bin/pip ]; then ln -s pip3 /usr/bin/pip ; fi && \
     pip3 install --upgrade jinja2
 
-ENTRYPOINT ["bash", "./scripts/NEW-en-scripts/deploy.sh"]
+ENTRYPOINT ["bash", "deploy-new-en.sh"]
