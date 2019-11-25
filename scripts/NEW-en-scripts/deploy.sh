@@ -14,6 +14,7 @@ echo 'Data fetched'
 #echo 'NEW propdetail EN fin'
 
 echo 'NEW ENGLISH FRENCH'
+cp refsearch.html ./templates/fr-templates/refsearch.html
 python ./scripts/fr-scripts/fr_topsix.py
 echo 'NEW topsix EN fin'
 python ./scripts/fr-scripts/fr_latest.py
