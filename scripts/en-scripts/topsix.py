@@ -1,5 +1,9 @@
 #!/usr/bin/python
-
+# -*- coding: utf-8 -*-
+import sys
+reload(sys);
+sys.setdefaultencoding("utf8")
+sys.path.insert(0, './')
 import jinja2
 import os
 import _all_rubrunsdata
