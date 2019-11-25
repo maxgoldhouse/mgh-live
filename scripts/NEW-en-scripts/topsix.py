@@ -2,9 +2,9 @@
 
 import jinja2
 import os
-import _all_rubrunsdata
-import _mghsettings
-import _mgh_data
+from . import _all_rubrunsdata
+from . import _mghsettings
+from . import _mgh_data
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
