@@ -24,4 +24,5 @@ echo 'NEW proplist EN fin'
 python scripts/fr-scripts/fr_propdetail.py
 echo 'NEW propdetail EN fin'
 echo 'All Done FRENCH'
+
 date
