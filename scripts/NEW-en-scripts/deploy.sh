@@ -14,13 +14,13 @@ echo 'Data fetched'
 #echo 'NEW propdetail EN fin'
 
 echo 'NEW ENGLISH FRENCH'
-python ./scripts/fr-scripts/topsix.py
+python ./scripts/fr-scripts/fr_topsix.py
 echo 'NEW topsix EN fin'
-python ./scripts/fr-scripts/latest.py
+python ./scripts/fr-scripts/fr_latest.py
 echo 'NEW latest EN fin'
-python ./scripts/fr-scripts/proplist.py
+python ./scripts/fr-scripts/fr_proplist.py
 echo 'NEW proplist EN fin'
-python scripts/fr-scripts/propdetail.py
+python scripts/fr-scripts/fr_propdetail.py
 echo 'NEW propdetail EN fin'
 echo 'All Done FRENCH'
 date
