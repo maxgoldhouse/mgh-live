@@ -1,10 +1,14 @@
 #!/usr/bin/python
-
+# -*- coding: utf-8 -*-
+import sys
+reload(sys);
+sys.setdefaultencoding("utf8")
+sys.path.insert(0, './')
 import jinja2
 import os
-from ... import _all_rubrunsdata
-from ... import _mghsettings
-from ... import _mgh_data
+import _all_rubrunsdata
+import _mghsettings
+import _mgh_data
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
