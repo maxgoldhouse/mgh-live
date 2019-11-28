@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-NEWEN_SITEDIR = "./deploy/new-en/static/"
+NEWEN_SITEDIR = "./deploy/mgh-en/static/"
 NEWEN_TEMPLATEFOLDER = "./templates/NEW-en-templates/"
 EN_SITEDIR = "./deploy/EN/static/"
 EN_TEMPLATEFOLDER = "./templates/en-templates/"
