@@ -1,17 +1,17 @@
 #!/bin/bash
 date
-echo 'Fetching data from mgh-props'
+echo 'mgh-en deploy.sh Fetching data from mgh-props'
 python getdata.py
 echo 'Data fetched'
 echo 'NEW ENGLISH'
 python ./scripts/NEW-en-scripts/topsix.py
-echo 'NEW topsix EN fin'
+echo 'mgh-en deploy.sh NEW topsix EN fin'
 python ./scripts/NEW-en-scripts/latest.py
-echo 'NEW latest EN fin'
+echo 'mgh-en deploy.sh NEW latest EN fin'
 python ./scripts/NEW-en-scripts/proplist.py
-echo 'NEW proplist EN fin'
+echo 'mgh-en deploy.sh NEW proplist EN fin'
 python scripts/NEW-en-scripts/propdetail.py
-echo 'NEW propdetail EN fin'
+echo 'mgh-en deploy.sh NEW propdetail EN fin'
 date
 #echo 'NEW ENGLISH FRENCH'
 #cp refsearch.html ./templates/fr-templates/refsearch.html
@@ -24,4 +24,4 @@ date
 #python scripts/fr-scripts/fr_propdetail.py
 #echo 'NEW propdetail EN fin'
 #echo 'All Done FRENCH'
-#date
+##date
