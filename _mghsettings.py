@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 NEWEN_SITEDIR = "./deploy/NEWEN/static/"
 NEWEN_TEMPLATEFOLDER = "./templates/NEW-en-templates/"
-EN_SITEDIR = "./deploy/EN/static/"
+EN_SITEDIR = "./deploy/www-mgh-3/static/"
 EN_TEMPLATEFOLDER = "./templates/en-templates/"
 DE_SITEDIR = "./deploy/DE/static/"
 DE_TEMPLATEFOLDER = "./templates/de-templates/"
