@@ -2,6 +2,7 @@
 date
 echo 'www-mgh-3 deploy.sh Fetching data from mgh-props'
 python getdata.py
+cp refsearch.html ./templates/en-templates/refsearch.html
 echo 'Data fetched'
 echo 'NEW ENGLISH'
 python ./scripts/en-scripts/topsix.py
@@ -12,5 +13,4 @@ python ./scripts/en-scripts/proplist.py
 echo 'www-mgh-3 deploy.sh proplist EN fin'
 python ./scripts/en-scripts/propdetail.py
 echo 'www-mgh-3 deploy.sh propdetail EN fin'
-PROJECT_ID='www-mgh'
 date

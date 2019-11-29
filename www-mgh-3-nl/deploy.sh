@@ -3,6 +3,8 @@ date
 echo 'www-mgh-3-nl deploy.sh Fetching data from mgh-props'
 python getdata.py
 echo 'Data fetched'
+cp refsearch.html ./templates/nl-templates/refsearch.html
+cp refsearch.html ./templates/iv-nl-templates/refsearch.html
 echo 'NL'
 python ./scripts/nl-scripts/nl_topsix.py
 echo 'www-mgh-3-nl deploy.sh topsix EN fin'
