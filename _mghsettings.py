@@ -23,6 +23,7 @@ PPP = 200 #props per page
 
 trans_proptypes  = {}
 trans_proptypes['apartment'] = {'de':'Wohnung','nl':'Appartement','no':'Leilighet','es':'Apartamento','fr':'Appartement'}
+trans_proptypes['duplex'] = {'de':'duplex','nl':'duplex','no':'duplex','es':'duplex','fr':'duplex'}
 trans_proptypes['detached villa'] ={'de':'Freistehende Villa','nl':'Vrijstaande woning','no':'frittliggende Villa','es':'Chalet','fr':'Maison individuelle'}
 trans_proptypes['villa'] = {'de':'Villa','nl':'Villa','no':'Villa','es':'Chalet','fr':'Villa'}
 trans_proptypes['quadhouse'] = {'de':'Quadhouse','nl':'kwadranthuis','no':'Quadhouse','es':'Quadhouse','fr':'Maison a Quatre'}
