@@ -180,65 +180,105 @@
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
 
-//fetch the json from mgh_props.json
 function getQueryStringValue (key) {  
   return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));  
 } 
 
+//template engine
+!function(e){"use strict";var n=function(e,t){var r=/[^\w\-\.:]/.test(e)?new Function(n.arg+",tmpl","var _e=tmpl.encode"+n.helper+",_s='"+e.replace(n.regexp,n.func)+"';return _s;"):n.cache[e]=n.cache[e]||n(n.load(e));return t?r(t,n):function(e){return r(e,n)}};n.cache={},n.load=function(e){return document.getElementById(e).innerHTML},n.regexp=/([\s'\\])(?!(?:[^{]|\{(?!%))*%\})|(?:\{%(=|#)([\s\S]+?)%\})|(\{%)|(%\})/g,n.func=function(e,n,t,r,c,u){return n?{"\n":"\\n","\r":"\\r","\t":"\\t"," ":" "}[n]||"\\"+n:t?"="===t?"'+_e("+r+")+'":"'+("+r+"==null?'':"+r+")+'":c?"';":u?"_s+='":void 0},n.encReg=/[<>&"'\x00]/g,n.encMap={"<":"&lt;",">":"&gt;","&":"&amp;",'"':"&quot;","'":"&#39;"},n.encode=function(e){return(null==e?"":""+e).replace(n.encReg,function(e){return n.encMap[e]||""})},n.arg="o",n.helper=",print=function(s,e){_s+=e?(s==null?'':s):_e(s);},include=function(s,d){_s+=tmpl(s,d);}","function"==typeof define&&define.amd?define(function(){return n}):"object"==typeof module&&module.exports?module.exports=n:e.tmpl=n}(this);
+//adjust search prices
+function adjustprice(strprice, adjustment){
+   adjustedprice = parseInt(strprice) + adjustment;
+   return adjustedprice.toString();
+};
+
+//prepare querystring multivalues
+function prepqsmulti(QSPlaces){
+  var arrPlaces = QSPlaces.split(',');
+  for(i in arrPlaces){
+      arrPlaces[i] = '"'+arrPlaces[i]+'"'
+    };
+  var strPlaces = arrPlaces.join(', ');
+  return strPlaces;
+  };
 //get the querystring
-var findref = getQueryStringValue("propref").replace(/\+/g,"");
 
-$.getJSON("allprops.json", function(json) {
-for(var i in json)
-{
-     if( json[i].ref == findref){
-        
-        //window.location = 'https://www.maxgoldhouse.com'+json[i]['url']
-        console.log('https://www.maxgoldhouse.com'+json[i]['url'])
-        console.log('Selling Price '+json[i]['sprice'])
-        document.getElementById("propresults").innerHTML = tmpl("tmpl-demo", json[i]);
-        break;
-     };
-     document.getElementById("propresults").innerHTML = "<center><h2>"+findref+" not found</h2></center>"
-     
-}
+fetch('allprops.json')
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(json) {
+    console.log(JSON.stringify(json));
+  var propsdb = TAFFY(json);
+  var tafqry = [];
+  var theqry = ""
+  var outputHTML = ""
+//is it a ref search
+if(getQueryStringValue("propref")){
+  tafqry.push('"ref":"'+getQueryStringValue("propref").replace(/\+/g,"")+'"')
+  //console.log(tafqry.join(', '))
+  theqry = JSON.parse('{'+tafqry.join(', ')+'}')
+  //console.log(theqry)
 
-    ; // this will show the info it in firebug console  
+} else {
+//not ref search
+  tafqry.push('"price":{"!is":"SOLD"}')
+  if(getQueryStringValue("pt")){ tafqry.push('"type":['+prepqsmulti(getQueryStringValue("pt"))+']') } 
+  if (getQueryStringValue("gtp")){ tafqry.push('"gtprice":{"gt":'+adjustprice(getQueryStringValue("gtp"),-1)+'}') }
+  if(getQueryStringValue("ltp")){ tafqry.push('"ltprice":{"lt":'+adjustprice(getQueryStringValue("ltp"),1)+'}') }
+  if(getQueryStringValue("loc")){ tafqry.push('"location_detail":['+prepqsmulti(getQueryStringValue("loc").replace(/\+/g," "))+']') }
+  if(getQueryStringValue("beds")){tafqry.push('"beds":"'+getQueryStringValue("beds")+'"')}
+  console.log(tafqry.join(', '))
+  theqry = JSON.parse('{'+tafqry.join(', ')+'}')
+};
+//{ref:"AP1-2-V7369"}
+  var loc_list = ''
+// Query for the data
+  propsdb(theqry).each(function (r) {
+   //console.log(r.location_detail + "!");
+   loc_list = loc_list+'\n'+r.location_detail
+   
+   outputHTML = outputHTML+tmpl("tmpl-demo", r)
 });
+  //console.log(loc_list)
+  if(outputHTML ==""){outputHTML = "<center><h2> not found</h2></center>"}//"+findref+"
+  document.getElementById("propresults").innerHTML = outputHTML
 
+});
 </script>
 <script type="text/x-tmpl" id="tmpl-demo">
   <div class="property">
-    <div class="panel panel-default" id="property_box_[%=o.id%]">
+    <div class="panel panel-default" id="property_box_{%=o.id%}">
       <div class="panel-heading">
-        <h3 class="panel-title"><span class="pull-right"><span class='price_eur'>&euro;[%=o.enprice%]</span>   <span class="price_gbp"></span></span><a href="[%=o.url%]">[%=o.location_detail%] [%=o.type%] for sale ref: [%=o.ref%]</a></h3>
+        <h3 class="panel-title"><span class="pull-right"><span class='price_eur'>&euro;{%=o.enprice%}</span>   <span class="price_gbp"></span></span><a href="{%=o.url%}">{%=o.location_detail%} {%=o.type%} for sale ref: {%=o.ref%}</a></h3>
       </div>
 
       <div class="panel-body">
         <div class="row">
           <div class="col-sm-5 col-xs-12">
-            <a class="btn-block thumbnail_link" href="[%=o.url%]">
+            <a class="btn-block thumbnail_link" href="{%=o.url%}">
 
-            <img alt="[%=o.location_detail%]  [%=o.type%]: [%=o.location_detail%] [%=o.type%] for sale " class="img-thumbnail property_thumbnail" src="[%=o.thumb%]"></a>
+            <img alt="{%=o.location_detail%}  {%=o.type%}: {%=o.location_detail%} {%=o.type%} for sale " class="img-thumbnail property_thumbnail" src="{%=o.thumb%}"></a>
           </div>
 
           <div class="col-sm-7 col-xs-12">
             <div class="details">
               <div class="amenities">
-                <h2 class="h5">[%=o.beds%] beds | [%=o.baths%] baths</h2>
+                <h2 class="h5">{%=o.beds%} beds | {%=o.baths%} baths</h2>
               </div>
-               <p class="description">[%=o.desc%]....</p>
+               <p class="description">{%=o.desc%}....</p>
             </div>
           </div>
         </div>
 
         <div class="row">
           <div class="col-xs-6">
-            <div class="favlink" data-remote="true" data-shortlist="[%=o.id%]"></div>
+            <div class="favlink" data-remote="true" data-shortlist="{%=o.id%}"></div>
           </div>
+
           <div class="col-xs-6">
             <div class="text-right">
-             <div><a href="[%=o.url%]"<button class="btn btn-warning">View</button></a></div>
+             <div><a href="{%=o.url%}"<button class="btn btn-warning">View</button></a></div>
             </div>
           </div>
         </div>
