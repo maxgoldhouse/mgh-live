@@ -12,7 +12,7 @@ import _mgh_data
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
-templateLoader = jinja2.FileSystemLoader(_mghsettings.NEWEN_TEMPLATEFOLDER)
+templateLoader = jinja2.FileSystemLoader(_mghsettings.EN_TEMPLATEFOLDER)
 templateEnv = jinja2.Environment( loader=templateLoader )
 TEMPLATE_FILE = "topsixindex.jinja"
 
@@ -27,6 +27,11 @@ def removenonascci(text):
         text = text.replace(i, j)
     return text
 
+def getpropfirstpic(album):
+	myfile = open(_mghsettings.PICFOLDER+row['strpropertyid']+".pics","r")
+	mylines = list(myfile)
+	myfile.close()
+	return mylines[0].replace('/s0/','/s400/').replace('/s640/','/s400/')
 
 topsixdict['title'] = 'Villamartin Property for Sale, Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada Costa Blanca Spain'
 topsixdict['keywords'] = 'Villamartin Property for sale, Playa Flamenca, Cabo Roig, Guardamar del Segura and Ciudad Quesada'
@@ -48,9 +53,6 @@ for fetchprop in thetopsix:
     prop['propurl'] = propurl
     prop['locationdetail']=row['location']
     prop['proptype']=row['ptype']
-    prop['beds'] = row['beds']    
-    prop['baths'] = row['baths']
-    prop['propid'] = row['pid']
     prop['saleorrent']=saleorrent
     prop['underoffersold'] = row['salestage']
     if row['salestage'] == '0':
@@ -59,7 +61,7 @@ for fetchprop in thetopsix:
         prop['price'] = 'SOLD'
     else:
         prop['price'] = ''
-    #print 'prop processing '+prop['propid']
+    print 'prop processing '+prop['propid']
     prop['img'] = row['pics'][0].replace('/s0/','/w240-e30-v2/').replace('/s640/','/w240-e30-v2/').replace('=s640','=w240').replace('=w640','=w240')
     topsixdict['props'].append(prop)
 '''
@@ -67,36 +69,6 @@ for item in topsixdict['props']:
     for key in item:
     	print item[key]
 '''
-thelatest = _mgh_data.proplists['latest']
-for fetchprop in thelatest:
-    row = _mgh_data.props[str(fetchprop)]
-    propurl = '/'+str(row['beds'])+'-bed-'+row['ptype'].replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
-    if row['rental'] == 'True':
-    	saleorrent = 'rent'
-    else:
-    	saleorrent = 'sale'
-    prop = {}
-    #prop['propopt'] = row['strPropertyOptions']
-    prop['propid'] = row['pid']
-    prop['offplan'] = row['offplan']
-    prop['propurl'] = propurl
-    prop['locationdetail']=row['location']
-    prop['proptype']=row['ptype']
-    prop['beds'] = row['beds']    
-    prop['baths'] = row['baths']
-    prop['propid'] = row['pid']
-    prop['saleorrent']=saleorrent
-    prop['underoffersold'] = row['salestage']
-    if row['salestage'] == '0':
-        prop['price'] = "<span class='price_eur'>&euro;"+"{:,}".format(int(row['price']))+"</span> "
-    elif row['salestage'] == '2':
-        prop['price'] = 'SOLD'
-    else:
-        prop['price'] = ''
-    #print 'prop processing '+prop['propid']
-    prop['img'] = row['pics'][0].replace('/s0/','/w240-e30-v2/').replace('/s640/','/w240-e30-v2/').replace('=s640','=w240').replace('=w640','=w240')
-    topsixdict['props'].append(prop)
-
 ### ADD AN OFFER TO THE TOP 6-9 AREA
 #prop = {}
 #prop['proptype'] = 'mghoffer'
@@ -105,10 +77,10 @@ for fetchprop in thelatest:
 
 outputText = template.render(topsixdict)
 #print outputText
-file = open(_mghsettings.NEWEN_SITEDIR+"index.html", "w")
+file = open(_mghsettings.EN_SITEDIR+"index.html", "w")
 file.write(outputText)
 file.close()
-'''
+
 TEMPLATE_FILE = "allpropsindex.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
@@ -145,27 +117,26 @@ for eachprop in _mgh_data.proplists['All']:
         prop['frequency']= ''
     else:
     	prop['price'] = ''
-    #print 'allprops prop processing '+prop['propid']
+    print 'allprops prop processing '+prop['propid']
     prop['img'] = row['pics'][0].replace('/s0/','/w240-e30-v2/').replace('/s640/','/w240-e30-v2/').replace('=s640','=w240').replace('=w640','=w240')
     allprops['props'].append(prop)
-'''    
 '''
-#for item in allprops['props']:
-	#for key in item:
-		#print item[key]
-
+for item in allprops['props']:
+	for key in item:
+		print item[key]
+'''
 outputText = template.render(allprops)
 #print outputText
-file = open(_mghsettings.NEWEN_SITEDIR+"allindex.html", "w")
+file = open(_mghsettings.EN_SITEDIR+"allindex.html", "w")
 file.write(outputText)
 file.close()
-'''
+
 #Now lets make the JSON file for taffyDB
 TEMPLATE_FILE = "taffyDB.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
 outputText = template.render(allprops)
-file = open(_mghsettings.NEWEN_SITEDIR+"allprops.json", "w")
+file = open(_mghsettings.EN_SITEDIR+"allprops.json", "w")
 file.write(outputText)
 file.close()
 
@@ -174,7 +145,7 @@ TEMPLATE_FILE = "search.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
 outputText = template.render()
-file = open(_mghsettings.NEWEN_SITEDIR+"search.html", "w")
+file = open(_mghsettings.EN_SITEDIR+"search.html", "w")
 file.write(outputText)
 file.close()
 	

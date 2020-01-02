@@ -90,7 +90,7 @@ for eachprop in _mgh_data.proplists['kyero']:
 		prop['images'] = picurldictlist #prop['slide'],prop['src']
 		propdict['props'].append(prop)
 		outputText = template.render(propdict)
-		file = open(_mghsettings.NEWEN_SITEDIR+"b2kyero.xml", "w")
+		file = open(_mghsettings.EN_SITEDIR+"b2kyero.xml", "w")
 		file.write(outputText)
 		file.close()
 '''
