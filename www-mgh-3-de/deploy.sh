@@ -4,7 +4,7 @@ echo 'www-mgh-3-de  deploy.sh Fetching data from mgh-props'
 python getdata.py
 echo 'Data fetched'
 cp refsearch.html ./templates/de-templates/refsearch.html
-echo 'NEW ENGLISH'
+echo 'DE'
 python ./scripts/de-scripts/de_topsix.py
 echo 'www-mgh-3-de  deploy.sh topsix DE fin'
 python ./scripts/de-scripts/de_latest.py
