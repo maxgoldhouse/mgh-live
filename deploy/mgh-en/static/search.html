@@ -181,64 +181,82 @@
   ga('send', 'pageview');
 
 //fetch the json from mgh_props.json
-function getQueryStringValue (key) {  
-  return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));  
-} 
+fetch('allprops.json')
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(json) {
+    console.log(JSON.stringify(json));
+  var propsdb = TAFFY(json);
+  var tafqry = [];
+  var theqry = ""
+  var outputHTML = ""
+//is it a ref search
+if(getQueryStringValue("propref")){
+  tafqry.push('"ref":"'+getQueryStringValue("propref").replace(/\+/g,"")+'"')
+  //console.log(tafqry.join(', '))
+  theqry = JSON.parse('{'+tafqry.join(', ')+'}')
+  //console.log(theqry)
 
-//get the querystring
-var findref = getQueryStringValue("propref").replace(/\+/g,"");
-
-$.getJSON("allprops.json", function(json) {
-for(var i in json)
-{
-     if( json[i].ref == findref){
-        
-        //window.location = 'https://www.maxgoldhouse.com'+json[i]['url']
-        console.log('https://www.maxgoldhouse.com'+json[i]['url'])
-        console.log('Selling Price '+json[i]['sprice'])
-        document.getElementById("propresults").innerHTML = tmpl("tmpl-demo", json[i]);
-        break;
-     };
-     document.getElementById("propresults").innerHTML = "<center><h2>"+findref+" not found</h2></center>"
-     
-}
-
-    ; // this will show the info it in firebug console  
+} else {
+//not ref search
+  tafqry.push('"price":{"!is":"SOLD"}')
+  if(getQueryStringValue("pt")){ tafqry.push('"type":['+prepqsmulti(getQueryStringValue("pt"))+']') } 
+  if (getQueryStringValue("gtp")){ tafqry.push('"gtprice":{"gt":'+adjustprice(getQueryStringValue("gtp"),-1)+'}') }
+  if(getQueryStringValue("ltp")){ tafqry.push('"ltprice":{"lt":'+adjustprice(getQueryStringValue("ltp"),1)+'}') }
+  if(getQueryStringValue("loc")){ tafqry.push('"location_detail":['+prepqsmulti(getQueryStringValue("loc").replace(/\+/g," "))+']') }
+  if(getQueryStringValue("beds")){tafqry.push('"beds":"'+getQueryStringValue("beds")+'"')}
+  console.log(tafqry.join(', '))
+  theqry = JSON.parse('{'+tafqry.join(', ')+'}')
+};
+//{ref:"AP1-2-V7369"}
+  var loc_list = ''
+// Query for the data
+  propsdb(theqry).each(function (r) {
+   //console.log(r.location_detail + "!");
+   loc_list = loc_list+'\n'+r.location_detail
+   
+   outputHTML = outputHTML+tmpl("tmpl-demo", r)
 });
+  //console.log(loc_list)
+  if(outputHTML ==""){outputHTML = "<center><h2> not found</h2></center>"}//"+findref+"
+  document.getElementById("propresults").innerHTML = outputHTML
 
+});
 </script>
 <script type="text/x-tmpl" id="tmpl-demo">
   <div class="property">
-    <div class="panel panel-default" id="property_box_[%=o.id%]">
+    <div class="panel panel-default" id="property_box_{%=o.id%}">
       <div class="panel-heading">
-        <h3 class="panel-title"><span class="pull-right"><span class='price_eur'>&euro;[%=o.enprice%]</span>   <span class="price_gbp"></span></span><a href="[%=o.url%]">[%=o.location_detail%] [%=o.type%] for sale ref: [%=o.ref%]</a></h3>
+        <h3 class="panel-title"><span class="pull-right"><span class='price_eur'>&euro;{%=o.enprice%}</span>   <span class="price_gbp"></span></span><a href="{%=o.url%}">{%=o.location_detail%} {%=o.type%} for sale ref: {%=o.ref%}</a></h3>
       </div>
 
       <div class="panel-body">
         <div class="row">
           <div class="col-sm-5 col-xs-12">
-            <a class="btn-block thumbnail_link" href="[%=o.url%]">
+            <a class="btn-block thumbnail_link" href="{%=o.url%}">
 
-            <img alt="[%=o.location_detail%]  [%=o.type%]: [%=o.location_detail%] [%=o.type%] for sale " class="img-thumbnail property_thumbnail" src="[%=o.thumb%]"></a>
+            <img alt="{%=o.location_detail%}  {%=o.type%}: {%=o.location_detail%} {%=o.type%} for sale " class="img-thumbnail property_thumbnail" src="{%=o.thumb%}"></a>
           </div>
 
           <div class="col-sm-7 col-xs-12">
             <div class="details">
               <div class="amenities">
-                <h2 class="h5">[%=o.beds%] beds | [%=o.baths%] baths</h2>
+                <h2 class="h5">{%=o.beds%} beds | {%=o.baths%} baths</h2>
               </div>
-               <p class="description">[%=o.desc%]....</p>
+               <p class="description">{%=o.desc%}....</p>
             </div>
           </div>
         </div>
 
         <div class="row">
           <div class="col-xs-6">
-            <div class="favlink" data-remote="true" data-shortlist="[%=o.id%]"></div>
+            <div class="favlink" data-remote="true" data-shortlist="{%=o.id%}"></div>
           </div>
+
           <div class="col-xs-6">
             <div class="text-right">
-             <div><a href="[%=o.url%]"<button class="btn btn-warning">View</button></a></div>
+             <div><a href="{%=o.url%}"<button class="btn btn-warning">View</button></a></div>
             </div>
           </div>
         </div>
