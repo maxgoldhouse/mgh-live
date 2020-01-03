@@ -68,7 +68,7 @@ for item in thelatestdict['props']:
 '''
 outputText = template.render(thelatestdict)
 #print outputText
-file = open(_mghsettings.EN_SITEDIR+"latest.html", "w")
+file = open(_mghsettings.NEWEN_SITEDIR+"latest.html", "w")
 file.write(outputText)
 file.close()
 

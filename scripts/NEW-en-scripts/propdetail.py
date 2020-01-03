@@ -108,6 +108,6 @@ for prop in _mgh_data.props:
 	#	propdict['moredetails'] = ' end.'
 
 	outputText = template.render(propdict)
-	file = open(_mghsettings.EN_SITEDIR+pagename+".html", "w")
+	file = open(_mghsettings.NEWEN_SITEDIR+pagename+".html", "w")
 	file.write(outputText)
 	file.close()
