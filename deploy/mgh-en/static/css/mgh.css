@@ -35,6 +35,8 @@ footer a:hover{color:#ddd;}
 .bottom{align-items:flex-end;}
 .left{justify-content:flex-start;}
 .pad-8{padding:8px;}
+.pad-12{padding:12px;}
+.pad-16{padding:16px;}
 .pad-top-12{padding-top:12px;}
 .single-spaced, .single-spaced *{line-height:1;}
 input:invalid{border:1px dashed red;}
