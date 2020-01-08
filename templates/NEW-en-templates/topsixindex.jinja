@@ -118,7 +118,8 @@
 
         <div class="column">
                 <div class="field"><label class="label has-text-white">Location</label>
-                    <div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div>
+                <select name="propref"><option value="">Location</option>{% include 'distinctlocations.html'%}</select>
+                    <!--<div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
                 </div>
             </div>
          <div class="column">
