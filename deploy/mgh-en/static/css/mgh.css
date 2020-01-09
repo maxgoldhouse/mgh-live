@@ -64,6 +64,7 @@ ul#propfeatures li{display:inline-block;padding:0.5rem;}
 .xprice span{font-size:1.5rem;}
 .brochure{padding: 15px; border: 2px solid #ddd; border-radius: 4px;}
 #searchbar{background-color: navy;padding-top: 24px;}
+#search-button{padding-top:30px;}
 .vam{vertical-align: middle;}
 @media screen and (min-width:769px){#fpsearchformholder{margin: 20vh 0 20vh 0;} } /* tablet */
 @font-face {
