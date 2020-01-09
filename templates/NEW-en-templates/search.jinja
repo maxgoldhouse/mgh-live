@@ -102,7 +102,7 @@
    <script>(function(){var burger=document.querySelector('.burger');var nav=document.querySelector('#'+burger.dataset.target);burger.addEventListener('click',function(){burger.classList.toggle('is-active');nav.classList.toggle('is-active');});})();</script>
 </header>
 <section id="searchbar">
-<form action="search.html" method="GET">
+<form id="propsearch" action="search.html" method="GET">
 		      
 	<div class="columns"> <br/>
         <div class="column">
@@ -306,7 +306,7 @@ if(getQueryStringValue("propref")){
 } else {
 //not ref search
   tafqry.push('"price":{"!is":"SOLD"}')
-  if(getQueryStringValue("pt")){ tafqry.push('"type":['+prepqsmulti(getQueryStringValue("pt"))+']') } 
+  if(getQueryStringValue("pt")){ tafqry.push('"type":['+prepqsmulti(getQueryStringValue("pt"))+']'); } 
   if (getQueryStringValue("gtp")){ tafqry.push('"gtprice":{"gt":'+adjustprice(getQueryStringValue("gtp"),-1)+'}') }
   if(getQueryStringValue("ltp")){ tafqry.push('"ltprice":{"lt":'+adjustprice(getQueryStringValue("ltp"),1)+'}') }
   if(getQueryStringValue("loc")){ tafqry.push('"location_detail":['+prepqsmulti(getQueryStringValue("loc").replace(/\+/g," "))+']') }
