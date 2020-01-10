@@ -249,6 +249,12 @@ if(getQueryStringValue("propref")){
 <script type="text/x-tmpl" id="tmpl-demo">
   
       <div class="card column is-3-desktop is-6-mobile is-4-tablet has-text-centered">
+                    <div class="media">
+                  <div class="media-content">
+                      <p class="title is-5 has-text-centered">[%=o.type%]</p>
+                      <p class="subtitle is-6 has-text-centered">[%=o.location_detail%]</p>
+                  </div>
+              </div>
           <div class="card-image">
               <figure class="image is-4by3">
               <a href="[%=o.url%]">
@@ -257,12 +263,12 @@ if(getQueryStringValue("propref")){
               </figure>
           </div>
           <div class="card-content">
-              <div class="media">
+              <!--<div class="media">
                   <div class="media-content">
                       <p class="title is-5 has-text-centered">[%=o.type%]</p>
                       <p class="subtitle is-6 has-text-centered">[%=o.location_detail%]</p>
                   </div>
-              </div>
+              </div> -->
               <footer class="card-footer">
                   <p class="card-footer-item">
                       <span class="is-size-5 is-size-4-mobile">
