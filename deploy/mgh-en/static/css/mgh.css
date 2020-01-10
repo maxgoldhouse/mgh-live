@@ -67,6 +67,18 @@ ul#propfeatures li{display:inline-block;padding:0.5rem;}
 #searchbutton{padding-top: 30px;}
 #propsearch{height: 120%;}
 .vam{vertical-align: middle;}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 36px;
+  padding: 6px 12px;
+  color: #332627;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  background-image: none;
+  transition: border-color ease-in-out .15s;
+}
 @media screen and (min-width:769px){#fpsearchformholder{margin: 20vh 0 20vh 0;} } /* tablet */
 @font-face {
     font-family: 'FontAwesome';
