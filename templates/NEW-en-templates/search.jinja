@@ -224,7 +224,7 @@ if(getQueryStringValue("propref")){
   // {type:{likenocase:value}}
   
   //if(getQueryStringValue("pt")){ tafqry.push('"type":['+prepqsmulti(getQueryStringValue("pt"))+']');document.getElementById('pt').value = getQueryStringValue("pt");} 
-  if(getQueryStringValue("pt")){ tafqry.push('"type":{"likenocase":'+getQueryStringValue("pt")+'}');document.getElementById('pt').value = getQueryStringValue("pt");} 
+  if(getQueryStringValue("pt")){ tafqry.push('"type":{"likenocase":"'+getQueryStringValue("pt")+'"}');document.getElementById('pt').value = getQueryStringValue("pt");} 
   if (getQueryStringValue("gtp")){ tafqry.push('"gtprice":{"gt":'+adjustprice(getQueryStringValue("gtp"),-1)+'}');document.getElementById('gtp').value = getQueryStringValue("gtp"); }
   if(getQueryStringValue("ltp")){ tafqry.push('"ltprice":{"lt":'+adjustprice(getQueryStringValue("ltp"),1)+'}');document.getElementById('ltp').value = getQueryStringValue("ltp"); }
   if(getQueryStringValue("loc")){ tafqry.push('"location_detail":['+prepqsmulti(getQueryStringValue("loc").replace(/\+/g," "))+']'); document.getElementById('loc').value = getQueryStringValue("loc").replace("+", " "); } //
