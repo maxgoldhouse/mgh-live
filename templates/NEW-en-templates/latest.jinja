@@ -165,6 +165,12 @@
     <!-- 1 -->
   {% for item in props %}   
     <div class="card column is-3-desktop is-6-mobile is-4-tablet has-text-centered">
+                <div class=media>
+                <div class=media-content>
+                    <p class="title is-5 has-text-centered">{{item['proptype']}}</p>
+                    <p class="subtitle is-6 has-text-centered">{{item['locationdetail']}}</p>
+                </div>
+            </div>
         <div class="card-image">
             <figure class="image is-4by3">
             <a href="{{ item['propurl'] }}">
@@ -173,12 +179,7 @@
             </figure>
         </div>
         <div class=card-content>
-            <div class=media>
-                <div class=media-content>
-                    <p class="title is-5 has-text-centered">{{item['proptype']}}</p>
-                    <p class="subtitle is-6 has-text-centered">{{item['locationdetail']}}</p>
-                </div>
-            </div>
+
             <footer class=card-footer>
                 <p class=card-footer-item>
                     <span class=" is-size-5 is-size-4-mobile">
