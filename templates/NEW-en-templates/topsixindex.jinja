@@ -107,109 +107,60 @@
     <div class="columns is-centered">
 	
 
-<form id="propsearch" action="search.html" method="GET">
-		      
-	<div class="columns is-vcentered"> <br/>
-        <div class="column">
-                <div class="field"><label class="label has-text-white">Location</label>
-                <select id="loc" class="form-control" name="loc"><option value="">Location</option>{% include 'distinctlocations.html'%}</select>
-                    <!--<div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
-                </div>
-            </div>
-         <div class="column">
-             <div class="field"><label class="label has-text-white">Type of Home</label>
-             <!-- <input class="input" type="text" id="pt" name="pt" placeholder="Property Type"  length="20"> -->
-                      <div class="control">
-                      <select name="pt" class="form-control" id="pt" aria-label="Property type" readonly="">
-                        <option value="">Property type</option>
-                        <option value="Apartment">Apartment</option>
-                        <option value="Townhouse">Townhouse</option>
-                        <option value="Quadhouse">Quadhouse</option>
-                        <option value="Villa">Villa</option>
-                        <option value="Finca">Finca</option>
-                        <option value="Land">Land</option>
-                        <option value="Commercial">Commercial</option>
-                      </select>
-                      </div>
-             </div>
-         </div>
-         <div class="column">
-                <div class="field"><label class="label has-text-white">Bedrooms</label>
-                         <div class="control"><input class="input" type="text" id="beds" name="beds" placeholder="2"  length="20"></div>
-                </div>
-            </div>         
-        <div class="column">
-            <div class="field"><label class="label has-text-white">Min Price</label>
-            <!-- <input class="input" type="text" id="gtp" name="gtp" placeholder="Lowest Price"  length="20"> -->
-                <div class="control"><select name="gtp" class="form-control" id="gtp" aria-label="Min price" readonly=""><option value="">Min price</option><option value="0">€0</option><option value="50000">€50,000</option><option value="60000">€60,000</option><option value="70000">€70,000</option><option value="80000">€80,000</option><option value="90000">€90,000</option><option value="100000">€100,000</option><option value="110000">€110,000</option><option value="120000">€120,000</option><option value="125000">€125,000</option><option value="130000">€130,000</option><option value="140000">€140,000</option><option value="150000">€150,000</option><option value="160000">€160,000</option><option value="170000">€170,000</option><option value="175000">€175,000</option><option value="180000">€180,000</option><option value="190000">€190,000</option><option value="200000">€200,000</option><option value="210000">€210,000</option><option value="220000">€220,000</option><option value="230000">€230,000</option><option value="240000">€240,000</option><option value="250000">€250,000</option><option value="260000">€260,000</option><option value="270000">€270,000</option><option value="280000">€280,000</option><option value="290000">€290,000</option><option value="300000">€300,000</option><option value="325000">€325,000</option><option value="350000">€350,000</option><option value="375000">€375,000</option><option value="400000">€400,000</option><option value="425000">€425,000</option><option value="450000">€450,000</option><option value="475000">€475,000</option><option value="500000">€500,000</option><option value="550000">€550,000</option><option value="600000">€600,000</option><option value="650000">€650,000</option><option value="700000">€700,000</option><option value="800000">€800,000</option><option value="900000">€900,000</option><option value="1000000">€1,000,000</option><option value="1250000">€1,250,000</option><option value="1500000">€1,500,000</option><option value="1750000">€1,750,000</option><option value="2000000">€2,000,000</option><option value="2500000">€2,500,000</option><option value="3000000">€3,000,000</option><option value="4000000">€4,000,000</option><option value="5000000">€5,000,000</option><option value="7500000">€7,500,000</option><option value="10000000">€10,000,000</option><option value="15000000">€15,000,000</option><option value="20000000">€20,000,000</option></select></div>
-            </div>
-        </div>
-	      <div class="column">
-          <div class="field"><label class="label has-text-white">Max Price</label>
-          <!-- <input class="input" type="text" id="ltp" name="ltp" placeholder="Highest Price"  length="20"> -->
-            <div class="control"><select name="ltp" class="form-control" id="ltp" aria-label="Max price" readonly=""><option value="">Highest price</option><option value="50000">€50,000</option><option value="60000">€60,000</option><option value="70000">€70,000</option><option value="80000">€80,000</option><option value="90000">€90,000</option><option value="100000">€100,000</option><option value="110000">€110,000</option><option value="120000">€120,000</option><option value="125000">€125,000</option><option value="130000">€130,000</option><option value="140000">€140,000</option><option value="150000">€150,000</option><option value="160000">€160,000</option><option value="170000">€170,000</option><option value="175000">€175,000</option><option value="180000">€180,000</option><option value="190000">€190,000</option><option value="200000">€200,000</option><option value="210000">€210,000</option><option value="220000">€220,000</option><option value="230000">€230,000</option><option value="240000">€240,000</option><option value="250000">€250,000</option><option value="260000">€260,000</option><option value="270000">€270,000</option><option value="280000">€280,000</option><option value="290000">€290,000</option><option value="300000">€300,000</option><option value="325000">€325,000</option><option value="350000">€350,000</option><option value="375000">€375,000</option><option value="400000">€400,000</option><option value="425000">€425,000</option><option value="450000">€450,000</option><option value="475000">€475,000</option><option value="500000">€500,000</option><option value="550000">€550,000</option><option value="600000">€600,000</option><option value="650000">€650,000</option><option value="700000">€700,000</option><option value="800000">€800,000</option><option value="900000">€900,000</option><option value="1000000">€1,000,000</option><option value="1250000">€1,250,000</option><option value="1500000">€1,500,000</option><option value="1750000">€1,750,000</option><option value="2000000">€2,000,000</option><option value="2500000">€2,500,000</option><option value="3000000">€3,000,000</option><option value="4000000">€4,000,000</option><option value="5000000">€5,000,000</option><option value="7500000">€7,500,000</option><option value="10000000">€10,000,000</option><option value="15000000">€15,000,000</option><option value="20000000">€20,000,000</option></select></div>
-              </div>
-        </div>
 
-	      <div class="column" id="searchbutton"><input  class="button is-large is-info details" type="submit" value="Search"></div>
-    </div>
-    
-
-</form>
 		
 	<div class="xfpsearch xsticky" id="fpsearchformholder">
            <h1 class="is-size-4 has-text-white has-text-centered">Property For Sale in Villamartin, Cabo Roig, Torrevieja, Playa Flamenca and Orihuela Costa Spain. Find Yours Today</h1>
             
-	<div class="columns">
-       
-        <br/>
-
-        <div class="column">
-                <div class="field"><label class="label has-text-white">Location</label>
-                <select class="input" name="loc"><option value="">Location</option>{% include 'distinctlocations.html'%}</select>
-                    <!--<div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
+           <form id="propsearch" action="search.html" method="GET">
+		      
+            <div class="columns is-vcentered"> <br/>
+                <div class="column">
+                        <div class="field"><label class="label has-text-white">Location</label>
+                        <select id="loc" class="form-control" name="loc"><option value="">Location</option>{% include 'distinctlocations.html'%}</select>
+                            <!--<div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
+                        </div>
+                    </div>
+                 <div class="column">
+                     <div class="field"><label class="label has-text-white">Type of Home</label>
+                     <!-- <input class="input" type="text" id="pt" name="pt" placeholder="Property Type"  length="20"> -->
+                              <div class="control">
+                              <select name="pt" class="form-control" id="pt" aria-label="Property type" readonly="">
+                                <option value="">Property type</option>
+                                <option value="Apartment">Apartment</option>
+                                <option value="Townhouse">Townhouse</option>
+                                <option value="Quadhouse">Quadhouse</option>
+                                <option value="Villa">Villa</option>
+                                <option value="Finca">Finca</option>
+                                <option value="Land">Land</option>
+                                <option value="Commercial">Commercial</option>
+                              </select>
+                              </div>
+                     </div>
+                 </div>
+                 <div class="column">
+                        <div class="field"><label class="label has-text-white">Bedrooms</label>
+                                 <div class="control"><input class="input" type="text" id="beds" name="beds" placeholder="2"  length="20"></div>
+                        </div>
+                    </div>         
+                <div class="column">
+                    <div class="field"><label class="label has-text-white">Min Price</label>
+                    <!-- <input class="input" type="text" id="gtp" name="gtp" placeholder="Lowest Price"  length="20"> -->
+                        <div class="control"><select name="gtp" class="form-control" id="gtp" aria-label="Min price" readonly=""><option value="">Min price</option><option value="0">€0</option><option value="50000">€50,000</option><option value="60000">€60,000</option><option value="70000">€70,000</option><option value="80000">€80,000</option><option value="90000">€90,000</option><option value="100000">€100,000</option><option value="110000">€110,000</option><option value="120000">€120,000</option><option value="125000">€125,000</option><option value="130000">€130,000</option><option value="140000">€140,000</option><option value="150000">€150,000</option><option value="160000">€160,000</option><option value="170000">€170,000</option><option value="175000">€175,000</option><option value="180000">€180,000</option><option value="190000">€190,000</option><option value="200000">€200,000</option><option value="210000">€210,000</option><option value="220000">€220,000</option><option value="230000">€230,000</option><option value="240000">€240,000</option><option value="250000">€250,000</option><option value="260000">€260,000</option><option value="270000">€270,000</option><option value="280000">€280,000</option><option value="290000">€290,000</option><option value="300000">€300,000</option><option value="325000">€325,000</option><option value="350000">€350,000</option><option value="375000">€375,000</option><option value="400000">€400,000</option><option value="425000">€425,000</option><option value="450000">€450,000</option><option value="475000">€475,000</option><option value="500000">€500,000</option><option value="550000">€550,000</option><option value="600000">€600,000</option><option value="650000">€650,000</option><option value="700000">€700,000</option><option value="800000">€800,000</option><option value="900000">€900,000</option><option value="1000000">€1,000,000</option><option value="1250000">€1,250,000</option><option value="1500000">€1,500,000</option><option value="1750000">€1,750,000</option><option value="2000000">€2,000,000</option><option value="2500000">€2,500,000</option><option value="3000000">€3,000,000</option><option value="4000000">€4,000,000</option><option value="5000000">€5,000,000</option><option value="7500000">€7,500,000</option><option value="10000000">€10,000,000</option><option value="15000000">€15,000,000</option><option value="20000000">€20,000,000</option></select></div>
+                    </div>
                 </div>
-            </div>
-         <div class="column">
-             <div class="field"><label class="label has-text-white">Type of Home</label>
-                      <div class="control">
-                                            <select name="pt" class="form-control" id="pt" aria-label="Property type" readonly="">
-                        <option value="">Property type</option>
-                        <option value="Apartment">Apartment</option>
-                        <option value="Townhouse">Townhouse</option>
-                        <option value="Quadhouse">Quadhouse</option>
-                        <option value="Villa">Villa</option>
-                        <option value="Finca">Finca</option>
-                        <option value="Land">Land</option>
-                        <option value="Commercial">Commercial</option>
-                      </select>
+                  <div class="column">
+                  <div class="field"><label class="label has-text-white">Max Price</label>
+                  <!-- <input class="input" type="text" id="ltp" name="ltp" placeholder="Highest Price"  length="20"> -->
+                    <div class="control"><select name="ltp" class="form-control" id="ltp" aria-label="Max price" readonly=""><option value="">Highest price</option><option value="50000">€50,000</option><option value="60000">€60,000</option><option value="70000">€70,000</option><option value="80000">€80,000</option><option value="90000">€90,000</option><option value="100000">€100,000</option><option value="110000">€110,000</option><option value="120000">€120,000</option><option value="125000">€125,000</option><option value="130000">€130,000</option><option value="140000">€140,000</option><option value="150000">€150,000</option><option value="160000">€160,000</option><option value="170000">€170,000</option><option value="175000">€175,000</option><option value="180000">€180,000</option><option value="190000">€190,000</option><option value="200000">€200,000</option><option value="210000">€210,000</option><option value="220000">€220,000</option><option value="230000">€230,000</option><option value="240000">€240,000</option><option value="250000">€250,000</option><option value="260000">€260,000</option><option value="270000">€270,000</option><option value="280000">€280,000</option><option value="290000">€290,000</option><option value="300000">€300,000</option><option value="325000">€325,000</option><option value="350000">€350,000</option><option value="375000">€375,000</option><option value="400000">€400,000</option><option value="425000">€425,000</option><option value="450000">€450,000</option><option value="475000">€475,000</option><option value="500000">€500,000</option><option value="550000">€550,000</option><option value="600000">€600,000</option><option value="650000">€650,000</option><option value="700000">€700,000</option><option value="800000">€800,000</option><option value="900000">€900,000</option><option value="1000000">€1,000,000</option><option value="1250000">€1,250,000</option><option value="1500000">€1,500,000</option><option value="1750000">€1,750,000</option><option value="2000000">€2,000,000</option><option value="2500000">€2,500,000</option><option value="3000000">€3,000,000</option><option value="4000000">€4,000,000</option><option value="5000000">€5,000,000</option><option value="7500000">€7,500,000</option><option value="10000000">€10,000,000</option><option value="15000000">€15,000,000</option><option value="20000000">€20,000,000</option></select></div>
                       </div>
-             </div>
-         </div>
-         <div class="column">
-                <div class="field"><label class="label has-text-white">Bedrooms</label>
-                         <div class="control"><input class="input" type="text" name="beds" placeholder="2"  length="20"></div>
                 </div>
-            </div>         
-        <div class="column">
-            <div class="field"><label class="label has-text-white">Min Price</label>
-                                <div class="control"><select name="gtp" class="form-control" id="gtp" aria-label="Min price" readonly=""><option value="">Min price</option><option value="0">€0</option><option value="50000">€50,000</option><option value="60000">€60,000</option><option value="70000">€70,000</option><option value="80000">€80,000</option><option value="90000">€90,000</option><option value="100000">€100,000</option><option value="110000">€110,000</option><option value="120000">€120,000</option><option value="125000">€125,000</option><option value="130000">€130,000</option><option value="140000">€140,000</option><option value="150000">€150,000</option><option value="160000">€160,000</option><option value="170000">€170,000</option><option value="175000">€175,000</option><option value="180000">€180,000</option><option value="190000">€190,000</option><option value="200000">€200,000</option><option value="210000">€210,000</option><option value="220000">€220,000</option><option value="230000">€230,000</option><option value="240000">€240,000</option><option value="250000">€250,000</option><option value="260000">€260,000</option><option value="270000">€270,000</option><option value="280000">€280,000</option><option value="290000">€290,000</option><option value="300000">€300,000</option><option value="325000">€325,000</option><option value="350000">€350,000</option><option value="375000">€375,000</option><option value="400000">€400,000</option><option value="425000">€425,000</option><option value="450000">€450,000</option><option value="475000">€475,000</option><option value="500000">€500,000</option><option value="550000">€550,000</option><option value="600000">€600,000</option><option value="650000">€650,000</option><option value="700000">€700,000</option><option value="800000">€800,000</option><option value="900000">€900,000</option><option value="1000000">€1,000,000</option><option value="1250000">€1,250,000</option><option value="1500000">€1,500,000</option><option value="1750000">€1,750,000</option><option value="2000000">€2,000,000</option><option value="2500000">€2,500,000</option><option value="3000000">€3,000,000</option><option value="4000000">€4,000,000</option><option value="5000000">€5,000,000</option><option value="7500000">€7,500,000</option><option value="10000000">€10,000,000</option><option value="15000000">€15,000,000</option><option value="20000000">€20,000,000</option></select></div>
+        
+                  <div class="column" id="searchbutton"><input  class="button is-large is-info details" type="submit" value="Search"></div>
             </div>
-        </div>
-	  <div class="column">
-          <div class="field"><label class="label has-text-white">Max Price</label>
-            <div class="control"><select name="ltp" class="form-control" id="ltp" aria-label="Max price" readonly="">
-            <option value="">Highest price</option><option value="50000">€50,000</option><option value="60000">€60,000</option><option value="70000">€70,000</option><option value="80000">€80,000</option><option value="90000">€90,000</option><option value="100000">€100,000</option><option value="110000">€110,000</option><option value="120000">€120,000</option><option value="125000">€125,000</option><option value="130000">€130,000</option><option value="140000">€140,000</option><option value="150000">€150,000</option><option value="160000">€160,000</option><option value="170000">€170,000</option><option value="175000">€175,000</option><option value="180000">€180,000</option><option value="190000">€190,000</option><option value="200000">€200,000</option><option value="210000">€210,000</option><option value="220000">€220,000</option><option value="230000">€230,000</option><option value="240000">€240,000</option><option value="250000">€250,000</option><option value="260000">€260,000</option><option value="270000">€270,000</option><option value="280000">€280,000</option><option value="290000">€290,000</option><option value="300000">€300,000</option><option value="325000">€325,000</option><option value="350000">€350,000</option><option value="375000">€375,000</option><option value="400000">€400,000</option><option value="425000">€425,000</option><option value="450000">€450,000</option><option value="475000">€475,000</option><option value="500000">€500,000</option><option value="550000">€550,000</option><option value="600000">€600,000</option><option value="650000">€650,000</option><option value="700000">€700,000</option><option value="800000">€800,000</option><option value="900000">€900,000</option><option value="1000000">€1,000,000</option><option value="1250000">€1,250,000</option><option value="1500000">€1,500,000</option><option value="1750000">€1,750,000</option><option value="2000000">€2,000,000</option><option value="2500000">€2,500,000</option><option value="3000000">€3,000,000</option><option value="4000000">€4,000,000</option><option value="5000000">€5,000,000</option><option value="7500000">€7,500,000</option><option value="10000000">€10,000,000</option><option value="15000000">€15,000,000</option><option value="20000000">€20,000,000</option></select></div>
-        </div>
-    </div>
-
-	  <div class="column"><input class="button is-large is-info details" type="submit" value="Search"></div>
-    </div>
-    
-</div>
-</form>
-
-</div>
+            
+        
+        </form>
 </div>
 <!-- ##### END of Nav and Search ##### -->
 
