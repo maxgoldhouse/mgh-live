@@ -236,7 +236,7 @@ if(getQueryStringValue("propref")){
   var loc_list = ''
 // Query for the data
   propsdb(theqry).each(function (r) {
-   //console.log(r.location_detail + "!");
+   console.log(r.location_detail + " yap yap");
    loc_list = loc_list+'\n'+r.location_detail
    
    outputHTML = outputHTML+tmpl("tmpl-demo", r)

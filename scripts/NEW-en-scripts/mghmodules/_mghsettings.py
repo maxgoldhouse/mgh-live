@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 NEWEN_SITEDIR = "./deploy/mgh-en/static/"
 NEWEN_TESTDIR = "./deploy/mgh-en/static3/"

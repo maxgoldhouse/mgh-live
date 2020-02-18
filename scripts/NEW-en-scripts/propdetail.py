@@ -1,14 +1,16 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 import sys
-reload(sys);
-sys.setdefaultencoding("utf8")
-sys.path.insert(0, './')
+#-#reload(sys);
+#-#sys.setdefaultencoding("utf8")
+#-#sys.path.insert(0, './')
 import jinja2
 import os
 import time
-import _mghsettings
-import _mgh_data
+from mghmodules import _mghsettings
+from mghmodules import _mgh_data
+#import mghmodules._mghsettings
+#import mghmodules._mgh_data
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -108,6 +110,7 @@ for prop in _mgh_data.props:
 	#	propdict['moredetails'] = ' end.'
 
 	outputText = template.render(propdict)
-	file = open(_mghsettings.NEWEN_SITEDIR+pagename+".html", "w")
+	file = open(_mghsettings.NEWEN_TESTDIR+pagename+".html", "w")
+	#-#file = open(_mghsettings.NEWEN_SITEDIR+pagename+".html", "w")
 	file.write(outputText)
 	file.close()
