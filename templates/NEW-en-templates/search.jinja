@@ -97,115 +97,15 @@
 </ul>
 </div>
 </div>
-<div class="row" id="container">
-<div class="col-md-6 col-md-push-3" id="content">
-<h1 class="h6">Search Results</h1>
-<div class="columns is-mobile is-multiline search-jinja">
-  <div id="propresults">
-   <center><h2>S E A R C H I N G....</h2></center>
+<div class="" id="container">
+  <div class="" id="content">
+    <h1 class="h6">Search Results</h1>
+    <div class="columns is-multiline is-mobile search-mania">
+      <div id="propresults">
+        <center><h2>S E A R C H I N G....</h2></center>
+      </div>
+    </div>
   </div>
-</div>
-<div class="hidden-xs clearfix">
-
-</div>
-
-</div>
-<div class="col-md-3 col-md-pull-6" id="subnav">
-<div class="panel panel-default" id="search">
-  <div class="panel-heading">
-    <h3 class="panel-title">
-
-        Property search
-
-    </h3>
-  </div>
-<div class="panel-body">
-<form action="search.html" method="GET">
-  Choose Reference Number<br/>
-    <select name="propref"><option value="No Ref">Choose Ref</option>{% include 'refsearch.html'%}</select>
-  <input type="submit" value="Search">
-</form>
-<h5>SEARCH MOST POPULAR PLACES</h5>
-<ul>
-<a targ="popular/top6" href="index.html"><li>Top Six Offers</li></a>
-<a targ="popular/OrihuelaCosta" href="orihuela-costa-property-south-costa-blanca-0.html"><li>Orihuela Costa</li></a>
-<a targ="popular/Villamartin" href="villamartin-property-south-costa-blanca-0.html"><li>Villamartin</li></a>
-<a targ="popular/PlayaFlamenca" href="playa-flamenca-property-south-costa-blanca-0.html"><li>Playa Flamenca</li></a>
-<a targ="popular/CaboRiog" href="cabo-roig-property-south-costa-blanca-0.html"><li>Cabo Roig</li></a>
-<a targ="popular/Guardamar" href="guardamar-del-segura-property-south-costa-blanca-0.html"><li>Guardamar del Segura</li></a>
-<a targ="popular/Quesada" href="quesada-property-south-costa-blanca-0.html"><li>Ciudad Quesada</li></a>
-<a targ="popular/LaZenia" href="la-zenia-property-south-costa-blanca-0.html"><li>La Zenia</li></a>
-<a targ="popular/LosBalcones" href="los-balcones-property-south-costa-blanca-0.html"><li>Los Balcones</li></a>
-<a targ="popular/PuntaPrima" href="punta-prima-property-south-costa-blanca-0.html"><li>Punta Prima</li></a>
-<a targ="popular/PilardelaHoradada" href="pilar-de-la-horadada-property-south-costa-blanca-0.html"><li>Pilar de la Horadada</li></a>
-<a targ="popular/TorredelaHoradada" href="torre-de-la-horadada-property-south-costa-blanca-0.html"><li>Torre de la Horadada</li></a>
-</ul>
-<h5>SEARCH BY PRICE</h5>
-<ul>
-<a targ="/budget/1" href="costa-blanca-property-for-less-than-100000-0.html"><li>up to &euro;100,000&nbsp;&nbsp;</li></a>
-<a targ="/budget/2" href="costa-blanca-property-from-100000-to-200000-0.html"><li>&euro;100,000-&euro;200,000&nbsp;&nbsp;</li></a>
-<a targ="/budget/3" href="costa-blanca-property-from-200000-to-300000-0.html"><li>&euro;200,000-&euro;300,000&nbsp;&nbsp;</li></a>
-<a targ="/budget/4" href="costa-blanca-property-from-300000-to-400000-0.html"><li>&euro;300,000-&euro;400,000&nbsp;&nbsp;</li></a>
-<a targ="/budget/5" href="costa-blanca-property-from-400000-to-500000-0.html"><li>&euro;400,000-&euro;500,000&nbsp;&nbsp;</li></a>
-<a targ="/budget/6" href="costa-blanca-property-from-500000-to-600000-0.html"><li>&euro;500,000-&euro;600,000&nbsp;&nbsp;</li></a>
-<a targ="/budget/7" href="costa-blanca-property-from-600000-to-700000-0.html"><li>&euro;600,000-&euro;700,000&nbsp;&nbsp;</li></a>
-<a targ="/budget/8" href="costa-blanca-property-from-700000-to-800000-0.html"><li>&euro;700,000-&euro;800,000&nbsp;&nbsp;</li></a>
-<a targ="/budget/9" href="costa-blanca-property-from-800000-to-900000-0.html"><li>&euro;800,000-&euro;900,000&nbsp;&nbsp;</li></a>
-<a targ="/budget/9plus" href="costa-blanca-property-from-900000-0.html"><li>&nbsp;&nbsp;&euro;900,000 +&nbsp;&nbsp;</li></a>
-</ul>
-<h5>SEARCH BY PROPERTY TYPE</h5>
-<ul>
-<a targ="Type/Apartment" href="apartments-for-sale-costa-blanca-south-0.html"><li>Apartment</li></a>
-<a targ="Type/Townhouse" href="townhouses-for-sale-costa-blanca-south-0.html"><li>Townhouse</li></a>
-<a targ="Type/Semi-Detached-Villa" href="semidetached-villas-for-sale-costa-blanca-south-0.html"><li>Semi Detached Villa</li></a>
-<a targ="Type/Detached-Villa" href="villas-for-sale-costa-blanca-south-0.html"><li>Detached Villa</li></a>
-<a targ="Type/Quadhouse" href="quadhouses-for-sale-costa-blanca-south-0.html"><li>Quadhouse</li></a>
-<a targ="Type/Fincas" href="fincas-and-country-homes-for-sale-costa-blanca-south-0.html"><li>Fincas and Rural</li></a>
-<a targ="Type/Beachfront" href="beach-property-south-costa-blanca-0.html"><li>Beachfront</li></a>
-<a targ="Type/Golf" href="golf-property-south-costa-blanca-0.html"><li>Golf Property</li></a>
-<a targ="Type/business" href="costa-blanca-commercial-property-0.html"><li>Bar, Restaurant and Business</li></a>
-<a targ="Type/KeyReady" href="key-ready-homes-costa-blanca-south-0.html"><li>Key Ready and New</li></a>
-<a targ="Type/Penthouse" href="penthouse-apartments-south-costa-blanca-0.html"><li>Penthouse</li></a>
-<a targ="Type/Luxury" href="luxury-property-south-costa-blanca-0.html"><li>Luxury Property</li></a>
-</ul>
-
-
-</div>
-</div>
-
-
-
-</div>
-<!--</div> -->
-
-<div class="col-md-3" id="sidebar">
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">
-      <span class="title_acts_as_h3">
-        Contact MaxGoldHouse
-      </span>
-    </h3>
-  </div>
-  <div class="panel-body">
-<div class="contact-text">
-<b>Sales Director</b><br>Clare McColgan<br>
-<a href="mailto:clare@maxgoldhouse.com">clare@maxgoldhouse.com</a><br>
-<img class="tight" src="//lh3.googleusercontent.com/-OiXVhRTLXIk/WFfNY6nupDI/AAAAAAAAO-k/Fk6_7lg7fq8to2QqKhPyCxIdU7YqzqVQQCHM/s0-no-e365/handy.jpg"> +34 608 826 850 
-</div>
-<div class="contact-text">
-<b>Admin Director</b><br>Ellen Van den Broek<br>
-<a href="mailto:ellen@maxgoldhouse.com">ellen@maxgoldhouse.com</a><br>
-<img class="tight" src="//lh3.googleusercontent.com/-OiXVhRTLXIk/WFfNY6nupDI/AAAAAAAAO-k/Fk6_7lg7fq8to2QqKhPyCxIdU7YqzqVQQCHM/s0-no-e365/handy.jpg"> +34&nbsp;657 612 295
-</div>
-<div class="contact-text"><b>Office</b> <br>Centro Comercial Rioja No. 45 - Villamartin Golf<br>Calle Magallanes / corner Calle Manuel de Falla s/n <br>03189 Orihuela  (Alicante)<br><img class="tight" src="//www.maxgoldhouse.com/img/phone.jpg">: +34 966 765 497<br/>
-<a target="_blank" href="https://maps.google.co.uk/maps/ms?msid=215955433594709352234.0004d407c63dea6517858&amp;msa=0&amp;ll=37.93819,-0.753486&amp;spn=0.014622,0.027874&amp;iwloc=0004d407c9d5045bb72fc"><img src="//lh4.googleusercontent.com/-jLG-LJ7kFm4/UQFavzTfm3I/AAAAAAAAFCQ/Z_26eqEyAd0/s40/showmap.jpg" style="border:none;padding:0px;margin:0px;" title="See office location on Google maps"></a>
-</div>
-
-</div>
-</div>
-
-</div>
 </div>
 <!--[if lt IE 9]>
 <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
@@ -299,7 +199,7 @@ if(getQueryStringValue("propref")){
 
 <script type="text/x-tmpl" id="tmpl-demo">
   
-      <div class="card column is-2-desktop is-6-mobile is-4-tablet has-text-centered">
+      <div class="column is-2-desktop is-6-mobile is-4-tablet has-text-centered">
           <div class="card-image">
               <figure class="image is-4by3">
               <a href="[%=o.url%]">
