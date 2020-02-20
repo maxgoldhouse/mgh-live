@@ -89,6 +89,13 @@ for eachprop in _mgh_data.proplists['All']:
     row = _mgh_data.props[str(eachprop)]
     propurl = '/'+str(row['beds'])+'-bed-'+row['ptype'].replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
     prop = {}
+    if row['offplan'] == 'True':
+        prop['offeredas'] = 'new'
+    elif row['rental'] == 'True':
+        prop['offeredas'] = 'rental'
+    else:
+        prop['offeredas'] ='resale'
+
     prop['description'] = row['description'][:420]
     #if row['description'][:400][-1] == '\xc3':
     #    prop['description'] = row['description'][:397]
@@ -121,7 +128,8 @@ for eachprop in _mgh_data.proplists['All']:
         prop['frequency']= ''
     else:
     	prop['price'] = ''
-    print 'allprops prop processing '+prop['propurl']
+
+    print "allprops prop processing "+prop['propurl']
     prop['img'] = row['pics'][0].replace('/s0/','/w240-e30-v2/').replace('/s640/','/w240-e30-v2/').replace('=s640','=w240').replace('=w640','=w240')
     allprops['props'].append(prop)
 '''
