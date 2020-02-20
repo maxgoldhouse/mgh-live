@@ -11,6 +11,6 @@ echo 'www-mgh-3 deploy.sh topsix EN fin'
 ##-#echo 'www-mgh-3 deploy.sh latest EN fin'
 python ./scripts/en-scripts/proplist.py
 echo 'www-mgh-3 deploy.sh proplist EN fin'
-python3 ./scripts/en-scripts/propdetail.py
+python ./scripts/en-scripts/propdetail.py
 echo 'www-mgh-3 deploy.sh propdetail EN fin'
 date

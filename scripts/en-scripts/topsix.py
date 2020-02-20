@@ -91,7 +91,7 @@ for eachprop in _mgh_data.proplists['All']:
     prop = {}
     #prop['description'] = row['description'][:420]
     if row['description'][:400][-1] == '\xc3':
-        prop['description'] = row['description'][:399]
+        prop['description'] = row['description'][:397]
     else:
         prop['description'] = row['description'][:400]
     prop['offplan'] = row['offplan']

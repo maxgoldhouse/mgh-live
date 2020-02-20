@@ -51,7 +51,11 @@ for rub in _all_rubrunsdata.rubruns:
 		else:
 		  saleorrent = 'sale'
 		prop = {}
-		prop['description'] = thisprop['description'][:420]
+		if thisprop['description'][:400][-1] == '\xc3':
+			prop['description'] = thisprop['description'][:397]
+		else:
+			prop['description'] = thisprop['description'][:400]
+		#prop['description'] = thisprop['description'][:420]
 		prop['offplan'] = thisprop['offplan']
 		prop['beds'] = thisprop['beds']
 		prop['baths'] = thisprop['baths']
