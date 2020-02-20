@@ -352,7 +352,7 @@ function adjustprice(strprice, adjustment){
 
 //prepare querystring multivalues
 function prepqsmulti(QSPlaces){
-  var arrPlaces = decodeURIComponent(QSPlaces).replace(/\%2C/g,",").split('%2C');
+  var arrPlaces = decodeURIComponent(QSPlaces).replace(/\%2C/g,",").split(',');
   for(i in arrPlaces){
       arrPlaces[i] = '"'+arrPlaces[i]+'"'
     };
