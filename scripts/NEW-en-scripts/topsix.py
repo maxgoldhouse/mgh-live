@@ -91,6 +91,12 @@ for eachprop in _mgh_data.proplists['All']:
     row = _mgh_data.props[str(eachprop)]
     propurl = '/'+str(row['beds'])+'-bed-'+row['ptype'].replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
     prop = {}
+    if row['offplan'] == 'True':
+            prop['offeredas'] = 'new'
+    elif row['rental'] == 'True':
+        prop['offeredas'] = 'rental'
+    else:
+        prop['offeredas'] ='resale'
     prop['description'] = row['description'][:420]
     prop['offplan'] = row['offplan']
     prop['beds'] = row['beds']
