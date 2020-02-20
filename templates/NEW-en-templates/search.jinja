@@ -137,7 +137,7 @@
                                   <option value="Apartment">Apartment</option>
                                   <option value="Townhouse">Townhouse</option>
                                   <option value="Quadhouse">Quadhouse</option>
-                                  <option value="Villa,Semidetached Villa,Detached Villa">Villa</option>
+                                  <option value="Villa|Semidetached%20Villa|Detached%20Villa">Villa</option>
                                   <option value="Finca">Finca</option>
                                   <option value="Land">Land</option>
                                   <option value="Commercial">Commercial</option>
@@ -352,7 +352,7 @@ function adjustprice(strprice, adjustment){
 
 //prepare querystring multivalues
 function prepqsmulti(QSPlaces){
-  var arrPlaces = decodeURIComponent(QSPlaces).split(',');
+  var arrPlaces = decodeURIComponent(QSPlaces).replace(/\%2C/g,",").split('%2C');
   for(i in arrPlaces){
       arrPlaces[i] = '"'+arrPlaces[i]+'"'
     };
