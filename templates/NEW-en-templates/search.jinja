@@ -352,7 +352,7 @@ function adjustprice(strprice, adjustment){
 
 //prepare querystring multivalues
 function prepqsmulti(QSPlaces){
-  var arrPlaces = QSPlaces.split(',');
+  var arrPlaces = decodeURIComponent(QSPlaces).split(',');
   for(i in arrPlaces){
       arrPlaces[i] = '"'+arrPlaces[i]+'"'
     };
@@ -361,7 +361,7 @@ function prepqsmulti(QSPlaces){
   };
 
   function justlocdetail(QSloc){
-    var arrLoc = QSloc.split('|')
+    var arrLoc = decodeURIComponent(QSloc).split('|')
     return arrLoc[1]
   };
   
