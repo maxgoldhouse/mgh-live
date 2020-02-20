@@ -103,7 +103,212 @@
     <script>(function(){var burger=document.querySelector('.burger');var nav=document.querySelector('#'+burger.dataset.target);burger.addEventListener('click',function(){burger.classList.toggle('is-active');nav.classList.toggle('is-active');});})();</script>
 </header>
 
-    <h1 class="h6">Search Results</h1>
+    <div id="search-bar">
+    <form id="propsearch" action="search.html" method="GET">
+
+              <div class="columns is-vcentered">
+                  <br>
+                  <div class="column">
+                      <div class="field">
+                          <label class="label has-text-white">New/Resale/Rental</label>
+                          <select id="offeris" class="form-control" name="offeris">
+                              <option value="">All</option>
+                              <option value="New+Build">New Build</option>
+                              <option value="Resale">Resale</option>
+                              <option value="Long+Term+Rental">Long Term Rental</option>
+                          </select>
+                      </div>
+                  </div>
+                  <div class="column">
+                      <div class="field">
+                          <label class="label has-text-white">Location</label>
+                          <select id="loc" class="form-control" name="loc">
+                              <option value="">Location</option><option value="Costa Blanca S.|Acequion Beach|Alicante|Torrevieja">Acequion Beach</option><option value="Costa Blanca S.|Aguas Nuevas|Alicante|Torrevieja">Aguas Nuevas</option><option value="Costa Calida|Aguilas|Murcia|Aguilas">Aguilas</option><option value="Costa Blanca S.|Albatera|Alicante|Albatera">Albatera</option><option value="Costa Blanca N.|Alfaz del Pi|Alicante|Benidorm">Alfaz del Pi</option><option value="Costa Blanca S.|Algorfa|Alicante|Algorfa">Algorfa</option><option value="Costa Blanca S.|Almoradi|Alicante|Almoradi">Almoradi</option><option value="Costa Blanca N.|Altea|Alicante|Altea">Altea</option><option value="Costa Blanca S.|Benijofar|Alicante|Benijofar">Benijofar</option><option value="Costa Blanca N.|Benissa|Alicante|Benissa">Benissa</option><option value="Costa Blanca S.|Bigastro|Alicante|Orihuela">Bigastro</option><option value="Murcia|Blanca|Murcia|Blanca">Blanca</option><option value="Costa Blanca S.|Cabo Roig|Alicante|Orihuela Costa">Cabo Roig</option><option value="Costa Blanca S.|Campoamor|Alicante|Campoamor">Campoamor</option><option value="Costa Blanca S.|Campoamor|Alicante|Orihuela Costa">Campoamor</option><option value="Costa Blanca S.|Campoamor Golf|Alicante|Villamartin">Campoamor Golf</option><option value="Costa Blanca S.|Campoamor Golf|Alicante|Orihuela Costa">Campoamor Golf</option><option value="Murcia|Cartagena|Murcia|Cartagena">Cartagena</option><option value="Costa Blanca N.|Castalla|Alicante|Castalla">Castalla</option><option value="Costa Blanca S.|Catral|Alicante|Catral">Catral</option><option value="Costa Blanca S.|Ciudad Quesada|Alicante|Ciudad Quesada">Ciudad Quesada</option><option value="Costa Blanca S.|Ciudad Quesada|Alicante|Daya Vieja">Ciudad Quesada</option><option value="Costa Blanca S.|Ciudad Quesada|Alicante|Rojales">Ciudad Quesada</option><option value="Costa Blanca S.|Crevillente|Alicante|Crevillente">Crevillente</option><option value="Costa Blanca S.|Curva del Palangre|Alicante|Torrevieja">Curva del Palangre</option><option value="Costa Blanca S.|Daya Nueva|Alicante|Daya Nueva">Daya Nueva</option><option value="Costa Blanca S.|Daya Nueva|Alicante|Ciudad Quesada">Daya Nueva</option><option value="Costa Blanca S.|Daya Vieja|Alicante|Ciudad Quesada">Daya Vieja</option><option value="Costa Blanca S.|Dehesa de Campoamor|Alicante|Dehesa De Campoamor">Dehesa de Campoamor</option><option value="Costa Blanca S.|Dehesa de Campoamor|Alicante|Orihuela Costa">Dehesa de Campoamor</option><option value="Costa Blanca S.|Dolores|Alicante|Dolores">Dolores</option><option value="Costa Blanca S.|Dona Pepa|Alicante|Ciudad Quesada">Dona Pepa</option><option value="Costa Blanca S.|El Chaparral|Alicante|Torrevieja">El Chaparral</option><option value="Costa Blanca S.|El Galan|Alicante|San Miguel de Salinas">El Galan</option><option value="Costa Blanca S.|El Raso|Alicante|Guardamar del Segura">El Raso</option><option value="Costa Blanca S.|Elche|Alicante|Elche">Elche</option><option value="Costa Blanca N.|Finestrat|Alicante|Finestrat">Finestrat</option><option value="Costa Blanca S.|Formentera del Segura|Alicante|Formentera del Segura">Formentera del Segura</option><option value="Murcia|Gea y Truyols|Murcia|Gea y Truyols">Gea y Truyols</option><option value="Costa Blanca S.|Guardamar Beach|Alicante|Guardamar del Segura">Guardamar Beach</option><option value="Costa Blanca S.|Guardamar del Segura|Alicante|Guardamar del Segura">Guardamar del Segura</option><option value="Costa Blanca S.|Habaneras|Alicante|Torrevieja">Habaneras</option><option value="Costa Blanca S.|La Campaneta|Alicante|Orihuela">La Campaneta</option><option value="Costa Blanca S.|La Finca|Alicante|Algorfa">La Finca</option><option value="Costa Blanca S.|La Finca Golf|Alicante|Algorfa">La Finca Golf</option><option value="Costa Blanca S.|La Florida|Alicante|Orihuela Costa">La Florida</option><option value="Costa Blanca S.|La Harrada|Alicante|Los Montesinos">La Harrada</option><option value="Murcia|La Manga del Mar Menor|Murcia|Mar Menor">La Manga del Mar Menor</option><option value="Costa Blanca S.|La Mata|Alicante|Torrevieja">La Mata</option><option value="Costa Blanca S.|La Siesta|Alicante|Torrevieja">La Siesta</option><option value="Murcia|La Torre|Murcia|Torre Pacheo">La Torre</option><option value="Costa Blanca S.|La Torreta|Alicante|Torrevieja">La Torreta</option><option value="Costa Blanca S.|La Zenia|Alicante|La Zenia">La Zenia</option><option value="Costa Blanca S.|La Zenia|Alicante|Orihuela Costa">La Zenia</option><option value="Costa Blanca S.|Las Colinas|Alicante|Orihuela Costa">Las Colinas</option><option value="Costa Blanca S.|Las Colinas|Alicante|San Miguel de Salinas">Las Colinas</option><option value="Costa Blanca S.|Las Colinas Golf|Alicante|Orihuela Costa">Las Colinas Golf</option><option value="Costa Blanca S.|Las Ramblas|Alicante|Orihuela Costa">Las Ramblas</option><option value="Costa Blanca S.|Las Ramblas|Alicante|Villamartin">Las Ramblas</option><option value="Costa Blanca S.|Las Ramblas Golf|Alicante|Orihuela Costa">Las Ramblas Golf</option><option value="Costa Blanca S.|Lo Pagan|Alicante|San Pedro Del Pinatar">Lo Pagan</option><option value="Murcia|Lo Pagan|Murcia|Lo Pagan">Lo Pagan</option><option value="Costa Blanca S.|Lomas de Cabo Roig|Alicante|Orihuela Costa">Lomas de Cabo Roig</option><option value="Costa Blanca S.|Lomas de Cabo Roig|Alicante|Lomas de Cabo Roig">Lomas de Cabo Roig</option><option value="Mar Menor|Los Alcazares|Murcia|Los Alcazares">Los Alcazares</option><option value="Costa Blanca S.|Los Altos|Alicante|Torrevieja">Los Altos</option><option value="Costa Blanca S.|Los Balcones|Alicante|Torrevieja">Los Balcones</option><option value="Costa Blanca S.|Los Dolses|Alicante|Villamartin">Los Dolses</option><option value="Costa Blanca S.|Los Locos|Alicante|Torrevieja">Los Locos</option><option value="Costa Blanca S.|Los Locos Beach|Alicante|Torrevieja">Los Locos Beach</option><option value="Costa Blanca S.|Los Montesinos|Alicante|Los Montesinos">Los Montesinos</option><option value="Murcia|Los Urritias|Murcia|Los Urritias">Los Urritias</option><option value="Murcia|Mar Menor|Murcia|San Javier">Mar Menor</option><option value="Costa Blanca S.|Mil Palmeras|Alicante|Orihuela Costa">Mil Palmeras</option><option value="Costa Blanca S.|Mil Palmeras|Alicante|Mil Palmeras">Mil Palmeras</option><option value="Costa Blanca S.|Naufragos Beach|Alicante|Torrevieja">Naufragos Beach</option><option value="Costa Blanca S.|Nueva Torrevieja|Alicante|Torrevieja">Nueva Torrevieja</option><option value="Costa Blanca S.|Pilar de la Horadada|Alicante|Pilar de la Horadada">Pilar de la Horadada</option><option value="Costa Blanca S.|Pinar de Campoverde|Alicante|Pinar de Campoverde">Pinar de Campoverde</option><option value="Costa Blanca S.|Pinar de Campoverde|Alicante|Pilar de la Horadada">Pinar de Campoverde</option><option value="Costa Blanca S.|Playa Del Cura|Alicante|Torrevieja">Playa Del Cura</option><option value="Costa Blanca S.|Playa Flamenca|Alicante|Playa Flamenca">Playa Flamenca</option><option value="Costa Blanca S.|Playa Flamenca|Alicante|Orihuela Costa">Playa Flamenca</option><option value="Costa Blanca S.|Punta Prima|Alicante|Orihuela Costa">Punta Prima</option><option value="Costa Blanca S.|Punta Prima|Alicante|Torrevieja">Punta Prima</option><option value="Costa Blanca S.|Punta Prima|Alicante|Punta Prima">Punta Prima</option><option value="Costa Blanca S.|Rocio del Mar|Alicante|Orihuela Costa">Rocio del Mar</option><option value="Murcia|Roda Golf|Murcia|Los Alcazares">Roda Golf</option><option value="Murcia|Roda Golf|Murcia|San Javier">Roda Golf</option><option value="Costa Blanca S.|Rojales|Alicante|Ciudad Quesada">Rojales</option><option value="Costa Blanca S.|Rojales|Alicante|Rojales">Rojales</option><option value="Costa Blanca S.|San Fulgencio|Alicante|La Marina">San Fulgencio</option><option value="Murcia|San Javier|Murcia|San Javier">San Javier</option><option value="Costa Blanca S.|San Luis|Alicante|Torrevieja">San Luis</option><option value="Costa Blanca S.|San Miguel de Salinas|Alicante|San Miguel de Salinas">San Miguel de Salinas</option><option value="Murcia|San Pedro del Pinatar|Murcia|San Pedro del Pinatar">San Pedro del Pinatar</option><option value="Murcia|Santiago de la Ribera|Murcia|San Javier">Santiago de la Ribera</option><option value="Murcia|Santiago de la Ribera|Murcia|Santiago de la Ribera">Santiago de la Ribera</option><option value="Costa Blanca N.|Tibi|Alicante|Tibi">Tibi</option><option value="Costa Blanca S.|Torre de la Horadada|Alicante|Torre de la Horadada">Torre de la Horadada</option><option value="Costa Blanca S.|Torreta II|Alicante|Torrevieja">Torreta II</option><option value="Costa Blanca S.|Torrevieja|Alicante|Torrevieja">Torrevieja</option><option value="Murcia|Truyols|Murcia|Gea">Truyols</option><option value="Murcia|Valle del Sol|Murcia|Valle del Sol">Valle del Sol</option><option value="Costa Blanca S.|Villamartin|Alicante|Orihuela Costa">Villamartin</option><option value="Costa Blanca S.|Villamartin|Alicante|Villamartin">Villamartin</option><option value="Costa Blanca S.|Villamartin Golf|Alicante|Orihuela Costa">Villamartin Golf</option><option value="Costa Blanca S.|Villamartin Golf|Alicante|Villamartin">Villamartin Golf</option><option value="Costa Blanca S.|Vistabella Golf|Alicante|Los Montesinos">Vistabella Golf</option></select>
+                          <!--<div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
+                      </div>
+                  </div>
+                  <div class="column">
+                      <div class="field">
+                          <label class="label has-text-white">Type of Home</label>
+                          <!-- <input class="input" type="text" id="pt" name="pt" placeholder="Property Type"  length="20"> -->
+                          <div class="control">
+                              <select name="pt" class="form-control" id="pt" aria-label="Property type" readonly="">
+                                  <option value="">Property type</option>
+                                  <option value="Apartment">Apartment</option>
+                                  <option value="Townhouse">Townhouse</option>
+                                  <option value="Quadhouse">Quadhouse</option>
+                                  <option value="Villa">Villa</option>
+                                  <option value="Finca">Finca</option>
+                                  <option value="Land">Land</option>
+                                  <option value="Commercial">Commercial</option>
+                              </select>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="column">
+                      <div class="field">
+                          <label class="label has-text-white">Bedrooms</label>
+                          <div class="control">                             
+                                <select name="beds" class="form-control" id="beds" aria-label="Number of Bedrooms" readonly="">
+                                  <option value="">No. of Bedrooms</option>
+                                  <option value="0">0</option>
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                  <option value="5">5</option>
+                                  <option value="6">6</option>
+                                  <option value="7">7</option>
+                                  <option value="8">8</option>
+                                  <option value="9">9</option>
+                                  <option value="10">10</option>
+                                  <option value="11">11</option>
+                                  <option value="12&quot;">12</option>                                                                   
+                              </select>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="column">
+                      <div class="field">
+                          <label class="label has-text-white">Min Price</label>
+                          <!-- <input class="input" type="text" id="gtp" name="gtp" placeholder="Lowest Price"  length="20"> -->
+                          <div class="control">
+                              <select name="gtp" class="form-control" id="gtp" aria-label="Min price" readonly="">
+                                  <option value="">Min price</option>
+                                  <option value="0">€0</option>
+                                  <option value="50000">€50,000</option>
+                                  <option value="60000">€60,000</option>
+                                  <option value="70000">€70,000</option>
+                                  <option value="80000">€80,000</option>
+                                  <option value="90000">€90,000</option>
+                                  <option value="100000">€100,000</option>
+                                  <option value="110000">€110,000</option>
+                                  <option value="120000">€120,000</option>
+                                  <option value="125000">€125,000</option>
+                                  <option value="130000">€130,000</option>
+                                  <option value="140000">€140,000</option>
+                                  <option value="150000">€150,000</option>
+                                  <option value="160000">€160,000</option>
+                                  <option value="170000">€170,000</option>
+                                  <option value="175000">€175,000</option>
+                                  <option value="180000">€180,000</option>
+                                  <option value="190000">€190,000</option>
+                                  <option value="200000">€200,000</option>
+                                  <option value="210000">€210,000</option>
+                                  <option value="220000">€220,000</option>
+                                  <option value="230000">€230,000</option>
+                                  <option value="240000">€240,000</option>
+                                  <option value="250000">€250,000</option>
+                                  <option value="260000">€260,000</option>
+                                  <option value="270000">€270,000</option>
+                                  <option value="280000">€280,000</option>
+                                  <option value="290000">€290,000</option>
+                                  <option value="300000">€300,000</option>
+                                  <option value="325000">€325,000</option>
+                                  <option value="350000">€350,000</option>
+                                  <option value="375000">€375,000</option>
+                                  <option value="400000">€400,000</option>
+                                  <option value="425000">€425,000</option>
+                                  <option value="450000">€450,000</option>
+                                  <option value="475000">€475,000</option>
+                                  <option value="500000">€500,000</option>
+                                  <option value="550000">€550,000</option>
+                                  <option value="600000">€600,000</option>
+                                  <option value="650000">€650,000</option>
+                                  <option value="700000">€700,000</option>
+                                  <option value="800000">€800,000</option>
+                                  <option value="900000">€900,000</option>
+                                  <option value="1000000">€1,000,000</option>
+                                  <option value="1250000">€1,250,000</option>
+                                  <option value="1500000">€1,500,000</option>
+                                  <option value="1750000">€1,750,000</option>
+                                  <option value="2000000">€2,000,000</option>
+                                  <option value="2500000">€2,500,000</option>
+                                  <option value="3000000">€3,000,000</option>
+                                  <option value="4000000">€4,000,000</option>
+                                  <option value="5000000">€5,000,000</option>
+                                  <option value="7500000">€7,500,000</option>
+                                  <option value="10000000">€10,000,000</option>
+                                  <option value="15000000">€15,000,000</option>
+                                  <option value="20000000">€20,000,000</option>
+                              </select>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="column">
+                      <div class="field">
+                          <label class="label has-text-white">Max Price</label>
+                          <!-- <input class="input" type="text" id="ltp" name="ltp" placeholder="Highest Price"  length="20"> -->
+                          <div class="control">
+                              <select name="ltp" class="form-control" id="ltp" aria-label="Max price" readonly="">
+                                  <option value="">Highest price</option>
+                                  <option value="50000">€50,000</option>
+                                  <option value="60000">€60,000</option>
+                                  <option value="70000">€70,000</option>
+                                  <option value="80000">€80,000</option>
+                                  <option value="90000">€90,000</option>
+                                  <option value="100000">€100,000</option>
+                                  <option value="110000">€110,000</option>
+                                  <option value="120000">€120,000</option>
+                                  <option value="125000">€125,000</option>
+                                  <option value="130000">€130,000</option>
+                                  <option value="140000">€140,000</option>
+                                  <option value="150000">€150,000</option>
+                                  <option value="160000">€160,000</option>
+                                  <option value="170000">€170,000</option>
+                                  <option value="175000">€175,000</option>
+                                  <option value="180000">€180,000</option>
+                                  <option value="190000">€190,000</option>
+                                  <option value="200000">€200,000</option>
+                                  <option value="210000">€210,000</option>
+                                  <option value="220000">€220,000</option>
+                                  <option value="230000">€230,000</option>
+                                  <option value="240000">€240,000</option>
+                                  <option value="250000">€250,000</option>
+                                  <option value="260000">€260,000</option>
+                                  <option value="270000">€270,000</option>
+                                  <option value="280000">€280,000</option>
+                                  <option value="290000">€290,000</option>
+                                  <option value="300000">€300,000</option>
+                                  <option value="325000">€325,000</option>
+                                  <option value="350000">€350,000</option>
+                                  <option value="375000">€375,000</option>
+                                  <option value="400000">€400,000</option>
+                                  <option value="425000">€425,000</option>
+                                  <option value="450000">€450,000</option>
+                                  <option value="475000">€475,000</option>
+                                  <option value="500000">€500,000</option>
+                                  <option value="550000">€550,000</option>
+                                  <option value="600000">€600,000</option>
+                                  <option value="650000">€650,000</option>
+                                  <option value="700000">€700,000</option>
+                                  <option value="800000">€800,000</option>
+                                  <option value="900000">€900,000</option>
+                                  <option value="1000000">€1,000,000</option>
+                                  <option value="1250000">€1,250,000</option>
+                                  <option value="1500000">€1,500,000</option>
+                                  <option value="1750000">€1,750,000</option>
+                                  <option value="2000000">€2,000,000</option>
+                                  <option value="2500000">€2,500,000</option>
+                                  <option value="3000000">€3,000,000</option>
+                                  <option value="4000000">€4,000,000</option>
+                                  <option value="5000000">€5,000,000</option>
+                                  <option value="7500000">€7,500,000</option>
+                                  <option value="10000000">€10,000,000</option>
+                                  <option value="15000000">€15,000,000</option>
+                                  <option value="20000000">€20,000,000</option>
+                              </select>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="column" id="searchbutton">
+                      <input class="button is-large is-info details" type="submit" value="Search">
+                  </div>
+              </div>
+
+          </form>
+    </div>
     <div >
       <div id="propresults" class="columns is-multiline is-mobile search-mania">
         <center><h2>S E A R C H I N G....</h2></center>
@@ -176,7 +381,8 @@ if(getQueryStringValue("propref")){
 } else {
 //not ref search
   tafqry.push('"price":{"!is":"SOLD"}')
-  if(getQueryStringValue("offeris")){tafqry.push('"offeris":"'+getQueryStringValue("offeris")+'"')}
+  theofferis = {"New+Build":"new","Resale":"resale","Long+Term+Rental":"rental"}
+  if(getQueryStringValue("offeris")){tafqry.push('"offeris":"'+theofferis[getQueryStringValue("offeris")]+'"')}
   if(getQueryStringValue("pt")){ tafqry.push('"type":['+prepqsmulti(getQueryStringValue("pt"))+']') } 
   if (getQueryStringValue("gtp")){ tafqry.push('"gtprice":{"gt":'+adjustprice(getQueryStringValue("gtp"),-1)+'}') }
   if(getQueryStringValue("ltp")){ tafqry.push('"ltprice":{"lt":'+adjustprice(getQueryStringValue("ltp"),1)+'}') }
