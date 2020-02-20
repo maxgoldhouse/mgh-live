@@ -89,11 +89,11 @@ for eachprop in _mgh_data.proplists['All']:
     row = _mgh_data.props[str(eachprop)]
     propurl = '/'+str(row['beds'])+'-bed-'+row['ptype'].replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
     prop = {}
-    #prop['description'] = row['description'][:420]
-    if row['description'][:400][-1] == '\xc3':
-        prop['description'] = row['description'][:397]
-    else:
-        prop['description'] = row['description'][:400]
+    prop['description'] = row['description'][:420]
+    #if row['description'][:400][-1] == '\xc3':
+    #    prop['description'] = row['description'][:397]
+    #else:
+    #    prop['description'] = row['description'][:400]
     prop['offplan'] = row['offplan']
     prop['beds'] = row['beds']
     prop['baths'] = row['baths']
