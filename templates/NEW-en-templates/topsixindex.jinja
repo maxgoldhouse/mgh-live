@@ -62,6 +62,17 @@
                   <br/>
                   <div class="column">
                       <div class="field">
+                          <label class="label has-text-white">New/Resale/Rental</label>
+                          <select id="offeris" class="form-control" name="offeris">
+                              <option value="">All</option>
+                              <option value="new">New Build</option>
+                              <option value="resale">Resale</option>
+                              <option value="rental">Long Term Rental</option>
+
+                      </div>
+                  </div>
+                  <div class="column">
+                      <div class="field">
                           <label class="label has-text-white">Location</label>
                           <select id="loc" class="form-control" name="loc">
                               <option value="">Location</option>{% include 'distinctlocations.html'%}</select>

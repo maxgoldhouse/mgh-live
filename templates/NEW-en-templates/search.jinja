@@ -176,6 +176,7 @@ if(getQueryStringValue("propref")){
 } else {
 //not ref search
   tafqry.push('"price":{"!is":"SOLD"}')
+  if(getQueryStringValue("offeris")){tafqry.push('"offeris":"'+getQueryStringValue("offeris")+'"')}
   if(getQueryStringValue("pt")){ tafqry.push('"type":['+prepqsmulti(getQueryStringValue("pt"))+']') } 
   if (getQueryStringValue("gtp")){ tafqry.push('"gtprice":{"gt":'+adjustprice(getQueryStringValue("gtp"),-1)+'}') }
   if(getQueryStringValue("ltp")){ tafqry.push('"ltprice":{"lt":'+adjustprice(getQueryStringValue("ltp"),1)+'}') }
