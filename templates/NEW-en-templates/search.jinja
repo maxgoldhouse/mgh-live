@@ -127,11 +127,25 @@
                   <div class="column">
                       <div class="field">
                           <label class="label has-text-white">Location</label>
-                          <select multiple id="loc" class="form-control" name="loc">
+                          <select multiple id="loc" class="form-control locationselect" name="loc">
                               <option value="">Location</option>{% include 'distinctlocations.html'%}</select>
                           <!-- <div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
                       </div>
                   </div>
+                      <script>
+    $(function () {
+        $('select[multiple].locationselect').multiselect({
+            columns: 3,
+            placeholder: 'Select Location(s)',
+            search: true,
+            searchOptions: {
+                'default': 'Search Locations'
+            },
+            selectAll: true
+        });
+
+    });
+</script>
                   <div class="column">
                       <div class="field">
                           <label class="label has-text-white">Type of Home</label>
