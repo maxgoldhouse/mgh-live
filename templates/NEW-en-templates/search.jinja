@@ -15,11 +15,8 @@
 <link rel="alternate" hreflang="de" href="https://de.maxgoldhouse.com/costa-blanca-Immobilien-fur-weniger-als-100000-0.html"/>
 <link rel="alternate" hreflang="fr" href="https://fr.maxgoldhouse.com/Propriete-a-Costa-Blanca-jusqu-a-100000-euro-0.html"/>
 <link rel="alternate" hreflang="nl" href="https://nl.maxgoldhouse.com/Eigendom-in-de-Costa-Blanca-tot-100000-euro-0.html"/>
-<link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" />
-<link href="https://res.cloudinary.com/maxgoldhouse/raw/upload/jqms.css" rel="stylesheet" />
-<script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
-<script src="https://res.cloudinary.com/maxgoldhouse/raw/upload/jqms.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.25.0/slimselect.min.css" rel="stylesheet"></link>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.25.0/slimselect.min.js"></script>
 <link rel="stylesheet" href="/css/mgh.css">
 <link rel="shortcut icon" href="/img/favicon.ico" />
 <style>
@@ -132,19 +129,10 @@
                           <!-- <div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
                       </div>
                   </div>
-                      <script>
-    $(function () {
-        $('#loc').MultiSelect({
-            columns: 3,
-            placeholder: 'Select Location(s)',
-            search: true,
-            searchOptions: {
-                'default': 'Search Locations'
-            },
-            selectAll: true
-        });
-
-    });
+<script>
+  new SlimSelect({
+    select: '#loc'
+  })
 </script>
                   <div class="column">
                       <div class="field">
@@ -164,6 +152,11 @@
                           </div>
                       </div>
                   </div>
+<script>
+  new SlimSelect({
+    select: '#pt'
+  })
+</script>
                   <div class="column">
                       <div class="field">
                           <label class="label has-text-white">Bedrooms</label>
