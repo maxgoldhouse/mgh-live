@@ -413,6 +413,8 @@ if(getQueryStringValue("propref")){
   if((typeof qsData.ltp !== "undefined" && qsData.ltp != "")){ tafqry.push('"ltprice":{"lt":'+adjustprice(qsData.ltp,1)+'}') }
   if(typeof qsData.loc!== "undefined"){ tafqry.push('"location_detail":'+JSON.stringify(qsData.loc)+'') }
   if((typeof qsData.beds !== "undefined" && qsData.beds != "")){tafqry.push('"beds":"'+qsData.beds+'"')}
+  console.log(tafqry.join(', '))
+  theqry = JSON.parse('{'+tafqry.join(', ')+'}')
 };
 //{ref:"AP1-2-V7369"}
   var loc_list = ''
