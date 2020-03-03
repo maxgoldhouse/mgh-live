@@ -14,6 +14,8 @@
 <link rel="alternate" hreflang="de" href="https://de.maxgoldhouse.com/" />
 <link rel="alternate" hreflang="fr" href="https://fr.maxgoldhouse.com/" />
 <link rel="alternate" hreflang="nl" href="https://nl.maxgoldhouse.com/" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.25.0/slimselect.min.css" rel="stylesheet"></link>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.25.0/slimselect.min.js"></script>
 <link rel="stylesheet" href="/css/mgh.css">
 <link rel="shortcut icon" href="/img/favicon.ico" />
 </head>
@@ -80,6 +82,11 @@
                           <!--<div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
                       </div>
                   </div>
+                <script>
+                  new SlimSelect({
+                    select: '#loc'
+                  })
+                </script>
                   <div class="column">
                       <div class="field">
                           <label class="label has-text-white">Type of Home</label>
@@ -98,6 +105,11 @@
                           </div>
                       </div>
                   </div>
+                <script>
+                  new SlimSelect({
+                    select: '#pt'
+                  })
+                </script>
                   <div class="column">
                       <div class="field">
                           <label class="label has-text-white">Bedrooms</label>
