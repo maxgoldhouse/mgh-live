@@ -403,7 +403,7 @@ if(getQueryStringValue("propref")){
   tafqry.push('"price":{"!is":"SOLD"}')
   theofferis = {"New+Build":"new","Resale":"resale","Long+Term+Rental":"rental"}
   var qsData = new QueryData(window.location.search, true);
-  if(typeof qsData.offeris!== "undefined"){tafqry.push('"offeris":"'+theofferis[qsData.offeris]+'"')}
+  if(qsData.offeris!== "undefined"){tafqry.push('"offeris":"'+theofferis[qsData.offeris]+'"')}
   if(typeof qsData.pt !== "undefined"){ tafqry.push('"type":'+JSON.stringify(qsData.pt)+'') }
   if (qsData.gtp != ''){ tafqry.push('"gtprice":{"gt":'+adjustprice(qsData.gtp,-1)+'}') }
   if((qsData.ltp != '')){ tafqry.push('"ltprice":{"lt":'+adjustprice(qsData.ltp,1)+'}') }
