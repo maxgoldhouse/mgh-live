@@ -403,12 +403,10 @@ if(getQueryStringValue("propref")){
   tafqry.push('"price":{"!is":"SOLD"}')
   theofferis = {"New+Build":"new","Resale":"resale","Long+Term+Rental":"rental"}
   var qsData = new QueryData(window.location.search, true);
-  if(qsData.offeris != ''){tafqry.push('"offeris":"'+theofferis[qsData.offeris]+'"')}
-  //if(qsData.pt != ''){ tafqry.push('"type":['+qsData.pt.join(',')+']') }   
+  if(typeof qsData.offeris!== "undefined"){tafqry.push('"offeris":"'+theofferis[qsData.offeris]+'"')}
   if(typeof qsData.pt !== "undefined"){ tafqry.push('"type":'+JSON.stringify(qsData.pt)+'') }
   if (qsData.gtp != ''){ tafqry.push('"gtprice":{"gt":'+adjustprice(qsData.gtp,-1)+'}') }
   if((qsData.ltp != '')){ tafqry.push('"ltprice":{"lt":'+adjustprice(qsData.ltp,1)+'}') }
-  //if((qsData.loc != '')){ tafqry.push('"location_detail":['+qsData.loc.join(',')+']') }
   if(typeof qsData.loc!== "undefined"){ tafqry.push('"location_detail":'+JSON.stringify(qsData.loc)+'') }
   if((qsData.beds != '')){tafqry.push('"beds":"'+qsData.beds+'"')}
   console.log(tafqry.join(', '))
