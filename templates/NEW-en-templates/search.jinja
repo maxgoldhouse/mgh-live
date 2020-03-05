@@ -142,7 +142,7 @@
                                   <option value="Apartment">Apartment</option>
                                   <option value="Townhouse">Townhouse</option>
                                   <option value="Quadhouse">Quadhouse</option>
-                                  <option value="Villa,Semidetached%20Villa,Detached%20Villa">Villa</option>
+                                  <option value="Villa">Villa</option>
                                   <option value="Finca">Finca</option>
                                   <option value="Land">Land</option>
                                   <option value="Commercial">Commercial</option>
@@ -398,19 +398,36 @@ if(getQueryStringValue("propref")){
 
 } else {
 //not ref search
- tafqry.push('"price":{"!is":"SOLD"}')
+  tafqry.push('"price":{"!is":"SOLD"}')
   theofferis = {"new":"new","resale":"resale","rental":"rental"}
   var qsData = new QueryData(window.location.search, true);
   if(qsData.offeris != "all" && typeof qsData.offeris !== "undefined"){tafqry.push('"offeris":"'+theofferis[qsData.offeris]+'"')}
   console.log("the offeris is "+qsData.offeris)
   console.log("the gtp is "+qsData.gtp)
   console.log("the ltp is "+qsData.ltp)
-  console.log("the beds are "+qsData.beds)
-  if(typeof qsData.pt !== "undefined"){ tafqry.push('"type":'+JSON.stringify(qsData.pt)+'') }
-  if (typeof qsData.gtp !== "undefined" && qsData.gtp != ""){ tafqry.push('"gtprice":{"gt":'+adjustprice(qsData.gtp,-1)+'}') }
-  if((typeof qsData.ltp !== "undefined" && qsData.ltp != "")){ tafqry.push('"ltprice":{"lt":'+adjustprice(qsData.ltp,1)+'}') }
-  if(typeof qsData.loc!== "undefined"){ tafqry.push('"location_detail":'+JSON.stringify(qsData.loc)+'') }
-  if((typeof qsData.beds !== "undefined" && qsData.beds != "")){tafqry.push('"beds":"'+qsData.beds+'"')}
+  console.log("the pt are "+qsData.pt)
+  if(typeof qsData.pt !== "undefined"){ 
+    //,Semidetached%20Villa,Detached%20Villa
+    thept.set(qsData.pt)
+    if(qsData.pt.indexOf("Villa") > -1){qsData.pt.push('Semidetached Villa','Detached Villa')}
+    tafqry.push('"type":'+JSON.stringify(qsData.pt)+'') 
+  }
+  if (typeof qsData.gtp !== "undefined" && qsData.gtp != ""){
+    document.getElementById('gtp').value = qsData.gtp
+    tafqry.push('"gtprice":{"gt":'+adjustprice(qsData.gtp,-1)+'}') 
+  }
+  if((typeof qsData.ltp !== "undefined" && qsData.ltp != "")){
+    document.getElementById('ltp').value = qsData.ltp 
+    tafqry.push('"ltprice":{"lt":'+adjustprice(qsData.ltp,1)+'}') 
+  }
+  if(typeof qsData.loc!== "undefined"){ 
+    theloc.set(qsData.loc)
+    tafqry.push('"location_detail":'+JSON.stringify(qsData.loc)+'') 
+  }
+  if((typeof qsData.beds !== "undefined" && qsData.beds != "")){
+    document.getElementById('beds').value = qsData.beds
+    tafqry.push('"beds":"'+qsData.beds+'"')
+  }
   console.log(tafqry.join(', '))
   theqry = JSON.parse('{'+tafqry.join(', ')+'}')
 };
