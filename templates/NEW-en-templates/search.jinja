@@ -107,9 +107,9 @@
 
     <div id="search-bar">
     <form id="propsearch" class="has-background-grey-light" action="search.html" method="GET">
-              <div class="columns is-vcentered searcharea">
+              <div class="columns is-vcentered searcharea is-multiline">
                   <br>
-                  <div class="column">
+                  <div class="column is-1">
                       <div class="field">
                           <label class="label has-text-white">New/Resale/Rental</label>
                           <select id="offeris" class="form-control" name="offeris">
@@ -120,7 +120,7 @@
                           </select>
                       </div>
                   </div>
-                  <div class="column">
+                  <div class="column is-3">
                       <div class="field">
                           <label class="label has-text-white">Location</label>
                           <select multiple="multiple" id="loc" name="loc">
@@ -133,7 +133,7 @@
   select: '#loc'
   })
 </script>
-                  <div class="column">
+                  <div class="column is-3">
                       <div class="field">
                           <label class="label has-text-white">Home Type</label>
                            <div class="control">
@@ -155,7 +155,7 @@
   select: '#pt'
 })
 </script>
-                  <div class="column">
+                  <div class="column  is-1">
                       <div class="field">
                           <label class="label has-text-white">Beds</label>
                           <div class="control">                             
@@ -178,13 +178,13 @@
                           </div>
                       </div>
                   </div>
-                  <div class="column">
+                  <div class="column  is-1">
                       <div class="field">
                           <label class="label has-text-white">€ Min</label>
                           <!-- <input class="input" type="text" id="gtp" name="gtp" placeholder="Lowest Price"  length="20"> -->
                           <div class="control">
                               <select name="gtp" class="form-control" id="gtp" aria-label="Min price" readonly="">
-                                  <option value="">Min price</option>
+                                  <option value=""></option>
                                   <option value="0">€0</option>
                                   <option value="50000">€50,000</option>
                                   <option value="60000">€60,000</option>
@@ -245,13 +245,13 @@
                           </div>
                       </div>
                   </div>
-                  <div class="column">
+                  <div class="column is-1">
                       <div class="field">
                           <label class="label has-text-white">€ Max</label>
                           <!-- <input class="input" type="text" id="ltp" name="ltp" placeholder="Highest Price"  length="20"> -->
                           <div class="control">
                               <select name="ltp" class="form-control" id="ltp" aria-label="Max price" readonly="">
-                                  <option value="">Highest price</option>
+                                  <option value=""></option>
                                   <option value="50000">€50,000</option>
                                   <option value="60000">€60,000</option>
                                   <option value="70000">€70,000</option>
@@ -312,7 +312,7 @@
                       </div>
                   </div>
 
-                  <div class="column" id="searchbutton">
+                  <div class="column is-1" id="searchbutton">
                       <input class="button is-large is-info details" type="submit" value="Search">
                   </div>
               </div>
