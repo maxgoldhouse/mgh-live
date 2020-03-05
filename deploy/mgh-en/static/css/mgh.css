@@ -23,6 +23,7 @@ header, footer{background:rgba(ffffff);}
 header .column{padding:0px;}
 footer a{color:white;}
 footer a:hover{color:#ddd;}
+.popwhitetext{text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);}
 .has-background-mchbrown{background-color:#8b684a!important;}
 .has-background-mchblue{background-color:#62defc!important;}
 .has-background-mchyellow{background-color:#f4cc23!important;}
