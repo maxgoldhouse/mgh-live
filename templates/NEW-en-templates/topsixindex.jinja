@@ -77,7 +77,7 @@
                   <div class="column is-3">
                       <div class="field">
                           <label class="label has-text-white"><br/>Location</label>
-                          <select id="loc" class="" name="loc">
+                          <select id="loc" class="" name="loc" multiple="multiple">
                               {% include 'distinctlocations.html'%}</select>
                           <!--<div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
                       </div>
@@ -92,7 +92,7 @@
                           <label class="label has-text-white"><br/>Home Type</label>
                           <!-- <input class="input" type="text" id="pt" name="pt" placeholder="Property Type"  length="20"> -->
                           <div class="control">
-                              <select name="pt" class="" id="pt" aria-label="Property type" readonly="">
+                              <select name="pt" class="" id="pt" aria-label="Property type" readonly=""  multiple="multiple">
                                   
                                   <option value="Apartment">Apartment</option>  
                                   <option value="Townhouse">Townhouse</option>
