@@ -80,7 +80,7 @@ for eachprop in _mgh_data.proplists['All']:
     #print row['pid']
 
     prop['description'] =  ' '.join(row['DE'].split()[:40])
-    prop['jsondescription'] = ' '.join(row['DE'].split()[:40].decode('utf-8'))
+    prop['jsondescription'] = ' '.join(row['DE'].split()[:40]).decode('utf-8')
     prop['beds'] = row['beds']
     prop['baths'] = row['baths']
     prop['pool'] = _mghsettings.trans_pooltypes[row['pool'].lower()]['de']
