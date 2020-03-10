@@ -19,6 +19,6 @@ python ./scripts/iv-nl-scripts/iv_nl_topsix.py
 echo 'www-mgh-3-nl iv deploy.sh topsix EN fin'
 python ./scripts/iv-nl-scripts/iv_nl_proplist.py
 echo 'www-mgh-3-nl iv deploy.sh proplist EN fin'
-python ./scripts/iv_nl_scripts/iv_nl_propdetail.py
+python ./scripts/iv-nl-scripts/iv_nl_propdetail.py
 echo 'www-mgh-3-nl iv deploy.sh propdetail EN fin'
 date
