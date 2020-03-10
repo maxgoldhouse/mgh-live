@@ -78,12 +78,9 @@ for eachprop in _mgh_data.proplists['All']:
     	saleorrent = 'zu verkaufen'
     prop = {}
     #print row['pid']
-    if row['DE'][:400][-1] == '\xc3':
-		prop['jsondescription'] = row['DE'][:399].decode('utf-8')
-		prop['description'] = row['DE'][:399]
-    else:
-		prop['jsondescription'] = row['DE'][:400].decode('utf-8')
-		prop['description'] = row['DE'][:400]
+
+    prop['description'] =  ' '.join(row['DE'].split()[:40])
+    prop['jsondescription'] = ' '.join(row['DE'].split()[:40].decode('utf-8'))
     prop['beds'] = row['beds']
     prop['baths'] = row['baths']
     prop['pool'] = _mghsettings.trans_pooltypes[row['pool'].lower()]['de']

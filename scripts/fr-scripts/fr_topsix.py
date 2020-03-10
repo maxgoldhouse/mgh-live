@@ -82,12 +82,9 @@ for eachprop in _mgh_data.proplists['All']:
     prop = {}
     prop['fulldescription'] = row['FR']
     #prop['description'] = removefrchars(row['strdescription_FR'][:400])
-    if row['FR'][:400][-1] == '\xc3':
-		prop['jsondescription'] = row['FR'][:399].encode('utf-8')
-		prop['description'] = row['FR'][:399]
-    else:
-		prop['jsondescription'] = row['FR'][:400].encode('utf-8')
-		prop['description'] = row['FR'][:400]
+
+    prop['description'] =  ' '.join(row['FR'].split()[:40])
+    prop['jsondescription'] = ' '.join(row['FR'].split()[:40].decode('utf-8'))
     if int(row['beds']) == 1:
 		chambre = ' chambre'
     elif int(row['beds']) > 1:
