@@ -57,10 +57,8 @@ for rubrun in _all_rubrunsdata.rubruns:
 		else:
 			saleorrent = 'te koop'
 		prop = {}
-		if row['NL'][:400][-1] == '\xc3':
-		  prop['description'] = row['NL'][:399]
-		else:
-		  prop['description'] = row['NL'][:400]
+
+		prop['description'] =  ' '.join(row['NL'].split()[:40])
 		if int(row['beds']) == 1:
 			slaapkamer = ' slaapkamer'
 		elif int(row['beds']) > 1:
