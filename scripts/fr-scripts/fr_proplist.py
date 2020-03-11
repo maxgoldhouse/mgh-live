@@ -60,7 +60,7 @@ for rubrun in _all_rubrunsdata.rubruns:
 			saleorrent = 'à vendre'
 		prop = {}
 		
-		prop['description'] =  ' '.join(row['FR'].split()[:40])
+		prop['description'] =  ' '.join(row['FR'].split()[:50])
 		if int(row['beds']) == 1:
 			chambre = ' chambre'
 		elif int(row['beds']) > 1:

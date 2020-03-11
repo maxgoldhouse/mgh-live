@@ -55,7 +55,7 @@ for rubrun in _all_rubrunsdata.rubruns:
 			saleorrent = 'zu verkaufen'
 		prop = {}
 
-		prop['description'] =  ' '.join(row['DE'].split()[:40])
+		prop['description'] =  ' '.join(row['DE'].split()[:50])
 		prop['beds'] = row['beds']
 		prop['baths'] = row['baths']
 		prop['propid'] = row['pid']
