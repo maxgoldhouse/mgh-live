@@ -76,7 +76,7 @@
                   </div>
                   <div class="column is-3">
                       <div class="field">
-                          <label class="label has-text-white popwhitetext"><br/>Location</label>
+                          <label class="label has-text-white popwhitetext"><br/>Location <span onclick="theloc.set([])">RESET</span></label>
                           <select id="loc" class="" name="loc" multiple="multiple">
                               {% include 'distinctlocations.html'%}</select>
                           <!--<div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
@@ -142,6 +142,7 @@
                           <div class="control">
                               <select name="gtp" class="form-control" id="gtp" aria-label="Min price" readonly="">                                 
                                   <option value=""></option>
+                                  <option value="0">€0</option>
                                   <option value="50000">€50,000</option>
                                   <option value="70000">€70,000</option>
                                   <option value="100000">€100,000</option>
