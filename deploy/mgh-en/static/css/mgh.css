@@ -75,7 +75,8 @@ ul#propfeatures li{display:inline-block;padding:0.5rem;}
     padding: 2px 4px 2px 4px;
     background-color: #1f9cee;
     border-radius: 20px;
-    margin-left: 4px;}
+    margin-left: 4px;
+    cursor: pointer;}
 .slim-hidden{visibility:hidden;}
 .vam{vertical-align: middle;}
 .form-control {
