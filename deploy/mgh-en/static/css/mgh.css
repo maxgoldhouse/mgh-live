@@ -69,7 +69,13 @@ ul#propfeatures li{display:inline-block;padding:0.5rem;}
 #searchbutton{padding-top: 30px;}
 #propsearch{height: 120%;}
 .searcharea{width: 96%;  display: flex; margin-left: auto;margin-right: auto;}
-.slimreset{color:black;text-shadow:none;}
+.slimreset {
+    color: #ffffff;
+    text-shadow: none;
+    padding: 2px 4px 2px 4px;
+    background-color: #1f9cee;
+    border-radius: 20px;
+    margin-left: 4px;}
 .slim-hidden{visibility:hidden;}
 .vam{vertical-align: middle;}
 .form-control {
