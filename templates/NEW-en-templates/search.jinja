@@ -123,7 +123,7 @@
                   <div class="column is-3">
                       <div class="field">
                           <label class="label has-text-white"><br>Location <span class="slimreset" onclick="theloc.set([])"> [EMPTY]</span></label>
-                          <select multiple="multiple" id="loc" name="loc">
+                          <select multiple="multiple" class="slim-hidden" id="loc" name="loc">
                               {% include 'distinctlocations.html'%}</select>
                           <!-- <div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
                       </div>
@@ -139,7 +139,7 @@
                       <div class="field">
                           <label class="label has-text-white"><br>Home Type</label>
                            <div class="control">
-                              <select multiple name="pt" id="pt" aria-label="Property type" readonly="">
+                              <select multiple name="pt" class="slim-hidden" id="pt" aria-label="Property type" readonly="">
                                   
                                   <option value="Apartment">Apartment</option>
                                   <option value="Townhouse">Townhouse</option>
@@ -157,6 +157,9 @@
   select: '#pt',
   allowDeselect: true
 })
+  var thecontrols = document.getElementsByClassName("ss-main");
+  thecontrols[0].style.visibility = "visible";
+  thecontrols[1].style.visibility = "visible";
 </script>
                   <div class="column  is-1">
                       <div class="field">
