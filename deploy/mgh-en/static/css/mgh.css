@@ -70,6 +70,7 @@ ul#propfeatures li{display:inline-block;padding:0.5rem;}
 #propsearch{height: 120%;}
 .searcharea{width: 96%;  display: flex; margin-left: auto;margin-right: auto;}
 .slimreset{color:black;text-shadow:none;}
+.slim-hidden{visibility:hidden;}
 .vam{vertical-align: middle;}
 .form-control {
   display: block;
