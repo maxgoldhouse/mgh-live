@@ -237,7 +237,7 @@
                       </div>
                   </div>
                   <div class="column is-1">
-                  <div class="dropdown is-active">
+                  <div class="dropdown">
                     <div class="dropdown-trigger">
                       <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
                         <span>Filter</span>
@@ -284,30 +284,7 @@
               </div>
 
           </form>
-          <script>
-  // Dropdowns
 
-  var $dropdowns = getAll('.dropdown:not(.is-hoverable)');
-
-  if ($dropdowns.length > 0) {
-    $dropdowns.forEach(function ($el) {
-      $el.addEventListener('click', function (event) {
-        event.stopPropagation();
-        $el.classList.toggle('is-active');
-      });
-    });
-
-    document.addEventListener('click', function (event) {
-      closeDropdowns();
-    });
-  }
-
-  function closeDropdowns() {
-    $dropdowns.forEach(function ($el) {
-      $el.classList.remove('is-active');
-    });
-  }
-          </script>
       </div>
       </div>
       <!-- ##### END of Nav and Search ##### -->
