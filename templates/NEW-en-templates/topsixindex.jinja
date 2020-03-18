@@ -236,13 +236,79 @@
                           </div>
                       </div>
                   </div>
-
+                  <div style=""><div id="hidden-form" style="z-index:0;width: 200px; height:200px;background-color:black;"></div></div>
+                  <div class="column is-1">
+                  <div class="dropdown is-active">
+                    <div class="dropdown-trigger">
+                      <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                        <span>Filter</span>
+                        <span class="icon is-small">
+                          <i class="fas fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                      </button>
+                    </div>
+                    <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                      <div class="dropdown-content">
+                        <div class="">
+                           <div class="">
+                               <select name="baths" class="form-control" id="baths" aria-label="Bathrooms" readonly="">
+                                   <option value="">Bathrooms</option>
+                                   <option value="1">1 bathroom</option>
+                                   <option value="2">2 bathrooms</option>
+                                   <option value="3">3 bathrooms</option>
+                                   <option value="4">4 bathrooms</option>
+                                   <option value="5">5 bathrooms</option>
+                                   <option value="6">6 bathrooms</option>
+                                   <option value="7">7 bathrooms</option>
+                                   <option value="8">8 bathrooms</option>
+                                   <option value="9">9 bathrooms</option>
+                                   <option value="10">10 bathrooms</option>
+                               </select>
+                           </div>
+                  <div class="checkbox">
+                  <label>
+                  <input type="checkbox" name="has_pool" id="has_pool" class="el-mr-sm" aria-label="Swimming pool">Swimming pool</label>
+                  </div>
+                  <div class="checkbox">
+                  <label>
+                  <input type="checkbox" name="new_build" id="new_build" class="el-mr-sm" aria-label="New build">New build
+                  </label>
+                  </div>
+                  <a class="search-form__helper-text" href="/en/girona-property-long-let-1l22840">View properties to rent</a><a class="search-form__helper-text link--add-pointer">Search by property reference</a></div>
+                       </div>
+                     </div>
+                  </div>
+                  <div>
                   <div class="column" id="searchbutton">
                       <input class="button is-large is-info details" type="submit" value="Search">
                   </div>
               </div>
 
           </form>
+          <script>
+  // Dropdowns
+
+  var $dropdowns = getAll('.dropdown:not(.is-hoverable)');
+
+  if ($dropdowns.length > 0) {
+    $dropdowns.forEach(function ($el) {
+      $el.addEventListener('click', function (event) {
+        event.stopPropagation();
+        $el.classList.toggle('is-active');
+      });
+    });
+
+    document.addEventListener('click', function (event) {
+      closeDropdowns();
+    });
+  }
+
+  function closeDropdowns() {
+    $dropdowns.forEach(function ($el) {
+      $el.classList.remove('is-active');
+    });
+  }
+          </script>
       </div>
       </div>
       <!-- ##### END of Nav and Search ##### -->
