@@ -3,7 +3,8 @@ steps:
   #  name: gcr.io/$PROJECT_ID/build-$PROJECT_ID
   #  args: ['./$PROJECT_ID/deploy.sh']
   - name: 'gcr.io/cloud-builders/gsutil'
-    args: ['cp', 'gs://mgh-props.appspot.com/mgh-en/', 'deploy/$PROJECT_ID/static', ]
+    dir: deploy/$PROJECT_ID
+    args: ['-m cp', 'gs://mgh-props.appspot.com/mgh-en/*.*', '/static']
   - id: 'gcloud deploy app'
     name: gcr.io/cloud-builders/gcloud-slim
     dir: deploy/$PROJECT_ID
