@@ -1,10 +1,9 @@
 steps:
-  #- id: 'build NEWEN'
-  #  name: gcr.io/$PROJECT_ID/build-$PROJECT_ID
-  #  args: ['./$PROJECT_ID/deploy.sh']
-  - name: 'gcr.io/cloud-builders/gsutil'
-    #dir: deploy/$PROJECT_ID
-    args: ['-m', 'cp', 'gs://mgh-props.appspot.com/$PROJECT_ID/*.*', './deploy/$PROJECT_ID/static']
+  - id: 'build NEWEN'
+    name: gcr.io/$PROJECT_ID/build-$PROJECT_ID
+    args: ['./$PROJECT_ID/deploy.sh']
+  #- name: 'gcr.io/cloud-builders/gsutil'
+  #  args: ['-m', 'cp', 'gs://mgh-props.appspot.com/$PROJECT_ID/*.*', './deploy/$PROJECT_ID/static']
   - id: 'gcloud deploy app'
     name: gcr.io/cloud-builders/gcloud-slim
     dir: deploy/$PROJECT_ID
