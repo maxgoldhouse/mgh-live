@@ -135,7 +135,7 @@
   allowDeselect: true
   })
 </script>
-                  <div class="column is-3">
+                  <div class="column is-2">
                       <div class="field">
                           <label class="label has-text-white"><br>Home Type</label>
                            <div class="control">
@@ -283,7 +283,46 @@
                           </div>
                       </div>
                   </div>
+                  <div class="dropdown column is-1"><br/>
+                    <span onclick="myFunction()" class="dropbtn button is-medium is-info details">Filter 
+                    <svg xml:space="preserve" style="enable-background:new 0 0 451.847 451.847;" viewBox="0 0 451.847 451.847" height="451.847px" width="451.847px" y="0px" x="0px" style="fill:#ffffff" id="g1188"><path style="fill:#ffffff" id="path1186" d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751 c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0 c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/></g></svg></span>
+                    <div id="myDropdown" class="dropdown-content">
+                      <div class="field">
+                          <label class="label has-text-white popwhitetext"><br/>Bathrooms</label>
+                          <div class="control">                             
+                                <select name="baths" class="form-control" id="baths" aria-label="Number of Bathrooms" readonly="">
+                                  <option value=""></option>
+                                  <option value="0">0</option>
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                  <option value="5">5</option>
+                                  <option value="6">6</option>
+                                  <option value="7">7</option>
+                                  <option value="8">8</option>
+                                  <option value="9">9</option>
+                                  <option value="10">10</option>
+                                  <option value="11">11</option>
+                                  <option value=12">12</option>                                                                   
+                              </select>
+                          </div>
+                      </div>
+                      <div class="field">
+                          <label class="label has-text-white popwhitetext"><br/>Property Ref</label>
+                          <div class="control">                             
+                                <input type="checkbox" name="pool" id="pool" value="pool">
+                          </div>
+                      </div>
+                       <div class="field">
+                          <label class="label has-text-white popwhitetext"><br/>Property Ref</label>
+                          <div class="control">                             
+                                <input type="text" name="ref" id="ref" placeholder="Enter Reference No.">
+                          </div>
+                      </div>
 
+                    </div>
+                  </div>
                   <div class="column is-1" id="searchbutton">
                       <input class="button is-large is-info details" type="submit" value="Search">
                   </div>
@@ -291,6 +330,15 @@
 
           </form>
     </div>
+          <!-- ##### END of Nav and Search ##### -->
+                  <script>
+                  /* When the user clicks on the button, 
+                  toggle between hiding and showing the dropdown content */
+                  function myFunction() {
+                      document.getElementById("myDropdown").classList.toggle("show");
+                  }
+
+                  </script>
     <div >
       <div id="propresults" class="columns is-multiline is-mobile search-mania">
         <center><h2>S E A R C H I N G....</h2></center>
@@ -399,6 +447,10 @@ if(getQueryStringValue("propref")){
   if((typeof qsData.beds !== "undefined" && qsData.beds != "")){
     document.getElementById('beds').value = qsData.beds
     tafqry.push('"beds":"'+qsData.beds+'"')
+  }
+  if((typeof qsData.baths !== "undefined" && qsData.baths != "")){
+    document.getElementById('baths').value = qsData.baths
+    tafqry.push('"baths":"'+qsData.baths+'"')
   }
   console.log(tafqry.join(', '))
   theqry = JSON.parse('{'+tafqry.join(', ')+'}')

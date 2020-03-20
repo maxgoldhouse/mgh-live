@@ -237,48 +237,10 @@
                       </div>
                   </div>
 
-                  <style>
-                    .dropbtn {
-                    background-color: #3498DB;
-                    color: white;
-                    padding: 16px;
-                    font-size: 16px;
-                    border: none;
-                    cursor: pointer;
-                    }
 
-                    .dropbtn:hover, .dropbtn:focus {
-                    background-color: #2980B9;
-                    }
-
-                    .dropdown {
-                    position: relative;
-                    display: inline-block;
-                    }
-
-                    .dropdown-content {
-                    display: none;
-                    position: absolute;
-                    background-color: #f1f1f1;
-                    min-width: 160px;
-                    overflow: auto;
-                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                    z-index: 1;
-                    }
-
-                    .dropdown-content a {
-                    color: black;
-                    padding: 12px 16px;
-                    text-decoration: none;
-                    display: block;
-                    }
-
-                    .dropdown a:hover {background-color: #ddd;}
-
-                    .show {display: block;}
-                 </style>
-                  <div class="dropdown column is-1">
-                    <span onclick="myFunction()" class="dropbtn button is-medium is-info details">Filter</span>
+                  <div class="dropdown column is-1"><br/>
+                    <span onclick="myFunction()" class="dropbtn button is-medium is-info details">Filter 
+                    <svg xml:space="preserve" style="enable-background:new 0 0 451.847 451.847;" viewBox="0 0 451.847 451.847" height="451.847px" width="451.847px" y="0px" x="0px" style="fill:#ffffff" id="g1188"><path style="fill:#ffffff" id="path1186" d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751 c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0 c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/></g></svg></span>
                     <div id="myDropdown" class="dropdown-content">
                       <div class="field">
                           <label class="label has-text-white popwhitetext"><br/>Bathrooms</label>
@@ -301,9 +263,19 @@
                               </select>
                           </div>
                       </div>
-                      <a href="#about">About</a>
-                      <a href="#contact">Contact</a>
-                    </div>
+                      <div class="field">
+                          <label class="label has-text-white popwhitetext"><br/>Property Ref</label>
+                          <div class="control">                             
+                                <input type="checkbox" name="pool" id="pool" value="pool">
+                          </div>
+                      </div>
+                       <div class="field">
+                          <label class="label has-text-white popwhitetext"><br/>Property Ref</label>
+                          <div class="control">                             
+                                <input type="text" name="ref" id="ref" placeholder="Enter Reference No.">
+                          </div>
+                      </div>
+                     </div>
                   </div>
                   <div class="column is-1" id="searchbutton">
                       <input class="button is-large is-info details" type="submit" value="Search">
@@ -321,19 +293,6 @@
                       document.getElementById("myDropdown").classList.toggle("show");
                   }
 
-                  // // Close the dropdown if the user clicks outside of it
-                  // window.onclick = function(event) {
-                  //     if (!event.target.matches('.dropbtn')) {
-                  //     var dropdowns = document.getElementsByClassName("dropdown-content");
-                  //     var i;
-                  //     for (i = 0; i < dropdowns.length; i++) {
-                  //         var openDropdown = dropdowns[i];
-                  //         if (openDropdown.classList.contains('show')) {
-                  //         openDropdown.classList.remove('show');
-                  //         }
-                  //     }
-                  //     }
-                  // }
                   </script>
       
 
