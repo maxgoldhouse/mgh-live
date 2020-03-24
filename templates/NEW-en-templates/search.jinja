@@ -455,6 +455,10 @@ if(qsData.propref != 'No Ref'){
     document.getElementById('baths').value = qsData.baths
     tafqry.push('"baths":"'+qsData.baths+'"')
   }
+  if (typeof qsData.pool == "pool"){
+    document.getElementById("pool").checked = true;
+    tafqry.push('"pool":{"!is":"No"}') 
+  }
   console.log(tafqry.join(', '))
   theqry = JSON.parse('{'+tafqry.join(', ')+'}')
 };
