@@ -100,7 +100,9 @@ ul#propfeatures li{display:inline-block;padding:0.5rem;}
   .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  right:10%;
+  background-color: #3273dc;
+  padding: 16px;
   min-width: 240px;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);

@@ -122,7 +122,7 @@
                   </div>
                   <div class="column is-3">
                       <div class="field">
-                          <label class="label has-text-white"><br>Location <span class="slimreset" onclick="theloc.set([])">Clear all</span></label>
+                          <label class="label has-text-white"><br>Location <span class="slimreset" onclick="theloc.set([])">Reset</span></label>
                           <select multiple="multiple" class="slim-hidden" id="loc" name="loc">
                               {% include 'distinctlocations.html'%}</select>
                           <!-- <div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
@@ -451,6 +451,10 @@ if(getQueryStringValue("propref")){
   if((typeof qsData.baths !== "undefined" && qsData.baths != "")){
     document.getElementById('baths').value = qsData.baths
     tafqry.push('"baths":"'+qsData.baths+'"')
+  }
+  if (typeof qsData.ref !== "undefined" && qsData.ref != ""){
+    document.getElementById('ref').value = qsData.ref
+    tafqry.push('"ref":{'"ref":"'+qsData.ref+'"') 
   }
   console.log(tafqry.join(', '))
   theqry = JSON.parse('{'+tafqry.join(', ')+'}')
