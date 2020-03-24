@@ -309,7 +309,7 @@
                           </div>
                       </div>
                       <div class="field">
-                          <label class="label has-text-white popwhitetext"><br/>Property Ref</label>
+                          <label class="label has-text-white popwhitetext"><br/>Pool</label>
                           <div class="control">                             
                                 <input type="checkbox" name="pool" id="pool" value="pool">
                           </div>
@@ -317,7 +317,7 @@
                        <div class="field">
                           <label class="label has-text-white popwhitetext"><br/>Property Ref</label>
                           <div class="control">                             
-                                <input type="text" name="ref" id="ref" placeholder="Enter Reference No.">
+                                <select name="propref"><option value="No Ref">Choose Ref</option>{% include 'refsearch.html'%}</select>
                           </div>
                       </div>
 
@@ -409,9 +409,12 @@ fetch('allprops.json')
   var tafqry = [];
   var theqry = ""
   var outputHTML = ""
-//is it a ref search
-if(getQueryStringValue("propref")){
-  tafqry.push('"ref":"'+getQueryStringValue("propref").replace(/\+/g,"")+'"')
+//
+var qsData = new QueryData(window.location.search, true);
+// is it a ref search
+// propref
+if(qsData.propref != 'No Ref'){
+  tafqry.push('"ref":"'+qsData.propref+'"')
   //console.log(tafqry.join(', '))
   theqry = JSON.parse('{'+tafqry.join(', ')+'}')
   //console.log(theqry)
@@ -420,7 +423,7 @@ if(getQueryStringValue("propref")){
 //not ref search
   tafqry.push('"price":{"!is":"SOLD"}')
   theofferis = {"new":"new","resale":"resale","rental":"rental"}
-  var qsData = new QueryData(window.location.search, true);
+  //var qsData = new QueryData(window.location.search, true);
   if(qsData.offeris != "all" && typeof qsData.offeris !== "undefined"){tafqry.push('"offeris":"'+theofferis[qsData.offeris]+'"')}
   console.log("the offeris is "+qsData.offeris)
   console.log("the gtp is "+qsData.gtp)
@@ -451,10 +454,6 @@ if(getQueryStringValue("propref")){
   if((typeof qsData.baths !== "undefined" && qsData.baths != "")){
     document.getElementById('baths').value = qsData.baths
     tafqry.push('"baths":"'+qsData.baths+'"')
-  }
-  if (typeof qsData.ref !== "undefined" && qsData.ref != ""){
-    document.getElementById('ref').value = qsData.ref
-    tafqry.push('"ref":{'"ref":"'+qsData.ref+'"') 
   }
   console.log(tafqry.join(', '))
   theqry = JSON.parse('{'+tafqry.join(', ')+'}')
