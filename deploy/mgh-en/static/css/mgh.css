@@ -9,7 +9,7 @@ body{display:flex;min-height:100vh;flex-direction:column;}
 .xcolumn{padding:0.0;}
 search,slides{flex:1}
 *{box-sizing:border-box;}
-#fpphoto{background-image:url('https://res.cloudinary.com/maxgoldhouse/image/upload/c_fill,h_600,w_1200,g_south/bouginvillia.jpg');background-size:cover;margin-bottom: 30px;}
+#fpphoto{background-image:url('https://res.cloudinary.com/maxgoldhouse/image/upload/c_fill,h_600,w_1600/bouginvillia.jpg');background-size:cover;margin-bottom: 30px;}
 #fpsearchformholder .columns{margin:0px;}
 #fpsearchformholder{padding:12px;opacity:100%;width: 96%;}
 #fpsearchformholder .button{margin-top:1rem;}
