@@ -49,6 +49,7 @@ for fetchprop in thetopsix:
     prop = {}
     #prop['propopt'] = row['strPropertyOptions']
     prop['propid'] = row['pid']
+    prop['ref'] = row['ref']
     prop['offplan'] = row['offplan']
     prop['propurl'] = propurl
     prop['locationdetail']=row['location']
