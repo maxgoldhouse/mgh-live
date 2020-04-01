@@ -99,8 +99,9 @@ Make an enquiry
 <input type="hidden" name="photo" id="photo" value="<img src='{{firstimg|replace("w640", "s400")}}'/>">
 <input id="source" name="formname" type="hidden" value="MGH Property Enquiry {{propref}}">
 </form>
-<h4>Brochure Download</h4>
-<a href="https://images.weserv.nl/?url=https://storage.googleapis.com/xousian.appspot.com/{{propref}}/{{propref}}.pdf&page=1&w=1200&{{timestamp}}"><img src="https://images.weserv.nl/?url=https://storage.googleapis.com/xousian.appspot.com/{{propref}}/{{propref}}.pdf&page=1&w=200&{{timestamp}}"/></a>
+{% if underoffersold == '0' %}
+<a href="https://images.weserv.nl/?url=https://storage.googleapis.com/xousian.appspot.com/{{propref}}/{{propref}}.pdf&page=1&w=1000&filename={{propref |replace("-", "")}}&{{timestamp}}" target="_blank"><img class ="brochure" src="https://images.weserv.nl/?url=https://storage.googleapis.com/xousian.appspot.com/{{propref}}/{{propref}}.pdf&page=1&w=200&{{timestamp}}"/><h4>View/Download Brochure</h4></a>
+{% endif %}
 </div>
 </div>
 </div>
