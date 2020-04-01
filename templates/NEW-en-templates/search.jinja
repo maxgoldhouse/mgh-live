@@ -483,12 +483,6 @@ if(qsData.propref != 'No Ref'){
 <div class="column is-2-desktop is-6-mobile is-4-tablet has-text-centered">
           <div class="card">
               <div class="card-content">
-                  <div class="media">
-                      <div class="media-content">
-                          <p class="title is-5 has-text-centered">[%=o.type%]</p>
-                          <p class="subtitle is-6 has-text-centered">[%=o.location_detail%]</p>
-                      </div>
-                  </div>
                   <div class="card-image">
                   <figure class="image is-4by3">
                       <a href="[%=o.url%]">
@@ -496,27 +490,39 @@ if(qsData.propref != 'No Ref'){
                       </a>
                   </figure>
               </div>
+                  <div class="media">
+                        <div class="media-content">
+                          <p class="is-size-6 has-text-centered has-text-weight-semibold">[%=o.type%]</p>
+                          <p class="is-size-7 has-text-centered">[%=o.location_detail%]</p>
+                          <p class="is-size-7 has-text-centered"> ref: [%=o.ref%] </p>
+                          <!--<p class="is-size-7 has-text-centered">
+                            <span><i class="fa fa-bed fa-lg" aria-hidden=true></i> [%=o.beds%] </span>
+                            <span><i class="fa fa-bath fa-lg" aria-hidden=true></i> [%=o.baths%] </span>
+                          </p> -->
+                        </div>
+                  </div>
+                  <div class="media">
+                      <div class="media-content">
+                          <p class="title is-5 has-text-centered">[%=o.type%]</p>
+                          <p class="subtitle is-6 has-text-centered">[%=o.location_detail%]</p>
+                      </div>
+                  </div>
+                      <p class="price">
+                          <span class="is-size-6 is-size-5-mobile"> €[%=o.enprice%] </span><span class="price_gbp"></span>                          
+                      </p>
                   <footer class="card-footer">
                       <p class="card-footer-item">
                           <span class=" is-size-5 is-size-4-mobile">
-        <i class="fa fa-bed fa-lg" aria-hidden="true"></i> [%=o.beds%]
-        </span>
+                            <i class="fa fa-bed fa-lg" aria-hidden="true"></i> [%=o.beds%]
+                          </span>
                       </p>
                       <p class="card-footer-item">
                           <span class=" is-size-5 is-size-4-mobile">
-          <i class="fa fa-bath fa-lg" aria-hidden="true"></i> [%=o.baths%]
-        </span>
-                      </p>
-                  </footer>
-                  <footer class="card-footer">
-                      <p class="card-footer-item price">
-                          <span class="is-size-5 is-size-4-mobile">
-                 <!-- From  -->
-                  <span class="price_eur">€[%=o.enprice%]</span>  <!--<span class="price_gbp"></span> -->
+                            <i class="fa fa-bath fa-lg" aria-hidden="true"></i> [%=o.baths%]
                           </span>
                       </p>
                   </footer>
-              </div>
+               </div>
           </div>
         </div>  
   
