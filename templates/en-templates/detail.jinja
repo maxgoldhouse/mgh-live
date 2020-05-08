@@ -69,7 +69,8 @@
 <div class="col-sm-8" id="slideshow">
   {% if underoffersold == '2' %} <div class="sold">S O L D</div> {% elif underoffersold == '3' %} <div class="rented">R E N T E D</div> {% elif underoffersold == '1' %} <div class="stc">U N D E R  O F F E R </div> {% endif %}
   <div style="max-width:960px;">
-    <amp-carousel width="960" height="720" layout="responsive" type="slides" autoplay delay="3200">
+  <amp-carousel id="custom-button" width="400" height="300" layout="responsive" type="slides" autoplay delay="2000">
+    <!--<amp-carousel width="960" height="720" layout="responsive" type="slides" autoplay delay="3200">-->
     {% for img in images %}
     <amp-img src="{{img['src']|replace("-rj-e30-v2","-rj-e30-l80")}}" width="640" height="480" layout="responsive"></amp-img>
     {% endfor %}
