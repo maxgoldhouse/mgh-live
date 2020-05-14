@@ -72,6 +72,7 @@ ul#propfeatures li{display:inline-block;padding:0.5rem;}
 .searcharea{width: 96%;  display: flex; margin-left: auto;margin-right: auto;}
 .slimreset {color: #ffffff; text-shadow: none; padding: 2px 4px 2px 4px; background-color: #1f9cee; border-radius: 20px; margin-left: 4px; cursor: pointer;}
 .slim-hidden{visibility:hidden;}
+#list-inline li{display:inline;}
 /* drop down in search */
 .dropbtn {background-color: #3498DB; color: white; padding: 16px; font-size: 16px; border: none; cursor: pointer;}
 
