@@ -82,19 +82,29 @@
     </amp-carousel>
 </div>
 </div>
-<div class="xcolumn xis-4 modal" id="modal-form"> <!-- enquiry_right -->
-<div class="enquiry_container">
-<h2 class="lead">Make an enquiry</h2>
 
-<form accept-charset="UTF-8" action="" class="modal form-horizontal new_enquiry" id="new_enquiry" method="">
-<div class="form-group field"><div class="col-sm-12"><textarea class="form-control" cols="40" id="message" name="message" placeholder="Please send me more information about this property" rows="4"></textarea></div></div>
-<div class="form-group field"><div class="col-sm-12"><input class=" form-control" id="name" name="name" placeholder="Name" size="30" type="text" required></div></div>
-<div class="form-group field"><div class="col-sm-12"><input class=" form-control" id="email" name="email" placeholder="Email" size="30" type="email" required></div></div>
 
-<div class="form-group"><div class="col-sm-12"><div><input id="about_similar" name="include similar" type="checkbox" value="1"> Tell me about similar properties?</div></div></div>
-<button class="btn btn-warning" id="enquiry_submit" type="submit">
-Make an enquiry
-</button>
+<!-- ====================================================================== -->
+<div id="modal-form" class="modal">
+	<form accept-charset="UTF-8" action="" class="form-horizontal new_enquiry" id="new_enquiry" method="" style="background-color:  ">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title" ><span id="subj"></span> ref: {{propref}}</p>
+      <button class="delete" aria-label="close" onclick="document.getElementById('modal-form').classList.remove('is-active')"></button>
+    </header>
+    <section class="modal-card-body">
+      <div class="content">
+        <h1 id="was-subj"></h1>
+        <center><img src="https://lh3.googleusercontent.com/agvDawchk97aXs8Vd-aMR5m8hRUCRb2tIWQo2AVmGdFJv253_2qSo03iOidIka0Kxt8nWNQEviYU6ozoR-4=w480-rj-e30-l100"/></center>
+        <!--<input type="text" id="subj" name="subj">
+        <h2 >Property ref: {{propref}}</h2>-->
+<div class="field col-sm-12"><input class=" form-control input" id="name" name="name" placeholder="Name" size="30" type="text" required=""></div></div>
+<div class="form-group field"><div class="col-sm-12"><input class="form-control input" id="email" name="email" placeholder="Email" size="30" type="email" required=""></div></div>
+<div class="form-group field"><div class="col-sm-12"><textarea class=" form-control" cols="40" rows='4' id="msg" name="message"  rows="4"></textarea></div></div>
+<div class="form-group field"><div class="col-sm-12"><div><input id="about_similar" name="include similar" type="checkbox" value="1"> Tell me about similar properties?</div></div></div>
+<center><button class="button is-success" id="enquiry_submit" type="submit">Send</button>
+<button class="button" onclick="document.getElementById('modal-form').classList.remove('is-active')">Cancel</button></center>
 <span class="spinner fa fa-spinner fa-spin" style="display:none"></span>
 <input type="hidden" name="cc" id="cc" value="leads@maxgoldhouse.com">
 <input type="hidden" name="property" id="property" value="<a href='www.maxgoldhouse.com{{propurl_en}}'>{{propref}}</a>">
@@ -102,8 +112,12 @@ Make an enquiry
 <input type="hidden" name="photo" id="photo" value="<img src='{{firstimg|replace("w640", "s400")}}'/>">
 <input id="source" name="formname" type="hidden" value="MGH Property Enquiry {{propref}}">
 </form>
+<div></div>
+<!-- ====================================================================== -->
+
+
 {% if underoffersold == '0' %}
-<a href="https://images.weserv.nl/?url=https://storage.googleapis.com/xousian.appspot.com/{{propref}}/{{propref}}.pdf&page=1&w=1000&filename={{propref |replace("-", "")}}&{{timestamp}}" target="_blank"><img class ="brochure" src="https://images.weserv.nl/?url=https://storage.googleapis.com/xousian.appspot.com/{{propref}}/{{propref}}.pdf&page=1&w=200&{{timestamp}}"/><h4>View/Download Brochure</h4></a>
+<!--<a href="https://images.weserv.nl/?url=https://storage.googleapis.com/xousian.appspot.com/{{propref}}/{{propref}}.pdf&page=1&w=1000&filename={{propref |replace("-", "")}}&{{timestamp}}" target="_blank"><img class ="brochure" src="https://images.weserv.nl/?url=https://storage.googleapis.com/xousian.appspot.com/{{propref}}/{{propref}}.pdf&page=1&w=200&{{timestamp}}"/><h4>View/Download Brochure</h4></a> -->
 {% endif %}
 </div>
 </div>
