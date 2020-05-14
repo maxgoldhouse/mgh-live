@@ -17,7 +17,7 @@ THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 #template setup detail.jinja
 templateLoader = jinja2.FileSystemLoader(_mghsettings.NEWEN_TEMPLATEFOLDER)
 templateEnv = jinja2.Environment( loader=templateLoader )
-TEMPLATE_FILE = "detail.jinja"
+TEMPLATE_FILE = "detail.html"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
 
