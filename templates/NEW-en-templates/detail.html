@@ -127,7 +127,7 @@
 <div class="column is-12">
 <p></p>
 <p class="reference">
-<strong>Price : {% if offplan == 'True' %}From{% endif %} {{price}} {{frequency}}<span class="price_gbp"></span> Ref : {{propref}}</strong>
+
 
 <button onclick="openEngForm('Information Request','Please send more information about ref: {{propref}}')" class="button is-warning xis-large">Make Enquiry</button> 
 <button onclick="openEngForm('Appointment to view', 'I would like to make an appointment to view ref: {{propref}}')" class="button is-success xis-large">Book Viewing Appointment</button>
@@ -148,7 +148,9 @@
 <li class="feature"><b>{{livingarea}} m<sup>2</sup></b> built |</li>
 <li class="feature"><b>{{plotsize}} m<sup>2</sup></b> plot size |</li>
 <li class="feature">pool <b>{{pool}}</b></li>
+<li class="feature"><strong>Price : {% if offplan == 'True' %}From{% endif %} {{price}} {{frequency}}<span class="price_gbp"></span> Ref : {{propref}}</strong></li>
 </ul>
+
 
 </div>
 </div>
