@@ -129,7 +129,7 @@
 <p class="reference">
 <strong>Price : {% if offplan == 'True' %}From{% endif %} {{price}} {{frequency}}<span class="price_gbp"></span> Ref : {{propref}}</strong>
 
-<button onclick="openEngForm('Information Request','Please send more information about ref: {{propref}}')" class="button is-warning xis-large">Get More Info</button> 
+<button onclick="openEngForm('Information Request','Please send more information about ref: {{propref}}')" class="button is-warning xis-large">Make Enquiry</button> 
 <button onclick="openEngForm('Appointment to view', 'I would like to make an appointment to view ref: {{propref}}')" class="button is-success xis-large">Book Viewing Appointment</button>
 </p>
 {# TO SHOW MORTGAGE details if mp != '' #}
@@ -143,10 +143,10 @@
 <div class="column is-12">
 
 <ul class="list-inline">
-<li class="feature"><b>{{beds}}</b> bedrooms</li>
-<li class="feature"><b>{{baths}}</b> bathrooms</li>
-<li class="feature"><b>{{livingarea}} m<sup>2</sup></b> built</li>
-<li class="feature"><b>{{plotsize}} m<sup>2</sup></b> plot size</li>
+<li class="feature"><b>{{beds}}</b> bedrooms |</li>
+<li class="feature"><b>{{baths}}</b> bathrooms |</li>
+<li class="feature"><b>{{livingarea}} m<sup>2</sup></b> built |</li>
+<li class="feature"><b>{{plotsize}} m<sup>2</sup></b> plot size |</li>
 <li class="feature">pool <b>{{pool}}</b></li>
 </ul>
 
@@ -159,10 +159,10 @@
 </div>
 <div class="panel-footer">
 <div class="columns">
-<div class="column is-12 more_info_link">
+<!-- <div class="column is-12 more_info_link">
 <a class="btn btn-warning" href="#" onclick="$('#message').focus(); return false;">Make an enquiry</a>
 <span class="pull-right" data-remote="true" data-shortlist="{{propid}}"></span>
-</div>
+</div> -->
 </div>
 </div>
 </div>
