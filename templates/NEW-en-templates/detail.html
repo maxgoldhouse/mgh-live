@@ -125,8 +125,6 @@
 <div id="property_detail">
 <div id="features"><div class="columns">
 <div class="column is-12">
-<p></p>
-<p class="reference">
 
 <center>
 <button onclick="openEngForm('Information Request','Please send more information about ref: {{propref}}')" class="button is-warning xis-large">Make Enquiry</button> 
@@ -139,10 +137,10 @@
 {% endif %}
 </div>
 </div>
-<div class="columns features">
+<div class="columns features ">
 
 <div class="column is-12">
-
+<center>
 <ul class="list-inline">
 <li class="feature"><b>{{beds}}</b> bedrooms |</li>
 <li class="feature"><b>{{baths}}</b> bathrooms |</li>
@@ -151,6 +149,7 @@
 <li class="feature">pool <b>{{pool}}</b></li>
 <li class="feature"><strong>Price : {% if offplan == 'True' %}From{% endif %} {{price}} {{frequency}}<span class="price_gbp"></span> Ref : {{propref}}</strong></li>
 </ul>
+</center>
 
 
 </div>
