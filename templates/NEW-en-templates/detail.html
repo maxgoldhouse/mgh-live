@@ -127,8 +127,8 @@
 <div class="column is-12">
 
 <center>
-<button onclick="openEngForm('Information Request','Please send more information about ref: {{propref}}')" class="button is-warning xis-large">Make Enquiry</button> 
-<button onclick="openEngForm('Appointment to view', 'I would like to make an appointment to view ref: {{propref}}')" class="button is-success xis-large">Book Viewing Appointment</button>
+<button onclick="openEngForm('Information Request','Please send more information about ref: {{propref}}')" class="button is-warning xis-large">Open Enquiry Form</button> 
+<button onclick="openEngForm('Appointment to view', 'I would like to make an appointment to view ref: {{propref}}')" class="button is-success xis-large">Open Viewing Appointment Form</button>
 </center> 
 </p>
 {# TO SHOW MORTGAGE details if mp != '' #}
@@ -222,7 +222,7 @@ function goback(fallbackUrl) {
 	function openEngForm(title,msg){
       document.getElementById('modal-form').classList.add('is-active');
       //document.getElementById('subj').innerHTML = title;
-      document.getElementById('message').innerHTML = msg;
+      document.getElementById('msg').innerHTML = msg;
 
 	}
 
