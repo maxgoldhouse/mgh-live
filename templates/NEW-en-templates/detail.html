@@ -137,11 +137,20 @@
 {% endif %}
 </div>
 </div>
-<div class="columns features ">
+<div class="columns  ">
+  <div class="column is-3"></div>
+<div class="column is-6">
+<div class="columns features">
+  <div class="column is-2"><img src="/img/bed-dark.png"/><br/> <b>{{beds}}</b></div>
+  <div class="column is-2"><img src="/img/bath-dark.png"/><br/> <b>{{baths}}</b> </div>
+  <div class="column is-2"><img src="/img/plan-dark.png"/><br/> <b>{{livingarea}} m<sup>2</sup></b></div>
+  <div class="column is-2"><img src="/img/plot-dark.png"/><br/> <b>{{plotsize}} m<sup>2</sup></b></div>
+  <div class="column is-2"><img src="/img/pool-dark.png"/><br/>  <b>{{pool}}</b></div>
+  <div class="column is-2"><strong> {% if offplan == 'True' %}From{% endif %} {{price}} {{frequency}}<span class="price_gbp"></span></strong></div>
 
-<div class="column is-12">
-<center>
-<ul class="list-inline">
+
+<!--
+  <ul class="list-inline">
 <li class="feature"><img src="/img/bed-dark.png"/> <b>{{beds}}</b> |</li>
 <li class="feature"><img src="/img/bath-dark.png"/> <b>{{baths}}</b>  |</li>
 <li class="feature"><img src="/img/plan-dark.png"/> <b>{{livingarea}} m<sup>2</sup></b>   |</li>
@@ -149,10 +158,10 @@
 <li class="feature"><img src="/img/pool-dark.png"/>  <b>{{pool}}</b> |</li>
 <li class="feature">  <strong> {% if offplan == 'True' %}From{% endif %} {{price}} {{frequency}}<span class="price_gbp"></span></strong></li>
 </ul>
-</center>
-
-
+-->
 </div>
+</div>
+<div class="column is-3"></div>
 </div>
 
 <div id="prop-description">{{propdescription}}  </div>
