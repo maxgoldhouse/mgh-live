@@ -44,6 +44,7 @@ footer a:hover{color:#ddd;}
 input:invalid{border:1px dashed red;}
 input:valid{border:1px solid green;}
 ul#propfeatures li{display:inline-block;padding:0.5rem;}
+.feature img{height: 24px;}
 .fpsearch{min-height:22vh;}
 .fpbigbuttons{min-height:90vh;}
 .hometile{position:relative;}
