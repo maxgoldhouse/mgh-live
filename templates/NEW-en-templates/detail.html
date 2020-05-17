@@ -147,10 +147,14 @@
       <div class="column is-one-fifth has-text-centered"><img src="/img/pool-dark.png"/><br/>  <b>{{pool}}</b></div>   
     </div>
   </div>
-  <div class="column is-3"><div class="column is-2 has-text-centered"><strong> {% if offplan == 'True' %}From{% endif %} {{price}} {{frequency}}<span class="price_gbp"></span></strong></div></div>
+  
 </div>
-
-<div id="prop-description">{{propdescription}}  </div>
+<div class="columns is-centered">
+  <div class="column is-3"><div class="column is-3 has-text-centered"><strong> {% if offplan == 'True' %}From{% endif %} {{price}} {{frequency}}<span class="price_gbp"></span></strong></div></div>
+</div>
+<div id="prop-description">
+    {{propdescription}}  
+</div>
 {{ moredetails }}
 </div>
 </div>
