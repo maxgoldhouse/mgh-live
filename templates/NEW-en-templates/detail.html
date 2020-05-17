@@ -15,7 +15,7 @@
 <link rel="alternate" hreflang="de" href="https://de.maxgoldhouse.com{{propurl_de}}" />
 <link rel="alternate" hreflang="fr" href="https://fr.maxgoldhouse.com{{propurl_fr}}" />
 <link rel="alternate" hreflang="nl" href="https://nl.maxgoldhouse.com{{propurl_nl}}" />
-<link rel="stylesheet" href="/css/mgh.css?8">
+<link rel="stylesheet" href="/css/mgh.css?10">
 <link rel="shortcut icon" href="https://www.maxgoldhouse.com/img/favicon.ico" />
 
 </head>
@@ -138,30 +138,16 @@
 </div>
 </div>
 <div class="columns  is-centered">
-  <!-- <div class="column is-3"></div> -->
-<div class="column is-6">
-<div class="columns features is-multiline is-mobile">
-  <div class="column is-2 has-text-centered"><img src="/img/bed-dark.png"/><br/> <b>{{beds}}</b></div>
-  <div class="column is-2 has-text-centered"><img src="/img/bath-dark.png"/><br/> <b>{{baths}}</b> </div>
-  <div class="column is-2 has-text-centered"><img src="/img/plan-dark.png"/><br/> <b>{{livingarea}} m<sup>2</sup></b></div>
-  <div class="column is-2 has-text-centered"><img src="/img/plot-dark.png"/><br/> <b>{{plotsize}} m<sup>2</sup></b></div>
-  <div class="column is-2 has-text-centered"><img src="/img/pool-dark.png"/><br/>  <b>{{pool}}</b></div>
-  <div class="column is-2 has-text-centered"><strong> {% if offplan == 'True' %}From{% endif %} {{price}} {{frequency}}<span class="price_gbp"></span></strong></div>
-
-
-<!--
-  <ul class="list-inline">
-<li class="feature"><img src="/img/bed-dark.png"/> <b>{{beds}}</b> |</li>
-<li class="feature"><img src="/img/bath-dark.png"/> <b>{{baths}}</b>  |</li>
-<li class="feature"><img src="/img/plan-dark.png"/> <b>{{livingarea}} m<sup>2</sup></b>   |</li>
-<li class="feature"><img src="/img/plot-dark.png"/> <b>{{plotsize}} m<sup>2</sup></b>   |</li>
-<li class="feature"><img src="/img/pool-dark.png"/>  <b>{{pool}}</b> |</li>
-<li class="feature">  <strong> {% if offplan == 'True' %}From{% endif %} {{price}} {{frequency}}<span class="price_gbp"></span></strong></li>
-</ul>
--->
-</div>
-</div>
-<!-- <div class="column is-3"></div> -->
+  <div class="column is-6">
+    <div class="columns features is-multiline is-mobile">
+      <div class="column is-one-fifth has-text-centered"><img src="/img/bed-dark.png"/><br/> <b>{{beds}}</b></div>
+      <div class="column is-one-fifth has-text-centered"><img src="/img/bath-dark.png"/><br/> <b>{{baths}}</b> </div>
+      <div class="column is-one-fifth has-text-centered"><img src="/img/plan-dark.png"/><br/> <b>{{livingarea}} m<sup>2</sup></b></div>
+      <div class="column is-one-fifth has-text-centered"><img src="/img/plot-dark.png"/><br/> <b>{{plotsize}} m<sup>2</sup></b></div>
+      <div class="column is-one-fifth has-text-centered"><img src="/img/pool-dark.png"/><br/>  <b>{{pool}}</b></div>   
+    </div>
+  </div>
+  <div class="column is-3"><div class="column is-2 has-text-centered"><strong> {% if offplan == 'True' %}From{% endif %} {{price}} {{frequency}}<span class="price_gbp"></span></strong></div></div>
 </div>
 
 <div id="prop-description">{{propdescription}}  </div>
@@ -169,12 +155,7 @@
 </div>
 </div>
 <div class="panel-footer">
-<div class="columns">
-<!-- <div class="column is-12 more_info_link">
-<a class="btn btn-warning" href="#" onclick="$('#message').focus(); return false;">Make an enquiry</a>
-<span class="pull-right" data-remote="true" data-shortlist="{{propid}}"></span>
-</div> -->
-</div>
+  <div class="columns"></div>
 </div>
 </div>
 
@@ -182,16 +163,16 @@
 </div>
 </div>
 <div id="footer">
-<div class="" id="bottom_nav">
-<div class="xnavbar xnavbar-default">
-<div class="xnav xnavbar-nav">
-<a>Help</a>
-<a>Support</a>
-<a>About MaxGoldHouse</a>
-</div>
-</div>
-</div>
-<div class="disclaimer container">
+  <div class="" id="bottom_nav">
+    <div class="xnavbar xnavbar-default">
+      <!--<div class="xnav xnavbar-nav">
+        <a>Help</a>
+        <a>Support</a>
+        <a>About MaxGoldHouse</a>
+      </div> -->
+    </div>
+  </div>
+  <div class="disclaimer container"></div>
 </div>
 <!--[if lt IE 9]>
 <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
@@ -256,6 +237,6 @@ function goback(fallbackUrl) {
       "areaServed":"GB"
     } ] }
 </script>
-</div>
+
 </body>
 </html>
