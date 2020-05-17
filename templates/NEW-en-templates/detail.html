@@ -127,15 +127,13 @@
 <div class="column is-12">
 
 <center>
-<button onclick="openEngForm('Information Request','Please send more information about ref: {{propref}}')" class="button is-warning xis-large">Open Enquiry Form</button> 
-<button onclick="openEngForm('Appointment to view', 'I would like to make an appointment to view ref: {{propref}}')" class="button is-success xis-large">Open Viewing Appointment Form</button>
 </center> 
 </p>
-{# TO SHOW MORTGAGE details if mp != '' #}
-{% if mp == 'notshowingthis' %}
-<p><strong>{{deposit}} <span class="price_gbp"></span></strong> deposit then <strong>{{mp}} <span class="price_gbp"></span></strong> per month on 15 year term.</p>
-{% endif %}
+
 </div>
+</div>
+<div class="columns is-centered">
+  <div class="column is-3 has-text-centered"><strong> {% if offplan == 'True' %}From{% endif %} {{price}} {{frequency}}<span class="price_gbp"></span></strong></div>
 </div>
 <div class="columns  is-centered">
   <div class="column is-6">
@@ -150,12 +148,23 @@
   
 </div>
 <div class="columns is-centered">
-  <div class="column is-3"><div class="column is-3 has-text-centered"><strong> {% if offplan == 'True' %}From{% endif %} {{price}} {{frequency}}<span class="price_gbp"></span></strong></div></div>
+  <div class="column is-6 has-text-centered">
+    <button onclick="openEngForm('Information Request','Please send more information about ref: {{propref}}')" class="button is-warning xis-large">Open Enquiry Form</button> 
+    <button onclick="openEngForm('Appointment to view', 'I would like to make an appointment to view ref: {{propref}}')" class="button is-success xis-large">Open Viewing Appointment Form</button>
+  </div>
 </div>
+
 <div id="prop-description">
-    {{propdescription}}  
+    {{propdescription}} 
+    {{ moredetails }} 
 </div>
-{{ moredetails }}
+
+<div class="columns is-centered">
+  <div class="column is-6 has-text-centered">
+    <button onclick="openEngForm('Information Request','Please send more information about ref: {{propref}}')" class="button is-warning xis-large">Open Enquiry Form</button> 
+    <button onclick="openEngForm('Appointment to view', 'I would like to make an appointment to view ref: {{propref}}')" class="button is-success xis-large">Open Viewing Appointment Form</button>
+  </div>
+</div>
 </div>
 </div>
 <div class="panel-footer">
