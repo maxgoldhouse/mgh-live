@@ -75,9 +75,9 @@
 
 <div class="panel-body">
 <div class="columns">
-<div class="column is-12" id="slideshow">
+<div class="column is-8 has-text-centered" id="slideshow">
   {% if underoffersold == '2' %} <div class="sold">S O L D</div> {% elif underoffersold == '3' %} <div class="rented">R E N T E D</div> {% elif underoffersold == '1' %} <div class="stc">U N D E R  O F F E R </div> {% endif %}
-  <div style="width:80%; margin: 0 auto;">
+  <div xstyle="width:80%; margin: 0 auto;">
   <amp-carousel id="custom-button" width="400" height="225" layout="responsive" type="slides" autoplay delay="3200">
     <!--<amp-carousel width="960" height="720" layout="responsive" type="slides" autoplay delay="3200">-->
     {% for img in images %}
@@ -167,6 +167,7 @@
   <div class="column is-6 has-text-centered">
     <button onclick="openEngForm('Information Request','Please send more information about ref: {{propref}}')" class="button is-warning xis-large">Open Enquiry Form</button> 
     <button onclick="openEngForm('Appointment to view', 'I would like to make an appointment to view ref: {{propref}}')" class="button is-success xis-large">Open Viewing Appointment Form</button>
+    <button onclick="window.open('https://us-central1-xousian.cloudfunctions.net/html-pdf?url=https://images.weserv.nl/?url=https://storage.googleapis.com/xousian.appspot.com/{{propref}}/{{propref}}.pdf&page=1&w=1000&filename={{propref}}&{{timestamp}}')">Download Brochure</button>
   </div>
 </div>
 </div>
