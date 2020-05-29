@@ -52,7 +52,7 @@ ul#propfeatures li{display:inline-block;padding:0.5rem;}
 .hometilelabel{position:absolute;bottom:2vh;left:4vh;color:white;padding:40% 40% 0 0;text-shadow:2px 2px #000;}
 .hometilelabel:hover{color:white;}
 .xfpsearch.sticky{position:-webkit-sticky;position:sticky;top:0;left:0;}
-#container{width:96%; margin: 0px auto 0px auto;}
+/*#container{width:96%; margin: 0px auto 0px auto;}*/
 .proplistdetails{padding:1.75rem 0.5rem;}
 .propertylist:first-child{padding-top:1.5rem;}
 .is-sold,.is-offer{position:absolute;top:50px;right:30px}
