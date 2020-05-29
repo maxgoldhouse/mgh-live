@@ -111,7 +111,7 @@
                   <br>
                   <div class="column is-1">
                       <div class="field">
-                          <label class="label has-text-white">New/Resale<br>/Rental</label>
+                          <label class="label is-small has-text-white">New/Resale<br>/Rental</label>
                           <select id="offeris" class="form-control" name="offeris">
                               <option value="all">All</option>
                               <option value="new">New Build</option>
@@ -122,7 +122,7 @@
                   </div>
                   <div class="column is-3">
                       <div class="field">
-                          <label class="label has-text-white"><br>Location <span class="slimreset" onclick="theloc.set([])">Reset</span></label>
+                          <label class="label is-small has-text-white"><br>Location <span class="slimreset" onclick="theloc.set([])">Reset</span></label>
                           <select multiple="multiple" class="slim-hidden" id="loc" name="loc">
                               {% include 'distinctlocations.html'%}</select>
                           <!-- <div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
@@ -137,7 +137,7 @@
 </script>
                   <div class="column is-2">
                       <div class="field">
-                          <label class="label has-text-white"><br>Home Type</label>
+                          <label class="label is-small has-text-white"><br>Home Type</label>
                            <div class="control">
                               <select multiple name="pt" class="slim-hidden" id="pt" aria-label="Property type" readonly="">
                                   
@@ -163,7 +163,7 @@
 </script>
                   <div class="column  is-1">
                       <div class="field">
-                          <label class="label has-text-white"><br>Beds</label>
+                          <label class="label is-small has-text-white"><br>Beds</label>
                           <div class="control">                             
                                 <select name="beds" class="form-control" id="beds" aria-label="Number of Bedrooms" readonly="">
                                   <option value=""></option>
@@ -186,7 +186,7 @@
                   </div>
                   <div class="column  is-1">
                       <div class="field">
-                          <label class="label has-text-white"><br>€ Min</label>
+                          <label class="label is-small has-text-white"><br>€ Min</label>
                           <!-- <input class="input" type="text" id="gtp" name="gtp" placeholder="Lowest Price"  length="20"> -->
                           <div class="control">
                               <select name="gtp" class="form-control" id="gtp" aria-label="Min price" readonly="">
@@ -236,7 +236,7 @@
                   </div>
                   <div class="column is-1">
                       <div class="field">
-                          <label class="label has-text-white"><br>€ Max</label>
+                          <label class="label is-small has-text-white"><br>€ Max</label>
                           <!-- <input class="input" type="text" id="ltp" name="ltp" placeholder="Highest Price"  length="20"> -->
                           <div class="control">
                               <select name="ltp" class="form-control" id="ltp" aria-label="Max price" readonly="">
@@ -288,7 +288,7 @@
                     <svg xml:space="preserve" style="enable-background:new 0 0 451.847 451.847;" viewBox="0 0 451.847 451.847" height="451.847px" width="451.847px" y="0px" x="0px" style="fill:#ffffff" id="g1188"><path style="fill:#ffffff" id="path1186" d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751 c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0 c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/></g></svg></span>
                     <div id="myDropdown" class="dropdown-content">
                       <div class="field">
-                          <label class="label has-text-white popwhitetext"><br/>Bathrooms</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Bathrooms</label>
                           <div class="control">                             
                                 <select name="baths" class="form-control" id="baths" aria-label="Number of Bathrooms" readonly="">
                                   <option value=""></option>
@@ -309,13 +309,13 @@
                           </div>
                       </div>
                       <div class="field">
-                          <label class="label has-text-white popwhitetext"><br/>Pool</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Pool</label>
                           <div class="control">                             
                                 <input type="checkbox" name="pool" id="pool" value="pool">
                           </div>
                       </div>
                        <div class="field">
-                          <label class="label has-text-white popwhitetext"><br/>Property Ref</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Property Ref</label>
                           <div class="control">                             
                                 <select class="form-control" name="propref"><option value="No Ref">Choose Ref</option>{% include 'refsearch.html'%}</select>
                           </div>
