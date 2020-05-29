@@ -76,6 +76,7 @@ ul#propfeatures li{display:inline-block;padding:0.5rem;}
 .slim-hidden{visibility:hidden;}
 .list-inline li{display:inline;}
 #prop-description{width:80%;margin: 0 auto;}
+#footer{margin-top: 2em;background-color: #3273dc; color: white;}
 #footer a{color: white;}
 /* drop down in search */
 .dropbtn {background-color: #3498DB; color: white; padding: 16px; font-size: 16px; border: none; cursor: pointer;}
