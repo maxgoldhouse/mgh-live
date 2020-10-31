@@ -72,6 +72,8 @@ for eachprop in _mgh_data.proplists['All']:
     prop = {}
 
     prop['description'] =  ' '.join(row['NL'].split()[:50])
+	slaapkamer = ' slaapkamers'
+	badkamer = ' badkamers'
     if int(row['beds']) == 1:
 	    slaapkamer = ' slaapkamer'
     elif int(row['beds']) > 1:
