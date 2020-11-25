@@ -85,7 +85,7 @@ for eachprop in _mgh_data.proplists['All']:
     prop['description'] =  ' '.join(row['FR'].split()[:50])
     prop['jsondescription'] = ' '.join(row['FR'].split()[:50]).decode('utf-8')
     chambre = ' chambres'
-	bain = ' salles de bains'
+    bain = ' salles de bains'
     if int(row['beds']) == 1:
 		chambre = ' chambre'
     elif int(row['beds']) > 1:
