@@ -72,17 +72,17 @@ for eachprop in _mgh_data.proplists['All']:
     prop = {}
 
     prop['description'] =  ' '.join(row['NL'].split()[:50])
-	slaapkamer = ' slaapkamers'
-	badkamer = ' badkamers'
+    slaapkamer = ' slaapkamers'
+    badkamer = ' badkamers'
     if int(row['beds']) == 1:
-	    slaapkamer = ' slaapkamer'
+        slaapkamer = ' slaapkamer'
     elif int(row['beds']) > 1:
-	    slaapkamer = ' slaapkamers'
+        slaapkamer = ' slaapkamers'
     prop['beds'] = row['beds'] + slaapkamer
     if int(row['baths']) == 1:
-	    badkamer = ' badkamer'
+        badkamer = ' badkamer'
     elif int(row['baths']) > 1:
-	    badkamer = ' badkamers'
+        badkamer = ' badkamers'
     prop['baths'] = row['baths'] + badkamer
     prop['propid'] = row['pid']
     prop['propref'] = row['ref']
