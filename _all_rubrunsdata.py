@@ -3,9 +3,9 @@
 rubruns=[
 {
 "rubrun":"All",
-"query":"Select * FROM mghprops WHERE blndisplay = 1 AND blnrental = 0 ORDER BY intprice ASC",
+"query":"Select * FROM mghprops WHERE blndisplay = 1 ORDER BY intprice ASC",
 "EN":{
-"description":"Villas, Apartments, Townhouses and Fincas for sale in Villamartin, Playa Flamenca, Cabo Roig, Los Altos, Los Balcones, Guardamar del Segura, Ciudad Quesada in Torrevieja and  Orihuela Costa areas of Southern Costa Blanca Spain",
+"description":"Villas, Apartments, Townhouses and Fincas for sale or rent in Villamartin, Playa Flamenca, Cabo Roig, Los Altos, Los Balcones, Guardamar del Segura, Ciudad Quesada in Torrevieja and  Orihuela Costa areas of Southern Costa Blanca Spain",
 "keywords":"Villamartin Villas, Apartments, Townhouses and Fincas, Playa Flamenca, Cabo Roig, Guardamar del Segura and Ciudad Quesada",
 "title":"Villas, Apartments, Townhouses and Fincas for Sale, Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada Costa Blanca Spain",
 "h1":"Property For Sale in Villamartin, Cabo Roig, Torrevieja, Playa Flamenca and Orihuela Costa Spain"},
