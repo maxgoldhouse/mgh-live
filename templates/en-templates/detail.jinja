@@ -97,7 +97,8 @@ Make an enquiry
 </form>
 <br/>
 {% if underoffersold == '0' %}
-<a href="https://us-central1-xousian.cloudfunctions.net/html-pdf?url=https://images.weserv.nl/?url=https://storage.googleapis.com/xousian.appspot.com/{{propref}}/{{propref}}.pdf&page=1&w=1000&filename={{propref |replace("-", "")}}&{{timestamp}}" target="_blank"><img class ="brochure" src="https://images.weserv.nl/?url=https://storage.googleapis.com/xousian.appspot.com/{{propref}}/{{propref}}.pdf&page=1&w=200&{{timestamp}}"/><h4>View/Download Brochure</h4></a>
+<!-- <a href="https://us-central1-xousian.cloudfunctions.net/html-pdf?url=https://images.weserv.nl/?url=https://storage.googleapis.com/xousian.appspot.com/{{propref}}/{{propref}}.pdf&page=1&w=1000&filename={{propref |replace("-", "")}}&{{timestamp}}" target="_blank"><img class ="brochure" src="https://images.weserv.nl/?url=https://storage.googleapis.com/xousian.appspot.com/{{propref}}/{{propref}}.pdf&page=1&w=200&{{timestamp}}"/><h4>View/Download Brochure</h4></a> -->
+<a href="https://storage.googleapis.com/xousian.appspot.com/{{propref}}/{{propref}}.pdf" target="_blank"><img class ="brochure" src="https://images.weserv.nl/?url=https://storage.googleapis.com/xousian.appspot.com/{{propref}}/{{propref}}.pdf&page=1&w=200&{{timestamp}}" onerror="this.src='https://images.weserv.nl/?url=https://storage.googleapis.com/xousian.appspot.com/{{propref}}/{{propref}}.pdf&page=0&w=200&{{timestamp}}';this.onerror='';"/><h4>View/Download Brochure</h4></a>
 {% endif %}
 </div>
 </div>
