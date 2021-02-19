@@ -78,6 +78,37 @@
 </div>
 </div>
 <div class="col-sm-4" id="enquiry_right">
+<div id="property_detail">
+   <div id="features">
+      <div class="row">
+         <div class="col-xs-12">
+            <p></p>
+            <p class="reference">
+               <strong>Price : {% if offplan == 'True' %}From{% endif %} {{price}} {{frequency}}<span class="price_gbp"></span> Ref : {{propref}}</strong>
+            </p>
+            {# TO SHOW MORTGAGE details if mp != '' #}
+            {% if mp == 'notshowingthis' %}
+            <p><strong>{{deposit}} <span class="price_gbp"></span></strong> deposit then <strong>{{mp}} <span class="price_gbp"></span></strong> per month on 15 year term.</p>
+            {% endif %}
+         </div>
+      </div>
+      <div class="row features">
+         <div class="col-xs-12">
+            <ul class="list-inline">
+               <li class="feature"><b>{{beds}}</b> bedrooms</li>
+               <li class="feature"><b>{{baths}}</b> bathrooms</li>
+               <li class="feature"><b>{{livingarea}} m<sup>2</sup></b> built</li>
+               <li class="feature"><b>{{plotsize}} m<sup>2</sup></b> plot size</li>
+               <li class="feature">pool <b>{{pool}}</b></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <p id="price_history"></p>
+   <div id="prop-description">{{propdescription}}  </div>
+   {{ moredetails }}
+</div>
+</div>
 <div class="enquiry_container">
 <h2 class="lead">Make an enquiry</h2>
 
@@ -104,7 +135,8 @@ Make an enquiry
 </div>
 </div>
 <div id="property_detail">
-<div id="features"><div class="row">
+<div id="features">
+<div class="row">
 <div class="col-xs-12">
 <p></p>
 <p class="reference">
