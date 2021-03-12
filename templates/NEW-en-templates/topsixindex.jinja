@@ -53,7 +53,7 @@
 
     <script>(function(){var burger=document.querySelector('.burger');var nav=document.querySelector('#'+burger.dataset.target);burger.addEventListener('click',function(){burger.classList.toggle('is-active');nav.classList.toggle('is-active');});})();</script>
 </header>
-
+<style>.ss-multi-selected{overflow-y: scroll;min-width:200px;max-height:120px;}</style>
 <main div class="" id="fpphoto">
   <div class="columns is-centered">
       <div class="xfpsearch xsticky" id="fpsearchformholder">
@@ -72,7 +72,7 @@
                               </select>
                       </div>
                   </div>
-                  <div class="column is-2" style="overflow-y: scroll; min-width: 200px; max-width: 120px;">
+                  <div class="column is-2">
                       <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Location <span class="slimreset" onclick="theloc.set([])">Reset</span></label>
                           <select id="loc" class="slim-hidden" name="loc" multiple="multiple">
