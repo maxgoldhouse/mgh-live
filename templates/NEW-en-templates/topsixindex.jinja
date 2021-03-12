@@ -114,7 +114,7 @@
                   thecontrols[0].style.visibility = "visible";
                   thecontrols[1].style.visibility = "visible";
                 </script>
-                  <div class="column is-1">
+                  <div class="column" style="max-width:80px;">
                       <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Beds</label>
                           <div class="control">                             
@@ -137,6 +137,29 @@
                           </div>
                       </div>
                   </div>
+                  <div class="column" style="max-width:80px;">
+                      <div class="field">
+                          <label class="label is-small has-text-white popwhitetext"><br/>Baths</label>
+                          <div class="control">                             
+                                <select name="baths" class="form-control" id="baths" aria-label="Number of Bathrooms" readonly="">
+                                  <option value=""></option>
+                                  <option value="0">0</option>
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                  <option value="5">5</option>
+                                  <option value="6">6</option>
+                                  <option value="7">7</option>
+                                  <option value="8">8</option>
+                                  <option value="9">9</option>
+                                  <option value="10">10</option>
+                                  <option value="11">11</option>
+                                  <option value=12">12</option>                                                                   
+                              </select>
+                          </div>
+                      </div>
+                  </div>                  
                   <div class="column is-1">
                       <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>€ Min</label>
@@ -234,30 +257,8 @@
                           </div>
                       </div>
                   </div>
-                  <div class="column is-1">
-                      <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Bathrooms</label>
-                          <div class="control">                             
-                                <select name="baths" class="form-control" id="baths" aria-label="Number of Bathrooms" readonly="">
-                                  <option value=""></option>
-                                  <option value="0">0</option>
-                                  <option value="1">1</option>
-                                  <option value="2">2</option>
-                                  <option value="3">3</option>
-                                  <option value="4">4</option>
-                                  <option value="5">5</option>
-                                  <option value="6">6</option>
-                                  <option value="7">7</option>
-                                  <option value="8">8</option>
-                                  <option value="9">9</option>
-                                  <option value="10">10</option>
-                                  <option value="11">11</option>
-                                  <option value=12">12</option>                                                                   
-                              </select>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="column is-1">
+
+                  <div class="column" style="max-width: 60px;">
                   <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Pool</label>
                           <div class="control">                             
