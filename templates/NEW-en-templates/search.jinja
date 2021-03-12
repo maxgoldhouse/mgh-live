@@ -56,42 +56,43 @@
 </header>
 
     <div id="search-bar">
-    <form id="propsearch" class="has-background-grey-light" action="search.html" method="GET">
-              <div class="columns is-vcentered searcharea is-multiline">
-                  <br>
-                  <div class="column is-1">
+          <form id="propsearch" action="search.html" method="GET">
+              <div class="columns is-vcentered is-multiline is-centered" style="background-color: rgba(52, 149, 218, 0.5);">
+                  <br/>
+                  <div class="column is-2">
                       <div class="field">
-                          <label class="label is-small has-text-white">New/Resale<br>/Rental</label>
+                          <label class="label is-small has-text-white popwhitetext">New/Resale<br>/Rental</label>
                           <select id="offeris" class="form-control" name="offeris">
                               <option value="all">All</option>
                               <option value="new">New Build</option>
                               <option value="resale">Resale</option>
                               <option value="rental">Long Term Rental</option>
-                          </select>
+                              </select>
                       </div>
                   </div>
-                  <div class="column is-3">
-                      <div class="field">
-                          <label class="label is-small has-text-white"><br>Location <span class="slimreset" onclick="theloc.set([])">Reset</span></label>
-                          <select multiple="multiple" class="slim-hidden" id="loc" name="loc">
-                              {% include 'distinctlocations.html'%}</select>
-                          <!-- <div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
-                      </div>
-                  </div>
-<script>
-  var theloc = new SlimSelect({
-  select: '#loc',
-  selectByGroup: true,
-  allowDeselect: true
-  })
-</script>
                   <div class="column is-2">
                       <div class="field">
-                          <label class="label is-small has-text-white"><br>Home Type</label>
-                           <div class="control">
-                              <select multiple name="pt" class="slim-hidden" id="pt" aria-label="Property type" readonly="">
-                                  
-                                  <option value="Apartment">Apartment</option>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Location <span class="slimreset" onclick="theloc.set([])">Reset</span></label>
+                          <select id="loc" class="slim-hidden" name="loc" multiple="multiple">
+                              {% include 'distinctlocations.html'%}</select>
+                          <!--<div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
+                      </div>
+                  </div>
+                <script>
+                    var theloc = new SlimSelect({
+                    select: '#loc',
+                    selectByGroup: true,
+                    allowDeselect: true
+                    })
+                </script>
+                  <div class="column is-2">
+                      <div class="field">
+                          <label class="label is-small has-text-white popwhitetext"><br/>Home Type</label>
+                          <!-- <input class="input" type="text" id="pt" name="pt" placeholder="Property Type"  length="20"> -->
+                          <div class="control">
+                              <select name="pt" class="slim-hidden" id="pt" aria-label="Property type" readonly=""  multiple="multiple">
+                                  <option value=""></option>
+                                  <option value="Apartment">Apartment</option>  
                                   <option value="Townhouse">Townhouse</option>
                                   <option value="Quadhouse">Quadhouse</option>
                                   <option value="Villa">Villa</option>
@@ -102,18 +103,18 @@
                           </div>
                       </div>
                   </div>
-<script>
-  var thept = new SlimSelect({
-  select: '#pt',
-  allowDeselect: true
-})
-  var thecontrols = document.getElementsByClassName("ss-main");
-  thecontrols[0].style.visibility = "visible";
-  thecontrols[1].style.visibility = "visible";
-</script>
-                  <div class="column  is-1">
+                <script>
+                  var thept = new SlimSelect({
+                  select: '#pt',
+                  allowDeselect: true
+                })
+                  var thecontrols = document.getElementsByClassName("ss-main");
+                  thecontrols[0].style.visibility = "visible";
+                  thecontrols[1].style.visibility = "visible";
+                </script>
+                  <div class="column" style="max-width:80px;">
                       <div class="field">
-                          <label class="label is-small has-text-white"><br>Beds</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Beds</label>
                           <div class="control">                             
                                 <select name="beds" class="form-control" id="beds" aria-label="Number of Bedrooms" readonly="">
                                   <option value=""></option>
@@ -129,17 +130,39 @@
                                   <option value="9">9</option>
                                   <option value="10">10</option>
                                   <option value="11">11</option>
-                                  <option value="12&quot;">12</option>                                                                   
+                                  <option value=12">12</option>                                                                   
                               </select>
                           </div>
                       </div>
                   </div>
-                  <div class="column  is-1">
+                  <div class="column" style="max-width:80px;">
                       <div class="field">
-                          <label class="label is-small has-text-white"><br>€ Min</label>
-                          <!-- <input class="input" type="text" id="gtp" name="gtp" placeholder="Lowest Price"  length="20"> -->
+                          <label class="label is-small has-text-white popwhitetext"><br/>Baths</label>
+                          <div class="control">                             
+                                <select name="baths" class="form-control" id="baths" aria-label="Number of Bathrooms" readonly="">
+                                  <option value=""></option>
+                                  <option value="0">0</option>
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                  <option value="5">5</option>
+                                  <option value="6">6</option>
+                                  <option value="7">7</option>
+                                  <option value="8">8</option>
+                                  <option value="9">9</option>
+                                  <option value="10">10</option>
+                                  <option value="11">11</option>
+                                  <option value=12">12</option>                                                                   
+                              </select>
+                          </div>
+                      </div>
+                  </div>                  
+                  <div class="column is-1">
+                      <div class="field">
+                          <label class="label is-small has-text-white popwhitetext"><br/>€ Min</label>
                           <div class="control">
-                              <select name="gtp" class="form-control" id="gtp" aria-label="Min price" readonly="">
+                              <select name="gtp" class="form-control" id="gtp" aria-label="Min price" readonly="">                                 
                                   <option value=""></option>
                                   <option value="0">€0</option>
                                   <option value="50000">€50,000</option>
@@ -186,8 +209,7 @@
                   </div>
                   <div class="column is-1">
                       <div class="field">
-                          <label class="label is-small has-text-white"><br>€ Max</label>
-                          <!-- <input class="input" type="text" id="ltp" name="ltp" placeholder="Highest Price"  length="20"> -->
+                          <label class="label is-small has-text-white popwhitetext"><br/>€ Max</label>
                           <div class="control">
                               <select name="ltp" class="form-control" id="ltp" aria-label="Max price" readonly="">
                                   <option value=""></option>
@@ -233,46 +255,24 @@
                           </div>
                       </div>
                   </div>
-                  <div class="dropdown column is-1"><br/>
-                    <span onclick="myFunction()" class="dropbtn button is-medium is-info details">Filter 
-                    <svg xml:space="preserve" style="enable-background:new 0 0 451.847 451.847;" viewBox="0 0 451.847 451.847" height="451.847px" width="451.847px" y="0px" x="0px" style="fill:#ffffff" id="g1188"><path style="fill:#ffffff" id="path1186" d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751 c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0 c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/></g></svg></span>
-                    <div id="myDropdown" class="dropdown-content">
-                      <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Bathrooms</label>
-                          <div class="control">                             
-                                <select name="baths" class="form-control" id="baths" aria-label="Number of Bathrooms" readonly="">
-                                  <option value=""></option>
-                                  <option value="0">0</option>
-                                  <option value="1">1</option>
-                                  <option value="2">2</option>
-                                  <option value="3">3</option>
-                                  <option value="4">4</option>
-                                  <option value="5">5</option>
-                                  <option value="6">6</option>
-                                  <option value="7">7</option>
-                                  <option value="8">8</option>
-                                  <option value="9">9</option>
-                                  <option value="10">10</option>
-                                  <option value="11">11</option>
-                                  <option value=12">12</option>                                                                   
-                              </select>
-                          </div>
-                      </div>
-                      <div class="field">
+
+                  <div class="column" style="max-width: 60px;">
+                  <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Pool</label>
                           <div class="control">                             
-                                <input type="checkbox" name="pool" id="pool" value="pool">
+                                <input class="form-control" type="checkbox" name="pool" id="pool" value="pool">
                           </div>
                       </div>
+                   </div>
+                  <div class="column is-1">
                        <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Property Ref</label>
                           <div class="control">                             
                                 <select class="form-control" name="propref"><option value="No Ref">Choose Ref</option>{% include 'refsearch.html'%}</select>
                           </div>
                       </div>
+                   </div>
 
-                    </div>
-                  </div>
                   <div class="column is-1" id="searchbutton">
                       <input class="button is-large is-info details" type="submit" value="Search">
                   </div>
