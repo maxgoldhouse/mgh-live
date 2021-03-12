@@ -80,7 +80,7 @@ ul#propfeatures li{display:inline-block;padding:0.5rem;}
 .list-inline li{display:inline;}
 .ss-multi-selected{overflow-y: scroll; min-width: 200px; max-height: 120px;}
 #prop-description{width:80%;margin: 0 auto;}
-#footer{margin-top: 6em; background-color: #3273dc; color: white; padding: 2em 1em 2em 1em;border-top:2px solid #f1ae50;}
+#footer{margin-top: 6em; background-color: #3273dc; color: white; padding: 2em 1em 2em 1em;border-top: 2px solid #f1ae50;}
 #footer a{color: white;text-decoration: underline;}
 /* drop down in search */
 .dropbtn {background-color: #3498DB; color: white; padding: 16px; font-size: 16px; border: none; cursor: pointer;}
