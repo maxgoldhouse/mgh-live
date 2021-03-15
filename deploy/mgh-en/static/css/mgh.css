@@ -117,7 +117,7 @@ ul#propfeatures li{display:inline-block;padding:0.5rem;}
   .show {display: block;}
   
 .vam{vertical-align: middle;}
-.form.columns.column{padding: 0 0.75}
+form .columns .column{padding: 0 0.75em}
 .form-control {
   display: block;
   width: 100%;
