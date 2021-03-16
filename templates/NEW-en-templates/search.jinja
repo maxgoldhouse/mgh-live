@@ -94,7 +94,7 @@
                                   <option value=""></option>
                                   <option value="Apartment">Apartment</option>  
                                   <option value="Townhouse">Townhouse</option>
-                                  <option value="Quadhouse">Quadhouse</option>
+                                  <!--<option value="Quadhouse">Quadhouse</option>-->
                                   <option value="Villa">Villa</option>
                                   <option value="Finca">Finca</option>
                                   <option value="Land">Land</option>
@@ -386,6 +386,7 @@ if(qsData.propref != 'No Ref'){
     //,Semidetached%20Villa,Detached%20Villa
     thept.set(qsData.pt)
     if(qsData.pt.indexOf("Villa") > -1){qsData.pt.push('Semidetached Villa','Detached Villa')}
+    if(qsData.pt.indexOf("Townhouse") > -1){qsData.pt.push('Townhouse','Quadhouse')}
     tafqry.push('"type":'+JSON.stringify(qsData.pt)+'') 
   }
   if (typeof qsData.gtp !== "undefined" && qsData.gtp != ""){
