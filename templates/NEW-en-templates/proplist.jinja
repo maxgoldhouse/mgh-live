@@ -17,35 +17,38 @@
 
 <link rel="shortcut icon" href="/img/favicon.ico" />
 </head>
-<body>
-<div class="navbar navbar-inverse navbar-fixed-top" id="account_nav" role="navigation">
-<div class="navbar-header">
-<button class="navbar-toggle" data-target=".account-nav-collapse" data-toggle="collapse" type="button">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-<a class="navbar-brand" href="/" id="navbar_logo">
-<img alt="MaxGoldHouse Logotype." src="/img/mghlogo.png" />
-</a>
-</div>
-<div class="collapse navbar-collapse account-nav-collapse">
-<ul class="nav navbar-nav navbar-left">
-<li class=""><a href="index.html">For Sale</a></li>
-<li><a href="search.html?offeris=rental&beds=>p=<p=&baths=&propref=No+Ref">Long Term Rental</a></li>
-<li><a href="buying-process.html">The Buying Process</a></li>
-<li><a href="privacy-policy.html">Privacy</a></li>
-<li><a href="cookie-policy.html">Cookies</a></li>
-</ul>
-<ul class="languagepicker large nav navbar-nav navbar-right lingo">
-  <a href="https://www.maxgoldhouse.com/{{url_en}}"><li><img src="//lh3.googleusercontent.com/kEyBIAzDf4lJtEXKBQyEqsnEgvyaNboEl_4vNL6ZWv_LYJ9P67G6zn3wjq6QGwtho6qjKADDviJW76Ul=s16">English &nbsp;▼</li></a> 
-	<a href="https://de.maxgoldhouse.com/{{url_de}}"><li><span>Deutsch</span></li></a>
-	<a href="https://fr.maxgoldhouse.com/{{url_fr}}"><li><span>Français</span></li></a>
-	<a href="https://nl.maxgoldhouse.com/{{url_nl}}"><li><span>Nederlands</span></li></a>
-</ul>
-
-</div>
-</div>
+<body  class="has-navbar-fixed-top">
+<header>
+		<nav class="navbar is-fixed-top is-link">
+				<div class="navbar-brand">
+						<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+								<span aria-hidden="true"></span>
+								<span aria-hidden="true"></span>
+								<span aria-hidden="true"></span>
+							  </a>
+						<a class="navbar-item" href="/">
+						  <img src="https://lh3.googleusercontent.com/-VnP7FD3Xk94/WFfNY4vmdkI/AAAAAAAAO-k/srLkasCBQcUlFowdxd0eeM7Jwnh0444rgCHM/s0-no-e365/mghlogo.png" width=280 height=50 style="max-height: 20rem;" alt="MaxGoldHouse Logo"/>
+						</a>	
+				</div>		
+        <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="index.html" class="navbar-item is-uppercase ">For Sale</a>
+          <a href="search.html?offeris=rental&beds=>p=<p=&baths=&propref=No+Ref" class="navbar-item is-uppercase ">Long Term Rental</a>
+          <a href="buying-process.html" class="navbar-item is-uppercase ">The Buying Process</a>
+          <a href="privacy-policy.html" class="navbar-item is-uppercase ">Privacy</a>
+          <a href="cookie-policy.html" class="navbar-item is-uppercase ">Cookies</a>
+        </div>
+        <ul class="languagepicker large navbar-end lingo navbar-item">
+          <a href="https://www.maxgoldhouse.com">
+          <li><img class="vam" src="//lh3.googleusercontent.com/kEyBIAzDf4lJtEXKBQyEqsnEgvyaNboEl_4vNL6ZWv_LYJ9P67G6zn3wjq6QGwtho6qjKADDviJW76Ul=s24">EN &nbsp;▼</li></a>
+          <a href="https://de.maxgoldhouse.com{{propurl_de}}"><li><span>DE</span></li></a>
+          <a href="https://fr.maxgoldhouse.com{{propurl_fr}}"><li><span>FR</span></li></a>
+          <a href="https://nl.maxgoldhouse.com{{propurl_nl}}"><li><span>NL</span></li></a>
+        </ul>
+        </div>
+    </nav>
+<script>(function(){var burger=document.querySelector('.burger');var nav=document.querySelector('#'+burger.dataset.target);burger.addEventListener('click',function(){burger.classList.toggle('is-active');nav.classList.toggle('is-active');});})();</script>
+</header>
 <div class="row" id="container">
 <div class="col-md-6 col-md-push-3" id="content">
 

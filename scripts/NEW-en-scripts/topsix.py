@@ -33,9 +33,9 @@ def getpropfirstpic(album):
 	myfile.close()
 	return mylines[0].replace('/s0/','/s400/').replace('/s640/','/s400/')
 
-topsixdict['title'] = 'Villamartin Property for Sale, Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada Costa Blanca Spain'
+topsixdict['title'] = 'Costa Blanca Property for Sale, Villamartin, Torrevieja, Orihuela, Orihuela Costa, Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada'
 topsixdict['keywords'] = 'Villamartin Property for sale, Playa Flamenca, Cabo Roig, Guardamar del Segura and Ciudad Quesada'
-topsixdict['description'] = 'Property for sale in Villamartin, Playa Flamenca, Cabo Roig, Los Altos, Los Balcones, Guardamar del Segura, Ciudad Quesada in Torrevieja and  Orihuela Costa areas of Southern Costa Blanca Spain'
+topsixdict['description'] = 'Property for sale in the Costa Blanca Alicante and Costa Calida Murcia. Apartments, Townhouses and Villas in Orihuella, Torrevieja,  Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada'
 topsixdict['props'] = []
 allprops['props'] = []
 thetopsix = _mgh_data.proplists['topsix']
