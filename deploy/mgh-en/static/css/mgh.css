@@ -19,6 +19,7 @@ search,slides{flex:1}
 .fpsearchform div p{text-shadow:3px 3px #000;}
 .card-footer-item{background-color:##fff;color:#000;font-weight:bold;}
 #topsix{max-width: 98%; margin-left: 1%; margin-right: 1%;}
+#rubrun{max-width: 98%; margin-left: 1%; margin-right: 1%;margin-top: 0.5rem;}
 .rubruns.columns{padding:10px;}
 .rubruns.columns .column{padding:10px;}
 .rubruns.columns:last-child{padding:20px;}
