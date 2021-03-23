@@ -12,7 +12,7 @@ urllib.urlretrieve("https://storage.googleapis.com/mgh-props.appspot.com/mgh-dat
 
     
 urllib.urlretrieve ("http://mgh-props.appspot.com/refs", "refsearch.html")
-urllib.urlretrieve ("http://mgh-props.appspot.com/getgroupedlocations","distinctlocations.html")
+#urllib.urlretrieve ("http://mgh-props.appspot.com/getgroupedlocations","distinctlocations.html")
 
 #urllib.urlretrieve ("http://mgh-props.appspot.com/getdistinctlocations","distinctlocations.html")
 
