@@ -15,3 +15,4 @@ echo 'mgh-en deploy.sh proplist NEW-EN fin'
 python ./scripts/NEW-en-scripts/propdetail.py
 echo 'mgh-en deploy.sh propdetail NEW-EN fin'
 date
+echo 'finished'
