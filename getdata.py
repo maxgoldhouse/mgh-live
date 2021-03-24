@@ -23,6 +23,5 @@ import urllib.request
 urllib.request.urlretrieve('http://mgh-props.appspot.com/pydata','_mgh_data.py')
 urllib.request.urlretrieve ("http://mgh-props.appspot.com/refs", "refsearch.html")
 urllib.request.urlretrieve ("http://mgh-props.appspot.com/locations","distinctlocations.html")
-
 '''
 
