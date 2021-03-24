@@ -10,11 +10,12 @@ import urllib
 
 urllib.urlretrieve("https://storage.googleapis.com/mgh-props.appspot.com/mgh-data/_mgh_python.py","_mgh_data.py")
     
-urllib.urlretrieve ("http://mgh-props.appspot.com/refs", "refsearch.html")
+urllib.urlretrieve("http://mgh-props.appspot.com/refs", "refsearch.html")
 
-#urllib.urlretrieve ("http://mgh-props.appspot.com/getgroupedlocations","distinctlocations.html")
+#urllib.urlretrieve("http://mgh-props.appspot.com/getgroupedlocations","distinctlocations.html")
 
-urllib.urlretrieve ("http://mgh-props.appspot.com/getdistinctlocations","distinctlocations.html")
+#urllib.urlretrieve("http://mgh-props.appspot.com/getdistinctlocations","distinctlocations.html")
+urllib.urlretrieve("https://mgh-props.appspot.com/getgroupedbytown","distinctlocations.html")
 
 '''
 for python3
