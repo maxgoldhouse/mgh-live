@@ -112,7 +112,7 @@ for eachprop in _mgh_data.proplists['All']:
     elif row['salestage'] == '2':
     	prop['price'] = 'VENDU'
     elif row['salestage'] == '3':
-    	prop['price'] = "<span style='color:red;'>LOUE</span>"
+    	prop['price'] = 'LOUE'
     else:
     	prop['price'] = ''
     prop['img'] = row['pics'][0].replace('/s0/','/s400/').replace('/s640/','/s400/')

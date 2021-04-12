@@ -97,9 +97,9 @@ for eachprop in _mgh_data.proplists['All']:
     if row['salestage'] == '0' or row['salestage'] == '10':
     	prop['price'] = "{:,}".format(int(row['price'])).replace(',','.')
     elif row['salestage'] == '2':
-    	prop['price'] = 'verkauft'
+    	prop['price'] = 'VERKAUFT'
     elif row['salestage'] == '3':
-    	prop['price'] = "<span style='color:red;'>VERMIETET</span>"
+    	prop['price'] = "VERMIETET"
     else:
     	prop['price'] = ''
     prop['img'] = row['pics'][0].replace('/s0/','/s400/').replace('/s640/','/s400/')
