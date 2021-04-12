@@ -123,7 +123,7 @@ for eachprop in _mgh_data.proplists['All']:
         prop['price'] = 'SOLD'
         prop['enprice'] = 'SOLD'
     elif row['salestage'] == '3':
-        prop['price'] = '<span style="color:red;">RENTED</span>'
+        prop['price'] = "<span style='color:red;'>RENTED</span>"
         prop['enprice'] = 'RENTED'        
         prop['frequency']= ''
     else:
