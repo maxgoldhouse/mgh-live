@@ -94,7 +94,7 @@ for prop in _mgh_data.props:
 	propdict['province']=thisprop['province']
 	propdict['proptype']=thisprop['ptype']
 	propdict['saleorrent']=saleorrent
-pricefrom = ''
+	pricefrom = ''
 	if row['frequency'] == 'sale':
 		propdict['frequency'] = ''
 	elif row['frequency'] == 'month':

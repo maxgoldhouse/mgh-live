@@ -3,7 +3,7 @@
 NEWEN_SITEDIR = "./deploy/mgh-en/static/"
 NEWEN_TESTDIR = "./deploy/mgh-en/static3/"
 NEWEN_TEMPLATEFOLDER = "./templates/NEW-en-templates/"
-NEWNL_SITEDIR = "./deploy/mgh-en/static/"
+NEWNL_SITEDIR = "./deploy/mgh-en/static3/"
 NEWNL_TEMPLATEFOLDER = "./templates/NEW-nl-templates/"
 EN_SITEDIR = "./deploy/www-mgh-3/static/"
 EN_TEMPLATEFOLDER = "./templates/en-templates/"
