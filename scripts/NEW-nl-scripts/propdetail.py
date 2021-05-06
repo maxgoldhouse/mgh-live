@@ -62,8 +62,10 @@ for prop in _mgh_data.props:
 	pagename = str(thisprop['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']
 	if thisprop['pool'].lower() == 'yes':
 		pool = 'ja'
-	else:
+	elif thisprop['pool'].lower() == 'no':
 		pool = 'nee'
+	else:
+		pool = thisprop['pool']
 	propdict = {}
 	propdict['props'] = []
 	propdict['propdescription'] = thisprop['NL']
@@ -83,7 +85,7 @@ for prop in _mgh_data.props:
 	propdict['badsingplur'] = badkamer
 	propdict['livingarea'] = thisprop['living']
 	propdict['plotsize'] = thisprop['plot']
-	propdict['pool'] = thisprop['pool']
+	propdict['pool'] = pool
 	propdict['propid'] = thisprop['pid']
 	propdict['propref'] = thisprop['ref']
 	propdict['propurl_de'] = propurl_de
@@ -92,7 +94,7 @@ for prop in _mgh_data.props:
 	propdict['propurl_fr'] = propurl_fr
 	propdict['locationdetail']=thisprop['location']
 	propdict['province']=thisprop['province']
-	propdict['proptype']=thisprop['ptype']
+	propdict['proptype']=nl_proptype
 	propdict['saleorrent']=saleorrent
 	pricefrom = ''
 	if thisprop['frequency'] == 'sale':
