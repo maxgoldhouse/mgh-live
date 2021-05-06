@@ -46,20 +46,24 @@ for prop in _mgh_data.props:
     #prepare the vars to pass to the template
 	#print 'propid ' + thisprop['pid']
 	#print 'price ' + thisprop['price']
-	if thisprop['rental'] == 'True':
-		saleorrent = 'rent'
+	if row['rental'] == 'True':
+		saleorrent = 'te huur'
 	else:
-		saleorrent = 'sale'
+		saleorrent = 'te koop'
 
-	pagename = str(thisprop['beds'])+'-bed-'+thisprop['ptype'].replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']
-	de_proptype = _mghsettings.trans_proptypes[thisprop['ptype'].lower()]['de']
-	nl_proptype = _mghsettings.trans_proptypes[thisprop['ptype'].lower()]['nl']
-	fr_proptype = _mghsettings.trans_proptypes[thisprop['ptype'].lower()]['fr']
-	propurl_de = '/'+str(thisprop['beds'])+'-bad-'+de_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
-	propurl_nl = '/'+str(thisprop['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
-	propurl_fr = '/'+str(thisprop['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e')+'-a-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
-	#print propurl_nl
-	propurl_en = '/'+str(thisprop['beds'])+'-bed-'+thisprop['ptype'].replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
+	nl_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['nl']
+	de_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['de']
+	fr_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['fr']
+
+	propurl_de = '/'+str(row['beds'])+'-bad-'+de_proptype.replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
+	propurl_nl = '/'+str(row['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
+	propurl_fr = '/'+str(row['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e')+'-a-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
+	propurl_en = '/'+str(row['beds'])+'-bed-'+row['ptype'].replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
+	pagename = str(row['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']
+	if row['pool'].lower() == 'yes':
+		pool = 'ja'
+	else:
+		pool = 'nee'
 	propdict = {}
 	propdict['props'] = []
 	propdict['propdescription'] = thisprop['description']
