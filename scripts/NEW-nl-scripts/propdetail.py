@@ -15,7 +15,7 @@ import _mgh_data
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
 #template setup detail.jinja
-templateLoader = jinja2.FileSystemLoader(_mghsettings.NEWEN_TEMPLATEFOLDER)
+templateLoader = jinja2.FileSystemLoader(_mghsettings.NEWNL_TEMPLATEFOLDER)
 templateEnv = jinja2.Environment( loader=templateLoader )
 TEMPLATE_FILE = "detail.html"
 

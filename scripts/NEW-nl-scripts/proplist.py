@@ -13,7 +13,7 @@ import _mgh_data
 
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
-templateLoader = jinja2.FileSystemLoader(_mghsettings.NEWEN_TEMPLATEFOLDER)
+templateLoader = jinja2.FileSystemLoader(_mghsettings.NEWNL_TEMPLATEFOLDER)
 templateEnv = jinja2.Environment( loader=templateLoader )
 TEMPLATE_FILE = "proplist.jinja"
 
