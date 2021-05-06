@@ -1,6 +1,6 @@
-#application: mgh-en
+#application: www-mgh-3-nl
 #version: 1
-runtime: python39
+runtime: python27
 api_version: 1
 threadsafe: true
 
@@ -17,8 +17,3 @@ handlers:
 - url: /favicon.ico
   static_files: favicon.ico
   upload: favicon.ico
-
-error_handlers:
-- file: custom_404.html
-  
-
