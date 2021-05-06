@@ -33,15 +33,16 @@ def getpropfirstpic(album):
 	myfile.close()
 	return mylines[0].replace('/s0/','/s400/').replace('/s640/','/s400/')
 
-topsixdict['title'] = 'Costa Blanca Property for Sale, Villamartin, Torrevieja, Orihuela, Orihuela Costa, Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada'
-topsixdict['keywords'] = 'Villamartin Property for sale, Playa Flamenca, Cabo Roig, Guardamar del Segura and Ciudad Quesada'
-topsixdict['description'] = 'Property for sale in the Costa Blanca Alicante and Costa Calida Murcia. Apartments, Townhouses and Villas in Orihuella, Torrevieja,  Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada'
+topsixdict['title'] = 'Villamartin Eigendom te koop, Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada Costa Blanca Spain'
+topsixdict['keywords'] = 'Villamartin Eigendom te koop, Playa Flamenca, Cabo Roig, Guardamar del Segura and Ciudad Quesada'
+topsixdict['description'] = 'Eigendom te koop Villamartin, Playa Flamenca, Cabo Roig, Los Altos, Los Balcones, Guardamar del Segura, Ciudad Quesada in Torrevieja and  Orihuela Costa areas of Southern Costa Blanca Spain'
 topsixdict['props'] = []
 allprops['props'] = []
 thetopsix = _mgh_data.proplists['topsix']
 for fetchprop in thetopsix:
     row = _mgh_data.props[str(fetchprop)]
-    propurl = '/'+str(row['beds'])+'-bed-'+row['ptype'].replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
+    nl_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['nl']
+    propurl = '/'+str(row['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
     if row['rental'] == 'True':
     	saleorrent = 'rent'
     else:
@@ -53,7 +54,7 @@ for fetchprop in thetopsix:
     prop['offplan'] = row['offplan']
     prop['propurl'] = propurl
     prop['locationdetail']=row['location']
-    prop['proptype']=row['ptype']
+    prop['proptype']=nl_proptype
     prop['saleorrent']=saleorrent
     prop['underoffersold'] = row['salestage']
     prop['beds'] = row['beds']
