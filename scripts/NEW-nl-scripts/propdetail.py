@@ -46,21 +46,21 @@ for prop in _mgh_data.props:
     #prepare the vars to pass to the template
 	#print 'propid ' + thisprop['pid']
 	#print 'price ' + thisprop['price']
-	if row['rental'] == 'True':
+	if thisprop['rental'] == 'True':
 		saleorrent = 'te huur'
 	else:
 		saleorrent = 'te koop'
 
-	nl_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['nl']
-	de_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['de']
-	fr_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['fr']
+	nl_proptype = _mghsettings.trans_proptypes[thisprop['ptype'].lower()]['nl']
+	de_proptype = _mghsettings.trans_proptypes[thisprop['ptype'].lower()]['de']
+	fr_proptype = _mghsettings.trans_proptypes[thisprop['ptype'].lower()]['fr']
 
-	propurl_de = '/'+str(row['beds'])+'-bad-'+de_proptype.replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
-	propurl_nl = '/'+str(row['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
-	propurl_fr = '/'+str(row['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e')+'-a-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
-	propurl_en = '/'+str(row['beds'])+'-bed-'+row['ptype'].replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
-	pagename = str(row['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']
-	if row['pool'].lower() == 'yes':
+	propurl_de = '/'+str(thisprop['beds'])+'-bad-'+de_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
+	propurl_nl = '/'+str(thisprop['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
+	propurl_fr = '/'+str(thisprop['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e')+'-a-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
+	propurl_en = '/'+str(thisprop['beds'])+'-bed-'+thisprop['ptype'].replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
+	pagename = str(thisprop['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']
+	if thisprop['pool'].lower() == 'yes':
 		pool = 'ja'
 	else:
 		pool = 'nee'
@@ -69,16 +69,16 @@ for prop in _mgh_data.props:
 	propdict['propdescription'] = thisprop['NL']
 	propdict['offplan'] = thisprop['offplan']
 	propdict['saleorrent'] = saleorrent
-	propdict['beds'] = row['beds']
-	if int(row['beds']) == 1:
+	propdict['beds'] = thisprop['beds']
+	if int(thisprop['beds']) == 1:
 		slaapkamer = ' slaapkamer'
-	elif int(row['beds']) > 1:
+	elif int(thisprop['beds']) > 1:
 		slaapkamer = ' slaapkamers'
 	propdict['slaapsingplur'] = slaapkamer
-	propdict['baths'] = row['baths']
-	if int(row['baths']) == 1:
+	propdict['baths'] = thisprop['baths']
+	if int(thisprop['baths']) == 1:
 		badkamer = ' badkamer'
-	elif int(row['baths']) > 1:
+	elif int(thisprop['baths']) > 1:
 		badkamer = ' badkamers'
 	propdict['badsingplur'] = badkamer
 	propdict['livingarea'] = thisprop['living']
@@ -95,20 +95,20 @@ for prop in _mgh_data.props:
 	propdict['proptype']=thisprop['ptype']
 	propdict['saleorrent']=saleorrent
 	pricefrom = ''
-	if row['frequency'] == 'sale':
+	if thisprop['frequency'] == 'sale':
 		propdict['frequency'] = ''
-	elif row['frequency'] == 'month':
+	elif thisprop['frequency'] == 'month':
 		propdict['frequency']= ' per maand'
 	else:
 		propdict['frequency']= ' per week'
 		pricefrom = ' vanaf '
 
-	propdict['underoffersold'] = row['salestage']
-	if row['salestage'] == '0' or row['salestage'] == '10':
-		propdict['price'] = pricefrom+"<span class='price_eur'>&euro;"+"{:,}".format(int(row['price']))+"</span> "
-	elif row['salestage'] == '2':
+	propdict['underoffersold'] = thisprop['salestage']
+	if thisprop['salestage'] == '0' or thisprop['salestage'] == '10':
+		propdict['price'] = pricefrom+"<span class='price_eur'>&euro;"+"{:,}".format(int(thisprop['price']))+"</span> "
+	elif thisprop['salestage'] == '2':
 		propdict['price'] = 'VERKOCHT'
-	elif row['salestage'] == '3':
+	elif thisprop['salestage'] == '3':
 		propdict['price'] = '<span style="color:red;">VERHUURD</span>'
 		propdict['frequency'] = ''
 	else:
