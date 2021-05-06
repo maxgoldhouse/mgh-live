@@ -66,11 +66,21 @@ for prop in _mgh_data.props:
 		pool = 'nee'
 	propdict = {}
 	propdict['props'] = []
-	propdict['propdescription'] = thisprop['description']
+	propdict['propdescription'] = thisprop['NL']
 	propdict['offplan'] = thisprop['offplan']
 	propdict['saleorrent'] = saleorrent
-	propdict['beds'] = thisprop['beds']
-	propdict['baths'] = thisprop['baths']
+	propdict['beds'] = row['beds']
+	if int(row['beds']) == 1:
+		slaapkamer = ' slaapkamer'
+	elif int(row['beds']) > 1:
+		slaapkamer = ' slaapkamers'
+	propdict['slaapsingplur'] = slaapkamer
+	propdict['baths'] = row['baths']
+	if int(row['baths']) == 1:
+		badkamer = ' badkamer'
+	elif int(row['baths']) > 1:
+		badkamer = ' badkamers'
+	propdict['badsingplur'] = badkamer
 	propdict['livingarea'] = thisprop['living']
 	propdict['plotsize'] = thisprop['plot']
 	propdict['pool'] = thisprop['pool']
@@ -84,24 +94,23 @@ for prop in _mgh_data.props:
 	propdict['province']=thisprop['province']
 	propdict['proptype']=thisprop['ptype']
 	propdict['saleorrent']=saleorrent
-	pricefrom = ''
-	if thisprop['frequency'] == 'sale':
+pricefrom = ''
+	if row['frequency'] == 'sale':
 		propdict['frequency'] = ''
-	elif thisprop['frequency'] == 'month':
-		propdict['frequency']= ' per '+thisprop['frequency']
+	elif row['frequency'] == 'month':
+		propdict['frequency']= ' per maand'
 	else:
-		propdict['frequency']= ' per '+thisprop['frequency']
-		pricefrom = ' from '
+		propdict['frequency']= ' per week'
+		pricefrom = ' vanaf '
 
-	propdict['underoffersold'] = thisprop['salestage']
-	if thisprop['salestage'] == '0' or thisprop['salestage'] == '10':
-		propdict['price'] = pricefrom + "<span class='price_eur'>&euro;"+"{:,}".format(int(thisprop['price']))+"</span> "
-		propdict['mp'] = ''
-	elif thisprop['salestage'] == '2':
-		propdict['price'] = 'SOLD'
-	elif thisprop['salestage'] == '3':
-		propdict['price'] = '<span style="color:red;">RENTED</span>'
-		propdict['frequency']= ''
+	propdict['underoffersold'] = row['salestage']
+	if row['salestage'] == '0' or row['salestage'] == '10':
+		propdict['price'] = pricefrom+"<span class='price_eur'>&euro;"+"{:,}".format(int(row['price']))+"</span> "
+	elif row['salestage'] == '2':
+		propdict['price'] = 'VERKOCHT'
+	elif row['salestage'] == '3':
+		propdict['price'] = '<span style="color:red;">VERHUURD</span>'
+		propdict['frequency'] = ''
 	else:
 		propdict['price'] = ''
 	propdict['firstimg'] = firsturl
