@@ -154,7 +154,7 @@ TEMPLATE_FILE = "search.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
 outputText = template.render()
-file = open(_mghsettings.NEWEN_SITEDIR+"search.html", "w")
+file = open(_mghsettings.NEWEN_SITEDIR+"zoek.html", "w")
 file.write(outputText)
 file.close()
 	
