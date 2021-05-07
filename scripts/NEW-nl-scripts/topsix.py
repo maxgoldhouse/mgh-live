@@ -101,7 +101,7 @@ for eachprop in _mgh_data.proplists['All']:
     else:
         prop['offeris'] ='resale'
 
-    prop['description'] = row['description'][:420]
+    prop['description'] = row['NL'][:420]
     prop['offplan'] = row['offplan']
     prop['beds'] = row['beds']
     prop['baths'] = row['baths']
@@ -112,7 +112,7 @@ for eachprop in _mgh_data.proplists['All']:
     prop['town'] = row['town']
     prop['province'] = row['province']
     prop['locationdetail']=row['location']
-    prop['proptype']=row['ptype']
+    prop['proptype']= _mghsettings.trans_proptypes[row['ptype'].lower()]['nl']
     prop['saleorrent']= 'sale'
     prop['underoffersold'] = row['salestage']
     prop['sprice'] = row['price']
