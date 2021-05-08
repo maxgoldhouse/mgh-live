@@ -79,12 +79,15 @@
                       </div>
                   </div>
                 <script>
+                    const params = new URLSearchParams(window.location.search)
+                    arrlocs = params.getAll('loc')
                     var theloc = new SlimSelect({
                     select: '#loc',
                     selectByGroup: true,
                     placeholder: 'Selecteer uit lijst',
                     allowDeselect: true
                     })
+                    theloc.set(arrlocs)
                 </script>
                   <div class="column is-2">
                       <div class="field">
