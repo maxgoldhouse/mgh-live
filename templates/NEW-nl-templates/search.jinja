@@ -24,12 +24,6 @@
 <body  class="xhas-navbar-fixed-top">
 <script>
 const params = new URLSearchParams(window.location.search);
-document.getElementById("offeris").value = params.get('offeris');
-document.getElementById("beds").value = params.get('beds');
-document.getElementById("baths").value = params.get('baths');
-document.getElementById("gtp").value = params.get('gtp');
-document.getElementById("ltp").value = params.get('ltp');
-document.getElementById("pool").value = params.get('pool');
 </script>
 <header>
 		<nav class="navbar is-fixed-top is-link">
@@ -336,6 +330,14 @@ document.getElementById("pool").value = params.get('pool');
   ga('create', 'UA-140979-2', 'auto');
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
+// START Set form controls with querystring values
+document.getElementById("offeris").value = params.get('offeris');
+document.getElementById("beds").value = params.get('beds');
+document.getElementById("baths").value = params.get('baths');
+document.getElementById("gtp").value = params.get('gtp');
+document.getElementById("ltp").value = params.get('ltp');
+document.getElementById("pool").value = params.get('pool');
+// END Set form controls
 
 function getQueryStringValue (key) {  
   return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));  
