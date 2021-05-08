@@ -22,6 +22,7 @@
 
 </head>
 <body  class="xhas-navbar-fixed-top">
+<script>const params = new URLSearchParams(window.location.search)</script>
 <header>
 		<nav class="navbar is-fixed-top is-link">
 				<div class="navbar-brand">
@@ -80,7 +81,7 @@
                       </div>
                   </div>
                 <script>
-                    const params = new URLSearchParams(window.location.search)
+                    
                     arrlocs = params.getAll('loc')
                     var theloc = new SlimSelect({
                       select: '#loc',
@@ -108,11 +109,13 @@
                       </div>
                   </div>
                 <script>
+                  arrpts = params.getAll('pt')
                   var thept = new SlimSelect({
                   select: '#pt',
                   placeholder: 'Selecteer uit lijst',
                   allowDeselect: true
                 })
+                  thept.set(arrpts)
                   var thecontrols = document.getElementsByClassName("ss-main");
                   thecontrols[0].style.visibility = "visible";
                   thecontrols[1].style.visibility = "visible";
