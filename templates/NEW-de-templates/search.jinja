@@ -10,11 +10,11 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible" />
 <meta name="msvalidate.01" content="495BBC82C6515A55A3A84D993FEB5094" />
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<link rel="canonical" href="/search.html"/>
-<link rel="alternate" hreflang="en" href="https://www.maxgoldhouse.com/costa-blanca-property-for-less-than-100000-0.html"/>
-<link rel="alternate" hreflang="de" href="https://de.maxgoldhouse.com/costa-blanca-Immobilien-fur-weniger-als-100000-0.html"/>
-<link rel="alternate" hreflang="fr" href="https://fr.maxgoldhouse.com/Propriete-a-Costa-Blanca-jusqu-a-100000-euro-0.html"/>
-<link rel="alternate" hreflang="nl" href="https://nl.maxgoldhouse.com/Eigendom-in-de-Costa-Blanca-tot-100000-euro-0.html"/>
+<link rel="canonical" href="/zoek.html"/>
+<link rel="alternate" hreflang="en" href="https://www.maxgoldhouse.com/search.html"/>
+<link rel="alternate" hreflang="de" href="https://de.maxgoldhouse.com/suche.html"/>
+<link rel="alternate" hreflang="fr" href="https://fr.maxgoldhouse.com/chercher.html"/>
+<link rel="alternate" hreflang="nl" href="https://nl.maxgoldhouse.com/zoek.html"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.25.0/slimselect.min.css" rel="stylesheet"></link>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.25.0/slimselect.min.js"></script>
 <link rel="stylesheet" href="/css/mgh.css?19">
@@ -39,18 +39,19 @@ const params = new URLSearchParams(window.location.search);
 				</div>		
         <div id="navMenu" class="navbar-menu">
         <div class="navbar-start">
-          <a href="index.html" class="navbar-item is-uppercase ">For Sale</a>
-          <a href="search.html?offeris=rental&beds=>p=<p=&baths=&propref=No+Ref" class="navbar-item is-uppercase ">Long Term Rental</a>
-          <a href="buying-process.html" class="navbar-item is-uppercase ">The Buying Process</a>
-          <a href="privacy-policy.html" class="navbar-item is-uppercase ">Privacy</a>
-          <a href="cookie-policy.html" class="navbar-item is-uppercase ">Cookies</a>
+          <a href="index.html" class="navbar-item is-uppercase ">Te koop</a>
+          <a href="zoek.html?offeris=rental&beds=&baths=&propref=No+Ref" class="navbar-item is-uppercase ">Lange termijn verhuur</a>
+          <a href="https://nl.maxgoldhouse.com/het-koopproces.html" class="navbar-item is-uppercase ">Het Koopproces</a>
+          <a href="https://nl.maxgoldhouse.com/privacybeleid.html" class="navbar-item is-uppercase ">Privacybeleid</a>
+          <a href="https://nl.maxgoldhouse.com/cookiebeleid.html" class="navbar-item is-uppercase ">Cookiebeleid</a>
+          <a href="#footer" class="navbar-item is-uppercase ">Contact opnemen</a>
         </div>
         <ul class="languagepicker large navbar-end lingo navbar-item">
-          <a href="/search.html">
+          <a class="altlang" href="/search.html">
           <li><img class="vam" src="//lh3.googleusercontent.com/kEyBIAzDf4lJtEXKBQyEqsnEgvyaNboEl_4vNL6ZWv_LYJ9P67G6zn3wjq6QGwtho6qjKADDviJW76Ul=s24">EN &nbsp;▼</li></a>
-          <a href="https://de.maxgoldhouse.com"><li><span>DE</span></li></a>
-          <a href="https://fr.maxgoldhouse.com"><li><span>FR</span></li></a>
-          <a href="https://nl.maxgoldhouse.com"><li><span>NL</span></li></a>
+          <a class="altlang" href="https://de.maxgoldhouse.com/suche.html"><li><span>DE</span></li></a>
+          <a class="altlang" href="https://fr.maxgoldhouse.com/chercher.html"><li><span>FR</span></li></a>
+          <a class="altlang" href="https://nl.maxgoldhouse.com/zoek.html"><li><span>NL</span></li></a>
         </ul>
         </div>
     </nav>
@@ -59,51 +60,52 @@ const params = new URLSearchParams(window.location.search);
 </header>
 
     <div id="search-bar">
-          <form id="propsearch" action="search.html" method="GET">
+          <form id="propsearch" action="zoek.html" method="GET">
               <div class="columns xis-vcentered is-multiline is-centered" style="background-color: rgba(52, 149, 218, 0.5);">
                   <br/>
                   <div class="column is-2">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br>New/Resale/Rental</label>
+                          <label class="label is-small has-text-white popwhitetext"><br>Nieuwbouw/Doorverkoop/Verhuur</label>
                           <select id="offeris" class="form-control" name="offeris">
-                              <option value="all">All</option>
-                              <option value="new">New Build</option>
-                              <option value="resale">Resale</option>
-                              <option value="rental">Long Term Rental</option>
+                              <option value="all">Alle</option>
+                              <option value="new">Nieuwbouw</option>
+                              <option value="resale">Doorverkoop</option>
+                              <option value="rental">Lange termijn verhuur</option>
                               </select>
                       </div>
                   </div>
                   <div class="column is-2">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Location <span class="slimreset" onclick="theloc.set([])">Reset</span></label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Locatie <span class="slimreset" onclick="theloc.set([])">Reset</span></label>
                           <select id="loc" class="slim-hidden" name="loc" multiple="multiple">
                               {% include 'distinctlocations.html'%}</select>
                           <!--<div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
                       </div>
                   </div>
                 <script>
+                    
                     arrlocs = params.getAll('loc')
                     var theloc = new SlimSelect({
-                    select: '#loc',
-                    selectByGroup: true,
-                    allowDeselect: true
+                      select: '#loc',
+                      selectByGroup: true,
+                      placeholder: 'Selecteer uit lijst',
+                      allowDeselect: true
                     })
                     theloc.set(arrlocs)
                 </script>
                   <div class="column is-2">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Home Type</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Vastgoedtype</label>
                           <!-- <input class="input" type="text" id="pt" name="pt" placeholder="Property Type"  length="20"> -->
                           <div class="control">
                               <select name="pt" class="slim-hidden" id="pt" aria-label="Property type" readonly=""  multiple="multiple">
                                   <option value=""></option>
-                                  <option value="Apartment">Apartment</option>  
-                                  <option value="Townhouse">Townhouse</option>
-                                  <!--<option value="Quadhouse">Quadhouse</option>-->
+                                  <option value="Appartement">Appartement</option>  
+                                  <option value="Rijtjeshuis">Rijtjeshuis</option>
                                   <option value="Villa">Villa</option>
-                                  <option value="Finca">Finca</option>
+                                  <option value="Landhuis">Landhuis</option>
                                   <option value="Land">Land</option>
-                                  <option value="Commercial">Commercial</option>
+                                  <option value="Commercieel vastgoed">Commercieel vastgoed</option>
                               </select>
                           </div>
                       </div>
@@ -111,9 +113,10 @@ const params = new URLSearchParams(window.location.search);
                 <script>
                   arrpts = params.getAll('pt')
                   var thept = new SlimSelect({
-                    select: '#pt',
-                    allowDeselect: true
-                  })
+                  select: '#pt',
+                  placeholder: 'Selecteer uit lijst',
+                  allowDeselect: true
+                })
                   thept.set(arrpts)
                   var thecontrols = document.getElementsByClassName("ss-main");
                   thecontrols[0].style.visibility = "visible";
@@ -121,7 +124,7 @@ const params = new URLSearchParams(window.location.search);
                 </script>
                   <div class="column" style="max-width:80px;">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Beds</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Slaapkamers</label>
                           <div class="control">                             
                                 <select name="beds" class="form-control" id="beds" aria-label="Number of Bedrooms" readonly="">
                                   <option value=""></option>
@@ -144,7 +147,7 @@ const params = new URLSearchParams(window.location.search);
                   </div>
                   <div class="column" style="max-width:80px;">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Baths</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Badkamers</label>
                           <div class="control">                             
                                 <select name="baths" class="form-control" id="baths" aria-label="Number of Bathrooms" readonly="">
                                   <option value=""></option>
@@ -167,7 +170,7 @@ const params = new URLSearchParams(window.location.search);
                   </div>                  
                   <div class="column is-1">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>€ Min</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>€ Min. prijs</label>
                           <div class="control">
                               <select name="gtp" class="form-control" id="gtp" aria-label="Min price" readonly="">                                 
                                   <option value=""></option>
@@ -216,7 +219,7 @@ const params = new URLSearchParams(window.location.search);
                   </div>
                   <div class="column is-1">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>€ Max</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>€ Max. prijs</label>
                           <div class="control">
                               <select name="ltp" class="form-control" id="ltp" aria-label="Max price" readonly="">
                                   <option value=""></option>
@@ -265,7 +268,7 @@ const params = new URLSearchParams(window.location.search);
 
                   <div class="column" style="max-width: 60px;">
                   <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Pool</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Zwembad</label>
                           <div class="control">                             
                                 <input class="form-control" type="checkbox" name="pool" id="pool" value="pool">
                           </div>
@@ -273,15 +276,15 @@ const params = new URLSearchParams(window.location.search);
                    </div>
                   <div class="column is-1">
                        <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Property Ref</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Ref-No.</label>
                           <div class="control">                             
-                                <select class="form-control" name="propref"><option value="No Ref">Choose Ref</option>{% include 'refsearch.html'%}</select>
+                                <select class="form-control" name="propref"><option value="No Ref">Selecteer Ref</option>{% include 'refsearch.html'%}</select>
                           </div>
                       </div>
                    </div>
 
                   <div class="column is-1" id="searchbutton">
-                      <input class="button is-large is-info details" type="submit" value="Search">
+                      <input class="button is-large is-info details" type="submit" value="Zoek">
                   </div>
               </div>
 
@@ -327,15 +330,14 @@ const params = new URLSearchParams(window.location.search);
   ga('create', 'UA-140979-2', 'auto');
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
-
- // START Set form controls with querystring values
+// START Set form controls with querystring values
 document.getElementById("offeris").value = params.get('offeris');
 document.getElementById("beds").value = params.get('beds');
 document.getElementById("baths").value = params.get('baths');
 document.getElementById("gtp").value = params.get('gtp');
 document.getElementById("ltp").value = params.get('ltp');
 document.getElementById("pool").value = params.get('pool');
-// END Set form controls 
+// END Set form controls
 
 function getQueryStringValue (key) {  
   return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));  

@@ -1,0 +1,43 @@
+<!-- START PROPERTY -->
+<div class="columns is-mobile is-multiline">
+{% for item in props %}
+    <div class="card column is-2-desktop is-6-mobile is-4-tablet has-text-centered">
+        <div class=card-image>
+            <figure class="image is-4by3">
+            <a href="{{ item['propurl'] }}">
+                <img src="{{item['img']}}" alt="{{item['locationdetail']}} {{item['proptype']}} for {{item['saleorrent']}}" title="{{item['locationdetail']}} {{item['proptype']}} for {{item['saleorrent']}}">
+                </a>
+            </figure>
+        </div>
+        <div class=card-content>
+            <div class=media>
+                <div class=media-content>
+                    <p class="title is-5 has-text-centered">{{item['proptype']}}</p>
+                    <p class="subtitle is-6 has-text-centered">{{item['locationdetail']}}</p>
+                </div>
+            </div>
+            <footer class=card-footer>
+                <p class=card-footer-item>
+                    <span class=" is-size-5 is-size-4-mobile">
+					<i class="fa fa-bed fa-lg" aria-hidden=true></i> {{item['beds']}}
+					</span>
+                </p>
+                <p class=card-footer-item>
+                <span class=" is-size-5 is-size-4-mobile">
+						<i class="fa fa-bath fa-lg" aria-hidden=true></i> {{item['baths']}}
+					</span>
+                </p>
+            </footer>
+            <footer class=card-footer>
+                <p class="card-footer-item price">
+                    <span class="is-size-5 is-size-4-mobile">
+						       <!-- {% if item['offplan'] == 'True' %}From {% endif %} -->
+                    {{item['price']}} <!--<span class="price_gbp"></span> -->
+						        </span>
+                </p>
+            </footer>
+        </div>
+    </div>
+  {% endfor %}
+  </div>  
+  <!-- END PROPERTY -->
