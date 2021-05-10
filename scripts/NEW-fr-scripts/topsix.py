@@ -33,20 +33,21 @@ def getpropfirstpic(album):
 	myfile.close()
 	return mylines[0].replace('/s0/','/s400/').replace('/s640/','/s400/')
 
-topsixdict['title'] = 'Villamartin Eigendom te koop, Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada Costa Blanca Spain'
-topsixdict['keywords'] = 'Villamartin Eigendom te koop, Playa Flamenca, Cabo Roig, Guardamar del Segura and Ciudad Quesada'
-topsixdict['description'] = 'Eigendom te koop Villamartin, Playa Flamenca, Cabo Roig, Los Altos, Los Balcones, Guardamar del Segura, Ciudad Quesada in Torrevieja and  Orihuela Costa areas of Southern Costa Blanca Spain'
+topsixdict['title'] = 'Villamartin Propri&eacute;t&eacute; a vendre, Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada Costa Blanca Spain'
+topsixdict['keywords'] = 'Villamartin propriete a vendre, Playa Flamenca, Cabo Roig, Guardamar del Segura and Ciudad Quesada'
+topsixdict['description'] = 'Propri&eacute;t&eacute; a vendre Villamartin, Playa Flamenca, Cabo Roig, Los Altos, Los Balcones, Guardamar del Segura'
 topsixdict['props'] = []
 allprops['props'] = []
 thetopsix = _mgh_data.proplists['topsix']
 for fetchprop in thetopsix:
     row = _mgh_data.props[str(fetchprop)]
-    nl_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['nl']
-    propurl = '/'+str(row['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
+    fr_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['fr']
+    propurl = '/'+str(row['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e').replace('â','a')+'-a-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
+
     if row['rental'] == 'True':
-    	saleorrent = 'rent'
-    else:
-    	saleorrent = 'sale'
+		saleorrent = 'à louer'
+	else:
+		saleorrent = 'à vendre'
     prop = {}
     #prop['propopt'] = row['strPropertyOptions']
     prop['propid'] = row['pid']
@@ -54,7 +55,7 @@ for fetchprop in thetopsix:
     prop['offplan'] = row['offplan']
     prop['propurl'] = propurl
     prop['locationdetail']=row['location']
-    prop['proptype']=nl_proptype
+    prop['proptype']=fr_proptype
     prop['saleorrent']=saleorrent
     prop['underoffersold'] = row['salestage']
     prop['beds'] = row['beds']
@@ -62,7 +63,7 @@ for fetchprop in thetopsix:
     if row['salestage'] == '0':
         prop['price'] = "<span class='price_eur'>&euro;"+"{:,}".format(int(row['price']))+"</span> "
     elif row['salestage'] == '2':
-        prop['price'] = 'SOLD'
+        prop['price'] = 'VENDU'
     else:
         prop['price'] = ''
     print 'prop processing '+prop['propid']
@@ -91,7 +92,7 @@ template = templateEnv.get_template( TEMPLATE_FILE )
 
 for eachprop in _mgh_data.proplists['All']:
     row = _mgh_data.props[str(eachprop)]
-    nl_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['nl']
+    fr_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['nl']
     propurl = '/'+str(row['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
     prop = {}
 
@@ -102,32 +103,42 @@ for eachprop in _mgh_data.proplists['All']:
     else:
         prop['offeris'] ='resale'
 
-    prop['description'] = row['NL'][:420]
-    prop['offplan'] = row['offplan']
-    prop['beds'] = row['beds']
-    prop['baths'] = row['baths']
-    prop['pool'] = row['pool']
+prop['fulldescription'] = row['FR']
+    #prop['description'] = removefrchars(row['strdescription_FR'][:400])
+    prop['description'] =  ' '.join(row['FR'].split()[:50])
+    prop['jsondescription'] = ' '.join(row['FR'].split()[:50]).decode('utf-8')
+    chambre = ' chambres'
+    bain = ' salles de bains'
+    if int(row['beds']) == 1:
+		chambre = ' chambre'
+    elif int(row['beds']) > 1:
+		chambre = ' chambres'
+    prop['beds'] = row['beds'] + chambre
+    if int(row['baths']) == 1:
+		bain = ' salle de bain'
+    elif int(row['baths']) > 1:
+		bain = ' salles de bains'
+    prop['baths'] = row['baths'] + bain
+    prop['pool'] = _mghsettings.trans_pooltypes[row['pool'].lower()]['fr']
     prop['propid'] = row['pid']
     prop['propref'] = row['ref']
     prop['propurl'] = propurl
-    prop['town'] = row['town']
-    prop['province'] = row['province']
+    prop['town']=row['town']
+    prop['province']=row['province']
     prop['locationdetail']=row['location']
-    prop['proptype']= _mghsettings.trans_proptypes[row['ptype'].lower()]['nl']
-    prop['saleorrent']= 'sale'
-    prop['underoffersold'] = row['salestage']
+    prop['proptype'] = fr_proptype
+    prop['saleorrent']=saleorrent
     prop['sprice'] = row['price']
-    
+    prop['underoffersold'] = row['salestage']
     if row['salestage'] == '0' or row['salestage'] == '10':
-        prop['price'] = "<span class='price_eur'>&euro;"+"{:,}".format(int(row['price']))+"</span> "
-        prop['enprice'] = "{:,}".format(int(row['price']))
+    	prop['price'] = "{:,}".format(int(row['price'])).replace(',','.')
     elif row['salestage'] == '2':
-        prop['price'] = 'SOLD'
-        prop['enprice'] = 'SOLD'
+    	prop['price'] = 'VENDU'
     elif row['salestage'] == '3':
+    	prop['price'] = 'LOUE'
+    else:
     	prop['price'] = ''
-    print 'allprops prop processing '+prop['propid']
-    prop['img'] = row['pics'][0].replace('/s0/','/w240-e30-v2/').replace('/s640/','/w240-e30-v2/').replace('=s640','=w240').replace('=w640','=w300')
+    prop['img'] = row['pics'][0].replace('/s0/','/s400/').replace('/s640/','/s400/')
     allprops['props'].append(prop)
 '''
 for item in allprops['props']:
