@@ -50,7 +50,7 @@ for fetchprop in thetopsix:
         saleorrent = 'à vendre'      
 
     prop = {}
-    #prop['propopt'] = row['strPropertyOptions']
+    ##prop['propopt'] = row['strPropertyOptions']
     prop['propid'] = row['pid']
     prop['ref'] = row['ref']
     prop['offplan'] = row['offplan']
