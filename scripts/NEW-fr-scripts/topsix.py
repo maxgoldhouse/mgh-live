@@ -45,9 +45,10 @@ for fetchprop in thetopsix:
     propurl = '/'+str(row['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e').replace('â','a')+'-a-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
 
     if row['rental'] == 'True':
-		saleorrent = 'à louer'
-	else:
-		saleorrent = 'à vendre'
+        saleorrent = 'à louer'
+    else:
+        saleorrent = 'à vendre'      
+
     prop = {}
     #prop['propopt'] = row['strPropertyOptions']
     prop['propid'] = row['pid']
