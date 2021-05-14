@@ -93,8 +93,8 @@ template = templateEnv.get_template( TEMPLATE_FILE )
 
 for eachprop in _mgh_data.proplists['All']:
     row = _mgh_data.props[str(eachprop)]
-    fr_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['nl']
-    propurl = '/'+str(row['beds'])+'-slaapkamer-'+fr_proptype.replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
+    fr_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['fr']
+    propurl = '/'+str(row['beds'])+'-chambre-'+fr_proptype.replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
     prop = {}
 
     if row['offplan'] == 'True':
