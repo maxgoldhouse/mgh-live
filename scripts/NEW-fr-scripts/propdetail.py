@@ -83,7 +83,7 @@ for prop in _mgh_data.props:
 	elif int(thisprop['baths']) > 1:
 		bain = ' salles de bains'
 	propdict['bainsingplur'] = bain
-	propdict['badsingplur'] = badkamer
+	propdict['badsingplur'] = bain
 	propdict['livingarea'] = thisprop['living']
 	propdict['plotsize'] = thisprop['plot']
 	propdict['pool'] = pool
