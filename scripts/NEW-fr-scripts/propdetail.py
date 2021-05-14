@@ -15,7 +15,7 @@ import _mgh_data
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
 #template setup detail.jinja
-templateLoader = jinja2.FileSystemLoader(_mghsettings.NEWNL_TEMPLATEFOLDER)
+templateLoader = jinja2.FileSystemLoader(_mghsettings.NEWFR_TEMPLATEFOLDER)
 templateEnv = jinja2.Environment( loader=templateLoader )
 TEMPLATE_FILE = "detail.html"
 
@@ -47,9 +47,9 @@ for prop in _mgh_data.props:
 	#print 'propid ' + thisprop['pid']
 	#print 'price ' + thisprop['price']
 	if thisprop['rental'] == 'True':
-		saleorrent = 'te huur'
+		saleorrent = 'à louer'
 	else:
-		saleorrent = 'te koop'
+		saleorrent = 'à vendre'
 
 	nl_proptype = _mghsettings.trans_proptypes[thisprop['ptype'].lower()]['nl']
 	de_proptype = _mghsettings.trans_proptypes[thisprop['ptype'].lower()]['de']
@@ -57,31 +57,32 @@ for prop in _mgh_data.props:
 
 	propurl_de = '/'+str(thisprop['beds'])+'-bad-'+de_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
 	propurl_nl = '/'+str(thisprop['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
-	propurl_fr = '/'+str(thisprop['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e')+'-a-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
+	propurl_fr = '/'+str(thisprop['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e')+'-à-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
 	propurl_en = '/'+str(thisprop['beds'])+'-bed-'+thisprop['ptype'].replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
-	pagename = str(thisprop['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']
+	pagename = str(thisprop['beds'])+'-slaapkamer-'+fr_proptype.replace(' ','-')+'-a-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']
 	if thisprop['pool'].lower() == 'yes':
-		pool = 'ja'
+		pool = 'Oui'
 	elif thisprop['pool'].lower() == 'no':
-		pool = 'nee'
+		pool = 'Non'
 	else:
 		pool = thisprop['pool']
 	propdict = {}
 	propdict['props'] = []
-	propdict['propdescription'] = thisprop['NL']
+	propdict['propdescription'] = thisprop['FR']
 	propdict['offplan'] = thisprop['offplan']
 	propdict['saleorrent'] = saleorrent
 	propdict['beds'] = thisprop['beds']
 	if int(thisprop['beds']) == 1:
-		slaapkamer = ' slaapkamer'
+		chambre = ' chambre'
 	elif int(thisprop['beds']) > 1:
-		slaapkamer = ' slaapkamers'
-	propdict['slaapsingplur'] = slaapkamer
+		chambre = ' chambres'
+	propdict['slaapsingplur'] = chambre
 	propdict['baths'] = thisprop['baths']
 	if int(thisprop['baths']) == 1:
-		badkamer = ' badkamer'
+		bain = ' salle de bain'
 	elif int(thisprop['baths']) > 1:
-		badkamer = ' badkamers'
+		bain = ' salles de bains'
+	propdict['bainsingplur'] = bain
 	propdict['badsingplur'] = badkamer
 	propdict['livingarea'] = thisprop['living']
 	propdict['plotsize'] = thisprop['plot']
@@ -100,18 +101,18 @@ for prop in _mgh_data.props:
 	if thisprop['frequency'] == 'sale':
 		propdict['frequency'] = ''
 	elif thisprop['frequency'] == 'month':
-		propdict['frequency']= ' per maand'
+		propdict['frequency']= ' par mois'
 	else:
-		propdict['frequency']= ' per week'
-		pricefrom = ' vanaf '
+		propdict['frequency']= ' par semaine'
+		pricefrom = ' à partir de '
 
 	propdict['underoffersold'] = thisprop['salestage']
 	if thisprop['salestage'] == '0' or thisprop['salestage'] == '10':
 		propdict['price'] = pricefrom+"<span class='price_eur'>&euro;"+"{:,}".format(int(thisprop['price']))+"</span> "
 	elif thisprop['salestage'] == '2':
-		propdict['price'] = 'VERKOCHT'
+		propdict['price'] = 'VENDU'
 	elif thisprop['salestage'] == '3':
-		propdict['price'] = '<span style="color:red;">VERHUURD</span>'
+		propdict['price'] = '<span style="color:red;">LOUE</span>'
 		propdict['frequency'] = ''
 	else:
 		propdict['price'] = ''
@@ -126,6 +127,6 @@ for prop in _mgh_data.props:
 	#	propdict['moredetails'] = ' end.'
 
 	outputText = template.render(propdict)
-	file = open(_mghsettings.NEWNL_SITEDIR+pagename+".html", "w")
+	file = open(_mghsettings.NEWFR_SITEDIR+pagename+".html", "w")
 	file.write(outputText)
 	file.close()

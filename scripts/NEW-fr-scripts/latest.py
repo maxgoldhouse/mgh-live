@@ -12,7 +12,7 @@ import _mgh_data
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
-templateLoader = jinja2.FileSystemLoader(_mghsettings.NEWNL_TEMPLATEFOLDER)
+templateLoader = jinja2.FileSystemLoader(_mghsettings.NEWFR_TEMPLATEFOLDER)
 templateEnv = jinja2.Environment( loader=templateLoader )
 TEMPLATE_FILE = "latest.jinja"
 
@@ -70,7 +70,7 @@ for item in thelatestdict['props']:
 '''
 outputText = template.render(thelatestdict)
 #print outputText
-file = open(_mghsettings.NEWEN_SITEDIR+"latest.html", "w")
+file = open(_mghsettings.NEWFR_SITEDIR+"latest.html", "w")
 file.write(outputText)
 file.close()
 

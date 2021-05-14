@@ -81,7 +81,7 @@ for item in topsixdict['props']:
 
 outputText = template.render(topsixdict)
 #print outputText
-file = open(_mghsettings.NEWEN_SITEDIR+"index.html", "w")
+file = open(_mghsettings.NEWNL_SITEDIR+"index.html", "w")
 file.write(outputText)
 file.close()
 
@@ -136,7 +136,7 @@ for item in allprops['props']:
 '''
 outputText = template.render(allprops)
 #print outputText
-file = open(_mghsettings.NEWEN_SITEDIR+"allindex.html", "w")
+file = open(_mghsettings.NEWNL_SITEDIR+"allindex.html", "w")
 file.write(outputText)
 file.close()
 
@@ -145,7 +145,7 @@ TEMPLATE_FILE = "taffyDB.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
 outputText = template.render(allprops)
-file = open(_mghsettings.NEWEN_SITEDIR+"allprops.json", "w")
+file = open(_mghsettings.NEWNL_SITEDIR+"allprops.json", "w")
 file.write(outputText)
 file.close()
 
@@ -154,7 +154,7 @@ TEMPLATE_FILE = "search.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
 outputText = template.render()
-file = open(_mghsettings.NEWEN_SITEDIR+"zoek.html", "w")
+file = open(_mghsettings.NEWNL_SITEDIR+"zoek.html", "w")
 file.write(outputText)
 file.close()
 	
