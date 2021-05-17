@@ -41,11 +41,11 @@
           <a href="#footer" class="navbar-item is-uppercase ">Contact</a>
         </div>
         <ul class="languagepicker large navbar-end lingo navbar-item">
-          <a href="https://nl.maxgoldhouse.com">
-          <li><img class="vam" src="//lh3.googleusercontent.com/kEyBIAzDf4lJtEXKBQyEqsnEgvyaNboEl_4vNL6ZWv_LYJ9P67G6zn3wjq6QGwtho6qjKADDviJW76Ul=s24">NL &nbsp;▼</li></a>
+          <a href="https://fr.maxgoldhouse.com">
+          <li><img class="vam" src="//lh3.googleusercontent.com/kEyBIAzDf4lJtEXKBQyEqsnEgvyaNboEl_4vNL6ZWv_LYJ9P67G6zn3wjq6QGwtho6qjKADDviJW76Ul=s24">FR &nbsp;▼</li></a>
           <a href="https://de.maxgoldhouse.com/"><li><span>DE</span></li></a>
-          <a href="https://fr.maxgoldhouse.com/"><li><span>FR</span></li></a>
           <a href="https://www.maxgoldhouse.com/"><li><span>EN</span></li></a>
+          <a href="https://nl.maxgoldhouse.com/"><li><span>NL</span></li></a>
         </ul>
         </div>
     </nav>
@@ -61,18 +61,18 @@
                   <br/>
                   <div class="column is-2">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br>Nieuwbouw/Doorverkoop/Verhuur</label>
+                          <label class="label is-small has-text-white popwhitetext"><br>Nouvelle/revente/à louer</label>
                           <select id="offeris" class="form-control" name="offeris">
-                              <option value="all">Alle</option>
-                              <option value="new">Nieuwbouw</option>
-                              <option value="resale">Doorverkoop</option>
-                              <option value="rental">Lange termijn verhuur</option>
+                              <option value="all">tout</option>
+                              <option value="new">Nouvelle</option>
+                              <option value="resale">revente</option>
+                              <option value="rental">à louer</option>
                               </select>
                       </div>
                   </div>
                   <div class="column is-2">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Locatie <span class="slimreset" onclick="theloc.set([])">Reset</span></label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Locale <span class="slimreset" onclick="theloc.set([])">Reset</span></label>
                           <select id="loc" class="slim-hidden" name="loc" multiple="multiple">
                               {% include 'distinctlocations.html'%}</select>
                           <!--<div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
@@ -91,7 +91,7 @@
                 </script>
                   <div class="column is-2">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Vastgoedtype</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Type de propriété</label>
                           <!-- <input class="input" type="text" id="pt" name="pt" placeholder="Property Type"  length="20"> -->
                           <div class="control">
                               <select name="pt" class="slim-hidden" id="pt" aria-label="Property type" readonly=""  multiple="multiple">
@@ -120,9 +120,9 @@
                 <div class="columns is-multiline is-centered" xstyle="background-color: rgba(52, 149, 218, 0.5);">
                   <div class="column" style="max-width:80px;">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Slaapkamers</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Chambres a coucher</label>
                           <div class="control">                             
-                                <select name="beds" class="form-control" id="beds" aria-label="Number of Bedrooms" readonly="">
+                                <select name="beds" class="form-control" id="beds" aria-label="Chambres a coucher" readonly="">
                                   <option value=""></option>
                                   <option value="0">0</option>
                                   <option value="1">1</option>
@@ -143,9 +143,9 @@
                   </div>
                   <div class="column" style="max-width:80px;">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Badkamers</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Salles de bain</label>
                           <div class="control">                             
-                                <select name="baths" class="form-control" id="baths" aria-label="Number of Bathrooms" readonly="">
+                                <select name="baths" class="form-control" id="baths" aria-label="Salles de bain" readonly="">
                                   <option value=""></option>
                                   <option value="0">0</option>
                                   <option value="1">1</option>
@@ -166,9 +166,9 @@
                   </div>                  
                   <div class="column is-1">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>€ Min. prijs</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>€ prix min</label>
                           <div class="control">
-                              <select name="gtp" class="form-control" id="gtp" aria-label="Min price" readonly="">                                 
+                              <select name="gtp" class="form-control" id="gtp" aria-label="prix min" readonly="">                                 
                                   <option value=""></option>
                                   <option value="0">€0</option>
                                   <option value="50000">€50,000</option>
@@ -215,9 +215,9 @@
                   </div>
                   <div class="column is-1">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>€ Max. prijs</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>€ prix max</label>
                           <div class="control">
-                              <select name="ltp" class="form-control" id="ltp" aria-label="Max price" readonly="">
+                              <select name="ltp" class="form-control" id="ltp" aria-label="prix max" readonly="">
                                   <option value=""></option>
                                   <option value="50000">€50,000</option>
                                   <option value="70000">€70,000</option>
@@ -264,7 +264,7 @@
 
                   <div class="column" style="max-width: 60px;">
                   <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Zwembad</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Piscine</label>
                           <div class="control">                             
                                 <input class="form-control" type="checkbox" name="pool" id="pool" value="pool">
                           </div>
@@ -281,7 +281,7 @@
               </div>
               <div class="columns is-multiline is-centered" xstyle="background-color: rgba(52, 149, 218, 0.5);"">
                   <div class="column is-1" id="searchbutton">
-                      <input class="button is-large is-info details" type="submit" value="Zoek">
+                      <input class="button is-large is-info details" type="submit" value="Rechercher">
                   </div>
               </div>
 
@@ -305,7 +305,7 @@
       </div>-->
       <!-- Loop through topsix -->
       <!-- TOP SIX -->
-      <h1 class="pad-16 is-size-3 has-text-centered mgh-blue">Vastgoed te koop in Villamartin, Cabo Roig, Torrevieja, Playa Flamenca Orihuela Costa en Spanje</h1>
+      <h1 class="pad-16 is-size-3 has-text-centered mgh-blue">Propriété à vendre à Villamartin, Cabo Roig, Torrevieja, Playa Flamenca Orihuela Costa et l'Espagne.</h1>
       <div class="columns is-mobile is-multiline" id="topsix">
           <!-- 1 -->
           {% for item in props %}
