@@ -105,7 +105,7 @@ for eachprop in _mgh_data.proplists['All']:
         prop['offeris'] ='resale'
 
     prop['fulldescription'] = row['FR']
-    #prop['description'] = removefrchars(row['strdescription_FR'][:400])
+    ##prop['description'] = removefrchars(row['strdescription_FR'][:400])
     prop['description'] =  ' '.join(row['FR'].split()[:50])
     prop['jsondescription'] = ' '.join(row['FR'].split()[:50]).decode('utf-8')
     chambre = ' chambres'
