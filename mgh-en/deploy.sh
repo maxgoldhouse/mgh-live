@@ -5,7 +5,7 @@ python getdata.py
 cp refsearch.html ./templates/NEW-en-templates/refsearch.html
 cp distinctlocations.html ./templates/NEW-en-templates/distinctlocations.html
 echo 'Data fetched'
-echo 'NEW ENGLISH'
+echo 'NEW ENGLISH NEW-EN'
 python ./scripts/NEW-en-scripts/topsix.py
 echo 'mgh-en deploy.sh topsix NEW-EN fin'
 python ./scripts/NEW-en-scripts/latest.py
