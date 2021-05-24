@@ -43,10 +43,10 @@ for fetchprop in thetopsix:
     row = _mgh_data.props[str(fetchprop)]
     de_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['de']
     propurl = '/'+str(row['beds'])+'-Schlafzimmer-'+de_proptype.replace(' ','-')+'-in-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
-	if row['rental'] == 'True':
-		saleorrent = 'zu vermieten'
-	else:
-		saleorrent = 'zu verkaufen'
+    if row['rental'] == 'True':
+        saleorrent = 'zu vermieten'
+    else:
+        saleorrent = 'zu verkaufen'
     prop = {}
     #prop['propopt'] = row['strPropertyOptions']
     prop['propid'] = row['pid']
