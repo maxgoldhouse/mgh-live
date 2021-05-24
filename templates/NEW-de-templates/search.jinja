@@ -10,7 +10,7 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible" />
 <meta name="msvalidate.01" content="495BBC82C6515A55A3A84D993FEB5094" />
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<link rel="canonical" href="/zoek.html"/>
+<link rel="canonical" href="/suche.html"/>
 <link rel="alternate" hreflang="en" href="https://www.maxgoldhouse.com/search.html"/>
 <link rel="alternate" hreflang="de" href="https://de.maxgoldhouse.com/suche.html"/>
 <link rel="alternate" hreflang="fr" href="https://fr.maxgoldhouse.com/chercher.html"/>
@@ -39,17 +39,17 @@ const params = new URLSearchParams(window.location.search);
 				</div>		
         <div id="navMenu" class="navbar-menu">
         <div class="navbar-start">
-          <a href="index.html" class="navbar-item is-uppercase ">Te koop</a>
-          <a href="zoek.html?offeris=rental&beds=&baths=&propref=No+Ref" class="navbar-item is-uppercase ">Lange termijn verhuur</a>
-          <a href="https://nl.maxgoldhouse.com/het-koopproces.html" class="navbar-item is-uppercase ">Het Koopproces</a>
-          <a href="https://nl.maxgoldhouse.com/privacybeleid.html" class="navbar-item is-uppercase ">Privacybeleid</a>
-          <a href="https://nl.maxgoldhouse.com/cookiebeleid.html" class="navbar-item is-uppercase ">Cookiebeleid</a>
-          <a href="#footer" class="navbar-item is-uppercase ">Contact opnemen</a>
+          <a href="index.html" class="navbar-item is-uppercase ">Zu verkaufen</a>
+          <a href="suche.html?offeris=rental&beds=&baths=&propref=No+Ref" class="navbar-item is-uppercase ">Langzeitmiete</a>
+          <a href="https://nl.maxgoldhouse.com/kaufen-in-spanien.html" class="navbar-item is-uppercase ">Kaufen in Spanien - wie geht das ?</a>
+          <a href="https://nl.maxgoldhouse.com/datenschutzerklarung.html" class="navbar-item is-uppercase ">Datenschutzerklarung</a>
+          <a href="https://nl.maxgoldhouse.com/cookie-richtlinie.html" class="navbar-item is-uppercase ">Cookie Richtlinie</a>
+          <a href="#footer" class="navbar-item is-uppercase ">Kontakt</a>
         </div>
         <ul class="languagepicker large navbar-end lingo navbar-item">
           <a class="altlang" href="/search.html">
-          <li><img class="vam" src="//lh3.googleusercontent.com/kEyBIAzDf4lJtEXKBQyEqsnEgvyaNboEl_4vNL6ZWv_LYJ9P67G6zn3wjq6QGwtho6qjKADDviJW76Ul=s24">EN &nbsp;▼</li></a>
-          <a class="altlang" href="https://de.maxgoldhouse.com/suche.html"><li><span>DE</span></li></a>
+          <li><img class="vam" src="//lh3.googleusercontent.com/kEyBIAzDf4lJtEXKBQyEqsnEgvyaNboEl_4vNL6ZWv_LYJ9P67G6zn3wjq6QGwtho6qjKADDviJW76Ul=s24">DE &nbsp;▼</li></a>
+          <a class="altlang" href="https://www.maxgoldhouse.com/suche.html"><li><span>EN</span></li></a>
           <a class="altlang" href="https://fr.maxgoldhouse.com/chercher.html"><li><span>FR</span></li></a>
           <a class="altlang" href="https://nl.maxgoldhouse.com/zoek.html"><li><span>NL</span></li></a>
         </ul>
@@ -65,66 +65,64 @@ const params = new URLSearchParams(window.location.search);
                   <br/>
                   <div class="column is-2">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br>Nieuwbouw/Doorverkoop/Verhuur</label>
+                          <label class="label is-small has-text-white popwhitetext"><br>Neubau / Weiderverkauf / Vermietung</label>
                           <select id="offeris" class="form-control" name="offeris">
                               <option value="all">Alle</option>
-                              <option value="new">Nieuwbouw</option>
-                              <option value="resale">Doorverkoop</option>
-                              <option value="rental">Lange termijn verhuur</option>
+                              <option value="new">Neubau</option>
+                              <option value="resale">Wiederverkauf</option>
+                              <option value="rental">Vermietung</option>
                               </select>
                       </div>
                   </div>
                   <div class="column is-2">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Locatie <span class="slimreset" onclick="theloc.set([])">Reset</span></label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Locatie <span class="slimreset" onclick="theloc.set([])">neu setzen</span></label>
                           <select id="loc" class="slim-hidden" name="loc" multiple="multiple">
                               {% include 'distinctlocations.html'%}</select>
                           <!--<div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
                       </div>
                   </div>
                 <script>
-                    
+                    const params = new URLSearchParams(window.location.search)
                     arrlocs = params.getAll('loc')
                     var theloc = new SlimSelect({
-                      select: '#loc',
-                      selectByGroup: true,
-                      placeholder: 'Selecteer uit lijst',
-                      allowDeselect: true
+                    select: '#loc',
+                    selectByGroup: true,
+                    placeholder: 'Wählen',
+                    allowDeselect: true
                     })
                     theloc.set(arrlocs)
                 </script>
                   <div class="column is-2">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Vastgoedtype</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Art der Immobilie</label>
                           <!-- <input class="input" type="text" id="pt" name="pt" placeholder="Property Type"  length="20"> -->
                           <div class="control">
                               <select name="pt" class="slim-hidden" id="pt" aria-label="Property type" readonly=""  multiple="multiple">
                                   <option value=""></option>
-                                  <option value="Appartement">Appartement</option>  
-                                  <option value="Rijtjeshuis">Rijtjeshuis</option>
+                                  <option value="Apartment">Apartment</option>  
+                                  <option value="Reihenhaus">Reihenhaus</option>
                                   <option value="Villa">Villa</option>
-                                  <option value="Landhuis">Landhuis</option>
+                                  <option value="Landhaus">Landhaus</option>
                                   <option value="Land">Land</option>
-                                  <option value="Commercieel vastgoed">Commercieel vastgoed</option>
+                                  <option value="Gewerbeimmobilien">Gewerbeimmobilien</option>
                               </select>
                           </div>
                       </div>
                   </div>
                 <script>
-                  arrpts = params.getAll('pt')
                   var thept = new SlimSelect({
                   select: '#pt',
-                  placeholder: 'Selecteer uit lijst',
+                  placeholder: 'Wählen',
                   allowDeselect: true
                 })
-                  thept.set(arrpts)
                   var thecontrols = document.getElementsByClassName("ss-main");
                   thecontrols[0].style.visibility = "visible";
                   thecontrols[1].style.visibility = "visible";
                 </script>
                   <div class="column" style="max-width:80px;">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Slaapkamers</label>
+                                                    <label class="label is-small has-text-white popwhitetext"><br/>Schlafzimmer</label>
                           <div class="control">                             
                                 <select name="beds" class="form-control" id="beds" aria-label="Number of Bedrooms" readonly="">
                                   <option value=""></option>
@@ -147,7 +145,7 @@ const params = new URLSearchParams(window.location.search);
                   </div>
                   <div class="column" style="max-width:80px;">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Badkamers</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Badezimmer</label>
                           <div class="control">                             
                                 <select name="baths" class="form-control" id="baths" aria-label="Number of Bathrooms" readonly="">
                                   <option value=""></option>
@@ -170,7 +168,7 @@ const params = new URLSearchParams(window.location.search);
                   </div>                  
                   <div class="column is-1">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>€ Min. prijs</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>€ Min. Preis</label>
                           <div class="control">
                               <select name="gtp" class="form-control" id="gtp" aria-label="Min price" readonly="">                                 
                                   <option value=""></option>
@@ -219,7 +217,7 @@ const params = new URLSearchParams(window.location.search);
                   </div>
                   <div class="column is-1">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>€ Max. prijs</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>€ Max. Preis</label>
                           <div class="control">
                               <select name="ltp" class="form-control" id="ltp" aria-label="Max price" readonly="">
                                   <option value=""></option>
@@ -268,7 +266,7 @@ const params = new URLSearchParams(window.location.search);
 
                   <div class="column" style="max-width: 60px;">
                   <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Zwembad</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Schwimmbad</label>
                           <div class="control">                             
                                 <input class="form-control" type="checkbox" name="pool" id="pool" value="pool">
                           </div>
@@ -276,15 +274,15 @@ const params = new URLSearchParams(window.location.search);
                    </div>
                   <div class="column is-1">
                        <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Ref-No.</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Suche nach ref</label>
                           <div class="control">                             
-                                <select class="form-control" name="propref"><option value="No Ref">Selecteer Ref</option>{% include 'refsearch.html'%}</select>
+                                <select class="form-control" name="propref"><option value="No Ref">Wählen Sie Ref</option>{% include 'refsearch.html'%}</select>
                           </div>
                       </div>
                    </div>
 
                   <div class="column is-1" id="searchbutton">
-                      <input class="button is-large is-info details" type="submit" value="Zoek">
+                      <input class="button is-large is-info details" type="submit" value="Suche">
                   </div>
               </div>
 
@@ -301,7 +299,7 @@ const params = new URLSearchParams(window.location.search);
                   </script>
     <div>
       <div id="propresults" class="columns is-multiline is-mobile search-mania">
-        <center><h2>S E A R C H I N G....</h2></center>
+        <center><h2>S U C H E N....</h2></center>
       </div>
     </div>
 
@@ -444,7 +442,7 @@ if(qsData.propref != 'No Ref'){
    outputHTML = outputHTML+tmpl("tmpl-demo", r)
 });
   //console.log(loc_list)
-  if(outputHTML ==""){outputHTML = "<center><h2> not found</h2></center>"}//"+findref+"
+  if(outputHTML ==""){outputHTML = "<center><h2> nicht gefunden</h2></center>"}//"+findref+"
   document.getElementById("propresults").innerHTML = outputHTML
 
 });
@@ -463,7 +461,7 @@ if(qsData.propref != 'No Ref'){
                   </figure>
               </div>
                       <p class="price">
-                          <span class="is-size-6 is-size-5-mobile has-text-weight-bold"> €[%=o.enprice%] </span><span class="price_gbp"></span>                          
+                          <span class="is-size-6 is-size-5-mobile has-text-weight-bold"> €[%=o.enprice%] </span>                         
                       </p>
                   <div class="media">
                         <div class="media-content">
