@@ -46,6 +46,7 @@ for prop in _mgh_data.props:
     #prepare the vars to pass to the template
 	#print 'propid ' + thisprop['pid']
 	#print 'price ' + thisprop['price']
+	
 	if thisprop['rental'] == 'True':
 		saleorrent = 'zu vermieten'
 	else:
@@ -59,7 +60,7 @@ for prop in _mgh_data.props:
 	propurl_nl = '/'+str(thisprop['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
 	propurl_fr = '/'+str(thisprop['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e')+'-a-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
 	propurl_en = '/'+str(thisprop['beds'])+'-bed-'+thisprop['ptype'].replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
-	pagename = str(thisprop['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']
+	pagename = str(thisprop['beds'])+'-slaapkamer-'+de_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']
 	if thisprop['pool'].lower() == 'yes':
 		pool = 'Ja'
 	elif thisprop['pool'].lower() == 'no':
