@@ -11,10 +11,10 @@
 <meta name="msvalidate.01" content="495BBC82C6515A55A3A84D993FEB5094" />
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <link rel="canonical" href="/suche.html"/>
-<link rel="alternate" hreflang="en" href="https://www.maxgoldhouse.com/search.html"/>
-<link rel="alternate" hreflang="de" href="https://de.maxgoldhouse.com/suche.html"/>
-<link rel="alternate" hreflang="fr" href="https://fr.maxgoldhouse.com/chercher.html"/>
-<link rel="alternate" hreflang="nl" href="https://nl.maxgoldhouse.com/zoek.html"/>
+<link rel="alternate" hreflang="en" href="{{domains["en"]}}search.html"/>
+<link rel="alternate" hreflang="de" href="{{domains["de"]}}suche.html"/>
+<link rel="alternate" hreflang="fr" href="{{domains["fr"]}}chercher.html"/>
+<link rel="alternate" hreflang="nl" href="{{domains["nl"]}}zoek.html"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.25.0/slimselect.min.css" rel="stylesheet"></link>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.25.0/slimselect.min.js"></script>
 <link rel="stylesheet" href="/css/mgh.css?19">
@@ -41,17 +41,17 @@ const params = new URLSearchParams(window.location.search);
         <div class="navbar-start">
           <a href="index.html" class="navbar-item is-uppercase ">Zu verkaufen</a>
           <a href="suche.html?offeris=rental&beds=&baths=&propref=No+Ref" class="navbar-item is-uppercase ">Langzeitmiete</a>
-          <a href="https://nl.maxgoldhouse.com/kaufen-in-spanien.html" class="navbar-item is-uppercase ">Kaufen in Spanien - wie geht das ?</a>
-          <a href="https://nl.maxgoldhouse.com/datenschutzerklarung.html" class="navbar-item is-uppercase ">Datenschutzerklarung</a>
-          <a href="https://nl.maxgoldhouse.com/cookie-richtlinie.html" class="navbar-item is-uppercase ">Cookie Richtlinie</a>
+          <a href="{{domains["nl"]}}kaufen-in-spanien.html" class="navbar-item is-uppercase ">Kaufen in Spanien - wie geht das ?</a>
+          <a href="{{domains["nl"]}}datenschutzerklarung.html" class="navbar-item is-uppercase ">Datenschutzerklarung</a>
+          <a href="{{domains["nl"]}}cookie-richtlinie.html" class="navbar-item is-uppercase ">Cookie Richtlinie</a>
           <a href="#footer" class="navbar-item is-uppercase ">Kontakt</a>
         </div>
         <ul class="languagepicker large navbar-end lingo navbar-item">
-          <a class="altlang" href="/search.html">
+          <a class="altlang" href="/zoek.html">
           <li><img class="vam" src="//lh3.googleusercontent.com/kEyBIAzDf4lJtEXKBQyEqsnEgvyaNboEl_4vNL6ZWv_LYJ9P67G6zn3wjq6QGwtho6qjKADDviJW76Ul=s24">DE &nbsp;▼</li></a>
-          <a class="altlang" href="https://www.maxgoldhouse.com/suche.html"><li><span>EN</span></li></a>
-          <a class="altlang" href="https://fr.maxgoldhouse.com/chercher.html"><li><span>FR</span></li></a>
-          <a class="altlang" href="https://nl.maxgoldhouse.com/zoek.html"><li><span>NL</span></li></a>
+          <a class="altlang" href="{{domains["en"]}}search.html"><li><span>EN</span></li></a>
+          <a class="altlang" href="{{domains["fr"]}}chercher.html"><li><span>FR</span></li></a>
+          <a class="altlang" href="{{domains["fr"]}}zoek.html"><li><span>NL</span></li></a>
         </ul>
         </div>
     </nav>

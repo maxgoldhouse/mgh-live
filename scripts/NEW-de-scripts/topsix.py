@@ -133,7 +133,8 @@ for item in allprops['props']:
 	for key in item:
 		print item[key]
 '''
-outputText = template.render(allprops)
+domains = {"de":"https://de-dot-mgh-en.appspot.com/","en":"https://mgh-en.appspot.com/","fr":"https://fr-dot-mgh-en.appspot.com/","nl":"https://nl-dot-mgh-en.appspot.com/"}
+outputText = template.render(allprops, domains)
 #print outputText
 file = open(_mghsettings.NEWDE_SITEDIR+"allindex.html", "w")
 file.write(outputText)
@@ -152,7 +153,7 @@ file.close()
 TEMPLATE_FILE = "search.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
-outputText = template.render()
+outputText = template.render(domains)
 file = open(_mghsettings.NEWDE_SITEDIR+"suche.html", "w")
 file.write(outputText)
 file.close()
