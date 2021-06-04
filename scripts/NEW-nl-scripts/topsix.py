@@ -116,8 +116,7 @@ for eachprop in _mgh_data.proplists['All']:
     prop['proptype']= _mghsettings.trans_proptypes[row['ptype'].lower()]['nl']
     prop['saleorrent']= 'sale'
     prop['underoffersold'] = row['salestage']
-    prop['sprice'] = row['price']
-    
+    prop['sprice'] = row['price']  
     if row['salestage'] == '0' or row['salestage'] == '10':
         prop['price'] = "<span class='price_eur'>&euro;"+"{:,}".format(int(row['price']))+"</span> "
         prop['enprice'] = "{:,}".format(int(row['price']))
