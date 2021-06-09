@@ -113,6 +113,7 @@ for eachprop in _mgh_data.proplists['All']:
     prop['town'] = row['town']
     prop['province'] = row['province']
     prop['locationdetail']=row['location']
+    prop['uniproptype'] = row['ptype']
     prop['proptype']= _mghsettings.trans_proptypes[row['ptype'].lower()]['nl']
     prop['saleorrent']= 'sale'
     prop['underoffersold'] = row['salestage']

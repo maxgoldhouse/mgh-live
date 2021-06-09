@@ -56,6 +56,7 @@ for fetchprop in thetopsix:
     prop['offplan'] = row['offplan']
     prop['propurl'] = propurl
     prop['locationdetail']=row['location']
+    prop['uniproptype'] = row['ptype']
     prop['proptype']=fr_proptype
     prop['saleorrent']=saleorrent
     prop['underoffersold'] = row['salestage']
@@ -127,6 +128,7 @@ for eachprop in _mgh_data.proplists['All']:
     prop['town']=row['town']
     prop['province']=row['province']
     prop['locationdetail']=row['location']
+    prop['uniproptype'] = row['ptype']
     prop['proptype'] = fr_proptype
     prop['saleorrent']=saleorrent
     prop['sprice'] = row['price']

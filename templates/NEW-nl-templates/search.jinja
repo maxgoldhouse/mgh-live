@@ -100,12 +100,12 @@ const params = new URLSearchParams(window.location.search);
                           <div class="control">
                               <select name="pt" class="slim-hidden" id="pt" aria-label="Property type" readonly=""  multiple="multiple">
                                   <option value=""></option>
-                                  <option value="Appartement">Appartement</option>  
-                                  <option value="Rijtjeshuis">Rijtjeshuis</option>
+                                  <option value="Apartment">Appartement</option>  
+                                  <option value="Townhouse">Rijtjeshuis</option>
                                   <option value="Villa">Villa</option>
-                                  <option value="Landhuis">Landhuis</option>
+                                  <option value="Finca">Landhuis</option>
                                   <option value="Land">Land</option>
-                                  <option value="Commercieel vastgoed">Commercieel vastgoed</option>
+                                  <option value="Commercial">Commercieel vastgoed</option>
                               </select>
                           </div>
                       </div>
@@ -405,7 +405,7 @@ if(qsData.propref != 'No Ref'){
     thept.set(qsData.pt)
     if(qsData.pt.indexOf("Villa") > -1){qsData.pt.push('Semidetached Villa','Detached Villa')}
     if(qsData.pt.indexOf("Townhouse") > -1){qsData.pt.push('Townhouse','Quadhouse')}
-    tafqry.push('"type":'+JSON.stringify(qsData.pt)+'') 
+    tafqry.push('"unitype":'+JSON.stringify(qsData.pt)+'') 
   }
   if (typeof qsData.gtp !== "undefined" && qsData.gtp != ""){
     document.getElementById('gtp').value = qsData.gtp
