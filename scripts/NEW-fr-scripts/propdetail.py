@@ -95,7 +95,7 @@ for prop in _mgh_data.props:
 	propdict['propurl_fr'] = propurl_fr
 	propdict['locationdetail']=thisprop['location']
 	propdict['province']=thisprop['province']
-	propdict['proptype']=nl_proptype
+	propdict['proptype']=fr_proptype
 	propdict['saleorrent']=saleorrent
 	pricefrom = ''
 	if thisprop['frequency'] == 'sale':
