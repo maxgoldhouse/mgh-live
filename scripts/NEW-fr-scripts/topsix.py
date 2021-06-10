@@ -139,9 +139,9 @@ for eachprop in _mgh_data.proplists['All']:
         prop['enprice'] = "{:,}".format(int(row['price']))
         prop['enprice'] = prop['enprice'].replace(",", ".")
     elif row['salestage'] == '2':
-        prop['price'] = 'VENDU'
+        prop['enprice'] = 'VENDU'
     elif row['salestage'] == '3':
-        prop['price'] = 'LOUE'
+        prop['enprice'] = 'LOUE'
 
     prop['img'] = row['pics'][0].replace('/s0/','/s400/').replace('/s640/','/s400/')
     allprops['props'].append(prop)
