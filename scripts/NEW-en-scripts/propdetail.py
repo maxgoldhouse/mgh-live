@@ -55,7 +55,7 @@ for prop in _mgh_data.props:
 	de_proptype = _mghsettings.trans_proptypes[thisprop['ptype'].lower()]['de']
 	nl_proptype = _mghsettings.trans_proptypes[thisprop['ptype'].lower()]['nl']
 	fr_proptype = _mghsettings.trans_proptypes[thisprop['ptype'].lower()]['fr']
-	propurl_de = '/'+str(thisprop['beds'])+'-bad-'+de_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
+	propurl_de = '/'+str(thisprop['beds'])+'-Schlafzimmer-'+de_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
 	propurl_nl = '/'+str(thisprop['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
 	propurl_fr = '/'+str(thisprop['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e')+'-a-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
 	#print propurl_nl
