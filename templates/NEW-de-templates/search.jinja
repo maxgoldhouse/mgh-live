@@ -47,11 +47,11 @@ const params = new URLSearchParams(window.location.search);
           <a href="#footer" class="navbar-item is-uppercase ">Kontakt</a>
         </div>
         <ul class="languagepicker large navbar-end lingo navbar-item">
-          <a class="altlang" href="/zoek.html">
+          <a class="addqs" href="/zoek.html">
           <li><img class="vam" src="//lh3.googleusercontent.com/kEyBIAzDf4lJtEXKBQyEqsnEgvyaNboEl_4vNL6ZWv_LYJ9P67G6zn3wjq6QGwtho6qjKADDviJW76Ul=s24">DE &nbsp;▼</li></a>
-          <a class="altlang" href="https://mgh-en.appspot.com/search.html"><li><span>EN</span></li></a>
-          <a class="altlang" href="https://fr-dot-mgh-en.appspot.com/rechercher.html"><li><span>FR</span></li></a>
-          <a class="altlang" href="https://nl-dot-mgh-en.appspot.com/zoek.html"><li><span>NL</span></li></a>
+          <a class="addqs" href="https://mgh-en.appspot.com/search.html"><li><span>EN</span></li></a>
+          <a class="addqs" href="https://fr-dot-mgh-en.appspot.com/rechercher.html"><li><span>FR</span></li></a>
+          <a class="addqs" href="https://nl-dot-mgh-en.appspot.com/zoek.html"><li><span>NL</span></li></a>
         </ul>
         </div>
     </nav>
@@ -319,6 +319,11 @@ const params = new URLSearchParams(window.location.search);
 <!-- template engine -->
 <script src="//www.maxgoldhouse.com/js/tengine.js"></script>
 <script>
+
+ document.querySelectorAll('a[class="addqs"], link[rel="alternate"]').forEach(function(userItem) {
+   userItem.href = userItem.href+document.location.search;
+ });
+
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
