@@ -2,18 +2,18 @@
 date
 echo 'Fetching data from mgh-props'
 python getdata.py
-cp refsearch.html ./templates/NEW-en-templates/refsearch.html
-cp distinctlocations.html ./templates/NEW-en-templates/distinctlocations.html
-cat ./templates/NEW-en-templates/distinctlocations.html
+cp refsearch.html ./templates/NEW-de-templates/refsearch.html
+cp distinctlocations.html ./templates/NEW-de-templates/distinctlocations.html
+cat ./templates/NEW-de-templates/distinctlocations.html
 echo 'Data fetched'
-echo 'NEW ENGLISH NEW-en'
-python ./scripts/NEW-en-scripts/topsix.py
-echo 'topsix NEW-en fin'
-python ./scripts/NEW-en-scripts/latest.py
-echo 'latest NEW-en fin'
-python ./scripts/NEW-en-scripts/proplist.py
-echo 'proplist NEW-en fin'
-python ./scripts/NEW-en-scripts/propdetail.py
-echo 'propdetail NEW-en fin'
+echo 'NEW ENGLISH NEW-de'
+python ./scripts/NEW-de-scripts/topsix.py
+echo 'topsix NEW-de fin'
+python ./scripts/NEW-de-scripts/latest.py
+echo 'latest NEW-de fin'
+python ./scripts/NEW-de-scripts/proplist.py
+echo 'proplist NEW-de fin'
+python ./scripts/NEW-de-scripts/propdetail.py
+echo 'propdetail NEW-de fin'
 date
 echo 'finished'
