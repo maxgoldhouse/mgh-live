@@ -79,22 +79,30 @@
 <div class="column is-two-thirds-desktop has-text-centered" id="slideshow">
   <style>
     .sold, .rented, .stc{
-    position: absolute;
+    /*position: absolute;
     z-index: 999;
     font-size: 5rem;
     color: red;
     background-color: rgb(255,255,255,0.3);
     top: 15%;
-    /* left: 40%; */
-    width: 100%;
+    width: 100%;*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: var(--space-1);
+    background: rgba(255, 255, 255, 0.3);
+    color: red;
+    font-size: 5rem;
+    max-height: 30%;
 }
   </style>
   <!--<div xstyle="width:80%; margin: 0 auto;"> -->
   <amp-carousel id="custom-button" width="640" height="360" layout="responsive" type="slides" autoplay delay="3200">
     <!-- <amp-carousel width="960" height="720" layout="responsive" type="slides" autoplay delay="3200">-->
     {% for img in images %}
-    {% if underoffersold == '2' %} <div class="sold">VENDU</div> {% elif underoffersold == '3' %} <div class="rented">LOUE</div> {% elif underoffersold == '1' %} <div class="stc">SOUS COMPROMIS</div> {% endif %}
     <amp-img src="{{img['src']|replace("-rj-e30-v2","-rj-e30-l80")}}" width="640" height="360" layout="responsive"></amp-img>
+    {% if underoffersold == '2' %} <div class="sold">VENDU</div> {% elif underoffersold == '3' %} <div class="rented">LOUE</div> {% elif underoffersold == '1' %} <div class="stc">SOUS COMPROMIS</div> {% endif %}
     {% endfor %}
     </amp-carousel>
 <!--</div> -->
