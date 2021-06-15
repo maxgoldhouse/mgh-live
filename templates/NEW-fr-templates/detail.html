@@ -144,7 +144,7 @@
     </div>  
  
  <div class="column level-item has-text-centered"> <h1> <!-- for à vendre --> {{proptype}} à {{locationdetail}}</h1></div>
-<div class="column level-item has-text-centered is-size-4"><strong><span class="price_eur">{{price}} {{frequency}}</span></strong></div>
+<div class="column level-item has-text-centered is-size-4"><strong>{% if offplan == 'True' %}à partir de{% endif %}<span class="price_eur">{{price}} {{frequency}}</span></strong></div>
 <div class="column level-item has-text-centered">ref: <strong>{{propref}}</strong></div>
 <div class="column level-item"></div>
 </div>
@@ -157,10 +157,10 @@
 </p>
 
 </div>
-</div> -->
+</div> 
 <div class="columns is-centered">
   <div class="column is-3 has-text-centered"><strong> {% if offplan == 'True' %}à partir de{% endif %} {{price}} {{frequency}}</strong></div>
-</div>
+</div>-->
 <div class="columns  is-centered">
   <div class="column is-6">
     <div class="columns features is-multiline is-mobile">
