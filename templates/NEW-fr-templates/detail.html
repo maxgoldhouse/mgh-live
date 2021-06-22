@@ -39,7 +39,6 @@
                    </svg>
                  </a>
 						<a class="navbar-item" href="/">
-
 						  <img src="https://lh3.googleusercontent.com/-VnP7FD3Xk94/WFfNY4vmdkI/AAAAAAAAO-k/srLkasCBQcUlFowdxd0eeM7Jwnh0444rgCHM/s0-no-e365/mghlogo.png" width=280 height=50 style="max-height: 20rem;" alt="MaxGoldHouse Logo"/>
 						</a>	
 				</div>		
@@ -71,7 +70,7 @@
 <div class="panel panel-default" id="property_box">
   <div class="columns level">   
     <div class="column level-item has-text-centered">
- 
+ <!-- pushing the carousel down below the nav bar -->
     </div>  
 
 </div>
@@ -80,11 +79,11 @@
 <div class="column is-two-thirds-desktop has-text-centered" id="slideshow">
 
   <!--<div xstyle="width:80%; margin: 0 auto;"> -->
-  <amp-carousel id="custom-button" width="640" height="360" layout="responsive" type="slides" autoplay delay="3200">
+  <amp-carousel id="custom-button" xwidth="640" xheight="360" layout="responsive" type="slides" autoplay delay="3200">
     <!-- <amp-carousel width="960" height="720" layout="responsive" type="slides" autoplay delay="3200">-->
     {% for img in images %}
     <div>
-    <amp-img src="{{img['src']|replace("-rj-e30-v2","-rj-e30-l80")}}" width="640" height="360" layout="responsive"></amp-img>
+    <amp-img src="{{img['src']|replace("-rj-e30-v2","-rj-e30-l80")}}" xwidth="640" xheight="360" layout="responsive"></amp-img>
     {% if underoffersold == '2' %} <div class="sold">VENDU</div> {% elif underoffersold == '3' %} <div class="rented">LOUE</div> {% elif underoffersold == '1' %} <div class="stc">SOUS COMPROMIS</div> {% endif %}
   </div>
     {% endfor %}
