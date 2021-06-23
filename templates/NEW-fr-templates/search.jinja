@@ -11,10 +11,10 @@
 <meta name="msvalidate.01" content="495BBC82C6515A55A3A84D993FEB5094" />
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <link rel="canonical" href="/zoek.html"/>
-<link rel="alternate" hreflang="en" href="https://mgh-en.appspot.com/search.html"/>
-<link rel="alternate" hreflang="de" href="https://de-dot-mgh-en.appspot.com/suche.html"/>
-<link rel="alternate" hreflang="fr" href="https://fr-dot-mgh-en.appspot.com/rechercher.html"/>
-<link rel="alternate" hreflang="nl" href="https://nl-dot-mgh-en.appspot.com/zoek.html"/>
+<link rel="alternate" hreflang="en" href="{{ enurl }}search.html"/>
+<link rel="alternate" hreflang="de" href="{{ deurl }}suche.html"/>
+<link rel="alternate" hreflang="fr" href="{{ frurl }}rechercher.html"/>
+<link rel="alternate" hreflang="nl" href="{{ nlurl }}zoek.html"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.25.0/slimselect.min.css" rel="stylesheet"></link>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.25.0/slimselect.min.js"></script>
 <link rel="stylesheet" href="/css/mgh.css?19">
@@ -54,9 +54,9 @@ const params = new URLSearchParams(window.location.search);
         <ul class="languagepicker large navbar-end lingo navbar-item">
           <a class="addqs" href="/rechercher.html">
           <li><img class="vam" src="//lh3.googleusercontent.com/kEyBIAzDf4lJtEXKBQyEqsnEgvyaNboEl_4vNL6ZWv_LYJ9P67G6zn3wjq6QGwtho6qjKADDviJW76Ul=s24">FR &nbsp;▼</li></a>
-          <a class="addqs" href="https://de-dot-mgh-en.appspot.com/suche.html"><li><span>DE</span></li></a>
-          <a class="addqs" href="https://mgh-en.appspot.com/search.html"><li><span>EN</span></li></a>
-          <a class="addqs" href="https://nl-dot-mgh-en.appspot.com/zoek.html"><li><span>NL</span></li></a>
+          <a class="addqs" href="{{ deurl }}suche.html"><li><span>DE</span></li></a>
+          <a class="addqs" href="{{ enurl }}search.html"><li><span>EN</span></li></a>
+          <a class="addqs" href="{{ nlurl }}zoek.html"><li><span>NL</span></li></a>
         </ul>
         </div>
     </nav>

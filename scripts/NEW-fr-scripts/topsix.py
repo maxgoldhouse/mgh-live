@@ -169,7 +169,7 @@ file.close()
 TEMPLATE_FILE = "search.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
-outputText = template.render()
+outputText = template.render(deurl=_mghsettings.NEWDE_URL, enurl=_mghsettings.NEWEN_URL, frurl=_mghsettings.NEWFR_URL, nlurl=_mghsettings.NEWNL_URL)
 file = open(_mghsettings.NEWFR_SITEDIR+"rechercher.html", "w")
 file.write(outputText)
 file.close()
