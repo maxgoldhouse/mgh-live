@@ -82,7 +82,7 @@ for item in topsixdict['props']:
 #prop['offerHTML'] = '<div class="featured_property_wrap col-sm-4"><style>#offer{font-size:20px;} .mgh-offer{text-align:center;}</style><div class="mgh-offer"><img src="//lh3.googleusercontent.com/-GTT16P545Io/WA8sWvHiQZI/AAAAAAAAP6o/8rxFFVCigjwJ_o2_7QVO7SU-NCs_dFAHACL0B/s240-rj-e30/150-euros.jpg" class="img-thumbnail img-circle img-responsive"><div id="offer">COULD WE PAY<br> YOUR HOTEL BILL?</div><div class="col-sm-offset-1"><a href="/offers.html"><button class="btn btn-success">Tell me more</button></a></div></div></div>'
 #topsixdict['props'].insert(1,prop)
 
-outputText = template.render(topsixdict,deurl=NEWDE_URL, enurl=NEWEN_URL, frurl=NEWFR_URL, nlurl=NEWNL_URL)
+outputText = template.render(topsixdict,deurl=_mghsettings.NEWDE_URL, enurl=_mghsettings.NEWEN_URL, frurl=_mghsettings.NEWFR_URL, nlurl=_mghsettings.NEWNL_URL)
 #print outputText
 file = open(_mghsettings.NEWFR_SITEDIR+"index.html", "w")
 file.write(outputText)
