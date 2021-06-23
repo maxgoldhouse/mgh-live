@@ -55,10 +55,10 @@ for prop in _mgh_data.props:
 	de_proptype = _mghsettings.trans_proptypes[thisprop['ptype'].lower()]['de']
 	fr_proptype = _mghsettings.trans_proptypes[thisprop['ptype'].lower()]['fr']
 
-	propurl_de = '/'+str(thisprop['beds'])+'-Schlafzimmer-'+de_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
-	propurl_nl = '/'+str(thisprop['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
-	propurl_fr = '/'+str(thisprop['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e')+'-à-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
-	propurl_en = '/'+str(thisprop['beds'])+'-bed-'+thisprop['ptype'].replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
+	propurl_de = str(thisprop['beds'])+'-Schlafzimmer-'+de_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
+	propurl_nl = str(thisprop['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
+	propurl_fr = str(thisprop['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e')+'-à-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
+	propurl_en = str(thisprop['beds'])+'-bed-'+thisprop['ptype'].replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
 	pagename = str(thisprop['beds'])+'-chambre-'+fr_proptype.replace(' ','-')+'-a-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']
 	if thisprop['pool'].lower() == 'yes':
 		pool = 'Oui'

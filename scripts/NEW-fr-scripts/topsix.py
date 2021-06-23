@@ -173,6 +173,33 @@ outputText = template.render(deurl=_mghsettings.NEWDE_URL, enurl=_mghsettings.NE
 file = open(_mghsettings.NEWFR_SITEDIR+"rechercher.html", "w")
 file.write(outputText)
 file.close()
+
+#Now lets make the politique-de-confidentialite.html file
+TEMPLATE_FILE = "politique-de-confidentialite.jinja"
+
+template = templateEnv.get_template( TEMPLATE_FILE )
+outputText = template.render(deurl=_mghsettings.NEWDE_URL, enurl=_mghsettings.NEWEN_URL, frurl=_mghsettings.NEWFR_URL, nlurl=_mghsettings.NEWNL_URL)
+file = open(_mghsettings.NEWFR_SITEDIR+"politique-de-confidentialite.html", "w")
+file.write(outputText)
+file.close()
+
+#Now lets make the politique-des-cookies.html file
+TEMPLATE_FILE = "politique-des-cookies.jinja"
+
+template = templateEnv.get_template( TEMPLATE_FILE )
+outputText = template.render(deurl=_mghsettings.NEWDE_URL, enurl=_mghsettings.NEWEN_URL, frurl=_mghsettings.NEWFR_URL, nlurl=_mghsettings.NEWNL_URL)
+file = open(_mghsettings.NEWFR_SITEDIR+"politique-des-cookies.html", "w")
+file.write(outputText)
+file.close()
+
+#Now lets make the achat-le-processus.html file
+TEMPLATE_FILE = "achat-le-processus.jinja"
+
+template = templateEnv.get_template( TEMPLATE_FILE )
+outputText = template.render(deurl=_mghsettings.NEWDE_URL, enurl=_mghsettings.NEWEN_URL, frurl=_mghsettings.NEWFR_URL, nlurl=_mghsettings.NEWNL_URL)
+file = open(_mghsettings.NEWFR_SITEDIR+"achat-le-processus.html", "w")
+file.write(outputText)
+file.close()
 	
     #"""
 	#title 'Villamartin Property for Sale, Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada Costa Blanca Spain'
