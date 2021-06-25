@@ -57,23 +57,13 @@
 </header>
 <main div class="" id="fpphoto">
   <div class="columns is-centered">
+    <div class="column">
       <div class="xfpsearch xsticky" id="fpsearchformholder">
 
           <form id="propsearch" action="rechercher.html" method="GET">
               <div class="columns xis-vcentered is-multiline is-centered" xstyle="background-color: rgba(52, 149, 218, 0.5);">
                   <br/>
-                  <div class="column is-2">
-                      <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br>Nouvelle/revente/à louer</label>
-                          <select id="offeris" class="form-control" name="offeris">
-                              <option value="all">tout</option>
-                              <option value="new">Nouvelle</option>
-                              <option value="resale">revente</option>
-                              <option value="rental">à louer</option>
-                              </select>
-                      </div>
-                  </div>
-                  <div class="column is-2">
+                   <div class="locs column is-2 is-inline-block-mobile">
                       <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Locale <span class="slimreset" onclick="theloc.set([])">Reset</span></label>
                           <select id="loc" class="slim-hidden" name="loc" multiple="multiple">
@@ -92,7 +82,7 @@
                     })
                     theloc.set(arrlocs)
                 </script>
-                  <div class="column is-2">
+                  <div class="type column is-inline-block-mobile is-2 is-4-mobile">
                       <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Type de propriété</label>
                           <!-- <input class="input" type="text" id="pt" name="pt" placeholder="Property Type"  length="20"> -->
@@ -119,9 +109,30 @@
                   thecontrols[0].style.visibility = "visible";
                   thecontrols[1].style.visibility = "visible";
                 </script>
+                  <div class="anrr column is-inline-block-mobile is-2 is-3-mobile">
+                      <div class="field">
+                          <label class="label is-small has-text-white popwhitetext"><br>Nouvelle/revente/à louer</label>
+                          <select id="offeris" class="form-control" name="offeris">
+                              <option value="all">tout</option>
+                              <option value="new">Nouvelle</option>
+                              <option value="resale">revente</option>
+                              <option value="rental">à louer</option>
+                              </select>
+                      </div>
+                  </div>
+                  <div class="pool column is-inline-block-mobile" style="max-width: 60px;">
+                      <div class="field">
+                          <label class="label is-small has-text-white popwhitetext"><br/>Piscine</label>
+                          <div class="control">                             
+                                <input class="form-control" type="checkbox" name="pool" id="pool" value="pool">
+                          </div>
+                      </div>
+                   </div>
+
+
                 </div>
                 <div class="columns is-multiline is-centered" xstyle="background-color: rgba(52, 149, 218, 0.5);">
-                  <div class="column is-1" style="xmax-width:80px;">
+                  <div class="beds column is-inline-block is-1 is-5-mobile" style="xmax-width:80px;">
                       <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Chambres</label>
                           <div class="control">                             
@@ -144,7 +155,7 @@
                           </div>
                       </div>
                   </div>
-                  <div class="column is-1" style="xmax-width:80px;">
+                  <div class="baths column is-inline-block is-1 is-5-mobile" style="xmax-width:80px;">
                       <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Salles de bain</label>
                           <div class="control">                             
@@ -167,7 +178,7 @@
                           </div>
                       </div>
                   </div>                  
-                  <div class="column is-1">
+                  <div class="min column is-inline-block is-1 is-5-mobile">
                       <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>€ prix min</label>
                           <div class="control">
@@ -216,7 +227,7 @@
                           </div>
                       </div>
                   </div>
-                  <div class="column is-1">
+                  <div class="max column is-inline-block is-1 is-5-mobile">
                       <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>€ prix max</label>
                           <div class="control">
@@ -265,15 +276,8 @@
                       </div>
                   </div>
 
-                  <div class="column" style="max-width: 60px;">
-                  <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Piscine</label>
-                          <div class="control">                             
-                                <input class="form-control" type="checkbox" name="pool" id="pool" value="pool">
-                          </div>
-                      </div>
-                   </div>
-                  <div class="column is-2">
+
+                  <div class="refs column is-2">
                        <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Ref-No.</label>
                           <div class="control">                             
@@ -282,7 +286,7 @@
                       </div>
                    </div>
               </div>
-              <div class="columns is-multiline is-centered" xstyle="background-color: rgba(52, 149, 218, 0.5);"">
+              <div class="submit columns is-multiline is-centered" xstyle="background-color: rgba(52, 149, 218, 0.5);"">
                   <div class="column is-1" id="searchbutton">
                       <input class="button is-large is-info details" type="submit" value="Rechercher">
                   </div>
@@ -291,7 +295,9 @@
           </form>
       </div>
       </div>
+      column is-inline-block is-1 is-5-mobile
       <!-- ##### END of Nav and Search ##### -->
+      
                   <script>
                   /* When the user clicks on the button, 
                   toggle between hiding and showing the dropdown content */
