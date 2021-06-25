@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="/css/mgh.css?19">
 <link rel="shortcut icon" href="/img/favicon.ico" />
 </head>
-<body class="has-navbar-fixed-top">
+<body class="has-navbar-fixed-top is-size-6-mobile">
 <header>
 		<nav class="navbar is-fixed-top is-link">
 				<div class="navbar-brand">
@@ -82,7 +82,7 @@
                     })
                     theloc.set(arrlocs)
                 </script>
-                  <div class="type column is-inline-block-mobile is-2 is-4-mobile">
+                  <div class="type column is-inline-block-mobile is-2 is-5-mobile">
                       <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Type de propriété</label>
                           <!-- <input class="input" type="text" id="pt" name="pt" placeholder="Property Type"  length="20"> -->
@@ -109,9 +109,9 @@
                   thecontrols[0].style.visibility = "visible";
                   thecontrols[1].style.visibility = "visible";
                 </script>
-                  <div class="anrr column is-inline-block-mobile is-3 is-4-mobile">
+                  <div class="anrr column is-inline-block-mobile is-3 is-6-mobile">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br>Nouvelle/revente/à louer</label>
+                          <label class="label is-small has-text-white popwhitetext"><br>Nouvelle/revente/louer</label>
                           <select id="offeris" class="form-control" name="offeris">
                               <option value="all">tout</option>
                               <option value="new">Nouvelle</option>
@@ -313,7 +313,7 @@
       </div>-->
       <!-- Loop through topsix -->
       <!-- TOP SIX -->
-      <h1 class="pad-16 is-size-3 has-text-centered mgh-blue">Propriété à vendre à Villamartin, Cabo Roig, Torrevieja, Playa Flamenca Orihuela Costa et l'Espagne.</h1>
+      <h1 class="pad-16 is-size-3 is-size-5-mobile has-text-centered mgh-blue">Propriété à vendre à Villamartin, Cabo Roig, Torrevieja, Playa Flamenca Orihuela Costa et l'Espagne.</h1>
       <div class="columns is-mobile is-multiline" id="topsix">
           <!-- 1 -->
           {% for item in props %}
@@ -364,7 +364,7 @@
       </div>
       <!-- END TOP SIX -->
       <!-- AFTER TOP SIX -->
-      <div id="aftertop6"><a href="/rechercher.html?offeris=all&amp;beds=&amp;baths=&amp;gtp=&amp;ltp=&amp;propref=No+Ref"><h4>Voir plus de propriétés</h4></a></div>
+      <div id="aftertop6" class="has-text-centered" ><a href="/rechercher.html?offeris=all&amp;beds=&amp;baths=&amp;gtp=&amp;ltp=&amp;propref=No+Ref"><h4>Voir plus de propriétés</h4></a></div>
       <!-- AFTER TOP SIX -->
 
   {% include "footer.html" %}
