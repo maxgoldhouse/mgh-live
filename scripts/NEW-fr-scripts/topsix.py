@@ -121,7 +121,7 @@ for eachprop in _mgh_data.proplists['All']:
 		bain = ' salle de bain'
     elif int(row['baths']) > 1:
 		bain = ' salles de bains'
-    prop['baths'] = row['baths'] + bain
+    prop['baths'] = row['baths']
     prop['bain'] = bain
     prop['pool'] = _mghsettings.trans_pooltypes[row['pool'].lower()]['fr']
     prop['propid'] = row['pid']

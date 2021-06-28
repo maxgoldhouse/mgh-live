@@ -168,6 +168,9 @@ input#pool{height: 30px;}
   .fa-bath:before {
     content: "\f2cd";
   }
+  .fa-swimming-pool:before {
+    content: "\f5c5";
+  }
   .languagepicker {
     background-color: #FFF;
     display: inline-block;
