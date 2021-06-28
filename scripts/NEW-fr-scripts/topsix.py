@@ -124,6 +124,10 @@ for eachprop in _mgh_data.proplists['All']:
     prop['baths'] = row['baths']
     prop['bain'] = bain
     prop['pool'] = _mghsettings.trans_pooltypes[row['pool'].lower()]['fr']
+    if prop['pool'] != 'Non':
+        prop['haspool'] = 'Oui'
+    else:
+        prop['haspool'] = 'Non'
     prop['propid'] = row['pid']
     prop['propref'] = row['ref']
     prop['propurl'] = propurl
