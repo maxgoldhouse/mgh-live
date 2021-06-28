@@ -115,12 +115,14 @@ for eachprop in _mgh_data.proplists['All']:
 		chambre = ' chambre'
     elif int(row['beds']) > 1:
 		chambre = ' chambres'
-    prop['beds'] = row['beds'] + chambre
+    prop['beds'] = row['beds']
+    prop['chambre'] = chambre
     if int(row['baths']) == 1:
 		bain = ' salle de bain'
     elif int(row['baths']) > 1:
 		bain = ' salles de bains'
     prop['baths'] = row['baths'] + bain
+    prop['bain'] = bain
     prop['pool'] = _mghsettings.trans_pooltypes[row['pool'].lower()]['fr']
     prop['propid'] = row['pid']
     prop['propref'] = row['ref']
