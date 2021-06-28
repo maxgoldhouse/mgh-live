@@ -447,7 +447,7 @@ if(qsData.propref != 'No Ref'){
   }
   if (qsData.pool == "on"){
     document.getElementById("pool").checked = true;
-    tafqry.push('"pool":{"!is":"No"}') 
+    tafqry.push('"pool":{"!is":"Non"}') 
   }
   console.log(tafqry.join(', '))
   theqry = JSON.parse('{'+tafqry.join(', ')+'}')
