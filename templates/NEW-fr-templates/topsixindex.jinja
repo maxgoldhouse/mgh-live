@@ -124,17 +124,17 @@
                       <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Piscine</label>
                           <div class="control">                             
-                                <input class="form-control poolcheckbox" type="checkbox" name="poolcheck" id="poolcheck" onchange="poolchecked()" >
+                                <input class="form-control poolcheckbox" type="checkbox" name="pool" id="pool" onchange="poolchecked()" >
                                 <script>
                                 function poolchecked(){
-                                  if(document.getElementById("poolcheck").checked){
-                                      document.getElementById("pool").value = 'true';}
+                                  if(document.getElementById("pool").checked){
+                                      document.getElementById("poolvalue").value = 'true';}
                                       else 
-                                      {document.getElementById("pool").value = 'false';}
+                                      {document.getElementById("poolvalue").value = 'false';}
                                 
                                 }
                                 </script>
-                                <input type="hidden" id="pool" value="false"/>
+                                <input type="hidden" id="poolvalue" value="false"/>
                           </div>
                       </div>
                    </div>
