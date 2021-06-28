@@ -64,22 +64,14 @@ const params = new URLSearchParams(window.location.search);
     <script>(function(){var burger=document.querySelector('.burger');var nav=document.querySelector('#'+burger.dataset.target);burger.addEventListener('click',function(){burger.classList.toggle('is-active');nav.classList.toggle('is-active');});})();</script>
 </header>
 
-    <div id="search-bar">
+<div class="columns is-centered">
+    <div class="column">
+      <div class="xfpsearch xsticky" id="fpsearchformholder">
+
           <form id="propsearch" action="rechercher.html" method="GET">
-              <div class="columns xis-vcentered is-multiline is-centered" style="background-color: rgba(52, 149, 218, 0.5);">
+              <div class="columns xis-vcentered is-multiline is-centered" xstyle="background-color: rgba(52, 149, 218, 0.5);">
                   <br/>
-                  <div class="column is-2">
-                      <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br>Nouvelle/revente/à louer</label>
-                          <select id="offeris" class="form-control" name="offeris">
-                              <option value="all">tout</option>
-                              <option value="new">Nouvelle</option>
-                              <option value="resale">revente</option>
-                              <option value="rental">à louer</option>
-                              </select>
-                      </div>
-                  </div>
-                  <div class="column is-2">
+                   <div class="locs column is-2 is-inline-block-mobile">
                       <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Locale <span class="slimreset" onclick="theloc.set([])">Reset</span></label>
                           <select id="loc" class="slim-hidden" name="loc" multiple="multiple">
@@ -88,17 +80,17 @@ const params = new URLSearchParams(window.location.search);
                       </div>
                   </div>
                 <script>
-                    
+                    const params = new URLSearchParams(window.location.search)
                     arrlocs = params.getAll('loc')
                     var theloc = new SlimSelect({
-                      select: '#loc',
-                      selectByGroup: true,
-                      placeholder: 'Sélectionnez dans la liste',
-                      allowDeselect: true
+                    select: '#loc',
+                    selectByGroup: true,
+                    placeholder: 'Sélectionnez dans la liste',
+                    allowDeselect: true
                     })
                     theloc.set(arrlocs)
                 </script>
-                  <div class="column is-2">
+                  <div class="type column is-inline-block-mobile is-2 is-5-mobile">
                       <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Type de propriété</label>
                           <!-- <input class="input" type="text" id="pt" name="pt" placeholder="Property Type"  length="20"> -->
@@ -116,20 +108,41 @@ const params = new URLSearchParams(window.location.search);
                       </div>
                   </div>
                 <script>
-                  arrpts = params.getAll('pt')
                   var thept = new SlimSelect({
                   select: '#pt',
-                  placeholder: 'Sélectionnez dans la liste',
+                  placeholder: 'Selecteer uit lijst',
                   allowDeselect: true
                 })
-                  thept.set(arrpts)
                   var thecontrols = document.getElementsByClassName("ss-main");
                   thecontrols[0].style.visibility = "visible";
                   thecontrols[1].style.visibility = "visible";
                 </script>
-                  <div class="column" style="max-width:80px;">
+                  <div class="anrr column is-inline-block-mobile is-3 is-6-mobile">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Chambres a coucher</label>
+                          <label class="label is-small has-text-white popwhitetext"><br>Nouvelle/revente/louer</label>
+                          <select id="offeris" class="form-control" name="offeris">
+                              <option value="all">tout</option>
+                              <option value="new">Nouvelle</option>
+                              <option value="resale">revente</option>
+                              <option value="rental">à louer</option>
+                              </select>
+                      </div>
+                  </div>
+                  <div class="pool column" style="max-width: 60px;">
+                      <div class="field">
+                          <label class="label is-small has-text-white popwhitetext"><br/>Piscine</label>
+                          <div class="control">                             
+                                <input class="form-control" type="checkbox" name="pool" id="pool" value="pool">
+                          </div>
+                      </div>
+                   </div>
+
+
+                </div>
+                <div class="columns is-multiline is-centered" xstyle="background-color: rgba(52, 149, 218, 0.5);">
+                  <div class="beds column is-inline-block is-2 is-5-mobile" style="xmax-width:80px;">
+                      <div class="field">
+                          <label class="label is-small has-text-white popwhitetext"><br/>Chambres</label>
                           <div class="control">                             
                                 <select name="beds" class="form-control" id="beds" aria-label="Chambres a coucher" readonly="">
                                   <option value=""></option>
@@ -150,7 +163,7 @@ const params = new URLSearchParams(window.location.search);
                           </div>
                       </div>
                   </div>
-                  <div class="column" style="max-width:80px;">
+                  <div class="baths column is-inline-block is-2 is-5-mobile" style="xmax-width:80px;">
                       <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Salles de bain</label>
                           <div class="control">                             
@@ -173,7 +186,7 @@ const params = new URLSearchParams(window.location.search);
                           </div>
                       </div>
                   </div>                  
-                  <div class="column is-1">
+                  <div class="min column is-inline-block is-2 is-5-mobile">
                       <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>€ prix min</label>
                           <div class="control">
@@ -222,7 +235,7 @@ const params = new URLSearchParams(window.location.search);
                           </div>
                       </div>
                   </div>
-                  <div class="column is-1">
+                  <div class="max column is-inline-block is-2 is-5-mobile">
                       <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>€ prix max</label>
                           <div class="control">
@@ -271,30 +284,25 @@ const params = new URLSearchParams(window.location.search);
                       </div>
                   </div>
 
-                  <div class="column" style="max-width: 60px;">
-                  <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Piscine</label>
-                          <div class="control">                             
-                                <input class="form-control" type="checkbox" name="pool" id="pool" value="pool">
-                          </div>
-                      </div>
-                   </div>
-                  <div class="column is-1">
+                  <div class="refs column is-2">
                        <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Ref-No.</label>
                           <div class="control">                             
-                                <select class="form-control" name="propref"><option value="No Ref">Selecteer Ref</option>{% include 'refsearch.html'%}</select>
+                                <select class="form-control" name="propref"><option value="No Ref">Sélectionnez</option>{% include 'refsearch.html'%}</select>
                           </div>
                       </div>
                    </div>
-
+              </div>
+              <div class="submit columns is-multiline is-centered" xstyle="background-color: rgba(52, 149, 218, 0.5);"">
                   <div class="column is-1" id="searchbutton">
                       <input class="button is-large is-info details" type="submit" value="Rechercher">
                   </div>
               </div>
 
           </form>
+      </div>
     </div>
+  </div>
           <!-- ##### END of Nav and Search ##### -->
                   <script>
                   /* When the user clicks on the button, 
