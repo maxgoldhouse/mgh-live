@@ -65,7 +65,7 @@ for prop in _mgh_data.props:
 	elif thisprop['pool'].lower() == 'no':
 		pool = 'Non'
 	else:
-		pool = thisprop['pool']
+		pool = _mghsettings.trans_pooltypes[thisprop['pool'].lower()]['fr']
 	propdict = {}
 	propdict['props'] = []
 	propdict['propdescription'] = thisprop['FR']
