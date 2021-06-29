@@ -42,7 +42,6 @@ for prop in _mgh_data.props:
 	    picurldict['src'] = pic
 	    picurldictlist.append(picurldict)
 	    slidecount += 1
-
     #prepare the vars to pass to the template
 	#print 'propid ' + thisprop['pid']
 	#print 'price ' + thisprop['price']
