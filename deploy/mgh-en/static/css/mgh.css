@@ -122,6 +122,7 @@ ul#propfeatures li{display:inline-block;padding:0.5rem;}
   .show {display: block;}
   
 .vam{vertical-align: middle;}
+#searchbutton{margin:10px;}
 #propsearch .column{padding: 0 0.75em}
 .form-control {
   display: block;
@@ -138,7 +139,7 @@ ul#propfeatures li{display:inline-block;padding:0.5rem;}
 
 input#pool{height: 30px;}
   
-#propresults{margin-top:3%;width: 98%; margin-right: auto; margin-left: auto;}
+#propresults{width: 98%; margin-right: auto; margin-left: auto;}
 
 @media screen and (min-width:769px){#fpsearchformholder{margin: 20vh 0 20vh 0;} } /* tablet */
 /*@font-face {

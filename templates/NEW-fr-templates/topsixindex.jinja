@@ -123,9 +123,8 @@
                   <div class="pool column" style="max-width: 60px;">
                       <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Piscine</label>
-                          <div class="control">                             
-                                <input class="form-control poolcheckbox" type="checkbox" name="pool" id="pool" onchange="poolchecked()" >
-                                <script>
+                          <div class="control">
+                              <script>
                                 function poolchecked(){
                                   if(document.getElementById("pool").checked){
                                       document.getElementById("poolvalue").value = 'true';}
@@ -133,7 +132,9 @@
                                       {document.getElementById("poolvalue").value = 'false';}
                                 
                                 }
-                                </script>
+                                </script>                             
+                                <input class="form-control poolcheckbox" type="checkbox" name="pool" id="pool" onchange="poolchecked()" >
+
                                 <input type="hidden" id="poolvalue" value="false"/>
                           </div>
                       </div>

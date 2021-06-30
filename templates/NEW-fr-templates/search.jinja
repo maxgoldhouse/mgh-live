@@ -303,7 +303,7 @@ const params = new URLSearchParams(window.location.search);
                       </div>
                    </div>
               </div>
-              <div class="submit columns is-multiline is-centered" xstyle="background-color: rgba(52, 149, 218, 0.5);"">
+              <div class="submit columns is-multiline is-centered" style="margin: 1rem 0;">
                   <div class="column is-1" id="searchbutton">
                       <input class="button is-large is-info details" type="submit" value="Rechercher">
                   </div>
@@ -475,7 +475,6 @@ if(qsData.propref != 'No Ref'){
   //console.log(loc_list)
   if(outputHTML ==""){outputHTML = "<center><h2> not found</h2></center>"}//"+findref+"
   document.getElementById("propresults").innerHTML = outputHTML
-
 });
 </script>
 
