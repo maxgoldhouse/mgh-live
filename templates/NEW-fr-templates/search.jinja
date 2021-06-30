@@ -68,6 +68,7 @@ const params = new URLSearchParams(window.location.search);
 function displaysearch(action){
   document.getElementById("fpphoto").style.display=action;
   document.getElementById("opensearch").style.display=(action == 'block') ? 'none' : 'block';//toggle the filter search button
+  document.getElementById("closesearch").style.display=(action == 'none') ? 'none' : 'block';//toggle the filter search button
 }
 </script>
 <div id="opensearch">
@@ -320,13 +321,14 @@ function displaysearch(action){
                       <input class="button is-large is-info details" type="submit" value="Rechercher">
                   </div>
               </div>
-    <div class="columns is-centered">
-    <div class="column is-1">  
-      <button id="opensearchbtn" onclick="displaysearch('none')" class="button is-info details" title="Fermer le formulaire de recherche">Fermer&nbsp; <i class="fas fa-search" aria-hidden="true"></i></button>
-     </div>
-  </div>
+
 
           </form>
+    <div class="columns is-centered" id="closesearch">
+    <div class="column is-1">  
+      <button id="closesearchbtn" onclick="displaysearch('none')" class="button is-info details" title="Fermer le formulaire de recherche">Fermer&nbsp; <i class="fas fa-search" aria-hidden="true"></i></button>
+     </div>
+  </div>
       </div>
     </div>
   </div>
