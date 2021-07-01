@@ -56,7 +56,7 @@ for prop in _mgh_data.props:
 
 	propurl_de = str(thisprop['beds'])+'-Schlafzimmer-'+de_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
 	propurl_nl = str(thisprop['beds'])+'-slaapkamer-'+nl_proptype.replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
-	propurl_fr = str(thisprop['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('é','e')+'-à-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
+	propurl_fr = str(thisprop['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('e','e')+'-à-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
 	propurl_en = str(thisprop['beds'])+'-bed-'+thisprop['ptype'].replace(' ','-')+'-in-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']+'.html'
 	pagename = str(thisprop['beds'])+'-chambre-'+fr_proptype.replace(' ','-')+'-a-'+thisprop['location'].replace(' ','-')+'-'+thisprop['pid']
 	if thisprop['pool'].lower() == 'yes':
