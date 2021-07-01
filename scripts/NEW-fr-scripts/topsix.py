@@ -42,7 +42,7 @@ thetopsix = _mgh_data.proplists['topsix']
 for fetchprop in thetopsix:
     row = _mgh_data.props[str(fetchprop)]
     fr_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['fr']
-    propurl = '/'+str(row['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('e','e').replace('â','a')+'-a-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
+    propurl = '/'+str(row['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('ée','ee').replace('â','a')+'-a-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
 
     if row['rental'] == 'True':
         saleorrent = 'à louer'
@@ -95,7 +95,7 @@ template = templateEnv.get_template( TEMPLATE_FILE )
 for eachprop in _mgh_data.proplists['All']:
     row = _mgh_data.props[str(eachprop)]
     fr_proptype = _mghsettings.trans_proptypes[row['ptype'].lower()]['fr']
-    propurl = '/'+str(row['beds'])+'-chambre-'+fr_proptype.replace(' ','-')+'-a-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
+    propurl = '/'+str(row['beds'])+'-chambre-'+fr_proptype.replace(' ','-').replace('ée','ee')+'-a-'+row['location'].replace(' ','-')+'-'+row['pid']+'.html'
     prop = {}
 
     if row['offplan'] == 'True':
