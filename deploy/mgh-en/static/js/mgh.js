@@ -38,6 +38,6 @@ function setbackbutton(){
           document.body.appendChild(script);
           var enqname = $(this).find('input[name="name"]').val();
           var thankmsg = '<p>Thanks '+enqname+'. Someone from the maxgoldhouse team will contact you.</p>';
-          $(this).html(thankmsg);
+          $('.modal-card-body').html(thankmsg);
           return false;
         });
