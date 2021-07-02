@@ -89,6 +89,24 @@
     </amp-carousel>
 <!--</div> -->
 </div>
+<div id="thanks" class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title" ><span id="subj"></span></p>
+      <button class="delete" aria-label="close" onclick="document.getElementById('thanks').classList.remove('is-active')"></button>
+    </header>
+    <section class="modal-card-body">
+      <div class="content">
+        <h1 id="was-subj">Enquiry Sent</h1>
+        <p id="thanksmsg"></p>
+      </div>
+      <center>
+      <button class="button" onclick="document.getElementById('thanks').classList.remove('is-active')">Cancel</button>
+      </center>
+    </section>
+  </div>
+</div>
 <div id="modal-form" class="modal">
 	<form accept-charset="UTF-8" action="" class="form-horizontal new_enquiry" id="new_enquiry" method="" style="background-color:  ">
   <div class="modal-background"></div>
