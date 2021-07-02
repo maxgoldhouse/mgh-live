@@ -31,7 +31,6 @@ function setbackbutton(){
           return o;
         };
  $('form').submit(function() {
-
           var thedata = JSON.stringify($(this).serializeObject())
           var script = document.createElement('script');
           script.src = 'https://script.google.com/macros/s/AKfycbwFOPvfoJMpt-OgtwsC2PDo56pNWO7h5QQjJAgzbsRxBgucsFb9/exec?data='+thedata;
