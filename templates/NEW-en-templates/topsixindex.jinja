@@ -9,11 +9,11 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible" />
 <meta name="msvalidate.01" content="495BBC82C6515A55A3A84D993FEB5094" />
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<link rel="canonical" href="https://www.maxgoldhouse.com" />
-<link rel="alternate" hreflang="en" href="https://mgh-en.appspot.com/" />
-<link rel="alternate" hreflang="de" href="https://de-dot-mgh-en.appspot.com/" />
-<link rel="alternate" hreflang="fr" href="https://fr-dot-mgh-en.appspot.com/" />
-<link rel="alternate" hreflang="nl" href="https://nl-dot-mgh-en.appspot.com.com/" />
+<link rel="canonical" href="{{ enurl }}" />
+<link rel="alternate" hreflang="en" href="{{ enurl }}" />
+<link rel="alternate" hreflang="de" href="{{ deurl }}" />
+<link rel="alternate" hreflang="fr" href="{{ frurl }}" />
+<link rel="alternate" hreflang="nl" href="{{ nlurl }}" />" />
 <link href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.25.0/slimselect.min.css" rel="stylesheet"></link>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.25.0/slimselect.min.js"></script>
 <link rel="stylesheet" href="/css/mgh.css?19">
@@ -21,13 +21,16 @@
 </head>
 <body class="has-navbar-fixed-top">
 <header>
-		<nav class="navbar is-fixed-top is-link">
+		<nav class="navbar is-fixed-top is-link is-size-6-mobile">
 				<div class="navbar-brand">
 						<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
 								<span aria-hidden="true"></span>
 								<span aria-hidden="true"></span>
 								<span aria-hidden="true"></span>
 							  </a>
+            <a class="" id="btn-property-back" href="javascript:goback('{{enurl}}');">
+                  <svg width="8mm" height="8mm" version="1.1" viewBox="0 0 5.6444 5.6444" xmlns="http://www.w3.org/2000/svg"></svg>
+            </a>                
 						<a class="navbar-item" href="/">
 						  <img src="https://lh3.googleusercontent.com/-VnP7FD3Xk94/WFfNY4vmdkI/AAAAAAAAO-k/srLkasCBQcUlFowdxd0eeM7Jwnh0444rgCHM/s0-no-e365/mghlogo.png" width=280 height=50 style="max-height: 20rem;" alt="MaxGoldHouse Logo"/>
 						</a>	
@@ -37,16 +40,16 @@
           <a href="index.html" class="navbar-item is-uppercase ">For Sale</a>
           <a href="search.html?offeris=rental&beds=&baths=&propref=No+Ref" class="navbar-item is-uppercase ">Long Term Rental</a>
           <a href="buying-process.html" class="navbar-item is-uppercase ">The Buying Process</a>
-          <a href="privacy-policy.html" class="navbar-item is-uppercase ">Privacy</a>
-          <a href="cookie-policy.html" class="navbar-item is-uppercase ">Cookies</a>
+          <!--<a href="privacy-policy.html" class="navbar-item is-uppercase ">Privacy</a>
+          <a href="cookie-policy.html" class="navbar-item is-uppercase ">Cookies</a>-->
           <a href="#footer" class="navbar-item is-uppercase ">Contact</a>
         </div>
         <ul class="languagepicker large navbar-end lingo navbar-item">
-          <a class="addqs" href="https://mgh-en.appspot.com">
+          <a class="addqs" href="{{ enurl }}">
           <li><img class="vam" src="//lh3.googleusercontent.com/kEyBIAzDf4lJtEXKBQyEqsnEgvyaNboEl_4vNL6ZWv_LYJ9P67G6zn3wjq6QGwtho6qjKADDviJW76Ul=s24">EN &nbsp;▼</li></a>
-          <a class="addqs" href="https://de-dot-mgh-en.appspot.com"><li><span>DE</span></li></a>
-          <a class="addqs" href="https://fr-dot-mgh-en.appspot.com"><li><span>FR</span></li></a>
-          <a class="addqs" href="https://nl-dot-mgh-en.appspot.com"><li><span>NL</span></li></a>
+          <a class="addqs" href="{{ deurl }}"><li><span>DE</span></li></a>
+          <a class="addqs" href="{{ frurl }}"><li><span>FR</span></li></a>
+          <a class="addqs" href="{{ nlurl }}"><li><span>NL</span></li></a>
         </ul>
         </div>
     </nav>
@@ -55,23 +58,11 @@
 </header>
 <main div class="" id="fpphoto">
   <div class="columns is-centered">
-      <div class="xfpsearch xsticky" id="fpsearchformholder">
-
+      <div class="xsticky" id="fpsearchformholder">
           <form id="propsearch" action="search.html" method="GET">
-              <div class="columns xis-vcentered is-multiline is-centered" xstyle="background-color: rgba(52, 149, 218, 0.5);">
+              <div class="columns is-multiline is-centered">
                   <br/>
-                  <div class="column is-2">
-                      <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br>New/Resale/Rental</label>
-                          <select id="offeris" class="form-control" name="offeris">
-                              <option value="all">All</option>
-                              <option value="new">New Build</option>
-                              <option value="resale">Resale</option>
-                              <option value="rental">Long Term Rental</option>
-                              </select>
-                      </div>
-                  </div>
-                  <div class="column is-2">
+                   <div class="locs column is-2 is-inline-block-mobile">
                       <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Location <span class="slimreset" onclick="theloc.set([])">Reset</span></label>
                           <select id="loc" class="slim-hidden" name="loc" multiple="multiple">
@@ -80,22 +71,25 @@
                       </div>
                   </div>
                 <script>
+                    const params = new URLSearchParams(window.location.search)
+                    arrlocs = params.getAll('loc')
                     var theloc = new SlimSelect({
                     select: '#loc',
                     selectByGroup: true,
+                    placeholder: 'Sélectionnez dans la liste',
                     allowDeselect: true
                     })
+                    theloc.set(arrlocs)
                 </script>
-                  <div class="column is-2">
+                  <div class="type column is-inline-block-mobile is-2 is-5-mobile">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Home Type</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Property Type</label>
                           <!-- <input class="input" type="text" id="pt" name="pt" placeholder="Property Type"  length="20"> -->
                           <div class="control">
                               <select name="pt" class="slim-hidden" id="pt" aria-label="Property type" readonly=""  multiple="multiple">
                                   <option value=""></option>
                                   <option value="Apartment">Apartment</option>  
                                   <option value="Townhouse">Townhouse</option>
-                                  <!--<option value="Quadhouse">Quadhouse</option>-->
                                   <option value="Villa">Villa</option>
                                   <option value="Finca">Finca</option>
                                   <option value="Land">Land</option>
@@ -107,19 +101,52 @@
                 <script>
                   var thept = new SlimSelect({
                   select: '#pt',
+                  placeholder: 'Selecteer uit lijst',
                   allowDeselect: true
                 })
                   var thecontrols = document.getElementsByClassName("ss-main");
                   thecontrols[0].style.visibility = "visible";
                   thecontrols[1].style.visibility = "visible";
                 </script>
+                  <div class="anrr column is-inline-block-mobile is-2 is-6-mobile">
+                      <div class="field">
+                          <label class="label is-small has-text-white popwhitetext"><br>New/Resale/Rent</label>
+                          <select id="offeris" class="form-control" name="offeris">
+                              <option value="all">All</option>
+                              <option value="new">New</option>
+                              <option value="resale">Resale</option>
+                              <option value="rental">Rent</option>
+                              </select>
+                      </div>
+                  </div>
+                  <div class="pool column" style="max-width: 60px;">
+                      <div class="field">
+                          <label class="label is-small has-text-white popwhitetext"><br/>Pool</label>
+                          <div class="control">
+                              <script>
+                                function poolchecked(){
+                                  if(document.getElementById("pool").checked){
+                                      document.getElementById("poolvalue").value = 'true';}
+                                      else 
+                                      {document.getElementById("poolvalue").value = 'false';}
+                                
+                                }
+                                </script>                             
+                                <input class="form-control poolcheckbox" type="checkbox" name="pool" id="pool" onchange="poolchecked()" >
+
+                                <input type="hidden" id="poolvalue" value="false"/>
+                          </div>
+                      </div>
+                   </div>
+
+
                 </div>
                 <div class="columns is-multiline is-centered" xstyle="background-color: rgba(52, 149, 218, 0.5);">
-                  <div class="column" style="max-width:80px;">
+                  <div class="beds column is-inline-block is-2 is-5-mobile" style="xmax-width:80px;">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Beds</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Bedrooms</label>
                           <div class="control">                             
-                                <select name="beds" class="form-control" id="beds" aria-label="Number of Bedrooms" readonly="">
+                                <select name="beds" class="form-control" id="beds" aria-label="Bedrooms" readonly="">
                                   <option value=""></option>
                                   <option value="0">0</option>
                                   <option value="1">1</option>
@@ -138,11 +165,11 @@
                           </div>
                       </div>
                   </div>
-                  <div class="column" style="max-width:80px;">
+                  <div class="baths column is-inline-block is-2 is-5-mobile" style="xmax-width:80px;">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Baths</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Bathrooms</label>
                           <div class="control">                             
-                                <select name="baths" class="form-control" id="baths" aria-label="Number of Bathrooms" readonly="">
+                                <select name="baths" class="form-control" id="baths" aria-label="Bathrooms" readonly="">
                                   <option value=""></option>
                                   <option value="0">0</option>
                                   <option value="1">1</option>
@@ -161,15 +188,18 @@
                           </div>
                       </div>
                   </div>                  
-                  <div class="column is-1">
+                  <div class="min column is-inline-block is-2 is-5-mobile">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>€ Min</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>€ price min</label>
                           <div class="control">
-                              <select name="gtp" class="form-control" id="gtp" aria-label="Min price" readonly="">                                 
+                              <select name="gtp" class="form-control" id="gtp" aria-label="prix min" readonly="">                                 
                                   <option value=""></option>
                                   <option value="0">€0</option>
                                   <option value="50000">€50,000</option>
+                                  <option value="60000">€60,000</option>
                                   <option value="70000">€70,000</option>
+                                  <option value="80000">€80,000</option>
+                                  <option value="90000">€90,000</option>
                                   <option value="100000">€100,000</option>
                                   <option value="125000">€125,000</option>
                                   <option value="150000">€150,000</option>
@@ -210,14 +240,17 @@
                           </div>
                       </div>
                   </div>
-                  <div class="column is-1">
+                  <div class="max column is-inline-block is-2 is-5-mobile">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>€ Max</label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>€ price max</label>
                           <div class="control">
-                              <select name="ltp" class="form-control" id="ltp" aria-label="Max price" readonly="">
+                              <select name="ltp" class="form-control" id="ltp" aria-label="prix max" readonly="">
                                   <option value=""></option>
                                   <option value="50000">€50,000</option>
+                                  <option value="60000">€60,000</option>
                                   <option value="70000">€70,000</option>
+                                  <option value="80000">€80,000</option>
+                                  <option value="90000">€90,000</option>
                                   <option value="100000">€100,000</option>
                                   <option value="125000">€125,000</option>
                                   <option value="150000">€150,000</option>
@@ -259,29 +292,20 @@
                       </div>
                   </div>
 
-                  <div class="column" style="max-width: 60px;">
-                  <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Pool</label>
-                          <div class="control">                             
-                                <input class="form-control" type="checkbox" name="pool" id="pool" value="pool">
-                          </div>
-                      </div>
-                   </div>
-                  <div class="column is-2">
+                  <div class="refs column is-2">
                        <div class="field">
                           <label class="label is-small has-text-white popwhitetext"><br/>Ref-No.</label>
                           <div class="control">                             
-                                <select class="form-control" name="propref"><option value="No Ref">Choose Ref</option>{% include 'refsearch.html'%}</select>
+                                <select class="form-control" name="propref"><option value="No Ref">Select</option>{% include 'refsearch.html'%}</select>
                           </div>
                       </div>
                    </div>
               </div>
-              <div class="columns is-multiline is-centered" xstyle="background-color: rgba(52, 149, 218, 0.5);"">
-                  <div class="column is-1" id="searchbutton">
-                      <input class="button is-large is-info details" type="submit" value="Search">
+              <div class="submit columns is-multiline is-centered" xstyle="background-color: rgba(52, 149, 218, 0.5);"">
+                  <div class="column" id="searchbutton" style="flex:none;">
+                      <input class="button is-info details" type="submit" value="Search">
                   </div>
               </div>
-
           </form>
       </div>
       </div>
@@ -297,16 +321,13 @@
 
   
 </main>
-<!--<div id="topsix">
-          <h2>Max's Specials *</h2>
-      </div>-->
-      <!-- Loop through topsix -->
+
       <!-- TOP SIX -->
-      <h1 class="pad-16 is-size-3 has-text-centered mgh-blue">Property For Sale in Torrevieja and Orihuela Costa areas of Spain</h1>
+      <h1 class="pad-16 is-size-3 is-size-5-mobile has-text-centered mgh-blue">Property For Sale in Torrevieja and Orihuela Costa areas of Spain</h1>
       <div class="columns is-mobile is-multiline" id="topsix">
           <!-- 1 -->
           {% for item in props %}
-          <div class="column is-2-desktop is-6-mobile is-4-tablet has-text-centered">
+          <div class="column is-3-desktop is-12-mobile is-4-tablet has-text-centered">
             <div class="card">
             <a href="{{ item['propurl'] }}">
               <div class=card-content>
@@ -355,6 +376,8 @@
       <!-- END TOP SIX -->
       <!-- AFTER TOP SIX -->
       <div id="aftertop6"></div>
+      <!-- AFTER TOP SIX -->
+      <div id="aftertop6" class="has-text-centered" ><a href="/rechercher.html?offeris=all&amp;beds=&amp;baths=&amp;gtp=&amp;ltp=&amp;propref=No+Ref"><h4>View more properties</h4></a></div>
       <!-- AFTER TOP SIX -->
 
   {% include "footer.html" %}

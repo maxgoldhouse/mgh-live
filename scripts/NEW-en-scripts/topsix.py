@@ -105,12 +105,17 @@ for eachprop in _mgh_data.proplists['All']:
     prop['beds'] = row['beds']
     prop['baths'] = row['baths']
     prop['pool'] = row['pool']
+    if prop['pool'] != 'No':
+        prop['haspool'] = 'Yes'
+    else:
+        prop['haspool'] = 'No'    
     prop['propid'] = row['pid']
     prop['propref'] = row['ref']
     prop['propurl'] = propurl
     prop['town'] = row['town']
     prop['province'] = row['province']
     prop['locationdetail']=row['location']
+    prop['uniproptype'] = row['ptype']    
     prop['proptype']=row['ptype']
     prop['saleorrent']= 'sale'
     prop['underoffersold'] = row['salestage']
@@ -153,6 +158,33 @@ TEMPLATE_FILE = "search.jinja"
 template = templateEnv.get_template( TEMPLATE_FILE )
 outputText = template.render()
 file = open(_mghsettings.NEWEN_SITEDIR+"search.html", "w")
+file.write(outputText)
+file.close()
+
+#Now lets make the politique-de-confidentialite.html file
+TEMPLATE_FILE = "privacy-policy.jinja"
+
+template = templateEnv.get_template( TEMPLATE_FILE )
+outputText = template.render(deurl=_mghsettings.NEWDE_URL, enurl=_mghsettings.NEWEN_URL, frurl=_mghsettings.NEWFR_URL, nlurl=_mghsettings.NEWNL_URL)
+file = open(_mghsettings.NEWFR_SITEDIR+"privacy-policy.html", "w")
+file.write(outputText)
+file.close()
+
+#Now lets make the politique-des-cookies.html file
+TEMPLATE_FILE = "cookie-policy.jinja"
+
+template = templateEnv.get_template( TEMPLATE_FILE )
+outputText = template.render(deurl=_mghsettings.NEWDE_URL, enurl=_mghsettings.NEWEN_URL, frurl=_mghsettings.NEWFR_URL, nlurl=_mghsettings.NEWNL_URL)
+file = open(_mghsettings.NEWFR_SITEDIR+"cookie-policy.html", "w")
+file.write(outputText)
+file.close()
+
+#Now lets make the achat-le-processus.html file
+TEMPLATE_FILE = "buying-process.jinja"
+
+template = templateEnv.get_template( TEMPLATE_FILE )
+outputText = template.render(deurl=_mghsettings.NEWDE_URL, enurl=_mghsettings.NEWEN_URL, frurl=_mghsettings.NEWFR_URL, nlurl=_mghsettings.NEWNL_URL)
+file = open(_mghsettings.NEWFR_SITEDIR+"buying-process.html", "w")
 file.write(outputText)
 file.close()
 	

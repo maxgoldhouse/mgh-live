@@ -8,7 +8,7 @@
 <meta content="en" http-equiv="Content-Language" />
 <meta content="IE=edge" http-equiv="X-UA-Compatible" />
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<link rel="canonical" href="https://www.maxgoldhouse.com" />
+<link rel="canonical" href="{{ frurl }}" />
 <link rel="alternate" hreflang="en" href="{{ enurl }}" />
 <link rel="alternate" hreflang="de" href="{{ deurl }}" />
 <link rel="alternate" hreflang="fr" href="{{ frurl }}" />
@@ -27,7 +27,7 @@
 								<span aria-hidden="true"></span>
 								<span aria-hidden="true"></span>
 						</a>
-            <a class="" id="btn-property-back" href="javascript:goback('https://www.maxgoldhouse.com');">
+            <a class="" id="btn-property-back" href="javascript:goback('{{frurl}}');">
                   <svg width="8mm" height="8mm" version="1.1" viewBox="0 0 5.6444 5.6444" xmlns="http://www.w3.org/2000/svg"></svg>
             </a>
 						<a class="navbar-item" href="/">
@@ -59,13 +59,12 @@
   <div class="columns is-centered">
     <div class="column">
       <div class="xfpsearch xsticky" id="fpsearchformholder">
-
           <form id="propsearch" action="rechercher.html" method="GET">
-              <div class="columns xis-vcentered is-multiline is-centered" xstyle="background-color: rgba(52, 149, 218, 0.5);">
+              <div class="columns is-multiline is-centered">
                   <br/>
                    <div class="locs column is-2 is-inline-block-mobile">
                       <div class="field">
-                          <label class="label is-small has-text-white popwhitetext"><br/>Locale <span class="slimreset" onclick="theloc.set([])">Reset</span></label>
+                          <label class="label is-small has-text-white popwhitetext"><br/>Locale <span class="slimreset" onclick="theloc.set([])">Réinitialiser</span></label>
                           <select id="loc" class="slim-hidden" name="loc" multiple="multiple">
                               {% include 'distinctlocations.html'%}</select>
                           <!--<div class="control"><input class="input" type="text" name="loc" placeholder="Location" length="20"></div> -->
@@ -197,7 +196,10 @@
                                   <option value=""></option>
                                   <option value="0">€0</option>
                                   <option value="50000">€50,000</option>
+                                  <option value="60000">€60,000</option>
                                   <option value="70000">€70,000</option>
+                                  <option value="80000">€80,000</option>
+                                  <option value="90000">€90,000</option>
                                   <option value="100000">€100,000</option>
                                   <option value="125000">€125,000</option>
                                   <option value="150000">€150,000</option>
@@ -245,7 +247,10 @@
                               <select name="ltp" class="form-control" id="ltp" aria-label="prix max" readonly="">
                                   <option value=""></option>
                                   <option value="50000">€50,000</option>
+                                  <option value="60000">€60,000</option>
                                   <option value="70000">€70,000</option>
+                                  <option value="80000">€80,000</option>
+                                  <option value="90000">€90,000</option>
                                   <option value="100000">€100,000</option>
                                   <option value="125000">€125,000</option>
                                   <option value="150000">€150,000</option>
@@ -318,10 +323,7 @@
 
   
 </main>
-<!--<div id="topsix">
-          <h2>Max's Specials *</h2>
-      </div>-->
-      <!-- Loop through topsix -->
+
       <!-- TOP SIX -->
       <h1 class="pad-16 is-size-3 is-size-5-mobile has-text-centered mgh-blue">Propriété à vendre à Villamartin, Cabo Roig, Torrevieja, Playa Flamenca Orihuela Costa et l'Espagne.</h1>
       <div class="columns is-mobile is-multiline" id="topsix">
