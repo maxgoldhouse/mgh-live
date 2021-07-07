@@ -36,9 +36,9 @@ function setbackbutton(){
           script.src = 'https://script.google.com/macros/s/AKfycbwFOPvfoJMpt-OgtwsC2PDo56pNWO7h5QQjJAgzbsRxBgucsFb9/exec?data='+thedata;
           document.body.appendChild(script);
           var enqname = $(this).find('input[name="name"]').val();
-          var thankmsg = "<p>Merci "+enqname+". Un membre de l'équipe maxgoldhouse vous contactera.</p>";
+          //var thankmsg = "<p>Merci "+enqname+". Un membre de l'équipe maxgoldhouse vous contactera.</p>";
           document.getElementById("modal-form").classList.remove('is-active')
           document.getElementById("thanks").classList.add('is-active')
-          $('#thanksmsg').html(thankmsg);
+          $('#thanksmsg').html(enqname);
           return false;
         });
