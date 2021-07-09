@@ -21,6 +21,11 @@ TEMPLATE_FILE = "detail.html"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
 
+deurl=_mghsettings.NEWDE_URL
+enurl=_mghsettings.NEWEN_URL
+frurl=_mghsettings.NEWFR_URL
+nlurl=_mghsettings.NEWNL_URL
+
 #loop for each property record in the database
 for prop in _mgh_data.props:
 	thisprop = _mgh_data.props[prop]
@@ -126,7 +131,7 @@ for prop in _mgh_data.props:
 	#else:
 	#	propdict['moredetails'] = ' end.'
 
-	outputText = template.render(propdict)
+	outputText = template.render(propdict, deurl,enurl,frurl,nlurl)
 	file = open(_mghsettings.NEWDE_SITEDIR+pagename+".html", "w")
 	file.write(outputText)
 	file.close()
