@@ -80,11 +80,8 @@ for item in topsixdict['props']:
 #prop['offerHTML'] = '<div class="featured_property_wrap col-sm-4"><style>#offer{font-size:20px;} .mgh-offer{text-align:center;}</style><div class="mgh-offer"><img src="//lh3.googleusercontent.com/-GTT16P545Io/WA8sWvHiQZI/AAAAAAAAP6o/8rxFFVCigjwJ_o2_7QVO7SU-NCs_dFAHACL0B/s240-rj-e30/150-euros.jpg" class="img-thumbnail img-circle img-responsive"><div id="offer">COULD WE PAY<br> YOUR HOTEL BILL?</div><div class="col-sm-offset-1"><a href="/offers.html"><button class="btn btn-success">Tell me more</button></a></div></div></div>'
 #topsixdict['props'].insert(1,prop)
 #domains = {"de":"https://de-dot-mgh-en.appspot.com/","en":"https://mgh-en.appspot.com/","fr":"https://fr-dot-mgh-en.appspot.com/","nl":"https://nl-dot-mgh-en.appspot.com/"}
-deurl=_mghsettings.NEWDE_URL
-enurl=_mghsettings.NEWEN_URL
-frurl=_mghsettings.NEWFR_URL
-nlurl=_mghsettings.NEWNL_URL
-outputText = template.render(topsixdict,deurl, enurl, frurl, nlurl)
+
+outputText = template.render(topsixdict,deurl=_mghsettings.NEWDE_URL,enurl=_mghsettings.NEWEN_URL,frurl=_mghsettings.NEWFR_URL,nlurl=_mghsettings.NEWNL_URL)
 #print outputText
 file = open(_mghsettings.NEWDE_SITEDIR+"index.html", "w")
 file.write(outputText)
@@ -156,7 +153,7 @@ file.close()
 TEMPLATE_FILE = "taffyDB.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
-outputText = template.render(allprops)
+outputText = template.render(allprops,deurl=_mghsettings.NEWDE_URL,enurl=_mghsettings.NEWEN_URL,frurl=_mghsettings.NEWFR_URL,nlurl=_mghsettings.NEWNL_URL)
 file = open(_mghsettings.NEWDE_SITEDIR+"allprops.json", "w")
 file.write(outputText)
 file.close()
@@ -165,7 +162,7 @@ file.close()
 TEMPLATE_FILE = "search.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
-outputText = template.render(deurl,enurl,frurl,nlurl)
+outputText = template.render(deurl=_mghsettings.NEWDE_URL,enurl=_mghsettings.NEWEN_URL,frurl=_mghsettings.NEWFR_URL,nlurl=_mghsettings.NEWNL_URL)
 file = open(_mghsettings.NEWDE_SITEDIR+"suche.html", "w")
 file.write(outputText)
 file.close()
@@ -174,7 +171,7 @@ file.close()
 TEMPLATE_FILE = "datenschutzerklarung.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
-outputText = template.render(deurl,enurl,frurl,nlurl)
+outputText = template.render(deurl=_mghsettings.NEWDE_URL,enurl=_mghsettings.NEWEN_URL,frurl=_mghsettings.NEWFR_URL,nlurl=_mghsettings.NEWNL_URL)
 file = open(_mghsettings.NEWFR_SITEDIR+"datenschutzerklarung.html", "w")
 file.write(outputText)
 file.close()
@@ -184,7 +181,7 @@ file.close()
 TEMPLATE_FILE = "cookie-richtlinie.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
-outputText = template.render(deurl,enurl,frurl,nlurl)
+outputText = template.render(deurl=_mghsettings.NEWDE_URL,enurl=_mghsettings.NEWEN_URL,frurl=_mghsettings.NEWFR_URL,nlurl=_mghsettings.NEWNL_URL)
 file = open(_mghsettings.NEWFR_SITEDIR+"cookie-richtlinie.html", "w")
 file.write(outputText)
 file.close()
@@ -193,7 +190,7 @@ file.close()
 TEMPLATE_FILE = "kaufen-in-spanien.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
-outputText = template.render(deurl,enurl,frurl,nlurl)
+outputText = template.render(deurl=_mghsettings.NEWDE_URL,enurl=_mghsettings.NEWEN_URL,frurl=_mghsettings.NEWFR_URL,nlurl=_mghsettings.NEWNL_URL)
 file = open(_mghsettings.NEWFR_SITEDIR+"kaufen-in-spanien.html", "w")
 file.write(outputText)
 file.close()
