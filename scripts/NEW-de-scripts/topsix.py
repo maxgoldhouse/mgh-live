@@ -176,7 +176,7 @@ file.write(outputText)
 file.close()
 
 #Now lets make the politique-des-cookies.html file
-cookie-richtlinie.html
+
 TEMPLATE_FILE = "cookie-richtlinie.jinja"
 
 template = templateEnv.get_template( TEMPLATE_FILE )
