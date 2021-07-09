@@ -7,5 +7,5 @@ steps:
   - id: 'gcloud deploy app'
     name: gcr.io/cloud-builders/gcloud-slim
     dir: deploy/$PROJECT_ID
-    args: ['--project=$PROJECT_ID', 'app', 'deploy', 'app.yaml', '--quiet', '--version=fr']
+    args: ['--project=$PROJECT_ID', 'app', 'deploy', 'app.yaml', '--quiet', '--version=de']
     #args: ['--project=$PROJECT_ID', 'app', 'deploy', 'app.yaml', '--quiet', '--version=1', '--verbosity', 'debug']
