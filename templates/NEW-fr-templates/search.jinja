@@ -218,7 +218,10 @@ function displaysearch(action){
                                   <option value=""></option>
                                   <option value="0">€0</option>
                                   <option value="50000">€50,000</option>
+                                  <option value="60000">€60,000</option>
                                   <option value="70000">€70,000</option>
+                                  <option value="80000">€80,000</option>
+                                  <option value="90000">€90,000</option>
                                   <option value="100000">€100,000</option>
                                   <option value="125000">€125,000</option>
                                   <option value="150000">€150,000</option>
@@ -266,7 +269,10 @@ function displaysearch(action){
                               <select name="ltp" class="form-control" id="ltp" aria-label="prix max" readonly="">
                                   <option value=""></option>
                                   <option value="50000">€50,000</option>
+                                  <option value="60000">€60,000</option>
                                   <option value="70000">€70,000</option>
+                                  <option value="80000">€80,000</option>
+                                  <option value="90000">€90,000</option>
                                   <option value="100000">€100,000</option>
                                   <option value="125000">€125,000</option>
                                   <option value="150000">€150,000</option>
@@ -493,7 +499,7 @@ if(qsData.propref != 'No Ref'){
    outputHTML = outputHTML+tmpl("tmpl-demo", r)
 });
   //console.log(loc_list)
-  if(outputHTML ==""){outputHTML = "<center><h2> not found</h2></center>"}//"+findref+"
+  if(outputHTML ==""){outputHTML = "<center><h2> pas trouvé</h2></center>"}//"+findref+"
   document.getElementById("propresults").innerHTML = outputHTML
 });
 </script>

@@ -108,6 +108,10 @@ for eachprop in _mgh_data.proplists['All']:
     prop['beds'] = row['beds']
     prop['baths'] = row['baths']
     prop['pool'] = row['pool']
+    if prop['pool'] != 'Nein':
+        prop['haspool'] = 'ja'
+    else:
+        prop['haspool'] = 'Nein'
     prop['propid'] = row['pid']
     prop['propref'] = row['ref']
     prop['propurl'] = propurl
@@ -162,6 +166,34 @@ file = open(_mghsettings.NEWDE_SITEDIR+"suche.html", "w")
 file.write(outputText)
 file.close()
 	
+#Now lets make the politique-de-confidentialite.html file
+TEMPLATE_FILE = "datenschutzerklarung.jinja"
+
+template = templateEnv.get_template( TEMPLATE_FILE )
+outputText = template.render(deurl=_mghsettings.NEWDE_URL, enurl=_mghsettings.NEWEN_URL, frurl=_mghsettings.NEWFR_URL, nlurl=_mghsettings.NEWNL_URL)
+file = open(_mghsettings.NEWFR_SITEDIR+"datenschutzerklarung.html", "w")
+file.write(outputText)
+file.close()
+
+#Now lets make the politique-des-cookies.html file
+cookie-richtlinie.html
+TEMPLATE_FILE = "cookie-richtlinie.jinja"
+
+template = templateEnv.get_template( TEMPLATE_FILE )
+outputText = template.render(deurl=_mghsettings.NEWDE_URL, enurl=_mghsettings.NEWEN_URL, frurl=_mghsettings.NEWFR_URL, nlurl=_mghsettings.NEWNL_URL)
+file = open(_mghsettings.NEWFR_SITEDIR+"cookie-richtlinie.html", "w")
+file.write(outputText)
+file.close()
+
+#Now lets make the achat-le-processus.html file
+TEMPLATE_FILE = "kaufen-in-spanien.jinja"
+
+template = templateEnv.get_template( TEMPLATE_FILE )
+outputText = template.render(deurl=_mghsettings.NEWDE_URL, enurl=_mghsettings.NEWEN_URL, frurl=_mghsettings.NEWFR_URL, nlurl=_mghsettings.NEWNL_URL)
+file = open(_mghsettings.NEWFR_SITEDIR+"kaufen-in-spanien.html", "w")
+file.write(outputText)
+file.close()
+
     #"""
 	#title 'Villamartin Property for Sale, Playa Flamenca, Cabo Roig, Guardamar del Segura, Ciudad Quesada Costa Blanca Spain'
 	#keywords 'Villamartin Property for sale, Playa Flamenca, Cabo Roig, Guardamar del Segura and Ciudad Quesada'
