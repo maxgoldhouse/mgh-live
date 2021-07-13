@@ -19,7 +19,7 @@ search,slides{flex:1}
 #fpsearchformholder .button{margin-top:1rem;}
 #fpsearchformholder input.input{width: 90%;}
 .fpsearchform div p{text-shadow:3px 3px #000;}
-.card-footer-item{background-color:rgb(240 173 78);color:#fff;font-weight:bold;}
+.card-footer-item{background-color:rgb(240 173 78);color:rgb(255, 255, 255);font-weight:bold;}
 .card-footer-item.price{background-color: rgb(50, 115, 220);}
 .xyz-price{padding-top: 12px;}
 #topsix{max-width: 98%; margin-left: 1%; margin-right: 1%;}
