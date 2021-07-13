@@ -338,11 +338,7 @@
                           <img src="{{item['img']|replace("w960", "w300-c-h220")}}" alt="{{item['locationdetail']}} {{item['proptype']}} for {{item['saleorrent']}}" title="{{item['locationdetail']}} {{item['proptype']}} for {{item['saleorrent']}}">                      
                   </figure>
               </div>
-                 <!--<footer class=card-footer>-->
-                      <p class="xcard-footer-item price">
-                          <span class="is-size-6 is-size-5-mobile has-text-weight-bold"> {{item['price']}} </span>                          
-                      </p>
-                  <!--</footer>-->
+
                   <div class="media">
                         <div class="media-content">
                           <p class="is-size-6 has-text-centered has-text-weight-semibold">{{item['proptype']}}</p>
@@ -368,7 +364,17 @@
                             <i class="fa fa-bath fa-lg" aria-hidden=true></i> {{item['baths']}}
                           </span>
                       </p>
-                  </footer>                  
+                      <p class=card-footer-item>
+                          <span class=" is-size-7 is-size-6-mobile">
+                            <i class="fa fa-swimming-pool fa-lg" aria-hidden=true></i> {{item['haspool']}}
+                          </span>
+                      </p>
+                  </footer>
+                  <footer class=card-footer>
+                      <p class="xcard-footer-item price">
+                          <span class="is-size-6 is-size-5-mobile has-text-weight-bold"> {{item['price']}} </span>                          
+                      </p>
+                  </footer>                 
               </div>
            </div>
           </div>

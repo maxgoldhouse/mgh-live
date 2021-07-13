@@ -19,7 +19,9 @@ search,slides{flex:1}
 #fpsearchformholder .button{margin-top:1rem;}
 #fpsearchformholder input.input{width: 90%;}
 .fpsearchform div p{text-shadow:3px 3px #000;}
-.card-footer-item{background-color:##fff;color:#000;font-weight:bold;}
+.card-footer-item{background-color:rgb(240 173 78);color:#fff;font-weight:bold;}
+.card-footer-item.price{background-color: rgb(50, 115, 220);}
+.xyz-price{padding-top: 12px;}
 #topsix{max-width: 98%; margin-left: 1%; margin-right: 1%;}
 #rubrun{max-width: 98%; margin-left: 1%; margin-right: 1%;margin-top: 0.5rem;}
 .rubruns.columns{padding:10px;}
@@ -71,7 +73,7 @@ ul#propfeatures li{display:inline-block;padding:0.5rem;}
 .policy h3{font-size:1.5rem;}
 .policy p{padding:12px;}
 .card-content{padding: 0px;}
-.card-footer-item.price{background-color: #fff;}
+.card-footer-item.price{background-color: rgb(50, 115, 220);}
 .price{padding-top: 12px;}
 .brochure{padding: 15px; border: 2px solid #ddd; border-radius: 4px;}
 .mgh-blue{color:#3273dc;}
