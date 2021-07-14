@@ -58,6 +58,7 @@ for fetchprop in thetopsix:
     prop['underoffersold'] = row['salestage']
     prop['beds'] = row['beds']
     prop['baths'] = row['baths']
+    prop['pool'] = row['pool']
     if prop['pool'] != 'No':
         prop['haspool'] = 'Yes'
     else:

@@ -55,6 +55,7 @@ for rub in _all_rubrunsdata.rubruns:
 		prop['offplan'] = thisprop['offplan']
 		prop['beds'] = thisprop['beds']
 		prop['baths'] = thisprop['baths']
+		prop['pool'] = thisprop['pool']
 		if prop['pool'] != 'No':
 			prop['haspool'] = 'Yes'
 		else:
