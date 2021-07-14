@@ -58,6 +58,10 @@ for fetchprop in thetopsix:
     prop['underoffersold'] = row['salestage']
     prop['beds'] = row['beds']
     prop['baths'] = row['baths']
+    if prop['pool'] != 'No':
+        prop['haspool'] = 'Yes'
+    else:
+        prop['haspool'] = 'No'
     if row['salestage'] == '0':
         prop['price'] = "<span class='price_eur'>&euro;"+"{:,}".format(int(row['price']))+"</span> "
     elif row['salestage'] == '2':

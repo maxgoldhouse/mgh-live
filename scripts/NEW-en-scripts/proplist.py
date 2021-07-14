@@ -55,11 +55,16 @@ for rub in _all_rubrunsdata.rubruns:
 		prop['offplan'] = thisprop['offplan']
 		prop['beds'] = thisprop['beds']
 		prop['baths'] = thisprop['baths']
+		if prop['pool'] != 'No':
+			prop['haspool'] = 'Yes'
+		else:
+			prop['haspool'] = 'No'
 		prop['propid'] = thisprop['pid']
 		prop['propref'] = thisprop['ref']
 		prop['propurl'] = propurl
 		prop['locationdetail']=thisprop['location']
 		prop['proptype']=thisprop['ptype']
+
 		pricefrom = ''
 		if thisprop['frequency'] == 'sale':
 			prop['frequency'] = ''
