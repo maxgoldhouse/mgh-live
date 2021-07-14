@@ -26,7 +26,7 @@ def makepage(propdict,prevpage,nextpage,thispage, pagename, pagename_de, pagenam
 	propdict['url_de'] = pagename_de+str(thispage)+".html"
 	propdict['url_nl'] = pagename_nl+str(thispage)+".html"
 	propdict['url_fr'] = pagename_fr+str(thispage)+".html"
-	outputText = template.render(propdict)
+	outputText = template.render(propdict,deurl=_mghsettings.NEWDE_URL,enurl=_mghsettings.NEWEN_URL,frurl=_mghsettings.NEWFR_URL,nlurl=_mghsettings.NEWNL_URL)
 	#print 'page processing '+outputText
 	file = open(_mghsettings.NEWEN_SITEDIR+pagename+str(thispage)+".html", "w")
 	file.write(outputText)
