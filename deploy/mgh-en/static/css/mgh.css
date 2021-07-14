@@ -76,8 +76,8 @@ ul#propfeatures li{display:inline-block;padding:0.5rem;}
 .card-footer-item.price{background-color: rgb(50, 115, 220);}
 .price{padding-top: 12px;}
 .brochure{padding: 15px; border: 2px solid #ddd; border-radius: 4px;}
-.mgh-blue{color:#3273dc;}
-.mgb-yellow{color:rgb(240 173 78)}
+.mgh-blue{color:rgb(50 115 220);}
+.mgh-yellow{color:rgb(240 173 78)}
 .white{color: rgb(255,255,255)}
 #searchbar{background-color: navy;padding-top: 24px;}
 #searchbutton{padding-top: 30px;}
