@@ -39,7 +39,6 @@ for rub in _all_rubrunsdata.rubruns:
 	topsixdict['description'] = rub["EN"]['description']
 	topsixdict['h1'] = rub["EN"]['h1']
 	topsixdict['props'] = []
-
 	rowcount = 0
 	pagecount = 0
 	for propinlist in _mgh_data.proplists[rub['rubrun']]:# LIMIT 20
