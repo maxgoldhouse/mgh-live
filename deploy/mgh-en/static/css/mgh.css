@@ -13,7 +13,7 @@ body{display:flex;min-height:100vh;flex-direction:column;}
 search,slides{flex:1}
 *{box-sizing:border-box;}
 /* https://res.cloudinary.com/maxgoldhouse/image/upload/c_fill,h_600,w_1600/bouginvillia.jpg */
-#fpphoto{background-image:url('https://res.cloudinary.com/maxgoldhouse/image/upload/v1585216901/7-825x510.jpg ');background-size:cover;margin-bottom: 30px;background-attachment: fixed;}
+#fpphoto{background-image:url('https://res.cloudinary.com/maxgoldhouse/image/upload/v1585216901/7-825x510.jpg ');background-size:cover;margin-bottom: 10px;background-attachment: fixed;}
 #fpsearchformholder .columns{margin:0px;}
 #fpsearchformholder{padding:12px;opacity:100%;width: 96%;}
 #fpsearchformholder .button{margin-top:1rem;}
@@ -77,9 +77,11 @@ ul#propfeatures li{display:inline-block;padding:0.5rem;}
 .price{padding-top: 12px;}
 .brochure{padding: 15px; border: 2px solid #ddd; border-radius: 4px;}
 .mgh-blue{color:#3273dc;}
+.mgb-yellow{color:rgb(240 173 78)}
+.white{color: rgb(255,255,255)}
 #searchbar{background-color: navy;padding-top: 24px;}
 #searchbutton{padding-top: 30px;}
-#propsearch{height: 120%;}
+#propsearch{height: 100%;}
 .searcharea{width: 96%;  display: flex; margin-left: auto;margin-right: auto;}
 .slimreset {color: #ffffff; text-shadow: none; padding: 2px 4px 2px 4px; background-color: #1f9cee; border-radius: 20px; margin-left: 4px; cursor: pointer;}
 .slim-hidden{visibility:hidden;}
